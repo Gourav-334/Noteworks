@@ -1,0 +1,5 @@
+Appear:		100%	(initial)
+Serious:	40%	(60% loss)
+Clear:		16%	(80% loss)
+PSUs:		5%	(65% loss)
+Top Institutes:	1%	(75% loss)

@@ -1,0 +1,9 @@
+!<arch>
+tuple.h/        1704115003  0     0     100666  149       `
+// mylibrary.cpp
+#include <iostream>
+
+extern "C" __declspec(dllexport) void func() {
+    std::cout << "Hello from myFunction!" << std::endl;
+}
+

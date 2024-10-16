@@ -1,0 +1,22 @@
+User Manual:
+
+1) All music files must be in "mp3" format.
+
+2) Atleast 11 music files should be there.
+
+3) Musics must be in this directory only.
+
+4) Do not remove these files from this folder (else it will crash):
+
+	i) testing_room
+	ii) blank_paint
+	iii) icon
+	iv) move
+	v) read_before_uses
+	vi) top
+	vii) wizard_music_player
+	viii) pp
+
+5) Controls: i) Down Arrow = Move Down
+	     ii) Up Arrow = Move Up
+	     iii) Enter/Return = Play choosen music/song

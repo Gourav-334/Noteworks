@@ -1,0 +1,13 @@
+!<arch>
+MyLibrary.h/    1704113934  0     0     100666  131       `
+#ifndef MYLIBRARY_H_
+	#define MYLIBRARY_H_
+
+namespace ns1
+{
+	void test() {printf("This is custom library.");}
+}
+
+#endif
+
+

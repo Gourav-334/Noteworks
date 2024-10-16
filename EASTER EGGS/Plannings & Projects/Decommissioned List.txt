@@ -1,0 +1,17 @@
+DECOMMISSIONED LIST
+-------------------
+
+-> Submissions				[15/10/2023 - 11/05/2024]
+-> Impact Training			[24/02/2024 - 07/05/2024]
+-> Machine Learning			[14/02/2024 - 07/05/2024]
+-> Microprocessor Architecture		[21/03/2024 - 15/04/2024]
+-> Computer Network (NPTEL) 		[03/02/2024 - 05/02/2024]
+-> Computer Organisation & Architecture	[28/01/2024 - 29/01/2024]
+-> Intelligent Processing		[18/01/2024 - 25/02/2024]
+-> To Do List 				[15/04/2023 - 02/02/2024]
+-> Object Oriented Programming JAVA 	[19/07/2023 - 25/01/2024]
+-> Digital Electronics & Logic Design 	[06/10/2023 - 01/11/2023]
+
+------------------------------------------------------------------
+THE HALLS OF FAME...
+------------------------------------------------------------------

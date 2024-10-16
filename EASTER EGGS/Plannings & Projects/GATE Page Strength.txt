@@ -1,0 +1,15 @@
+Alphabetical Order
+------------------
+{C, CN, COMA, DAA, DBMS, DM, DS, EM, OS, TOC} + {CD, DE}
+
+
+
+Page Power
+----------
+CD: 28 + 39 + 55 + 21 + 28 + 33 + 15 + 17 = 236
+
+
+
+Topic Power
+-----------
+DE: 	63	(JavaTPoint)
