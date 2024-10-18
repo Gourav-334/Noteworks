@@ -1,4 +1,4 @@
-# Chapter 3: JAVA SERVER PAGE
+# <u>Chapter 3</u>: JAVA SERVER PAGE
 
 
 
@@ -50,8 +50,9 @@
 
 ## **Topic – 4: JSP Lifecycle**
 
-<img src="./media/image1.png"
-style="width:6.26806in;height:3.12986in" />
+### <u>Lifecycle Diagram</u>
+
+![JSP Lifecycle](./media/image1.png)
 
 
 ### <u>Steps Involved In Lifecycle</u>
@@ -95,7 +96,7 @@ style="width:6.26806in;height:3.12986in" />
 ### <u>JSP Declarations</u>
 
 - Used to declare method or variables in HTML pages.
-- Enclosed between `<!% and %>`.
+- Enclosed between `<!%` and `%>`.
 - Is not passed to `_jspService()` method.
 
 ```
@@ -109,7 +110,7 @@ style="width:6.26806in;height:3.12986in" />
 - Used for global definition like importing packages or declaring
   errors.
 - Contains special processing information for JSP container.
-- Enclosed between `<@% and %>`.
+- Enclosed between `<@%` and `%>`.
 - Usable attributes for directives - `import`, `language`, `extends`, `session`,
   `isThreadSafe`, `isErrorPage`, `errorPage`, `contentType`, `autoFlush`, `Buffer`
   etc.
@@ -144,6 +145,171 @@ style="width:6.26806in;height:3.12986in" />
 
 ```
 <%-- JSP comment %>
-<% /** comment **/%>
+<% /** multiline comment **/%>
 <!-- HTML comment -->
 ```
+
+
+### <u> JSP Implicit Objects </u>
+
+- **<u>Implicit objects</u>:** Built-in objects a developer can use on each page, provided by JSP container.
+- These can also be accessed using **JavaBeans** & **Servlets**.
+
+#### Objects we can use:
+
+- **request -** Makes request using `HttpServletRequest` object.
+- **response -**  Takes response from `HttpServletResponse` object.
+- **out -** Displays output from request & response objects, using `JspWriter` object.
+- **session -** Represents session for a given request using `HttpSession` object.
+- **application -** Shares our application configuration using `ServletContext` object.
+- **config -** Sets configuration using `ServletConfig` object.
+- **page -** Represent current instance of JSP page, i.e. current instance of generated Servlet. Uses `java.lang.Object`.
+- **pageContext -** Adds, removes or modifies configuration/attributes using `javax.servlet.jsp.PageContext` object.
+- **exception -** Throws exceptions using `javax.servlet.jsp.JspException` object.
+
+
+
+## **Topic - 6: Key Implicit Objects Methods**
+
+### <u>JSP config</u>
+
+```
+String getInitParameter(String name)
+Enumeration getInitParameterNames
+ServletContext getServletContext()
+String getServletName()
+```
+
+
+### <u>JSP out</u>
+
+```
+void print()
+void println()
+void newline()
+void clear()
+clearBuffer
+void flush()
+void isAutoFlush()
+int getBufferSize()
+```
+
+
+### <u>JSP pageContext</u>
+
+```
+void setAttribute(String AttributeName, Object AttributeValue, int Scope)
+Object getAttribute(String AttributeName, int Scope)
+void removeAttribute(String AttributeName, int Scope)
+Object findAttribute(String AttributeName)
+```
+
+
+
+## **Topic - 7: JSP Scripting Elements (Contd.)**
+
+### <u>JSP Exception</u>
+
+- Uses `java.lang.Throwable` object.
+- But a JSP page must have an `isErrorPage` to be able to use it.
+
+```
+<%@ page errorPage="exception.jsp" %>
+
+<%
+	/*
+	Java codes...
+	Will throw error if caught.
+	*/
+%>
+```
+
+
+### <u>JSP Action</u>
+
+- Controls behavior of Servlet engine using XML syntax.
+- It also allows dynamic insertion of a JSP file.
+
+#### Uses following code format:
+
+```
+<jsp:actionname attribute="">
+```
+
+#### JSP action tags:
+
+```
+<jsp:forward>
+<jsp:include>
+<jsp:plugin>
+<jsp:param>
+<jsp:useBean>
+<jsp:getProperty>
+<jsp:setProperty>
+<jsp:body>
+<jsp:attribute>
+<jsp:text>
+```
+
+#### JSP action tags examples:
+
+```
+<jsp:param name="name" value="value"/>
+<jsp:setProperty name="name" property="property"/>
+```
+
+
+### <u>Expression Language</u>
+
+- It simplifies accessing data using JSP objects with arithmetic, relational & logical operators.
+- It also uses conditional statements & loops.
+
+```
+${1<2}, ${1+2+3}, ${param.emailid}
+```
+
+
+
+## **Topic - 8: Java Server Pages Standard Tag Library (JSTL)
+
+### <u>Introduction</u>
+
+- Collection of standard & custom JSP tags for helping smoother development.
+- It is like `<string.h>` in C for example.
+
+#### Types of JSTL tags:
+
+- Core tags
+- Custom tags
+
+
+### <u>Core Tags</u>
+
+- Iteration
+- Conditional logic
+- Catch exception
+- URL forward
+- Redirect
+
+#### Example 1:
+
+```
+<c:catch var="myException">
+	<% int num = 10/0; %>
+</c:catch>
+```
+
+#### Example 2:
+
+```
+<c:if test="${count == 100}"/>
+	<c:out value="The count is 100"/>
+</c:if>
+```
+
+
+### <u>Custom Tags</u>
+
+- **<u>Tag handler</u>:** Is is the object JSP container uses when using custom tags.
+- To create a custom tag, we need to extend `SimpleTagSupport` object & override `doTag()` method.
+- We create TLD files to map our custom tags there.

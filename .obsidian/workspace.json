@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fe2cdd8b4f6cdf4a",
+        "id": "8194ff251d2631cc",
         "type": "tabs",
         "children": [
           {
-            "id": "bf092dddd673e570",
+            "id": "ecc97a403a91a267",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
-                "mode": "preview",
+                "file": "3ND RING (INDUSTRIAL)/Economics/1) Microeconomics.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) Java Server Page"
+              "title": "1) Microeconomics"
             }
           }
         ]
@@ -163,9 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf092dddd673e570",
+  "active": "ecc97a403a91a267",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md"
+    "3ND RING (INDUSTRIAL)/Economics/1) Microeconomics.md",
+    "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
+    "Untitled.canvas"
   ]
 }
