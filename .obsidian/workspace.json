@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "beaee03a38da9110",
+        "id": "54ba4026a7b41cf8",
         "type": "tabs",
         "children": [
           {
-            "id": "3683681ff0d4938c",
+            "id": "ea7d68e15248b14b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3ND RING (INDUSTRIAL)/Economics/1) Microeconomics.md",
+                "file": "1ST RING (KERNEL)/C Programming/1) A Tutorial Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) Microeconomics"
+              "title": "1) A Tutorial Introduction"
             }
           }
         ]
@@ -163,17 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3683681ff0d4938c",
+  "active": "ea7d68e15248b14b",
   "lastOpenFiles": [
+    "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
+    "1ST RING (KERNEL)/C Programming/1) A Tutorial Introduction.md",
+    "3ND RING (INDUSTRIAL)/Economics/1) Microeconomics.md",
     "3ND RING (INDUSTRIAL)/Economics/media/image3.png",
     "3ND RING (INDUSTRIAL)/Economics/media/Screenshot 2024-10-19 184520.png",
     "4TH RING (LEGACY)/Enterprise Programming Java/4) Hibernate.md",
     "4TH RING (LEGACY)/Enterprise Programming Java/media/image2.png",
     "4TH RING (LEGACY)/Enterprise Programming Java/media/Screenshot 2024-10-19 180529.png",
     "Pasted image 20241019180533.png",
-    "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
-    "1ST RING (KERNEL)/C Programming/1) A Tutorial Introduction.md",
-    "3ND RING (INDUSTRIAL)/Economics/1) Microeconomics.md",
     "Untitled.canvas"
   ]
 }
