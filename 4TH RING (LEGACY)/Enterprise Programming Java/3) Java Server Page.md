@@ -312,4 +312,54 @@ ${1<2}, ${1+2+3}, ${param.emailid}
 
 - **<u>Tag handler</u>:** Is is the object JSP container uses when using custom tags.
 - To create a custom tag, we need to extend `SimpleTagSupport` object & override `doTag()` method.
-- We create TLD files to map our custom tags there.
+- We create TLD files to map our custom tag details there.
+
+#### Making custom tag:
+
+```
+<taglib>
+	<tlib-version> 1.0 </tlib-version>
+	<jsp-version> 2.0 </jsp-version>
+	
+	<tag>
+		<name> myTag </name>
+		<tag-class> demotest.myTag </tag-class>
+		<body-content> empty </body-content>
+	</tag>
+</taglib>
+```
+
+- Notice that TLD is just used to provide information about our custom tag.
+
+#### Making a tag handler:
+
+- An example for a tag handler file will be as below as `myTag.java`.
+
+```
+package demotest;
+import javax.servlet.jsp.tagext.*;
+import javax.servlet.jsp.*;
+import java.io.*;
+
+public class myTag extends SimpleTagSupport
+{
+	public void doTag() throws JspException, IOException
+	{
+		JspWriter out = getJspContext().getOut();
+		out.println("This is myTag!");
+	}
+}
+```
+
+#### Executing the tag code:
+
+```
+<%@ taglib prefix="ex" uri="WEB-INF/custom.tld" %>
+
+<body>
+	<ex:myTag/>
+</body>
+```
+
+- `ex` above means **execute**.
+---

@@ -114,3 +114,19 @@ economics.
 - **<u>Productively efficient output</u>s:** Points lying on the curve of graph.
 - Slope of PPF shows the opportunity cost for producing one good over other.
 - **<u>Opportunity cost</u>:** Cost for gaining a good, which is often losing some from the other good.
+
+
+### <u>PPF & Social Choices</u>
+
+![PPF For Healthcare v/s Education](./media/image3.png)
+
+- This is an example of both healthcare & education sharing the same limited resources.
+- The curves in this PPF graph shows how spending certain amount of resources on one affects another one.
+
+
+### <u>The Law Of Diminishing Returns</u>
+
+- As the name itself must be enough, this law says that as the spending on one good increases, the return of other good keeps decreasing.
+
+
+### <u>Productive Efficiency & Allocative Efficiency</u>
