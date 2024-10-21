@@ -90,3 +90,167 @@ cfg.configure();
 ```
 SessionFactory factory = cfg.buildSessionFactory();
 ```
+
+
+### <u>Session Interface</u>
+
+- Found in `org.hibernate` package.
+- Session object is created using `SessionFactory` object.
+- It sets up connection (session) between Hibernate & database.
+- However, this object is not thread-safe.
+- We use this same object for performing CRUD operations.
+
+```
+Session session = factory.buildSession();
+```
+
+
+### <u>Transaction Interface</u>
+
+- `Transaction` object is used when we want to perform an operation which affects the database.
+- We use `commit()` method from `Transaction` to confirm making changes to database.
+
+```
+Transaction tx = session.beginTransaction();
+tx.commit();
+```
+
+
+### <u>Query Interface</u>
+
+- Found in `org.hibernate` package.
+- A query instance is created using `Session.createQuery()`.
+
+#### Other methods in `Query`:
+
+```
+Session.iterate();
+Session.find();
+setMaxResults();
+setFirstResult();
+```
+
+
+### <u>Criteria Interface</u>
+
+- **Criteria** is the name of API & `Criterion` is the name of class.
+- It is used for retrieving data from database, in form of object instances.
+
+
+### <u>XML File Example</u>
+
+```
+<?xml version = "1.0" encoding = "utf-8">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="something"> Again something </property>
+		<!-- MORE blah blah blah... -->
+	</session-factory>
+</hibernate-configuration>
+```
+
+
+
+## **Topic - 6: Hibernate Configuration**
+
+### <u>Configuring Hibernate</u>
+
+![Configuring Hibernate](./media/image3.png)
+
+
+### <u>Creating Hibernate Session</u>
+
+- Session acts as a bridge between the database & hibernate application.
+- But many database related information is required to establish a successful connection.
+- These information includes database driver name, username & password.
+
+
+### <u>Creating SessionFactory Object</u>
+
+```
+// Configuration
+
+Configuration formats = new Configuration().configure();
+SessionFactory factory = configuration.buildSessionFactory();
+
+
+// Getting properties
+
+ServiceRegistryBuilder registry = new ServiceRegistryBuilder();
+registry.applySettings(configuration.getProperties());
+
+
+// Applying settings
+
+ServiceRegistry register = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
+```
+
+
+### <u>Proper Code Example</u>
+
+```
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class HibernateUtil_Ex1
+{
+	private static final SessionFactory sessionFactory = buildSessionFactory();
+
+	private static sessionFactory buildSessionFactory()
+	{
+		SessionFactory sessionFactory = null;
+		
+		try
+		{
+			Configuration configuration = new Configuration();
+			configuration.configure("resource/hibernate.cfg.xml");
+			sessionFactory = configuration.buildSessionFactory();}
+		}
+
+		catch (Exception e)
+		{
+			e.printStackTable();
+		}
+
+		return sessionFactory;
+	}
+
+	public static SessionFactory getSessionFactory()
+	{
+		return sessionFactory;
+	}
+}
+```
+
+- Now we can use `getSessionFactory()` method to access Hibernate session object.
+
+```
+Session session = HibernateUtil.getSessionFactory().openSession();
+```
+
+
+### <u>Configuring Mapping Properties</u>
+
+- Actually, the classes & their properties are mapped with tables of the databases, in the configuration file.
+
+```
+// <persistent_class_name>.hbm.xml
+Employee.hbm.xml
+```
+
+
+### <u>Hibernate Types</u>
+
+- Now we will see SQL equivalent codes for Hibernate/Java types.
+
+| Hibernate Type        | Java Type          | SQL Type              |
+| --------------------- | ------------------ | --------------------- |
+| integer, long, short  | int, long, short   | NUMERIC, NUMBER, INT  |
+| character             | char               | CHAR                  |
+| float, double         | float, double      | FLOAT, DOUBLE         |
+| boolean               | java.lang.boolean  | BOOLEAN               |
+| string                | java.lang.String   | VARCHAR2, VARCHAR     |
+| date, time, timestamp | java.util.Date     | DATE, TIME, TIMESTAMP |
+| locale                | java.util.Locale   | VARCHAR2, VARCHAR     |
+| timezone              | java.util.TimeZone | VARCHAR2, VARCHAR     |
