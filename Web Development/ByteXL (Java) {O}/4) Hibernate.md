@@ -254,3 +254,82 @@ Employee.hbm.xml
 | date, time, timestamp | java.util.Date     | DATE, TIME, TIMESTAMP |
 | locale                | java.util.Locale   | VARCHAR2, VARCHAR     |
 | timezone              | java.util.TimeZone | VARCHAR2, VARCHAR     |
+
+
+### <u>Mapping Beans With DB</u>
+
+- Object relational mappings are defined in XML documents.
+- This XML file instructs Hibernate for mapping class objects to database objects.
+
+#### Commonly used elements:
+
+- `<DOCTYPE>`
+- `<hibernate-mapping>`
+- `<class>`
+- `<id>`
+- `<generator>`
+- `<property>`
+
+#### Annotation use:
+
+- **<u>Annotations</u>:** Tool to generate metadata during the mapping.
+- And these annotations are stored in POJO files in some way which users can see.
+
+#### Used annotations:
+
+- `@Entity`
+- `@Table`
+- `@Column`
+- `@Id`
+- `@GeneratedValue`
+
+```
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Employee")
+
+public class Employee
+{
+	@Id @GeneratedValue
+	@Column(name = "id")
+	private int id;
+}
+```
+
+
+
+## **Topic - 7: Example Descriptions
+
+### <u>Mapping Collections</u>
+
+- For **collection class**, collection mapping is performed in Hibernate.
+- We use `Persistent` class to declare a type of collection.
+
+#### Collection types:
+
+- `java.util.List`
+- `java.util.Set`
+- `java.util.SortedSet`
+- `java.util.Map`
+- `java.util.SortedMap`
+- `java.util.Collection`
+
+#### Collection mapping tags:
+
+- `<set>`
+- `<list>`
+- `bag`
+
+#### `<set>` element attributes:
+
+- `cascade` attribute
+- `name` attribute
+- `<key>` attribute
+- `<one-to-many>` element
+
+
+## <u>Mapping Database Relationships</u>
+
+- We can also establish connection between two database tables.
+- It can be both unidirectional & bidirectional.
