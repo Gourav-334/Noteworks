@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "README"
             }
           }
         ]
@@ -162,9 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cf7615df59ef05ea",
+  "active": "31f94f8894a5c089",
   "lastOpenFiles": [
-    "README.md.md",
+    "README.md",
     "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
     "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Software Engineering/JavaTPoint {O}/media/image1.png",
