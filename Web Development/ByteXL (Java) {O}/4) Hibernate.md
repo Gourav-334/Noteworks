@@ -329,7 +329,41 @@ public class Employee
 - `<one-to-many>` element
 
 
-## <u>Mapping Database Relationships</u>
+
+## **Topic - 8: Mapping Database Relationships**
+
+### <u>Introduction</u>
 
 - We can also establish connection between two database tables.
 - It can be both unidirectional & bidirectional.
+- They can also be one-to-one, one-to-many or many-to-many.
+
+#### Associations while mapping:
+
+- Name
+- Class
+- Column
+- Cascade
+- Unique
+- Non null
+
+
+### <u>One-To-One Mapping</u>
+
+```
+@PrimaryKeyJoinColumn
+private int employeeId;
+private String name, email;
+
+@OneToOne(targetEntity=Address.class, cascade=CascadeType.ALL)
+private Address address;
+```
+
+
+### <u>One-To-Many Mapping</u>
+
+```
+@OneToMany(Cascade = CascadeType.ALL)
+@JoinColumn(name = "EMPLOYEE_ID")
+private Set<Account> accounts;
+```

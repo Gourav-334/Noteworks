@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "24caa72ad425a152",
+        "id": "21445739be9d0b54",
         "type": "tabs",
         "children": [
           {
-            "id": "1d368f76c4adceee",
+            "id": "cf7615df59ef05ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/JavaTPoint {O}/1) Introduction.md",
+                "file": "README.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) Introduction"
+              "title": "README.md"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -163,14 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1d368f76c4adceee",
+  "active": "cf7615df59ef05ea",
   "lastOpenFiles": [
+    "README.md.md",
+    "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
+    "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Software Engineering/JavaTPoint {O}/media/image1.png",
     "Software Engineering/JavaTPoint {O}/media",
-    "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Pasted image 20241023184925.png",
     "Software Engineering/JavaTPoint {O}",
-    "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
     "Web Development/ByteXL (Java) {O}/3) Java Server Page.md",
     "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.md",
     "1ST RING (KERNEL)/x86 Assembly/media/image5.png",
