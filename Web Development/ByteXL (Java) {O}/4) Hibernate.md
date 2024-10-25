@@ -367,3 +367,39 @@ private Address address;
 @JoinColumn(name = "EMPLOYEE_ID")
 private Set<Account> accounts;
 ```
+
+
+### <u>Many-To-Many Mapping</u>
+
+```
+@ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+
+@JoinTable(
+	name = "READER_SUBSCRIPTION,
+	joinColumns = {@JoinColumn(referencedColumnName="ID")},
+	inverseJoinColumns = {@JoinColumn(referencedColumnNames="ID")}
+)
+
+private Set<Subscription> subscriptions;
+```
+
+
+
+## **Topic - 9: Hibernate Query Language**
+
+### <u>Introduction</u>
+
+- We use class name, and not table name in HQL.
+- In case some changes has been made in the target database, we don't require to make any kind of changes in our HQL query.
+- It supports all aggregate functions that SQL uses.
+
+
+### <u>Methods</u>
+
+- `Query Session.createQuery(String queryString)`
+- `public int executeUpdate()`
+- `public List list()`
+- `public Query setFirstResult(int rowno)`
+- `public Query setMaxResult(int rowno)`
+- `public Query setParameter(int position, Object value)`
+- `public Query setParameter(String name, Object value)`

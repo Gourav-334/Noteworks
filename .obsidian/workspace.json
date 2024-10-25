@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "21445739be9d0b54",
+        "id": "d33e56853208c819",
         "type": "tabs",
         "children": [
           {
-            "id": "cf7615df59ef05ea",
+            "id": "a5e54c7fe6437f8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Software Engineering/JavaTPoint {O}/1) Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "1) Introduction"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -162,33 +163,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31f94f8894a5c089",
+  "active": "a5e54c7fe6437f8e",
   "lastOpenFiles": [
-    "README.md",
-    "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
+    "Software Engineering/JavaTPoint {O}/media/image2.png",
+    "Software Engineering/JavaTPoint {O}/media/image2.png",
     "Software Engineering/JavaTPoint {O}/1) Introduction.md",
-    "Software Engineering/JavaTPoint {O}/media/image1.png",
-    "Software Engineering/JavaTPoint {O}/media",
-    "Pasted image 20241023184925.png",
-    "Software Engineering/JavaTPoint {O}",
+    "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
+    "README.md",
+    "x86 Assembly/Tutorials Point (NASM) {C}/7) Environment Setup & Basic Syntax.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/D) Miscellaneuous.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/C) Advanced Programming.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/9) Linux System Calls.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/B) Programming Rules.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/A) Addressing Modes.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/8) Registers Revision.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/6) Hardware Components.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/1) Introduction & Virtual Machine.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/5) Addition To 64-Bit Processors.docx",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image9.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image5.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image4.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image3.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image8.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image7.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image6.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/media/image2.png",
+    "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
     "Web Development/ByteXL (Java) {O}/3) Java Server Page.md",
     "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.md",
-    "1ST RING (KERNEL)/x86 Assembly/media/image5.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image8.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image9.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image7.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image6.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image4.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image3.png",
-    "1ST RING (KERNEL)/x86 Assembly/media/image2.png",
-    "1ST RING (KERNEL)/x86 Assembly/media",
-    "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.docx",
-    "1ST RING (KERNEL)/x86 Assembly",
-    "2ND RING (GATE)/Engineering Mathematics (College)/3) Derivative Vector Calculus.docx",
-    "2ND RING (GATE)/Engineering Mathematics (College)/4) Integral Vector Calculus.docx",
-    "2ND RING (GATE)/Engineering Mathematics (College)/5) Advanced Multivariable Calculus.docx",
-    "2ND RING (GATE)/Engineering Mathematics (College)/2) Basic Multivariable Calculus.docx",
-    "2ND RING (GATE)/Engineering Mathematics (College)/1) Matrices & Determinants.docx",
     "1ST RING (KERNEL)/Compiler Design/1) Introduction.md",
     "4TH RING (LEGACY)/Enterprise Programming Java/4) Hibernate.md",
     "1ST RING (KERNEL)/C Programming/1) A Tutorial Introduction.md",
