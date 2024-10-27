@@ -403,3 +403,75 @@ private Set<Subscription> subscriptions;
 - `public Query setMaxResult(int rowno)`
 - `public Query setParameter(int position, Object value)`
 - `public Query setParameter(String name, Object value)`
+
+
+
+## **Topic - 10: Hibernate Criteria Query Language**
+
+### <u>Introduction</u>
+
+- HCQL is used for applying criteria/constraint when fetching data.
+- We create an instance for interface `Crietria` using a `createCriteria()` method of `Session` class.
+- It is present in `org.Hibernate.Criteria` package.
+
+```
+public Criteria createCrietria(Class classname)
+```
+
+
+### <u>Methods</u>
+
+#### Regular methods:
+
+- `public Criteria add(Criterion criteria)` - Used for adding restrictions.
+- `public Criteria addOrder(Order order)` - Defining order.
+- `public Criteria setFirstResult(int firstResult)` - Defining the number of records to be fetched from head.
+- `public Criteria setMaxResult(int totalResult)` - Defining the total number of records to be fetched.
+- `public List list()` - Returns list containing object.
+- `public Criteria setProjection(Projection projection)` - Defining the type of projection.
+
+#### Restricted methods:
+
+- `public static SimpleExpression lt(String propertyName, Object value)`
+
+> **<u>NOTE</u>:**
+> Other similar methods in restricted methods are `le()`, `gt()`, `ge()`, `ne()` and `eq()`.
+
+- `public static Criterion between(String propertyName, Object low, Object high)`
+- `public static SimpleExpression like(String propertyName, Object value)`
+
+#### Order class:
+
+- `public static Order asc(String propertyName)`
+
+> **<u>NOTE</u>:**
+> As one might have guessed, another method is `desc()`.
+> Table from a particular database must be written as `DB_name.table_name`.
+
+
+
+## **Topic - 11: Transaction**
+
+### <u>Introduction</u>
+
+- **<u>Transaction</u>:** State of work.
+- Transaction are performed using `Session` object.
+- For enabling transaction flow, we initialize it using `session.beginTransaction()`.
+- Transaction uses ACID properties.
+
+> **<u>NOTE</u>:**
+> **'I'** in atomicity stands for **Isolation**.
+
+
+### <u>Methods</u>
+
+- `void begin()`
+- `void commit()`
+- `void rollback()`
+- `void setTimeout(int seconds)`
+- `boolean isAlive()` - Checks if transaction still exists.
+- `void registerSynchronization(Synchronization s)` - Sets time for synchronizing the last transaction.
+- `boolean wasCommited()` - Checks if transaction was successfully committed.
+- `boolean wasRolledBack()`
+
+---
