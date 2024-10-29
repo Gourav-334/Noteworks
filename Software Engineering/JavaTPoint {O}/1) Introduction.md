@@ -211,3 +211,90 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - Then a design is created which is confirmed after discussion with the customer.
 - It is looped until customer is not satisfied with the design.
 - When customer is satisfied, it is actually implemented.
+
+
+
+## **Topic - 5: Requirement Engineering (RE)**
+
+### <u>Introduction</u>
+
+- Requirement engineering refers to systematic application of methods to meet requirements of a project.
+- Requirement has its own lifecycle with sub-phases.
+- Sub-phases in requirement includes defining, documenting & maintaining.
+
+
+### <u>RE Process Steps</u>
+
+- Feasibility study
+- Requirement elicitation & analysis
+- Software requirement specification
+- Software requirement validation
+- Software requirement management
+
+![Requirement Engineering Process](./media/image3.png)
+
+
+### <u>Feasibility Study</u>
+
+- Feasibility study is done to know the objectives & set strategy to keep project flexible.
+
+#### Types of feasibility:
+
+- Technical feasibility
+- Operational feasibility
+- Economic feasibility
+
+
+### <u>Requirement Elicitation & Analysis</u>
+
+- It involves gathering of information.
+- Analysis of requirement is done to identify problems in requirements.
+
+![Elicitation and Analysis Process](./media/image4.png)
+
+
+### <u>Software Requirement Specification (SRS)</u>
+
+- SRS document is written by a software analyst.
+- Software analyst is responsible for converting the requirements in informal  language by customer into technical language for the team.
+- This document uses ER diagrams.
+
+#### Model diagrams:
+
+- **<u>Data flow diagram</u>:** DFD shows flow of data through various commercial or technical entities.
+- **<u>Data dictionaries</u>:** A record of all the data items mentioned in DFDs.
+- **<u>ER diagram</u>:** Used for showing relationship between data entities & their attributes.
+
+
+### <u>Software Requirement Validation</u>
+
+- This stage involves validating all the gathered requirements.
+- Some requirements might be discarded for any sort of reason, including legal consequences.
+
+#### Requirements validation techniques:
+
+- **Manual review**
+- **<u>Prototyping</u>:** Review using predefined model.
+- **<u>Test-case generation</u>:** Generating set of tests for the requirements.
+- **<u>Automated consistency analysis</u>:** Checking for relevancy in the defined design.
+
+
+### <u>Software Requirement Management</u>
+
+- Its the process of managing changing requirements.
+- These change in requirements can also occur among the developers.
+
+
+### <u>Software Requirements</u>
+
+#### Functional requirements:
+
+- Refers to requirements that facilitate functioning of the system.
+
+#### Non-functional requirements:
+
+- Used for describing quality requirements of the system.
+- **Execution qualities -** Security, usability etc.
+- **Evolution qualities -** Testability, maintainability, extensibility, scalability etc.
+
+---
