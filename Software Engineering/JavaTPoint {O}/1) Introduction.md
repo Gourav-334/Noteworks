@@ -152,7 +152,7 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - It is derived from waterfall model.
 - It also believes that application can be developed in very less time using focus groups.
 
-#### Focus groups:
+#### Phases:
 
 - Business modeling
 - Data modeling
