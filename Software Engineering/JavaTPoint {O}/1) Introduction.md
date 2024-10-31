@@ -146,43 +146,6 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - Big-bang model
 
 
-### <u>RAD Model</u>
-
-- **RAD** stands for **Rapid Application Development**.
-- It is derived from waterfall model.
-- It also believes that application can be developed in very less time using focus groups.
-
-#### Phases:
-
-- Business modeling
-- Data modeling
-- Process modeling
-- Application generation
-- Testing & turnover
-
-
-### <u>Spiral Model</u>
-
-- Spiral model is derived from waterfall & incremental model.
-- It involves rapid prototype making & concurrency in various phases.
-- Each cycle begins with objective identification, alternatives & constraints to the project.
-- Then risks & constraints are evaluated.
-- And then measures are taken to avoid risks.
-
-
-### <u>V-Model</u>
-
-- In this model, steps are planned in parallel.
-- The point of **V** is joining by coding.
-
-
-### <u>Incremental Model</u>
-
-- Derived from waterfall model, all phases being same.
-- Various requirements are grouped separately & worked parallelly.
-- Each group is cyclic, joined by maintenance phase at last.
-
-
 ### <u>Agile Model</u>
 
 - Agile model promotes continuous development & continuous testing (CI/CD) of project.

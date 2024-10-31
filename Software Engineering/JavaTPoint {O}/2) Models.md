@@ -11,6 +11,7 @@
 ![Waterfall Model](./media/image5.png)
 
 - Introduced by Winston Royce in 1970.
+- Derived from Waterfall model.
 
 
 ### <u>Phases</u>
@@ -68,6 +69,8 @@
 ### <u>Introduction</u>
 
 - RAD believes that software can be constructed in a very less time if we keep certain things in our mind.
+- Derived from Waterfall & incremental model.
+- 
 
 #### Things to keep in mind:
 
@@ -119,6 +122,7 @@
 - Converges both linear & iterative form of model.
 - It focuses on making modifications on software in new versions.
 - Earlier, only prototype models are produced but later proper modifications are added using spiral model.
+- Takes proper time in identifying & solving risk factors.
 
 ![Spiral Model](./media/image7.png)
 
@@ -150,3 +154,94 @@
 - Total project cost can be very high.
 - Experts are required for each phase.
 - Not good with small projects.
+
+
+
+## **Topic - 4: V-Model**
+
+### <u>Introduction</u>
+
+- **V** in **V-model** means verification & validation.
+- It is a linear development method.
+
+![V-Model](./media/image8.png)
+
+- **<u>Verification</u>:** Analyzing planning & methods to be implemented.
+- **<u>Validation</u>:** Analyzing codes after implementation is done.
+
+
+### <u>Phases</u>
+
+#### Verification phase:
+
+1. **Business requirement specification**
+2. **System requirement specification**
+3. **<u>High-level design</u>:** Includes making diagrammatic models.
+4. **<u>Low-level design</u>:** More detailed version of high-level design.
+5. **Coding**
+
+#### Validation phase:
+
+- **<u>System testing</u>:** This testing is performed by the client team.
+- **<u>Acceptance testing</u>:** This testing is performed by the end users that clients are targeting.
+
+
+### <u>Use Cases</u>
+
+- When requirements are well understood & documented.
+- Project size is small to medium at max.
+
+
+### <u>Advantages</u>
+
+- Straightforward model.
+- Saves more time than Waterfall.
+- Defects are well identified before delivery.
+
+
+### <u>Disadvantages</u>
+
+- Lack of flexibility.
+- Can't be used in complex projects.
+- Direct implementation, no prototyping.
+
+
+
+## **Topic - 5: Incremental Model**
+
+### <u>Introduction</u>
+
+- Derived from Waterfall model.
+- Various requirements are grouped separately & worked parallelly.
+- Each group is cyclic, cycled joined by maintenance phase at last.
+
+![Incremental Model](./media/image9.png)
+
+
+### <u>Phases</u>
+
+1. **Requirement analysis**
+2. **<u>Design & development</u>:** Design and methods for software is planned.
+3. **<u>Testing</u>:** Checks the functional & non-functional testing.
+4. **<u>Implementation</u>:** Programs are coded for the proposed design.
+
+
+### <u>Use Cases</u>
+
+- When requirements are heavy.
+- Large scale project.
+- Not highly skilled members in team.
+- Less time given for development.
+
+
+### <u>Advantages</u>
+
+- Errors are identified & eliminated early.
+- Flexible to changes.
+- Important modules can be developed early parallelly.
+
+
+### <u>Disadvantages</u>
+
+- Requires high amount of time for planning.
+- High cost for development.

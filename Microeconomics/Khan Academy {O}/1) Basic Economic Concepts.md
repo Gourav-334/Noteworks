@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: MICROECONOMICS
+# <u>Chapter 1</u>: BASIC ECONOMIC CONCEPTS
 
 
 
@@ -19,7 +19,7 @@
 ### <u>Factors Of Production</u>
 
 - **Land or natural resources**
-- **Labour**
+- **Labor**
 - **<u>Capital</u>:** Something used in production.
 - **<u>Entrepreneurship</u>:** Putting all the other factors together.
 
@@ -64,7 +64,7 @@ economics.
 
 - **<u>Household</u>:** The buyers & seller parties of a firm.
 
-![Households](./media/image1.png)
+![Households](Microeconomics/Khan%20Academy%20{O}/media/image1.png)
 
 
 ### <u>Features Of Property</u>
@@ -92,7 +92,7 @@ economics.
 
 ### <u>Circular Flow Model</u>
 
-![Circular flow model](./media/image2.png)
+![Circular flow model](Microeconomics/Khan%20Academy%20{O}/media/image2.png)
 
 - Most economies lie between **market economy** & **command economy**.
 
@@ -118,7 +118,7 @@ economics.
 
 ### <u>PPF & Social Choices</u>
 
-![PPF For Healthcare v/s Education](./media/image3.png)
+![PPF For Healthcare v/s Education](Microeconomics/Khan%20Academy%20{O}/media/image3.png)
 
 - This is an example of both healthcare & education sharing the same limited resources.
 - The curves in this PPF graph shows how spending certain amount of resources on one affects another one.
@@ -130,3 +130,7 @@ economics.
 
 
 ### <u>Productive Efficiency & Allocative Efficiency</u>
+
+- **<u>Efficiency</u>:** Lack of waste.
+- **<u>Productive efficiency</u>:** Theory saying its **not** possible to produce a good without decreasing another good in quantity.
+- **<u>Allocative efficiency</u>:** Theory saying that resources are supplied in the required proportion to the needy.
