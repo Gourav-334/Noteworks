@@ -245,3 +245,39 @@
 
 - Requires high amount of time for planning.
 - High cost for development.
+
+
+
+## **Topic - 6: Agile Model**
+
+### <u>Introduction</u>
+
+- Number of iteration, total duration & goals are set before starting.
+- **<u>Frame</u>:** An iteration from Agile model.
+- Each iteration takes 1-4 weeks.
+- Its a series of iterations, not parallelly running multiple iterations.
+
+![Agile Model](./media/image10.png)
+
+- Agile promotes CI/CD method of development.
+- However, technical phases like designing, development & testing are unpredictable.
+
+
+### <u>Phases</u>
+
+1. **Requirement gathering**
+2. **<u>Design the requirements</u>:** Designing how to add features to existing system.
+3. **<u>Construction/iteration</u>:** Development work.
+4. **<u>Testing</u>:** Quality assurance team tests the product.
+5. **Deployment**
+6. **Feedback**
+
+
+### <u>Agile Testing Methods</u>
+
+- Scrum
+- Crystal
+- Dynamic software development method (DSDM)
+- Feature driven development (FDD)
+- Lean software development
+- Extreme programming (XP)

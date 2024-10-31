@@ -134,7 +134,8 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - SDLC models are also known as **software development process model**.
 - Each model follows their own set of phases.
 
-#### SDLC models:
+
+### <u>SDLC Models</u>
 
 - Waterfall model
 - RAD model
@@ -144,15 +145,6 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - Agile model
 - Iterative model
 - Big-bang model
-
-
-### <u>Agile Model</u>
-
-- Agile model promotes continuous development & continuous testing (CI/CD) of project.
-- Project is divided into many small builds to be made.
-- Each build it repeated in iterations & each iteration takes about 2-3 weeks.
-- Agile model is made in a way to answer sudden change in customer demands.
-- However, technical phases like designing, development & testing are unpredictable.
 
 
 ### <u>Iterative Model</u>
