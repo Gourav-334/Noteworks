@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "87eeac025bafac41",
+        "id": "97edb9f95587ef98",
         "type": "tabs",
         "children": [
           {
-            "id": "7d6da03796fb9adb",
+            "id": "66d8b045c53c2218",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/JavaTPoint {O}/3) Software Management.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3) Software Management"
             }
           }
         ]
@@ -159,9 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d6da03796fb9adb",
+  "active": "66d8b045c53c2218",
   "lastOpenFiles": [
     "Software Engineering/JavaTPoint {O}/2) Models.md",
+    "Software Engineering/JavaTPoint {O}/3) Software Management.md",
     "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Software Engineering/JavaTPoint {O}/media/image13.png",
     "Software Engineering/JavaTPoint {O}/media/image12.png",
