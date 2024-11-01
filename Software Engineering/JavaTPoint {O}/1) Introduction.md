@@ -145,27 +145,8 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - Agile model
 - Iterative model
 - Big-bang model
-
-
-### <u>Iterative Model</u>
-
-- Iterative model has an initial, simplified implementation which later becomes more complicated.
-- Here also the project is broken down into many small parts.
-
-
-### <u>Big-Bang Model</u>
-
-- Big-bang model considers only a very little planning.
-- Requirements are implemented when they come into notice.
-- Better when used in small scale software projects.
-
-
-### <u>Prototype Modelling</u>
-
-- Starts with requirement gathering.
-- Then a design is created which is confirmed after discussion with the customer.
-- It is looped until customer is not satisfied with the design.
-- When customer is satisfied, it is actually implemented.
+- Prototype modelling
+- Evolutionary process model
 
 
 

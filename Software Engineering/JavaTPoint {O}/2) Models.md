@@ -276,8 +276,231 @@
 ### <u>Agile Testing Methods</u>
 
 - Scrum
+- Extreme programming (XP)
 - Crystal
 - Dynamic software development method (DSDM)
 - Feature driven development (FDD)
-- Lean software development
-- Extreme programming (XP)
+- Lean software development (LSD)
+
+
+### <u>Scrum</u>
+
+- Scrum is an Agile development process which tells how to manage a team project.
+- A team using Scrum can divide members into 3 roles, that are Scrum master, product owner & Scrum team.
+- **<u>Scrum master</u>:** Manager who picks up members & arranges meetings among stakeholders.
+- **<u>Product owner</u>:** Tracks the progress in each product release & tells what feature to add in next release.
+- **<u>Scrum team</u>:** Skilled workers who take orders from Scrum master & executes the plan.
+
+
+### <u>Extreme Programming (XP)</u>
+
+- A programming practice that fosters immediate programming without prior planning or design.
+- Only a few developers might be involved, who take multiple roles.
+- This might come handy when its about fast delivery.
+
+
+### <u>Crystal</u>
+
+- Concept of Crystal consists of chartering, cyclic delivery & wrap up.
+- **<u>Chartering</u>:** Includes team building, requirement studying & designing.
+- **<u>Cyclic delivery</u>:** Integrates the features to existing version of product.
+- **<u>Wrap up</u>:** Deploying & assigning a build version to the product.
+
+
+### <u>Dynamic Software Development Model (DSDM)</u>
+
+- DSDM is a practice where active discussion over project by the team is fostered.
+- Also each team member gets rights to represent their idea & have some autonomy over work assigned to them.
+
+#### Techniques used in DSDM:
+
+- Time boxing
+- MoSCoW rules
+- Prototyping
+
+#### Stages in DSDM:
+
+1. Pre-project
+2. Feasibility study
+3. Business study
+4. Functional model iteration
+5. Design & build iteration
+6. Implementation
+7. Post-project
+
+
+### <u>Feature Driven Development (FDD)</u>
+
+- FDD fosters focus on each part of the new feature that is to be added in existing product.
+- And these parts are integrated together & then integrated into the existing product.
+
+
+### <u>Lean Software Development (LSD)</u>
+
+- This type of development is where the speed of developing product increases with time & the cost reduces.
+
+#### Stages in LSD:
+
+1. Eliminating waste
+2. Amplifying learning
+3. Defer commitment
+4. Early delivery
+5. Empowering the team
+6. Building integrity
+7. Optimizing the whole
+
+
+### <u>Use Cases</u>
+
+- Requirements might be a subject to change.
+- Team is highly experienced.
+- Customer is open for meeting most of the time.
+- Project size is small.
+
+
+### <u>Advantages</u>
+
+- Fast development & delivery.
+- Constant touch with customers.
+
+
+### <u>Disadvantages</u>
+
+- High focus on development & delivery leads to low focus on documentation.
+- This lack of documentation can further contribute in difficulty in maintenance.
+
+
+
+## **Topic - 7: Iterative Model**
+
+### <u>Introduction</u>
+
+- In Iterative model, the objectives of a project is decided without expecting a second iteration.
+- But when it is felt that some changes are required to the software, then they are planned & added with the upcoming iteration after review phase.
+
+![Iterative Model](./media/image11.png)
+
+- See above how requirements & analysis are done just once.
+- Next iteration always continues from design.
+- Deployment & maintenance are done along the last iteration.
+
+
+### <u>Phases</u>
+
+1. **Requirement**
+2. **Analysis**
+3. **Design**
+4. **Implementation**
+5. **<u>Testing</u>:** Most common methods used are **white box**, **black box** & **grey box** testing.
+6. **Deployment**
+7. **<u>Review</u>:** Reviewing the product to find error or unexpected things that has to be solved in next iteration.
+8. **<u>Maintenance</u>:** Debugging & adding new features.
+
+
+### <u>Use Cases</u>
+
+- Clear requirements.
+- Large scale projects.
+- Requirements might be a subject to change.
+
+
+### <u>Advantages</u>
+
+- Parallel development is possible.
+- Flexible to change.
+- Fast resolution of issues.
+
+
+### <u>Disadvantages</u>
+
+- Can't handle small projects.
+- No fixed date for completing project.
+
+
+
+## **Topic - 8: Big-Bang Model**
+
+### <u>Introduction</u>
+
+- There are no phases or a defined procedure to make the project.
+- So, obviously it doesn't deal with any customer requirements.
+- Ideal when a very few developers are there to develop a small project.
+
+![Big-Bang Model](./media/image12.png)
+
+
+### <u>Use Cases</u>
+
+- Academic/practical project.
+- Small team to manage.
+- There is no requirement like thing.
+- High flexibility to release date.
+
+
+### <u>Advantages</u>
+
+- Little to no resources required.
+- Easy to manage the team.
+- Highly flexible for team members.
+
+
+### <u>Disadvantages</u>
+
+- Highly risky & uncertainty.
+- Can't handle large projects.
+
+
+
+## **Topic - 9: Prototype Modelling**
+
+### <u>Introduction</u>
+
+- Prototype modelling believes that a prototype of the product must be built before final product.
+- This might be useful as the client may tell the required changes to it beforehand, saving a lot of resources that were to be used in making the actual product.
+
+![Prototype Modelling](./media/image13.png)
+
+
+### <u>Phases</u>
+
+1. **Requirement gathering**
+2. **Quick decision**
+3. **Build prototype**
+4. **User evaluation**
+5. **Prototype refinement**
+6. **Engineer actual product**
+
+
+### <u>Advantages</u>
+
+- No requirement misinterpretation.
+- Flexible to change.
+- Product can be advertised early.
+
+
+### <u>Disadvantages</u>
+
+- Customer might have to wait a lot.
+- Customer might withdraw, causing financial loss.
+- Can't judge project finish date.
+- Prototyping tools are expensive.
+- Time consuming.
+
+
+## **Topic - 10: Evolutionary Process Model**
+
+### <u>Introduction</u>
+
+- Another iteration based model.
+- A small feature is added at the end of each feature.
+- Product can't readily used at the end of any iteration, other than the last one.
+- Complete product is gained after the last iteration ends.
+
+
+### <u>Benefits</u>
+
+- Proper feature management at the beginning of each cycle.
+- Customers can test individual features early.
+- Better progress visibility to management team.
+
+---
