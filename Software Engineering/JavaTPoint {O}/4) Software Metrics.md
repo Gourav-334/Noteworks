@@ -98,4 +98,36 @@ $$ N \; = \; N1 \; + \; N2 $$
 
 ### <u>Halstead Metrics</u>
 
-- 
+#### Program volume (V):
+
+- **<u>Program volume</u>:** Size of whole program in bits.
+
+$$ V \; = \; N*log_{2}n $$
+
+#### Program level (L):
+
+- **<u>Program level</u>:** A fraction number between 0 and 1, showing what size program is taking to achieve the objective.
+- For example, level magnitude as 1 shows that program is achieving the objective with minimal size.
+
+$$ L \; = \; \frac{V*}{V} $$
+
+- `V*` is the minimum (best case) level possible.
+
+#### Program difficulty (D):
+
+- `D` is directly proportional to `n2`.
+
+$$ D \; = \; (\frac{n1}{2}) * (\frac{N2}{n2}) $$
+
+#### Programming effort (E):
+
+- This unit is based on objective mental discriminations.
+
+$$ E \; = \; \frac{V}{L} \; = \; D*V $$
+
+
+### <u>Estimated Program Length</u>
+
+- 1st hypothesis of software science (by Halstead) is that a well structured program can be called as a function of just unique operators & operands, i.e. `N`.
+- Estimated program length is denoted by `N^`.
+
