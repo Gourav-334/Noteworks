@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97edb9f95587ef98",
+        "id": "0ec816d4e321d2e3",
         "type": "tabs",
         "children": [
           {
-            "id": "b09e5f66332ba3bd",
+            "id": "d445e100632d5365",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,10 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b09e5f66332ba3bd",
+  "active": "d445e100632d5365",
   "lastOpenFiles": [
-    "Software Engineering/JavaTPoint {O}/3) Software Management.md",
+    "Software Engineering/JavaTPoint {O}/media/image18.png",
     "Software Engineering/JavaTPoint {O}/4) Software Metrics.md",
+    "Software Engineering/JavaTPoint {O}/3) Software Management.md",
     "Software Engineering/JavaTPoint {O}/media/image17.png",
     "Software Engineering/JavaTPoint {O}/media/image16.png",
     "Software Engineering/JavaTPoint {O}/media/image15.png",
@@ -179,7 +180,6 @@
     "Software Engineering/JavaTPoint {O}/media/image10.png",
     "Software Engineering/JavaTPoint {O}/media/image8.png",
     "Microeconomics/Khan Academy {O}/1) Basic Economic Concepts.md",
-    "Software Engineering/JavaTPoint {O}/media/image9.png",
     "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
     "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
     "README.md",
