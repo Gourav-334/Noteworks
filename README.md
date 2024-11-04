@@ -9,6 +9,7 @@
 - Older files are in **.docx** format & newer ones in **.md** format.
 - Most folders contain more folders, which tell the source from where notes are made.
 - Those same folders use abbreviation for knowing the status of notes in format `source_name {abbreviation}`.
+- Notes are written using **Obsidian**, so if some text deformity (mostly formulae) is seen when rendered, you can also try opening them in **Obsidian**.
 
 
 ## <u>Source Abbreviations</u>

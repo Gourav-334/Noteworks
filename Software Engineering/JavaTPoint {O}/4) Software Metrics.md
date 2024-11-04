@@ -336,10 +336,160 @@ $$ \eta_{2} \; = \; VARS \; + Constants \; + \; Labels $$
 - Number of live variables are counted.
 - **<u>Live variable</u>:** Lifetime of a variable from its first appearance in program to its last one.
 - Live variables are denoted by $LV$.
+- **Average life** of variables is denoted by $\gamma$.
 
-$$ Average \; LV \; = \; \frac{Total \; live \; variables}{Total \; executable \; statements} $$
+$$ \gamma \; = \; \frac{Total \; live \; variables}{Total \; executable \; statements} $$
 
 
 ### <u>Program Weakness</u>
 
-- 
+- A program can be defined weak if it very complex, less cohesive, highly coupled & less reusable.
+- **<u>Cohesiveness</u>:** Property of being structured.
+- **<u>Coupled</u>:** Being interdependent on other parts of the program.
+- A highly coupled program is weak because changing one part in the program required other parts to be rewritten.
+- Low reusability is caused when the program is dependent on a lot of modules.
+- Module weakness is denoted by $WM$.
+
+$$ WM \; = \; LV*\gamma $$
+
+- Similarly, $WP$ for weak program.
+- $WM_{i}$ means weakness of the $i^{th}$ module.
+
+$$ WP \; = \; \frac{\sum^{m}_{i=1} \; WM_{i}}{m} $$
+
+
+### <u>Data Sharing</u>
+
+- Data sharing lowers coupling among modules.
+- And lower coupling means more time to be taken for completing project.
+
+
+
+## **Topic - 7: Information Flow Metrics**
+
+### <u>Introduction</u>
+
+- **Henry and Kafura** gave procedure to measure coupling.
+- These procedures are named as FAN-IN & FAN-OUT.
+- It measures how information flows through programs.
+
+
+### <u>Factors Affecting Complexity</u>
+
+1. Problem to be solved is complex itself, determined by LOCs.
+2. High coupling, leading to complex connections among program components, solved by FAN-IN & FAN-OUT.
+
+
+### <u>Coupling Measurement</u>
+
+- **<u>FAN-IN</u>:** Sum of total variables passed into the programs & total data structures used to retrieve information.
+- **<u>FAN-OUT</u>:** Sum of total variables passed into the program & total data structures modified with information.
+
+$$ Procedure \; complexity \; = \; (Involved \; LOCs)*(FAN\;IN*FAN\;OUT)^{2} $$
+
+
+
+## **Topic - 8: Cyclomatic Complexity**
+
+### <u>Introduction</u>
+
+- Developed by **Thomas J. McCabe** in 1976.
+- It is used for measuring complexity of a program.
+- McCabe said that it can be represented as a series of linearly connected nodes.
+
+
+### <u>Calculation Of Cyclomatic Complexity</u>
+
+- $G$ denotes graph.
+- $E$ denotes number of edges.
+- $N$ denotes number of nodes in graph.
+- $P$ denotes number of connected components.
+
+$$ V(G) \; = \; E \; - \; N \; + \; 2*P $$
+
+
+### <u>Example</u>
+
+![Cyclomatic Complexity Example](./media/image19.png)
+
+
+### <u>Properties Of Cyclomatic Complexity</u>
+
+1. $V(G)$ is max number of independent path.
+2. $V(G)>=1$
+3. $V(G)=1$ means $G$ has only one path.
+
+
+
+## **Topic - 9: CASE Tools**
+
+### <u>Introduction</u>
+
+- CASE tools are used for measuring software.
+- **<u>CASE</u>:** Computer Aided Software Engineering
+
+
+## <u>Tools</u>
+
+#### Analyst4j:
+
+- Based only on Eclipse IDE & for Java programs.
+- Can work either as client application, or as a plugin within Eclipse.
+- Its features include search, metrics, analyzing quality & report generation.
+
+#### CCCC:
+
+- An open-source tool.
+- Runs on command line interface mode.
+- Based only on C++ and Java programs.
+- Generates reports on various metrics including LOC & those proposed by Chidamber, Kemerer, Henry & Kafura.
+
+#### Chidamber & Kemerer Java Metrics:
+
+- Also an open-source tool.
+- Runs on command line interface mode.
+- Based only on Java programs.
+- Calculates C&K object-oriented metrics through byte codes.
+
+#### Dependency finder:
+
+- An open-source tool.
+- Runs on command line, Swing & web.
+
+> **<u>NOTE</u>:**
+> ***"Swing"*** is a Java toolkit for developing GUI applications.
+
+- Based only on Java programs.
+- Analyses dependency graphs for useful information.
+
+#### Eclipse Metrics Plug-in 1.3.6:
+
+- Developed by Frank Sauer.
+- An open-source tool.
+- Based only on Eclipse IDE & for Java programs.
+- It comes as a plugin.
+- Can measure various metrics & detect deadlocks.
+
+#### Eclipse Metrics Plug-in 3.4:
+
+- Developed by Lance Walton.
+- An open-source tool.
+- It measures metrics during build cycle.
+- It also warns when any metrics range is violated.
+
+#### OOMeter:
+
+- Developed by Alghamdi.
+- Based only on C# and Java programs.
+- Can also accept UMI codes in XMI.
+- **<u>UMI</u>:** Unified Modeling Interface
+- **<u>XMI</u>:** XML Modeling Interchange
+
+#### Semmle:
+
+- Based only on Eclipse IDE.
+- It comes as a plugin.
+- Its syntax resembled SQL queries.
+- It also allows searching for bugs.
+
+---

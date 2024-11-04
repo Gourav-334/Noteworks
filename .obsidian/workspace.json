@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d445e100632d5365",
+            "id": "87701de564853ec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/JavaTPoint {O}/4) Software Metrics.md",
+                "file": "Software Engineering/JavaTPoint {O}/5) Project Planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4) Software Metrics"
+              "title": "5) Project Planning"
             }
           }
         ]
@@ -163,10 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d445e100632d5365",
+  "active": "87701de564853ec6",
   "lastOpenFiles": [
-    "Software Engineering/JavaTPoint {O}/media/image18.png",
+    "Software Engineering/JavaTPoint {O}/media/image20.png",
+    "Software Engineering/JavaTPoint {O}/5) Project Planning.md",
     "Software Engineering/JavaTPoint {O}/4) Software Metrics.md",
+    "Untitled",
+    "Software Engineering/JavaTPoint {O}/media/image19.png",
+    "Software Engineering/JavaTPoint {O}/media/image18.png",
     "Software Engineering/JavaTPoint {O}/3) Software Management.md",
     "Software Engineering/JavaTPoint {O}/media/image17.png",
     "Software Engineering/JavaTPoint {O}/media/image16.png",
@@ -177,8 +181,6 @@
     "Software Engineering/JavaTPoint {O}/media/image13.png",
     "Software Engineering/JavaTPoint {O}/media/image12.png",
     "Software Engineering/JavaTPoint {O}/media/image11.png",
-    "Software Engineering/JavaTPoint {O}/media/image10.png",
-    "Software Engineering/JavaTPoint {O}/media/image8.png",
     "Microeconomics/Khan Academy {O}/1) Basic Economic Concepts.md",
     "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
     "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
@@ -192,7 +194,6 @@
     "x86 Assembly/Tutorials Point (NASM) {C}/8) Registers Revision.docx",
     "x86 Assembly/Tutorials Point (NASM) {C}/6) Hardware Components.docx",
     "x86 Assembly/Tutorials Point (NASM) {C}/1) Introduction & Virtual Machine.docx",
-    "x86 Assembly/Tutorials Point (NASM) {C}/5) Addition To 64-Bit Processors.docx",
     "Web Development/ByteXL (Java) {O}/3) Java Server Page.md",
     "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.md",
     "1ST RING (KERNEL)/Compiler Design/1) Introduction.md",
