@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "440ba8c3749c9449",
+        "id": "602eb16bb79bee1c",
         "type": "tabs",
         "children": [
           {
-            "id": "7ffc7a991fe6e3fc",
+            "id": "d6c79f5dd41c5487",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/JavaTPoint {O}/6) Risk Management.md",
+                "file": "Computer Networking/JavaTPoint {O}/1) Computer Network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6) Risk Management"
+              "title": "1) Computer Network"
+            }
+          },
+          {
+            "id": "da1b438df8e18521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures/JavaTPoint {O}/1) Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1) Introduction"
+            }
+          },
+          {
+            "id": "dee101c8ccf8ffdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1) Binary System"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,8 +192,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ffc7a991fe6e3fc",
+  "active": "dee101c8ccf8ffdc",
   "lastOpenFiles": [
+    "Computer Networking/College Version {C}/~$ Transport Layer.docx",
+    "Data Structures/JavaTPoint {O}/1) Introduction.md",
+    "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
+    "Computer Networking/JavaTPoint {O}/1) Computer Network.md",
+    "Digital Electronics/JavaTPoint {O}",
+    "Data Structures/JavaTPoint {O}",
+    "Computer Networking/JavaTPoint {O}",
+    "Web Development/ByteXL (Java) {O}/3) Java Server Page.md",
+    "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Software Engineering/JavaTPoint {O}/6) Risk Management.md",
     "Software Engineering/JavaTPoint {O}/5) Project Planning.md",
     "Software Engineering/JavaTPoint {O}/media/image23.png",
@@ -172,7 +210,6 @@
     "Software Engineering/JavaTPoint {O}/media/image21.png",
     "Software Engineering/JavaTPoint {O}/media/image20.png",
     "Software Engineering/JavaTPoint {O}/4) Software Metrics.md",
-    "Untitled",
     "Software Engineering/JavaTPoint {O}/media/image19.png",
     "Software Engineering/JavaTPoint {O}/media/image18.png",
     "Software Engineering/JavaTPoint {O}/3) Software Management.md",
@@ -181,7 +218,6 @@
     "Software Engineering/JavaTPoint {O}/media/image15.png",
     "Software Engineering/JavaTPoint {O}/media/image14.png",
     "Software Engineering/JavaTPoint {O}/2) Models.md",
-    "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Microeconomics/Khan Academy {O}/1) Basic Economic Concepts.md",
     "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
     "Web Development/ByteXL (Java) {O}/4) Hibernate.md",
@@ -193,9 +229,6 @@
     "x86 Assembly/Tutorials Point (NASM) {C}/B) Programming Rules.docx",
     "x86 Assembly/Tutorials Point (NASM) {C}/A) Addressing Modes.docx",
     "x86 Assembly/Tutorials Point (NASM) {C}/8) Registers Revision.docx",
-    "x86 Assembly/Tutorials Point (NASM) {C}/6) Hardware Components.docx",
-    "x86 Assembly/Tutorials Point (NASM) {C}/1) Introduction & Virtual Machine.docx",
-    "Web Development/ByteXL (Java) {O}/3) Java Server Page.md",
     "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.md",
     "1ST RING (KERNEL)/Compiler Design/1) Introduction.md",
     "4TH RING (LEGACY)/Enterprise Programming Java/4) Hibernate.md",
