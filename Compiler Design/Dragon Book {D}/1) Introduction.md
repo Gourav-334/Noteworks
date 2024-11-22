@@ -16,7 +16,7 @@
   are faster than **interpreters** in mapping inputs to outputs.
 - **Java** combines **compilation** & **interpretation** as shown below.
 
-![Image1](./media/image1.png)
+![Image1](Compiler%20Design/Dragon%20Book%20{D}/media/image1.png)
 
 - **Java** source programs are compiled into **intermediate form**
   called **bytecode**.
@@ -27,7 +27,7 @@
   compiling **bytecodes** further to **machine language** during
   **compilation** itself.
 
-![Image2](./media/image2.png)
+![Image2](Compiler%20Design/Dragon%20Book%20{D}/media/image2.png)
 
 - **<u>Preprocessor</u>:** Collects the source program.
 - **<u>Macros</u>:** Short programs
@@ -78,7 +78,7 @@ source-to-source translator.
 
 ### <u>Phases In Compiler</u>
 
-![image3](./media/image3.png)
+![image3](Compiler%20Design/Dragon%20Book%20{D}/media/image3.png)
 
 - It’s a more **descriptive** representation of phases.
 - In real, **multiple phases** may be grouped under **one phase**.
