@@ -64,7 +64,7 @@
 > **<u>NOTE</u>:**
 > EJB uses JPA alone for data consistency, whereas Hibernate uses both JPA & its own configurations.
 
-![Hibernate Architecture](./media/image2.png)
+![Hibernate Architecture](Enterprise%20Programming/ByteXL%20{D}/media/image2.png)
 
 
 ### <u>Configuration Class</u>
@@ -156,7 +156,7 @@ setFirstResult();
 
 ### <u>Configuring Hibernate</u>
 
-![Configuring Hibernate](./media/image3.png)
+![Configuring Hibernate](Enterprise%20Programming/ByteXL%20{D}/media/image3.png)
 
 
 ### <u>Creating Hibernate Session</u>

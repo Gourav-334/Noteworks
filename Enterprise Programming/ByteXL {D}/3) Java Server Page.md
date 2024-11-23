@@ -52,7 +52,7 @@
 
 ### <u>Lifecycle Diagram</u>
 
-![JSP Lifecycle](./media/image1.png)
+![JSP Lifecycle](Enterprise%20Programming/ByteXL%20{D}/media/image1.png)
 
 
 ### <u>Steps Involved In Lifecycle</u>
