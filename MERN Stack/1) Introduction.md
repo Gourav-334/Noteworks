@@ -36,16 +36,23 @@
 - Dynamic web application
 
 
-### <u>Web Application Architecture</u>
+## **Topic - 2: Web Application Architecture (WAA)**
+
+### <u>Introduction</u>
 
 - **<u>Web application architecture</u>:** System of interconnected components which are involved in running website.
 
-#### Components in architecture:
 
-- User interfaces
-- Middleware components
-- Databases
-- Servers
+### <u>Components Of WAA</u>
+
+#### Main component categories:
+
+- UI/UX components (client-side)
+- Structural components (server-side)
+
+>**<u>NOTE</u>:**
+>1. Structural components also includes the hardware used in servers.
+>2. When talking about components, we are talking about literally anything involved in them.
 
 #### Sub-components:
 
@@ -53,3 +60,36 @@
 - Load balancers
 - API gateways
 - Single-page frontends
+
+
+
+## **Topic - 3: WAA Models**
+
+### <u>One Database, One Web Server</u>
+
+- Developers use only one database & one web server to develop web application.
+- Mainly used in mobile applications.
+- If server is down, whole application will be down too.
+
+### <u>One Database, Multiple Web Servers</u>
+
+- Used when work has to be divided among various web servers.
+- Some of these servers can also serve for backup purpose incase one fails.
+- It is a stateless architecture.
+
+### <u>Multiple Databases, Multiple Web Servers</u>
+
+- This model is focused on reducing possibility of loss due to failure.
+- Many servers copy data in main server as backup.
+
+
+
+## **Topic - 4: Types Of WAA**
+
+### <u>Single Page Applications (SPAs)</u>
+
+![SPAs](./media/image2.png)
+
+- In SPAs, any form of changes to be made in the UI is done without communication with the server.
+- Meaning, page doesn't require reloading when new data comes.
+- For example, Facebook, Google Maps, Gmail, GitHub etc.
