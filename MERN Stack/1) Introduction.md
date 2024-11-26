@@ -93,3 +93,45 @@
 - In SPAs, any form of changes to be made in the UI is done without communication with the server.
 - Meaning, page doesn't require reloading when new data comes.
 - For example, Facebook, Google Maps, Gmail, GitHub etc.
+
+
+### <u>Server-Side Rendering (SSR)</u>
+
+![SSR](./media/image3.png)
+
+- Files come rendered from the server itself.
+- More dynamic, server immediately responses to requests.
+
+
+### <u>Static Site Generation (SSG)</u>
+
+![SSG](./media/image4.png)
+
+- Provides templates for HTML.
+- These HTML templates are stored on servers & delivered through CDN.
+- **<u>CDN</u>:** Content Delivery Network
+
+
+### <u>Progressive Web Application (PWA)</u>
+
+![PWA](./media/image5.png)
+
+- Similar to SPA but has some parallelly running services too.
+- For example, cookies, extensions, plug-ins etc.
+
+
+## **Topic - 5: Single Page Application (SPA)**
+
+### <u>Introduction</u>
+
+- Browser load only one page when SPA is used.
+- Means there is a single static page which doesn't require any kind of change to it.
+
+
+### <u>Advantages</u>
+
+- Proper team collaboration
+- Caches local data effectively.
+- Fast & responsive
+- Debugging is easier
+- User friendly

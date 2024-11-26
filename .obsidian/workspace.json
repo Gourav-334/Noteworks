@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94e8e7b3f38b694d",
+        "id": "5e10c21b72fae69d",
         "type": "tabs",
         "children": [
           {
-            "id": "82a8f4aa5a841def",
+            "id": "6b5e8584f6f70217",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm Analysis/College Version {C}/1) Introduction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1) Introduction"
             }
           }
         ]
@@ -159,36 +163,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82a8f4aa5a841def",
+  "active": "6b5e8584f6f70217",
   "lastOpenFiles": [
     "Android Development/JavaTPoint {O}/1) Android Tutorial.md",
+    "Android Development/JavaTPoint {O}/media/image2.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2024-11-26 193448.png",
+    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Compiler Design/JavaTPoint {O}/media/image11.png",
+    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 192836.png",
+    "Compiler Design/JavaTPoint {O}/media/image10.png",
+    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 191436.png",
+    "Compiler Design/JavaTPoint {O}/media/image9.png",
+    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 190436.png",
+    "Compiler Design/JavaTPoint {O}/media/image8.png",
+    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 153246.png",
+    "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
+    "Quantitative Reasoning/1) Number System.md",
+    "Algorithm Analysis/College Version {C}/1) Introduction.md",
+    "Web Designing/W3Schools {O}",
+    "Quantitative Reasoning/media",
+    "Quantitative Reasoning",
+    "Data Structures/College Version {C}/8) Miscellaneous.md",
+    "Web Designing/W3Schools {C}/~$ Hypertext Markup Language.docx",
+    "Web Designing/W3Schools {C}/~$ Cascading Style Sheets.docx",
+    "Android Development/JavaTPoint {O}/media",
+    "Android Development/JavaTPoint {O}/New folder",
     "MERN Stack/1) Introduction.md",
-    "MERN Stack/media/image2.png",
-    "MERN Stack/media/Screenshot 2024-11-24 114639.png",
-    "MERN Stack/media/image1.png",
-    "MERN Stack/media/Screenshot 2024-11-23 111900.png",
     "MERN Stack/media",
-    "Pasted image 20241123111902.png",
     "MERN Stack",
     "Enterprise Programming/ByteXL {D}",
-    "MERN Stack",
     "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
-    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Compiler Design/Dragon Book {D}/1) Introduction.md",
-    "Compiler Design/JavaTPoint {O}/media/image7.png",
-    "Compiler Design/JavaTPoint {O}/media/image6.png",
-    "Compiler Design/JavaTPoint {O}/media/image5.png",
-    "Compiler Design/JavaTPoint {O}/media/image4.png",
-    "Compiler Design/JavaTPoint {O}/media/image3.png",
-    "Compiler Design/JavaTPoint {O}/media",
-    "Compiler Design/JavaTPoint {O}/~$ Introduction.docx",
     "Android Development/Untitled.md",
-    "Android Development/JavaTPoint {O}",
-    "Android Development",
     "Cyber Security/College Version {O}/1) Information Security.md",
-    "Cyber Security/College Version {O}",
-    "Cyber Security",
-    "Data Structures/College Version {C}/8) Miscellaneous.md",
     "Data Structures/JavaTPoint {O}/1) Introduction.md",
     "Computer Networking/JavaTPoint {O}/1) Computer Network.md",
     "Enterprise Programming/ByteXL {D}/3) Java Server Page.md",
@@ -203,9 +210,6 @@
     "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
     "README.md",
     "1ST RING (KERNEL)/x86 Assembly/1) Lifting The Hood.md",
-    "1ST RING (KERNEL)/Compiler Design/1) Introduction.md",
-    "4TH RING (LEGACY)/Enterprise Programming Java/4) Hibernate.md",
-    "1ST RING (KERNEL)/C Programming/1) A Tutorial Introduction.md",
     "Untitled.canvas"
   ]
 }

@@ -71,3 +71,93 @@
 |      6.0       | Marshmallow         |     23      |
 |      7.0       | Nougat              |   24 & 25   |
 |      8.0       | Oreo                |   26 & 27   |
+
+
+
+## **Topic - 3: Android Architecture**
+
+### <u>Android Software Stack</u>
+
+- Linux kernel
+- Native libraries (middleware)
+- Android runtime
+- Application framework
+- Applications
+
+![Android Software Stack](./media/image1.png)
+
+
+### <u>Android Runtime</u>
+
+- Android uses DVM which is similar to JVM.
+- **<u>DVM</u>:** Dalvik's Virtual Machine
+- DVM however uses less memory & is much faster.
+
+
+
+## **Topic - 4: Core Building Blocks**
+
+### <u>Introduction</u>
+
+![Android Lifecycle](./media/image2.png)
+
+#### Core blocks of Android are:
+
+- Activities
+- Views
+- Intents
+- Services
+- Content providers
+- Fragments
+- AndroidManifest.xml
+
+
+### <u>Activity</u>
+
+- **<u>Activity</u>:** Represents the applications running parallelly.
+- Like playing **Subway Surfers** in one screen while **Kaspersky** anti-virus is running in background.
+
+#nostalgic_games, #heroic_software
+
+
+### <u>View</u>
+
+- Any kind of visible element on screen (UI).
+- Might be interactive.
+- For example, button, labels & text fields.
+
+
+### <u>Intent</u>
+
+- **<u>Intent</u>:** Triggers certain process.
+- For example, display a web page, send a message, dial a number etc.
+
+
+### <u>Service</u>
+
+- **<u>Service</u>:** A process.
+- **<u>Local service</u>:** Process which is requested using current activity.
+- **<u>Remote service</u>:** Process which is requested using background activity.
+
+
+### <u>Content Provider</u>
+
+- **<u>Content providers</u>:** Channels used for communication & transfer of data among applications.
+
+
+### <u>Fragment</u>
+
+- **<u>Fragment</u>:** Sub-activity
+- Multiple fragments can be displayed simultaneously on screen for an activity.
+
+
+### <u>AndroidManifest.xml</u>
+
+- `AndroidManifest.xml` contains various information about various things.
+- It is like a database which stores user configurations, settings & permissions etc in it.
+
+
+### <u>Android Virtual Device (AVD)</u>
+
+- AVD is an emulator for Android devices.
+- It is a virtual machine which can be used on other devices to simulate Android device.

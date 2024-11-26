@@ -117,3 +117,111 @@ $$ MULF \; \#50.0, \; R2 $$
 $$ MOVF \; id2, \; R2 $$
 $$ ADDF \; R2, \; R1 $$
 $$ MOVF \; R1, \; id1 $$
+
+
+
+## **Topic - 3: Compiler Passes**
+
+### <u>Introduction</u>
+
+- **<u>Pass</u>:** Complete traversal of the source program.
+
+#### Two types of passes:
+
+- Multi-pass compiler
+- One-pass compiler
+
+
+### <u>Multi-Pass Compiler</u>
+
+- Traverses source program multiple times.
+
+#### First pass:
+
+1. Compiler reads source program.
+2. Scans it.
+3. Extracts the tokens.
+4. Stores the output.
+
+#### Second pass:
+
+1. Compiler reads the output.
+2. Builds syntactical tree.
+3. Perform syntactical analysis.
+4. Stores the produced tree as output.
+
+#### Third pass:
+
+1. Compiler reads previous output.
+2. Checks the correctness of tree.
+3. Produces annotated tree syntax as output.
+
+>**<u>NOTE</u>:**
+>This keeps going on until we get the target program.
+
+
+### <u>One-Pass Compiler</u>
+
+- One-pass compiler source program into machine code in one cycle only.
+- It does all that we discussed in multi-pass compiler but line-by-line.
+
+
+
+## **Topic - 4: Bootstrapping**
+
+### <u>Introduction</u>
+
+- Bootstrapping is used for creating self-hosting compiler.
+- **<u>Self-hosting compiler</u>:** Compiler which can compile its own source code.
+- It is the supporting language in which compiler is made.
+
+
+### <u>Languages Involved In Compiler</u>
+
+- Source language
+- Target language
+- Implementation language
+
+
+### <u>T-Diagram</u>
+
+- Compiler is represented by $^{S}C_{I}^{T}$.
+- $S$ is source language.
+- $T$ is target language.
+- $I$ is implementation language.
+
+![T-Diagram](./media/image8.png)
+
+
+### <u>T-Diagram Example</u>
+
+Let's say we have to produce a language $L$ using language $A$.
+
+#### Step 1:
+
+- First we create compiler $^{S}C_{A}^{A}$ where $S$ is a subset of source language.
+
+![Step 1 (T-Diagram)](./media/image9.png)
+
+- Say $S$ is a component of GCC compiler for C & $A$ is x86 Assembly.
+- Basically we are creating a component $S$ of C using x86 Assembly, which is translating to x86 Assembly at last, being the base language.
+
+#### Step 2:
+
+- Then we create another compiler $^{L}C_{A}^{S}$.
+
+![Step 2 (T-Diagram)](./media/image10.png)
+
+- Here, consider $L$ as programming language C for sometime.
+- In $^{L}C_{A}^{S}$, we are creating a compiler for C using x86 Assembly which is being translated to subset $S$ at last.
+
+>**<u>NOTE</u>:**
+>Remember that subset $S$ was created using x86 Assembly.
+
+#### Step 3:
+
+- Now we compile 2nd compiler using 1st one.
+
+![Step 3 (T-Diagram)](./media/image11.png)
+
+- This final diagram is the representation of bootstrapping.
