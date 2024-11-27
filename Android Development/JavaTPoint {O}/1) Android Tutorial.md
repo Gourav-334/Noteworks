@@ -161,3 +161,81 @@
 
 - AVD is an emulator for Android devices.
 - It is a virtual machine which can be used on other devices to simulate Android device.
+
+
+
+## **Topic - 5: Android Emulator**
+
+### <u>Introduction</u>
+
+![Android Emulator](./media/image3.png)
+
+#smartphone_era
+
+- By Android emulator, we are referring to AVD we just discussed.
+- It provides almost all functionalities of an Android device, including phone calls & GPS tracking.
+- Android emulators are better in performance in certain areas, including data transfer.
+- They are faster there more than the devices connected through USB.
+- Not only mobiles, the emulator comes with configuration for other Android devices too.
+
+
+### <u>Requirement & Recommendations</u>
+
+- SDK Tools 26.1.1 or higher
+- 64-bit processor
+- For Windows, CPU with unrestricted guest (UG) support
+- HAXM 6.2.1 or later
+
+
+### <u>Installing AVD</u>
+
+- AVD comes installed with the Android Studio.
+- Some components of it however might not be installed.
+- If not installed, select **SDK Manager > SDK Tools > Android Emulator**.
+
+
+### <u>Running Apps On AVD</u>
+
+1. First create an AVD.
+2. Go to **Tools > AVD Manger **.
+3. Click on **Create Virtual Device** below, which is below.
+4. Now select the hardware configuration & click **Next**. 
+
+>**<u>NOTE</u>:**
+>If you can't find a particular configuration, it can be imported too.
+
+5. Select your preferred system image & click **Next*.
+6. Set the properties for AVD & click on **Finish** to confirm changes.
+7. From the dropdown menu in toolbar, select an AVD.
+8. Click **Run**.
+
+
+### <u>Using Command Line</u>
+
+- We can also use command line for running AVD Manager.
+- First navigate to the location of emulator, then write the following command.
+
+```
+$ emulator -avd avd_name [{-option[value]}...]
+```
+
+$$ OR $$
+
+```
+$ emulator @avd_name [{-option[value]}...]
+```
+
+#### To display all AVD names:
+
+```
+$ emulator -list-avds
+```
+
+
+### <u>Making Actions On Emulator</u>
+
+![Actions On Emulator](./media/image4.png)
+
+- To run, you can simply launch or double-click.
+- To stop, either choose **Stop** from menu, or right-click & select **Stop**.
+- To factory reset, choose **Wipe Data** from menu, or right-click & select **Wipe Data**.

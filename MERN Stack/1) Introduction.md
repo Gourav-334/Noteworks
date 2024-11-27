@@ -135,3 +135,8 @@
 - Fast & responsive
 - Debugging is easier
 - User friendly
+
+
+### <u>Disadvantages</u>
+
+- Browser history not saved.

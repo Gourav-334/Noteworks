@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e10c21b72fae69d",
+        "id": "51ecd8a027c27a49",
         "type": "tabs",
         "children": [
           {
-            "id": "6b5e8584f6f70217",
+            "id": "75c2675795fcd2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,23 +163,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b5e8584f6f70217",
+  "active": "75c2675795fcd2e6",
   "lastOpenFiles": [
+    "MERN Stack/1) Introduction.md",
+    "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
     "Android Development/JavaTPoint {O}/1) Android Tutorial.md",
+    "Android Development/JavaTPoint {O}/media/image4.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2024-11-27 120139.png",
+    "Android Development/JavaTPoint {O}/media/image3.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2024-11-27 115903.png",
+    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Algorithm Analysis/College Version {C}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/media/image2.png",
     "Android Development/JavaTPoint {O}/media/Screenshot 2024-11-26 193448.png",
-    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Compiler Design/JavaTPoint {O}/media/image11.png",
     "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 192836.png",
     "Compiler Design/JavaTPoint {O}/media/image10.png",
     "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 191436.png",
-    "Compiler Design/JavaTPoint {O}/media/image9.png",
-    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 190436.png",
-    "Compiler Design/JavaTPoint {O}/media/image8.png",
-    "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-11-26 153246.png",
-    "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
     "Quantitative Reasoning/1) Number System.md",
-    "Algorithm Analysis/College Version {C}/1) Introduction.md",
     "Web Designing/W3Schools {O}",
     "Quantitative Reasoning/media",
     "Quantitative Reasoning",
@@ -188,7 +189,6 @@
     "Web Designing/W3Schools {C}/~$ Cascading Style Sheets.docx",
     "Android Development/JavaTPoint {O}/media",
     "Android Development/JavaTPoint {O}/New folder",
-    "MERN Stack/1) Introduction.md",
     "MERN Stack/media",
     "MERN Stack",
     "Enterprise Programming/ByteXL {D}",

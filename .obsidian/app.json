@@ -2,7 +2,7 @@
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
-    "landscape": false,
+    "landscape": true,
     "margin": "0",
     "downscalePercent": 100
   }

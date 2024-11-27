@@ -225,3 +225,10 @@ Let's say we have to produce a language $L$ using language $A$.
 ![Step 3 (T-Diagram)](./media/image11.png)
 
 - This final diagram is the representation of bootstrapping.
+
+
+
+## **Topic - 5: Finite State Machine (FSM)**
+
+- FSMs are used to determine patterns.
+- For example, DFA or NFA etc.

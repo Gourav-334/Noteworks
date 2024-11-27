@@ -290,41 +290,47 @@ $$ \theta(log(n)) $$
 
 ### <u>How Cases Affect Result?</u>
 
-**<u>Case 1</u>:**
+#### Case 1:
 
-**Work done at leaves \> Work done at nodes**
+$$ Work\;done\;at\;leaves\;>\;Work\;done\;at\;nodes $$
+$$ Result\;=\;Work\;done\;at\;leaves $$
 
-**Result = Work done at leaves**
+#### Case 2:
 
-**<u>Case 2</u>:**
+$$ Work\;done\;at\;leaves\;=\;Work\;done\;at\;nodes $$
+$$ Result\;=\;(Height)*(Work\;done\;at\;any\;level) $$
 
-**Work done at leaves = Work done at nodes**
+#### Case 3:
 
-**Result = (Height) \* (Work done at any level)**
+$$ Work\;done\;at\;leaves\;<\;Work\;done\;at\;nodes $$
+$$ Result\;=\;Work\;done\;at\;root $$
 
-**<u>Case 3</u>:**
+>**<u>NOTE</u>:**
+>**"Work done"** here means sum of all nodes at a particular level.
 
-**Work done at leaves \< Work done at nodes**
 
-**Result = Work done at root**
+### <u>Example – III</u>
 
-**"Work done" here means sum of all nodes at a particular level.**
+#### Equation:
 
-**<u>Example – III</u>**
+$$ T(n)\;=\;9T(\frac{n}{3})\;+\;n $$
 
-**<u>Equation</u>: T(n) = 9T(n/3) + n**
+#### Variables:
 
-**<u>Variables</u>: a=9, b=3, f(n)=n**
+$$ a\;=\;9 $$
+$$ b\;=\;3 $$
+$$ f(n)\;=\;n $$
+$$ \theta(n^{log_{b}a})\;=\;\theta(n^{2})\;\;\;\fbox{f(n) = n \& c = 1} $$
+This falls under **case 1**.
 
-**θ(n<sup>log</sup><sub>b</sub><sup>a</sup>) = θ(n<sup>2</sup>) \[f(n) =
-n and c = 1\]**
+#### Solution:
 
-**<u>Case</u>: 1**
+$$ T(n)\;=\;\theta(n^{2}) $$
 
-**<u>Solution</u>: T(n) = θ(n<sup>2</sup>)**
 
-**<u>Limitations</u>**
+### <u>Limitations</u>
 
-- Some problems might fall **between** two cases.
+- Some problems might fall between two cases.
+- Such problems **can’t** be solved using master’s theorem.
 
-- Such problems **can’t** be solved using **master’s theorem**.
+---
