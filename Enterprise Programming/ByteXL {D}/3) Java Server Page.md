@@ -23,12 +23,10 @@
 
 ## **Topic – 2: Advantages Of JSP**
 
-- **Easy maintenance**, as it separates codes for business logic & way to
-  present website.
+- **Easy maintenance**, as it separates codes for business logic & way to present website.
 - **Servlet’s extension**.
 - **Requires less coding**, as custom tags can be embedded.
-- **Fast development**, as modifying a JSP page has immediate effects, we
-  don’t need to re-deploy.
+- **Fast development**, as modifying a JSP page has immediate effects, we don’t need to re-deploy.
 - **Easy integration**, as we can embed many codes.
 
 
@@ -362,4 +360,5 @@ public class myTag extends SimpleTagSupport
 ```
 
 - `ex` above means **execute**.
+
 ---

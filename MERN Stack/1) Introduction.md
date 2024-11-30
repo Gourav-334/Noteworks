@@ -140,3 +140,5 @@
 ### <u>Disadvantages</u>
 
 - Browser history not saved.
+- Optimization is tough.
+- 

@@ -232,3 +232,29 @@ Let's say we have to produce a language $L$ using language $A$.
 
 - FSMs are used to determine patterns.
 - For example, DFA or NFA etc.
+
+
+
+## **Topic - 6: Regular Expression (RE)**
+
+### <u>Operations On RE</u>
+
+The operations shown below are with respect to two RE called $L$ & $M$.
+#### Union:
+
+- Union of $L$ and $M$ will also be a regular expression.
+
+$$ L\;\cup\;M\;=\;{ s\;|\;s\;is\;in\;L\;or\;M} $$
+
+#### Intersection:
+
+- Intersection of $L$ and $M$ will also be a regular expression.
+
+$$ L\;\cap\;M\;=\;{st\;|\;s\;is\;in\;L\;and\;t\;is\;in\;M} $$
+
+#### Kleene closure:
+
+- Kleene closure of $L$ i.e. $L^{*}$ will also be a regular language.
+
+>**<u>NOTE</u>:**
+>Remember that DFA could be optimized for better performance.

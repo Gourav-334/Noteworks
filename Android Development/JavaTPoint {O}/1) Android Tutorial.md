@@ -239,3 +239,68 @@ $ emulator -list-avds
 - To run, you can simply launch or double-click.
 - To stop, either choose **Stop** from menu, or right-click & select **Stop**.
 - To factory reset, choose **Wipe Data** from menu, or right-click & select **Wipe Data**.
+
+
+
+## **Topic - 6: Android Installation**
+
+### <u>Introduction</u>
+
+- Android supports Java, C#, C++, Kotlin etc.
+- Java is official language for Android Studio.
+
+>**<u>NOTE</u>:**
+>We can set up the environment using Android studio or manually on Eclipse.
+
+
+### <u>Installation From Android Studio</u>
+
+#### Includes:
+
+- Eclipse IDE
+- Android SDK
+- Eclipse Plugin
+
+
+>**<u>NOTE</u>:**
+>1. If Android Studio is downloaded from official site, one doesn't need these components.
+>2. Then we can directly open Eclipse IDE to work in it.
+>3. If it doesn't start, then we have to paste the JRE directory inside the Eclipse directory.
+
+
+
+## **Topic - 7: Eclipse Setup**
+
+### <u>Steps</u>
+
+1. Install JDK.
+2. Install Eclipse IDE (classic or EE).
+3. Download Android Studio.
+4. Download ADT plugin in Eclipse.
+5. Configure the ADT plugin.
+6. Create an AVD.
+
+
+### <u>Downloading ADT Plugin</u>
+
+1. **Help** > **Install new software...**
+2. Write `https://dl-ssl.google.com/android/eclipse/` in **Work with:** box.
+3. Select the **Developer Tools** checkbox.
+4. Keep clicking on **Next** & **Finish** until it ends.
+5. Restart the IDE.
+
+
+### <u>Configuring ADT Plugin</u>
+
+1. **Window menu** > **preferences**
+2. Select **Android** from left panel & proceed.
+3. Locate your Android SDK directory.
+4. Click **Apply** & then **OK**.
+
+
+### <u>Creating AVD</u>
+
+1. **Window menu** > **AVD manager**
+2. Click on **new**.
+3. Write AVD name & preferred device.
+4. Click on **create AVD**.

@@ -110,3 +110,5 @@ putchar(c);
 ```
 
 - Output can be on multiple type of devices, but mostly monitor screens.
+
+---
