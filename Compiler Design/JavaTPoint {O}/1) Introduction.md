@@ -258,3 +258,49 @@ $$ L\;\cap\;M\;=\;{st\;|\;s\;is\;in\;L\;and\;t\;is\;in\;M} $$
 
 >**<u>NOTE</u>:**
 >Remember that DFA could be optimized for better performance.
+
+
+
+## **Topic - 7: LEX**
+
+### <u>Introduction</u>
+
+- **<u>LEX</u>:** A tool or program that generates lexical analyzer.
+- In future we will see how LEX is used with YACC parser generator.
+- Lexical analyzer is used for extracting tokens from the input source code.
+
+
+### <u>Functioning Of LEX</u>
+
+1. Firstly, lexical analyzer receives the source program.
+2. Then this source program is converted into a LEX program, say $lex.1$ here.
+3. Now LEX runs that $lex.1$ program & produces a intermediate program, say $lex.yy.c$ using C here.
+4. Finally, C compiler runs $lex.yy.c$ & produces object program $a.out$.
+5. Now this object program $a.out$ is used in converting an input into lexemes (tokens).
+
+$$ \xrightarrow{LEX\;source\;program\;(lex.1)}\framebox[5cm][c]{LEX Compiler}\xrightarrow{C\;Program\;(lex.yy.c)} $$
+$$ \xrightarrow{C\;Program\;(lex.yy.c)}\framebox[5cm][c]{C Compiler}\xrightarrow{Object\;Program\;(a.out)} $$
+$$ \xrightarrow{Input\;stream}\framebox[5cm][c]{Object\;Program}\xrightarrow{Sequence\;of\;tokens} $$
+
+>**<u>NOTE</u>:**
+>The last line of diagram means that object program is executed to convert input stream into lexemes.
+
+
+### <u>LEX File Format</u>
+
+- LEX files are divided into three sections with `%%` delimiters.
+
+```
+{definitions}
+%%
+{rules}
+%%
+{user subroutines}
+```
+
+- Rules are written in form of $p_{1}\{action_{1}\}\;p_{2}\{action_{2}\}\;...\;p_{n}\{action_{n}\}$.
+- $p_{i}$ is the regular expression.
+- $action_{i}$ is the action to be performed when a pattern from $p_{i}$ matches a lexeme, generally using finite automata.
+- **<u>User subroutines</u>:** Auxiliary (intermediate) processes $action_{i}$ uses.
+- These subroutines might work with lexical analyzer but can be compiled separately, having its own independent code.
+- Subroutines are independent of the compiler.

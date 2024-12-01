@@ -6,7 +6,7 @@
 
 ## **Topic – 1: Summary**
 
-![Process](./media/image14.png)
+![Process](./media/image1.png)
 
 - Characteristics of Algorithm
 - Analysis of Algorithm
@@ -185,7 +185,7 @@ $$ n $$
 $$ T(\frac{n}{3}) \; and \; T(\frac{2n}{3}) $$
 
 
-![Example2](./media/image15.png)
+![Example2](./media/image2.png)
 
 Notice that summing cost at each level gives $cn$.
 
@@ -202,7 +202,7 @@ Total cost is sum of {total sum of each level}:
 $$ O(cn \; log(\frac{3}{2n})) \; = \; O(n \; log(n)) $$
 
 Lower bound:
-$$ \omega(n \; log(n)) $$
+$$ \Omega(n \; log(n)) $$
 This is because in best case, $c$ is $1$ which makes $(cn\;log(cn))$ as $(n\;log(n))$.
 
 Verification with substitution method:

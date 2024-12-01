@@ -141,4 +141,50 @@
 
 - Browser history not saved.
 - Optimization is tough.
-- 
+- Hackers can easily insert client-side script.
+
+
+### <u>When Use SPAs?</u>
+
+- For live data updates & streaming.
+- Social networking application, for not requiring serious optimizations.
+- For making offline applications, which can be used even after connection is lost.
+- Making portable web applications which look native on each system.
+
+
+### <u>Tools For SPAs</u>
+
+- Ember.js
+- Angular.js
+- Backbone.js
+- Vue.js
+- React
+
+
+
+## **Topic - 6: Full Stack Development**
+
+### <u>Backend Roles</u>
+
+- Database administrator
+- API developer
+
+
+### <u>Advantages</u>
+
+- Faster development
+- Cheaper labors
+- Co-operative development
+- Complete ownership
+
+
+### <u>Frontend v/s Backend v/s Full Stack</u>
+
+|                          Frontend                          |                       Backend                        |        Full Stack         |
+| :--------------------------------------------------------: | :--------------------------------------------------: | :-----------------------: |
+|                      Uses HTML & CSS.                      |                    Uses REST API.                    |  Uses both of the sets.   |
+|              JavaScript is the core language.              |        PHP, Ruby & Python are core languages.        | Mixes both of the skills. |
+| Popular frameworks used are Angular.js, Vue.js & React.js. | Popular frameworks used are Ruby on Rails & Laravel. |  Uses both of the sets.   |
+|          Central tool used is just a code editor.          |      Tools used includes RDBMS & OOP languages.      |  Uses both of the sets.   |
+|  Skills required are in HTML, CSS & UX design principles.  | Skills are required in PHP, Ruby on Rails & Node.js. |  Uses both of the sets.   |
+|             Easiest to learn among the three.              |               Steeper learning curve.                | Steepest learning curve.  |

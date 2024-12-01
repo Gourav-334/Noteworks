@@ -84,7 +84,7 @@
 - Application framework
 - Applications
 
-![Android Software Stack](./media/image1.png)
+![Android Software Stack](./media/image1.jpg)
 
 
 ### <u>Android Runtime</u>
@@ -99,7 +99,7 @@
 
 ### <u>Introduction</u>
 
-![Android Lifecycle](./media/image2.png)
+![Android Lifecycle](./media/image2.jpg)
 
 #### Core blocks of Android are:
 
@@ -304,3 +304,50 @@ $ emulator -list-avds
 2. Click on **new**.
 3. Write AVD name & preferred device.
 4. Click on **create AVD**.
+
+
+
+## **Topic - 8: Hello Android Example**
+
+### <u>Creating New Project</u>
+
+1. Start a new Android Studio project.
+2. Fill information & click on **Next**.
+3. Select API level for project & click **Next**.
+4. Select an **Empty Activity** from available options.
+5. Name the Activity and its layout & then click **Finish**.
+
+
+### <u>Writing Code</u>
+
+- We can make changes to the given XML file if required.
+- Now let's write the Java code in our source file.
+
+```
+package first.javatpoint.com.welcome;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity
+{
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(saveInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+}
+```
+
+
+### <u>Running The Application</u>
+
+- Click on the Run icon on top.
+
+![Run Icon](./media/image5.png)
+
+- It might take few minutes to boot up the AVD, wait for it to end.
+- Then we can see an interface open up as shown below.
+
+![Initial Interface](./media/image6.png)
