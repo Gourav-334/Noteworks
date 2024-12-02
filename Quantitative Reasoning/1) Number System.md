@@ -4,7 +4,7 @@
 
 
 
-## **Topic - 1: Simplification & Approximation
+## **Topic - 1: Simplification & Approximation**
 
 ### <u>Vedic Multiplication</u>
 
@@ -30,3 +30,5 @@ $$ 1728 $$
 
 >**<u>NOTE</u>:**
 >In last line, we are adding the tens places to next number.
+
+---

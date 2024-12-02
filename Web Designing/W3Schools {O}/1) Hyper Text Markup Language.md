@@ -659,3 +659,41 @@ document.getElementById("demo").style.backgroundColor = "yellow";
 ### <u>Responsive Design</u>
 
 - **<u>Responsive design</u>:** Adaptable web design which looks good on all devices.
+
+
+
+## **Topic - 7: Block Elements**
+
+### <u>Computer Code</u>
+
+#### Code:
+
+```
+<code>
+
+int x = 2;
+int y = 3;
+
+int z = x + y;
+
+</code>
+```
+
+#### Keyboard input:
+
+```
+<p> <kbd> Ctrl + S </kbd> </p>
+```
+
+#### Sample:
+
+- Used for showing sample output.
+
+```
+<p> <smp> Press any key to continue... </smp> </p>
+```
+
+#### Variable:
+
+- Tag `<var>` is used to define a mathematical expression or code element.
+- 

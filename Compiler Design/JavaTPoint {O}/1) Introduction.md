@@ -304,3 +304,46 @@ $$ \xrightarrow{Input\;stream}\framebox[5cm][c]{Object\;Program}\xrightarrow{Seq
 - **<u>User subroutines</u>:** Auxiliary (intermediate) processes $action_{i}$ uses.
 - These subroutines might work with lexical analyzer but can be compiled separately, having its own independent code.
 - Subroutines are independent of the compiler.
+
+
+
+## **Topic - 8: Formal Grammar**
+
+### <u>Introduction</u>
+
+- **<u>Formal grammar</u>:** Set of rules to know if a string is written in right manner or not.
+- It is represented by $G$.
+
+>**<u>NOTE</u>:**
+>Remember the **"production rule"** thing?
+
+
+### <u>Formula</u>
+
+$$ G\;=\;<V,\;N,\;P,\;S> $$
+
+- $V$ is finite set of terminal symbols.
+- $N$ is finite set of non-terminal symbols.
+- $P$ is set of production rules.
+- $S$ is start symbol.
+
+
+### <u>Example</u>
+
+#### Given:
+
+$$ V\;=\;\{a,\;b\} $$
+$$ N\;=\;\{S,\;R,\;B\} $$
+
+#### Production rules:
+
+$$ S\;=\;bR $$
+$$ R\;=\;aR $$
+$$ R\;=\;aB $$
+$$ B\;=\;b $$
+
+#### Conclusion:
+
+- The production rules described above gives string with pattern $ba^{n}ab$.
+
+![Formal Grammar Automata](./media/image12.png)
