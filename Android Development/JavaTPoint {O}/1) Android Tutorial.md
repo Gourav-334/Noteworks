@@ -438,3 +438,20 @@ public class MainActivity extends Activity //(1)
 
 - **<u>APK file</u>:** A file required in Android to test the application there.
 - **<u>Resources</u>:** A directory containing resource files like ***activity_main***, ***strings***, ***styles*** etc.
+
+
+
+## **Topic - 10: Dalvik Virtual Machine (DVM)**
+
+### <u>Introduction</u>
+
+- Name Dalvik came from a name of town in Iceland which its maker Dan Bornstein belongs to.
+
+
+### <u>Dex Compiler</u>
+
+- DVM uses ***.dex*** files which are compiled from Java classes.
+
+$$ \xrightarrow{Source\;Code\;(.java)}\framebox[6cm][c]{Java Compiler (javac)}\xrightarrow{Class\;Files\;(.class)} $$
+$$ \xrightarrow{Class\;Files\;(.class)}\framebox[6cm][c]{Dex Compiler (dx)}\xrightarrow{Dex\;File\;(.dex)} $$
+$$ \xrightarrow{Dex\;File\;(.dex)}\framebox[6cm][c]{Packaging (aapt)}\xrightarrow{APK\;File\;(.apk)} $$

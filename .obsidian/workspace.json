@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "04727896ea959230",
+        "id": "1711bb2aa46a4728",
         "type": "tabs",
         "children": [
           {
-            "id": "43ab2d4ccb89c3e9",
+            "id": "85f214ae774b944c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantitative Reasoning/2) Averages & Progressions.md",
+                "file": "Competitive Exam Questions/1) Design & Analysis Of Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2) Averages & Progressions"
+              "title": "1) Design & Analysis Of Algorithms"
+            }
+          },
+          {
+            "id": "3b6aec15816bb477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1) Hyper Text Markup Language"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,15 +178,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43ab2d4ccb89c3e9",
+  "active": "3b6aec15816bb477",
   "lastOpenFiles": [
-    "Quantitative Reasoning/1) Number System.md",
-    "Quantitative Reasoning/2) Averages & Progressions.md",
-    "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
+    "Competitive Exam Questions/1) Design & Analysis Of Algorithms.md",
+    "Terminal Scripting/Git Bash.md",
+    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Competitive Exam Questions",
     "Android Development/JavaTPoint {O}/1) Android Tutorial.md",
+    "Terminal Scripting/~$Git.docx",
+    "Development Tools/Untitled.md",
+    "Quantitative Reasoning/2) Averages & Progressions.md",
+    "Quantitative Reasoning/1) Number System.md",
+    "Web Designing/W3Schools {O}/1) Hyper Text Markup Language.md",
     "Android Development/JavaTPoint {O}/media/image7.png",
     "Android Development/JavaTPoint {O}/media/Screenshot 2024-12-02 104026.png",
-    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Compiler Design/JavaTPoint {O}/media/image12.png",
     "Compiler Design/JavaTPoint {O}/media/Screenshot 2024-12-02 085643.png",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.md",
@@ -201,16 +221,11 @@
     "Python Full Stack/College Version {D}/3) Modules and Packages.docx",
     "Python Full Stack/College Version {D}/2) Object Oriented Programming.docx",
     "Python Full Stack/College Version {D}/1) Introduction to Python.docx",
-    "Python Full Stack/College Version {D}/6) Backend With Django.docx",
-    "Python Full Stack/College Version {D}/5) MongoDB as PyMongo.docx",
     "Cyber Security/College Version {O}/1) Information Security.md",
     "C Programming/Barry & Ritchie's {D}/1) A Tutorial Introduction.md",
     "Data Structures/College Version {C}/8) Miscellaneous.md",
     "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
     "Android Development/Untitled.md",
-    "Data Structures/JavaTPoint {O}/1) Introduction.md",
-    "Computer Networking/JavaTPoint {O}/1) Computer Network.md",
-    "Software Engineering/JavaTPoint {O}/1) Introduction.md",
     "Untitled.canvas"
   ]
 }

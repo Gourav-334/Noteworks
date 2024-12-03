@@ -347,3 +347,29 @@ $$ B\;=\;b $$
 - The production rules described above gives string with pattern $ba^{n}ab$.
 
 ![Formal Grammar Automata](./media/image12.png)
+
+
+
+## **Topic - Backus Naur Form (BNF)**
+
+### <u>Introduction</u>
+
+- Standard & formal way to represent CFG.
+
+
+### <u>Representation</u>
+
+$$ Left\;side\;\rightarrow\;definition $$
+
+- The BNF contains at least one non-terminal symbol.
+
+
+### <u>Example</u>
+
+$$ S\;\rightarrow\;aSa $$
+$$ S\;\rightarrow\;bSb $$
+$$ S\;\rightarrow\;c $$
+
+#### Refined:
+
+$$ S\;\rightarrow\;aSa\;|\;bSb\;|\;c $$
