@@ -455,3 +455,48 @@ public class MainActivity extends Activity //(1)
 $$ \xrightarrow{Source\;Code\;(.java)}\framebox[6cm][c]{Java Compiler (javac)}\xrightarrow{Class\;Files\;(.class)} $$
 $$ \xrightarrow{Class\;Files\;(.class)}\framebox[6cm][c]{Dex Compiler (dx)}\xrightarrow{Dex\;File\;(.dex)} $$
 $$ \xrightarrow{Dex\;File\;(.dex)}\framebox[6cm][c]{Packaging (aapt)}\xrightarrow{APK\;File\;(.apk)} $$
+
+
+
+## **Topic - 11: AndroidManifest.xml**
+
+### <u>Introduction</u>
+
+- ***AndroidManifest.xml*** defines the level of access an application can have.
+- It also declares the Android API.
+- And it also contains the instrumentation classes.
+- **<u>Instrumentation class</u>:** Class containing profiling information.
+
+
+### <u>Elements Of AndroidManifest.xml</u>
+
+#### `<manifest>`:
+
+- It is the root element of ***AndroidManifest.xml***.
+- Its attribute `package` defines the name of package used in activity class.
+
+#### `<application>`:
+
+- A sub-element of `<manifest>`.
+- It contains its own sub-elements which contains information about activity.
+- Some of its attributes are `icon`, `label` & `theme`.
+
+#### `<activity>`:
+
+- A sub-element of `<activity>`.
+- It is compulsory to be defined in ***AndroidManifest.xml*** file.
+- Some of its attributes are `label`, `name`, `theme` & `launchMode`.
+
+#### `<intent-filter>`:
+
+- A sub-element of `<activity>`.
+- It defines the intent to which a service can respond to.
+
+#### `<action>`:
+
+- Action for the `<intent-filter>`.
+- Intent filter must have at least one action element.
+
+#### `<category>`:
+
+- Describes the category to which an `intent-filter` belongs.

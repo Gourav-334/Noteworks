@@ -350,7 +350,7 @@ $$ B\;=\;b $$
 
 
 
-## **Topic - Backus Naur Form (BNF)**
+## **Topic - 9: Backus Naur Form (BNF)**
 
 ### <u>Introduction</u>
 
@@ -373,3 +373,22 @@ $$ S\;\rightarrow\;c $$
 #### Refined:
 
 $$ S\;\rightarrow\;aSa\;|\;bSb\;|\;c $$
+
+
+
+## **Topic - 10: Yet Another Compiler Compiler (YACC)**
+
+### <u>Introduction</u>
+
+- YACC is a tool to create parser for a desired syntax grammar.
+- It defines syntactical grammar for a given LALR grammar.
+- **<u>LALR</u>:** Left-to-right
+
+
+### <u>Compilation Steps</u>
+
+$$ \xrightarrow{Grammar\;file\;(.y)}\framebox[4cm][c]{YACC Program}\xrightarrow{Source\;program\;(.c)} $$
+$$ \xrightarrow{Source\;program\;(.c)}\framebox[4cm][c]{GCC Compiler}\xrightarrow{Executable\;(.out)} $$
+
+- The executable file (***.a***) contains the parsing tables.
+- YACC program uses `yyparse()` function for parsing & `yylex()` for getting tokens.
