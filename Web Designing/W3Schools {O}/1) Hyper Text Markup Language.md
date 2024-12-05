@@ -50,7 +50,12 @@
 #### Images:
 
 ```
-<img src="myimage.jpg" alt="Image" width="104" height="142">
+<img
+	src="myimage.jpg"
+	alt="Image"
+	width="104"
+	height="142"
+>
 ```
 
 - `alt` provides text for image, which is shown when image hasn't loaded.
@@ -170,7 +175,9 @@ USA
 #### Bi-directional override:
 
 ```
-<bdo dir="rtl"> This text will be written from right to left </bdo>
+<bdo dir="rtl">
+	This text will be written from right to left
+</bdo>
 ```
 
 ### <u>Comments</u>
@@ -179,10 +186,10 @@ USA
 
 ```
 <!--
-This
-is a
-multiline
-comment
+	This
+	is a
+	multiline
+	comment
 -->
 ```
 
@@ -252,7 +259,11 @@ comment
 - We implement a button using JavaScript code.
 
 ```
-<button onclick="document.location='default.asp'"> HTML Tutorial </button>
+<button
+	onclick="document.location='default.asp'"
+>
+	HTML Tutorial
+</button>
 ```
 
 
@@ -270,7 +281,7 @@ a:link, a:visited
 	text-decoration: none;  
 	display: inline-block;
 }  
-  
+
 a:hover, a:active
 {
 	background-color: red;
@@ -307,7 +318,11 @@ a:hover, a:active
 #### Basics:
 
 ```
-<img src="img_girl.jpg" alt="Girl in jacket" style="width:500px;height:600px;">
+<img 
+	src="img_girl.jpg"
+	alt="Girl in jacket"
+	style="width:500px;height:600px;"
+>
 ```
 
 #### Image map:
@@ -321,9 +336,25 @@ a:hover, a:active
 
 <map name="workmap">  
 
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">  
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">  
-  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">  
+<area
+	  shape="rect"
+	  coords="34,44,270,350"
+	  alt="Computer"
+	  href="computer.htm"
+>
+
+<area
+	 shape="rect"
+	 coords="290,172,333,250"
+	 alt="Phone"
+	 href="phone.html"
+>  
+
+<area
+	shape="circle"
+	coords="337,300,44"
+	alt="Coffee"
+	href="coffee.htm">  
   
 </map>
 ```
@@ -365,7 +396,12 @@ body
 ```
 <head>  
 	<title> My Page Title </title>  
-	<link rel="icon" type="image/x-icon" href="favicon.ico">  
+	
+	<link
+		rel="icon"
+		type="image/x-icon"
+		href="favicon.ico"
+	>  
 </head>
 ```
 
@@ -619,7 +655,9 @@ It's a <span> very pleasant </span> day.
 - `<noscript>` tag is used to display message when website doesn't support JavaScript.
 
 ```
-<noscript> Sorry, your website doesn't support JavaScript. </noscript>
+<noscript>
+	Sorry, your website doesn't support JavaScript.
+</noscript>
 ```
 
 
@@ -696,4 +734,83 @@ int z = x + y;
 #### Variable:
 
 - Tag `<var>` is used to define a mathematical expression or code element.
-- 
+
+
+
+## **Topic - 8: Symbolic References**
+
+- Many entities, symbols & emojis can be displayed using their names or IDs.
+- It includes $<$, $>$ etc which can't be displayed directly.
+
+
+
+## **Topic - 9: Forms**
+
+### <u>Introduction</u>
+
+```
+<form>
+	<label for="fname"> First name: </label> <br>
+	<input type="text" name="fname" value="John"> <br>
+
+	<input type="submit" value="Submit">
+</form>
+```
+
+
+### <u>Attributes</u>
+
+```
+<form
+	action="/action_page.php"
+	target="_blank"
+	method="get"
+	autocomplete="on"
+	novalidate
+>
+```
+
+- For sensitive data, use `post` instead of `get`.
+- `novalidate` is used for telling that the data not to be validated.
+
+
+### <u>Button</u>
+
+```
+<button
+	type="button"
+	onclick="alert('Hello World!')"
+>
+	Click Me!
+</button>
+```
+
+
+
+## **Topic - 10: Media**
+
+### <u>Video</u>
+
+```
+<video width="320" height="240" controls>  
+	<source src="movie.mp4" type="video/mp4">
+	<source src="movie.ogg" type="video/ogg">   
+	
+	Your browser does not support the video tag.
+</video>
+```
+
+- `controls` provides controls for video.
+- We can also add `autoplay` and `muted`.
+
+
+### <u>Audio</u>
+
+```
+<audio controls>  
+	<source src="horse.ogg" type="audio/ogg">  
+	<source src="horse.mp3" type="audio/mpeg">  
+	
+	Your browser does not support the audio element.  
+</audio>
+```

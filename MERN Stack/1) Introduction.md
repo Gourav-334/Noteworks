@@ -188,3 +188,57 @@
 |          Central tool used is just a code editor.          |      Tools used includes RDBMS & OOP languages.      |  Uses both of the sets.   |
 |  Skills required are in HTML, CSS & UX design principles.  | Skills are required in PHP, Ruby on Rails & Node.js. |  Uses both of the sets.   |
 |             Easiest to learn among the three.              |               Steeper learning curve.                | Steepest learning curve.  |
+
+
+
+## **Topic - 7: MEA(R)N Stack**
+
+### <u>Introduction</u>
+
+- MEAN stack is open-source.
+- It uses only JavaScript.
+- Includes tools for both frontend & backend development.
+
+![MEA(R)N Layers](./media/image6.png)
+
+
+### <u>MongoDB</u>
+
+- **<u>NoSQL databases</u>:** Non-relational database management systems.
+- NoSQL databases don't have any fixed schema.
+- MongoDB uses stores files in JSON format.
+- The document structure used by MongoDB is highly scalable & flexible.
+- Uses indexing techniques.
+
+>**<u>NOTE</u>:**
+>Actually scalability is directly proportional to number of servers.
+
+
+### <u>ExpressJS</u>
+
+- ExpressJS is used in backend of a website.
+- Primarily used for building SPAs, though supports other types too.
+- Provides models for URL routing.
+- **<u>URL routing</u>:** Matching sent URL with server function & passing if not same.
+
+
+### <u>AngularJS</u>
+
+- AngualrJS is used for frontend development.
+- Developed by Google using Typescript.
+- Can develop small SPAs & even large enterprise applications!
+- Provides features like two-way data binding, dependency injection, dynamically interactive page.
+- **<u>Two-way data binding</u>:** Changes in UI makes changes in underlying model code & vice-versa.
+- **<u>Dependency injection</u>:** Injecting the required code instead of literally importing whole framework for loose coupling.
+- AngularJS is extension of the DOM model.
+
+
+### <u>NodeJS</u>
+
+- NodeJS enables server-side JavaScript execution.
+- It is a non-blocking I/O architecture.
+- **<u>Non-blocking I/O architecture</u>:** Architecture which doesn't halt any program while another one is getting executed, instead it passes data as it comes.
+- It is neither a programming language nor a framework.
+- Its asynchronous, and thus executes all codes simultaneously.
+
+---

@@ -500,3 +500,11 @@ $$ \xrightarrow{Dex\;File\;(.dex)}\framebox[6cm][c]{Packaging (aapt)}\xrightarro
 #### `<category>`:
 
 - Describes the category to which an `intent-filter` belongs.
+
+
+
+## **Topic - 12: R.java**
+
+- ***R.java*** is an auto-generated file by aapt.
+- Creating or deleting any kind of ID from ***activity_main.xml*** makes changes to ***R.java*** as well.
+- If someone deletes ***R.java*** file, DVM creates it again.

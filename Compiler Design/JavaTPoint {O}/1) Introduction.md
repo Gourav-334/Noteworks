@@ -244,13 +244,13 @@ The operations shown below are with respect to two RE called $L$ & $M$.
 
 - Union of $L$ and $M$ will also be a regular expression.
 
-$$ L\;\cup\;M\;=\;{ s\;|\;s\;is\;in\;L\;or\;M} $$
+$$ L\;\cup\;M\;=\;\{s\;|\;s\;is\;in\;L\;or\;M\} $$
 
 #### Intersection:
 
 - Intersection of $L$ and $M$ will also be a regular expression.
 
-$$ L\;\cap\;M\;=\;{st\;|\;s\;is\;in\;L\;and\;t\;is\;in\;M} $$
+$$ L\;\cap\;M\;=\;\{st\;|\;s\;is\;in\;L\;and\;t\;is\;in\;M\} $$
 
 #### Kleene closure:
 
@@ -392,3 +392,11 @@ $$ \xrightarrow{Source\;program\;(.c)}\framebox[4cm][c]{GCC Compiler}\xrightarro
 
 - The executable file (***.a***) contains the parsing tables.
 - YACC program uses `yyparse()` function for parsing & `yylex()` for getting tokens.
+
+
+
+## **Topic - 11: Capabilities Of CFGs**
+
+- CFGs can define more programming languages than FA.
+- CFGs primarily uses laws of associativity & precedence.
+- They can describe nested structures & parts of codes which define beginning and end of something.
