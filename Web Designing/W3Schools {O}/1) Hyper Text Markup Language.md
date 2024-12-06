@@ -8,7 +8,7 @@
 
 ### <u>General Format</u>
 
-```
+```html
 <!DOCTYPE html>
 
 <html>
@@ -35,7 +35,7 @@
 
 #### HTML hyperlinks:
 
-```
+```html
 <a href="https://www.w3schools.com" target="_self"> Link </a>
 ```
 
@@ -49,7 +49,7 @@
 
 #### Images:
 
-```
+```html
 <img
 	src="myimage.jpg"
 	alt="Image"
@@ -66,7 +66,7 @@
 
 #### Breakpoint:
 
-```
+```html
 <p> Paragraph 1 </p> <br>
 <p> Paragraph <br> 2 </p>
 ```
@@ -79,7 +79,7 @@
 
 #### Style:
 
-```
+```html
 <p style="color:red; font-size:60px;"> Red text. </p>
 ```
 
@@ -89,7 +89,7 @@
 
 - A title defines information about paragraph.
 
-```
+```html
 <p title="I'm for help"> Paragraph </p>
 ```
 
@@ -100,7 +100,7 @@
 
 #### Horizontal rule:
 
-```
+```html
 <p> Paragraph 1. </p>
 <hr>
 <p> Paragraph 2. </p>
@@ -131,7 +131,7 @@
 
 - Blockquote is used to quote information which actually belongs to another website.
 
-```
+```html
 <blockquote cite="http://www.worldwildlife.org/who/index.html">
 
 For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.  
@@ -144,7 +144,7 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 
 - Abbreviation tag is used for expanding a short form when it is hovered over.
 
-```
+```html
 <p>The <abbr title="World Health Organization"> WHO </abbr> was founded in 1948.</p>
 ```
 
@@ -152,7 +152,7 @@ For 60 years, WWF has worked to help people and nature thrive. As the world's le
 
 - Address tag is used to write address of the author.
 
-```
+```html
 <address> 
 
 Written by John Doe.<br>  
@@ -168,13 +168,13 @@ USA
 
 - Cite tag is used to define title of a creative work like movie, poem, novel etc.
 
-```
+```html
 <p> <cite> The Scream </cite> by Edvard Munch. Painted in 1893. </p>
 ```
 
 #### Bi-directional override:
 
-```
+```html
 <bdo dir="rtl">
 	This text will be written from right to left
 </bdo>
@@ -184,7 +184,7 @@ USA
 
 ### Multi-line comments:
 
-```
+```html
 <!--
 	This
 	is a
@@ -195,7 +195,7 @@ USA
 
 #### Inline comment:
 
-```
+```html
 <p> This is <!-- Comment --> a paragraph. </p>
 ```
 
@@ -209,7 +209,7 @@ USA
 - There are two more formats called RGBA & SHLA where **'A'** stands for Alpha.
 - **<u>SHL</u>:** Saturation, Hue & Lightness
 
-```
+```html
 <h1 style="background-color:rgb(255, 99, 71);">...</h1>  
 <h1 style="background-color:#ff6347;">...</h1>  
 <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>  
@@ -225,7 +225,7 @@ USA
 
 - It is defined inside `<head>` tag only.
 
-```
+```html
 <head>
 	<style>
 
@@ -241,7 +241,7 @@ USA
 
 - External CSS also has to be defined inside the `<head>` tag.
 
-```
+```html
 <head>  
   <link rel="stylesheet" href="styles.css">  
 </head>
@@ -249,7 +249,7 @@ USA
 
 #### <u>Mailing Hyperlink</u>
 
-```
+```html
 <a href="mailto:someone@example.com"> Send email </a>
 ```
 
@@ -258,7 +258,7 @@ USA
 
 - We implement a button using JavaScript code.
 
-```
+```html
 <button
 	onclick="document.location='default.asp'"
 >
@@ -269,7 +269,7 @@ USA
 
 ### <u>Color Links</u>
 
-```
+```html
 <style>
 
 a:link, a:visited
@@ -300,14 +300,14 @@ a:hover, a:active
 
 #### Same page:
 
-```
+```html
 <h2 id="C4"> Chapter 4 </h2>
 <a href="#C4"> Jump to Chapter 4 </a>
 ```
 
 #### Another page:
 
-```
+```html
 <h2 id="C4"> Chapter 4 </h2>
 <a href="demo.html#C4"> Jump to Chapter 4 </a>
 ```
@@ -317,7 +317,7 @@ a:hover, a:active
 
 #### Basics:
 
-```
+```html
 <img 
 	src="img_girl.jpg"
 	alt="Girl in jacket"
@@ -329,7 +329,7 @@ a:hover, a:active
 
 - Image maps are used for creating clickable parts in the image.
 
-```
+```html
 <map name="workmap">
 
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap">  
@@ -361,7 +361,7 @@ a:hover, a:active
 
 #### Background image:
 
-```
+```html
 <style> 
 
 body
@@ -380,7 +380,7 @@ body
 
 - Tells when to load a picture, which is of a particular type.
 
-```
+```html
 <picture>  
 	<source media="(min-width: 650px)" srcset="img_food.jpg">  
 	<source media="(min-width: 465px)" srcset="img_car.jpg">  
@@ -393,7 +393,7 @@ body
 
 - Favicon is the icon displayed on the website's bar.
 
-```
+```html
 <head>  
 	<title> My Page Title </title>  
 	
@@ -410,7 +410,7 @@ body
 
 ### <u>Table</u>
 
-```
+```html
 <table>
 
 	<tr>  
@@ -440,7 +440,7 @@ body
 
 #### CSS attributes:
 
-```
+```css
 table, th, td
 {
 	border: 1px solid white;  
@@ -459,7 +459,7 @@ table, th, td
 
 #### Header for multiple columns:
 
-```
+```html
 <tr>  
 	<th colspan="2"> Name </th>  
 	<th> Age </th>  
@@ -471,7 +471,7 @@ table, th, td
 
 #### Captions:
 
-```
+```html
 <table style="width:100%">  
 	<caption>Monthly savings</caption>
 	
@@ -484,7 +484,7 @@ table, th, td
 
 ![Padding & Spacing](./media/image2.png)
 
-```
+```css
 th, td
 {
 	padding: 15px;
@@ -495,7 +495,7 @@ th, td
 
 #### Spacing:
 
-```
+```css
 table
 {
 	border-spacing: 30px;
@@ -508,7 +508,7 @@ table
 
 ### <u>Description List</u>
 
-```
+```html
 <dl>  
 	<dt>Coffee</dt>  
 		<dd>- black hot drink</dd>  
@@ -533,7 +533,7 @@ table
 - `<div>` tag defines division of a whole section.
 - The written text inside it is seen in a box.
 
-```
+```html
 <div> Hello, World! </div>
 ```
 
@@ -542,7 +542,7 @@ table
 - Inline version of `<div>`.
 - We use `<span>` tag for it.
 
-```
+```html
 It's a <span> very pleasant </span> day.
 ```
 
@@ -558,7 +558,7 @@ It's a <span> very pleasant </span> day.
 - We can use flex to keep divisions side-by-side.
 - Let's experiment with the HTML for image shown above.
 
-```
+```html
 <style>
 	.mycontainer {display: flex;}  
 	.mycontainer > div {width: 33%;}
@@ -572,7 +572,7 @@ It's a <span> very pleasant </span> day.
 
 - Almost same as flex, but we can use it for each individual division inside division (nested division).
 
-```
+```html
 <style>
 	.grid-container
 	{
@@ -585,7 +585,7 @@ It's a <span> very pleasant </span> day.
 
 ### <u>Class</u>
 
-```
+```html
 <style>
 .city
 {
@@ -606,7 +606,7 @@ It's a <span> very pleasant </span> day.
 
 ### <u>ID</u>
 
-```
+```html
 #myHeader
 {
 	background-color: lightblue;  
@@ -623,7 +623,7 @@ It's a <span> very pleasant </span> day.
 
 - Used to embed a website inside website.
 
-```
+```html
 <iframe src="url"> </iframe>
 ```
 
@@ -632,7 +632,7 @@ It's a <span> very pleasant </span> day.
 
 #### Removing border around:
 
-```
+```html
 <iframe src="url" style="border:none;"> </iframe>
 ```
 
@@ -644,7 +644,7 @@ It's a <span> very pleasant </span> day.
 
 ### <u>Introduction</u>
 
-```
+```html
 <script>
 	document.getElementById("demo").innerHTML = "Hello JavaScript";
 </script>
@@ -654,7 +654,7 @@ It's a <span> very pleasant </span> day.
 
 - `<noscript>` tag is used to display message when website doesn't support JavaScript.
 
-```
+```html
 <noscript>
 	Sorry, your website doesn't support JavaScript.
 </noscript>
@@ -663,7 +663,7 @@ It's a <span> very pleasant </span> day.
 
 ### <u>CSS Manipulation</u>
 
-```
+```js
 document.getElementById("demo").style.fontSize = "25px";  
 document.getElementById("demo").style.color = "red";  
 document.getElementById("demo").style.backgroundColor = "yellow";
@@ -678,7 +678,7 @@ document.getElementById("demo").style.backgroundColor = "yellow";
 - `charset` attribute is used for defining character set.
 - While `content` is used for defining way to fit content in screen.
 
-```
+```html
 <meta charset="UTF-8" content="width=device-width">
 ```
 
@@ -706,7 +706,7 @@ document.getElementById("demo").style.backgroundColor = "yellow";
 
 #### Code:
 
-```
+```html
 <code>
 
 int x = 2;
@@ -719,7 +719,7 @@ int z = x + y;
 
 #### Keyboard input:
 
-```
+```html
 <p> <kbd> Ctrl + S </kbd> </p>
 ```
 
@@ -727,7 +727,7 @@ int z = x + y;
 
 - Used for showing sample output.
 
-```
+```html
 <p> <smp> Press any key to continue... </smp> </p>
 ```
 
@@ -748,7 +748,7 @@ int z = x + y;
 
 ### <u>Introduction</u>
 
-```
+```html
 <form>
 	<label for="fname"> First name: </label> <br>
 	<input type="text" name="fname" value="John"> <br>
@@ -760,7 +760,7 @@ int z = x + y;
 
 ### <u>Attributes</u>
 
-```
+```html
 <form
 	action="/action_page.php"
 	target="_blank"
@@ -776,7 +776,7 @@ int z = x + y;
 
 ### <u>Button</u>
 
-```
+```html
 <button
 	type="button"
 	onclick="alert('Hello World!')"
@@ -791,7 +791,7 @@ int z = x + y;
 
 ### <u>Video</u>
 
-```
+```html
 <video width="320" height="240" controls>  
 	<source src="movie.mp4" type="video/mp4">
 	<source src="movie.ogg" type="video/ogg">   
@@ -806,7 +806,7 @@ int z = x + y;
 
 ### <u>Audio</u>
 
-```
+```html
 <audio controls>  
 	<source src="horse.ogg" type="audio/ogg">  
 	<source src="horse.mp3" type="audio/mpeg">  
@@ -814,3 +814,5 @@ int z = x + y;
 	Your browser does not support the audio element.  
 </audio>
 ```
+
+---

@@ -215,19 +215,19 @@
 - We can also use command line for running AVD Manager.
 - First navigate to the location of emulator, then write the following command.
 
-```
+```sh
 $ emulator -avd avd_name [{-option[value]}...]
 ```
 
 $$ OR $$
 
-```
+```sh
 $ emulator @avd_name [{-option[value]}...]
 ```
 
 #### To display all AVD names:
 
-```
+```sh
 $ emulator -list-avds
 ```
 
@@ -323,7 +323,7 @@ $ emulator -list-avds
 - We can make changes to the given XML file if required.
 - Now let's write the Java code in our source file.
 
-```
+```java
 package first.javatpoint.com.welcome;
 
 import android.support.v7.app.AppCompatActivity;
@@ -365,7 +365,7 @@ public class MainActivity extends AppCompatActivity
 
 - ***MainActivity.java*** is the default source file created by Eclipse.
 
-```
+```java
 package com.example.helloandroid;
 
 import android.os.Bundle;
@@ -398,7 +398,7 @@ public class MainActivity extends Activity //(1)
 
 ### <u>activity_main.xml</u>
 
-```
+```xml
 <RelativeLayout 
 	xmlns:androclass="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"  

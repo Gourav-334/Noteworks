@@ -74,7 +74,7 @@
 - It is also responsible for checking syntax of configuration file.
 - If the syntax grammar is found correct, it creates metadata & returns that to the object.
 
-```
+```java
 Configuration cfg = new Configuration();
 cfg.configure();
 ```
@@ -87,7 +87,7 @@ cfg.configure();
 - It is both immutable & thread-safe.
 - **<u>Thread-safe code</u>:** A piece of code that can be accessed by multiple threads concurrently, safely.
 
-```
+```java
 SessionFactory factory = cfg.buildSessionFactory();
 ```
 
@@ -100,7 +100,7 @@ SessionFactory factory = cfg.buildSessionFactory();
 - However, this object is not thread-safe.
 - We use this same object for performing CRUD operations.
 
-```
+```java
 Session session = factory.buildSession();
 ```
 
@@ -110,7 +110,7 @@ Session session = factory.buildSession();
 - `Transaction` object is used when we want to perform an operation which affects the database.
 - We use `commit()` method from `Transaction` to confirm making changes to database.
 
-```
+```java
 Transaction tx = session.beginTransaction();
 tx.commit();
 ```
@@ -123,7 +123,7 @@ tx.commit();
 
 #### Other methods in `Query`:
 
-```
+```java
 Session.iterate();
 Session.find();
 setMaxResults();
@@ -139,7 +139,7 @@ setFirstResult();
 
 ### <u>XML File Example</u>
 
-```
+```xml
 <?xml version = "1.0" encoding = "utf-8">
 
 <hibernate-configuration>
@@ -168,7 +168,7 @@ setFirstResult();
 
 ### <u>Creating SessionFactory Object</u>
 
-```
+```java
 // Configuration
 
 Configuration formats = new Configuration().configure();
@@ -189,7 +189,7 @@ ServiceRegistry register = new StandardServiceRegistryBuilder().applySettings(co
 
 ### <u>Proper Code Example</u>
 
-```
+```java
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -225,7 +225,7 @@ public class HibernateUtil_Ex1
 
 - Now we can use `getSessionFactory()` method to access Hibernate session object.
 
-```
+```java
 Session session = HibernateUtil.getSessionFactory().openSession();
 ```
 
@@ -234,7 +234,7 @@ Session session = HibernateUtil.getSessionFactory().openSession();
 
 - Actually, the classes & their properties are mapped with tables of the databases, in the configuration file.
 
-```
+```java
 // <persistent_class_name>.hbm.xml
 Employee.hbm.xml
 ```
@@ -283,7 +283,7 @@ Employee.hbm.xml
 - `@Id`
 - `@GeneratedValue`
 
-```
+```java
 import javax.persistence.*;
 
 @Entity
@@ -350,7 +350,7 @@ public class Employee
 
 ### <u>One-To-One Mapping</u>
 
-```
+```java
 @PrimaryKeyJoinColumn
 private int employeeId;
 private String name, email;
@@ -362,7 +362,7 @@ private Address address;
 
 ### <u>One-To-Many Mapping</u>
 
-```
+```java
 @OneToMany(Cascade = CascadeType.ALL)
 @JoinColumn(name = "EMPLOYEE_ID")
 private Set<Account> accounts;
@@ -371,7 +371,7 @@ private Set<Account> accounts;
 
 ### <u>Many-To-Many Mapping</u>
 
-```
+```java
 @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
 
 @JoinTable(
@@ -414,7 +414,7 @@ private Set<Subscription> subscriptions;
 - We create an instance for interface `Crietria` using a `createCriteria()` method of `Session` class.
 - It is present in `org.Hibernate.Criteria` package.
 
-```
+```java
 public Criteria createCrietria(Class classname)
 ```
 

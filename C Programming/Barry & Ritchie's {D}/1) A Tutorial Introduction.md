@@ -20,7 +20,7 @@
 
 ### <u>Basic Program Anatomy</u>
 
-```
+```c
 #include <stdio.h>
 
 main()
@@ -38,7 +38,7 @@ main()
 
 - Broken statements like the one given below can generate errors.
 
-```
+```c
 printf("Hello, World!
 ");
 ```
@@ -55,7 +55,7 @@ $$ C = (5/9)(F-32) $$
 
 - **<u>Declaration</u>:** Mentioning name with data type of a variable.
 
-```
+```c
 float celc, fahr;
 ```
 
@@ -97,7 +97,7 @@ float celc, fahr;
 
 #### `getchar()` function:
 
-```
+```c
 c = getchar();
 ```
 
@@ -105,7 +105,7 @@ c = getchar();
 
 #### `putchar()` function:
 
-```
+```c
 putchar(c);
 ```
 

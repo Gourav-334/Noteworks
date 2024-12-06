@@ -82,7 +82,7 @@
 - Enclosed between `<%` and `%>`.
 - JSP transfers these to `jspService()` method for generating Servlet.
 
-```
+```html
 <% int count = 0; %>
 
 <body>
@@ -97,7 +97,7 @@
 - Enclosed between `<!%` and `%>`.
 - Is not passed to `_jspService()` method.
 
-```
+```html
 <%! String name = "Gourav"; %>
 ```
 
@@ -113,7 +113,7 @@
   `isThreadSafe`, `isErrorPage`, `errorPage`, `contentType`, `autoFlush`, `Buffer`
   etc.
 
-```
+```html
 <%@ include file="myfile.jsp" %>
 <%@ taglib uri="<http://someWebsite>" prefix="demotag" %>
 ```
@@ -133,7 +133,7 @@
 - Evaluates the expression stored in it.
 - Required when user makes HTTP request.
 
-```
+```html
 <%= new String("Hello World").toUpperCase() %>  
 <%= num1 + num2 + num3 %>
 ```
@@ -141,7 +141,7 @@
 
 ### <u>JSP Comments</u>
 
-```
+```html
 <%-- JSP comment %>
 <% /** multiline comment **/%>
 <!-- HTML comment -->
@@ -171,7 +171,7 @@
 
 ### <u>JSP config</u>
 
-```
+```java
 String getInitParameter(String name)
 Enumeration getInitParameterNames
 ServletContext getServletContext()
@@ -181,7 +181,7 @@ String getServletName()
 
 ### <u>JSP out</u>
 
-```
+```java
 void print()
 void println()
 void newline()
@@ -195,7 +195,7 @@ int getBufferSize()
 
 ### <u>JSP pageContext</u>
 
-```
+```java
 void setAttribute(String AttributeName, Object AttributeValue, int Scope)
 Object getAttribute(String AttributeName, int Scope)
 void removeAttribute(String AttributeName, int Scope)
@@ -211,7 +211,7 @@ Object findAttribute(String AttributeName)
 - Uses `java.lang.Throwable` object.
 - But a JSP page must have an `isErrorPage` to be able to use it.
 
-```
+```html
 <%@ page errorPage="exception.jsp" %>
 
 <%
@@ -230,13 +230,13 @@ Object findAttribute(String AttributeName)
 
 #### Uses following code format:
 
-```
+```html
 <jsp:actionname attribute="">
 ```
 
 #### JSP action tags:
 
-```
+```html
 <jsp:forward>
 <jsp:include>
 <jsp:plugin>
@@ -251,7 +251,7 @@ Object findAttribute(String AttributeName)
 
 #### JSP action tags examples:
 
-```
+```html
 <jsp:param name="name" value="value"/>
 <jsp:setProperty name="name" property="property"/>
 ```
@@ -262,7 +262,7 @@ Object findAttribute(String AttributeName)
 - It simplifies accessing data using JSP objects with arithmetic, relational & logical operators.
 - It also uses conditional statements & loops.
 
-```
+```java
 ${1<2}, ${1+2+3}, ${param.emailid}
 ```
 
@@ -291,7 +291,7 @@ ${1<2}, ${1+2+3}, ${param.emailid}
 
 #### Example 1:
 
-```
+```html
 <c:catch var="myException">
 	<% int num = 10/0; %>
 </c:catch>
@@ -299,7 +299,7 @@ ${1<2}, ${1+2+3}, ${param.emailid}
 
 #### Example 2:
 
-```
+```html
 <c:if test="${count == 100}"/>
 	<c:out value="The count is 100"/>
 </c:if>
@@ -314,7 +314,7 @@ ${1<2}, ${1+2+3}, ${param.emailid}
 
 #### Making custom tag:
 
-```
+```html
 <taglib>
 	<tlib-version> 1.0 </tlib-version>
 	<jsp-version> 2.0 </jsp-version>
@@ -333,7 +333,7 @@ ${1<2}, ${1+2+3}, ${param.emailid}
 
 - An example for a tag handler file will be as below as `myTag.java`.
 
-```
+```java
 package demotest;
 import javax.servlet.jsp.tagext.*;
 import javax.servlet.jsp.*;
@@ -351,7 +351,7 @@ public class myTag extends SimpleTagSupport
 
 #### Executing the tag code:
 
-```
+```html
 <%@ taglib prefix="ex" uri="WEB-INF/custom.tld" %>
 
 <body>

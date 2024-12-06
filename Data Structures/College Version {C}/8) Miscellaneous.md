@@ -4,8 +4,6 @@
 
 
 
-## **Topic - 1: Skip List**
+## **Topic - 1: More Notations**
 
-### <u>Introduction</u>
-
-- 
+### <u>Small O</u>

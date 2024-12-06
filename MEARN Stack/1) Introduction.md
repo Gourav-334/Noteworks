@@ -206,7 +206,8 @@
 
 - **<u>NoSQL databases</u>:** Non-relational database management systems.
 - NoSQL databases don't have any fixed schema.
-- MongoDB uses stores files in JSON format.
+- MongoDB uses stores files in BSON format.
+- **<u>BSON</u>:** Binary JSON
 - The document structure used by MongoDB is highly scalable & flexible.
 - Uses indexing techniques.
 

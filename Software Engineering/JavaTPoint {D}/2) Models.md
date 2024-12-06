@@ -70,7 +70,6 @@
 
 - RAD believes that software can be constructed in a very less time if we keep certain things in our mind.
 - Derived from Waterfall & incremental model.
-- 
 
 #### Things to keep in mind:
 

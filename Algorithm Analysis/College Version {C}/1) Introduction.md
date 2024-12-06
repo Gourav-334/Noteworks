@@ -100,7 +100,7 @@
 
 ### <u>Example (Recurrence)</u>
 
-```
+```c
 int fib (int n)
 {
 	if (n<=1)
