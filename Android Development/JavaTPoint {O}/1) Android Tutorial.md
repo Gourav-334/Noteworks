@@ -508,3 +508,69 @@ $$ \xrightarrow{Dex\;File\;(.dex)}\framebox[6cm][c]{Packaging (aapt)}\xrightarro
 - ***R.java*** is an auto-generated file by aapt.
 - Creating or deleting any kind of ID from ***activity_main.xml*** makes changes to ***R.java*** as well.
 - If someone deletes ***R.java*** file, DVM creates it again.
+
+
+
+## **Topic - 13: Hiding Title Bar
+### <u>Introduction</u>
+
+- We will the title bar where the time, charge & network etc is seen.
+- For this, we use `requestWindowFeature(Window.FEATURE_NO_TITLE)` method.
+- It is coded before `setContentView()` method.
+
+
+### <u>Hiding Title Bar</u>
+
+```java
+// Hides the title
+requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+// Hides the title bar
+getSupportActionBar().hide();
+```
+
+
+### <u>Enabling Full Screen</u>
+
+- We pass a parameter for enabling full screen to `setFlags()` method.
+
+```java
+this.getWindow().setFlags(
+	WindowManager.LayoutParams.FLAG_FULLSCREEN,
+	WindowManager.LayoutParams.FLAG_FULLSCREEN
+);
+```
+
+
+### <u>Complete Method Code</u>
+
+```java
+@Override
+	protected void onCreate(Bundle savedInstanceState) //(2)
+	{
+		super.onCreate(savedInstanceState);
+		
+		// Hiding title bar
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		getSupportActionBar().hide();
+		
+		// Enabling full screen
+		this.getWindow().setFlags(
+			WindowManager.LayoutParams.FLAG_FULLSCREEN,
+			WindowManager.LayoutParams.FLAG_FULLSCREEN
+		);
+		
+		setContentView(R.layout.activity_main); //(3)
+	}
+```
+
+
+### <u>Changes Screenshots</u>
+
+#### Before:
+
+![Before](./media/image8.png)
+
+#### After:
+
+![After](./media/image9.png)

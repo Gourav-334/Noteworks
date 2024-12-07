@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27a636135baf16e4",
+        "id": "044a7fce667bae2b",
         "type": "tabs",
         "children": [
           {
-            "id": "09a426110e4d41a1",
+            "id": "9734756739a3ce61",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,8 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09a426110e4d41a1",
+  "active": "9734756739a3ce61",
   "lastOpenFiles": [
+    "Quantitative Reasoning/3) Ratio & Proportion.md",
+    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Android Development/JavaTPoint {O}/1) Android Tutorial.md",
+    "Android Development/JavaTPoint {O}/media/image9.png",
+    "Android Development/JavaTPoint {O}/media/image9.png.crdownload",
+    "Android Development/JavaTPoint {O}/media/image8.png",
+    "Android Development/JavaTPoint {O}/media/image8.png.crdownload",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2024-12-07 121449.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2024-12-07 121434.png",
     "MEARN Stack/2) MongoDB.md",
     "MEARN Stack/1) Introduction.md",
     "MEARN Stack/media/image7.png",
@@ -176,10 +185,8 @@
     "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
     "Enterprise Programming/ByteXL {D}/3) Java Server Page.md",
     "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
-    "Android Development/JavaTPoint {O}/1) Android Tutorial.md",
     "Data Structures/College Version {C}/8) Miscellaneous.md",
     "Cyber Security/College Version {O}/1) Information Security.md",
-    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Competitive Exam Questions/1) Design & Analysis Of Algorithms.md",
     "C Programming/Barry & Ritchie's {D}/1) A Tutorial Introduction.md",
     "Algorithm Analysis/College Version {C}/2) Divide & Conquer Algorithm.md",
@@ -188,10 +195,6 @@
     "Web Designing/W3Schools {O}/media/Screenshot 2024-12-06 113733.png",
     "Web Designing/W3Schools {O}/media/image9.png",
     "Web Designing/W3Schools {O}/media/Screenshot 2024-12-06 113341.png",
-    "Web Designing/W3Schools {O}/media/image8.png",
-    "Web Designing/W3Schools {O}/media/Screenshot 2024-12-06 113030.png",
-    "MERN Stack/media/image6.png",
-    "MERN Stack/media/Screenshot 2024-12-05 230231.png",
     "Competitive Exam Questions",
     "Terminal Scripting/~$Git.docx",
     "Development Tools/Untitled.md",
@@ -204,8 +207,6 @@
     "Software Engineering/JavaTPoint {D}",
     "Python Full Stack/College Version {D}/4) MySQL Connector.docx",
     "Python Full Stack/College Version {D}/3) Modules and Packages.docx",
-    "Python Full Stack/College Version {D}/2) Object Oriented Programming.docx",
-    "Python Full Stack/College Version {D}/1) Introduction to Python.docx",
     "Untitled.canvas"
   ]
 }

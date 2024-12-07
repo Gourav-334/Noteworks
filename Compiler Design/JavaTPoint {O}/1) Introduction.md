@@ -400,3 +400,10 @@ $$ \xrightarrow{Source\;program\;(.c)}\framebox[4cm][c]{GCC Compiler}\xrightarro
 - CFGs can define more programming languages than FA.
 - CFGs primarily uses laws of associativity & precedence.
 - They can describe nested structures & parts of codes which define beginning and end of something.
+
+
+
+## **Topic - 12: Derivation**
+
+- **<u>Derivation</u>:** Deriving an input using production rules.
+- There are two types of derivation, left-derivation & right-derivation.
