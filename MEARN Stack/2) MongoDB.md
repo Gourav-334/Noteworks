@@ -1,4 +1,4 @@
-# <u>Chapter 2</u>: MONGODB
+# $\fbox{Chapter 2: MONGODB}$
 
 
 
@@ -35,7 +35,7 @@
 
 
 
-## **Topic - 2: MongoDB**
+## **Topic - 2: MongoDB Architecture**
 
 ### <u>Introduction</u>
 
@@ -71,4 +71,141 @@
 
 - **<u>Schema-less database</u>:** Database whose collection can store different types of documents.
 - **<u>Document oriented</u>:** Database whose data are stored in key-value pairs.
-- Fields are indexed as primary or secondary, making searching optimized.
+- **<u>Indexing</u>:** Tagging fields with primary or secondary attribute for optimized search.
+- **<u>Horizontal scalability</u>:** Distributing data across all the available servers.
+- **Vertical scaling**
+- **Backup servers**
+- **<u>Aggregation</u>:** Allows many aggregated operation on database.
+- Uses JSON, which is mapped with most modern programming languages.
+
+
+### <u>NoSQL v/s RDBMS</u>
+
+| NoSQL                                                                   | RDBMS                                                                     |
+| :---------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| Non-relational                                                          | Relational                                                                |
+| Document-oriented                                                       | Not document-oriented                                                     |
+| Hierarchical data storage                                               | Non-hierarchical data storage                                             |
+| Flexible schema                                                         | Defined schema                                                            |
+| Follows CAP theorem (consistency, availability, partition & tolerance). | Follows ACID properties (atomicity, consistency, isolation & durability). |
+| Faster                                                                  | Slower                                                                    |
+
+
+
+## **Topic - 2: Data Modeling & Schema Design**
+
+### <u>Data Modeling</u>
+
+- **<u>Data model</u>:** An architecture which defines how data flows in a DBMS.
+- For example, visualization of relationship among data though graphical nodes.
+
+
+### <u>Data Models Categories</u>
+
+1. **<u>Conceptual data model</u>:** Entities are divided into classes & strict security constraints are applied among data.
+2. **<u>Logical data model</u>:** Users can define data model their own way.
+3. **<u>Physical data model</u>:** Provides a predefined schema for data flow.
+
+
+### <u>Types Of Data Models</u>
+
+1. **<u>Embedded data model</u>:** Data models where values can be embedded in the code.
+2. **<u>Normalized data model</u>:** Data models where values are imported through link or calls in code.
+
+
+### <u>Relationships In MongoDB</u>
+
+#### One-to-one:
+
+- In a one-to-one relationship, relations are written directly into document or imported through reference.
+
+```json
+{
+	"_id": "user123",
+	"name": "John Doe",
+	"email": "johndoe@example.com",
+	"address": {
+		"street": "123 Elm St",
+		"city": "Springfield",
+		"zip": "12345"
+	}
+}
+```
+
+#### One-to-many:
+
+- In one-to-many relationship, a document is related to multiple other documents.
+
+```json
+{
+	"_id": "post123",
+	"title": "MongoDB Relationships",
+	"content": "Learn about relationships in MongoDB.",
+	"comments": [
+	    {"author": "Alice", "text": "Great post!"},
+	    {"author": "Bob", "text": "Very helpful, thanks!"}
+	]
+}
+```
+
+#### Many-to-many:
+
+- In many-to-many relationship, a set of documents is related to another set of documents.
+- It is apparently a document inside a document.
+- For example, take this document below which embeds another document.
+
+```json
+{
+	"_id": "student1",
+	"name": "Alice",
+	"enrolledCourses": ["course1", "course2"] //Embedded document
+}
+```
+
+- The document which is embedded above is shown below.
+
+```json
+{
+	"_id": "course1",
+	"title": "Introduction to MongoDB",
+	"enrolledStudents": ["student1", "student2"]
+}
+```
+
+
+
+## **Topic - 3: MongoDB Commands**
+
+### <u>Creating Database</u>
+
+- We use the `use` command for creating a database.
+- If however a database exists, then it opens that database instead.
+
+```js
+use db_name
+```
+
+
+### <u>Database Operation Commands</u>
+
+#### Listing existing databases:
+
+```js
+show databases
+
+// OR
+
+show dbs
+```
+
+#### Displaying current database:
+
+```js
+db
+```
+
+#### Dropping current database:
+
+```js
+db.dropDatabase()
+```

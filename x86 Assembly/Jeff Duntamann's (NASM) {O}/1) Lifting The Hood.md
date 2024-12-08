@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: LIFTING THE HOOD
+# $\fbox{Chapter 1: LIFTING THE HOOD}$
 
 
 

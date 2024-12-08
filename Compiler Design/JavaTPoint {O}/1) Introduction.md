@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: INTRODUCTION
+# $\fbox{Chapter 1: INTRODUCTION}$
 
 
 
@@ -407,3 +407,39 @@ $$ \xrightarrow{Source\;program\;(.c)}\framebox[4cm][c]{GCC Compiler}\xrightarro
 
 - **<u>Derivation</u>:** Deriving an input using production rules.
 - There are two types of derivation, left-derivation & right-derivation.
+
+
+
+## **Topic - 13: Parse Tree**
+
+### <u>Introduction</u>
+
+- **<u>Parse tree</u>:** Graphical representation of a derivation.
+- In this tree, all leaf nodes are non-terminals while rest of them are terminals.
+- Operators are arranged as per precedence in parse tree & thus, when searching for operators, deepest sub-tree are traversed first.
+
+
+### <u>Example</u>
+
+#### Production rules:
+
+$$ S\;=\;S\;+\;S\;|\;S\;*\;S $$
+$$ S\;=\;a\;|\;b\;|\;c $$
+
+#### Input:
+
+$$ a\;*\;b\;+\;c $$
+
+#### Parse tree derivation:
+
+$$ S $$
+$$ S\;+\;S $$
+![Step 1](./media/image13.png)
+$$ S\;*\;S\;+\;S $$
+![Step 2](./media/image14.png)
+$$ a\;*\;S\;+\;S $$
+![Step 1](./media/image15.png)
+$$ a\;*\;b\;+\;S $$
+![Step 1](./media/image16.png)
+$$ a\;*\;b\;+\;c $$
+![Step 1](./media/image17.png)

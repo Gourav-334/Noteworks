@@ -1,4 +1,4 @@
-# <u>Chapter 2</u>: DIVIDE & CONQUER ALGORITHM
+# $\fbox{Chapter 2: DIVIDE \& CONQUER}$
 
 
 

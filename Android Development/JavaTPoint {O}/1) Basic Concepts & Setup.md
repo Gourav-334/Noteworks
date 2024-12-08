@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: ANDROID TUTORIAL
+# $\fbox{Chapter 1: BASIC CONCEPTS \& SETUP}$
 
 
 
@@ -114,10 +114,10 @@
 
 ### <u>Activity</u>
 
-- **<u>Activity</u>:** Represents the applications running parallelly.
-- Like playing **Subway Surfers** in one screen while **Kaspersky** anti-virus is running in background.
+- **<u>Activity</u>:** A screen/page of an Android application.
+- Like home screen of **Subway Surfers** is one screen & scoreboard is another.
 
-#nostalgic_games, #heroic_software
+#nostalgic_games
 
 
 ### <u>View</u>
@@ -511,7 +511,8 @@ $$ \xrightarrow{Dex\;File\;(.dex)}\framebox[6cm][c]{Packaging (aapt)}\xrightarro
 
 
 
-## **Topic - 13: Hiding Title Bar
+## **Topic - 13: Hiding Title Bar**
+
 ### <u>Introduction</u>
 
 - We will the title bar where the time, charge & network etc is seen.
@@ -574,3 +575,137 @@ this.getWindow().setFlags(
 #### After:
 
 ![After](./media/image9.png)
+
+
+
+## **Topic - 14: Screen Orientation**
+
+### <u>Introduction</u>
+
+- `screenOrientation` is an attribute of activity element.
+- Screen orientation can be `portrait`, `landscape`, `sensor` & `unspecified` etc.
+- We have to manually define it in ***AndroidManifest.xml*** file.
+
+```xml
+<activity android:name=".SecondActivity"  
+	android:screenOrientation="landscape">  
+</activity>
+```
+
+| Orientation Type | Description                                           |
+| :--------------: | :---------------------------------------------------- |
+|   Unspecified    | Default. Decided by the system.                       |
+|      Sensor      | Orientation changes as per what device sensor senses. |
+
+
+### <u>Multiple Orientations</u>
+
+- For making multiple orientation, meaning different orientations for different activities, we have to create two activities.
+- Let's say we created another activity file named ***activity_second.xml***.
+- Then we have to make changes in ***AndroidManifest.xml*** file & create two Java files.
+
+#### AndroidManifest.xml:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>  
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"  
+	package="AnExample"
+>  
+
+	<application  
+		android:allowBackup="true"  
+		android:icon="@mipmap/ic_launcher"  
+		android:label="@string/app_name"  
+		android:roundIcon="@mipmap/ic_launcher_round"  
+		android:supportsRtl="true"  
+		android:theme="@style/AppTheme"
+	>
+
+		<activity
+			android:name= ".MainActivity"
+			android:screenOrientation="portrait"
+		>  
+
+<intent-filter>  
+	<action android:name="android.intent.action.MAIN" />  
+	<category android:name="android.intent.category.LAUNCHER" />  
+</intent-filter>
+
+		</activity>
+		
+		
+		<activity
+			android:name=".SecondActivity"  
+			android:screenOrientation="landscape">  
+		</activity>
+		
+	</application>
+</manifest>
+```
+
+#### MainActivity.java:
+
+```java
+package example.javatpoint.com.screenorientation;  
+
+import android.content.Intent;  
+import android.support.v7.app.AppCompatActivity;  
+import android.os.Bundle;  
+import android.view.View;  
+import android.widget.Button;  
+
+public class MainActivity extends AppCompatActivity
+{  
+	Button button1; // Creating a button class.
+	
+	@Override  
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);  
+		setContentView(R.layout.activity_main);  
+		
+		button1=(Button)findViewById(R.id.button1);  
+	}
+	
+	// When user clicks on the button.
+	public void onClick(View v)
+	{
+		Intent intent =
+		new Intent(MainActivity.this,SecondActivity.class);
+		startActivity(intent);  
+	}
+}
+```
+
+#### SecondActivity.java:
+
+```java
+package example.javatpoint.com.screenorientation;  
+
+import android.support.v7.app.AppCompatActivity;  
+import android.os.Bundle;  
+
+public class SecondActivity extends AppCompatActivity
+{
+	@Override  
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);  
+		setContentView(R.layout.activity_second);  
+	}  
+}
+```
+
+
+### <u>Result</u>
+
+#### Before (portrait):
+
+![Portrait mode](./media/image10.png)
+
+#### After (landscape):
+
+![Landscape](./media/image11.png)
+
+---

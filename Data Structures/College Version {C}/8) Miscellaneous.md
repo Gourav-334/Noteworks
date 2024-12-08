@@ -1,4 +1,4 @@
-# <u>Chapter 8</u>: MISCELLANEOUS
+# $\fbox{Chapter 8: MISCELLANEOUS}$
 
 
 

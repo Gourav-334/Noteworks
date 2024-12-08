@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: AVERAGES & PROGRESSIONS
+# $\fbox{Chapter 2: PROGRESSIONS}$
 
 
 

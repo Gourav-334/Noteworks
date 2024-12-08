@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: HYPER TEXT MARKUP LANGUAGE
+# $\fbox{Chapter 1: HTML}$
 
 
 
