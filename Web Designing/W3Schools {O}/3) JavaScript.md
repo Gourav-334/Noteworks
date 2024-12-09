@@ -65,3 +65,63 @@ const name = 'Gourav';
 ### <u>Booleans</u>
 
 - Booleans use keyword `true` & `false`.
+
+
+
+## **Topic - 2: Operators & Strings**
+
+### <u>Exponentiation</u>
+
+```js
+console.log(x**y);
+```
+
+
+### <u>Square Root</u>
+
+```js
+int a = 9, b = 1/2;
+
+console.log(a**b);
+```
+
+
+### <u>Increment Operator</u>
+
+```js
+num++;
+```
+
+
+### <u>Assignment Operator</u>
+
+- Operation shown below is valid.
+
+```js
+num += 3;
+```
+
+
+### <u>Enclosing Quotes</u>
+
+```js
+console.log('Lot of "Diwali" sweets!');
+```
+
+- Notice how substring `Diwali` is enclosed in double quotes.
+- Opposite of it will also work (single quotes inside double).
+
+
+### <u>Template Literals</u>
+
+- Template literal are strings declared between $`$ (back-ticks).
+
+```js
+let str = `My string`;
+```
+
+- Also template variables can have embedded variables in it, using `$`.
+
+```js
+let score = `Score: ${points}`;
+```

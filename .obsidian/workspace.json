@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "76b92be894b216c2",
+        "id": "444dc3a9fabe71c7",
         "type": "tabs",
         "children": [
           {
-            "id": "4e337519dac2482e",
+            "id": "5d6303065b5fc099",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Designing/W3Schools {O}/3) JavaScript.md",
+                "file": "Quantitative Reasoning/3) Ratio & Proportion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) JavaScript"
+              "title": "3) Ratio & Proportion"
             }
           }
         ]
@@ -163,11 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e337519dac2482e",
+  "active": "5d6303065b5fc099",
   "lastOpenFiles": [
-    "Web Designing/W3Schools {O}/3) JavaScript.md",
     "MEARN Stack/2) MongoDB.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
+    "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
     "Compiler Design/JavaTPoint {O}/media/image17.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image16.png",
@@ -199,7 +200,6 @@
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Algorithm Analysis/College Version {C}/2) Divide & Conquer.md",
     "Algorithm Analysis/College Version {C}/1) Introduction.md",
-    "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.md",
     "Android Development/JavaTPoint {O}/media/image11.png",
     "Android Development/JavaTPoint {O}/media/image11.png.crdownload",
     "Android Development/JavaTPoint {O}/media/image10.png",

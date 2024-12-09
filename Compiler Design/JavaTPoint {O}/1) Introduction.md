@@ -443,3 +443,12 @@ $$ a\;*\;b\;+\;S $$
 ![Step 1](./media/image16.png)
 $$ a\;*\;b\;+\;c $$
 ![Step 1](./media/image17.png)
+
+
+
+## **Topic - 14: Ambiguity**
+
+- A grammar is ambiguous when multiple types of parse trees can be generated from it.
+- There is no method to remove them, only intuition can help.
+
+---
