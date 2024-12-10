@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "444dc3a9fabe71c7",
+        "id": "c120fa7131f69ac2",
         "type": "tabs",
         "children": [
           {
-            "id": "5d6303065b5fc099",
+            "id": "03ae9f42e7a00efa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quantitative Reasoning/3) Ratio & Proportion.md",
+                "file": "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) Ratio & Proportion"
+              "title": "2) Basic Parsing"
             }
           }
         ]
@@ -163,11 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d6303065b5fc099",
+  "active": "03ae9f42e7a00efa",
   "lastOpenFiles": [
+    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
+    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
+    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
+    "Quantitative Reasoning/3) Ratio & Proportion.md",
     "MEARN Stack/2) MongoDB.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
-    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
     "Compiler Design/JavaTPoint {O}/media/image17.png.crdownload",
@@ -188,7 +191,6 @@
     "Software Engineering/JavaTPoint {D}/4) Software Metrics.md",
     "Software Engineering/JavaTPoint {D}/3) Software Management.md",
     "Software Engineering/JavaTPoint {D}/2) Development Models.md",
-    "Quantitative Reasoning/3) Ratio & Proportion.md",
     "Quantitative Reasoning/2) Progressions.md",
     "Quantitative Reasoning/1) Number System.md",
     "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
@@ -197,9 +199,7 @@
     "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
     "Data Structures/College Version {C}/8) Miscellaneous.md",
     "C Programming/Barry & Ritchie's {D}/1) An Introduction.md",
-    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Algorithm Analysis/College Version {C}/2) Divide & Conquer.md",
-    "Algorithm Analysis/College Version {C}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/media/image11.png",
     "Android Development/JavaTPoint {O}/media/image11.png.crdownload",
     "Android Development/JavaTPoint {O}/media/image10.png",
