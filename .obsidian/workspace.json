@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c120fa7131f69ac2",
+        "id": "da6e010718b44936",
         "type": "tabs",
         "children": [
           {
-            "id": "03ae9f42e7a00efa",
+            "id": "bdc7d708ada7742f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2) Basic Parsing"
+              "title": "New tab"
             }
           }
         ]
@@ -163,14 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03ae9f42e7a00efa",
+  "active": "bdc7d708ada7742f",
   "lastOpenFiles": [
+    "MEARN Stack/2) MongoDB.md",
+    "RESUME.md",
+    "RESUME2.pdf",
+    "RESUME.pdf",
     "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
+    "Compiler Design/JavaTPoint {O}/media/image18.png",
+    "Compiler Design/JavaTPoint {O}/media/image18.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
+    "Compiler Design/Dragon Book {D}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
+    "Terminal Scripting/Linux Ubuntu.md",
+    "Terminal Scripting/Git Bash.md",
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Quantitative Reasoning/3) Ratio & Proportion.md",
-    "MEARN Stack/2) MongoDB.md",
-    "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
     "Compiler Design/JavaTPoint {O}/media/image17.png.crdownload",
@@ -185,7 +189,6 @@
     "Web Designing/W3Schools {O}/2) CSS.md",
     "Web Designing/W3Schools {O}/1) HTML.md",
     "Software Engineering/JavaTPoint {D}/1) Introduction.md",
-    "Terminal Scripting/Git Bash.md",
     "Software Engineering/JavaTPoint {D}/6) Risk Management.md",
     "Software Engineering/JavaTPoint {D}/5) Project Planning.md",
     "Software Engineering/JavaTPoint {D}/4) Software Metrics.md",
@@ -196,10 +199,6 @@
     "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
     "MEARN Stack/1) Introduction.md",
     "Enterprise Programming/ByteXL {D}/3) Java Server Page.md",
-    "Digital Electronics/JavaTPoint {O}/1) Binary System.md",
-    "Data Structures/College Version {C}/8) Miscellaneous.md",
-    "C Programming/Barry & Ritchie's {D}/1) An Introduction.md",
-    "Algorithm Analysis/College Version {C}/2) Divide & Conquer.md",
     "Android Development/JavaTPoint {O}/media/image11.png",
     "Android Development/JavaTPoint {O}/media/image11.png.crdownload",
     "Android Development/JavaTPoint {O}/media/image10.png",
@@ -207,10 +206,6 @@
     "Android Development/JavaTPoint {O}/media/image9.png",
     "Android Development/JavaTPoint {O}/media/image9.png.crdownload",
     "Android Development/JavaTPoint {O}/media/image8.png",
-    "Android Development/JavaTPoint {O}/media/image8.png.crdownload",
-    "Android Development/JavaTPoint {O}/media/Screenshot 2024-12-07 121449.png",
-    "Competitive Exam Questions",
-    "Terminal Scripting/~$Git.docx",
     "Untitled.canvas"
   ]
 }

@@ -23,7 +23,7 @@ $$ \framebox[4cm][c]{Lexical Analyzer}\xrightarrow{Sequence\;of\;tokens}\framebo
 
 ### <u>Bottom-Up Parsing</u>
 
-- Bottom-up parsing is also known as shift reduce parsing.
+- Bottom-up parsing is also known as **shift reduce parsing**.
 - Here, we construct the parse tree from an input string, contrast to top-down parsing.
 - The input string is reverse tracked to find its origin.
 
@@ -32,3 +32,36 @@ $$ \framebox[4cm][c]{Lexical Analyzer}\xrightarrow{Sequence\;of\;tokens}\framebo
 1. Shift-reduce parsing
 2. Operator precedence parsing
 3. Table driven LR parsing
+
+
+
+## **Topic - 2: Shift Reduce Parsing**
+
+### <u>Introduction</u>
+
+- As we saw earlier, shift reduce parsing is reverse derivation of a string to start symbol.
+- It is named as shift reducing because it is shifted & then reduced.
+
+
+### <u>Steps</u>
+
+1. Shift action, current input symbol is pushed into stack.
+2. Reduction, symbol is replaced by non-terminal.
+
+
+### <u>Example</u>
+
+#### Production rules:
+
+$$ S\;\rightarrow\;S\;+\;S $$
+$$ S\;\rightarrow\;S\;-\;S $$
+$$ S\;\rightarrow\;(S) $$
+$$ S\;\rightarrow\;a $$
+
+#### Input string:
+
+$$ a_{1}\;-\;(a_{2}\;+\;a_{3}) $$
+
+#### Table:
+
+![Parsing Table](./media/image18.png)

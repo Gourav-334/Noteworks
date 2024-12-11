@@ -103,3 +103,34 @@ public class MainActivity extends AppCompatActivity
 ```
 
 ![Answer Field](./media/image13.png)
+
+
+
+## **Topic - 2: Toast**
+
+### <u>Introduction</u>
+
+- **<u>Toast</u>:** Used for displaying a message for a brief time.
+- Uses `android.widget.Toast`, a subclass of `java.lang.Object`.
+
+
+### <u>Toast Class Constants</u>
+
+```java
+public static final int LENGTH_LONG    //Long duration message
+public static final int LENGTH_SHORT    //Short duration message
+```
+
+
+### <u>Example Code</u>
+
+```java
+Toast toast = Toast.makeText(
+	getApplicationContext(),
+	"Hello JavaTPoint",         // Message displayed
+	Toast.LENGTH_SHORT
+);
+
+toast.setMargin(50,50);    //Sets x & y axis margin
+toast.show();              //Shows the message
+```

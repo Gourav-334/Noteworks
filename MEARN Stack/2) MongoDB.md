@@ -174,9 +174,7 @@
 
 
 
-## **Topic - 3: MongoDB Commands**
-
-### <u>Creating Database</u>
+## **Topic - 3: Creating Database**
 
 - We use the `use` command for creating a database.
 - If however a database exists, then it opens that database instead.
@@ -186,9 +184,10 @@ use db_name
 ```
 
 
-### <u>Database Operation Commands</u>
 
-#### Listing existing databases:
+## **Topic - 4: Database Operation Commands
+
+### <u>Listing Existing Databases</u>
 
 ```js
 show databases
@@ -198,14 +197,127 @@ show databases
 show dbs
 ```
 
-#### Displaying current database:
+
+### <u>Displaying Current Database</u>
 
 ```js
 db
 ```
 
-#### Dropping current database:
+
+### <u>Dropping Current Database</u>
 
 ```js
 db.dropDatabase()
+```
+
+
+### <u>Collection Commands</u>
+
+- Collections in NoSQL databases are same as tables in RDBMS.
+- However, data in NoSQL databases are stored in form of documents.
+
+```js
+show collections
+
+// OR
+
+show tables
+```
+
+
+### <u>Creating New Collection</u>
+
+```js
+db.createCollection("Office")
+```
+
+
+### <u>Renaming Collection</u>
+
+```js
+db.employee.renameCollection("Headquarter")
+```
+
+
+### <u>Dropping Database</u>
+
+```js
+db.employee.drop()
+```
+
+
+
+## **Topic - 5: Data Types**
+
+### <u>General Data Types</u>
+
+```js
+db.emplyee.insert({"Name":"Mahesh", "age":28, "status":true})
+```
+
+- In order its string, integer & then boolean.
+- Floats & double are stored like integer, without quotes.
+- We can also store `null` values.
+- Then we have array.
+
+
+### <u>Date Type</u>
+
+```js
+db.buyers.insert({"Reg":"11-12-2024"})
+```
+
+
+### <u>Timestamp</u>
+
+```js
+db.buyers.insert({"Reg":Timestamp(1612380927,1)})
+```
+
+
+### <u>Object ID</u>
+
+- **<u>Object</u>:** Used for nesting documents.
+- **<u>Object ID</u>:** Used for storing hexadecimal data.
+
+```js
+db.book.find().pretty()
+{
+	"_id": ObjectID("9732a85f1")
+}
+```
+
+
+
+## **Topic - 6: Querying Document**
+
+### <u>Listing Documents</u>
+
+```js
+db.employees.find()    //Returns result in line (older verisions)
+db.employees.find().pretty()    //Returns in JSON format
+```
+
+
+### <u>Find Specific Records</u>
+
+```js
+db.employees.find({},{"Name":"Jury", "Age":20})
+```
+
+
+## **Topic - 7: Bitwise Operator**
+
+### <u>AND</u>
+
+- Finding specific records using AND `$and`.
+
+```js
+db.students.find({
+	$and:[
+		{"City":"Quesbec"},
+		{"Course":"System Programming"}
+	]
+})
 ```
