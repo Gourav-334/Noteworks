@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity
 
 ```java
 public static final int LENGTH_LONG    //Long duration message
-public static final int LENGTH_SHORT    //Short duration message
+public static final int LENGTH_SHORT   //Short duration message
 ```
 
 

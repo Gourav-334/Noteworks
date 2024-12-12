@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da6e010718b44936",
+        "id": "db597399512aac30",
         "type": "tabs",
         "children": [
           {
-            "id": "bdc7d708ada7742f",
+            "id": "a63419bfb59d27ff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Easter Eggs/Plannings & Projects/RESUME2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "RESUME2"
             }
           }
         ]
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -159,32 +162,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bdc7d708ada7742f",
+  "active": "a63419bfb59d27ff",
   "lastOpenFiles": [
+    "guduthestriker11@gmail.com.md",
+    "Easter Eggs/Plannings & Projects/RESUME2.md",
+    "Quantitative Reasoning/4) Profit & Loss.md",
+    "Quantitative Reasoning/3) Ratio & Proportion.md",
+    "Quantitative Reasoning/Untitled",
     "MEARN Stack/2) MongoDB.md",
+    "Quantitative Reasoning/2) Progressions.md",
+    "Quantitative Reasoning/1) Number System.md",
+    "Quantitative Reasoning/media/image1.png",
+    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
+    "Compiler Design/2) Basic Parsing.pdf",
+    "Compiler Design/JavaTPoint {O}/media/image22.png",
+    "Compiler Design/JavaTPoint {O}/media/image22.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/media/image21.png",
+    "Compiler Design/JavaTPoint {O}/media/image21.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/media/image20.png",
+    "Compiler Design/JavaTPoint {O}/media/image20.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/media/image19.png",
+    "Compiler Design/JavaTPoint {O}/media/image19.png.crdownload",
+    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "RESUME.md",
     "RESUME2.pdf",
     "RESUME.pdf",
-    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Compiler Design/JavaTPoint {O}/media/image18.png",
     "Compiler Design/JavaTPoint {O}/media/image18.png.crdownload",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Compiler Design/Dragon Book {D}/1) Introduction.md",
-    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "Terminal Scripting/Linux Ubuntu.md",
     "Terminal Scripting/Git Bash.md",
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
-    "Quantitative Reasoning/3) Ratio & Proportion.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
     "Compiler Design/JavaTPoint {O}/media/image17.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image16.png",
-    "Compiler Design/JavaTPoint {O}/media/image16.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image15.png",
-    "Compiler Design/JavaTPoint {O}/media/image15.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image14.png",
-    "Compiler Design/JavaTPoint {O}/media/image13.png",
-    "Compiler Design/JavaTPoint {O}/media/image13.png.crdownload",
     "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
     "Web Designing/W3Schools {O}/2) CSS.md",
     "Web Designing/W3Schools {O}/1) HTML.md",
@@ -194,18 +209,7 @@
     "Software Engineering/JavaTPoint {D}/4) Software Metrics.md",
     "Software Engineering/JavaTPoint {D}/3) Software Management.md",
     "Software Engineering/JavaTPoint {D}/2) Development Models.md",
-    "Quantitative Reasoning/2) Progressions.md",
-    "Quantitative Reasoning/1) Number System.md",
     "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
-    "MEARN Stack/1) Introduction.md",
-    "Enterprise Programming/ByteXL {D}/3) Java Server Page.md",
-    "Android Development/JavaTPoint {O}/media/image11.png",
-    "Android Development/JavaTPoint {O}/media/image11.png.crdownload",
-    "Android Development/JavaTPoint {O}/media/image10.png",
-    "Android Development/JavaTPoint {O}/media/image10.png.crdownload",
-    "Android Development/JavaTPoint {O}/media/image9.png",
-    "Android Development/JavaTPoint {O}/media/image9.png.crdownload",
-    "Android Development/JavaTPoint {O}/media/image8.png",
     "Untitled.canvas"
   ]
 }

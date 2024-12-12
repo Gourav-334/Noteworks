@@ -64,4 +64,96 @@ $$ a_{1}\;-\;(a_{2}\;+\;a_{3}) $$
 
 #### Table:
 
-![Parsing Table](./media/image18.png)
+| Stack Content | Input String      | Actions             |
+| ------------- | ----------------- | ------------------- |
+| $\$$          | $a_1-(a_2+a_3)\$$ | Shift $a_1$         |
+| $\$a_1$       | $-(a_2+a_3)\$$    | Reduce $a$ to $S$   |
+| $\$S$         | $-(a_2+a_3)\$$    | Shift $-$           |
+| $\$S-$        | $(a_2+a_3)$       | Shift $($           |
+| $\$S-($       | $a_2+a_3)$        | Shift $a_2$         |
+| $\$S-(a_2$    | $+a_3)$           | Reduce $a_2$ to $S$ |
+| $\$-(S$       | $+a_3)$           | Shift $+$           |
+| ...           | ...               | ...                 |
+| $\$S$         | $\$$              | Accept              |
+
+
+
+## **Topic - 3: Operator Precedence Parsing**
+
+### <u>Introduction</u>
+
+- **<u>Operator precedence parsing</u>:** A type of parsing used in operator precedence grammar (OPG).
+- A grammar is OPG when there are no $\epsilon$ on production R.H.S & no non-terminals are adjacent.
+
+
+### <u>Operator Precedence Relations</u>
+
+1. $a⋗b$ means $a$ has higher precedence over $b$.
+2. $a ⋖ b$ is opposite of the previous relation.
+3. $a ≐ b$ means both have equal precedence.
+
+
+### <u>Precedence Relation Table</u>
+
+| Symbol | $+$ | $*$ | $($ | $)$ | $id$ | $\$$ |
+| ------ | --- | --- | --- | --- | ---- | ---- |
+| $+$    | $⋗$ | $⋖$ | $⋖$ | $⋗$ | $⋖$  | $⋗$  |
+| $*$    | $⋗$ | $⋗$ | $⋖$ | $⋗$ | $⋖$  | $⋗$  |
+| $($    | $⋖$ | $⋖$ | $⋖$ | $⋖$ | $⋖$  | $X$  |
+| $)$    | $⋗$ | $⋗$ | $X$ | $⋗$ | $X$  | $⋗$  |
+| $id$   | $⋗$ | $⋗$ | $X$ | $⋗$ | $X$  | $⋗$  |
+| $\$$   | $⋖$ | $⋖$ | $⋖$ | $X$ | $⋖$  | $X$  |
+
+
+### <u>Parsing Procedure</u>
+
+1. Put $\$$ on both ends of the input string.
+2. Search for rightmost $⋗$ from right, obviously.
+3. Then search for leftmost $⋖$ from left.
+
+>**<u>NOTE</u>:**
+>Everything coming between $⋖$ and $⋗$ is called handle.
+
+
+### <u>Example</u>
+
+#### Grammar:
+
+$$ E\;\rightarrow\;E\;+\;T\;|\;T $$
+$$ T\;\rightarrow\;T\;*\;F\;|\;F $$
+$$ F\;\rightarrow\;id $$
+
+#### Input string:
+
+$$ w\;=\;id\;+\;id\;*\;id $$
+
+#### Derived parse tree:
+
+![Parse Tree](./media/image20.png)
+
+#### Operator precedence table:
+
+| Symbol | $E$ | $T$ | $F$ | $id$ | $+$ | $*$ | $\$$ |
+| ------ | --- | --- | --- | ---- | --- | --- | ---- |
+| $E$    | $X$ | $X$ | $X$ | $X$  | $≐$ | $X$ | $⋗$  |
+| $T$    | $X$ | $X$ | $X$ | $X$  | $⋗$ | $≐$ | $⋗$  |
+| $F$    | $X$ | $X$ | $X$ | $X$  | $⋗$ | $⋗$ | $⋗$  |
+| $id$   | $X$ | $X$ | $X$ | $X$  | $⋗$ | $⋗$ | $⋗$  |
+| $+$    | $X$ | $≐$ | $⋖$ | $⋖$  | $X$ | $X$ | $X$  |
+| $*$    | $X$ | $X$ | $≐$ | $⋖$  | $X$ | $X$ | $X$  |
+| $\$$   | $⋖$ | $⋖$ | $⋖$ | $⋖$  | $X$ | $X$ | $X$  |
+
+#### Parsing:
+
+$$ \$\;<\;id_1\;>\;+\;id_2\;*\;id_3\;\$ $$
+$$ \$\;<\;F\;>\;+\;id_2\;*\;id_3\;\$ $$
+$$ \$\;<\;T\;>\;+\;id_2\;*\;id_3\;\$ $$
+$$ \$\;<\;E\;=\;+\;<\;id_2\;>\;*\;id_3\;\$ $$
+$$ \$\;<\;E\;=\;+\;<\;F\;>\;*\;id_3\;\$ $$
+$$ \$\;<\;E\;=\;+\;<\;T\;=\;*\;<\;id_3\;>\;\$ $$
+$$ \$\;<\;E\;=\;+\;<\;T\;=\;*\;=\;F\;>\;\$ $$
+$$ \$\;<\;E\;=\;+\;=\;T\;>\;\$ $$
+$$ \$\;<\;E\;>\;\$ $$
+$$ Accept $$
+
+---
