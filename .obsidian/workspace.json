@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "db597399512aac30",
+        "id": "3150b2547b98715f",
         "type": "tabs",
         "children": [
           {
-            "id": "a63419bfb59d27ff",
+            "id": "8d6f0a137c60f062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Easter Eggs/Plannings & Projects/RESUME2.md",
+                "file": "System Programming/1) Essential Concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RESUME2"
+              "title": "1) Essential Concepts"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -162,10 +163,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a63419bfb59d27ff",
+  "active": "8d6f0a137c60f062",
   "lastOpenFiles": [
-    "guduthestriker11@gmail.com.md",
+    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
+    "System Programming/1) Essential Concepts.md",
+    "System Programming",
+    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
+    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "Easter Eggs/Plannings & Projects/RESUME2.md",
+    "guduthestriker11@gmail.com.md",
     "Quantitative Reasoning/4) Profit & Loss.md",
     "Quantitative Reasoning/3) Ratio & Proportion.md",
     "Quantitative Reasoning/Untitled",
@@ -173,7 +179,6 @@
     "Quantitative Reasoning/2) Progressions.md",
     "Quantitative Reasoning/1) Number System.md",
     "Quantitative Reasoning/media/image1.png",
-    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Compiler Design/2) Basic Parsing.pdf",
     "Compiler Design/JavaTPoint {O}/media/image22.png",
     "Compiler Design/JavaTPoint {O}/media/image22.png.crdownload",
@@ -183,7 +188,6 @@
     "Compiler Design/JavaTPoint {O}/media/image20.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image19.png",
     "Compiler Design/JavaTPoint {O}/media/image19.png.crdownload",
-    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "RESUME.md",
     "RESUME2.pdf",
     "RESUME.pdf",
@@ -196,7 +200,6 @@
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
-    "Compiler Design/JavaTPoint {O}/media/image17.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image16.png",
     "Compiler Design/JavaTPoint {O}/media/image15.png",
     "Compiler Design/JavaTPoint {O}/media/image14.png",
@@ -208,8 +211,6 @@
     "Software Engineering/JavaTPoint {D}/5) Project Planning.md",
     "Software Engineering/JavaTPoint {D}/4) Software Metrics.md",
     "Software Engineering/JavaTPoint {D}/3) Software Management.md",
-    "Software Engineering/JavaTPoint {D}/2) Development Models.md",
-    "Enterprise Programming/ByteXL {D}/4) Hibernate.md",
     "Untitled.canvas"
   ]
 }
