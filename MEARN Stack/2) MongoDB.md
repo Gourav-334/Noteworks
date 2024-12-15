@@ -321,3 +321,15 @@ db.students.find({
 	]
 })
 ```
+
+- Similarly, the `$or` operator works.
+
+
+### <u>NOT</u>
+
+```js
+db.students.find(
+	{"field": {$not:{$eq:"Anand"}}},
+	{"field_name":1, "city":1}
+)
+```

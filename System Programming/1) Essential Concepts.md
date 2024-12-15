@@ -56,3 +56,54 @@
 ### <u>APIs</u>
 
 - **<u>API</u>:** Any software program that provides a higher-level functionality to another software by abstracting its own code.
+- For example, the standard C libraries which are imported through headers.
+
+
+### <u>ABIs</u>
+
+- **<u>ABI</u>:** Application Binary Interface
+- API is about higher level programs, whereas ABI is about lower level binaries.
+- APIs on different architectures may have same higher-level code, but different binary results when compiled on them.
+- These binaries vary from one architecture to another.
+- For example, we use `std::cout` from `<iostream>` in both Intel & ARM architectures, but they are compiled into different binaries.
+- Meaning the syntax used in them is same, but not same on the base level.
+- They are made differently from scratch on each architecture & OS, to look identical & provide same functionalities.
+
+
+
+## **Topic - 4: Standards**
+
+### <u>C Language Standards</u>
+
+- At first, C used ANSI standards but later used standards by ISO.
+- C11 came with many features which are available in C++.
+
+
+### <u>Linux & Standards</u>
+
+- Linux follows POSIX & SUS standards.
+- **<u>POSIX</u>:** Portable Operating System Interface
+- **<u>SUS</u>:** Single UNIX Specification
+- Though it follows POSIX standards, no official certification is gained by it.
+- The ***gcc*** and ***g++*** are collectively known as GNU C.
+- No matter how old a ***gcc*** version is on a system, it will always comply with newer kernel.
+- This is because the syntax of both C & kernel system calls are not changed is newer ***gcc*** versions.
+- Linux is registered under using LSB standard.
+- **<u>LSB</u>:** Linux Standard Base
+
+
+
+## **Topic - 5: Concept Of Linux Programming**
+
+### <u>Files & The Filesystem</u>
+
+- **<u>File descriptor</u>:** A pointer which points to contents of a file.
+- Each file has their own unique descriptor.
+- They are of `int` type & abbreviated as fd.
+
+
+### <u>Regular Files</u>
+
+- **<u>Regular files</u>:** Data in form of byte stream.
+- **<u>Byte stream</u>:** Linear array of data.
+- **<u>File position</u>:** Position of fd from file offset (in bytes).
