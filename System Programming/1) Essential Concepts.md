@@ -98,7 +98,7 @@
 ### <u>Files & The Filesystem</u>
 
 - **<u>File descriptor</u>:** A pointer which points to contents of a file.
-- Each file has their own unique descriptor.
+- This descriptor is unique on each instance of opening a file.
 - They are of `int` type & abbreviated as fd.
 
 
@@ -107,3 +107,43 @@
 - **<u>Regular files</u>:** Data in form of byte stream.
 - **<u>Byte stream</u>:** Linear array of data.
 - **<u>File position</u>:** Position of fd from file offset (in bytes).
+- File position can't be negative & can go beyond the length of file.
+- If we go beyond this limit & append bytes somewhere, then the bytes between EOF & append position will be filled with `0`.
+
+#### File size:
+
+- **<u>Length of file</u>:** Number of bytes a file contains.
+- **<u>Truncation</u>:** A process to resize a file.
+- If truncating decreases a file's size, its bytes are removed from the end.
+- Else if it increases its size, then the unassigned bytes are filled with `0`s.
+- Maximum file size depends on what data type is used as fd.
+- For example, an `int` fd in modern Linux system can of $2^{64}$ bytes max.
+- That is, how far a fd can go from file offset at max.
+
+#### Inode:
+
+- Files can be concurrently accessed by multiple processes.
+- Files are accessed via their filenames but aren't linked to them in any way.
+- Rather, files are referenced by their inode, which is assigned a ino.
+- **<u>Inode</u>:** Information Node
+- **<u>Ino</u>:** A unique number in the filesystem space.
+- Inode stores all file metadata like modification timestamp, owner, file type, file location etc.
+
+
+### <u>Directories & Links</u>
+
+- Files are mapped with names for user's ease & security purpose.
+- By default, we are at the root directory which is denoted by `/`.
+- Even directories have inodes.
+- When given a directory like `home/myCodes/engine.c`, the kernel goes through each directory one-by-one to access the file.
+- The inode contains these hierarchical storage information.
+
+#### Pathnames:
+
+- **<u>Directory resolution</u>:** Accessing a file or directory through a hierarchy of directories.
+- It is also known as pathname resolution.
+- **<u>Dentry cache</u>:** "Directory entry" cache, used for storing result of recent directory resolution.
+- **<u>Absolute pathnames</u>:** Pathname for root directory.
+- These are said to be fully qualified.
+- **<u>Relative pathnames</u>:** Pathnames other than root directory.
+- 
