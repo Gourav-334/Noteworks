@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1243b26f65bc4c06",
+        "id": "8fa5b6c55cd62d29",
         "type": "tabs",
         "children": [
           {
-            "id": "fd1982af2dc0e7e3",
+            "id": "b5a999a6fca17a45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Designing/W3Schools {O}/4) Node.js.md",
+                "file": "Quantitative Reasoning/4) Profit & Loss.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4) Node.js"
+              "title": "4) Profit & Loss"
             }
           }
         ]
@@ -163,15 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd1982af2dc0e7e3",
+  "active": "b5a999a6fca17a45",
   "lastOpenFiles": [
-    "Web Designing/W3Schools {O}/3) JavaScript.md",
+    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
+    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
+    "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
     "Web Designing/W3Schools {O}/4) Node.js.md",
+    "Web Designing/W3Schools {O}/3) JavaScript.md",
     "System Programming/1) Essential Concepts.md",
     "Philosophy/Man.md",
     "Philosophy",
     "MEARN Stack/2) MongoDB.md",
-    "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
     "Scriptures/Ishadi Nau Upanishad/media/image1.png",
     "Scriptures/Ishadi Nau Upanishad/media/Screenshot 2024-12-15 095148.png",
     "Scriptures/Ishadi Nau Upanishad/media",
@@ -183,9 +185,7 @@
     "Scriptures/Unordered",
     "Scriptures/Ishadi Nau Upanishad.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
-    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
     "System Programming",
-    "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "Easter Eggs/Plannings & Projects/RESUME2.md",
     "guduthestriker11@gmail.com.md",
