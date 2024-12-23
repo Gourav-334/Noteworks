@@ -43,3 +43,36 @@
 $$ S'\;\rightarrow\;S$$
 
 - It is used to mark end of parsing, as when no reverse derivation is remaining for $S$, we reduce it to $S'$.
+
+
+
+## **Topic - 2: Canonical Collection Of LR(0) Items**
+
+### <u>Introduction</u>
+
+- LR(0) is the first symbol on the right side of the production.
+- It is represented by a dot.
+- It is used in telling us how many input symbols has been parsed.
+
+
+### <u>Example</u>
+
+#### Given $G$:
+
+$$ S\;\rightarrow\;AA $$
+$$ A\;\rightarrow\;aA\;|\;B $$
+
+#### After inserting LR(0):
+
+$$ S'\;\rightarrow\;.S $$
+$$ S\;\rightarrow\;.AA $$
+$$ A\;\rightarrow\;.aA $$
+$$ A\;\rightarrow\;.b $$
+
+#### Transition diagram:
+
+![CFG Transition](./media/image23.png)
+
+- During transition to a certain state, the dot moves to left of next character.
+- This shows us how many characters have been parsed.
+- See in diagram above how all possible transitions are mapped from each CFG state.

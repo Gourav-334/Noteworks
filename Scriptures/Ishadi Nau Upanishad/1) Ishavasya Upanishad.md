@@ -24,3 +24,4 @@
 - This is because spirit is associated with positive attributes, while physical body might have negative attributes.
 - This mantra was for eternal purpose & the physical body won't be deriving its current attributes, but spirit will.
 - All this is because the great Upanishads are all about promoting welfare of the spirit i.e. criticize physical body with negative attributes.
+- The one who desires for heavenly fruits for work but refuses to work which is without any base, or requires blind following, is the one who has rights to work.
