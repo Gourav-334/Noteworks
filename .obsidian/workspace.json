@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d5ad79cc79315da0",
+        "id": "dc091556a1026fdb",
         "type": "tabs",
         "children": [
           {
-            "id": "b112eecccdedcfed",
+            "id": "a569e5534e95d692",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Designing/W3Schools {O}/4) Node.js.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "4) Node.js"
+              "title": "New tab"
             }
           }
         ]
@@ -163,16 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b112eecccdedcfed",
+  "active": "a569e5534e95d692",
   "lastOpenFiles": [
+    "Terminal Scripting/Git.md",
+    "Terminal Scripting/Ubuntu Shell.md",
+    "Terminal Scripting/GNU Debugger.md",
+    "Terminal Scripting/Vim.md",
+    "Terminal Scripting/~$Git.docx",
+    "Terminal Scripting/~$nux Terminal Commands.docx",
+    "Terminal Scripting/Linux Terminal Commands.docx",
+    "Web Designing/W3Schools {O}/4) Node.js.md",
+    "Philosophy/Untitled.md",
+    "Philosophy/Man.md",
     "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
     "Compiler Design/JavaTPoint {O}/media/image23.png",
     "Compiler Design/JavaTPoint {O}/media/image23.png.crdownload",
     "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
-    "Philosophy/Man.md",
     "Quantitative Reasoning/4) Profit & Loss.md",
     "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
-    "Web Designing/W3Schools {O}/4) Node.js.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "System Programming/1) Essential Concepts.md",
     "Philosophy",
@@ -185,15 +189,12 @@
     "Scriptures/Unordered/Shreemad Bhagavad Gita.docx",
     "Scriptures/Ishadi Nau Upanishad",
     "Scriptures/New folder",
-    "Scriptures/Unordered",
     "Scriptures/Ishadi Nau Upanishad.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
-    "System Programming",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "Easter Eggs/Plannings & Projects/RESUME2.md",
     "guduthestriker11@gmail.com.md",
     "Quantitative Reasoning/3) Ratio & Proportion.md",
-    "Quantitative Reasoning/Untitled",
     "Quantitative Reasoning/2) Progressions.md",
     "Quantitative Reasoning/1) Number System.md",
     "Quantitative Reasoning/media/image1.png",
@@ -204,12 +205,8 @@
     "RESUME.md",
     "Compiler Design/JavaTPoint {O}/media/image18.png",
     "Compiler Design/Dragon Book {D}/1) Introduction.md",
-    "Terminal Scripting/Linux Ubuntu.md",
     "Terminal Scripting/Git Bash.md",
-    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Compiler Design/JavaTPoint {O}/media/image17.png",
-    "x86 Assembly/Jeff Duntamann's (NASM) {O}/1) Lifting The Hood.md",
-    "Web Designing/W3Schools {O}/2) CSS.md",
     "Untitled.canvas"
   ]
 }
