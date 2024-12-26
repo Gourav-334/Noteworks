@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dc091556a1026fdb",
+        "id": "9d6dcf8a2b192008",
         "type": "tabs",
         "children": [
           {
-            "id": "a569e5534e95d692",
+            "id": "d35e0bfdbf039581",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "x86 Assembly/Wikibooks AT&T GAS/1) Introduction.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1) Introduction"
             }
           }
         ]
@@ -159,8 +163,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a569e5534e95d692",
+  "active": "d35e0bfdbf039581",
   "lastOpenFiles": [
+    "x86 Assembly/Wikibooks AT&T GAS/1) Introduction.md",
+    "x86 Assembly/Wikibooks AT&T GAS",
+    "Quantitative Reasoning/5) Time.md",
+    "Quantitative Reasoning/4) Profit & Loss.md",
+    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
+    "Compiler Design/JavaTPoint {O}/media/image26.png",
+    "Compiler Design/JavaTPoint {O}/media/image26.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/media/image25.png",
+    "Compiler Design/JavaTPoint {O}/media/image25.png.crdownload",
+    "Compiler Design/JavaTPoint {O}/media/image24.png",
+    "Compiler Design/JavaTPoint {O}/media/image24.png.crdownload",
+    "Philosophy/Man.md",
+    "Philosophy/Woman.md",
     "Terminal Scripting/Git.md",
     "Terminal Scripting/Ubuntu Shell.md",
     "Terminal Scripting/GNU Debugger.md",
@@ -169,13 +186,9 @@
     "Terminal Scripting/~$nux Terminal Commands.docx",
     "Terminal Scripting/Linux Terminal Commands.docx",
     "Web Designing/W3Schools {O}/4) Node.js.md",
-    "Philosophy/Untitled.md",
-    "Philosophy/Man.md",
-    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
     "Compiler Design/JavaTPoint {O}/media/image23.png",
     "Compiler Design/JavaTPoint {O}/media/image23.png.crdownload",
     "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
-    "Quantitative Reasoning/4) Profit & Loss.md",
     "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "System Programming/1) Essential Concepts.md",
@@ -184,11 +197,7 @@
     "Scriptures/Ishadi Nau Upanishad/media/image1.png",
     "Scriptures/Ishadi Nau Upanishad/media/Screenshot 2024-12-15 095148.png",
     "Scriptures/Ishadi Nau Upanishad/media",
-    "Scriptures/Ishadi Nau Upanishad/New folder",
     "Scriptures/Untitled.md",
-    "Scriptures/Unordered/Shreemad Bhagavad Gita.docx",
-    "Scriptures/Ishadi Nau Upanishad",
-    "Scriptures/New folder",
     "Scriptures/Ishadi Nau Upanishad.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
@@ -201,12 +210,7 @@
     "Compiler Design/JavaTPoint {O}/media/image22.png",
     "Compiler Design/JavaTPoint {O}/media/image21.png",
     "Compiler Design/JavaTPoint {O}/media/image20.png",
-    "Compiler Design/JavaTPoint {O}/media/image19.png",
     "RESUME.md",
-    "Compiler Design/JavaTPoint {O}/media/image18.png",
-    "Compiler Design/Dragon Book {D}/1) Introduction.md",
-    "Terminal Scripting/Git Bash.md",
-    "Compiler Design/JavaTPoint {O}/media/image17.png",
     "Untitled.canvas"
   ]
 }

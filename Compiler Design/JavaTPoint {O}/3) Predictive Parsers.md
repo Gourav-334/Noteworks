@@ -69,10 +69,60 @@ $$ S\;\rightarrow\;.AA $$
 $$ A\;\rightarrow\;.aA $$
 $$ A\;\rightarrow\;.b $$
 
-#### Transition diagram:
+#### State diagram:
 
 ![CFG Transition](./media/image23.png)
 
 - During transition to a certain state, the dot moves to left of next character.
 - This shows us how many characters have been parsed.
 - See in diagram above how all possible transitions are mapped from each CFG state.
+
+#### Transition table:
+
+![Transition Table](./media/image26.png)
+
+- This table tells the transition, where **Action** is non-terminals & **Go to** contains terminal symbols.
+- $S$ can be replaced with $I$ too, as those are same states as in diagram.
+
+
+
+## **Topic - 3: SLR(1) Parsing**
+
+### <u>Introduction</u>
+
+- Similar to LR(0) parser with one difference.
+- This difference is in the way we construct the DFA & transition table.
+
+
+### <u>Example</u>
+
+#### Production rules:
+
+$$ S\;\rightarrow\;E $$
+$$ E\;\rightarrow\;E\;+\;T\;|\;T $$
+$$ T\;\rightarrow\;T\;*\;F\;|\;F $$
+$$ F\;\rightarrow\;id $$
+
+#### After dot insertion:
+
+$$ S\;\rightarrow\;.E $$
+$$ E\;\rightarrow\;.E\;+\;T $$
+$$ E\;\rightarrow\;.T $$
+$$ T\;\rightarrow\;.T\;*\;F $$
+$$ T\;\rightarrow\;.F $$
+$$ F\;\rightarrow\;.id $$
+
+#### State diagram:
+
+![DFA](./media/image24.png)
+
+- Notice how our transitions are.
+- We also add production rules which may transform later on as per the given symbol.
+
+
+#### Transition table:
+
+![Transition Table](./media/image25.png)
+
+- Similar to how we did in LR(0) parser with one difference.
+- Instead of non-terminals, we have operators here.

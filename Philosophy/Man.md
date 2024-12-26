@@ -12,13 +12,13 @@ Since the very start of evolution, the general duty performed by them are relate
 
 ## **<u>Intelligence</u>**
 
-The first ancestors of humans known as "Synapsids" were generally intelligence since starting. Many species went through extinctions due to environmental & catastrophic factors, including dinosaurs which went extinct due to atmosphere corruption resulting from volcanic eruptions caused by meteors which hit the earth. But Synapsids? Humans are way more intelligent than other species as we know, specially men as seen, so were Synapsids. They were experts in learning from experience & thus escaped being food of "diapsids", the ancestors of dinosaurs. They learned how their small size will help them survive from dinosaurs.
+The first ancestors of humans known as "Synapsids" were generally intelligence since starting. Many species went through extinctions due to environmental & catastrophic factors, including dinosaurs which went extinct due to atmosphere corruption resulting from volcanic eruptions caused by meteors which hit the earth. But Synapsids? Humans are way more intelligent than other species as we know, specially men as seen, so were Synapsids. They were experts in learning from experience & thus escaped being food of "diapsids", the ancestors of dinosaurs. They learned how their small size will help them survive from dinosaurs. And by records, men have been more intelligent than women.
 
 
 
 ## **<u>Artificiality Of Life</u>**
 
-We today exist by artificial means. Meaning we were not meant to actually exist, seeing the kind of plagues, historic events & natural disasters we went through, but we are alive today. We created vaccines, managed disasters, organized set of events to solve some kind of problem. These all were not natural response to catastrophic events an animal faces but artificial means which helped us survive for such a long timeline.
+We today exist by artificial means. Meaning we were not meant to actually exist, seeing the kind of plagues, historic events & natural disasters we went through, but we are alive today. We created vaccines, managed disasters, organized set of events to solve some kind of problem. These all were not natural response to catastrophic events an animal faces but artificial means which helped us survive for such a long timeline. And men were the primary contributors to the related fields.
 
 
 
