@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d6dcf8a2b192008",
+        "id": "92b8f1fb1df6b11f",
         "type": "tabs",
         "children": [
           {
-            "id": "d35e0bfdbf039581",
+            "id": "b738edf301e31091",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,8 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d35e0bfdbf039581",
+  "active": "b738edf301e31091",
   "lastOpenFiles": [
+    "Terminal Scripting/Bash.md",
+    "Easter Eggs/Resumes/RESUME2.md",
+    "Easter Eggs/Resumes/RESUME1.md",
+    "Easter Eggs/Resumes",
+    "Terminal Scripting/~$Bash.docx",
     "x86 Assembly/Wikibooks AT&T GAS/1) Introduction.md",
     "x86 Assembly/Wikibooks AT&T GAS",
     "Quantitative Reasoning/5) Time.md",
@@ -192,25 +197,20 @@
     "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "System Programming/1) Essential Concepts.md",
-    "Philosophy",
     "MEARN Stack/2) MongoDB.md",
     "Scriptures/Ishadi Nau Upanishad/media/image1.png",
     "Scriptures/Ishadi Nau Upanishad/media/Screenshot 2024-12-15 095148.png",
-    "Scriptures/Ishadi Nau Upanishad/media",
     "Scriptures/Untitled.md",
     "Scriptures/Ishadi Nau Upanishad.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
-    "Easter Eggs/Plannings & Projects/RESUME2.md",
     "guduthestriker11@gmail.com.md",
     "Quantitative Reasoning/3) Ratio & Proportion.md",
     "Quantitative Reasoning/2) Progressions.md",
-    "Quantitative Reasoning/1) Number System.md",
     "Quantitative Reasoning/media/image1.png",
     "Compiler Design/JavaTPoint {O}/media/image22.png",
     "Compiler Design/JavaTPoint {O}/media/image21.png",
     "Compiler Design/JavaTPoint {O}/media/image20.png",
-    "RESUME.md",
     "Untitled.canvas"
   ]
 }
