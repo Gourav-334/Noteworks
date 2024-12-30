@@ -126,3 +126,54 @@ $$ F\;\rightarrow\;.id $$
 
 - Similar to how we did in LR(0) parser with one difference.
 - Instead of non-terminals, we have operators here.
+
+
+
+## **Topic - 4: CLR(1) Parsing**
+
+### <u>Introduction</u>
+
+- **<u>CLR</u>:** Canonical lookahead
+- CLR(1) parsing table is build using canonical collection of LR(1) items.
+- CLR(1) has comparatively more states than SLR(1).
+
+
+### <u>Steps Involved</u>
+
+1. Write CFG for given string.
+2. Check & remove ambiguity from grammar.
+3. Add augmented production to grammar.
+4. Add $\$$ (lookahead) to augmented & start production.
+5. Create canonical collection of LR(0) items.
+6. Draw DFA.
+7. Construct CLR(1) parser.
+
+>**<u>NOTE</u>:**
+>$\$$ represents that no non-terminal symbol is there on right side of the current terminal.
+
+
+### <u>Example</u>
+
+#### Given:
+
+$$ S\;\rightarrow\;AA $$
+$$ A\;\rightarrow\;aA $$
+$$ A\;\rightarrow\;b $$
+
+#### Modified:
+
+$$ S'\;\rightarrow\;.S,\;\$ $$
+$$ S\;\rightarrow\;.AA,\;\$ $$
+$$ A\;\rightarrow\;.aA,\;a/b $$
+$$ A\;\rightarrow\;.b,\;a/b $$
+
+#### DFA:
+
+![DFA](./media/image27.png)
+
+- Actually it is easier than one thinks, just look for the patterns.
+- Our goal is to construct DFA where each end state has the dot right to last symbol of each rule.
+
+#### Parsing table:
+
+![CLR Parsing Table](./media/image28.png)
