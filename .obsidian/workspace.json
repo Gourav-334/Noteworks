@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1959ecef9fc3bb56",
+        "id": "aeda84ec61a836e4",
         "type": "tabs",
         "children": [
           {
-            "id": "a0402af914f9128b",
+            "id": "d525c5ba46cd52b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86 Assembly/Wikibooks AT&T GAS/2) x86 Architecture.md",
+                "file": "x86 Assembly/Wikibooks AT&T GAS {O}/2) x86 Architecture.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -162,9 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0402af914f9128b",
+  "active": "d525c5ba46cd52b3",
   "lastOpenFiles": [
+    "x86 Assembly/Wikibooks AT&T GAS {O}/media/image1.png",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/media/Screenshot 2024-12-31 142253.png",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/media",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/images/image1.png",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/images/Screenshot 2024-12-31 140127.png",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/images",
+    "x86 Assembly/Wikibooks AT&T GAS {O}/New folder",
     "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
+    "Compiler Design/JavaTPoint {O}/media/image29.png",
+    "Compiler Design/JavaTPoint {O}/media/image29.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image28.png",
     "Compiler Design/JavaTPoint {O}/media/image28.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/clr-1-parsing1.png",
@@ -182,33 +192,25 @@
     "Quantitative Reasoning/5) Time.md",
     "Quantitative Reasoning/4) Profit & Loss.md",
     "Compiler Design/JavaTPoint {O}/media/image26.png",
-    "Compiler Design/JavaTPoint {O}/media/image26.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image25.png",
-    "Compiler Design/JavaTPoint {O}/media/image25.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image24.png",
-    "Compiler Design/JavaTPoint {O}/media/image24.png.crdownload",
     "Philosophy/Man.md",
     "Philosophy/Woman.md",
     "Terminal Scripting/Git.md",
     "Terminal Scripting/Ubuntu Shell.md",
     "Terminal Scripting/GNU Debugger.md",
     "Terminal Scripting/Vim.md",
-    "Terminal Scripting/~$Git.docx",
     "Web Designing/W3Schools {O}/4) Node.js.md",
-    "Compiler Design/JavaTPoint {O}/media/image23.png",
     "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
     "Compiler Design/JavaTPoint {O}/2) Basic Parsing.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "System Programming/1) Essential Concepts.md",
     "MEARN Stack/2) MongoDB.md",
-    "Scriptures/Ishadi Nau Upanishad/media/image1.png",
-    "Scriptures/Ishadi Nau Upanishad/media/Screenshot 2024-12-15 095148.png",
     "Scriptures/Untitled.md",
     "Scriptures/Ishadi Nau Upanishad.md",
     "Compiler Design/JavaTPoint {O}/1) Introduction.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "guduthestriker11@gmail.com.md",
-    "Quantitative Reasoning/media/image1.png",
     "Untitled.canvas"
   ]
 }

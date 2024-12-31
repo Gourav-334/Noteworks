@@ -177,3 +177,18 @@ $$ A\;\rightarrow\;.b,\;a/b $$
 #### Parsing table:
 
 ![CLR Parsing Table](./media/image28.png)
+
+
+
+## **Topic - 5: LALR(1) Parsing**
+
+### <u>Introduction</u>
+
+- **<u>LALR</u>:** Lookahead LR
+- Here also we use canonical collection of LR(1) items.
+- A dot is added before $\$$ too.
+- And DFA states are given state numbers instead of writing whole conical collection.
+
+#### For example:
+
+![LALR(1)](./media/image29.png)
