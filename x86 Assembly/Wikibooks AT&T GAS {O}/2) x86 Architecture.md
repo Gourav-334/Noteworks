@@ -10,14 +10,14 @@
 
 - 8 general purpose registers (GPR).
 - 6 segment registers (SR).
-- 1 flag register (FR).
+- 1 flag register (EFLAGS).
 - 1 instruction pointer (IP).
 
 >**<u>NOTE</u>:**
 >64-bit architecture contains even more registers.
 
 
-### <u>General Purpose Registers</u>
+### <u>General Purpose Registers (GPRs)</u>
 
 1. **<u>Accumulator register (AX)</u>:** Used in arithmetic operations.
 2. **<u>Base register (BX)</u>:** Pointer to data.
@@ -36,7 +36,7 @@
 >5. For registers like stack pointer, stack base pointer, destination & source, higher 8-bits can not be addressed.
 
 
-### <u>Segment Register</u>
+### <u>Segment Registers (SRs)</u>
 
 1. **<u>Stack segment (SS)</u>:** Pointer to the stack.
 2. **<u>Code segment (CS)</u>:** Pointer to the code.
@@ -82,7 +82,7 @@
 |     21     |     ID      |      Identification flag       | Support for CPUID.                                                                  |
 
 
-### <u>Instruction Pointer</u>
+### <u>Instruction Pointer (IP)</u>
 
 - EIP register contains address of next instruction to be executed.
 - Can be read only after `call` instruction.
@@ -92,3 +92,134 @@
 
 - x86 architecture is little-endian.
 - **<u>Little-endian</u>:** Bytes get placed from LSB.
+
+#### Little-endian example:
+
+- Let there be a hex number $(H_{4}H_{3}H_{2}H_{1})_{16}$.
+- Its representation in memory will be as follows.
+
+$$ \fbox{ H1 | H2 | H3 | H4 } $$
+
+
+### <u>2's Complement</u>
+
+- Any binary number's 2's complement gives us its negative form.
+- But we do so with digits in multiple of 4.
+
+#### Example:
+
+$$ Positive\;=\;0001 $$
+$$ 2^3(0)\;+\;2^2(0)\;+\;2^1(0)\;+\;2^0(1)\;=\;1 $$
+$$ $$
+$$ 2's\;complement\;=\;1111 $$
+$$ -2^3(1)\;+\;2^2(1)\;+\;2^1(1)\;+\;2^0(1)\;=\;-1 $$
+
+
+
+## **Topic - 2: Addressing Modes**
+
+### <u>Register Addressing</u>
+
+- Register to register transfer.
+
+```asm
+mov %bx, %ax
+```
+
+
+### <u>Immediate Addressing</u>
+
+- Move a constant value to a register (with any base).
+
+```asm
+mov $0xa, %ax
+```
+
+
+### <u>Direct Addressing Mode</u>
+
+- Moving a constant value to a register, through its memory address.
+
+```asm
+my_var: .word 1234
+
+movw my_var, %ax
+```
+
+- `my_var(%rip)` tells instruction pointer `rip` about memory address of `my_var`.
+
+
+### <u>Direct Offset Addressing</u>
+
+- Using arithmetic operations to tell address to point.
+
+```asm
+my_table: .byte 10,20,30,40
+
+mov my_table+2, %al
+```
+
+
+### <u>Register Indirect Addressing</u>
+
+```asm
+mov (%di), %al
+```
+
+| Syntax  | Meaning                                                             |
+| :-----: | ------------------------------------------------------------------- |
+|  `%di`  | Accessing value stored in `di` register.                            |
+| `(%di)` | Value at the memory address, address being stored in `di` register. |
+|  `$di`  | Accessing value represented by the label `di`.                      |
+
+- Registers used for indirect addressing are BX, BP, SI & DI.
+
+
+
+## **Topic - 3: 64-Bit GPRs**
+
+### <u>Introduction</u>
+
+#### R-series registers:
+
+- 64-bit architecture was introduced with eight more registers.
+- These are named R8-R15.
+- R8D-R15D are lower 32-bits of them.
+- R8W-R15W are lower 16-bits of them.
+- R8B-R15B are lower 8-bits of them.
+
+#### XMM registers:
+
+- There are more registers named as XMM0-XMM7 which are 128-bits wide.
+- They can be accessed through SSE instruction only.
+- And they can't be used for high-precision floating point operations.
+- Newer Intel & AMD processors however have YMM0-YMM7 which are 256-bits wide.
+- They can be accessed using AVX instruction.
+
+
+
+## **Topic - 4: Stack**
+
+```asm
+movw $0x006a, %ax
+movw $0xf79a, %bx
+movw $0x1124, %cx
+
+pushw %ax        ; Push value in AX to stack.
+pushw %bx
+pushw %cx
+
+call my_func     ; A function never saves state of registers.
+
+popw %cx         ; Pop top element of stack & save it to CX.
+popw %bx
+popw %ax
+```
+
+
+
+## **Topic - 5: CPU Operation Modes**
+
+### <u>Real Mode</u>
+
+- 
