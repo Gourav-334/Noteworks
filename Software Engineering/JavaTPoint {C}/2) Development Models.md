@@ -8,7 +8,7 @@
 
 ### <u>Introduction</u>
 
-![Waterfall Model](./media/image5.png)
+![Waterfall Model](Software%20Engineering/JavaTPoint%20{C}/media/image5.png)
 
 - Introduced by Winston Royce in 1970.
 - Derived from Waterfall model.
@@ -81,7 +81,7 @@
 - A strict schedule.
 - Little to no formality in team communication.
 
-![RAD Modelling](./media/image6.png)
+![RAD Modelling](Software%20Engineering/JavaTPoint%20{C}/media/image6.png)
 
 
 ### <u>Phases</u>
@@ -123,7 +123,7 @@
 - Earlier, only prototype models are produced but later proper modifications are added using spiral model.
 - Takes proper time in identifying & solving risk factors.
 
-![Spiral Model](./media/image7.png)
+![Spiral Model](Software%20Engineering/JavaTPoint%20{C}/media/image7.png)
 
 
 ### <u>Phases</u>
@@ -163,7 +163,7 @@
 - **V** in **V-model** means verification & validation.
 - It is a linear development method.
 
-![V-Model](./media/image8.png)
+![V-Model](Software%20Engineering/JavaTPoint%20{C}/media/image8.png)
 
 - **<u>Verification</u>:** Analyzing planning & methods to be implemented.
 - **<u>Validation</u>:** Analyzing codes after implementation is done.
@@ -214,7 +214,7 @@
 - Various requirements are grouped separately & worked parallelly.
 - Each group is cyclic, cycled joined by maintenance phase at last.
 
-![Incremental Model](./media/image9.png)
+![Incremental Model](Software%20Engineering/JavaTPoint%20{C}/media/image9.png)
 
 
 ### <u>Phases</u>
@@ -256,7 +256,7 @@
 - Each iteration takes 1-4 weeks.
 - Its a series of iterations, not parallelly running multiple iterations.
 
-![Agile Model](./media/image10.png)
+![Agile Model](Software%20Engineering/JavaTPoint%20{C}/media/image10.png)
 
 - Agile promotes CI/CD method of development.
 - However, technical phases like designing, development & testing are unpredictable.
@@ -377,7 +377,7 @@
 - In Iterative model, the objectives of a project is decided without expecting a second iteration.
 - But when it is felt that some changes are required to the software, then they are planned & added with the upcoming iteration after review phase.
 
-![Iterative Model](./media/image11.png)
+![Iterative Model](Software%20Engineering/JavaTPoint%20{C}/media/image11.png)
 
 - See above how requirements & analysis are done just once.
 - Next iteration always continues from design.
@@ -425,7 +425,7 @@
 - So, obviously it doesn't deal with any customer requirements.
 - Ideal when a very few developers are there to develop a small project.
 
-![Big-Bang Model](./media/image12.png)
+![Big-Bang Model](Software%20Engineering/JavaTPoint%20{C}/media/image12.png)
 
 
 ### <u>Use Cases</u>
@@ -457,7 +457,7 @@
 - Prototype modelling believes that a prototype of the product must be built before final product.
 - This might be useful as the client may tell the required changes to it beforehand, saving a lot of resources that were to be used in making the actual product.
 
-![Prototype Modelling](./media/image13.png)
+![Prototype Modelling](Software%20Engineering/JavaTPoint%20{C}/media/image13.png)
 
 
 ### <u>Phases</u>

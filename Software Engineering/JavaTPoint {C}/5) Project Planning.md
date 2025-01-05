@@ -16,7 +16,7 @@
 - Software managers also make sure that the project completes within the budget.
 - And a lot of metrics are also inspected by the manager.
 
-![Software Project Planning](./media/image20.png)
+![Software Project Planning](Software%20Engineering/JavaTPoint%20{C}/media/image20.png)
 
 - Size estimation is extremely important for getting an idea about how much resources are to be used.
 - Resources & time are carefully considered for making a good project schedule.
@@ -144,11 +144,11 @@ $$ Tdev \; = \; b_{1}*E*b_{2} $$
 
 #### Effort v/s product size:
 
-![Effort v/s Product Size Graph](./media/image21.png)
+![Effort v/s Product Size Graph](Software%20Engineering/JavaTPoint%20{C}/media/image21.png)
 
 #### Development time v/s product size:
 
-![Development Time v/s Product Size Graph](./media/image22.png)
+![Development Time v/s Product Size Graph](Software%20Engineering/JavaTPoint%20{C}/media/image22.png)
 
 
 #### Project Cost Dependencies:
@@ -252,7 +252,7 @@ $$ D \; = \; c_{i}(E)d_{i} $$
 - Developed by Lawrence Putnam.
 - It uses Norden/Rayleigh curve to estimate effort, schedule & defect rate.
 
-![Putnam Model](./media/image23.png)
+![Putnam Model](Software%20Engineering/JavaTPoint%20{C}/media/image23.png)
 
 - The graph reaches peak when most people are engaged in project, i.e. during implementation & unit testing.
 - $K$ denotes total effort (in person-month).

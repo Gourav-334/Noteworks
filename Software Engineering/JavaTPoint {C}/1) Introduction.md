@@ -15,7 +15,7 @@
 
 ### <u>Steps Making Software Products</u>
 
-![Software Products](./media/image1.png)
+![Software Products](Software%20Engineering/JavaTPoint%20{C}/media/image1.png)
 
 > **<u>NOTE</u>:**
 > Whatever points are in these notes or any of them, they can be expanded & even more points can be added to same concept.
@@ -167,7 +167,7 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - Software requirement validation
 - Software requirement management
 
-![Requirement Engineering Process](./media/image3.png)
+![Requirement Engineering Process](Software%20Engineering/JavaTPoint%20{C}/media/image3.png)
 
 
 ### <u>Feasibility Study</u>
@@ -186,7 +186,7 @@ $$ Software \; = \; Programs \; + \; Documentation \; + \; Manual $$
 - It involves gathering of information.
 - Analysis of requirement is done to identify problems in requirements.
 
-![Elicitation and Analysis Process](./media/image4.png)
+![Elicitation and Analysis Process](Software%20Engineering/JavaTPoint%20{C}/media/image4.png)
 
 
 ### <u>Software Requirement Specification (SRS)</u>

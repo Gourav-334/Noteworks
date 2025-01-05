@@ -47,12 +47,12 @@
 - Developed by Henry Gantt in 1917.
 - It clearly shows **"Time v/s Activities"**.
 
-![Gantt Chart](./media/image14.png)
+![Gantt Chart](Software%20Engineering/JavaTPoint%20{C}/media/image14.png)
 
 
 ### <u>PERT Chart</u>
 
-![PERT Chart](./media/image15.png)
+![PERT Chart](Software%20Engineering/JavaTPoint%20{C}/media/image15.png)
 
 - **PERT** stands for **Program Evaluation Review Technique**.
 - Developed by US Navy in 1950s.
@@ -68,7 +68,7 @@
 
 ### <u>Product Breakdown Structure</u>
 
-![Product Breakdown Structure](./media/image16.png)
+![Product Breakdown Structure](Software%20Engineering/JavaTPoint%20{C}/media/image16.png)
 
 - Breaks down the product into smaller & understandable parts to focus on.
 

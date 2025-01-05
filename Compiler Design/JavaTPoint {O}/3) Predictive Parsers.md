@@ -192,3 +192,5 @@ $$ A\;\rightarrow\;.b,\;a/b $$
 #### For example:
 
 ![LALR(1)](./media/image29.png)
+
+---

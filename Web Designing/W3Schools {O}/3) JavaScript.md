@@ -125,3 +125,5 @@ let str = `My string`;
 ```js
 let score = `Score: ${points}`;
 ```
+
+---

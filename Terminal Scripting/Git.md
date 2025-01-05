@@ -198,4 +198,14 @@ git reset --all
 git revert <commit_id>
 ```
 
+
+
+## **Topic - 6: Miscalleneous**
+
+### <u>Total Number Of Commits</u>
+
+```sh
+git rev-list --count HEAD
+```
+
 ---

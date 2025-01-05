@@ -54,7 +54,7 @@
 - EFLAGS register has a capacity of storing 32-bits.
 - Each of it bit represents a different flag.
 
-![EFLAGS Register](./media/image1.png)
+![EFLAGS Register](x86%20Assembly/Wikibook's%20AT&T%20GAS%20{O}/media/image1.png)
 
 >**<u>WARNING</u>:**
 >Bits named 0 and 1 shouldn't be changed.
@@ -222,4 +222,32 @@ popw %ax
 
 ### <u>Real Mode</u>
 
-- 
+- A real mode is required to directly interact with the BIOS.
+- In this, two registers (segment & offset) are used to store a single memory address.
+- An address is of 8-bits, so both fetch 4-bits each.
+- The segment register fetches first 8-bits & multiplies the result by 16, to shift intermediate result 4-bits to the left.
+- Then the remaining 4-bit of address in offset register is added to it.
+- Real mode allows up to 1MB of usable address space, which can be extended only if address location of `0xFFFF` is occupied.
+- This limit from 80286 to now is of 65520 bytes (64 KB), only if the A20 address line is enabled on the processor.
+- Both real mode & protected mode's multi-memory segment memory model can calculate relative addresses from a segment address.
+- This was highly used in DOS.
+
+
+### <u>Protected Mode</u>
+
+#### Flat memory model:
+
+- Done in 32-bit computer OS.
+- Uses 32-bit registers.
+- Use of segment registers isn't compulsory.
+- Also using segment registers isn't a good practice.
+
+#### Multi-segmented memory model:
+
+- This model also uses 32-bit registers.
+- Can access almost all available computer memory.
+- CS, DS & ES are used for pointing to these memory locations.
+
+#### Long mode:
+
+- This is the 64-bit mode.

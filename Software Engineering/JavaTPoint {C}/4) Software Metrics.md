@@ -18,7 +18,7 @@
 1. **<u>Product metrics</u>:** Measures size, complexity, quality & reliability etc of software.
 2. **<u>Process metrics</u>:** Measures efficiency of methods, techniques & tools being used in development.
 
-![Software Metrics Classification](./media/image17.png)
+![Software Metrics Classification](Software%20Engineering/JavaTPoint%20{C}/media/image17.png)
 
 
 ### <u>Types Of Metrics</u>
@@ -225,7 +225,7 @@ $$ \lambda \; = \; L'*(V*) \; = \; L^{2}*V $$
 
 ### <u>Functional Unit System</u>
 
-![FPAs Functional Unit System](./media/image18.png)
+![FPAs Functional Unit System](Software%20Engineering/JavaTPoint%20{C}/media/image18.png)
 
 - FP is programming language independent.
 - Used mostly where data/information are heavily processed or shared.
@@ -410,7 +410,7 @@ $$ V(G) \; = \; E \; - \; N \; + \; 2*P $$
 
 ### <u>Example</u>
 
-![Cyclomatic Complexity Example](./media/image19.png)
+![Cyclomatic Complexity Example](Software%20Engineering/JavaTPoint%20{C}/media/image19.png)
 
 
 ### <u>Properties Of Cyclomatic Complexity</u>
