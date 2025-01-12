@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6c0e9425556ccb3a",
+        "id": "82214afcb8896ee2",
         "type": "tabs",
         "children": [
           {
-            "id": "a4e1ed5109dc8334",
+            "id": "eec9d56d23e49dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Programming/W3Schools {C}/Lambda Expressions.md",
+                "file": "C Programming/Sololearn {C}/13) GNU C Compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lambda Expressions"
+              "title": "13) GNU C Compiler"
             }
           }
         ]
@@ -163,19 +163,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4e1ed5109dc8334",
+  "active": "eec9d56d23e49dab",
   "lastOpenFiles": [
-    "C++ Programming/W3Schools {C}/Lambda Expressions.md",
-    "C++ Programming/W3Schools {C}/C++.docx",
-    "C++ Programming/W3Schools {C}",
-    "C++ Programming/New folder",
-    "C++ Programming",
-    "New folder",
+    "C Programming/Sololearn {C}/13) GNU C Compiler.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
+    "C Programming/Sololearn {C}/~$) Standard & Windows APIs.docx",
+    "C Programming/Sololearn {C}/~WRL0001.tmp",
+    "C Programming/Sololearn {C}/~WRD0000.tmp",
+    "C Programming/Sololearn {C}/~$) Standard IO.docx",
+    "C Programming/Sololearn {C}/01) Standard IO.docx",
+    "C Programming/Sololearn {C}/12) Type Qualifiers & Casting.docx",
+    "C Programming/Sololearn {C}/11) BSD Sockets API.docx",
+    "C Programming/Sololearn {C}/10) Standard & Windows APIs.docx",
+    "C Programming/Sololearn {C}/09) Multithreading.docx",
+    "C Programming/Sololearn {C}/08) Preprocessor Directives.docx",
+    "Compiler Design/JavaTPoint {O}/4) Syntax Directed Translation.md",
+    "Web Designing/W3Schools {O}/7) React.js.md",
+    "Compiler Design/JavaTPoint {O}/3) Predictive Parsers.md",
+    "Web Designing/W3Schools {O}/4) Node.js.md",
+    "C++ Programming/W3Schools {C}/Lambda Expressions.md",
     "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/1) Introduction.md",
     "x86 Assembly/Jeff Duntamann's (NASM) {D}/1) Lifting The Hood.md",
-    "Web Designing/W3Schools {O}/4) Node.js.md",
     "Web Designing/W3Schools {O}/3) JavaScript.md",
     "Web Designing/W3Schools {O}/2) CSS.md",
     "Web Designing/W3Schools {O}/1) HTML.md",
@@ -192,21 +201,12 @@
     "Software Engineering/JavaTPoint {C}/1) Introduction.md",
     "Scriptures/Ishadi Nau Upanishad/1) Ishavasya Upanishad.md",
     "Quantitative Reasoning/College version {O}/5) Time.md",
-    "Quantitative Reasoning/College version {O}/4) Profit & Loss.md",
-    "Quantitative Reasoning/College version {O}/3) Ratio & Proportion.md",
-    "Quantitative Reasoning/College version {O}/2) Progressions.md",
-    "Quantitative Reasoning/College version {O}/1) Number System.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/media/image1.png",
     "x86 Assembly/Wikibooks AT&T GAS {O}/media/Screenshot 2024-12-31 142253.png",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/media",
     "x86 Assembly/Wikibooks AT&T GAS {O}/images/image1.png",
     "x86 Assembly/Wikibooks AT&T GAS {O}/images/Screenshot 2024-12-31 140127.png",
-    "x86 Assembly/Wikibooks AT&T GAS {O}/images",
-    "x86 Assembly/Wikibooks AT&T GAS {O}/New folder",
     "Compiler Design/JavaTPoint {O}/media/image29.png",
-    "Compiler Design/JavaTPoint {O}/media/image29.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image28.png",
-    "Compiler Design/JavaTPoint {O}/media/image28.png.crdownload",
     "Compiler Design/JavaTPoint {O}/media/clr-1-parsing1.png",
     "Compiler Design/JavaTPoint {O}/media/image27.png",
     "Compiler Design/JavaTPoint {O}/media/image26.png",

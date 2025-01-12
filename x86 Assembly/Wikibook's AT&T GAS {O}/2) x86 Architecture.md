@@ -251,3 +251,26 @@ popw %ax
 #### Long mode:
 
 - This is the 64-bit mode.
+
+
+
+## **Topic - 6: Comments**
+
+- Comments are discarded when converting assembler or source code to machine code.
+- Other than GNU Assembler & HLA, all assemblers use `;` for comment.
+- GAS uses `#` for single-line comment & `\* ... *\` for multiline comment.
+- While HLA uses C/C++ styled comments.
+
+
+
+## **Topic - 7: Architectural Differences**
+
+### <u>16-Bit</u>
+
+- On DOS & 32-bit Windows systems, there is a program called $program.exe$.
+- It is useful for learning 8086 assembly.
+- It can be accessed through DOS shell.
+
+
+
+## **Topic - 8: Addressing Memory**
