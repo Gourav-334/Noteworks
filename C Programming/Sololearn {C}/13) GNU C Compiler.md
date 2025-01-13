@@ -121,7 +121,9 @@ gcc -c example.c
 - `-c` must always be added when files mentioned don't have main function.
 
 
-### <u>Object Files (Compilation)</u>
+### <u>Object Files</u>
+
+#### Compilation:
 
 ```sh
 gcc -c example.c -o example.o
@@ -130,11 +132,10 @@ gcc -c example.c -o example.o
 - To be done for each file separately.
 - Insert `-g` for debugging if required.
 
-
-### <u>Object Files (Linking)</u>
+#### Linking:
 
 ```sh
-gcc -c file1.o file2.o file3.o -o file
+gcc -o file file1.o file2.o file3.o
 ```
 
 
@@ -170,3 +171,104 @@ gcc -O2 -o example example.c
 ```sh
 gcc -Wall -Werror -g -o example example.c
 ```
+
+
+
+## **Topic - 5: Archive Files**
+
+### <u>Static Compilation</u>
+
+- Just add the `-static` flag during it.
+
+```sh
+gcc -c file.c -o file.o
+```
+
+
+### <u>Compiling Archives</u>
+
+```sh
+ar rcs libfile.a file1.o file2.o
+```
+
+- In `rcs`, each letter tells different thing.
+- `r` - Insert/replace files in archive.
+- `c` - Create the archive if it doesn't exist.
+- `s` - Add index to archive.
+- The name `libfile.a` has prefix `lib` because it is used during linking.
+- The same thing goes on with shared object files.
+
+
+### <u>Linking Archives</u>
+
+```sh
+gcc -o program main.c -L. -static -lmath
+```
+
+- `program` - Name of the executable we are creating after linking.
+- `main.c` - The user file with the `main()` function.
+- `-L.` - Tells compiler to search for library to link in same directory.
+- `-lmath` - It searches for the file `libmath.a`, omitting `lib`.
+- We can write path after `-L` too.
+
+
+
+## **Topic - 6: Shared Objects**
+
+### <u>Dynamic Compilation</u>
+
+```sh
+gcc -fPIC -c program.c -o program.o
+```
+
+
+### <u>Compiling Shared Objects</u>
+
+```sh
+gcc -shared -o libprogram.so program.o
+```
+
+
+### <u>Linking Shared Objects</u>
+
+```sh
+gcc -o program main.c -L. -lprogram
+```
+
+- We can also link object files to the `program` library.
+
+
+
+## **Topic - 7: Conclusion**
+
+### <u>Linking External Library</u>
+
+#### Making library:
+
+$$ \framebox[4cm][c]{Library Source}\xrightarrow{(.a)\;Compilation}\framebox[4cm][c]{Library Objects}\xrightarrow{(.a/.so)\;Compilation}\framebox[4cm][c]{Archive/ Shared} $$
+
+#### Making program:
+
+$$ \framebox[4cm][c]{User Source}\xrightarrow{(.o)\;Compilation}\framebox[4cm][c]{User Objects} $$
+
+#### Linking:
+
+$$ \{\;\framebox[4cm][c]{Archive/ Shared}\xrightarrow{Linking}\framebox[4cm][c]{User Objects}\;\} $$
+$$ \downarrow $$
+$$ \framebox[4cm][c]{Executable} $$
+
+
+### <u>Making Huge Application</u>
+
+$$ \framebox[4cm][c]{User Lib Source}\xrightarrow{(.a)\;Compilation}\framebox[4cm][c]{User Lib Objects}\xrightarrow{(.out/.)\;Compilation}\framebox[4cm][c]{Executable} $$
+
+- Its not necessary to produce archive ($.a$) or shared objects ($.so$) when making libraries only for your own program.
+
+
+### <u>Common Doubts</u>
+
+- Source files ($.c$) can be directly linked, but creating intermediate objects ($.o$) is considered a good practice to avoid complete linking from starting.
+- Tools like CMake provide even further selective linking.
+- Its best to follow standards to avoid facing any kind of problems.
+
+---

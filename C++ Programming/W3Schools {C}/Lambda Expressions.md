@@ -49,3 +49,5 @@ int main()
 - Here, `for_each` is indeed a function, part of `algorithm.h` header.
 - Also, there is another function `sort` with very obvious effect.
 - Whatever variable is written inside `[]` is considered a copied local variable for the expression, than changing it outside too.
+
+---
