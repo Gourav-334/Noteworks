@@ -44,3 +44,29 @@ $$ E.val\;:=\;E.val\;+\;T.val $$
 |   $E\;\rightarrow\;(E)$    |      $\{\;E.VAL\;:=\;E.VAL\;\}$      |
 |    $E\;\rightarrow\;I$     |      $\{\;E.VAL\;:=\;I.VAL\;\}$      |
 | $I\;\rightarrow\;I\;digit$ | $\{\;I.VAL\;:=\;10*I.VAL+LEXVAL\;\}$ |
+
+
+
+## **Topic - 3: Implementing SDT**
+
+### <u>Introduction</u>
+
+- SDT is implemented by constructing a parse tree from input.
+- Then a left-to-right depth first order is performed.
+
+
+### <u>Example</u>
+
+| Production                 | Semantic Rules                               |
+| -------------------------- | -------------------------------------------- |
+| $S\;\rightarrow\;E\;\$$    | $\{\;printE.VAL\;\}$                         |
+| $E\;\rightarrow\;E\;+\;E$  | $\{\;E.VAL\;:=\;E.VAL\;+\;E.VAL\;\}$         |
+| $E\;\rightarrow\;E\;*\;E$  | $\{\;E.VAL\;:=\;E.VAL\;*\;E.VAL\;\}$         |
+| $E\;\rightarrow\;(E)$      | $\{\;E.VAL\;:=\;E.VAL\;\}$                   |
+| $E\;\rightarrow\;I$        | $\{\;E.VAL\;:=\;I.VAL\;\}$                   |
+| $I\;\rightarrow\;I\;digit$ | $\{\;I.VAL\;:=\;10\;*\;I.VAL\;+\;LEXVAL\;\}$ |
+| $I\;\rightarrow\;digit$    | $\{\;I.VAL\;:=\;LEXVAL\;\}$                  |
+
+![SDT Example](./media/image30.png)
+
+---

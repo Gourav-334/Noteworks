@@ -34,3 +34,36 @@ $$ \frac{1}{x}\;+\;\frac{1}{y}\;=\;\frac{x\;+\;y}{xy} $$
 
 
 ## **Topic - 2: Pipes & Cisterns**
+
+### <u>Introduction</u>
+
+- Pipes & cisterns problems are related to filling volumes & emptying them.
+- **<u>Inlet</u>:** Pipe which is used for filling a volume (positive work done).
+- **<u>Outlet</u>:** Pipe which is used for emptying a volume (negative work done).
+- Outlet is also sometimes known as leak.
+
+
+### <u>Formula</u>
+
+- Let's say that it takes $x$ hours for a tank to fill or empty.
+- Then the part of tank filled/emptied in $1$ hour is $\frac{1}{x}$.
+
+
+
+## **Topic - 3: Speed, Distance & Time**
+
+### <u>Conversion</u>
+
+$$ x\;km/hrs\;=\;x\;\times\;\frac{5}{18}\;m/sec $$
+$$ x\;m/sec\;=\;x\;\times\;\frac{18}{5}\;km/hrs $$
+$$ 1\;mile\;=\;1.609\;km $$
+$$ 1\;mile\;=\;1760\;yards $$
+$$ 1\;yard\;=\;3\;feet $$
+
+
+### <u>Meeting Point Questions</u>
+
+- These questions are about people starting from certain point & meeting at another point.
+- If they start together, then the time taken by them to meet each other is same (obviously).
+- If they meet each other again by going back to their point & coming back, then distance the second time is $3d$.
+- Then third time it will be $5d$.
