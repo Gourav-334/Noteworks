@@ -38,16 +38,29 @@
 - This unstructured hierarchy helps it store rapidly changing data.
 
 
-### <u>Advantages Of NoSQL</u>
+### <u>Features Of NoSQL</u>
 
-- Flexible data model
+#### Advantages:
+
+- Flexible schema model
 - Scalability
 - Complex data types
 - Large storage volume
 - Fast
 - Fault-tolerant
-- Low computation cost
 - Real-time data processing
+- Horizontal scalability
+- Variety styles of documents
+- Distributed & highly available
+- High-performance
+
+#### Disadvantages:
+
+- Lack of ACID transactions
+- Learning curve
+- Limited query capabilities
+- Poor data consistency
+- Non-standard structure
 
 
 ### <u>Types Of NoSQL Databases</u>
@@ -57,12 +70,6 @@
 - **<u>Column family stores</u>:** Sets of columns which are treated as single unit.
 - **<u>Graph databases</u>:** Data are stored as nodes & edges.
 
-
-### <u>Features Of NoSQL</u>
-
-- Dynamic schema with no fixed schema to follow.
-- Horizontal scalability
-- Variety styles of documents
-- Distributed & highly available
-- Flexible
-- High-performance
+>**<u>NOTE</u>:**
+>1. NoSQL databases are primarily used to store unstructured data.
+>2. Social connection like networks are stored in graph.

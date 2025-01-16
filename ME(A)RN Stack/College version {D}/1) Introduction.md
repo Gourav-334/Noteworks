@@ -18,7 +18,7 @@
 
 ### <u>Request-Response Diagram</u>
 
-![Request-Response Diagram](./media/image1.png)
+![Request-Response Diagram](ME(A)RN%20Stack/College%20version%20{D}/media/image1.png)
 
 
 ### <u>Working Of Web Apps</u>
@@ -88,7 +88,7 @@
 
 ### <u>Single Page Applications (SPAs)</u>
 
-![SPAs](./media/image2.png)
+![SPAs](ME(A)RN%20Stack/College%20version%20{D}/media/image2.png)
 
 - In SPAs, any form of changes to be made in the UI is done without communication with the server.
 - Meaning, page doesn't require reloading when new data comes.
@@ -97,7 +97,7 @@
 
 ### <u>Server-Side Rendering (SSR)</u>
 
-![SSR](./media/image3.png)
+![SSR](ME(A)RN%20Stack/College%20version%20{D}/media/image3.png)
 
 - Files come rendered from the server itself.
 - More dynamic, server immediately responses to requests.
@@ -105,7 +105,7 @@
 
 ### <u>Static Site Generation (SSG)</u>
 
-![SSG](./media/image4.png)
+![SSG](ME(A)RN%20Stack/College%20version%20{D}/media/image4.png)
 
 - Provides templates for HTML.
 - These HTML templates are stored on servers & delivered through CDN.
@@ -114,7 +114,7 @@
 
 ### <u>Progressive Web Application (PWA)</u>
 
-![PWA](./media/image5.png)
+![PWA](ME(A)RN%20Stack/College%20version%20{D}/media/image5.png)
 
 - Similar to SPA but has some parallelly running services too.
 - For example, cookies, extensions, plug-ins etc.
@@ -199,7 +199,7 @@
 - It uses only JavaScript.
 - Includes tools for both frontend & backend development.
 
-![MEA(R)N Layers](./media/image6.png)
+![MEA(R)N Layers](ME(A)RN%20Stack/College%20version%20{D}/media/image6.png)
 
 
 ### <u>MongoDB</u>
