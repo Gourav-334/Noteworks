@@ -67,3 +67,8 @@ $$ 1\;yard\;=\;3\;feet $$
 - If they start together, then the time taken by them to meet each other is same (obviously).
 - If they meet each other again by going back to their point & coming back, then distance the second time is $3d$.
 - Then third time it will be $5d$.
+
+
+### <u>Relative Speed</u>
+
+- Physics formulae might be used.

@@ -251,4 +251,69 @@ man objdump
 objdump -t ./example
 ```
 
+
+## **Topic - 6: Debugging Linked Files**
+
+### <u>Setting Breakpoints</u>
+
+#### On file's line:
+
+```gdb
+break file2.c:42
+```
+
+#### On function:
+
+```gdb
+break file2.c:func_name
+```
+
+
+### <u>Passing Arguments</u>
+
+```gdb
+run arg1 arg2
+```
+
+
+### <u>Variable Inspection</u>
+
+```gdb
+print file2.c:myVar
+```
+
+
+### <u>View Source Code</u>
+
+```gdb
+list file2.c:42
+```
+
+
+### <u>Back Trace</u>
+
+- Back trace is done as it is.
+
+```gdb
+backtrace
+```
+
+
+### <u>Shared Libraries</u>
+
+#### Listing them:
+
+```gdb
+info sharedlibrary
+```
+
+#### Setting breakpoints:
+
+```gdb
+break sharedFunc
+```
+
+- Here, `sharedFunc` is name of a function in a shared library, used in our program.
+- Similar command follows for printing variable, info etc.
+
 ---

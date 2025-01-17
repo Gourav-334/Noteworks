@@ -73,3 +73,14 @@
 >**<u>NOTE</u>:**
 >1. NoSQL databases are primarily used to store unstructured data.
 >2. Social connection like networks are stored in graph.
+
+
+
+## **Topic - 3: CRUD Operation**
+
+### <u>Create Operation</u>
+
+#### Methods:
+
+- `db.collection_name.insertOne()` - Inserts single document to collection.
+- `db.collection_name.insertMany()` - Inserts multiple documents to collection.
