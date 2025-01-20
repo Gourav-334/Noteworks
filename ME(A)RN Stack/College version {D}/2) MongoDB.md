@@ -80,7 +80,59 @@
 
 ### <u>Create Operation</u>
 
-#### Methods:
+#### `db.collection_name.insertOne()`:
 
-- `db.collection_name.insertOne()` - Inserts single document to collection.
-- `db.collection_name.insertMany()` - Inserts multiple documents to collection.
+- Inserts single document to collection.
+
+```json
+db.user.insertOne({
+	sno: 1,
+	name: "Gourav",
+	age: 21
+})
+```
+
+#### `db.collection_name.insertMany()`:
+
+- Inserts multiple documents to collection.
+
+```json
+db.user.insertMany([
+	{
+		name: "Gourav",
+		special: "System programming",
+		religion: "Hindu"
+	},
+
+	{
+		name: "Wong De Piht",
+		special: "Game development",
+		religion: "Buddhist"
+	}
+])
+```
+
+- MongoDB generates `_id` itself if not provided.
+
+
+### <u>Read Operation</u>
+
+#### Get all documents:
+
+- We use `db.collection_name.find()` to get all documents from collection.
+
+```json
+db.Office.find()
+```
+
+#### Get specific field:
+
+```json
+db.Office.find({},{"age":20, "special":"embedded"})
+```
+
+#### Filtering documents:
+
+```json
+db.Office.find({"age":20, "special":"embedded"})
+```

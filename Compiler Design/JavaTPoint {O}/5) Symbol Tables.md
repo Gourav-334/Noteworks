@@ -1,4 +1,4 @@
-# $\fbox{Chapter 5: SYMBOL TABLE}$
+# $\fbox{Chapter 5: SYMBOL TABLES}$
 
 
 
@@ -50,3 +50,14 @@
 >1. This hierarchical ST storage is done during semantic analysis.
 >2. When a symbol is searched, it is searched in the current ST. If not found, it goes up to each parent for search.
 >3. If a symbol isn't found even in parent symbol table, then its searched from the global ST.
+
+
+
+## **Topic - 3: Representing Scope Information**
+
+- A variable defined in a scope is available to blocks nested inside it.
+- For each block in code, a new table is created for it in stack.
+- Whenever a variable or an identifier in general is declared, the name of variable is searched in table for mitigating duplicates.
+- All tables in scope that could be affected are searched for that.
+
+---
