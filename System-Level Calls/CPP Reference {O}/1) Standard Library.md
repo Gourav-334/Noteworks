@@ -184,4 +184,93 @@ FILE *popen(const char *command, const char *mode);
 #### About:
 
 - `popen()` is actually part of `stdio.h` header.
-- 
+- It creates a pipe between the program & process execution.
+- And it works the same way the functions in file handling did, with mutual exclusion to same process, check for `NULL` fd & careful usage of `fflush()`.
+- System calls like `waitpid()` carefully creates a process ID which does not match to that of created through `popen()`.
+
+#### Example:
+
+- `r` reads the output produced from string command from STDOUT.
+- While `w` writes STDIN string as the process output.
+
+```c
+/* Reading from STDOUT. */
+fd = popen("ls *", "r");
+
+while (fgets(buffer, sizeof(buffer), fd) != NULL)
+{
+	printf("%s", buffer);
+}
+
+pclose(fd);
+
+
+/* Writing using STDIN. */
+fd = popen("wc -w", "w");        // Word count
+
+fprintf(fd, "Hello, World!");    // Output: 2
+
+pclose(fd);
+```
+
+- `fprintf()` is used for file descriptors in particular.
+- It is used to send input.
+
+
+### <u>Get Environment Variables</u>
+
+#### Declaration:
+
+```c
+char *getenv(const char *name);
+```
+
+```c
+errno_t getenv_s(
+	size_t *restrict len,
+	char *restrict value,
+	rsize_t valuesz,
+	const char *restrict name
+);
+```
+
+#### About:
+
+- Both `getenv()` & `getenv_s()` are same with a few differences.
+- In `getenv()`, output is written to a user defined buffer `value`.
+- `len` stores the number of bytes written to `value`.
+- `name` is name of the environment variable we are searching for.
+- `valuesz` is the maximum characters allowed to be written to buffer.
+- We can access environment variables through `extern char **environ` in `<unistd.h>`, or even third argument `envp` in `main()` function.
+
+#### Example:
+
+```c
+const char *name = "PATH";
+
+if (getenv(name))
+{
+	printf("Path for %s is: %s.", name, getenv(name));
+}
+```
+
+
+### <u>Set Environment</u>
+
+#### Declaration:
+
+```c
+int setenv(
+	const char *envname,
+	const char *envval,
+	int overwrite
+);
+```
+
+#### About:
+
+- `setenv()` is used for modifying or adding a variable to the environment.
+- `envname` is the variable to be modified.
+- The function returns an error if `envname` points to `=`.
+- `envval` is the value to replace with `envname`.
+- `overwrite` to be `0` if `envname` already exists (we are adding a new variable).

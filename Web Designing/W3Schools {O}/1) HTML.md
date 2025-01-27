@@ -42,7 +42,7 @@
 - Attribute `target` is used for defining where the link will open.
 - `"_self"` - Opens in same window (default).
 - `"_blank"` - Opens in new window.
-- `"_self"` - Opens in parent window.
+- `"_parent"` - Opens in parent window.
 - `"_top"` - Opens in new & full window.
 - **<u>Absolute URL</u>:** URL to website.
 - **<u>Relative URL</u>:** URL to directory file.
@@ -71,7 +71,7 @@
 <p> Paragraph <br> 2 </p>
 ```
 
-- None of the HTML tag is case-sensitive.
+- None of the HTML tag is case-insensitive.
 - Means we could have used `<BR>` instead `<br>` too.
 
 
@@ -182,7 +182,7 @@ USA
 
 ### <u>Comments</u>
 
-### Multi-line comments:
+#### Multi-line comments:
 
 ```html
 <!--
@@ -247,7 +247,7 @@ USA
 </head>
 ```
 
-#### <u>Mailing Hyperlink</u>
+### <u>Mailing Hyperlink</u>
 
 ```html
 <a href="mailto:someone@example.com"> Send email </a>
