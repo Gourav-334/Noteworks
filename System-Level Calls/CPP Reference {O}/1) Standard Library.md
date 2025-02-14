@@ -274,3 +274,41 @@ int setenv(
 - The function returns an error if `envname` points to `=`.
 - `envval` is the value to replace with `envname`.
 - `overwrite` to be `0` if `envname` already exists (we are adding a new variable).
+- `setenv()` points to `environ`.
+
+
+### <u>Unset Environment</u>
+
+#### Declaration:
+
+```c
+int unsetenv(const char *name);
+```
+
+#### About:
+
+- Here also, the `name` argument mustn't contain `=`.
+- Successful execution returns `0`, while failure returns `-1`.
+
+
+### <u>Put Environment</u>
+
+#### Declaration:
+
+```c
+int putenv(char *string);
+```
+
+#### About:
+
+- Used to put or alter an environment variable with its path name.
+- Returns `0` for successful execution & a non-zero for failure.
+
+#### Example:
+
+```c
+static char *var = "HOME=/usr/home";
+int ret = putenv(var);
+```
+
+---

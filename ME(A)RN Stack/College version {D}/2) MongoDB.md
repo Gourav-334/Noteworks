@@ -125,6 +125,29 @@ db.user.insertMany([
 db.Office.find()
 ```
 
+#### Get limited documents:
+
+```json
+db.Office.find().limit(5);
+```
+
+#### Skip documents:
+
+```json
+db.Office.find().skip(7);
+```
+
+- This command skips first 7 documents.
+
+>**<u>NOTE</u>:**
+>We can also chain multiple commands like `limit()` & `skip()`.
+
+#### Count documents:
+
+```json
+db.Office.find().count();
+```
+
 #### Get specific field:
 
 ```json
@@ -136,3 +159,144 @@ db.Office.find({},{"age":20, "special":"embedded"})
 ```json
 db.Office.find({"age":20, "special":"embedded"})
 ```
+
+#### Logical operators:
+
+```json
+db.Office.find({$or:[{name:"Aarav", age:9}]});
+```
+
+#### Comparison operators:
+
+```json
+db.user.find({age:{$gt:20}});
+```
+
+>**<u>NOTE</u>:**
+>Adding `;` is optional but advised for cleaner code.
+
+
+### <u>Update Operations</u>
+
+#### Updating single document:
+
+- `updateOne` just updates first encountered document.
+
+```json
+db.Office.updateOne(
+	{name:"Aayush"},
+	{$set:{age:21, branch:"CSE"}}
+);
+```
+
+#### Updating many documents:
+
+- `updateMany()` command updates all the documents matching entered field.
+
+
+### <u>Delete Operation</u>
+
+#### Delete single document:
+
+```json
+db.Office.deleteOne({name:"Ankit"});
+```
+
+- Similarly, there is another command called `deleteMany()`.
+
+
+
+## **Topic - 4: Indexing**
+
+### <u>Introduction</u>
+
+- **<u>Index</u>:** A data structure implemented to cut data retrieval time.
+- It is similar to paging in RDBMS like SQL.
+
+
+### <u>Types Of Index</u>
+
+- Single field index
+- Compound index
+- Text index
+- Geospatial index
+
+
+### <u>Creating Index</u>
+
+```json
+db.Office.createIndex({name:1});
+```
+
+- This command creates index based on field `name`.
+- `1` means ascending order, while `-1` means descending order.
+
+
+### <u>Verifying Index</u>
+
+```json
+db.Office.getIndexes();
+```
+
+- Shows set indexes.
+
+
+
+## **Topic - 5: Aggregation Framework**
+
+### <u>Introduction</u>
+
+- These are actually text indexing commands.
+- Compound indexing is all about grouped indexing.
+
+
+### <u>Matching Values</u>
+
+```json
+db.Office.aggregate([
+	{$match:{field:value}}
+]);
+```
+
+
+### <u>Grouping</u>
+
+```json
+db.Office.aggregate([
+	{$group:{_id:"$category", total:{$sum:"$quantity"}}}
+]);
+```
+
+
+### <u>Chaining Aggregate Functions</u>
+
+```json
+db.Office.aggregate([
+	{$match:{field:value}},
+	{$group:{_id:"$category", total:{$sum:"$quantity"}}}
+]);
+```
+
+
+
+## **Topic - 6: Schema Design & Data Modeling**
+
+### <u>Introduction</u>
+
+- For making a efficient & scalable application, a schema must be maintained in MongoDB databases, though it has no fixed schema.
+- MongoDB stored data in BSON format.
+
+
+### <u>Steps For Data Modeling</u>
+
+1. Know about data & thus required schema.
+2. Perform less normalizations as they reduce performance in MongoDB.
+3. For less complex relation among data, embed them.
+4. For more complex relation among data, reference them.
+5. Perform frequent indexing to improve read performance, but be aware as it also reduces write speed.
+6. Choose an appropriate shard key, which defines how your data is spread.
+7. Chain multiple commands for more atomic & secured operations.
+8. Use MongoDB version 3.6 or later which has feature for defining & validating schema.
+9. Avoid pushing or modifying large arrays, as they slow down the performance.
+
+---

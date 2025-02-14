@@ -491,7 +491,7 @@ th, td
 }
 ```
 
-- We can also use `padding-left`, `padding-right`, `padding-top` & `padding-top`.
+- We can also use `padding-left`, `padding-right`, `padding-top` & `padding-bottom`.
 
 #### Spacing:
 

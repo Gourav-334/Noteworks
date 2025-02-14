@@ -172,19 +172,19 @@
 
   
 
-|Sno.|Topic/Chapter|Status|
-|:---:|:---:|:---:|
-|8.1|Deterministic finite automata|C|
-|8.2|Regular expressions|C|
-|8.3|Context free grammar|C|
-|8.4|Parsing|C|
-|8.5|Syntax Directed Translation|C|
-|8.6|Code Case Studies||
-|8.7|Symbol tables||
-|8.8|Storage||
-|8.9|Error detection||
-|8.10|Code generation||
-|8.11|Code optimization||
+| Sno. |         Topic/Chapter         | Status |
+| :--: | :---------------------------: | :----: |
+| 8.1  | Deterministic finite automata |   C    |
+| 8.2  |      Regular expressions      |   C    |
+| 8.3  |     Context free grammar      |   C    |
+| 8.4  |            Parsing            |   C    |
+| 8.5  |  Syntax Directed Translation  |   C    |
+| 8.6  |       Code Case Studies       |        |
+| 8.7  |         Symbol tables         |   C    |
+| 8.8  |            Storage            |        |
+| 8.9  |        Error detection        |        |
+| 8.10 |        Code generation        |        |
+| 8.11 |       Code optimization       |        |
 
   
   
@@ -226,7 +226,7 @@
 
 | Sno. |   Topic/Chapter    |      Header       | Status |
 | :--: | :----------------: | :---------------: | :----: |
-| 1.1  |  Standard library  |   `<stdlib.h>`    |        |
+| 1.1  |  Standard library  |   `<stdlib.h>`    |   C    |
 | 1.2  |   UNIX standards   |   `<unistd.h>`    |        |
 | 1.3  |    File control    |    `<fcntl.h>`    |        |
 | 1.4  |  Singal handling   |   `<signal.h>`    |        |
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{64}{98}\;=\;65\% $$
+$$ Topics\;comepleted\;=\;\frac{66}{98}\;=\;67\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{34}{98}\;=\;34\% $$
+$$ Topics\;incomeplete\;=\;\frac{32}{98}\;=\;33\% $$

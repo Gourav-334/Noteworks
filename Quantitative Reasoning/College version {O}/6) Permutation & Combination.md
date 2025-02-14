@@ -84,5 +84,17 @@ $$ _nC_r\;=\;\frac{n!}{r!(n-r)!} $$
 - **<u>Certain event</u>:** Event that will happen, no matter what.
 - **Impossible event**
 - **<u>Mutually exclusive events</u>:** Events that can't happen simultaneously.
+
+$$ P(A\;\cup\;B)\;=\;P(A)\;+\;P(B) $$
+
 - **<u>Dependent events</u>:** Opposite of mutually exclusive events.
 - **Equally likely events**
+- **<u>Exhaustive events</u>:** Events which together include all the possibilities.
+
+
+### <u>Classic Approach</u>
+
+$$ P(A)\;=\;\frac{m}{n} $$
+$$ P(A')\;=\;\frac{n-m}{n} $$
+
+---
