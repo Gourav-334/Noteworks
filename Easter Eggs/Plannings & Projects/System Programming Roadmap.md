@@ -181,7 +181,7 @@
 | 8.5  |  Syntax Directed Translation  |   C    |
 | 8.6  |       Code Case Studies       |        |
 | 8.7  |         Symbol tables         |   C    |
-| 8.8  |            Storage            |        |
+| 8.8  |            Storage            |   C    |
 | 8.9  |        Error detection        |        |
 | 8.10 |        Code generation        |        |
 | 8.11 |       Code optimization       |        |
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{66}{98}\;=\;67\% $$
+$$ Topics\;comepleted\;=\;\frac{67}{98}\;=\;68\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{32}{98}\;=\;33\% $$
+$$ Topics\;incomeplete\;=\;\frac{31}{98}\;=\;32\% $$

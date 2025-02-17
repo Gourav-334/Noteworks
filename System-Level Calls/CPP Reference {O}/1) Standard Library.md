@@ -311,4 +311,49 @@ static char *var = "HOME=/usr/home";
 int ret = putenv(var);
 ```
 
+
+
+## **Topic - 3: Memory Alignment**
+
+### <u>Aligned Allocation</u>
+
+#### Declaration:
+
+```c
+void *aligned_alloc(size_t alignment, size_t size);
+```
+
+#### About:
+
+- A thread-safe alternative to `calloc()` & `realloc()`.
+- Memories are aligned to take full advantages of CPU cycles.
+- `alignment` is a valid alignment value (single allocation block size).
+- `size` is the number of bytes to allocate.
+- Must be deallocated with `free()` or `realloc()`.
+
+#### Example:
+
+```c
+int *ptr = aligned_alloc(1024, 1024*sizeof(ptr));
+free(ptr);
+```
+
+
+### <u>Free Aligned Size</u>
+
+#### Declaration:
+
+```c
+void free_aligned_sized (
+	void *ptr,
+	size_t alignment,
+	size_t size
+);
+```
+
+#### About:
+
+- Thread-safe alternative to `free()`.
+- Must be used only with `aligned_alloc()`.
+
 ---

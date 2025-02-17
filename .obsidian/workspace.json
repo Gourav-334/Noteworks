@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "77285599f2892bfb",
+        "id": "0510c2d09d95b490",
         "type": "tabs",
         "children": [
           {
-            "id": "c6df5b3a584ffd2e",
+            "id": "544b4d85a2c7dcc8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "System Programming Roadmap"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -163,9 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6df5b3a584ffd2e",
+  "active": "544b4d85a2c7dcc8",
   "lastOpenFiles": [
+    "System-Level Calls/CPP Reference {O}/2) UNIX Standards.md",
     "System-Level Calls/CPP Reference {O}/1) Standard Library.md",
+    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "Compiler Design/JavaTPoint {O}/6) Administration.md",
     "System-Level Calls/CPP Reference {O}/6) Socket Programming.md",
     "Quantitative Reasoning/College version {O}/7) Directions & Arrangements.md",
@@ -191,7 +190,6 @@
     "Quantitative Reasoning/College version {O}/5) Time.md",
     "Compiler Design/JavaTPoint {O}/media/image31.png",
     "Compiler Design/JavaTPoint {O}/media/image31.png.crdownload",
-    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "C Programming/Sololearn {C}/11) GNU C Compiler.md",
     "C Programming/Sololearn {C}/1) GNU C Compiler.md",
     "C Programming/Sololearn {C}/12) GNU C Compiler.md",

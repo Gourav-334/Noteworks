@@ -43,3 +43,37 @@
 - **<u>Access link</u>:** Pointer to other activation records containing required data (non-local) there.
 - **<u>Local data</u>:** Contains local data.
 - **<u>Temporaries</u>:** Contains temporary cache data when evaluating expressions.
+
+
+
+## **Topic - 3: Storage Allocation**
+
+### <u>Ways To Allocate Memory</u>
+
+1. Static storage allocation
+2. Stack storage allocation
+3. Heap storage allocation
+
+
+### <u>Static Storage Allocation</u>
+
+- Storage locations are given name as per variables.
+- Memory is created in compile time.
+- Supports dynamic data structures.
+- Size and position of data objects are known at compile time.
+- Restricts recursive operations.
+
+
+### <u>Stack Storage Allocation</u>
+
+- Storage is in form of a stack.
+- This stack stores the activation records.
+- Supports recursive operations.
+
+
+### <u>Heap Storage Allocation</u>
+
+- Allocation can be done anytime & at any location.
+- Supports recursive operations.
+
+---
