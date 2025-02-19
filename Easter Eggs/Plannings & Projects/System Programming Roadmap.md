@@ -182,7 +182,7 @@
 | 8.6  |       Code Case Studies       |        |
 | 8.7  |         Symbol tables         |   C    |
 | 8.8  |            Storage            |   C    |
-| 8.9  |        Error detection        |        |
+| 8.9  |        Error detection        |   C    |
 | 8.10 |        Code generation        |        |
 | 8.11 |       Code optimization       |        |
 
@@ -227,8 +227,8 @@
 | Sno. |   Topic/Chapter    |      Header       | Status |
 | :--: | :----------------: | :---------------: | :----: |
 | 1.1  |  Standard library  |   `<stdlib.h>`    |   C    |
-| 1.2  |   UNIX standards   |   `<unistd.h>`    |        |
-| 1.3  |    File control    |    `<fcntl.h>`    |        |
+| 1.2  |   UNIX standards   |   `<unistd.h>`    |   C    |
+| 1.3  |    File control    |    `<fcntl.h>`    |   C    |
 | 1.4  |  Singal handling   |   `<signal.h>`    |        |
 | 1.5  |   Multithreading   |   `<pthread.h>`   |   C    |
 | 1.6  | Socket Programming |    *Multiple*     |   C    |
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{67}{98}\;=\;68\% $$
+$$ Topics\;comepleted\;=\;\frac{70}{98}\;=\;71\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{31}{98}\;=\;32\% $$
+$$ Topics\;incomeplete\;=\;\frac{28}{98}\;=\;29\% $$

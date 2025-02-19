@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0510c2d09d95b490",
+        "id": "23ee3b5947793384",
         "type": "tabs",
         "children": [
           {
-            "id": "544b4d85a2c7dcc8",
+            "id": "39401241480497f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "System Programming Roadmap"
             }
           }
         ]
@@ -91,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3) Java Server Page"
+              "title": "Backlinks"
             }
           },
           {
@@ -160,12 +163,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "544b4d85a2c7dcc8",
+  "active": "39401241480497f6",
   "lastOpenFiles": [
-    "System-Level Calls/CPP Reference {O}/2) UNIX Standards.md",
-    "System-Level Calls/CPP Reference {O}/1) Standard Library.md",
-    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "Compiler Design/JavaTPoint {O}/7) Error Detection.md",
+    "System-Level Calls/CPP Reference {O}/3) File Control.md",
+    "System-Level Calls/CPP Reference {O}/2) UNIX Standard Calls.md",
+    "System-Level Calls/Untitled.md",
     "Compiler Design/JavaTPoint {O}/6) Administration.md",
+    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "Python App Development/1) Graphical User Interface.md",
+    "Python App Development/2) Data Storage.md",
+    "Python App Development",
+    "System-Level Calls/CPP Reference {O}/1) Standard Library.md",
     "System-Level Calls/CPP Reference {O}/6) Socket Programming.md",
     "Quantitative Reasoning/College version {O}/7) Directions & Arrangements.md",
     "Quantitative Reasoning/College version {O}/1) Number System.md",
@@ -192,16 +201,10 @@
     "Compiler Design/JavaTPoint {O}/media/image31.png.crdownload",
     "C Programming/Sololearn {C}/11) GNU C Compiler.md",
     "C Programming/Sololearn {C}/1) GNU C Compiler.md",
-    "C Programming/Sololearn {C}/12) GNU C Compiler.md",
     "C Programming/Sololearn {C}/10) Type Qualifiers & Casting.docx",
     "C Programming/Sololearn {C}/11) GNU C Compiler.pdf",
-    "System-Level Calls/ChatGPT {O}/7) Socket Programming.md",
     "System-Level Calls/ChatGPT {O}/~WRL0003.tmp",
     "System-Level Calls/ChatGPT {O}/~WRD0002.tmp",
-    "System-Level Calls/ChatGPT {O}/~WRL0001.tmp",
-    "System-Level Calls/Dude Love's book {D}/1) Essential Concepts.md",
-    "System-Level Calls/Dude Love's book {O}/1) Essential Concepts.md",
-    "Terminal Scripting/GNU Debugger.md",
     "Compiler Design/JavaTPoint {O}/media/image30.png",
     "x86 Assembly/Wikibook's AT&T GAS {O}/media/image1.png",
     "x86 Assembly/Wikibooks AT&T GAS {O}/media/Screenshot 2024-12-31 142253.png",
