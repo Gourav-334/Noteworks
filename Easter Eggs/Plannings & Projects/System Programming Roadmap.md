@@ -34,7 +34,7 @@
 |  8   |       Compiler Design        | **O**  | Command-line projects       |
 |  9   |         x86 Assembly         | **I**  | Optimization & hardware     |
 |  10  |       Tools/Platforms        | **C**  | Smoother development        |
-|  11  |      System-Level Calls      | **O**  | Kernel system calls         |
+|  11  |      UNIX System Calls       | **O**  | Kernel system calls         |
 |  12  |        Device Drivers        | **S**  | Hardware device interaction |
 |  13  |    Bare Metal Programming    | **S**  | Vendor specific projects    |
 
@@ -186,20 +186,20 @@
 | 8.10 |        Code generation        |        |
 | 8.11 |       Code optimization       |        |
 
-  
-  
+
+
 
 ### 9. x86 Assembly (O):
 
   
 
-|Sno.|Topic/Chapter|Status|
-|:---:|:---:|:---:|
-|9.1|Family of x86 chips|C|
-|9.2|Assembly syntax comparisons||
-|9.3|Inline assembly||
-|9.4|Bootloading||
-|9.5|x86 CPU architecture||
+| Sno. |        Topic/Chapter        | Status |
+| :--: | :-------------------------: | :----: |
+| 9.1  |     Family of x86 chips     |   C    |
+| 9.2  | Assembly syntax comparisons |        |
+| 9.3  |       Inline assembly       |        |
+| 9.4  |         Bootloading         |        |
+| 9.5  |    x86 CPU architecture     |        |
 
   
   
@@ -208,19 +208,19 @@
 
   
 
-|Sno.|Topic/Chapter|Status|
-|:---:|:---:|:---:|
-|10.1|GCC|C|
-|10.2|G++|C|
-|10.3|Git|C|
-|10.4|GDB/Valgrind|C|
-|10.5|Linux|C|
-|10.6|CMake|C|
+| Sno. | Topic/Chapter | Status |
+| :--: | :-----------: | :----: |
+| 10.1 |      GCC      |   C    |
+| 10.2 |      G++      |   C    |
+| 10.3 |      Git      |   C    |
+| 10.4 | GDB/Valgrind  |   C    |
+| 10.5 |     Linux     |   C    |
+| 10.6 |     CMake     |   C    |
 
   
   
 
-### 11. System-Level Calls (O):
+### 11. UNIX System Calls (O):
 
   
 
@@ -229,7 +229,7 @@
 | 1.1  |  Standard library  |   `<stdlib.h>`    |   C    |
 | 1.2  |   UNIX standards   |   `<unistd.h>`    |   C    |
 | 1.3  |    File control    |    `<fcntl.h>`    |   C    |
-| 1.4  |  Singal handling   |   `<signal.h>`    |        |
+| 1.4  |  Signal handling   |   `<signal.h>`    |   C    |
 | 1.5  |   Multithreading   |   `<pthread.h>`   |   C    |
 | 1.6  | Socket Programming |    *Multiple*     |   C    |
 | 1.7  |   Memory mapping   |  `<sys/mman.h>`   |        |
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{70}{98}\;=\;71\% $$
+$$ Topics\;comepleted\;=\;\frac{71}{98}\;=\;72\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{28}{98}\;=\;29\% $$
+$$ Topics\;incomeplete\;=\;\frac{27}{98}\;=\;28\% $$
