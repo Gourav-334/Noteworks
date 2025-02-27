@@ -166,3 +166,27 @@ MOV R0, M
 $$ Cost\;=\;1\;+\;1\;+\;1 $$
 
 - One cost belongs to the memory which is of one word, another to the result we get & final one is the instruction itself.
+
+
+
+## **Topic - 4: Runtime Storage Management**
+
+### <u>Types Of Allocations</u>
+
+1. **<u>Static allocation</u>:** Position of activation records are fixed in memory.
+2. **<u>Stack allocation</u>:** Whenever the running program encounters execution of procedure, a new activation record is pushed to the stack.
+
+
+### <u>Associated Runtime Statements</u>
+
+1. Call
+2. Return
+3. Halt
+4. Action (set of statements)
+
+
+### <u>Runtime Memory Owners</u>
+
+1. Code
+2. Static data
+3. Stack

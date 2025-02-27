@@ -6,6 +6,11 @@
 
 ## **Topic - 1: Descriptor Manipulation**
 
+### <u>Introduction</u>
+
+- This whole chapter covers the functionalities in header file `fcntl.h`.
+
+
 ### <u>File Controller</u>
 
 #### Declaration:

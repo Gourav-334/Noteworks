@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f3edf0f896b803ba",
+        "id": "0c7ea2aecd2bf756",
         "type": "tabs",
         "children": [
           {
-            "id": "fc79bfa5b706c35e",
+            "id": "6209bf25a6cc0c97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "8) Code Generation"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -163,54 +158,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc79bfa5b706c35e",
+  "active": "6209bf25a6cc0c97",
   "lastOpenFiles": [
-    "Algorithm Analysis/College Version {C}/4) Dynamic Programming.md",
-    "Algorithm Analysis/College Version {C}/media/image20.png",
-    "Algorithm Analysis/College Version {C}/media/image19.png",
-    "Algorithm Analysis/College Version {C}/media/image18.png",
-    "Algorithm Analysis/College Version {C}/media/image17.png",
-    "Algorithm Analysis/College Version {C}/media/image21.png",
     "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "UNIX System Calls/CPP Reference {O}/8) Linux System Calls.md",
     "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
+    "C Programming/Sololearn {C}/06) File Handling.md",
+    "C Programming/Sololearn {C}/05) Memory Management.md",
+    "C Programming/Sololearn {C}/04) Structures & Unions.md",
+    "C Programming/Sololearn {C}/03) Strings.md",
+    "C Programming/Sololearn {C}/02) Pointers.md",
+    "C Programming/Sololearn {C}/01) Standard IO.md",
+    "Algorithm Analysis/College Version {C}/6) Computational Complexity.md",
+    "Algorithm Analysis/College Version {C}/media/image36.png",
+    "Algorithm Analysis/College Version {C}/media/image35.png",
+    "Algorithm Analysis/College Version {C}/media/image34.png",
+    "Algorithm Analysis/College Version {C}/media/image37.png",
+    "Algorithm Analysis/College Version {C}/~$ Decidability & Computational Complexity.docx",
+    "Algorithm Analysis/College Version {C}/5) Exploring Graphs.md",
+    "Algorithm Analysis/College Version {C}/4) Dynamic Programming.md",
+    "Algorithm Analysis/College Version {C}/media/image33.png",
+    "Algorithm Analysis/College Version {C}/media/image32.png",
+    "Algorithm Analysis/College Version {C}/media/image31.png",
+    "Algorithm Analysis/College Version {C}/media/image30.png",
+    "Algorithm Analysis/College Version {C}/media/image29.png",
+    "Algorithm Analysis/College Version {C}/media/image28.png",
+    "UNIX System Calls/CPP Reference {O}/7) System Memory Management.md",
+    "UNIX System Calls/CPP Reference {O}/3) File Control.md",
+    "UNIX System Calls/CPP Reference {O}/4) Signal Handling.md",
+    "UNIX System Calls/CPP Reference {O}/2) UNIX Standard Calls.md",
+    "UNIX System Calls/CPP Reference {O}/1) Standard Library.md",
+    "UNIX System Calls/CPP Reference {O}/6) Socket Programming.md",
+    "C++ Programming/W3Schools {C}/1) Comparison With C.md",
+    "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
+    "C++ Programming/W3Schools {C}/Lambda Expressions.md",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.md",
     "Algorithm Analysis/College Version {C}/~$ Greedy Algorithm.docx",
     "Algorithm Analysis/College Version {C}/2) Divide & Conquer.md",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.docx",
-    "Algorithm Analysis/College Version {C}/media/image4.png",
-    "Algorithm Analysis/College Version {C}/media/image5.png",
-    "Algorithm Analysis/College Version {C}/media/image6.png",
-    "Algorithm Analysis/College Version {C}/media/image7.png",
-    "Algorithm Analysis/College Version {C}/media/image14.png",
     "Algorithm Analysis/College Version {C}/1) Introduction.md",
     "System-Level Calls/CPP Reference {O}/4) Signal Handling.md",
     "System-Level Calls/CPP Reference {O}/3) File Control.md",
-    "System-Level Calls/CPP Reference {O}/2) UNIX Standard Calls.md",
-    "Compiler Design/JavaTPoint {O}/7) Error Detection.md",
-    "System-Level Calls/Untitled.md",
-    "Compiler Design/JavaTPoint {O}/6) Administration.md",
-    "Python App Development/1) Graphical User Interface.md",
-    "Python App Development/2) Data Storage.md",
     "Python App Development",
-    "System-Level Calls/CPP Reference {O}/1) Standard Library.md",
-    "System-Level Calls/CPP Reference {O}/6) Socket Programming.md",
-    "Quantitative Reasoning/College version {O}/7) Directions & Arrangements.md",
-    "Quantitative Reasoning/College version {O}/1) Number System.md",
-    "Quantitative Reasoning/College version {O}/6) Permutation & Combination.md",
     "Compiler Design/JavaTPoint {O}/media/Student_Detailed_Attendance_Summary_2024_25_2203051050004_03_02_2025_00_00_00.pdf",
     "Compiler Design/JavaTPoint {O}/media/Student_Detailed_Attendance_Summary_2024_25_2203051050004_03_02_2025_00_00_00.pdf.crdownload",
     "Compiler Design/JavaTPoint {O}/media/image32.png.crdownload",
-    "ME(A)RN Stack/College version {D}/2) MongoDB.md",
-    "Web Designing/W3Schools {O}/1) HTML.md",
-    "Web Designing/W3Schools {O}/2) CSS.md",
-    "Web Designing/W3Schools {O}/3) JavaScript.md",
-    "Web Designing/W3Schools {O}/7) React.js.md",
-    "Web Designing/W3Schools {O}/4) Node.js.md",
-    "ME(A)RN Stack/College version {D}/3) Node.js & Express.js.md",
     "C++ Programming/W3Schools {C}/~$C++.docx",
     "Compiler Design/JavaTPoint {O}/media/image31.png.crdownload",
     "C Programming/Sololearn {C}/10) Type Qualifiers & Casting.docx",
-    "C Programming/Sololearn {C}/11) GNU C Compiler.pdf",
     "Untitled.canvas"
   ]
 }

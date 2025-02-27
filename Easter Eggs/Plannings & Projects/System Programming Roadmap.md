@@ -32,9 +32,9 @@
 |  6   |       Computer Network       | **C**  | TCP/IP stack                |
 |  7   |     Software Engineering     | **C**  | Project management          |
 |  8   |       Compiler Design        | **O**  | Command-line projects       |
-|  9   |         x86 Assembly         | **I**  | Optimization & hardware     |
+|  9   |         x86 Assembly         | **O**  | Optimization & hardware     |
 |  10  |       Tools/Platforms        | **C**  | Smoother development        |
-|  11  |      UNIX System Calls       | **O**  | Kernel system calls         |
+|  11  |      UNIX System Calls       | **C**  | Kernel system calls         |
 |  12  |        Device Drivers        | **S**  | Hardware device interaction |
 |  13  |    Bare Metal Programming    | **S**  | Vendor specific projects    |
 
@@ -232,8 +232,8 @@
 | 1.4  |  Signal handling   |   `<signal.h>`    |   C    |
 | 1.5  |   Multithreading   |   `<pthread.h>`   |   C    |
 | 1.6  | Socket Programming |    *Multiple*     |   C    |
-| 1.7  |   Memory mapping   |  `<sys/mman.h>`   |        |
-| 1.8  | Direct system call | `<sys/syscall.h>` |        |
+| 1.7  |   Memory mapping   |  `<sys/mman.h>`   |   C    |
+| 1.8  | Direct system call | `<sys/syscall.h>` |   C    |
 
 
 
@@ -287,9 +287,9 @@
 
   
 
-$$ Subjects\;comepleted\;=\;\frac{8}{13}\;=\;61\% $$
+$$ Subjects\;comepleted\;=\;\frac{9}{13}\;=\;69\% $$
 
-$$ Subjects\;incomeplete\;=\;\frac{1}{13}\;=\;8\% $$
+$$ Subjects\;incomeplete\;=\;\frac{0}{13}\;=\;0\% $$
 
 $$ Subjects\;ongoing\;=\;\frac{2}{13}\;=\;15\% $$
 
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{71}{98}\;=\;72\% $$
+$$ Topics\;comepleted\;=\;\frac{73}{98}\;=\;74\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{27}{98}\;=\;28\% $$
+$$ Topics\;incomeplete\;=\;\frac{25}{98}\;=\;26\% $$
