@@ -96,3 +96,5 @@ $$ \xrightarrow{Assembly\;Code}\fbox{Assembler}\xrightarrow{Binary\;Code}\fbox{C
 |  Duron  | Cheaper alternative to Athlon, competitor of Pentium III & Celeron.                                                          |
 | Sempron | Competitor of Celeron D processor.                                                                                           |
 | Opteron | 8th generation processor, 8 cores, first 64-bit version, competing Xeon in server market.                                    |
+
+---

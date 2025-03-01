@@ -52,7 +52,7 @@
 ### <u>EFLAGS Register</u>
 
 - EFLAGS register has a capacity of storing 32-bits.
-- Each of it bit represents a different flag.
+- Each of its bit represents a different flag.
 
 ![EFLAGS Register](x86%20Assembly/Wikibook's%20AT&T%20GAS%20{O}/media/image1.png)
 
@@ -205,13 +205,13 @@ movw $0x006a, %ax
 movw $0xf79a, %bx
 movw $0x1124, %cx
 
-pushw %ax        ; Push value in AX to stack.
+pushw %ax        # Push value in AX to stack.
 pushw %bx
 pushw %cx
 
-call my_func     ; A function never saves state of registers.
+call my_func     # A function never saves state of registers.
 
-popw %cx         ; Pop top element of stack & save it to CX.
+popw %cx         # Pop top element of stack & save it to CX.
 popw %bx
 popw %ax
 ```
@@ -240,7 +240,7 @@ popw %ax
 - Done in 32-bit computer OS.
 - Uses 32-bit registers.
 - Use of segment registers isn't compulsory.
-- Also using segment registers isn't a good practice.
+- Also using segment registers isn't a good practice either.
 
 #### Multi-segmented memory model:
 
@@ -274,3 +274,26 @@ popw %ax
 
 
 ## **Topic - 8: Addressing Memory**
+
+### <u>8086 And 80186</u>
+
+- Original 8086 had 16-bit long registers.
+- But the address bus in it was 20-bit long.
+- To solve this problem, engineers at Intel introduced segment registers (CS, DS, ES & FS).
+
+#### Reading data from address bus:
+
+1. Divide the address bus by `16`.
+2. Store its quotient in segment register (of 16-bits).
+3. Then store its remainder in offset register.
+
+#### Writing data to address bus:
+
+1. For writing address to address bus, add 16-bits from segment register.
+2. Move the bits in address bus by `4` bits.
+3. Now fill those 4-bits with content in offset register.
+
+#### Outro:
+
+- **CS:IP** represents 20-bit address of the physical memory.
+- **SS:SP** represents 20-bit absolute address of stack top.

@@ -1,170 +1,146 @@
-**<u>Chapter 12</u>: TYPE QUALIFIERS & CASTING**
+# $\fbox{Chapter 12: TYPE QUALIFIERS \& CASTING}$
 
-**Topic – 1: Type Qualifiers**
 
-**<u>Introduction</u>**
 
-- Keywords used to modify **property** of variables.
 
-- There are 3 main type qualifiers – **const**, **volatile**,
-  **restrict**.
 
-**<u>Constant</u>**
+## **Topic – 1: Type Qualifiers**
 
-- Used to define any kind of variable as **read-only** (**constant**).
+### <u>Introduction</u>
 
-***const int PI = 3.14;***
+- Keywords used to modify property of variables.
+- There are three main type qualifiers – `const`, `volatile`, `restrict`.
 
-- Still, we can change value of a **constant variable** like **PI** here
-  using a **pointer**.
 
-***const int PI = 3.14;***
+### <u>Constant</u>
 
-***int \*ptr = (int \*)&PI;***
+- Used to define any kind of variable as read-only (constant).
 
-***\*ptr = 8.51***
+```c
+const int PI = 3.14;
+```
 
-**<u>Volatile</u>**
+- Still, we can change value of a constant variable like `PI` here using a pointer.
 
-- To understand how **volatile** keyword works, we need to know about
-  how data are stored in **memory**.
+```c
+const int PI = 3.14;
+int *ptr = (int *)&PI;
+*ptr = 8.51;
+```
 
-- So, we use keyword **volatile** to tell compiler **not** to apply
-  **optimization** to certain variables.
 
-<img src="./media/image1.png"
-style="width:6.26806in;height:2.32917in" />
+### <u>Volatile</u>
 
-- Now suppose some change made at the **memory address** of **B**
-  through **interrupt**.
+- To understand how `volatile` keyword works, we need to know about how data are stored in memory.
+- So, we use keyword `volatile` to tell compiler **not** to apply optimization to certain variables.
 
-- This change **won’t** be noticed by compiler as it refers to **cache**
-  only for accessing variables.
+![Volatile Usage - I](./media/image1.png)
 
-- And it takes time **'m'** to be accessed.
+- Now suppose some change made at the memory address of `B` through interrupt.
+- This change won’t be noticed by compiler as it refers to cache only for accessing variables.
+- And it takes time $m$ to be accessed.
 
-<img src="./media/image2.png"
-style="width:6.26806in;height:2.30486in" />
+![Volatile Usage - II](./media/image2.png)
 
-- As we have declared variable **B** as **volatile**, the compiler will
-  access **B** through **memory address** & not **cache**.
+- As we have declared variable `B` as `volatile`, the compiler will access `B` through memory address & not cache.
+- Also note that this takes time $(m+n)$ to be accessed as no optimization is applied.
+- Though, `A` will be accessed through cache being non-volatile.
 
-- Also note that this takes **time** **(m + n)** to be **accessed** as
-  **no** optimization is applied.
+```c
+volatile int x = 5;
+volatile int *ptr = (volatile int*) 0x4000;    // Or 'x' instead of 0x4000
+```
 
-- Though, **A** will be accessed through cache being **non-volatile**.
+- Volatile are often used in places like embedded systems & OS kernels etc.
+- When we want to tell the compiler that a variable can change under certain external events like change at memory address, interrupt or any hardware changes.
+- This is necessary as compiler doesn’t always considers all hardware conditions.
 
-***volatile int x = 5;***
 
-***volatile int \*ptr = (volatile int \*) 0x4000; // or &x instead of
-0x4000***
+### <u>Restrict</u>
 
-- Volatile are often used in places like **embedded systems** & **OS
-  kernels** etc.
+- Keyword `restrict` is again used for optimization purposes.
+- It is however used along pointer variables.
+- It makes sure that for all the mentioned `restrict` pointers, they don’t point to overlapping memory.
 
-- When we want to tell the compiler that a variable can change under
-  certain **external events** like **change at memory address**,
-  **interrupt** or any **hardware changes**.
+```c
+void add(int *restrict a, int *restrict b)
+{
+	/* Some codes... */
+}
+```
 
-- This is necessary as compiler **doesn’t** always considers all
-  hardware conditions.
 
-**<u>Restrict</u>**
+### <u>Restrict Example</u>
 
-- Keyword **restrict** is again used for **optimization** purposes.
+- Say we pass two pointers `A` & `B` pointing to variable `P` to our function.
 
-- It is however used along **pointer variables**.
+![Unambiguous Restrict](./media/image3.png)
 
-- It makes sure that for all the mentioned **restrict** pointers, they
-  **don’t** point to **overlapping memory**.
+- Now let’s say instead both `A` & `B` point to `P`.
 
-***void add(int \*restrict a, int \*restrict b)***
+![Ambiguous Restrict](./media/image4.png)
 
-***{***
+## **Topic – 2: Casting**
 
-***/\* Some codes \*/***
+### <u>Implicit Type Casting</u>
 
-***}***
+- These are automatically converted by compiler when found.
 
-**<u>Restrict Example</u>**
+```c
+/* Integers to float */
 
-- Say we pass two **pointers** **A** & **B** pointing to **variable**
-  **P** to our function.
+int x = 5;
+float y = x + 3.5;    // y = 8.5
 
-<img src="./media/image3.png" style="width:3.86819in;height:1.6011in" />
 
-- Now let’s say instead both **A** & **B** point to **P**.
+/* Character to integer */
 
-<img src="./media/image4.png" style="width:3.8072in;height:1.68975in" />
+char a = 'A';
+int x = a;        // x = 65 (ASCII value)
 
-**Topic – 2: Casting**
 
-**<u>Implicit Type Casting</u>**
+/* Boolean to integer (for C++) */
 
-- These are **automatically converted** by compiler when found.
+bool flag = true;
+int res = flag + 10;    // res = 1 + 10 = 11
+```
 
-***/\* Integer to float \*/***
+- Other examples include – `int` to `double`, `unsigned` to `signed` & `short` to `long` etc.
 
-***int x = 5;***
+>**<u>NOTE</u>:**
+>Terms like short & long comes under category of precision keywords.
 
-***float y = x + 3.5; // y = 8.5***
 
-***/\* Character to integer \*/***
-
-***char a = 'A';***
-
-***int x = a; // x = 65 (ASCII value)***
-
-***/\* Boolean to integer (for C++) \*/***
-
-***bool flag = true;***
-
-***int res = flag + 10; // res = 1 + 10 = 11***
-
-- Other examples include – **int** to **double**, **unsigned** to
-  **signed** & **short** to **long** etc.
-
-**<u>Note</u>!**
-
-**🡪 Terms like short & long comes under category of precision
-keywords.**
-
-**<u>Explicit Casting</u>**
+### <u>Explicit Casting</u>
 
 - Now you know what it is.
+- Explicit casting is safer as we inform compiler what we are doing.
+- Examples will be same as all we did in implicit type casting but with safety.
 
-- **Explicit casting** is **safer** as we inform compiler what we are
-  doing.
+> **<u>TIPS</u>:**
+> It is advised to use explicit casting wherever possible, as there is no difference in overhead for both types of casting.
 
-- Examples will be same as all we did in **implicit type casting** but
-  with **safety**.
+```c
+/* Float to integer */
 
-**<u>Tips</u>!**
+float PI = 3.14;
+int x = (int) PI;    // x = 3
 
-**🡪 It is advised to use explicit casting wherever possible, as there is
-no difference in overhead for both types of casting.**
 
-***/\* Float to integer \*/***
+/* Integer to ASCII */
 
-***float PI = 3.14;***
+int ascii = 65;
+char c = (char) ascii;    // ASCII 65 = 'A'
 
-***int x = (int) PI; // x = 3***
 
-***/\* Integer to ASCII \*/***
+/* Pointer cast conversion */
 
-***int ascii = 65;***
+int x = 7;
+void *ptr = &x;    // We don't do any explicit casting for (void*)
+int *ptr2 = (int*) ptr;    // Points to 'x' and is of type integer
+```
 
-***char c = (char) ascii; // ASCII 65 = 'A'***
+>**<u>NOTE</u>:**
+>We can do conversions between regular numeric data types & precision numeric data types too.
 
-***/\* Pointer cast conversion \*/***
-
-***int x = 7;***
-
-***void \*ptr = &x; // We don’t do any explicit casting for (void \*)***
-
-***int \*ptr2 = (int \*) ptr; // Points to 'x' and is of type integer***
-
-**<u>Note</u>!**
-
-**🡪 We can do conversions between regular numeric data types & precision
-numeric data types too.**
+---

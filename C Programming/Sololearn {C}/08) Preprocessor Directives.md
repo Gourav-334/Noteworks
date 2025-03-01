@@ -1,70 +1,82 @@
-**<u>Chapter 8:</u> PREPROCESSOR DIRECTIVES**
+# $\fbox{Chapter 8: PREPROCESSOR DIRECTIVES}$
 
-**Topic – 1: Commonly Used PD**
 
-**<u>Definition Based PD</u>**
 
-***\#undef PI***
 
-- For **macros** defined through ***\#define***, their data types are
-  decided by **compiler**.
 
-**<u>Defining Function Using PD</u>**
+## **Topic – 1: Commonly Used PD**
 
-***// \#define FUNCTION_NAME (parameter) (return)***
+### <u>Definition Based PD</u>
 
-***\#define AREA (r) (PI\*(r)\*(r))***
+```c
+#undef PI
+```
 
-**<u>Extending Number To Next Line</u>**
+- For defined through `#define`, their data types are decided by compiler.
 
-***\#define MY_FLOAT \\***
 
-***4.5652389***
+### <u>Defining Function Using PD</u>
 
-**Topic – 2: In Code PDs**
+```c
+#define FUNCTION_NAME (parameter) (return)
+#define AREA (r) (PI*(r)*(r))
+```
 
-- ***\_\_DATE\_\_*** current date in **mm dd yyy**
 
-- ***\_\_TIME\_\_*** current time in **hh:mm:ss**
+### <u>Extending Number To Next Line</u>
 
-- ***\_\_FILE\_\_*** current filename as **string**
+```c
+#define MY_FLOAT \
+4.5652389
+```
 
-- ***\_\_LINE\_\_*** current line number as **integer**
 
-**Topic – 3: Operational PDs**
 
-**<u>Conditional Compilation Directives</u>**
+## **Topic – 2: In Code PDs**
 
-***\#if !defined(PI)***
+- `__DATE__` current date in ***mm dd yyy***
+- `__TIME__` current time in ***hh:mm:ss***
+- `__FILE__` current filename as **string**
+- `__LINE__` current line number as **integer**
 
-***/\* Statements \*/***
 
-***\#endif***
 
-- We can even write statements like **int x = 5;** in **macro
-  conditional blocks**!
+## **Topic – 3: Operational PDs**
 
-**<u>Preprocessor Operators</u>**
+### <u>Conditional Compilation Directives</u>
 
-- **Stringification/ stringizing** operator converts parameter to string
-  constant.
+```c
+#if !defined(PI)
+	/* Statements */
+#endif
+```
 
-***// We can name TO_SSTR() function as something else too***
+- We can even write statements like `int x = 5;` in macro conditional blocks!
 
-***\#define TO_STR(x) \#x***
 
-***int main()***
+### <u>Preprocessor Operators</u>
 
-***{***
+- Stringification/stringizing operator converts parameter to string constant.
 
-***printf("%s", TO_STR(123/@\$@12));***
+```c
+/* We can name TO_SSTR() function as something else too. */
 
-***return 0;***
+#define TO_STR(x) #x
 
-***}***
+int main()
+{
+	printf("%s", TO_STR(123/@$@12));
+	return 0;
+}
+```
 
-**<u>String Concatenation</u>**
 
-***// STICK is again a custom function name***
+### <u>String Concatenation</u>
 
-***\#define STICK(name, surname) name##surname***
+```c
+/* STICK is again a custom function name. */
+
+#define STICK(name, surname) name##surname
+```
+
+---

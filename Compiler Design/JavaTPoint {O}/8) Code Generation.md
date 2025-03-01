@@ -190,3 +190,13 @@ $$ Cost\;=\;1\;+\;1\;+\;1 $$
 1. Code
 2. Static data
 3. Stack
+
+
+
+## **Topic - 5: Basic Block**
+
+- **<u>Basic block</u>:** A block containing sequence of statements to execute.
+- For example, the `if` block or `while` block etc.
+- **<u>Leader</u>:** The first statement in a block, which can be conditional or non-conditional.
+- For example, `if (state==2)`.
+- In assembly, its equivalent code is written using `goto <section>`.
