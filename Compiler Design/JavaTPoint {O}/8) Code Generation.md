@@ -200,3 +200,11 @@ $$ Cost\;=\;1\;+\;1\;+\;1 $$
 - **<u>Leader</u>:** The first statement in a block, which can be conditional or non-conditional.
 - For example, `if (state==2)`.
 - In assembly, its equivalent code is written using `goto <section>`.
+
+
+
+## **Topic - 6: Flow Graph**
+
+- **<u>Flow graph</u>:** Representing flow diagrams of basic blocks, using just rectangle & arrows.
+- Rectangles here represent blocks with their codes inside them.
+- Arrows show the flow of program.

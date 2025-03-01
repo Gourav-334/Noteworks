@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "afdad152b29288e5",
+        "id": "5db27c2a77d0aa2a",
         "type": "tabs",
         "children": [
           {
-            "id": "52438789eb3dbba5",
+            "id": "4cfb821eba162956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
+                "file": "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2) x86 Architecture"
+              "title": "3) x86 Instruction Set"
             }
           }
         ]
@@ -163,17 +163,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52438789eb3dbba5",
+  "active": "4cfb821eba162956",
   "lastOpenFiles": [
-    "x86 Assembly/Wikibook's AT&T GAS {O}/1) Introduction.md",
+    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
-    "Computer Network/College Version {C}/1) Data Communication Components.md",
+    "Computer Network/College Version {C}/1) Communication Components.md",
+    "Computer Network/College Version {C}/~$ Data Communication Components.docx",
+    "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
+    "x86 Assembly/Wikibook's AT&T GAS {O}/1) Introduction.md",
     "C Programming/Sololearn {C}/09) Type Qualifiers & Casting.md",
     "C Programming/Sololearn {C}/08) Preprocessor Directives.md",
     "C Programming/Sololearn {C}/06) File Handling.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
-    "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
-    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "UNIX System Calls/CPP Reference {O}/8) Linux System Calls.md",
     "C Programming/Sololearn {C}/05) Memory Management.md",
     "C Programming/Sololearn {C}/04) Structures & Unions.md",
@@ -201,7 +203,6 @@
     "UNIX System Calls/CPP Reference {O}/1) Standard Library.md",
     "UNIX System Calls/CPP Reference {O}/6) Socket Programming.md",
     "C++ Programming/W3Schools {C}/1) Comparison With C.md",
-    "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
     "Algorithm Analysis/College Version {C}/~$ Greedy Algorithm.docx",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.docx",
     "Python App Development",
@@ -210,7 +211,6 @@
     "Compiler Design/JavaTPoint {O}/media/image32.png.crdownload",
     "C++ Programming/W3Schools {C}/~$C++.docx",
     "Compiler Design/JavaTPoint {O}/media/image31.png.crdownload",
-    "C Programming/Sololearn {C}/10) Type Qualifiers & Casting.docx",
     "Untitled.canvas"
   ]
 }

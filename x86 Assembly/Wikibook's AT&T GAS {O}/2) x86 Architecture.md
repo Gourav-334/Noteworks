@@ -297,3 +297,22 @@ popw %ax
 
 - **CS:IP** represents 20-bit address of the physical memory.
 - **SS:SP** represents 20-bit absolute address of stack top.
+
+
+### <u>Protected Mode (80286+)</u>
+
+- 80286 has 24 address lines, allowing up to 16MiB of addressing.
+- Segment registers then were used for pointing to activation records instead & were known as selectors.
+- OSes aren't allowed to read memories they don't own, like read-only ones.
+- Accessing them would cause an exception & a ***"General protection fault"*** message is shown (in Windows).
+
+
+
+## **Topic - 9: A20 Gate Saga**
+
+- 20 address gates could address up to $2^{20}$ addresses (each carrying a bit).
+- But a 16-bit register could access only up to $2^{16}$ addresses, not more.
+- This is where the idea of $Segment:Offset$ was introduced.
+- And the address they hold are in hexadecimal for each digit.
+
+---

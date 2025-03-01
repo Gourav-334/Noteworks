@@ -191,7 +191,7 @@
 
 ### 9. x86 Assembly (O):
 
-  
+
 
 | Sno. |        Topic/Chapter        | Status |
 | :--: | :-------------------------: | :----: |
@@ -199,7 +199,7 @@
 | 9.2  | Assembly syntax comparisons |        |
 | 9.3  |       Inline assembly       |        |
 | 9.4  |         Bootloading         |        |
-| 9.5  |    x86 CPU architecture     |        |
+| 9.5  |    x86 CPU architecture     |   C    |
 
   
   
@@ -302,6 +302,6 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{73}{98}\;=\;74\% $$
+$$ Topics\;comepleted\;=\;\frac{74}{98}\;=\;75\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{25}{98}\;=\;26\% $$
+$$ Topics\;incomeplete\;=\;\frac{24}{98}\;=\;25\% $$
