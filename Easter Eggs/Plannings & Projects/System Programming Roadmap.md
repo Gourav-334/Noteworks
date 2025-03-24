@@ -183,7 +183,7 @@
 | 8.7  |         Symbol tables         |   C    |
 | 8.8  |            Storage            |   C    |
 | 8.9  |        Error detection        |   C    |
-| 8.10 |        Code generation        |        |
+| 8.10 |        Code generation        |   C    |
 | 8.11 |       Code optimization       |        |
 
 

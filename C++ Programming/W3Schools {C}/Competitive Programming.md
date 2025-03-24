@@ -20,6 +20,9 @@
 - Ordered (maps, multimap, set, multiset)
 - Unordered (unordered map, unordered set)
 
+>**<u>NOTE</u>:**
+>All the containers are part of the `std` namespace.
+
 #### Nested Containers:
 
 ```cpp
@@ -139,3 +142,124 @@ vector<vector<int>> v;
 
 v[0].push_back(4);        // Pushing 4 to first vector.
 ```
+
+
+
+## **Topic - 3: Stack & Queue**
+
+### <u>Introduction</u>
+
+- Both stack & queue are part of the `queue.h` header in C++.
+
+
+### <u>Stack</u>
+
+#### Methods:
+
+- `push(x)`
+- `pop()`
+- `top()`
+- `size()`
+- `empty()`
+
+
+### <u>Queue</u>
+
+#### Methods:
+
+- `push(x)`
+- `pop()`
+- `front()`
+- `back()`
+- `size()`
+- `empty()` - Returns `true` is the queue is empty.
+
+
+
+## **Topic - 4: Ordered Containers**
+
+### <u>Introduction</u>
+
+- Ordered maps are part of the `<map>` header.
+- These are often used for implementing red-black trees.
+
+
+### <u>Map</u>
+
+```cpp
+map<int,string> mp;
+
+/* mp[key] = value; */
+mp[1] = "One";
+mp[2] = "Two";
+
+/* Map operations */
+mp.insert({3,"Three"});        // Alternatively to method above.
+mp.erase(2);
+
+/* Access elements */
+cout << mp[2];            // Creates an entry if not existing.
+cout << mp.at(2);         // Throws error for not existing.
+```
+
+
+### <u>Multimap</u>
+
+- Similar to maps, but allows multiple values for same key.
+
+```cpp
+multimap<int,string> mm;
+
+mm.insert({1,"Good"});
+mm.insert({2,"Neglected"});
+mm.insert({3,"Child"});        // Notice duplicacy.
+```
+
+#### Methods:
+
+- `insert({key,value})`
+- `erase(key)`
+- `find(key)`
+- `count(key)`
+- `equal_range(key)`
+
+
+### <u>Set</u>
+
+#### Methods:
+
+- `insert(x)`
+- `erase(x)`
+- `find(x)`
+- `count(x)` - Returns `1` if exists, else `0`.
+- `lower_bound(x)` - Returns iterator to the first element $\ge$ `x`
+- `upper_bound(x)` - Returns iterator to the first element $\gt$ `x`
+
+
+
+## **Topic - 5: Unordered Containers**
+
+### <u>Introduction</u>
+
+- Unordered containers are often used in hash mapping.
+
+
+### <u>Containers</u>
+
+- `unordered_map` - Unordered map
+- `unordered_multimap` - Unordered multimap
+- `unordered_set` - Unordered set
+- `unordered_multiset` - Unordered multiset
+
+
+
+## **Topic - 6: Algorithms**
+
+### <u>Introduction</u>
+
+- STL algorithms use header `algorithm` & `numeric`.
+
+
+### <u>Sorting Algorithms</u>
+
+- Has a complexity of $O(nlog(n))$.

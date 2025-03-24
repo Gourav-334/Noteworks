@@ -61,20 +61,62 @@
 
 
 ## **Topic - 3: Installation & Setup**
+### <u>For Release Users</u>
+
+These installation steps are for those who are willing to download the release:
+
+1. Get the `.tar.gz` file from **GitHub**.
+
+```sh
+wget https://github.com/Gourav-334/Tosbit/releases/download/Tosbit-v0.1.0/Tosbit-v0.1.0-Linux.tar.gz
+```
+
+2. Extract this `.tar.gz` file.
+
+```sh
+tar -xzvf Tosbit-v0.1.0-Linux.tar.gz
+```
+
+3. Allow permission to it.
+
+```sh
+chmod +x Tosbit-v0.1.0-Linux/*
+```
+
+4. Navigate inside the directory.
+
+```sh
+cd Tosbit-v0.1.0-Linux
+```
+
+5. Try running engine or server.
+
+```sh
+./engine
+./server 8080           # Create account in engine first before running server.
+```
+
 
 ### <u>For Developers</u>
 
-For installation, follow the given steps (assuming you to be in parent directory of repository):
+For installation by developers having cloned the repository, follow the given steps (assuming you to be in parent directory of repository):
 
 1. Install required tools for our database:
+
 ```sh
-bash scripts/ubuntu.sh
+bash scripts/alpinelinux.sh         # Only for Alpine Linux.
+bash scripts/arch.sh                # Only for Arch, Manjero & EndeavourOS.
+bash scripts/fedora.sh              # Only for Fedora, RHEL, Rocky & AlmaLinux.
+bash scripts/opensuse.sh            # Only for openSUSE.
+bash scripts/ubuntu.sh              # Only for Debian & Ubuntu.
+bash scripts/voidlinux.sh           # Only for Void Linux.
 ```
 
 2. Set up environment using CMake:
+
 ```sh
 cd exec
-mkdir build
+bash remake.sh 0
 bash remake.sh 1
 cd build
 cmake ..

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "83874ec604a3f184",
+        "id": "844822c20abecf22",
         "type": "tabs",
         "children": [
           {
-            "id": "9c629fe62272643d",
+            "id": "1f81082683c5092b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Development/Snap Packaging.md",
+                "file": "C++ Programming/W3Schools {C}/Competitive Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Snap Packaging"
+              "title": "Competitive Programming"
             }
           }
         ]
@@ -163,14 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c629fe62272643d",
+  "active": "1f81082683c5092b",
   "lastOpenFiles": [
-    "Linux Development/Snap Packaging.md",
+    "C++ Programming/W3Schools {C}/1) Comparison With C.md",
+    "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
+    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
     "Easter Eggs/Project Reports/Tosbit Manual.md",
+    "Easter Eggs/Project Reports/SSIP Hackathon.md",
+    "Linux Development/Snap Packaging.md",
     "Easter Eggs/Project Reports/erd.jpg",
     "C++ Programming/W3Schools {C}/Competitive Programming.md",
-    "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
-    "Easter Eggs/Project Reports/SSIP Hackathon.md",
     "Competitive Coding",
     "UNIX System Calls/CPP Reference {O}/1) Standard Library.md",
     "Linux Development/Bash.md",
@@ -182,11 +185,9 @@
     "Easter Eggs/Project Reports",
     "C Programming/Sololearn {C}/01) Standard IO.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
-    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
     "Computer Network/College Version {C}/1) Communication Components.md",
     "Computer Network/College Version {C}/~$ Data Communication Components.docx",
-    "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
     "x86 Assembly/Wikibook's AT&T GAS {O}/1) Introduction.md",
     "C Programming/Sololearn {C}/09) Type Qualifiers & Casting.md",
     "C Programming/Sololearn {C}/08) Preprocessor Directives.md",
@@ -194,7 +195,6 @@
     "UNIX System Calls/CPP Reference {O}/8) Linux System Calls.md",
     "C Programming/Sololearn {C}/05) Memory Management.md",
     "C Programming/Sololearn {C}/04) Structures & Unions.md",
-    "C Programming/Sololearn {C}/03) Strings.md",
     "Algorithm Analysis/College Version {C}/media/image36.png",
     "Algorithm Analysis/College Version {C}/media/image35.png",
     "Algorithm Analysis/College Version {C}/media/image34.png",

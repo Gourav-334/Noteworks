@@ -24,8 +24,9 @@ x = y + z
 #### Target code:
 
 ```asm
-MOV x, r0
-MOV y, r0
+movl y, %rax
+addl z, %rax
+movl %rax, z
 ```
 
 
@@ -208,3 +209,118 @@ $$ Cost\;=\;1\;+\;1\;+\;1 $$
 - **<u>Flow graph</u>:** Representing flow diagrams of basic blocks, using just rectangle & arrows.
 - Rectangles here represent blocks with their codes inside them.
 - Arrows show the flow of program.
+
+
+
+## **Topic - 7: Block Optimization**
+
+### <u>Types Of Basic Block Optimization</u>
+
+1. Structure-preserving transformations
+2. Algebraic transformations
+
+
+### <u>Structure Preserving Transformation</u>
+
+- There are four types of structure preserving transformations.
+
+#### 1. Common sub-expression elimination:
+
+- In this technique, we cache results of repeated expressions.
+- Then when they are encountered again, we just retrieve the cache value instead of calculating it again.
+- For example, look at the comparison given below.
+
+```c
+/* Uncached */
+a = b + c;
+d = b + c;
+
+/* Cached */
+a = b + c;
+d = a;
+```
+
+#### 2. Dead-code elimination:
+
+- In dead-code elimination technique, the compiler first goes through all the code.
+- Then it checks which variables or piece of codes were never used.
+- It removes them, saving computation time when compiling the code.
+
+#### 3. Renaming temporary elements:
+
+- In this, the name of a temporary variable is preserved & assigned to next temporary variable (if not parallel or conflicting).
+- This ensures that newer temporary variables just occupy the space of older variables without overhead of removing older space from memory.
+- This makes more optimal use of registers for storing data.
+
+#### 4. Interchange of statement:
+
+- We interchange independent statements in a particular order.
+- This order ensures better caching time.
+- That is because recently cached elements are kept on top of cache priority.
+- Though, this way of ordering might vary among compilers.
+
+
+### <u>Algebraic Transformations</u>
+
+- Again in algebraic transformations, we have four types of techniques.
+
+#### 1. Basic algebraic transformation:
+
+- In basic algebraic transformation, we eliminate algebraically equivalent statements.
+- For example, refer to codes given below.
+
+```c
+x = x + 0
+x = x * 1
+```
+
+#### 2. Constant folding:
+
+- In this technique, we replace the constant expressions with their evaluated values during compile-time.
+- For example, replacing `5*2.7` with `13.5`.
+- Though the calculation is anyway performed before the runtime, the overhead of calculation during runtime is reduced.
+- Also this puts lesser load on the registers.
+
+#### 3. Breakdown to associative expressions:
+
+- Some complex statements are broken down into simpler expressions.
+- This reduces the overhead from using multiple registers parallelly for calculation.
+- For example, look at the breakdown given below.
+
+```c
+/* Unoptimized */
+a = b + c;
+e = c + d + b;
+
+/* Optimized */
+a = b + c;
+t = c + d;
+e = t + b;
+```
+
+
+
+## **Topic - 8: Code Generator**
+
+### <u>Introduction</u>
+
+- Code generator is used for producing target code for three-address statements.
+- We store values for these operands in registers.
+
+
+### <u>Register & Address Descriptors</u>
+
+- **<u>Register descriptor</u>:** Keeps track of what each register contains.
+- **<u>Address descriptor</u>:** Stores the current location of each variable.
+
+
+### <u>Code-Generation Algorithm</u>
+
+1. Call the function `getreg` to find location to store the value of a variable's expression.
+2. Check if operands on right side (in expression) are present in memory & register.
+3. If not, move them to a register for each.
+4. Compute the value & store the result in a memory address.
+5. Keep that address where the operand on left side was stored.
+6. If there are no more uses of operands on right side, empty the registers they are in.
+
+---
