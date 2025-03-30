@@ -39,3 +39,35 @@ instr dest, src, aux        ; Intel syntax
 
 
 ## **Topic - 3: Data Transfer**
+
+### <u>Data Transfer Instruction</u>
+
+- No bit in flag register is modified by `MOV` instruction.
+- Example for syntax is given below.
+
+```S
+.data
+	value: .long 2
+
+.text
+	.globl _start
+
+_start:
+	movl $6, %eax           # EAX = 6
+	movw %eax, value        # VALUE = EAX = 6
+	movl $0, %ebx           # EBX = 0
+	movb %al, %bl           # BL = AL
+	
+	movl value, %ebx        # EBX = VALUE
+	movl $value, %esi       # ESI = &VALUE
+	
+	xorl %ebx, %ebx
+
+```
+
+
+### <u>Swap/Exchange Data</u>
+
+```S
+xchg src, dest
+```

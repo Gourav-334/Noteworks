@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2df777b47c72d1e3",
+        "id": "129db6e3d70654f3",
         "type": "tabs",
         "children": [
           {
-            "id": "d347eab135d88e88",
+            "id": "4311f0469c8ea6cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ME(A)RN Stack/College version {D}/3) Node.js & Express.js.md",
+                "file": "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) Node.js & Express.js"
+              "title": "3) x86 Instruction Set"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -162,11 +163,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d347eab135d88e88",
+  "active": "4311f0469c8ea6cf",
   "lastOpenFiles": [
+    "Compiler Design/JavaTPoint {O}/9) Code Optimization.md",
+    "C++ Programming/W3Schools {C}/Competitive Programming.md",
+    "C Programming/Sololearn {C}/10) GNU C Compiler.md",
+    "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
+    "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
+    "ME(A)RN Stack/College version {O}/4) Angular.md",
+    "ME(A)RN Stack/College version {O}/media/image8.png",
+    "ME(A)RN Stack/College version {O}/media/Screenshot 2025-03-28 123249.png",
+    "ME(A)RN Stack/College version {D}/4) Angular.md",
+    "ME(A)RN Stack/College version {O}/media/image4.png",
+    "ME(A)RN Stack/College version {O}/media/image5.png",
+    "ME(A)RN Stack/College version {O}/media/image7.png",
+    "ME(A)RN Stack/College version {O}/media/image6.png",
+    "ME(A)RN Stack/College version {O}/media/image3.png",
+    "ME(A)RN Stack/College version {O}/media/image2.png",
+    "ME(A)RN Stack/College version {O}/media/image1.png",
+    "ME(A)RN Stack/College version {O}/media",
+    "ME(A)RN Stack/College version {O}/3) Node.js & Express.js.md",
+    "ME(A)RN Stack/College version {O}/2) MongoDB.md",
+    "ME(A)RN Stack/College version {O}/1) Introduction.md",
+    "ME(A)RN Stack/College version {O}",
+    "ME(A)RN Stack/College version {D}/3) Node.js & Express.js.md",
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
-    "C++ Programming/W3Schools {C}/Competitive Programming.md",
     "C++ Programming/W3Schools {C}/1) Comparison With C.md",
     "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
     "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
@@ -182,34 +204,13 @@
     "UNIX System Calls/CPP Reference {O}/3) File Control.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
     "Linux Development/CMake.md",
-    "Easter Eggs/Project Reports/Academic Record Storage.md",
     "Easter Eggs/Project Reports",
-    "C Programming/Sololearn {C}/01) Standard IO.md",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
-    "Computer Network/College Version {C}/1) Communication Components.md",
     "Computer Network/College Version {C}/~$ Data Communication Components.docx",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/1) Introduction.md",
-    "C Programming/Sololearn {C}/09) Type Qualifiers & Casting.md",
-    "C Programming/Sololearn {C}/08) Preprocessor Directives.md",
-    "C Programming/Sololearn {C}/06) File Handling.md",
-    "UNIX System Calls/CPP Reference {O}/8) Linux System Calls.md",
-    "Algorithm Analysis/College Version {C}/media/image36.png",
-    "Algorithm Analysis/College Version {C}/media/image35.png",
-    "Algorithm Analysis/College Version {C}/media/image34.png",
-    "Algorithm Analysis/College Version {C}/media/image37.png",
     "Algorithm Analysis/College Version {C}/~$ Decidability & Computational Complexity.docx",
-    "Algorithm Analysis/College Version {C}/media/image33.png",
-    "Algorithm Analysis/College Version {C}/media/image32.png",
-    "Algorithm Analysis/College Version {C}/media/image31.png",
-    "Algorithm Analysis/College Version {C}/media/image30.png",
-    "Algorithm Analysis/College Version {C}/media/image29.png",
     "Algorithm Analysis/College Version {C}/~$ Greedy Algorithm.docx",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.docx",
     "Python App Development",
     "Compiler Design/JavaTPoint {O}/media/Student_Detailed_Attendance_Summary_2024_25_2203051050004_03_02_2025_00_00_00.pdf",
-    "Compiler Design/JavaTPoint {O}/media/Student_Detailed_Attendance_Summary_2024_25_2203051050004_03_02_2025_00_00_00.pdf.crdownload",
-    "Compiler Design/JavaTPoint {O}/media/image32.png.crdownload",
     "Untitled.canvas"
   ]
 }

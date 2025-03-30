@@ -262,4 +262,143 @@ mm.insert({3,"Child"});        // Notice duplicacy.
 
 ### <u>Sorting Algorithms</u>
 
-- Has a complexity of $O(nlog(n))$.
+- Both have a complexity of $O(nlog(n))$.
+- Again, they can be included through `std`.
+
+#### Simple sorting:
+
+```cpp
+sort(v.begin(), v.end());        // Sorting in ascending order.
+sort(v.begin(), v.end(), greater<int>());    // Descending
+```
+
+#### Stable sorting:
+
+- This is when duplicate elements retain their original order.
+
+```cpp
+stable_sort(v.begin(), v.end());
+```
+
+
+### <u>Searching Algorithm</u>
+
+#### Binary sort:
+
+- Both give a complexity of $O(log(n))$.
+- `binary_search` returns `true` when original document is found.
+- Returns `true` if `5` is in array.
+
+```cpp
+binary_search(v.begin(), v.end(), 5);
+```
+
+- In C++, conditional statement expressions evaluate to Booleans, not integers as in C.
+
+
+### <u>Minimum & Maximum</u>
+
+- Again, these are too part of `std` namespace.
+
+#### Among two elements:
+
+```cpp
+cout << min(10,20);    // Output: 10
+cout << max(10,20);    // Output: 20
+```
+
+#### More than two elements:
+
+```cpp
+cout << min({3,1,5,2});    // Output: 1
+```
+
+#### In a container:
+
+```cpp
+min_element(v.start(), v.end());
+max_element(v.start(), v.end());
+```
+
+
+### <u>Modification</u>
+
+- Again, these are too part of `std` namespace.
+
+#### Reversing:
+
+```cpp
+reverse(v.begin(), v.end());
+```
+
+#### Rotating elements:
+
+```cpp
+rotate(v.begin(), v.begin()+2, v.end());    // Rotates left by 2.
+```
+
+#### Removing duplicates:
+
+```cpp
+auto it = unique(v.begin(), v.end());
+v.resize(distance(v.begin(), it));        // Trim extra space.
+```
+
+
+### <u>Numeric Algorithms</u>
+
+- Are included in `<numeric>` header.
+
+#### Accumulate:
+
+```cpp
+accumulate(v.begin(), v.end(), 0);    // Sums all elements in 'v'.
+```
+
+#### Filling containers:
+
+- Fills a range in container with a particular order.
+
+```cpp
+vector<int> v(5);    // 'v = {0,0,0,0,0}' by default.
+
+/* Ordering in increasing order of 1 */
+itoa(v.begin(), v.end(), 1);    // v = {1,2,3,4,5};
+```
+
+
+### <u>Set Algorithms</u>
+
+#### Set union:
+
+```cpp
+vector<int> a = {1,3,5};
+vector<int> b = {3,4,6};
+vector<int> res(10);
+
+auto it = set_union(
+	a.begin(), a.end(),
+	b.begin(), b.end().
+	res.begin()
+);
+
+res.resize(it - res.begin());
+```
+
+#### Set intersection:
+
+- Similar to previous function, just name the function as `set_intersection()`.
+
+
+### <u>Randomization</u>
+
+- Also part of the `std` namespace.
+- Uses `<random>` header.
+
+```cpp
+random_device rd;
+mt19937 g(rd());
+shuffle(v.begin(), v.end(), g);
+```
+
+---
