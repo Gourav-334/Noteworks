@@ -61,8 +61,11 @@ _start:
 	movl value, %ebx        # EBX = VALUE
 	movl $value, %esi       # ESI = &VALUE
 	
+	
+	# Exit the program (in Linux)
+	mov $1, %eax
 	xorl %ebx, %ebx
-
+	int $0x80
 ```
 
 
@@ -70,4 +73,15 @@ _start:
 
 ```S
 xchg src, dest
+```
+
+- `XCHG` is operationally equivalent to three `MOV` statements.
+- But `XCHG` are costlier & slower than three `MOV` statements.
+- `XCHG` sometimes requires more than three clock cycles.
+- We can't exchange two memory blocks with it, though.
+
+#### Example:
+
+```S
+xchgw value(%eax), %ax    # [value + %eax], %ax
 ```

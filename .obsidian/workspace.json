@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
+                "file": "x86 Assembly/Tech Instance (GAS) {O}/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3) x86 Instruction Set"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -165,11 +164,14 @@
   },
   "active": "4311f0469c8ea6cf",
   "lastOpenFiles": [
+    "x86 Assembly/Wikibook's AT&T GAS {D}/3) x86 Instruction Set.md",
+    "x86 Assembly/Tech Instance (GAS) {O}/Untitled.md",
+    "x86 Assembly/Tech Instance (GAS) {O}/media",
+    "x86 Assembly/Tech Instance (GAS) {O}",
     "Compiler Design/JavaTPoint {O}/9) Code Optimization.md",
     "C++ Programming/W3Schools {C}/Competitive Programming.md",
     "C Programming/Sololearn {C}/10) GNU C Compiler.md",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/3) x86 Instruction Set.md",
-    "x86 Assembly/Wikibook's AT&T GAS {O}/2) x86 Architecture.md",
+    "x86 Assembly/Wikibook's AT&T GAS {D}/2) x86 Architecture.md",
     "ME(A)RN Stack/College version {O}/4) Angular.md",
     "ME(A)RN Stack/College version {O}/media/image8.png",
     "ME(A)RN Stack/College version {O}/media/Screenshot 2025-03-28 123249.png",
@@ -203,14 +205,11 @@
     "UNIX System Calls/CPP Reference {O}/2) UNIX Standard Calls.md",
     "UNIX System Calls/CPP Reference {O}/3) File Control.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
-    "Linux Development/CMake.md",
     "Easter Eggs/Project Reports",
     "Computer Network/College Version {C}/~$ Data Communication Components.docx",
     "Algorithm Analysis/College Version {C}/~$ Decidability & Computational Complexity.docx",
     "Algorithm Analysis/College Version {C}/~$ Greedy Algorithm.docx",
     "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.docx",
-    "Python App Development",
-    "Compiler Design/JavaTPoint {O}/media/Student_Detailed_Attendance_Summary_2024_25_2203051050004_03_02_2025_00_00_00.pdf",
     "Untitled.canvas"
   ]
 }

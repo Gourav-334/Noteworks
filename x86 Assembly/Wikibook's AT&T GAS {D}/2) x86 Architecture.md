@@ -54,7 +54,7 @@
 - EFLAGS register has a capacity of storing 32-bits.
 - Each of its bit represents a different flag.
 
-![EFLAGS Register](x86%20Assembly/Wikibook's%20AT&T%20GAS%20{O}/media/image1.png)
+![EFLAGS Register](x86%20Assembly/Wikibook's%20AT&T%20GAS%20{D}/media/image1.png)
 
 >**<u>WARNING</u>:**
 >Bits named 0 and 1 shouldn't be changed.
