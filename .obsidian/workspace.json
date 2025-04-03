@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fef03dca74455f5",
+        "id": "7b4a781e97b16c25",
         "type": "tabs",
         "children": [
           {
-            "id": "8a31e8ac52262894",
+            "id": "9159a0ce3383a757",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,18 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a31e8ac52262894",
+  "active": "9159a0ce3383a757",
   "lastOpenFiles": [
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image7.png",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image6.png",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image5.png",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image4.png",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image3.png",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image2.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image3.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image4.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image5.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/2) Binary Integers & Computer Standards.md",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/1) Virtual Machine.md",
     "Compiler Design/JavaTPoint {O}/9) Code Optimization.md",
-    "Compiler Design/JavaTPoint {O}/media/image40.png",
-    "Compiler Design/JavaTPoint {O}/media/image39.png",
-    "Compiler Design/JavaTPoint {O}/media/image38.png",
-    "Compiler Design/JavaTPoint {O}/media/image37.png",
-    "Compiler Design/JavaTPoint {O}/media/image36.png",
-    "Compiler Design/JavaTPoint {O}/media/image35.png",
-    "Compiler Design/JavaTPoint {O}/media/image34.png",
-    "Compiler Design/JavaTPoint {O}/media/image33.png",
-    "Compiler Design/JavaTPoint {O}/media/Screenshot 2025-04-02 114051.png",
     "Compiler Design/JavaTPoint {O}/8) Code Generation.md",
     "x86 Assembly/Tech Instance (GAS) {O}/Untitled.md",
     "x86 Assembly/Wikibook's AT&T GAS {D}/3) x86 Instruction Set.md",
@@ -180,7 +185,6 @@
     "C Programming/Sololearn {C}/10) GNU C Compiler.md",
     "x86 Assembly/Wikibook's AT&T GAS {D}/2) x86 Architecture.md",
     "ME(A)RN Stack/College version {O}/4) Angular.md",
-    "ME(A)RN Stack/College version {O}/media/image8.png",
     "ME(A)RN Stack/College version {D}/4) Angular.md",
     "ME(A)RN Stack/College version {O}/media",
     "ME(A)RN Stack/College version {O}/3) Node.js & Express.js.md",
@@ -199,13 +203,10 @@
     "Competitive Coding",
     "UNIX System Calls/CPP Reference {O}/1) Standard Library.md",
     "Linux Development/Bash.md",
-    "UNIX System Calls/CPP Reference {O}/2) UNIX Standard Calls.md",
-    "UNIX System Calls/CPP Reference {O}/3) File Control.md",
     "Easter Eggs/Project Reports",
     "Computer Network/College Version {C}/~$ Data Communication Components.docx",
     "Algorithm Analysis/College Version {C}/~$ Decidability & Computational Complexity.docx",
     "Algorithm Analysis/College Version {C}/~$ Greedy Algorithm.docx",
-    "Algorithm Analysis/College Version {C}/3) Greedy Algorithm.docx",
     "Untitled.canvas"
   ]
 }
