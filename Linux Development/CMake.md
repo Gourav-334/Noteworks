@@ -55,6 +55,17 @@ sudo apt install build-essential cmake
 - We write comments in this file like that in Python (`#`).
 
 
+### <u>Joining External Libraries</u>
+
+- This step is optional, only when we are linking external libraries.
+- For example, someone installs **GNU's Readline** library, then its path has to be added.
+
+```txt
+include_directories(/usr/include)
+link_directories(/usr/lib)
+```
+
+
 ### <u>Contents In File</u>
 
 ```txt
@@ -86,6 +97,19 @@ add_executable(program
 
 - Here, `src/` is the path which is not always required to be added.
 - Ensure that header files for the used libraries are there.
+
+
+### <u>Linking External Libraries</u>
+
+```txt
+target_link_libraries(myExecutable PRIVATE api1 api2)
+```
+
+- This step must be done only if we added path for external libraries that we are using.
+- We will later see what `PRIVATE` does, but this is how we link a particular library.
+- As per the example given above, expect the libraries to be named `libapi1.a` or `libapi1.so` & `libapi2.a` or `libapi2.so`.
+- `myExecutable` is the executable we are creating.
+- This process must be done after the ``
 
 
 ### <u>Make Process</u>

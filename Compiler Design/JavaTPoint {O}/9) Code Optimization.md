@@ -208,3 +208,95 @@ if (i<=20) {goto(i);}    // (h)
 >1. Operands on left & right are written on left & right respectively.
 >2. Expressions involving only `=` operator doesn't affect the DAG.
 >3. Other than `=` operator, all other operators must be in DAG.
+
+
+
+## **Topic - 3: Data Flow Analysis**
+
+### <u>Global Data Flow Analysis</u>
+
+- For optimizing code, some information about current block need to be passed to the next block in flow graph.
+- Not entire code can be optimized by reading it just once, due to presence of both local & global variables.
+
+>**<u>NOTE</u>:**
+>Compilers are faster than interpreter despite going through the code multiple times because the code is loaded into RAM for being read.
+
+
+### <u>Eliminating Useless Assignments</u>
+
+```c
+a = 1;
+b = 2;
+c = 3;        // Useless statement...
+
+if (...) x = a + 5;
+else x = b + 4;
+
+c = x + 1;    // ...due to this.
+```
+
+- We can also evaluate the expression for further more optimization.
+
+
+
+## **Topic - 4: Phases Of Lexical Analysis**
+
+### <u>Introduction</u>
+
+- Preprocessor directives are worked on first, before compilation starts.
+
+![Image40](./media/image41.png)
+
+
+### <u>Compilation</u>
+
+- A compiler lists all the errors & warnings at once, unlike interpreters.
+- Error handler & symbol table manager are implemented at each stage of a compiler.
+- **<u>Analysis stage</u>:** Includes lexical analyzer, syntax analyzer, semantic analyzer & intermediate code generation.
+- **<u>Synthesis stage</u>:** Includes code optimization & target code generation.
+- Machine dependent & language independent.
+- It's not necessary to build a compiler from scratch, as we can do retargeting.
+- **<u>Retargeting</u>:** Borrowing another compiler's intermediate code generator for making a compiler.
+- Symbol tables are used in each phase for referring to the identifier causing trouble & displaying error accordingly.
+
+
+### <u>Lexical Analysis</u>
+
+- Lexical analyzer scans the input code character-by-character.
+- And that is read left-to-right.
+- Also it removes unrequired characters.
+- Then the lexemes are passed to the syntax analyzer.
+
+<img src=media/image42.png style="width:5.5in; height:1.2in">
+
+- **<u>Token</u>:** You know what a token is, but remember that it can't be broken down for representing something.
+- **<u>Lexeme</u>:** A sequence of characters that represent a token.
+- **<u>Patterns</u>:** Set of rules that scanner follows to read matches of tokens.
+
+
+### <u>Input Buffering</u>
+
+- **<u>Input buffering</u>:** Loading contents in disk being read to RAM.
+- **<u>One-buffer scheme</u>:** Using two pointers to read buffer, where one pointer traverses & stores tokens until delimiter is encountered, whereas another one tracks trouble point.
+
+<img src=media/image43.png style="width:7in; height:3in">
+
+- Its disadvantage is that if using static buffer, the string might be longer than the buffer.
+- So previous data in buffer might be required to be deleted.
+- We use DFA & regular expressions very often for parsing.
+
+
+### <u>Lexical Operations</u>
+
+- Sometimes the lexical analyzer couldn't recognize a lexeme & thus applies some techniques to know programmer's intention at error point.
+- There are a certain methods to know that as given below.
+
+#### Guessing lexical token:
+
+- Deleting characters from left/right or both.
+- Exchanging two characters.
+- Adding characters to either side of the token.
+- Changing certain characters.
+
+>**<u>NOTE</u>:**
+>These errors are repaired in "panic mode".

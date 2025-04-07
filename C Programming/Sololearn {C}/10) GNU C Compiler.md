@@ -236,10 +236,58 @@ gcc -o program main.c -L. -lprogram
 ```
 
 - We can also link object files to the `program` library.
+- With `.` in `-L.`, we are telling compiler to look in the same directory.
 
 
 
-## **Topic - 7: Conclusion**
+## **Topic - 7: Cautions When Linking**
+
+### <u>Understanding Flags</u>
+
+| Flag | Usage                                      | Note                        |
+| :--: | :----------------------------------------- | :-------------------------- |
+| `-I` | Tells where to find the header files.      | Must be written before `-L` |
+| `-L` | Tells where to find the libraries to link. | -                           |
+| `-l` | Links a library.                           | Comes last                  |
+
+
+### <u>Differences In Path</u>
+
+|      Flag Style      | Meaning                           |
+| :------------------: | --------------------------------- |
+|        `-I.`         | Header exists in same directory.  |
+|        `-L.`         | Library exists in same directory. |
+|  `-Ipath/to/header`  | Giving relative path for headers. |
+| `-Lpath/to/library`  | Giving relative path for library. |
+| `-I/path/to/header`  | Giving absolute path for headers. |
+| `-L/path/to/library` | Giving absolute path for library. |
+
+
+### <u>Order Matters</u>
+
+- The dependencies of a library must be linked before that library.
+- We will understand this by a case study in next sub-topic.
+
+
+### <u>Example Case Study</u>
+
+```sh
+gcc myfile.c \
+-I/usr/include -I/usr/include/readline -I../../include \
+-L/usr/lib/x86_64-linux-gnu -L../../lib \
+-ltosbitAPI -lreadline -lhistory -lncurses \
+-o myfile
+```
+
+- First comes `-I`, then comes `-L` & finally comes `-l` before `-o`.
+- For `-I` & `-L` flags, they don't need to be in corresponding order of each other.
+- But for the linked libraries, order among those libraries matter.
+- As per the command above, `-ltosbitAPI` comes first as it depends on the libraries afterwards.
+- `-ltosbit` depends on `-readline`, `-lhistory` & `-lncurses`.
+
+
+
+## **Topic - 8: Conclusion**
 
 ### <u>Linking External Library</u>
 

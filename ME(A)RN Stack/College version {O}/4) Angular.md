@@ -130,3 +130,118 @@ ng g c first-task
 - This creates following components.
 
 ![Created components](./media/image8.png)
+
+#### Step 2:
+
+- Make changes to `/src/app/app.component.html` file.
+
+```html
+<h1> hello welcome </h1>
+```
+
+>**<u>TIPS</u>:**
+>Try running `ng serve` to know the changes.
+
+#### Step 3:
+
+- Now make changes to `/src/app/first-task/first_task.component.html` file.
+
+```html
+<h3> Angular Component Example </h3>
+```
+
+#### Step 4:
+
+- Go to `/src/app/first-task/first_task.component.ts`.
+- Copy the selector data from there.
+
+```ts
+import { component } from '@angular/core';
+
+@Component({
+	selector: 'app-textcomponent',    // Copy 'app-textcomponent'
+	templateUrl: './textcomponent.component.html',
+	styleUrl: './textcomponent.component.css'
+})
+export class TextcomponentComponent {
+
+}
+```
+
+- `@` for `Component` means it configures the component metadata.
+
+#### Step 5:
+
+- Now try using the selector data we copied as a tag in `/src/app/app.component.html`.
+
+```html
+<p> Hello World </p>
+<app-textcomponent></app-textcomponent>
+```
+
+![Component Tag Output](./media/image9.png)
+
+
+### <u>More About Components</u>
+
+1. Make changes to `component.html` & `component.css` files.
+2. Then write corresponding code in `component.ts` file.
+3. Run the Angular app using `ng serve -open`.
+
+
+### <u>Angular Modules</u>
+
+- They organize components for modularity & reusability.
+- These components can be path, piped, directives etc.
+- We can manually create modules by writing them under `@NgModule` in `app.module.ts` file.
+- Also we can declare them under `declaration` array, under `@Ng` section.
+
+```ts
+declaration: [
+	AppComponent,
+	NewCmpComponent
+]
+```
+
+- We can list the set of imports too under `import` array, under `@Ng` section.
+
+```ts
+import: [
+	BrowserModule,
+	FormsModule
+]
+```
+
+- Whatever is written under `bootstrap` array, is bootstrapped when the module is loaded.
+
+
+### <u>Angular Services</u>
+
+- Angular services are like libraries.
+- We can create it using the following commands.
+
+```sh
+ng generate service service_name
+```
+
+- This creates two files.
+- `src/app/service_name.service.ts` i.e. the service file.
+- `src/app/service_name.service.spec.ts` i.e. the unit test file for that service.
+
+#### Service implementation:
+
+```ts
+import { Injectable } from '@angular/core';
+
+@Injectable({
+	providedIn: 'root'    // Can specify modules with it
+})
+
+export class MyService {
+	// Service logic goes here
+}
+```
+
+
+
+## **Topic - 3: Data Binding & Templates**

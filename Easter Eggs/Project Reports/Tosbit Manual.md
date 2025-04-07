@@ -45,9 +45,7 @@
 
 ### <u>Software Requirements</u>
 
-- Currently, ***Tosbit*** is limited to **Debian derived Linux systems**.
-- For example, ***Debian***, ***Ubuntu***, ***Mint***, ***Pop!_OS*** & ***Zorin OS*** etc.
-- Soon, packages for other Linux distros will be available.
+- Currently, ***Tosbit*** is limited to **Linux** based operating systems.
 - However, there are currently no plan for **Windows** & **MacOS**.
 - Software in Linux required for running ***Tosbit*** is just **xz Compressor** & **GCC**.
 - But developers have to install **CMake** & **GNU Debugger** (optional but advised) too.
@@ -68,25 +66,25 @@ These installation steps are for those who are willing to download the release:
 1. Get the `.tar.gz` file from **GitHub**.
 
 ```sh
-wget https://github.com/Gourav-334/Tosbit/releases/download/Tosbit-v0.1.0/Tosbit-v0.1.0-Linux.tar.gz
+wget https://github.com/Gourav-334/Tosbit/releases/download/Tosbit-v0.1.1/Tosbit-v0.1.1-Linux.tar.gz
 ```
 
 2. Extract this `.tar.gz` file.
 
 ```sh
-tar -xzvf Tosbit-v0.1.0-Linux.tar.gz
+tar -xzvf Tosbit-v0.1.1-Linux.tar.gz
 ```
 
 3. Allow permission to it.
 
 ```sh
-chmod +x Tosbit-v0.1.0-Linux/*
+chmod +x Tosbit-v0.1.1-Linux/*
 ```
 
 4. Navigate inside the directory.
 
 ```sh
-cd Tosbit-v0.1.0-Linux
+cd Tosbit-v0.1.1-Linux
 ```
 
 5. Try running engine or server.
@@ -116,7 +114,7 @@ bash scripts/voidlinux.sh           # Only for Void Linux.
 
 ```sh
 cd exec
-bash remake.sh 0
+mkdir build
 bash remake.sh 1
 cd build
 cmake ..
@@ -583,7 +581,11 @@ int main(void)
 4. Link against `tosbitAPI.a` static library:
 
 ```sh
-gcc myfile.c -I../include -L../lib -ltosbitAPI -o myfile
+gcc myfile.c \
+-I/usr/include -I/usr/include/readline -I../../include \
+-L/usr/lib/x86_64-linux-gnu -L../../lib \
+-ltosbitAPI -lreadline -lhistory -lncurses \
+-o myfile
 ```
 
 5. Run the server:
