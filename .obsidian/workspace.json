@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5d58b049591b847",
+        "id": "43fd6dc394a792d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c4f739a97692704e",
+            "id": "0d43dde40adeb683",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,8 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4f739a97692704e",
+  "active": "0d43dde40adeb683",
   "lastOpenFiles": [
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/4) 32-Bit Processors.md",
+    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
+    "Android Development/JavaTPoint {O}/2) Android Components.md",
+    "Android Development/JavaTPoint {O}/media/image15.png",
+    "Android Development/JavaTPoint {O}/media/image14.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2025-04-14 104442.png",
+    "Android Development/JavaTPoint {O}/media/Screenshot 2025-04-14 104450.png",
+    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/3) Inner Working Mechanism.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/1) Virtual Machine.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image9.png",
@@ -170,16 +178,12 @@
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image9.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image8.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/3) Inner Working Mechanism.md",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image3.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image1.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
     "Compiler Design/JavaTPoint {O}/9) Code Optimization.md",
     "ESP32 ft. Arduino IDE/01) Introduction To ESP32.md",
     "ME(A)RN Stack/College version {O}/4) Angular.md",
     "ESP32 ft. Arduino IDE",
-    "ME(A)RN Stack/College version {O}/media/image9.png",
     "Linux Development/CMake.md",
     "C Programming/Sololearn {C}/10) GNU C Compiler.md",
     "Easter Eggs/Project Reports/Tosbit Manual.md",
@@ -202,9 +206,6 @@
     "ME(A)RN Stack/College version {O}/1) Introduction.md",
     "ME(A)RN Stack/College version {O}",
     "ME(A)RN Stack/College version {D}/3) Node.js & Express.js.md",
-    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
-    "Android Development/JavaTPoint {O}/2) Android Widgets.md",
-    "C++ Programming/W3Schools {C}/1) Comparison With C.md",
     "Competitive Coding",
     "Untitled.canvas"
   ]
