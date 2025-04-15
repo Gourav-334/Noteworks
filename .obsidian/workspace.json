@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "43fd6dc394a792d5",
+        "id": "0abfb1693adf7c97",
         "type": "tabs",
         "children": [
           {
-            "id": "0d43dde40adeb683",
+            "id": "01c1e886ee052792",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01) Cyber Security Basics"
             }
           }
         ]
@@ -159,8 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d43dde40adeb683",
+  "active": "01c1e886ee052792",
   "lastOpenFiles": [
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/1) Virtual Machine.md",
+    "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
+    "Cyber Security/Try Hack Me {O}/media/image1.png",
+    "Cyber Security/Try Hack Me {O}/media/Screenshot 2025-04-15 235137.png",
+    "Cyber Security/Try Hack Me {O}/media",
+    "Cyber Security/Try Hack Me {O}",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/4) x86-32 Processors.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/5) Addition To x86-64 Processors.md",
+    "x86 Assembly/Wikibook's AT&T (GAS) {D}/3) x86 Instruction Set.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/4) 32-Bit Processors.md",
     "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
     "Android Development/JavaTPoint {O}/2) Android Components.md",
@@ -170,13 +183,10 @@
     "Android Development/JavaTPoint {O}/media/Screenshot 2025-04-14 104450.png",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/3) Inner Working Mechanism.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/1) Virtual Machine.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image9.png",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image8.png",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image10.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image10.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image9.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image8.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/3) Inner Working Mechanism.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
@@ -199,14 +209,7 @@
     "x86 Assembly/Tech Instance (GAS) {O}",
     "C++ Programming/W3Schools {C}/Competitive Programming.md",
     "x86 Assembly/Wikibook's AT&T GAS {D}/2) x86 Architecture.md",
-    "ME(A)RN Stack/College version {D}/4) Angular.md",
     "ME(A)RN Stack/College version {O}/media",
-    "ME(A)RN Stack/College version {O}/3) Node.js & Express.js.md",
-    "ME(A)RN Stack/College version {O}/2) MongoDB.md",
-    "ME(A)RN Stack/College version {O}/1) Introduction.md",
-    "ME(A)RN Stack/College version {O}",
-    "ME(A)RN Stack/College version {D}/3) Node.js & Express.js.md",
-    "Competitive Coding",
     "Untitled.canvas"
   ]
 }
