@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2081a3f45a81d7d6",
+        "id": "3575e40ff8435b99",
         "type": "tabs",
         "children": [
           {
-            "id": "bd31d27d360bc13d",
+            "id": "a13fe42257b4efa1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01) Cyber Security Basics"
+              "title": "New tab"
             }
           }
         ]
@@ -163,8 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd31d27d360bc13d",
+  "active": "a13fe42257b4efa1",
   "lastOpenFiles": [
+    "Android Development/JavaTPoint + College {O}/5) Data Storage Technique.md",
+    "Easter Eggs/Seasonal Awards/5C1B4600",
+    "Easter Eggs/Seasonal Awards/54EA4600",
+    "Easter Eggs/Seasonal Awards/F4BA4600",
+    "Easter Eggs/Seasonal Awards/9F3A4600",
+    "Easter Eggs/Seasonal Awards/80F94600",
+    "Easter Eggs/Seasonal Awards/4E794600",
+    "Easter Eggs/Seasonal Awards/CAA84600",
+    "Easter Eggs/Seasonal Awards/C2384600",
+    "Easter Eggs/Seasonal Awards/4C274600",
+    "Android Development/JavaTPoint + College {O}/4) Views & Fragments.md",
+    "Android Development/JavaTPoint + College {O}/3) Android UI Layouts.md",
+    "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
+    "Cyber Security/Try Hack Me {O}/02) Linux Fundamentals.md",
+    "Android Development/JavaTPoint + College {O}/2) Android Components.md",
     "Cyber Security/Try Hack Me {O}/media/image9.png",
     "Cyber Security/Try Hack Me {O}/media/Screenshot 2025-04-19 225920.png",
     "Cyber Security/Try Hack Me {O}/media/image8.png",
@@ -175,7 +186,6 @@
     "Cyber Security/Try Hack Me {O}/media/Screenshot 2025-04-19 185915.png",
     "Cyber Security/Try Hack Me {O}/media/image5.png",
     "Cyber Security/Try Hack Me {O}/media/Screenshot 2025-04-19 184238.png",
-    "Cyber Security/Try Hack Me {O}/media/image4.png",
     "Quantitative Reasoning/College version {O}/10) Blood Relations.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
     "Quantitative Reasoning/College version {O}/09) Cubes, Dices & Syllogism.md",
@@ -187,30 +197,15 @@
     "Quantitative Reasoning/College version {O}/03) Ratio & Proportion.md",
     "Quantitative Reasoning/College version {O}/02) Progressions.md",
     "Quantitative Reasoning/College version {O}/01) Number System.md",
-    "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/6) Hardware Components.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/1) Virtual Machine.md",
     "Cyber Security/Try Hack Me {O}/media",
-    "Cyber Security/Try Hack Me {O}",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/4) x86-32 Processors.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/5) Addition To x86-64 Processors.md",
     "x86 Assembly/Wikibook's AT&T (GAS) {D}/3) x86 Instruction Set.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/4) 32-Bit Processors.md",
-    "Android Development/JavaTPoint {O}/1) Basic Concepts & Setup.md",
-    "Android Development/JavaTPoint {O}/2) Android Components.md",
+    "Android Development/JavaTPoint + College {O}/1) Basic Concepts & Setup.md",
     "Android Development/JavaTPoint {O}/2) Android Widgets.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/3) Inner Working Mechanism.md",
-    "x86 Assembly/Tutorials Point (NASM) {C}/3) Inner Working Mechanism.md",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media",
-    "Compiler Design/JavaTPoint {O}/9) Code Optimization.md",
-    "ESP32 ft. Arduino IDE/01) Introduction To ESP32.md",
-    "ESP32 ft. Arduino IDE",
-    "Compiler Design/JavaTPoint {O}/media/image43.png.crdownload",
-    "Compiler Design/JavaTPoint {O}/media/image42.png.crdownload",
-    "Compiler Design/JavaTPoint {O}/media/image41.png.crdownload",
-    "x86 Assembly/Tech Instance (GAS) {O}/media",
-    "x86 Assembly/Tech Instance (GAS) {O}",
-    "ME(A)RN Stack/College version {O}/media",
     "Untitled.canvas"
   ]
 }

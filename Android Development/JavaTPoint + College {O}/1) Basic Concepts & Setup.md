@@ -84,7 +84,7 @@
 - Application framework
 - Applications
 
-![Android Software Stack](./media/image1.jpg)
+![Android Software Stack](image1.jpg)
 
 
 ### <u>Android Runtime</u>
@@ -99,7 +99,7 @@
 
 ### <u>Introduction</u>
 
-![Android Lifecycle](./media/image2.jpg)
+![Android Lifecycle](image2.jpg)
 
 #### Core blocks of Android are:
 
@@ -168,7 +168,7 @@
 
 ### <u>Introduction</u>
 
-![Android Emulator](./media/image3.png)
+![Android Emulator](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image3.png)
 
 #smartphone_era
 
@@ -234,7 +234,7 @@ $ emulator -list-avds
 
 ### <u>Making Actions On Emulator</u>
 
-![Actions On Emulator](./media/image4.png)
+![Actions On Emulator](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image4.png)
 
 - To run, you can simply launch or double-click.
 - To stop, either choose **Stop** from menu, or right-click & select **Stop**.
@@ -345,12 +345,12 @@ public class MainActivity extends AppCompatActivity
 
 - Click on the Run icon on top.
 
-![Run Icon](./media/image5.png)
+![Run Icon](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image5.png)
 
 - It might take few minutes to boot up the AVD, wait for it to end.
 - Then we can see an interface open up as shown below.
 
-![Initial Interface](./media/image6.png)
+![Initial Interface](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image6.png)
 
 
 
@@ -358,7 +358,7 @@ public class MainActivity extends AppCompatActivity
 
 ### <u>Introduction</u>
 
-![Eclipse Android App Structure](./media/image7.png)
+![Eclipse Android App Structure](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image7.png)
 
 
 ### <u>MainActivity.java</u>
@@ -570,11 +570,11 @@ this.getWindow().setFlags(
 
 #### Before:
 
-![Before](./media/image8.png)
+![Before](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image8.png)
 
 #### After:
 
-![After](./media/image9.png)
+![After](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image9.png)
 
 
 
@@ -702,10 +702,10 @@ public class SecondActivity extends AppCompatActivity
 
 #### Before (portrait):
 
-![Portrait mode](./media/image10.png)
+![Portrait mode](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image10.png)
 
 #### After (landscape):
 
-![Landscape](./media/image11.png)
+![Landscape](Android%20Development/JavaTPoint%20+%20College%20{O}/media/image11.png)
 
 ---
