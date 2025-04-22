@@ -79,3 +79,25 @@
 - **<u>Cursor</u>:** Buffer containing query results to be fetched.
 - Method `moveToFirst()` moves the cursor to the first query result.
 - `query()` method reads data from a table.
+
+
+
+## **Topic - 4: Content Providers**
+
+### <u>Introduction</u>
+
+<img src="./media/image16.png" style="height:3in; width:5in">
+
+- **<u>URI</u>:** Something used to access data from content provider.
+- Its format is `content://authority/optionalPath/optionalId`.
+- URI supports CRUD operations on itself.
+- Call logs are accessed using `android.providerCallLog` class.
+
+
+### <u>Content Types</u>
+
+- Consists of media type & subtype.
+- Represented in format `media_type/subtype`.
+- For example, `image/png`.
+
+---
