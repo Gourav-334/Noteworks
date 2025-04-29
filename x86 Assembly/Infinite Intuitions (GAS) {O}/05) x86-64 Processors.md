@@ -1,4 +1,4 @@
-# $\fbox{Chapter 5: ADDITION TO x86-64 PROCESSORS}$
+# $\fbox{Chapter 5: x86-64 PROCESSORS}$
 
 
 
