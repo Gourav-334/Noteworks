@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f66d9cf6d9c8b7e1",
+        "id": "c835342d034182fd",
         "type": "tabs",
         "children": [
           {
-            "id": "37572af0d82a66c1",
+            "id": "f6592aad7307cf10",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "08) Registers Revision"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -163,18 +158,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37572af0d82a66c1",
+  "active": "f6592aad7307cf10",
   "lastOpenFiles": [
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/07) Environment Setup.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/09) Linux System Calls.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image20.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image20.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/09) Linux System Calls.md",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media/image1.png",
+    "x86 Assembly/Tutorials Point (NASM) {C}/media",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/07) Environment Setup.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image18.png",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image18.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/08) Registers Revision.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media/image1.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/media",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/06) Hardware Components.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/05) x86-64 Processors.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/04) x86-32 Processors.md",
@@ -189,8 +188,6 @@
     "Android Development/JavaTPoint + College {O}/media/image18.png",
     "Android Development/JavaTPoint + College {O}/media/Screenshot 2025-04-23 102203.png",
     "Android Development/JavaTPoint + College {O}/5) Data Storage Technique.md",
-    "Android Development/JavaTPoint + College {O}/media/image17.png",
-    "Android Development/JavaTPoint + College {O}/media/Screenshot 2025-04-23 095831.png",
     "Android Development/JavaTPoint + College {O}/3) Android UI Layouts.md",
     "Android Development/JavaTPoint + College {O}/2) Android Components.md",
     "Android Development/JavaTPoint + College {O}/4) Views & Fragments.md",
@@ -209,7 +206,6 @@
     "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
     "Quantitative Reasoning/College version {O}/09) Cubes, Dices & Syllogism.md",
     "Quantitative Reasoning/College version {O}/08) Clocks & Calendars.md",
-    "Quantitative Reasoning/College version {O}/07) Directions & Arrangements.md",
     "Untitled.canvas"
   ]
 }
