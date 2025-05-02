@@ -1,117 +1,94 @@
-**<u>Chapter 10</u>: ADDRESSING MODES**
+# $\fbox{Chapter 10: ADDRESSING MODES}$
 
-**Topic – 1: Operands**
 
-**<u>Note</u>!**
 
-**🡪 The operands we pass by name, are actually their memory addresses.**
 
-**<u>Basic Modes Of Addressing</u>**
+
+## **Topic – 1: Operands**
+
+>**<u>NOTE</u>:**
+>The operands we pass by name, are actually their memory addresses.
+
+
+### <u>Basic Modes Of Addressing</u>
 
 - Register addressing
-
 - Immediate addressing
-
 - Memory addressing
 
-**<u>Register Addressing</u>**
 
-- These are instructions which involve **a** **register** & **a**
-  **variable** or **two registers**.
+### *<u>Register Addressing</u>
 
-**<u>Immediate Addressing</u>**
+- These are instructions which involve a register & a variable or two registers.
 
-- Involves moving an **immediate constant** to a **register** or a
-  **reserved variable**.
 
-***add num, 96***
+### <u>Immediate Addressing</u>
 
-***mov rcx, 78h***
+- Involves moving an immediate constant to a register or a reserved variable.
 
-**<u>Direct Memory Addressing</u>**
+```s
+addl $96, num(%rip)
+movl 0x78, %rcx
+```
 
-- In **direct memory addressing** mode, the named **variable** is
-  searched all over the main memory.
 
-- This address after reaching the **offset** of that variable, is stored
-  in **DS** register.
+### <u>Direct Memory Addressing</u>
 
+- In direct memory addressing mode, the named variable is searched all over the main memory.
+- This address after reaching the offset of that variable, is stored in DS register.
 - **<u>Effective address</u>:** Offset
+- As we mention more variables in the program, their offset values are stored in a symbol table.
 
-- As we mention more variables in the program, their **offset** values
-  are stored in a **symbol table**.
+```s
+movq %rax, 0x800
+movw 0x5000, %ax
+```
 
-***mov \[0x800\], rax***
 
-***mov ax, \[0x5000\]***
+### <u>Direct-Offset Addressing</u>
 
-**<u>Direct-Offset Addressing</u>**
+- Uses arithmetic operators to modify addresses.
 
-- Uses **arithmetic operators** to modify addresses.
+```s
+my_table: .word 4,5,6,7,8        # Our table (array)
 
-***my_table dw 4,5,6,7,8 ; Our table (same as array in C)***
+movw my_table + 2, %cx           # Moves third element to CX
+movb my_table, %cl               # Move first byte only to CL
+```
 
-***mov cl, my_table\[2\] ; Moves third element to CL***
 
-***mov cl, my_table + 2 ; Same as above***
+### <u>Indirect Memory Addressing</u>
 
-**<u>Indirect Memory Addressing</u>**
+- We mostly use base registers of BX, BP series & index registers of DI, SI series for this purpose.
+- This way of addressing is used in structures containing multiple elements.
+- Like arrays/tables etc.
+- We use `[]` around register to refer to the element that is in address in register.
+- And without it, we are referring to the memory address it is storing.
 
-- We mostly use **base registers** of **BX**, **BP** series & **index
-  registers** of **DI**, **SI** series for this purpose.
+```s
+movl my_array, %ebx    # Offset of array moved to EBX
+movl $100, %ebx        # array[0] = 100
+movl $2, %ebx          # RBX = RBX + 2 (next element)
+movl $200, %ebx        # array[1] = 200
+```
 
-- This way of addressing is used in structures containing **multiple
-  elements**.
+- The 3rd line moves by just one element because size of a WORD is 2 bytes.
 
-- Like **arrays/tables** etc.
 
-- We use **\[ \]** around register to refer to the **element** that is
-  in address in register.
 
-- And **without** it, we are referring to the **memory address** it is
-  storing.
+## **Topic – 2: MOV Instruction Ambiguity**
 
-***mov ebx, \[my_array\] ; Offset of array moved to RBX***
+### <u>Type Specification</u>
 
-***mov \[ebx\], 100 ; array\[0\] = 100***
+- When using the MOV instruction, the size of both operands must be **same**.
+- But it can cause some ambiguity like we **don’t** specify the type of value we are moving into the register.
 
-***mov ebx, 2 ; rbx = rbx + 2 (next element)***
+```s
+movl $100, %ebx
+movw $100, my_table + (%ebx * 2)
+```
 
-***mov \[ebx\], 200 ; array\[1\] = 200***
+- `my_table + (%ebx * 2)` because each element is of a word i.e. 2 bytes.
+- So, we multiple `%ebx` with `2` to skip by that much of memory.
 
-- The **3<sup>rd</sup> line** moves by just **one element** because size
-  of a **WORD** is **2-bytes**.
-
-**Topic – 2: MOV Instruction Ambiguity**
-
-**<u>Type Specification</u>**
-
-- When using the **MOV** instruction, the **size** of **both operands**
-  must be **same**.
-
-- But it can cause some ambiguity like we **don’t** specify the **type**
-  of value we are moving into the register.
-
-***mov \[ebx\], 100 ; Unspecified type***
-
-***mov WORD\[ebx\], 100 ; Specified and safe***
-
-**<u>Constant Types Table</u>**
-
-| **Type Specifier** | **Bytes Addressed** | **Definition Keyword** |
-|:------------------:|:-------------------:|:----------------------:|
-|      **BYTE**      |        **1**        |         **DB**         |
-|      **WORD**      |        **2**        |         **DW**         |
-|     **DWORD**      |        **4**        |         **DD**         |
-|     **QWORD**      |        **8**        |         **DQ**         |
-|     **TBYTE**      |       **10**        |         **DT**         |
-
-**<u>Variable Types Table</u>**
-
-| **Type Specifier**  | **Bytes Addressed** | **Definition Keyword** |
-|:-------------------:|:-------------------:|:----------------------:|
-| **BYTE (reserve)**  |        **1**        |        **RESB**        |
-| **WORD (reserve)**  |        **2**        |        **RESW**        |
-| **DWORD (reserve)** |        **4**        |        **RESD**        |
-| **QWORD (reserve)** |        **8**        |        **RESQ**        |
-| **TBYTE (reserve)** |       **10**        |        **REST**        |
+---
