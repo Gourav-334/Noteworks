@@ -30,6 +30,9 @@ rustc hello.rs
 - **<u>Enclosed item</u>:** `//!`
 
 
+
+## **Topic - 2: Formatting**
+
 ### <u>Formatting Macros</u>
 
 #### About:
@@ -81,4 +84,17 @@ println!("{num:0<5}", num=7);          // Four 0 & then 7.
 println!("{num:0>5}", num=7);          // 7 & then four 0.
 
 println!("{num:0<x$}", num=7, x=5);    // 'x' 0 & then 7.
+```
+
+
+
+## **Topic - 3: Debug**
+
+### <u>Traits</u>
+
+- `fmt::Display` & `fmt::Debug` are traits in Rust.
+- `Display` is for user-friendly printing while `Debug` is for developers.
+
+```rust
+#[derive(Debug)]    // For enabling 'fmt::Debug'.
 ```

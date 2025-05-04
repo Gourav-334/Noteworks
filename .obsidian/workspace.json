@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fb43e811d9ffd20e",
+        "id": "8363895251f8626b",
         "type": "tabs",
         "children": [
           {
-            "id": "700699979f90d42f",
+            "id": "8ddd4b2a3e521b44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust Programming/01) Hello World.md",
+                "file": "x86 Assembly/Infinite Intuitions (GAS) {O}/11) Programming Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01) Hello World"
+              "title": "11) Programming Rules"
             }
           }
         ]
@@ -163,28 +163,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "700699979f90d42f",
+  "active": "8ddd4b2a3e521b44",
   "lastOpenFiles": [
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/10) Addressing Modes.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/09) Linux System Calls.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/07) Environment Setup.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/06) Hardware Components.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/05) x86-64 Processors.md",
     "Rust Programming/01) Hello World.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/11) Programming Rules.md",
+    "x86 Assembly/Tutorials Point (NASM) {C}/~$ Miscellaneuous.docx",
+    "x86 Assembly/Tutorials Point (NASM) {C}/~$ Advanced Programming.docx",
     "Rust Programming/media",
     "Rust Programming",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/10) Addressing Modes.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/09) Linux System Calls.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image20.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image20.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/09) Linux System Calls.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image1.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/07) Environment Setup.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image18.png",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image18.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/08) Registers Revision.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/06) Hardware Components.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/05) x86-64 Processors.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/04) x86-32 Processors.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/03) Inner Working Mechanism.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/02) Digital Arithmetic.md",
@@ -205,12 +208,8 @@
     "Easter Eggs/Seasonal Awards/F4BA4600",
     "Easter Eggs/Seasonal Awards/9F3A4600",
     "Easter Eggs/Seasonal Awards/80F94600",
-    "Easter Eggs/Seasonal Awards/4E794600",
-    "Easter Eggs/Seasonal Awards/CAA84600",
     "Cyber Security/Try Hack Me {O}/01) Cyber Security Basics.md",
     "Cyber Security/Try Hack Me {O}/02) Linux Fundamentals.md",
-    "Quantitative Reasoning/College version {O}/10) Blood Relations.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/2) Digital Arithmetic.md",
     "Untitled.canvas"
   ]
 }

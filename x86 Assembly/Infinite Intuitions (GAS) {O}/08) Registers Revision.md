@@ -156,14 +156,14 @@ msg:
     .globl _start
 
 _start:
-    movl    $9, %edx           # Number of bytes to write
+    movl    $9, %rdx           # Number of bytes to write
     leaq    msg(%rip), %rsi    # Address of message into rsi
-    movl    $1, %edi           # File descriptor (stdout)
-    movl    $1, %eax           # Syscall number for write (1)
+    movl    $1, %rdi           # File descriptor (stdout)
+    movl    $1, %rax           # Syscall number for write (1)
     syscall                    # Make the syscall
 
-    movl    $60, %eax          # Syscall number for exit (60)
-    xorl    %edi, %edi         # Exit code 0
+    movl    $60, %rax          # Syscall number for exit (60)
+    xorl    %rdi, %rdi         # Exit code 0
     syscall
 ```
 
