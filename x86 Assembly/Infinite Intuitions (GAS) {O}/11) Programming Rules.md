@@ -159,6 +159,7 @@ popq %rbx             # Pop last pushed data to RBX.
 - Arithmetic - `add`, `sub`, `mul`, & `div`.
 - Logical - `and`, `or`, `xor` & `not`.
 - Bitwise - `shl`, `shr`, `sal` & `sar`.
+- Special - `inc`, `dec`, `neg`, `cmp` & `test`.
 
 
 ### <u>SHL</u>
@@ -172,3 +173,72 @@ popq %rbx             # Pop last pushed data to RBX.
 movq $1001011, %rax        # Moving because const-to-const can't.
 shlq $2, %rax              # Shift 1001011 left by 2 bits.
 ```
+
+- Alternative mnemonic for `shl` is `sal`.
+
+
+### <u>SHR</u>
+
+- Similar to SHL but done toward right.
+- Alternative mnemonic for `shr` is `sar`.
+
+
+### <u>NEG</u>
+
+- Performs 2's complement on the target.
+
+```s
+negl %eax        # 2's complement is applied on EAX.
+```
+
+
+### <u>CMP</u>
+
+- Used to compare two values.
+- This value isn't stored anywhere, but the result is used in the conditional statements immediately after it.
+
+```s
+cmp %56, %edx
+```
+
+
+### <u>TEST</u>
+
+- Same as `and` mnemonic but like `cmp`, it doesn't store its value anywhere.
+
+
+
+## **Topic - 4: Conditional Flow Instructions**
+
+### <u>Introduction</u>
+
+- This comparison is always between destination & source.
+
+```s
+jmp destination, source
+```
+
+#### Categories:
+
+- Unconditional jump - `jmp`
+- Conditional jump - `je`, `jne`, `jz`, `jnz`, `jl`, `jnl`, `jle`, `jnle` `jg` & `jng`, `jge`, `jnge`.
+- Similar wild combinations with `ja` (jump if above) & `jb` (jump if below).
+- Many other are related to flags.
+- Functional - `call` & `ret`
+
+
+### <u>JMP</u>
+
+- Used for jumping to a label without any condition.
+- Labels can be written before or after.
+
+```s
+jmp *my_label      # Jump to address stored in 'my_label'.
+jmp *%rax          # Jump to address stored in RAX.
+```
+
+- Notice the `*` used for referring to address.
+
+
+
+## **Topic - 5: Subroutines**
