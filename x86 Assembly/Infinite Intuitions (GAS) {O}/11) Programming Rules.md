@@ -241,4 +241,35 @@ jmp *%rax          # Jump to address stored in RAX.
 
 
 
-## **Topic - 5: Subroutines**
+## **Topic - 5: Subroutines/Procedures**
+
+### <u>Introduction</u>
+
+- The return address is pushed to stack.
+- RIP/EIP points to the subroutine's offset.
+
+
+### <u>Code</u>
+
+```s
+call my_func
+
+some_func:
+	# Some codes
+	# RET not required.
+
+my_func:
+	# Some code
+	ret        # Write 'ret $n' to pop 'n' elements from stack.
+```
+
+#### Alternative:
+
+```s
+movl $my_func, %eax
+call *%eax
+```
+
+
+
+## **Topic - 6: Floating-Point Instructions**

@@ -11,10 +11,14 @@
             "id": "f58a8623c18408ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "x86 Assembly/Infinite Intuitions (GAS) {O}/11) Programming Rules.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "11) Programming Rules"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -158,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31f94f8894a5c089",
+  "active": "f58a8623c18408ba",
   "lastOpenFiles": [
     "Rust Programming/01) Hello World.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/11) Programming Rules.md",
