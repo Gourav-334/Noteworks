@@ -1,4 +1,4 @@
-# $\fbox{Chapter 12: PROGRAMMING RULES}$
+# $\fbox{Chapter 12: ASSEMBLY RULES}$
 
 
 
@@ -270,6 +270,4 @@ movl $my_func, %eax
 call *%eax
 ```
 
-
-
-## **Topic - 6: Floating-Point Instructions**
+---
