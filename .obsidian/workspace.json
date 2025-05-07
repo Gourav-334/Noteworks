@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4618c5676332042e",
+        "id": "b3edc5132bfc76c9",
         "type": "tabs",
         "children": [
           {
-            "id": "b100ac5130000a2a",
+            "id": "2ab3e79850b3b3ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "x86 Assembly/Infinite Intuitions (GAS) {O}/12) Floating-Point Instructions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "12) Floating-Point Instructions"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -158,16 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b100ac5130000a2a",
+  "active": "2ab3e79850b3b3ca",
   "lastOpenFiles": [
-    "Easter Eggs/Project Reports/Syntax Scissors.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/09) Linux System Calls.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/12) Floating-Point Instructions.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/11) Assembly Rules.md",
-    "Rust Programming/01) Hello World.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/10) Addressing Modes.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/09) Linux System Calls.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {O}/08) Registers Revision.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/07) Environment Setup.md",
+    "Easter Eggs/Project Reports/Syntax Scissors.md",
+    "Rust Programming/01) Hello World.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/06) Hardware Components.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/05) x86-64 Processors.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/~$ Miscellaneuous.docx",

@@ -26,7 +26,7 @@
 
 - Involves moving an immediate constant to a register or a reserved variable.
 
-```s
+```gas
 addl $96, num(%rip)
 movl 0x78, %rcx
 ```
@@ -39,7 +39,7 @@ movl 0x78, %rcx
 - **<u>Effective address</u>:** Offset
 - As we mention more variables in the program, their offset values are stored in a symbol table.
 
-```s
+```gas
 movq %rax, 0x800
 movw 0x5000, %ax
 ```
@@ -49,7 +49,7 @@ movw 0x5000, %ax
 
 - Uses arithmetic operators to modify addresses.
 
-```s
+```gas
 my_table: .word 4,5,6,7,8        # Our table (array)
 
 movw my_table + 2, %cx           # Moves third element to CX
@@ -65,7 +65,7 @@ movb my_table, %cl               # Move first byte only to CL
 - We use `[]` around register to refer to the element that is in address in register.
 - And without it, we are referring to the memory address it is storing.
 
-```s
+```gas
 movl my_array, %ebx    # Offset of array moved to EBX
 movl $100, %ebx        # array[0] = 100
 movl $2, %ebx          # RBX = RBX + 2 (next element)
@@ -83,7 +83,7 @@ movl $200, %ebx        # array[1] = 200
 - When using the MOV instruction, the size of both operands must be **same**.
 - But it can cause some ambiguity like we **don’t** specify the type of value we are moving into the register.
 
-```s
+```gas
 movl $100, %ebx
 movw $100, my_table + (%ebx * 2)
 ```

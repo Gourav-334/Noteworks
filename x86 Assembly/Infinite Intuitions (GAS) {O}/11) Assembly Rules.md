@@ -12,7 +12,7 @@
 - Defined under `.text` section, before & after `_start`.
 - Similar to `#define` in C.
 
-```s
+```gas
 .equ MAX_SIZE, 64
 .equ ERR_CODE, 404
 
@@ -26,7 +26,7 @@ movl $MAX_SIZE, %edx
 
 - Similar to `.equ` but redefinable.
 
-```s
+```gas
 .equ COUNTER, 10
 movl $COUNTER, %ecx
 .equ COUNTER, 20
@@ -46,7 +46,7 @@ movl $COUNTER, %ecx
 - Used for defining size of unit block in memory.
 - Define under `.data` section.
 
-```s
+```gas
 .byte 0x01             # Filling memory without any label.
 .align 3               # 2^3 bytes alignment.
 myWord: .word 0x257    # Placed at the next 8-byte block start.
@@ -60,7 +60,7 @@ myWord: .word 0x257    # Placed at the next 8-byte block start.
 
 - Sections can be defined multiple times & work well.
 
-```s
+```gas
 .section .data
 	# Some code
 
@@ -82,7 +82,7 @@ myWord: .word 0x257    # Placed at the next 8-byte block start.
 
 - Similar to subroutines & functions, a piece of code is written between `.macro` & `.endm`.
 
-```s
+```gas
 .macro add_two x, y, res
 	movl \x, %eax
 	addl \y, %eax
@@ -106,7 +106,7 @@ add_two $3, $4, $buff
 
 ### <u>Conditional Directives</u>
 
-```s
+```gas
 #define CPU "x86"
 
 .if CPU == "x86"
@@ -123,7 +123,7 @@ add_two $3, $4, $buff
 
 ### <u>Definition</u>
 
-```s
+```gas
 .ifndef CPU
 	#define CPU "x86"
 
@@ -145,7 +145,7 @@ add_two $3, $4, $buff
 - Used for pushing data to a thread's stack.
 - Stack is used for storing data temporarily for later use & corruption avoidance.
 
-```s
+```gas
 pushq -4(%rax)        # Push data at (RAX-4).
 popq %rbx             # Pop last pushed data to RBX.
 ```
@@ -169,7 +169,7 @@ popq %rbx             # Pop last pushed data to RBX.
 - Zeroes are added from right & MSBs are popped to CF.
 - Flags can be accessed through `%eflags` or `%rflags` etc.
 
-```s
+```gas
 movq $1001011, %rax        # Moving because const-to-const can't.
 shlq $2, %rax              # Shift 1001011 left by 2 bits.
 ```
@@ -187,7 +187,7 @@ shlq $2, %rax              # Shift 1001011 left by 2 bits.
 
 - Performs 2's complement on the target.
 
-```s
+```gas
 negl %eax        # 2's complement is applied on EAX.
 ```
 
@@ -197,7 +197,7 @@ negl %eax        # 2's complement is applied on EAX.
 - Used to compare two values.
 - This value isn't stored anywhere, but the result is used in the conditional statements immediately after it.
 
-```s
+```gas
 cmp %56, %edx
 ```
 
@@ -214,7 +214,7 @@ cmp %56, %edx
 
 - This comparison is always between destination & source.
 
-```s
+```gas
 jmp destination, source
 ```
 
@@ -232,7 +232,7 @@ jmp destination, source
 - Used for jumping to a label without any condition.
 - Labels can be written before or after.
 
-```s
+```gas
 jmp *my_label      # Jump to address stored in 'my_label'.
 jmp *%rax          # Jump to address stored in RAX.
 ```
@@ -251,7 +251,7 @@ jmp *%rax          # Jump to address stored in RAX.
 
 ### <u>Code</u>
 
-```s
+```gas
 call my_func
 
 some_func:
@@ -265,7 +265,7 @@ my_func:
 
 #### Alternative:
 
-```s
+```gas
 movl $my_func, %eax
 call *%eax
 ```

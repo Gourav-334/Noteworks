@@ -53,7 +53,7 @@ ld -o hello hello.o
 
 ### <u>Hello, World!</u>
 
-```s
+```gas
 .section    .data
 msg:        .asciz "Hello, world!\n"
 
@@ -113,7 +113,7 @@ style="width:3.68489in;height:1.14134in" />
 
 ### <u>Assembly Syntax</u>
 
-```asm
+```gas
 [label] mnemonic [operands] [;comment]
 ```
 

@@ -119,7 +119,7 @@ style="width:5.68675in;height:1.12748in" />
 
 #### 32-bit:
 
-```s
+```gas
     .section .data
 
 msg:
@@ -146,7 +146,7 @@ OUTPUT:
 
 #### 64-bit:
 
-```s
+```gas
     .section .data
 
 msg:

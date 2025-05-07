@@ -30,7 +30,7 @@
 
 ### <u>System Exit</u>
 
-```s
+```gas
 xorl %ebx, %ebx
 movl $1, %eax        # sys_exit
 ```
@@ -38,7 +38,7 @@ movl $1, %eax        # sys_exit
 
 ### <u>System Write</u>
 
-```s
+```gas
 movl $1, %ebx    # File descriptor (stdout)
 movl $4, %eax    # sys_write
 ```
@@ -46,7 +46,7 @@ movl $4, %eax    # sys_write
 
 ### <u>System Read</u>
 
-```s
+```gas
 movl $2, %ebx        # Activate error checking (stderr)
 movl $3, %eax        # sys_read
 ```
@@ -79,14 +79,14 @@ movl $3, %eax        # sys_read
 
 #### 32-bit:
 
-```s
+```gas
 	.segment .bss
 .comm num, 5        # Common symbol of 5 bytes (1 for sign).
 ```
 
 #### 64-bit:
 
-```s
+```gas
 	.segment .bss
 num: .space 5      # Same code as previous.
 ```
@@ -94,7 +94,7 @@ num: .space 5      # Same code as previous.
 
 ### <u>Taking Input</u>
 
-```s
+```gas
 movl $5, %edx
 movl $num, %ecx
 movl $2, %ebx

@@ -33,7 +33,7 @@
 - When an element is pushed to FP stack, the elements are pushed down & new element comes at `st(0)`.
 - We will load FP variables to FP stack.
 
-```s
+```gas
 	.section .data
 val1: .float 3.14
 val2: .double 2.71828
@@ -56,7 +56,7 @@ _start:
 
 - Now we will load values from FP stack to FP variables.
 
-```s
+```gas
 fst %st(n)        # ST(n) = ST(0)
 
 fsts val1         # val1 = ST(0) ['val1' is single-precision.]
@@ -70,7 +70,7 @@ fstpt val3        # Specifically for extended-precision floats
 
 ### <u>Exchanging Stack Values</u>
 
-```s
+```gas
 fxch %st(n)        # Swap ST(0) & ST(n)
 ```
 
@@ -82,7 +82,7 @@ fxch %st(n)        # Swap ST(0) & ST(n)
 - For arithmetic operations, we can't directly involve float variables.
 - So we use the FP stack elements instead.
 
-```s
+```gas
 fadd %st(n), %st(0)
 faddp %st(n), %st(0)
 
@@ -100,7 +100,7 @@ faddl val2        # ST(0) += val2 [For double-precision.]
 - But subtraction additionally supports reverse opcodes with `r` as/with suffix.
 - Reverse opcodes swap the right side of equation.
 
-```s
+```gas
 fsub                         # ST(1) = ST(1) - ST(0) & pop ST(0)
 fsubr                        # ST(1) = ST(0) - ST(1) & pop ST(0)
 fsubr %st(n), %st(0)         # ST(n) = ST(m) - ST(n)
@@ -123,7 +123,7 @@ fsubrl %st(n)
 
 #### Miscellaneous:
 
-```s
+```gas
 fsqrt        # Replaces ST(0) with its square root.
 fabs         # Replaces ST(0) with its absolute value.
 fchs         # Changes sign of ST(0).
@@ -132,7 +132,7 @@ fchs         # Changes sign of ST(0).
 
 ### <u>Comparison Opcodes</u>
 
-```s
+```gas
 fcom               # Compare ST(0) with ST(1)
 fcom %st(i)        # Compare ST(0) with ST(i)
 fcom val           # Can be single or double precision
@@ -154,7 +154,7 @@ fcomip %st(i), %st(0)
 
 #### Accessing FPU status word:
 
-```s
+```gas
 fstsw %ax        # Copy the whole FP flag word to AX.
 fnstsw           # Same as above but "non-waiting".
 ```
@@ -162,7 +162,7 @@ fnstsw           # Same as above but "non-waiting".
 
 ### <u>Miscellaneous</u>
 
-```s
+```gas
 fldpi          # Load PI to ST(0)
 fld1           # Load 1.0 to ST(0)
 fldz           # Load 0.0 to ST(0)
