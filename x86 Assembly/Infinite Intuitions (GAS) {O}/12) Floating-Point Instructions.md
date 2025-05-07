@@ -175,3 +175,160 @@ fldln2         # Load natual log of 2 to ST(0)
 
 
 ## **Topic - 3: Streaming SIMD Expressions (SSE)**
+
+### <u>Introduction</u>
+
+- **<u>SIMD</u>:** Single Instruction, Multiple Data
+- SSE allows performing simultaneous operations on multiple data elements.
+- This significantly contributes to high-performance of operations.
+
+
+### <u>SSE Registers</u>
+
+- SSE instructions use XMM registers.
+- XMM are **128-bit** long & are sixteen in total.
+- These are named `xmm0` to `xmm15` through.
+- So it can store multiple data types which are occupy equal or lesser space than **128-bit**.
+- Also we can store multiple data there to efficiently use their spaces.
+- By storing multiple data in XMM, we can simultaneously manipulate them.
+
+
+### <u>Data Movements</u>
+
+```gas
+movaps %xmm1, %xmm2        # Move aligned packed single-precision
+movups %xmm1, %xmm3        # Same as previous, but for unaligned
+
+movapd %xmm4, %xmm5        # For double-precision floats
+movupd %xmm4, %xmm6
+
+movdqa %xmm7, %xmm8        # For double quadword values
+movdqu %xmm7, %xmm9
+
+movss mem, %xmm0           # Memory to XMM (single-precision)
+movss %xmm1, mem
+
+movsd mem, %xmm0
+movsd %xmm1, mem
+```
+
+- These can be used only among XMM registers.
+- **"Aligned"** means that the memory block being accessed in a multiple of **16 byte**.
+
+
+### <u>Arithmetic Operations (Packed)</u>
+
+- These are applied on all the stored elements in desired XMM register.
+
+```gas
+addps %xmm1, %xmm0        # Add single-precision float
+subps %xmm1, %xmm0        # Prefix 'p' means 'packed'
+mulps %xmm1, %xmm0
+divps %xmm1, %xmm0
+```
+
+- Similarly we have opcodes for double-precision floats.
+- Opcodes - `addpd`, `subpd`, `multpd` & `divpd`.
+- Also there are opcodes for integer types.
+- Integer types - Bytes, word, ... & quadword.
+- Opcodes - `paddb`, `paddw`, `paddd` & `paddq`.
+
+
+### <u>Arithmetic Operations (Scalar)</u>
+
+- These are applied on the lowest element in the XMM register.
+
+```gas
+addss %xmm1, %xmm0        # Prefix 's' means 'scalar'
+subss %xmm1, %xmm0
+mulss %xmm1, %xmm0
+divss %xmm1, %xmm0
+```
+
+- Similar opcode names go for double-precision floats.
+- Opcodes - `addsd`, `subsd`, `mulsd` & `divsd`.
+
+
+### <u>Comparison Operations (Packed)</u>
+
+- These comparisons set all bits in destination register to 0s or 1s.
+- **<u>Predicate</u>:** A value telling the type of comparison to perform.
+
+| Predicament |           Meaning           |
+| :---------: | :-------------------------: |
+|     `0`     |            Equal            |
+|     `1`     |          Less than          |
+|     `2`     |     Less than or equal      |
+|     `3`     | True if any operand in null |
+|     `4`     |          Not equal          |
+|     `5`     |        Not less than        |
+|     `6`     |   Not less than or equal    |
+|     `7`     | True if non operand is null |
+
+```gas
+# XMM0 set as per predicate in 'my_byte'
+cmpps $my_byte, %xmm1, %xmm0
+```
+
+- Similarly we use `cmppd` for double-precision floats.
+- For integers - `pcmpeqb`, `pcmpeqw`, `pcmpeqd`, `pcmpgtb`, `pcmpgtw` & `pcmpgtd`.
+
+
+### <u>Comparison Operations (Scalar)</u>
+
+```gas
+comiss %xmm1, %xmm0        # Compare single-precision & set EFLAGS
+ucomiss %xmm1, %xmm0       # Unordered compare
+```
+
+- Similarly we have `comisd` & `ucomisd` for double-precision floats.
+
+
+### <u>Logical Operations</u>
+
+```gas
+pand %xmm1, %xmm0        # Packed bitwise AND
+por %xmm1, %xmm0
+pxor %xmm1, %xmm0
+pandn %xmm1, %xmm0
+```
+
+
+### <u>Shuffle Operations</u>
+
+```gas
+# Selective elements from XMM1 are transferred to XMM0, as per 'my_byte'
+shufps $my_byte, %xmm1, %xmm0        # For single-precision
+```
+
+- Similarly we have `shufpd` for double-precision floats.
+
+
+### <u>Unpack Operations</u>
+
+- `unpcklps` is for placing lower order elements together.
+- While `unpckhps` is for higher-order.
+
+```gas
+# %xmm0 = [a1, a2, a3, a4], %xmm1 = [b1, b2, b3, b4]
+unpcklps %xmm1, %xmm0  # %xmm0 becomes [a1, b1, a2, b2]
+
+# %xmm0 = [a1, a2, a3, a4], %xmm1 = [b1, b2, b3, b4]
+unpckhps %xmm1, %xmm0  # %xmm0 becomes [a3, b3, a4, b4]
+```
+
+
+### <u>Conversions</u>
+
+```gas
+cvtps2pd %xmm1, %xmm0        # Single to double-precision
+cvtpd2ps %xmm1, %xmm0        # Double to single-precision
+
+cvtsi2ss mem, %xmm0          # Scalar integer to single-precision
+cvttss2si %xmm1, reg
+cvtsi2sd mem, %xmm0         # Scalar integer to double-precision
+cvttsd2si %xmm1, reg
+```
+
+- `t` in `cvttss2si` & `cvttsd2si` stands for **truncate**.
+- This is because larger size is being converted to smaller.
