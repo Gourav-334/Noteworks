@@ -332,3 +332,119 @@ cvttsd2si %xmm1, reg
 
 - `t` in `cvttss2si` & `cvttsd2si` stands for **truncate**.
 - This is because larger size is being converted to smaller.
+
+
+
+## **Topic - 4: Advanced Vector Extensions (AVX)**
+
+### <u>Introduction</u>
+
+- AVX provides registers double the size of SSE.
+- Meaning **256-bits** long.
+- Registers are named as `%ymm0` to `%ymm15` through.
+
+
+### <u>VEX Encoding</u>
+
+- **<u>VEX</u>:** Vector Extension
+- VEX used in AVX instructions often take three-operand instruction, for reducing need for extra MOV usage.
+
+```gas
+# opcode [operand1], [operand2], [operand3]
+```
+
+- In **128-bit** operations, upper **128-bits** are zeroed.
+
+
+### <u>Data Movements</u>
+
+```gas
+vmovaps %ymm1, %ymm2
+vmovups %ymm1, %ymm3
+
+vmovss        # Similar to SSE, upper half is zeroed
+vmovsd
+```
+
+- For double-precision - `vmovapd` & `vmovupd`
+- For double-quadword - `vmovdqa` & `vmovdqu`
+
+
+### <u>Arithmetic Operations (Packed)</u>
+
+```gas
+vaddps %ymm1, %ymm2, %ymm0
+vsubps %ymm1, %ymm2, %ymm0
+vmulps %ymm1, %ymm2, %ymm0
+vdivps %ymm1, %ymm2, %ymm0
+```
+
+- For double-precision - `vaddpd`, `vsubpd`, `vmulpd` & `vdivpd`.
+
+
+### <u>Arithmetic Operations (Scalar)</u>
+
+```gas
+vaddss %ymm1, %ymm2, %ymm0
+vsubss %ymm1, %ymm2, %ymm0
+vmulss %ymm1, %ymm2, %ymm0
+vdivss %ymm1, %ymm2, %ymm0
+```
+
+- For double-precision - `vaddsd`, `vsubsd`, `vmulsd` & `vdivsd`.
+
+
+### <u>Comparison Operations (Packed)</u>
+
+```gas
+vcmpps $my_byte, %ymm1, %ymm2, %ymm0        # Single-precision
+vcmppd $my_byte, %ymm1, %ymm2, %ymm0        # Double-precision
+
+vpcmpeqb $my_byte, %ymm1, %ymm2, %ymm0
+vpcmpgtb $my_byte, %ymm1, %ymm2, %ymm0
+```
+
+
+### <u>Logical Operations</u>
+
+```gas
+vpand %ymm1, %ymm2, %ymm0
+vpor %ymm1, %ymm2, %ymm0
+vpxor %ymm1, %ymm2, %ymm0
+vpandn %ymm1, %ymm2, %ymm0
+```
+
+
+### <u>Shuffle Operations</u>
+
+```gas
+vshufps $my_byte, %ymm1, %ymm2, %ymm0        # Single-precision
+vshufpd $my_byte, %ymm1, %ymm2, %ymm0        # Double-precision
+```
+
+
+### <u>Unpacking Operations</u>
+
+```gas
+vunpcklps %ymm1, %ymm2, %ymm0        # Single-precision
+vunpcklpd %ymm1, %ymm2, %ymm0        # Double-precision
+
+vunpckhps %ymm1, %ymm2, %ymm0        # Now with high-order bits
+vunpckhpd %ymm1, %ymm2, %ymm0
+```
+
+
+### <u>Conversions</u>
+
+```gas
+vcvtps2pd %xmm1, %ymm0
+vcvtpd2ps %ymm1, %xmm0
+
+vcvtsi2ss mem, %xmm0         # For XMM only (mem or reg)
+vcvtsi2sd mem, %xmm0         # For XMM only (mem or reg)
+
+vcvttss2si %xmm1, reg        # For XMM only (mem or reg)
+vcvttsd2si %xmm1, reg        # For XMM only (mem or reg)
+```
+
+---
