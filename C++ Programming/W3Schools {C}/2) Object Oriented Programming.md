@@ -231,7 +231,7 @@ style="width:6.26806in;height:1.47708in" />
 - We use **\<cstdlib\>** to include C’s standard library into C++.
 
 <img src="./media/image34.png"
-style="width:6.26806in;height:0.40205in" />
+style="width:6.26806in;height:1.00205in" />
 
 **<u>Passing Array Argument</u>**
 
