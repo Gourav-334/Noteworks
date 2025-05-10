@@ -179,12 +179,12 @@
 | 8.3  |     Context free grammar      |   C    |
 | 8.4  |            Parsing            |   C    |
 | 8.5  |  Syntax Directed Translation  |   C    |
-| 8.6  |       Code Case Studies       |        |
+| 8.6  |       Code Case Studies       |   C    |
 | 8.7  |         Symbol tables         |   C    |
 | 8.8  |            Storage            |   C    |
 | 8.9  |        Error detection        |   C    |
 | 8.10 |        Code generation        |   C    |
-| 8.11 |       Code optimization       |        |
+| 8.11 |       Code optimization       |   C    |
 
 
 
@@ -196,9 +196,9 @@
 | Sno. |        Topic/Chapter        | Status |
 | :--: | :-------------------------: | :----: |
 | 9.1  |     Family of x86 chips     |   C    |
-| 9.2  | Assembly syntax comparisons |        |
+| 9.2  | Assembly syntax comparisons |   C    |
 | 9.3  |       Inline assembly       |        |
-| 9.4  |         Bootloading         |        |
+| 9.4  |         Bootloading         |   C    |
 | 9.5  |    x86 CPU architecture     |   C    |
 
   
@@ -287,11 +287,11 @@
 
   
 
-$$ Subjects\;comepleted\;=\;\frac{9}{13}\;=\;69\% $$
+$$ Subjects\;comepleted\;=\;\frac{10}{13}\;=\;69\% $$
 
 $$ Subjects\;incomeplete\;=\;\frac{0}{13}\;=\;0\% $$
 
-$$ Subjects\;ongoing\;=\;\frac{2}{13}\;=\;15\% $$
+$$ Subjects\;ongoing\;=\;\frac{1}{13}\;=\;15\% $$
 
 $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
@@ -302,6 +302,8 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{74}{98}\;=\;75\% $$
+$$ Topics\;comepleted\;=\;\frac{78}{98}\;=\;79\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{24}{98}\;=\;25\% $$
+$$ Topics\;incomeplete\;=\;\frac{20}{98}\;=\;21\% $$
+
+---
