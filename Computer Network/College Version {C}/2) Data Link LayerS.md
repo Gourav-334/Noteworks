@@ -607,3 +607,5 @@ style="width:5.89142in;height:3.04035in" />
 
 - Thus, **CSMA/CA** in wireless network **avoids collision**, rather
   than detecting it.
+
+---

@@ -197,7 +197,7 @@
 | :--: | :-------------------------: | :----: |
 | 9.1  |     Family of x86 chips     |   C    |
 | 9.2  | Assembly syntax comparisons |   C    |
-| 9.3  |       Inline assembly       |        |
+| 9.3  |       Inline assembly       |   C    |
 | 9.4  |         Bootloading         |   C    |
 | 9.5  |    x86 CPU architecture     |   C    |
 
@@ -287,13 +287,13 @@
 
   
 
-$$ Subjects\;comepleted\;=\;\frac{10}{13}\;=\;69\% $$
+$$ Subjects\;comepleted\;=\;\frac{11}{13}\;=\;84\% $$
 
 $$ Subjects\;incomeplete\;=\;\frac{0}{13}\;=\;0\% $$
 
-$$ Subjects\;ongoing\;=\;\frac{1}{13}\;=\;15\% $$
+$$ Subjects\;ongoing\;=\;\frac{1}{13}\;=\;8\% $$
 
-$$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
+$$ Subjects\;coming\;=\;\frac{1}{13}\;=\;8\% $$
 
   
   
@@ -302,8 +302,8 @@ $$ Subjects\;coming\;=\;\frac{2}{13}\;=\;15\% $$
 
   
 
-$$ Topics\;comepleted\;=\;\frac{78}{98}\;=\;79\% $$
+$$ Topics\;comepleted\;=\;\frac{79}{98}\;=\;80\% $$
 
-$$ Topics\;incomeplete\;=\;\frac{20}{98}\;=\;21\% $$
+$$ Topics\;incomeplete\;=\;\frac{19}{98}\;=\;20\% $$
 
 ---
