@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "Competitive Programming"
             }
-          },
-          {
-            "id": "727917220e27d317",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,9 +163,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "727917220e27d317",
+  "active": "ec4d75cc2d9cba34",
   "lastOpenFiles": [
+    "Computer Network/College Version {C}/2) Data Link Layer.md",
+    "Computer Network/College Version {C}/2) Data Link LayerS.md",
     "C++ Programming/W3Schools {C}/Competitive Programming.md",
+    "Computer Network/College Version {C}/2) Data Link Layer.md",
     "Linux Development/Global Components Access.md",
     "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/15) Inline Assembly.md",
@@ -213,9 +205,6 @@
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image18.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/08) Registers Revision.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/04) x86-32 Processors.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/03) Inner Working Mechanism.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/02) Digital Arithmetic.md",
     "Android Development/JavaTPoint + College {O}/media/image18.png",
     "Android Development/JavaTPoint + College {O}/media/Screenshot 2025-04-23 102203.png",
     "Easter Eggs/Seasonal Awards/5C1B4600",

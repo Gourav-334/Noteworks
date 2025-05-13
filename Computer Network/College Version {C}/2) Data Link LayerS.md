@@ -1,4 +1,4 @@
-**DATA LINK LAYER & MEDIUM ACCESS SUB-LAYER**
+**DATA LINK LAYER**
 
 **<u>Error Detection & Correction</u>**
 
