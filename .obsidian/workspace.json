@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Executable & Linkable Formate/1).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1)"
+            }
+          },
+          {
+            "id": "efc6231782396c71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "C++ Programming/W3Schools {C}/Competitive Programming.md",
                 "mode": "source",
                 "source": false
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 210.5,
     "collapsed": true
   },
   "right": {
@@ -165,12 +179,17 @@
   },
   "active": "ec4d75cc2d9cba34",
   "lastOpenFiles": [
+    "Executable & Linkable Formate/Untitled.md",
+    "Executable & Linkable Formate/1).md",
+    "C++ Programming/W3Schools {C}/Competitive Programming.md",
+    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
+    "Executable & Linkable Formate/Untitle",
+    "Executable & Linkable Formate",
+    "UNIX System Calls/CPP Reference {C}/9) Executable & Linkable Format.md",
     "Computer Network/College Version {C}/2) Data Link Layer.md",
     "Computer Network/College Version {C}/2) Data Link LayerS.md",
-    "C++ Programming/W3Schools {C}/Competitive Programming.md",
     "Computer Network/College Version {C}/2) Data Link Layer.md",
     "Linux Development/Global Components Access.md",
-    "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/15) Inline Assembly.md",
     "C++ Programming/W3Schools {C}/2) Object Oriented Programming.md",
     "Easter Eggs/Project Reports/Tosbit Manual.md",
@@ -191,26 +210,21 @@
     "Easter Eggs/Project Reports/Syntax Scissors.md",
     "Rust Programming/01) Hello World.md",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/06) Hardware Components.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {O}/05) x86-64 Processors.md",
     "Rust Programming/media",
     "Rust Programming",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image20.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image20.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/09) Linux System Calls.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image1.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image18.png",
     "x86 Assembly/Infinite Intuitions (GAS) {O}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image19.png",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image18.png",
-    "x86 Assembly/Tutorials Point (NASM) {C}/08) Registers Revision.md",
     "x86 Assembly/Tutorials Point (NASM) {C}/media/image2.png",
     "Android Development/JavaTPoint + College {O}/media/image18.png",
     "Android Development/JavaTPoint + College {O}/media/Screenshot 2025-04-23 102203.png",
     "Easter Eggs/Seasonal Awards/5C1B4600",
     "Easter Eggs/Seasonal Awards/54EA4600",
-    "Easter Eggs/Seasonal Awards/F4BA4600",
-    "Easter Eggs/Seasonal Awards/9F3A4600",
     "Untitled.canvas"
   ]
 }

@@ -31,8 +31,8 @@
 |  5   |        Bash Scripting        | **C**  | Automation                  |
 |  6   |       Computer Network       | **C**  | TCP/IP stack                |
 |  7   |     Software Engineering     | **C**  | Project management          |
-|  8   |       Compiler Design        | **O**  | Command-line projects       |
-|  9   |         x86 Assembly         | **O**  | Optimization & hardware     |
+|  8   |       Compiler Design        | **C**  | Command-line projects       |
+|  9   |         x86 Assembly         | **C**  | Optimization & hardware     |
 |  10  |       Tools/Platforms        | **C**  | Smoother development        |
 |  11  |      UNIX System Calls       | **C**  | Kernel system calls         |
 |  12  |        Device Drivers        | **S**  | Hardware device interaction |
