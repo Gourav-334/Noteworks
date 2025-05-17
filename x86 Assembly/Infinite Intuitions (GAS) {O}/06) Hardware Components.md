@@ -1,4 +1,4 @@
-## $\fbox{Chapter 6: x86 HARDWARE COMPONENTS}$
+# $\fbox{Chapter 6: x86 HARDWARE COMPONENTS}$
 
 
 
