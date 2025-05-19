@@ -4,21 +4,23 @@
 
 
 
-### <u>Error Detection & Correction</u>
+## **Topic - 1: Error Detection & Correction**
 
-#### Data link layer:
+### <u>Data Link Layer</u>
 
 - Each frame must be distinguishable from each other.
 - Data is between header & trailer.
 - **<u>Header</u>:** A code which helps in transmitting data to next node.
 - **<u>Trailer</u>:** A code used for error detection & correction.
 
-#### Protocols at data link layer:
+
+### <u>Protocols At Data Link Layer</u>
 
 - Byte oriented protocol
 - Bit oriented protocol
 
-#### Sample frame of data link layer:
+
+### <u>Sample Frame Of Data Link Layer</u>
 
 <img src="./media/image8.png"
 style="width:5.11096in;height:0.94465in" />
@@ -26,6 +28,9 @@ style="width:5.11096in;height:0.94465in" />
 - **<u>Flag</u>:** A fixed pattern used for indicating starting & ending of a flag.
 - Header contains MAC address of source & destination + control flow info.
 
+
+
+## **Topic - 2: Byte & Bit Oriented Protocols**
 
 ### <u>Byte Oriented Protocol</u>
 
@@ -41,6 +46,9 @@ style="width:5.11096in;height:0.94465in" />
 - When code $0111\;1110$ appears, it is mistaken as a flag.
 - So after each 5th $1$, a $0$ is stuffed which is removed at receiver’s end.
 
+
+
+## **Topic - 3: Error Handling**
 
 ### <u>Types of Errors</u>
 
@@ -277,96 +285,178 @@ style="width:5.10747in;height:2.02465in" />
 
 ### <u>Noisy: Stop and Wait ARQ</u>
 
-
-
-- Error correction is done by keeping a copy of the frame, which is
-  sent when the acknowledgement time expires.
-
+- Error correction is done by keeping a copy of the frame, which is sent when the acknowledgement time expires.
 - These frames being sent are given serial numbers.
-
-- Acknowledgement is given frame by frame & next frame is sent only
-  after the acknowledgment of previous frame.
-
-- Frame is resent even when the acknowledgment fails to reach
-  the sender.
-
+- Acknowledgement is given frame by frame & next frame is sent only after the acknowledgment of previous frame.
+- Frame is resent even when the acknowledgment fails to reach the sender.
 - After getting the acknowledgement, the copy of frame is deleted.
-
-- Bandwidth of channel in “Stop and Wait ARQ” is around 1 Mbps.
-
-- 1 bit of data takes around 20 milliseconds to be sent.
-
+- Bandwidth of channel in ***Stop and Wait ARQ*** is around $1$ Mbps.
+- $1$ bit of data takes around $20$ milliseconds to be sent.
 
 
 ### <u>Noisy: Sliding Window Protocols (ARQ)</u>
 
-
-
-- Same as stop and wait but sender can send multiple frames at a
-  time.
-
+- Same as stop and wait but sender can send multiple frames at a time.
 - Also known as windowing.
-
 - This protocol is also used in TCP.
-
 - These messages however passed through buffers.
+- Sender has a buffer called sending window & receiver has a buffer called receiving window.
+- **<u>Modulo-N</u>:** All preceding whole numbers to a given number $N$.
+- **<u>Window size</u>:** The number of frames a sending or receiving window can store.
+- These frames stored in buffers are given sequence numbers as per $modulo-N$ in binaries, $N$ is the number of frames.
+- Or simply saying, they are given sequence numbers just like indexes in programming.
+- For example, refer to representation below.
 
-- Sender has a buffer called sending window & receiver has a
-  buffer called receiving window.
-
-- **<u>Modulo-N</u>:** All preceding whole numbers to a given number
-  N.
-
-- **<u>Window size</u>:** The number of frames a sending or
-  receiving window can store.
-
-- These frames stored in buffers are given sequence numbers as per
-  modulo-N in binaries, N is the number of frames.
-
-- Or simply saying, they are given sequence numbers just like
-  indexes in programming.
-
-For example:
-
-<img src="./media/image14.png"
+<img src="./media/image21.png"
 style="width:2.60903in;height:1.35859in" />
 
 #### Types:
 
-<img src="./media/image15.png"
+<img src="./media/image22.png"
 style="width:3.99505in;height:1.30262in" />
-
 
 
 ### <u>Sliding Window Protocol: Go Back N (ARQ)</u>
 
-
-
-- In Go Back N protocol; if even a single frame is corrupted
-  or lost, then all frames are resent.
-
-- The sending frame in it is N, whereas receiving frame is
-  1.
-
+- In **Go Back N** protocol; if even a single frame is corrupted or lost, then all frames are resent.
+- The sending frame in it is N, whereas receiving frame is $1$.
 - It also works on the time expiration principle.
-
 
 
 ### <u>Sliding Window Protocol: Selective Repeat (ARQ)</u>
 
-
-
 - In this, the size of sender and receiver window are same.
-
-- **<u>Sliding window size</u>:** Number of frames that could be sent
-  at a time.
-
-- If a corrupt frame is received, then frames are not
-  discarded immediately.
-
+- **<u>Sliding window size</u>:** Number of frames that could be sent at a time.
+- If a corrupt frame is received, then frames are not discarded immediately.
 - Rather a negative acknowledgement is sent when a frame mismatches.
+- And then that particular frame is resent immediately, without waiting for the expiration time.
 
-- And then that particular frame is resent immediately, without
-  waiting for the expiration time.
+
+### <u>Piggybacking</u>
+
+- A technique in which data can flow bidirectionally.
+- Unlike previous techniques with a dedicated sender & receiver.
+- Acknowledgement (ACK) & negative acknowledgement (NAK) are transmitted along.
+- Separate frames containing ACK or NAK are sent.
+- These frames are of few bits & called acknowledgement field.
+- **<u>Station</u>:** Points which can receive and send data.
+
+#### Working principles:
+
+- If a station has to send both data and acknowledgement, then the acknowledgement is sent along the data.
+- This acknowledgement contains the serial number of the frame with it.
+- If there is only an acknowledgement to be sent, then it waits for some time to see if any data frame is about to be sent.
+- If yes, then it piggybacks (packs/stuffs) the acknowledgement with it.
+- Else it sends a separate acknowledgement frame.
+- If its only data frame to be sent, then this data frame is piggybacked with last acknowledgement; which is discarded by the receiving station.
+- Or alternatively, it is piggybacked with an acknowledgement saying no acknowledgement.
+
+
+
+## **Topic - 4: Data Transmission Control**
+
+### <u>Multiple Access Protocols (MAP)</u>
+
+- Data link layer is responsible for ensuring data transmission between two nodes.
+
+#### Main functions of MAP:
+
+- Data link control
+- Multiple access control
+
+
+### <u>Data Link Control</u>
+
+- Ensures reliable transmission of data.
+- Uses techniques like framing, error control & flow control.
+
+
+### <u>Multiple Access Control</u>
+
+- **<u>Link</u>:** Channel
+- If there is a dedicated link between two nodes, then data link layer is enough.
+- Otherwise a link is concurrently used by multiple nodes.
+- Multiple access control is required to avoid signal collision in a common link.
+- And it also avoids mismatched data delivery.
+
+<img src="./media/image23.png"
+style="width:5.70669in;height:2.07694in" />
+
+#### Types of network links:
+
+- **<u>Point-to-point link</u>:** A sender at one end & a receiver at another end.
+- **<u>Broadcast link</u>:** Multiple senders and receivers are linked to common broadcast channel.
+- Word broadcast because the frame transmitted by any sender is received by all receivers, as a copy.
+
+
+### <u>Random Access Protocols (RAP)</u>
+
+- In this protocol, there is no priority based arrangement of nodes for sending data.
+- All nodes are given equal priority.
+- However, data transmission depends on whether a medium is busy or idle.
+- There is no fixed time for sending data.
+- There is also no fixed sequence of stations for sending data.
+
+#### Examples of RAP:
+
+- Pure ALOHA
+- Slotted ALOHA
+- CSMA, CSMA/CD, CSMA/CA
+
+
+### <u>Pure ALOHA Protocol</u>
+
+- Throughput on pure ALOHA is maximized when frame length are similar.
+
+$$ Throughput\;=\;S\;=\;G*(e-2G) $$
+
+- Throughput is maximum at $G$ is $\frac{1}{2}$.
+
+<img src="./media/image24.png"
+style="width:5.82644in;height:2.63177in" />
+
+- Pure ALOHA allows senders to send data whenever they have them.
+- If a collision happens, the sender resends data after sometime (random time).
+- **<u>Contention system</u>:** Systems with common channel & thus vulnerable to conflicts
+- Concurrent attempt to access the medium can lead to distorted signals.
+- Overlapping bits of two separate frames have capability to destroy each other.
+
+
+### <u>Slotted Aloha Protocol</u>
+
+- Created to overcome pure Aloha’s shortcomings.
+- Time is divided into slots.
+- Different slots are given to different stations.
+- When their number comes, they send a frame during their respective slots.
+- If any station misses the transmission, then it has to wait for next round of its slot.
+
+<img src="./media/image25.png"
+style="width:5.89142in;height:3.04035in" />
+
+- As we can see, complete overlap of bits won’t cause collision.
+
+$$ Throughput\;=\;S\;=\;G*(e-G) $$
+
+- Throughput is maximum at $G$ is $1$.
+
+
+### <u>CSMA/CD</u>
+
+- **<u>CSMA/CS</u>:** CSMA with collision detection.
+- When a shared channel is idle, two stations may begin transmitting data simultaneously.
+- When this happens, these two stations will detect collision immediately.
+- And when collision is detected by CSMA/CD protocol, a jamming signal is sent to abort transmission.
+- Aborting transmission at such situation saves both time and bandwidth.
+- **<u>Bandwidth</u>:** Transmission energy.
+
+
+### <u>CSMA/CA</u>
+
+- In this variant of CSMA, a station receives signal sent to it despite collision detection.
+- When there is no collision, a station receives the signal sent to it.
+- But when there is a collision, the station receives signals from both the senders.
+- In wired networks, the detection is easy because a lot of energy is emitted in it.
+- However, the detection becomes difficult in wireless network.
+- Thus, CSMA/CA in wireless network avoids collision, rather than detecting it.
 
 ---
