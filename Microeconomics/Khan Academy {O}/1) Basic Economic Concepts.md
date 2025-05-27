@@ -1,4 +1,4 @@
-# <u>Chapter 1</u>: BASIC ECONOMIC CONCEPTS
+# $\fbox{Chapter 1: BASIC ECONOMIC CONCEPTS}$
 
 
 
@@ -8,12 +8,9 @@
 
 ### <u>Scarcity</u>
 
-- **<u>Scarce resources</u>:** Resources which aren’t abundant &
-  might be gotten in exchange of something.
-- **<u>Free resources</u>:** Resources which are abundant, might
-  not be free & can be gotten without any competition.
-- **<u>Rival goods</u>:** Resources which when consumed by someone,
-  affects how much others get of it.
+- **<u>Scarce resources</u>:** Resources which aren’t abundant & might be gotten in exchange of something.
+- **<u>Free resources</u>:** Resources which are abundant, might not be free & can be gotten without any competition.
+- **<u>Rival goods</u>:** Resources which when consumed by someone, affects how much others get of it.
 
 
 ### <u>Factors Of Production</u>
@@ -23,39 +20,33 @@
 - **<u>Capital</u>:** Something used in production.
 - **<u>Entrepreneurship</u>:** Putting all the other factors together.
 
-> **<u>NOTE</u>!**
-> - Financial capital is a different thing.
-> - Entrepreneurship is also known as technology.
+> **<u>NOTE</u>:**
+> 1. Financial capital is a different thing.
+> 2. Entrepreneurship is also known as technology.
 
 
 ### <u>Types Of Production</u>
 
-- **<u>Capital goods</u>:** Producing goods which can be used in
-  producing something else.
+- **<u>Capital goods</u>:** Producing goods which can be used in producing something else.
 - **Consumption goods**
 
 
 ### <u>Normative & Positive Statement</u>
 
-- **<u>Normative statement</u>:** Statements which can be termed as
-  ethical statements & are thus subjective.
-- **<u>Positive statement</u>:** Statements which can be tested &
-  might have results.
+- **<u>Normative statement</u>:** Statements which can be termed as ethical statements & are thus subjective.
+- **<u>Positive statement</u>:** Statements which can be tested & might have results.
 
 
 ### <u>Other Key Terms</u>
 
-- **<u>Occam’s razor</u>:** Making minimum assumptions when
-  performing analysis.
-- **<u>Ceteris paribus</u>:** Means "all else equal". It is the idea
-  of considering changes which are clearly seen & not other factors.
-- For example, how someone reacts to a price mustn’t be assuming
-  anything about their income, preference etc.
+- **<u>Occam’s razor</u>:** Making minimum assumptions when performing analysis.
+- **<u>Ceteris paribus</u>:** Means "all else equal". It is the idea of considering changes which are clearly seen & not other factors.
+- For example, how someone reacts to a price mustn’t be assuming anything about their income, preference etc.
 - **<u>Model</u>:** Simplification of a system or a process.
 
-> **<u>NOTE</u>!**
-> - Normative information are indeed considered when studying
-economics.
+> **<u>NOTE</u>:**
+> Normative information are indeed considered when studying economics.
+
 
 
 ## **Topic – 2: Economic Systems**
@@ -76,18 +67,14 @@ economics.
 
 ### <u>Key Terms</u>
 
-- **<u>Resource/factor market</u>:** Market where sellers supply
-  land, labour, capital etc to firm.
-- **<u>Product market</u>:** Market where firms supply the final
-  product or services to buyers.
+- **<u>Resource/factor market</u>:** Market where sellers supply land, labor, capital etc to firm.
+- **<u>Product market</u>:** Market where firms supply the final product or services to buyers.
 - **<u>Wage</u>:** What firms get paid for their labour.
 - **<u>Rent</u>:** What firms get paid for their land.
 - **<u>Interest</u>:** What firms get paid for their capital.
 - **<u>Profit</u>:** What entrepreneurs get paid.
-- **<u>Market economy</u>:** Economic resources are privately owned
-  by individuals.
-- **<u>Command economy</u>:** Economic decisions are taken by the
-  government.
+- **<u>Market economy</u>:** Economic resources are privately owned by individuals.
+- **<u>Command economy</u>:** Economic decisions are taken by the government.
 
 
 ### <u>Circular Flow Model</u>
@@ -111,7 +98,7 @@ economics.
 
 - PPF is a graph showing combination of two goods in varying quantity, which can be produced with available resources.
 - It heavily depends on concepts of scarcity, choice & tradeoffs.
-- **<u>Productively efficient output</u>s:** Points lying on the curve of graph.
+- **<u>Productively efficient outputs</u>:** Points lying on the curve of graph.
 - Slope of PPF shows the opportunity cost for producing one good over other.
 - **<u>Opportunity cost</u>:** Cost for gaining a good, which is often losing some from the other good.
 
