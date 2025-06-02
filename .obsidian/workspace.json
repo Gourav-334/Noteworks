@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "32563ed518d9c54b",
+        "id": "813f979381539041",
         "type": "tabs",
         "children": [
           {
-            "id": "e3c3af9a59bcbe9d",
+            "id": "5b9672a00c02b5a6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Development/Bash.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -95,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Operating System/College Version {C}/3) Inter-Process Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 3) Inter-Process Communication"
             }
           },
           {
@@ -163,8 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3c3af9a59bcbe9d",
+  "active": "5b9672a00c02b5a6",
   "lastOpenFiles": [
+    "Operating System/College Version {C}/2) CPU Scheduling.md",
+    "Operating System/College Version {C}/6) Virtual Memory.md",
+    "Operating System/College Version {C}/6) Virtual MemoryS.md",
+    "Operating System/College Version {C}/7) Input-Output SystemsS.md",
+    "Operating System/College Version {C}/4) Deadlocks.md",
+    "Operating System/College Version {C}/3) Inter-Process Communication.md",
+    "Operating System/College Version {C}/1) Introduction.md",
+    "Operating System/College Version {C}/5) Memory Management.md",
+    "Operating System/College Version {C}/5) Memory ManagementS.md",
+    "Operating System/College Version {C}/4) DeadlocksS.md",
     "Linux Development/Bash.md",
     "Database Management System/College Version {C}/10) Basics of Transaction Processing.md",
     "Linux Development/BashS.md",
@@ -201,16 +207,6 @@
     "Database Management System/College Version {C}/3) Data Models.docx",
     "Database Management System/College Version {C}/2) Structured Query Language.docx",
     "Database Management System/College Version {C}/1) Database System Architecture.docx",
-    "Data Structures/College Version {C}/7) Hashing.md",
-    "Data Structures/College Version {C}/7) HasingS.md",
-    "Data Structures/College Version {C}/6) Graph.md",
-    "Data Structures/College Version {C}/6) GraphsS.md",
-    "Data Structures/College Version {C}/5) Trees.md",
-    "Data Structures/College Version {C}/5) TreesS.md",
-    "Data Structures/College Version {C}/4) Linked List.md",
-    "Data Structures/College Version {C}/3) Abstract Data Type.md",
-    "Data Structures/College Version {C}/2) Asymptotic Notations.md",
-    "Data Structures/College Version {C}/3) Abstract Data TypeS.md",
     "Untitled.canvas"
   ]
 }
