@@ -1,4 +1,4 @@
-# $\fbox{Chapter 3: INTER-PROCESS COMMUNICATION}$
+# $\fbox{Chapter 3: INTER-PROCESS WORKS}$
 
 
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "813f979381539041",
+        "id": "fc3af026b369d81e",
         "type": "tabs",
         "children": [
           {
-            "id": "5b9672a00c02b5a6",
+            "id": "298ab717ece6a04e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 200
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -159,14 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b9672a00c02b5a6",
+  "active": "298ab717ece6a04e",
   "lastOpenFiles": [
-    "Operating System/College Version {C}/2) CPU Scheduling.md",
-    "Operating System/College Version {C}/6) Virtual Memory.md",
-    "Operating System/College Version {C}/6) Virtual MemoryS.md",
+    "Operating System/College Version {C}/8) Disk Management.md",
+    "Operating System/College Version {C}/3) Inter-Process Works.md",
+    "Operating System/College Version {C}/8) Files & Disk ManagementS.md",
+    "Operating System/College Version {C}/7) IO System.md",
     "Operating System/College Version {C}/7) Input-Output SystemsS.md",
+    "Operating System/College Version {C}/6) Virtual Memory.md",
+    "Operating System/College Version {C}/2) CPU Scheduling.md",
+    "Operating System/College Version {C}/6) Virtual MemoryS.md",
     "Operating System/College Version {C}/4) Deadlocks.md",
-    "Operating System/College Version {C}/3) Inter-Process Communication.md",
     "Operating System/College Version {C}/1) Introduction.md",
     "Operating System/College Version {C}/5) Memory Management.md",
     "Operating System/College Version {C}/5) Memory ManagementS.md",
@@ -184,9 +187,6 @@
     "Quantitative Reasoning/College version {O}/02) Progressions.md",
     "Database Management System/College Version {C}/03) Data Models.md",
     "Database Management System/College Version {C}/03) Data ModelsS.md",
-    "Database Management System/College Version {C}/02) Structured Query Language.md",
-    "Microeconomics/Khan Academy {O}/1) Basic Economic Concepts.md",
-    "Database Management System/College Version {C}/01) Database System Architecture.md",
     "Database Management System/College Version {C}/media/image31.png",
     "Database Management System/College Version {C}/media/image9.png",
     "Database Management System/College Version {C}/media/image8.png",
