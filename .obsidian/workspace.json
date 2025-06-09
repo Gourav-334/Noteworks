@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc3af026b369d81e",
+        "id": "879994112c830686",
         "type": "tabs",
         "children": [
           {
-            "id": "298ab717ece6a04e",
+            "id": "8c1e2f14cf093388",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Executable & Linkable Format/1) Object Files.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1) Object Files"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "97745edfe0fa8011",
@@ -159,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "298ab717ece6a04e",
+  "active": "8c1e2f14cf093388",
   "lastOpenFiles": [
     "Operating System/College Version {C}/8) Disk Management.md",
     "Operating System/College Version {C}/3) Inter-Process Works.md",
