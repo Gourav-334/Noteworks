@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "879994112c830686",
+        "id": "a4a7ea73f6b09cdb",
         "type": "tabs",
         "children": [
           {
-            "id": "8c1e2f14cf093388",
+            "id": "d68dccf2f8f4579f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,8 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c1e2f14cf093388",
+  "active": "d68dccf2f8f4579f",
   "lastOpenFiles": [
+    "Executable & Linkable Format/1) Object Files.md",
+    "Methodologies/1) Logical Reasoning.md",
+    "Methodologies/media",
+    "Methodologies",
     "Operating System/College Version {C}/8) Disk Management.md",
     "Operating System/College Version {C}/3) Inter-Process Works.md",
     "Operating System/College Version {C}/8) Files & Disk ManagementS.md",
@@ -190,8 +194,6 @@
     "Database Management System/College Version {C}/04) Relational Data Models.md",
     "Database Management System/College Version {C}/05) Relational Database Design.md",
     "Quantitative Reasoning/College version {O}/02) Progressions.md",
-    "Database Management System/College Version {C}/03) Data Models.md",
-    "Database Management System/College Version {C}/03) Data ModelsS.md",
     "Database Management System/College Version {C}/media/image31.png",
     "Database Management System/College Version {C}/media/image9.png",
     "Database Management System/College Version {C}/media/image8.png",
@@ -210,8 +212,6 @@
     "Database Management System/College Version {C}/5) Relational Database Design.docx",
     "Database Management System/College Version {C}/4) Relational Data Models.docx",
     "Database Management System/College Version {C}/3) Data Models.docx",
-    "Database Management System/College Version {C}/2) Structured Query Language.docx",
-    "Database Management System/College Version {C}/1) Database System Architecture.docx",
     "Untitled.canvas"
   ]
 }
