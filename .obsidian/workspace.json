@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "1) Object Files"
             }
+          },
+          {
+            "id": "4173c43dd0db2034",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Methodologies/2) Quantitative Aptitude.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2) Quantitative Aptitude"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,10 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d68dccf2f8f4579f",
+  "active": "4173c43dd0db2034",
   "lastOpenFiles": [
-    "Executable & Linkable Format/1) Object Files.md",
     "Methodologies/1) Logical Reasoning.md",
+    "Methodologies/2) Quantitative Aptitude.md",
+    "Executable & Linkable Format/1) Object Files.md",
     "Methodologies/media",
     "Methodologies",
     "Operating System/College Version {C}/8) Disk Management.md",
@@ -193,7 +209,6 @@
     "Database Management System/College Version {C}/06) TransactionS.md",
     "Database Management System/College Version {C}/04) Relational Data Models.md",
     "Database Management System/College Version {C}/05) Relational Database Design.md",
-    "Quantitative Reasoning/College version {O}/02) Progressions.md",
     "Database Management System/College Version {C}/media/image31.png",
     "Database Management System/College Version {C}/media/image9.png",
     "Database Management System/College Version {C}/media/image8.png",
