@@ -33,4 +33,21 @@ $$ \text{2 (top)}\;\rightarrow\;\text{? (bottom)} $$
 
 9. Now as per the asked relation, join the source & destination symbols with an arrow pointing to destination symbols.
 
+
+
+## **Topic - 3: Venn Diagrams**
+
+1. Read first item & draw a circle.
+2. Mark it with an abbreviation.
+3. Now for all upcoming items, draw circles at suitable places & mark their abbreviations as well.
+
+
+
+## **Topic - 4: Jumbled Symbols**
+
+1. Make a two-layered circular roulette.
+2. Divide it into parts same as number of symbols.
+3. Write actual symbols on inner layer.
+4. Read the jumbled symbols one-by-one & write them in outer layer.
+
 ---
