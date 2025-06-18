@@ -50,4 +50,32 @@ $$ \text{2 (top)}\;\rightarrow\;\text{? (bottom)} $$
 3. Write actual symbols on inner layer.
 4. Read the jumbled symbols one-by-one & write them in outer layer.
 
+
+
+## **Topic - 5: Bench Problems**
+
+1. Draw a container for the given scenario - bar for linear bench & roulette for circular.
+2. For a parallel scenario being read, draw a new container with this scenario.
+3. For an existing scenario with joinable information, add it to all eligible containers.
+4. Write intel with arrows telling direction, double headed arrow meaning "any direction" with unit distance on top.
+
+$$ A\;\leftrightarrow\;B\;\;\;\text{[A is with B]} $$
+5. Distance with cut means "not together".
+6. With known relative distance from edges, make an underline with index below it.
+
+$$ \framebox[5cm]{\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;B\;\;\;A} $$
+$$ \framebox[5cm]{\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;3\;\;\;4} $$
+
+
+
+## **Topic - 6: Cryptography**
+
+1. There can be two types of cryptography - alphabetical or symbolic.
+2. For symbolic cryptography, it can be solved with one-to-one mapping with previous examples.
+3. Else for alphabetical cryptography, there are three types of cryptography - mapped, altered, indexed or mixed.
+4. **<u>Mapped cryptography</u>:** Codes that can be decrypted with mappings in past examples.
+5. **<u>Altered cryptography</u>:** Codes with altered alphabets as per position.
+6. **<u>Indexed cryptography</u>:** Codes with numeric outputs due to operations with indices of involved letters.
+7. While mixed approach combines two or more alphabetical cryptography styles.
+
 ---
