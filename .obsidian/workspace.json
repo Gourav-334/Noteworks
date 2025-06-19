@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a3484072ec07cc2e",
+        "id": "6cc85e41e206a15d",
         "type": "tabs",
         "children": [
           {
-            "id": "4826df703a5b0d81",
+            "id": "662fea4ce5a925b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -164,10 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4826df703a5b0d81",
+  "active": "662fea4ce5a925b5",
   "lastOpenFiles": [
-    "Operating System/College Version {C}/4) Deadlocks.md",
+    "Cyber Security/College Version {O}/1) Information Security.md",
+    "Big Data Analytics/College version {O}/1) Introduction To Big Data.md",
+    "Cyber Security/College Version {O}/media",
     "Executable & Linking Format/Linux Foundation {O}/1) Object Files.md",
+    "Big Data Analytics/College version {O}/media",
+    "Big Data Analytics/College version {O}",
+    "Big Data Analytics",
+    "Operating System/College Version {C}/4) Deadlocks.md",
     "Executable & Linking Format/Linux Foundation {O}/media/image1.png",
     "Executable & Linking Format/Linux Foundation {O}/media/Screenshot 2025-06-18 214646.png",
     "Methodologies/1) Logical Reasoning.md",
@@ -194,8 +200,6 @@
     "Database Management System/College Version {C}/08) Database Security.md",
     "Database Management System/College Version {C}/07) Query Processing & Optimization.md",
     "Database Management System/College Version {C}/06) Transaction.md",
-    "Database Management System/College Version {C}/06) TransactionS.md",
-    "Database Management System/College Version {C}/04) Relational Data Models.md",
     "Database Management System/College Version {C}/media/image31.png",
     "Database Management System/College Version {C}/media/image9.png",
     "Database Management System/College Version {C}/media/image8.png",
@@ -208,10 +212,6 @@
     "Database Management System/College Version {C}/9) Procedural Language SQL.docx",
     "Database Management System/College Version {C}/8) Database Security.docx",
     "Database Management System/College Version {C}/7) Query Processing & Optimization.docx",
-    "Database Management System/College Version {C}/6) Transaction.docx",
-    "Database Management System/College Version {C}/5) Relational Database Design.docx",
-    "Database Management System/College Version {C}/4) Relational Data Models.docx",
-    "Database Management System/College Version {C}/3) Data Models.docx",
     "Untitled.canvas"
   ]
 }

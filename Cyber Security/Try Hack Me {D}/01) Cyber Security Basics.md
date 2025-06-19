@@ -96,7 +96,7 @@ style="width:5in;height:4in" />
 3. Containment, eradication & recovery
 4. Post-incident activity
 
-![Incident Response Steps](./media/image2.png)
+![Incident Response Steps](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image2.png)
 
 
 ### <u>Malware Analysis</u>
@@ -122,7 +122,7 @@ style="width:5in;height:4in" />
 - SIEM gathers all security related information on a single dashboard.
 - If it finds any suspicious activity, an alert is generated.
 
-![Alert Types](./media/image3.png)
+![Alert Types](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image3.png)
 
 - There are some open-source database records used for reporting malicious IPs or check its reputation.
 - For example, AbuseIPDB & Cisco Talos Intelligence etc.
@@ -164,7 +164,7 @@ style="width:5in;height:4in" />
 - [Shodan](https://www.shodan.io/) is used for searching devices connected to the internet.
 - We can search for specific - types of servers, versions of servers, networking equipment, industrial control systems & IoT devices etc.
 
-![Shodan Example](./media/image4.png)
+![Shodan Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image4.png)
 
 - **Shodan trends** can be used for historic insights, but with a subscription.
 - Shodan has [query examples](https://www.shodan.io/search/examples) & [its trends](https://trends.shodan.io/) explained too.
@@ -174,7 +174,7 @@ style="width:5in;height:4in" />
 - While Shodan is more device-centric which are connected to the internet, [Censys](https://search.censys.io/) is more host-centric.
 - Meaning its used for searching for hosts, websites & other internet assets.
 
-![Censys Example](./media/image5.png)
+![Censys Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image5.png)
 
 - It is primarily used for auditing & finding suspicious assets over internet.
 
@@ -183,7 +183,7 @@ style="width:5in;height:4in" />
 - [VirusTotal](https://www.virustotal.com/gui/home/upload) is an antivirus website.
 - Provides service for scanning files & URLs using multiple anti-viruses.
 
-![VirusTotal Example](./media/image6.png)
+![VirusTotal Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image6.png)
 
 - But these results always might not be accurate for some reasons.
 - Often the community comments provide insight into that.
@@ -195,7 +195,7 @@ style="width:5in;height:4in" />
 - This is why keeping separate passwords across online platforms is important.
 - Passwords are stored encrypted, but attackers use various techniques to recover them.
 
-![HIBP Example](./media/image7.png)
+![HIBP Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image7.png)
 
 
 ### <u>Common Vulnerabilities & Exposures</u>
@@ -205,14 +205,14 @@ style="width:5in;height:4in" />
 - Each vulnerability is assigned a standardized CVE ID, starting with `CVE`.
 - Alternatively, one can also look for vulnerabilities at [National Vulnerability Database](https://nvd.nist.gov/).
 
-![CVE Example](./media/image8.png)
+![CVE Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image8.png)
 
 
 ### <u>Exploit Database</u>
 
 - We can search for various kind of exploits at [Exploit Database](https://www.exploit-db.com/).
 
-![Exploit DB Example](./media/image9.png)
+![Exploit DB Example](Cyber%20Security/Try%20Hack%20Me%20{D}/media/image9.png)
 
 - Then we can search for that vulnerability at CVE.
 - For testing such vulnerabilities, search their CVE ID on GitHub to get relevant tools.
