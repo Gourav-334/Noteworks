@@ -42,3 +42,36 @@
 - **<u>Comprehensiveness</u>:** Enough data about the subject must be present.
 - **Non-redundancy**
 - **<u>Appropriate structure</u>:** To cut unnecessary computation cost in retrieval.
+
+
+
+## **Topic - 2: Types Of IS**
+
+### <u>Introduction</u>
+
+#### Major systems:
+
+- **<u>Executive support system (ESS)</u>:** Used by executives for making strategic decisions.
+- **<u>Decision support system (DSS)</u>:** Used by senior managers for decision making.
+- **<u>Management information system (MIS)</u>:** Used by managers for achieving operational efficiency.
+- **<u>Transaction processing system (TPS)</u>:** Used by workers for basic reporting.
+
+#### Other systems:
+
+- **Enterprise resource planning systems (ERPS)**
+- **Expert systems (ESYS)**
+- **Online analytical processing (OLAP)**
+
+
+### <u>Transaction Processing System (TPS)</u>
+
+- Purpose of TPS is to keep record of transactions by the organization.
+- For example - Payroll system, billing system, purchasing system, shipping of record etc.
+- These transactions may be routine-based or occasional.
+
+
+### <u>Decision Support System (DSS)</u>
+
+- DSS is used for decision making by management team using data.
+- The data used can be either external or internal or both.
+- It is used when the data is in large amount & thus too complex to analyze without tools or models.

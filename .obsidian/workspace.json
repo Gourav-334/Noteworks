@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "e533acbc1f1f58cf",
+    "id": "2b4cd9fa242226e8",
     "type": "split",
     "children": [
       {
-        "id": "6cc85e41e206a15d",
+        "id": "5ec51c51a84d3451",
         "type": "tabs",
         "children": [
           {
-            "id": "662fea4ce5a925b5",
+            "id": "df4c2b9103cfdc9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Executable & Linking Format/Linux Foundation {O}/1) Object Files.md",
+                "file": "Linux Development/Ubuntu Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1) Object Files"
+              "title": "Ubuntu Shell"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e66def11ee3c20bc",
+    "id": "1d3a6bc5291f9ff1",
     "type": "split",
     "children": [
       {
-        "id": "218a6bc2e334460d",
+        "id": "081f537abed6e740",
         "type": "tabs",
         "children": [
           {
-            "id": "31f94f8894a5c089",
+            "id": "c81ecef9ba54ad2e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "42a153f87a10a295",
+            "id": "95430a695584560f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "0a7f8425feb1d11a",
+            "id": "c8aa3a33888d75eb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,24 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 213.5,
     "collapsed": true
   },
   "right": {
-    "id": "97745edfe0fa8011",
+    "id": "d1380046182a1bac",
     "type": "split",
     "children": [
       {
-        "id": "00e8b9ff09922b83",
+        "id": "4b902b559f5335d3",
         "type": "tabs",
         "children": [
           {
-            "id": "f0b4fa85252d8f9e",
+            "id": "ce8a44b87b2ea3ce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System/College Version {C}/3) Inter-Process Communication.md",
+                "file": "Big Data Analytics/College version {O}/1) Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,46 +105,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 3) Inter-Process Communication"
+              "title": "Backlinks for 1) Introduction"
             }
           },
           {
-            "id": "797b2f19ac7b9546",
+            "id": "a562b40a93f5d1cf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md",
+                "file": "Big Data Analytics/College version {O}/1) Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 3) Java Server Page"
+              "title": "Outgoing links from 1) Introduction"
             }
           },
           {
-            "id": "bce44de4d0c5b637",
+            "id": "3f7e6d65770d8d29",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "b6203f2fb25f0421",
+            "id": "d1e519fffacd4f7e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "4TH RING (LEGACY)/Enterprise Programming Java/3) Java Server Page.md"
+                "file": "Big Data Analytics/College version {O}/1) Introduction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3) Java Server Page"
+              "title": "Outline of 1) Introduction"
             }
           }
         ]
@@ -164,54 +169,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "662fea4ce5a925b5",
+  "active": "df4c2b9103cfdc9d",
   "lastOpenFiles": [
-    "Cyber Security/College Version {O}/1) Information Security.md",
-    "Big Data Analytics/College version {O}/1) Introduction To Big Data.md",
-    "Cyber Security/College Version {O}/media",
-    "Executable & Linking Format/Linux Foundation {O}/1) Object Files.md",
-    "Big Data Analytics/College version {O}/media",
-    "Big Data Analytics/College version {O}",
-    "Big Data Analytics",
-    "Operating System/College Version {C}/4) Deadlocks.md",
-    "Executable & Linking Format/Linux Foundation {O}/media/image1.png",
-    "Executable & Linking Format/Linux Foundation {O}/media/Screenshot 2025-06-18 214646.png",
-    "Methodologies/1) Logical Reasoning.md",
-    "Methodologies/2) Quantitative Aptitude.md",
-    "Executable & Linkable Format/1) Object Files.md",
-    "Methodologies/media",
-    "Methodologies",
-    "Operating System/College Version {C}/8) Disk Management.md",
-    "Operating System/College Version {C}/3) Inter-Process Works.md",
-    "Operating System/College Version {C}/8) Files & Disk ManagementS.md",
-    "Operating System/College Version {C}/7) IO System.md",
-    "Operating System/College Version {C}/7) Input-Output SystemsS.md",
-    "Operating System/College Version {C}/6) Virtual Memory.md",
-    "Operating System/College Version {C}/2) CPU Scheduling.md",
-    "Operating System/College Version {C}/6) Virtual MemoryS.md",
-    "Operating System/College Version {C}/1) Introduction.md",
-    "Operating System/College Version {C}/5) Memory Management.md",
-    "Operating System/College Version {C}/5) Memory ManagementS.md",
-    "Operating System/College Version {C}/4) DeadlocksS.md",
-    "Linux Development/Bash.md",
-    "Database Management System/College Version {C}/10) Basics of Transaction Processing.md",
-    "Linux Development/BashS.md",
-    "Database Management System/College Version {C}/09) Procedural Language SQL.md",
-    "Database Management System/College Version {C}/08) Database Security.md",
-    "Database Management System/College Version {C}/07) Query Processing & Optimization.md",
-    "Database Management System/College Version {C}/06) Transaction.md",
-    "Database Management System/College Version {C}/media/image31.png",
-    "Database Management System/College Version {C}/media/image9.png",
-    "Database Management System/College Version {C}/media/image8.png",
-    "Database Management System/College Version {C}/media/image7.png",
-    "Database Management System/College Version {C}/media/image30.png",
-    "Database Management System/College Version {C}/media/image3.png",
-    "Database Management System/College Version {C}/media/image6.png",
-    "Database Management System/College Version {C}/media/image5.png",
-    "Database Management System/College Version {C}/media",
-    "Database Management System/College Version {C}/9) Procedural Language SQL.docx",
-    "Database Management System/College Version {C}/8) Database Security.docx",
-    "Database Management System/College Version {C}/7) Query Processing & Optimization.docx",
-    "Untitled.canvas"
+    "Linux Development/Ubuntu Shell.md",
+    "Linux Development/GNU Debugger.md",
+    "Linux Development/Global Components Access.md",
+    "Linux Development/Git.md",
+    "Linux Development/CMake.md",
+    "Cyber Security/Try Hack Me {D}/02) Linux Fundamentals.md",
+    "Cyber Security/Try Hack Me {D}/01) Cyber Security Basics.md",
+    "Linux Development/Vim.md",
+    "Linux Development/Snap Packaging.md",
+    "Big Data Analytics/College version {O}/1) Introduction.md",
+    "Cyber Security/College Version {O}/1) Information Security.md"
   ]
 }

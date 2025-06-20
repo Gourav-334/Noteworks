@@ -31,7 +31,7 @@ style="width:5in;height:4in" />
 
 >**<u>NOTE</u>:**
 >1. Consistency is the key.
->2. Daily practice at TryHackMe.
+>2. Daily practice at ***TryHackMe***.
 
 
 ### <u>Careers In Cyber Security</u>

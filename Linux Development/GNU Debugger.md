@@ -1,4 +1,4 @@
-# $\fbox{GNU Debugger}$
+# $\fbox{GNU DEBUGGER}$
 
 
 
