@@ -4,7 +4,7 @@
 
 
 
-## **Topic - 1: Introduction To Big Data**
+## **Topic - 1: Introduction To Data**
 
 ### <u>Data</u>
 
@@ -22,7 +22,10 @@
 2. **<u>Continuous data</u>:** Measurable data
 
 
-### <u>Big Data</u>
+
+## **Topic - 2: Introduction To Big Data**
+
+### <u>Introduction</u>
 
 - **<u>Big data</u>:** Data which together occupy size in petabytes (PBs).
 
@@ -41,5 +44,12 @@
 - Media files on internet
 
 
+### <u>Big Data Characteristics</u>
 
-## **Topic - 2: Big Data Characteristics**
+1. **<u>Volume</u>:** In petabytes (PBs).
+2. **<u>Value</u>:** Using data as valuable insights for real-world application.
+3. **<u>Veracity</u>:** Unpredictability & inefficiencies in available data.
+4. **<u>Visualization</u>:** Representing data in any visual form.
+5. **<u>Variety</u>:** Composition of various forms of data at single place.
+6. **<u>Valocity</u>:** Rate of growth of data.
+7. **<u>Virality</u>:** Rate of spread of data.

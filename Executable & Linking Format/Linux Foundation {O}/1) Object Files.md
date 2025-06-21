@@ -248,3 +248,98 @@ typedef struct
 - Index `EI_PADS` is from where the unused bytes start.
 - They are set to `0` by default & are subject to change in future.
 - And they must be ignored by object file readers.
+
+
+### <u>Data Encoding</u>
+
+- In `ELFDATA2LSB`, least significant byte occupies lowest address.
+- Meaning bytes are written in reverse order.
+
+<img src="./media/image2.png" style="width:4in;height:2.5in" />
+
+- While `ELFDATA2MSB` arranges everything in order.
+
+
+
+## **Topic - 3: Sections**
+
+### <u>Introduction</u>
+
+- Section header table is an array of `Elf32_Shdr` structure.
+- It contains `e_shoff`, `e_shnum` & `e_shentsize`.
+
+
+### <u>Special Section Indexes</u>
+
+- Special section indexes are reserved for special usage.
+
+| Name            |  Value   |
+| :-------------- | :------: |
+| `SHN_UNDEF`     |   `0`    |
+| `SHN_LORESERVE` | `0xff00` |
+| `SHN_LOPROC`    | `0xff00` |
+| `SHN_HIPROC`    | `0xff1f` |
+| `SHN_ABS`       | `0xfff1` |
+| `SHN_COMMON`    | `0xfff2` |
+| `SHN_HIRESERVE` | `0xffff` |
+
+#### `SHN_UNDEF`:
+
+- Denotes undefined, missing or meaningless section reference.
+- Though it is a reserved index, `e_shnum` records it as an unreserved section header.
+
+#### `SHN_LORESERVE`:
+
+- This value represents **lower bound** in range of reserved indexes.
+
+#### `SHN_LOPROC` to `SHN_HIPROC`:
+
+- Values in this range is reserved for processor-specific details.
+
+#### `SHN_ABS`:
+
+- Decides absolute values to its corresponding references.
+
+#### `SHN_COMMON`:
+
+- `SHN_COMMON` means its relative sections are common.
+
+#### `SHN_HIRESERVE`:
+
+- Specifies upper bound of the reserved indexes.
+
+
+### <u>Section Header</u>
+
+```c
+typedef struct
+{
+	Elf32_Word    sh_name;
+	Elf32_Word    sh_type;
+	Elf32_Word    sh_flags;
+	Elf32_Addr    sh_addr;
+	Elf32_Off     sh_offset;
+	Elf32_Word    sh_size;
+	Elf32_Word    sh_link;
+	Elf32_Word    sh_info;
+	Elf32_Word    sh_addralign;
+	Elf32_Word    sh_entsize;
+} Elf32_Shdr;
+```
+
+#### `sh_name`:
+
+- Is a null terminated string name given to the section.
+- Occupies space in section header string table.
+
+#### `sh_type`:
+
+- Tells the category of section.
+
+#### `sh_flags`:
+
+- For `sh_flags` in bits, each bit represents state of a special attribute.
+
+#### `sh_addr`:
+
+- Stores address of section's 1st byte.
