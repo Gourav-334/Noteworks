@@ -1,4 +1,4 @@
-# $\fbox{UBUNTU SHELL}$
+# $\fbox{UBUNTU}$
 
 
 
@@ -125,6 +125,32 @@ echo "Hello" > smallFile.txt
 #### `>>`:
 
 - Same as before, but the message is appended instead of being overwritten.
+
+
+### <u>Error Code</u>
+
+- If a command doesn't run, we can use `$?` to know what went wrong.
+
+```sh
+# Say a file doesn't exist.
+ls sample.txt
+echo $?
+
+# Output: 2
+```
+
+#### Scripting example:
+
+```sh
+cp source.txt backup.txt
+
+if [ $? -eq 0 ]; then
+	echo "Copy successful"
+else
+	echo "Copy failed"
+fi
+
+```
 
 
 
@@ -324,4 +350,44 @@ sed '/^$/d' file.txt
 
 - `^` means start & `$` alone means end.
 - So `^$` means character index where start & end are same.
-- 
+
+#### Printing lines in range:
+
+```sh
+# Prints from line 5 to 10.
+sed -n '5,10p' file.txt
+```
+
+- `-n` means the output is modified & not default.
+- And for manual usage, `p` is used.
+
+#### Replace on specific lines:
+
+```sh
+# On single line, only for first occurrence.
+sed '2s/foo/bar/'
+
+# On multiple lines, for all occurrences.
+sed '1,3s/foo/bar'
+```
+
+#### Delete specific lines:
+
+```sh
+# Single line
+sed '3d' file.txt
+
+# Multiple line
+sed '5,7d' file.txt
+```
+
+#### Inline edit with backup:
+
+```sh
+sed -i.bak 's/foo/bar/g' file.txt
+```
+
+- Changes are made on `file.txt` & backup is stored as `file.txt.bak`.
+- `-i` (inline) means that only changes are made to file, nothing is printed on stdout (terminal).
+
+---

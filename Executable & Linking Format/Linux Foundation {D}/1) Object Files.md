@@ -342,4 +342,18 @@ typedef struct
 
 #### `sh_addr`:
 
-- Stores address of section's 1st byte.
+- Stores address of section's first byte.
+- And stores `0` if there is no address assigned.
+
+#### `sh_offset`:
+
+- Tells how many bytes are there from first byte of file to first byte of section.
+- `SHT_NOBITS` section doesn't occupy any space in file, though it may in the memory.
+
+#### `sh_size`:
+
+- Tells section's size in bytes.
+
+#### `sh_link`:
+
+- 

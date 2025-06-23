@@ -1,4 +1,4 @@
-# $\fbox{Chapter 1: COMPUTER SECURITY CONCEPT}$
+# $\fbox{Chapter 1: COMPUTER SECURITY BASICS}$
 
 
 
@@ -17,4 +17,35 @@
 2. **<u>Integrity</u>:** No third-party between sender & receiver.
 3. **<u>Availability</u>:** Making sure that authorized users get access to information.
 4. Authenticity
-5. Accountability
+5. **<u>Accountability</u>:** Storing details about actions by an entity, to make sure that the consequences are clearly tied to it only.
+
+
+### <u>Impact Of Security Breach</u>
+
+- **Reduced effectiveness of primary operation -** Like leaking exam papers.
+- **Financial loss -** Like cost of repairing database is very expensive.
+- **Damage to assets -** Mostly when demands are not fulfilled by the victim.
+- **Harm to individuals -** For personal vendetta or callousness/psychopathy.
+
+
+### <u>Security Architecture</u>
+
+- OSI focuses on security attacks, mechanisms & related services.
+- **<u>OSI</u>:** Open Systems Interconnection
+- **<u>Security mechanism</u>:** Preventive & recovery mechanism against attacks.
+- **<u>Security services</u>:** Communication feature that allows security handlers to communicate effectively.
+
+
+
+## **Topic - 2: Security Attacks**
+
+### <u>Passive Attack</u>
+
+- **<u>Passive attack</u>:** Hacker accesses the resources of system but doesn't affect anything.
+- Its goal can be of accessing message, conversation or any transmission information.
+- Or it could be about analyzing traffic from the victim device & judge the nature of communication.
+
+
+### <u>Active Attack</u>
+
+- **<u>Active attack</u>:** Hacker tries to make changes to the resources of system.

@@ -72,6 +72,35 @@
 
 ### <u>Decision Support System (DSS)</u>
 
-- DSS is used for decision making by management team using data.
+- DSS is used for decision making by junior management team using data.
 - The data used can be either external or internal or both.
 - It is used when the data is in large amount & thus too complex to analyze without tools or models.
+
+
+### <u>Executive Support System (ESS)</u>
+
+- ESS is also known as **executive information system (EIS)**.
+- It is used by senior management team of the organization.
+- Senior management team analyzes summary & makes strategic decisions as per that.
+- ESS provides easy-to-view & analyze form of reports, generally graphical representation.
+
+
+### <u>Management Information System (MIS)</u>
+
+- Similar to TPS & used by management teams.
+- Difference is that it is used for for monotonous form of reports.
+
+
+### <u>Enterprise Resource Planning</u>
+
+- Department specific set of tools, used by companies, mostly MNCs.
+- For example - human resource management, customer relationship management, supply chain management etc.
+
+
+### <u>Expert Systems (ESYS)</u>
+
+- ESYS are used for getting suggestions.
+- It makes use of inference engine & knowledge base.
+- **<u>Inference base</u>:** Tests made on knowledge base.
+- **<u>Knowledge base</u>:** Core database where unrefined raw data are stored.
+- Knowledge base is basically the initial source of data.
