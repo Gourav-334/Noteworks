@@ -26,6 +26,7 @@
 
 - **<u>Linkable</u>:** Binary that can be linked with other binaries.
 - **<u>Portable executable (PE)</u>:** Windows format for executables.
+- Mach-O stands for **Mac Object**.
 - PE contains only sections, Mach-O contains only segments, while ELF contains both sections & segments.
 - Loader comes into play during runtime.
 
@@ -65,3 +66,66 @@ int main() {
 - When we compile this source code into executable, the output contains section `.text`.
 - This section is the entry point to the code we wrote.
 - The OS loader reads ELF header, maps memory as per that & jumps to `.text` section for execution.
+
+
+
+## **Topic - 2: Comparing Binary Formats**
+
+### <u>Why Compare Formats?</u>
+
+- Comparing helps in making portable compilation tool.
+- Understand effects of loader & ABI on code execution.
+
+
+### <u>Comparison Table</u>
+
+|      Feature       | ELF                                                 | PE                                                                 | Mach-O                                                             |
+| :----------------: | :-------------------------------------------------- | :----------------------------------------------------------------- | :----------------------------------------------------------------- |
+|     OS Family      | Linux, BSD                                          | Windows                                                            | macOS, iOS                                                         |
+|  File Extensions   | `.o`, `.so` (but not fixed)                         | `.exe`, `.dll`, `.sys`                                             | `.o`, `.dylib`, `.bundle`                                          |
+|      Metadata      | Sections, symbols, notes                            | Import table, export table                                         | Load commands, LC_SEGMENT, LC_MAIN                                 |
+|   Linker Output    | Position dependent/ independent executable          | Always relocatable if not flagged                                  | Mostly position independent                                        |
+|  Dynamic Linking   | Done via `.plt`, `.got`, `.dynamic`                 | Via IAT (Import Address Table)                                     | Via dynamic loader, `dyld`                                         |
+| Signature Support  | No native signing                                   | Requires **Authenticode**                                          | Mandatory to sign code                                             |
+| Debug Infor Format | DWARF (standard)                                    | PDB (external component)                                           | DWARF                                                              |
+|   First Byte(s)    | `0x7f 45 4C 46`                                     | `MZ PE\0\0`                                                        | `0xFEEDFACE`, `0xCAFEBABE` etc                                     |
+|     Tools Used     | `readelf`, `objdump`, `strip`                       | `dumpbin`, `dependencyWalker`                                      | `otool`, `nm`, `codesign`, `lipo`                                  |
+
+- ELF is open-source, highly customizable, clean & modular.
+- PE is strictly packed, GUI-driven & heavily tooled.
+- Mach-O is developer-centric & security focused.
+
+
+### <u>Structure Models Comparison</u>
+
+#### ELF:
+
+```out
++-------------------+
+| ELF Header        |
+| Program Headers   |
+| Section Headers   |
+| .text, .data, etc |
++-------------------+
+```
+
+#### PE:
+
+```exe
++------------------+
+| DOS Header (MZ)  |
+| PE Header        |
+| Section Table    |
+| .text, .rdata    |
++------------------+
+```
+
+#### Mach-O:
+
+```dylib
++--------------------+
+| Mach Header        |
+| Load Commands      |
+| Segment & Sections |
++--------------------+
+```

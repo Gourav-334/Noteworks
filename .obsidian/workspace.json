@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3390679bd6b91029",
+        "id": "46527eddae211d21",
         "type": "tabs",
         "children": [
           {
-            "id": "61e24aeea9526147",
+            "id": "ab24554685ec95ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/College Version {O}/1) Information Security.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1) Information Security"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "d1380046182a1bac",
@@ -164,8 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61e24aeea9526147",
+  "active": "ab24554685ec95ba",
   "lastOpenFiles": [
+    "Big Data Analytics/College version {O}/1) Introduction.md",
+    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
     "C++ Programming/W3Schools {C}/3) File Handling.md",
     "C++ Programming/W3Schools {C}/SOURCE CPP (OLD).md",
     "C++ Programming/W3Schools {C}/2) Object-Oriented Programming.md",
@@ -176,14 +183,12 @@
     "Testing & Quality Assurance/College version {O}",
     "Testing & Quality Assurance",
     "Cyber Security/College Version {O}/1) Information Security.md",
-    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
     "Linux Development/Ubuntu.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Executable & Linking Format/ChatGPT {O}/media",
     "Executable & Linking Format/ChatGPT {O}",
     "Executable & Linking Format/Linux Foundation {D}/media/image2.png",
     "Executable & Linking Format/Linux Foundation {O}/media/Screenshot 2025-06-21 151020.png",
-    "Big Data Analytics/College version {O}/1) Introduction.md",
     "Information & Network Security/College version {O}/media",
     "Information & Network Security/College version {O}",
     "Information & Network Security",

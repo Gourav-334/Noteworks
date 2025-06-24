@@ -104,3 +104,42 @@
 - **<u>Inference base</u>:** Tests made on knowledge base.
 - **<u>Knowledge base</u>:** Core database where unrefined raw data are stored.
 - Knowledge base is basically the initial source of data.
+
+
+
+## **Topic - 3: Development Of Information System**
+
+### <u>System Development Lifecycle (SDLC)</u>
+
+$$ \framebox[5cm]{Analysis} $$
+$$ \downarrow $$
+$$ \framebox[5cm]{Design} $$
+$$ \downarrow $$
+$$ \framebox[5cm]{Implementation} $$
+$$ \downarrow $$
+$$ \framebox[5cm]{Maintenance} $$
+$$ \downarrow $$
+$$ \framebox[5cm]{Planning} $$
+$$ \downarrow $$
+$$ \text{REPEAT} $$
+
+
+### <u>Development Information System</u>
+
+- SDLC also consists of three main information from survey.
+- These are - System identification, selection & system planning.
+- **<u>System identification</u>:** Identifying the system that organize uses in order to address security inefficiencies later.
+- **<u>Selection</u>:** Selecting features to apply on the solution.
+
+
+### <u>SDLC Phases</u>
+
+#### Analysis:
+
+- Also known as system requirement analysis.
+- It is about dismantling whole system into smaller parts & analyzing them.
+- This includes knowing about how each of them work & interact with each other.
+
+#### Design:
+
+- Making blueprint to IT team for executing the plan.
