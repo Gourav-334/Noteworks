@@ -1,10 +1,10 @@
-# $\fbox{COMPETITIVE PROGRAMMING}$
+# $\fbox{Chapter 6: STANDARD TEMPLATE LIBRARY}$
 
 
 
 
 
-## **Topic - 1: Standard Library Template**
+## **Topic - 1: Introduction To STL**
 
 ### <u>STL Features</u>
 
@@ -99,6 +99,7 @@ swap(p_arr[0], p_arr[2])
 
 ### <u>Vectors</u>
 
+- Defined in `<vector>`.
 - Also uses `bits/stdc++.h`.
 - $O(1)$ in operations.
 
@@ -106,9 +107,6 @@ swap(p_arr[0], p_arr[2])
 
 ```cpp
 vector<int> v;
-
-v.push_back(7);        // Pushing 7 to vector 'v'.
-v.size();              // Size of vector 'v'.
 ```
 
 - Vectors can also be a perimeter type.
@@ -119,10 +117,21 @@ v.size();              // Size of vector 'v'.
 vector<int> v[5];        // All elements initialized to 0.
 ```
 
-#### Copying vectors:
+#### Functions:
 
 ```cpp
-vector<int> &v2 = v;        // Takes O(n).
+vector<int> &v2 = v;        // Copying - Takes O(n).
+
+v.push_back(7);        // Pushing 7 to vector 'v'.
+v.pop_back();
+v.size();              // Size of vector 'v'.
+v.clear();
+v1.swap(v2);
+v.front();             // Referring to first element.
+v.back();
+v.at(4);
+v.empty();             // Tells if empty or not.
+v.capacity();
 ```
 
 - Not adding `&` won't have future changes in `v2`.
@@ -250,6 +259,75 @@ mm.insert({3,"Child"});        // Notice duplicacy.
 - `unordered_multimap` - Unordered multimap
 - `unordered_set` - Unordered set
 - `unordered_multiset` - Unordered multiset
+
+
+### <u>Unordered Map</u>
+
+- Uses `<unordered_map>` library.
+- Values are hashed to keys & keys are hashed to indices.
+
+#### Putting values:
+
+```cpp
+map1["Name"] = "Gourav Kumar Mallick";
+map1["Age"] = "19";
+map1["Branch"] = "Computer Science & Engineering";
+```
+
+$$ \text{OR} $$
+
+```cpp
+unordered_map<char,int> umap = {
+	{'0', 0}, {'1', 1}, {'2', 2}, {'3', 3},
+	{'4', 4}, {'5', 5}, {'6', 6}, {'7', 7}
+}
+```
+
+#### Traversal/iteration:
+
+```cpp
+for (auto x: map1) {
+	cout << x.first << ": " << x.second << endl;
+}
+```
+
+$$ \text{OR} $$
+
+```cpp
+unordered_map<string,string>::iterator it;
+
+for (int = map1.begin(); it != map1.end(); it++)
+{
+	cout << it->first << ": " << it->second << endl;
+}
+```
+
+- `begin()` and `end()` are used with an iterator only as shown above.
+- `end()` is place after crossing the last pair in memory.
+- It traverses in reverse.
+- Address operations don’t work on unordered maps.
+- Time complexity of unordered map is $O(1)$, contrary to map with $O(log(n))$.
+
+#### Function with no return type:
+
+```cpp
+map1.erase("Name");
+```
+
+#### Functions with return type:
+
+```cpp
+cout << map1.bucket("Age");    // Returns bucket number of key.
+cout << map1.empty();          // Returns with 1 or 0.
+cout << map1.count("Age");     // Counts total values for a key.
+```
+
+#### For control statements:
+
+```cpp
+if (map1.find("Any key")==map1.end())
+	cout << "Element not present\n";
+```
 
 
 

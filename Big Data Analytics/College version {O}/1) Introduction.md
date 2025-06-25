@@ -89,3 +89,30 @@
 1. Volume of data
 2. Processing & analyzing
 3. Management of data
+
+
+### <u>Processing & Analyzing</u>
+
+- Taking out insights from such a large amount of data is difficult.
+- Processing so much data is also very costly.
+
+
+### <u>Management Of Data</u>
+
+- Management is difficult due to the structured, semi-structured & unstructured nature of it, altogether.
+
+
+
+## **Topic - 4: Types Of Big Data**
+
+### <u>Unstructured</u>
+
+- Deriving data from unstructured data is a major challenge.
+- Such data could include texts, images & other media files altogether.
+- For example, webpage & Google search etc.
+
+
+### <u>Structured</u>
+
+- **<u>Structured data</u>:** Any data that has fixed format.
+- For example, RDBMS tables or consistent format etc.

@@ -49,3 +49,35 @@
 ### <u>Active Attack</u>
 
 - **<u>Active attack</u>:** Hacker tries to make changes to the resources of system.
+- **<u>Masquerade attack</u>:** An attack where attacker pretends to be an authorized user to gain unauthorized access.
+- **<u>Replay attack</u>:** An attack where hacker tries to mimic transmission signature of victim, gained from its previous passive attack.
+- **<u>Denial of service</u>:** In this attack, a large number of requests are made to server, blocking users from its service. Meanwhile, hackers penetrate it.
+
+
+
+## **Topic - 3: Security Services**
+
+### <u>Standards</u>
+
+- ***X.8000*** standard defines all the measurements for system security.
+- It is implemented of protocol layer.
+- Also it ensures integrity in inter-component communication.
+
+
+### <u>Services Provided</u>
+
+<img src="./media/image1.png"
+style="width:5.0in;height:4.0in" />
+
+
+
+## **Topic - 4: Security Mechanism**
+
+### <u>Introduction</u>
+
+- There are multiple mechanisms that altogether provide security.
+- Cryptography is performed in each of those mechanisms.
+- **<u>Specific security mechanism</u>:** Applied at specific protocol layer.
+- **<u>Pervasive security mechanism</u>:** Not particularly integrated at any layer.
+- **<u>Encipherment</u>:** Applying ciphers on data.
+- **<u>Signature</u>:** Verifying users with electronic signatures.
