@@ -143,3 +143,38 @@ $$ \text{REPEAT} $$
 #### Design:
 
 - Making blueprint to IT team for executing the plan.
+
+#### Implementation:
+
+- Less creative than design phase.
+- Has to do more with setting-up & testing.
+- At last, user acceptance test is taken & then users are trained to use the system.
+
+#### Testing:
+
+- **"Testing"** here refers to functional testing of quality of software.
+- This includes testing performance, output format, and many more.
+- It requires required hardware & software to be ready.
+
+#### Change & maintenance:
+
+- Maintenance includes continuous monitoring of systems, fixing bugs, improving systems, and many more.
+
+
+
+## **Topic - 4: Information Security**
+
+### <u>Introduction</u>
+
+- Information security is sometimes shortly known as ***infosec***.
+- Infosec can also be intellectual property in people's mind.
+
+
+### <u>Data v/s Information</u>
+
+| Data                                 | Information                                                                       |
+| :----------------------------------- | :-------------------------------------------------------------------------------- |
+| Raw & unorganized facts.             | Processed & organized facts.                                                      |
+| Data is independent of information.  | Information is dependent on data.                                                 |
+| Not sufficient for decision making.  | Sufficient for decision making.                                                   |
+| For example, a student's test score. | For example, a student's average score that can be used for statistical analysis. |
