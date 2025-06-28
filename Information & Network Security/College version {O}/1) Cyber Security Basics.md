@@ -81,3 +81,28 @@ style="width:5.0in;height:4.0in" />
 - **<u>Pervasive security mechanism</u>:** Not particularly integrated at any layer.
 - **<u>Encipherment</u>:** Applying ciphers on data.
 - **<u>Signature</u>:** Verifying users with electronic signatures.
+- **<u>Authentication exchange</u>:** Communicators exchange some information to prove their identity.
+- **<u>Traffic padding</u>:** Insertion of additional unrequired bits to confuse hackers.
+- **<u>Routing control</u>:** Continuous change of communication routes to confuse hackers.
+- **<u>Notarization</u>:** Using third-party services to ensure controlled communication.
+
+
+### <u>Notarization Model</u>
+
+<img src="./media/image2.png"
+style="width:5.0in;height:3.3in" />
+
+
+### <u>Network Security Model</u>
+
+- Network security model diagram represents encrypted communication between two entities.
+- **<u>Plaintext</u>:** Original message
+- **<u>Ciphertext</u>:** Encrypted message
+- Encryption is also known as **enciphering**.
+- Decryption is also known as **deciphering**.
+- **<u>Cipher</u>:** Any algorithm used for encryption & decryption.
+- This is also known as cryptographic system.
+- **<u>Cryptanalysis</u>:** Study of decoding encrypted text without plaintext.
+- **<u>Cryptology</u>:** Using both cryptography & cryptanalysis.
+
+---

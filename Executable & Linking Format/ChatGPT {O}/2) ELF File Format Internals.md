@@ -29,6 +29,19 @@
 |     `0x3C`      |     `e_shnum`     |        2        | Number of section header entries       |
 |     `0x3E`      |   `e_shstrndx`    |        2        | Section header string index            |
 
+- Some fields like `e_machine`, `e_entry`, and more varies processor-to-processor.
+- Anything starting with `e_` is metadata about whole ELF file.
+- While those starting from `ph_` & `sh_` are...
+
+
+### <u>Prefix Meaning</u>
+
+| Prefix        | Scope                | Belongs To               | Purpose                          |
+| ------------- | -------------------- | ------------------------ | -------------------------------- |
+| `e_`          | ELF Header           | `Elf64_Ehdr`             | Metadata about the whole ELF     |
+| `ph_` or `p_` | Program Header Entry | `Elf64_Phdr` (its array) | Loader-level segment descriptors |
+| `sh_`         | Section Header Entry | `Elf64_Shdr` (its array) | Linker-level symbolic layout     |
+
 
 ### <u>Inspecting Binary</u>
 
@@ -175,5 +188,112 @@ struct Elf64_Phdr phdr = {
     .p_filesz = 0x200,
     .p_memsz  = 0x200,
     .p_align  = 0x1000
+};
+```
+
+
+
+## **Topic - 3: Section Header Table (SHT)**
+
+### <u>Introduction</u>
+
+- SHT breakdowns ELF binary into various sections.
+- We will learn how symbols & sections are tracked by certain tools.
+- These tools include linkers, debuggers, `nm`, `objdump`, and more.
+
+
+### <u>Sections</u>
+
+#### List:
+
+|   Section   | Description                       |      Type      |
+| :---------: | --------------------------------- | :------------: |
+|   `.text`   | Code                              | `SHT_PROGBITS` |
+|   `.data`   | Initialized global variables      | `SHT_PROGBITS` |
+|   `.bss`    | Uninitialized data (no file size) |  `SHT_NOBITS`  |
+|  `.rodata`  | Read-only constants               | `SHT_PROGBITS` |
+|  `.symtab`  | Symbol table (for linking)        |  `SHT_SYMTAB`  |
+|  `.strtab`  | Strings used in `.symtab`         |  `SHT_STRTAB`  |
+| `.shstrtab` | Section names as strings          |  `SHT_STRTAB`  |
+
+#### Types:
+
+1. **<u>File contained</u>:** Written to file, but not not necessarily to memory. For example, code under `.text`.
+2. **<u>Logical only</u>:** Consistently maintained in memory during programs lifespan. For example, constants defined in `.bss`.
+
+
+### <u>Structure Of ELF64 SHT</u>
+
+| Offset (in hex) |     Field      | Size (in bytes) | Description                                |
+| :-------------: | :------------: | :-------------: | ------------------------------------------ |
+|     `0x00`      |   `sh_name`    |        4        | Offset of section name in `.shstrtab`      |
+|     `0x04`      |   `sh_type`    |        4        | Section type (`PROGBITS`, `NOBITS`, etc)   |
+|     `0x08`      |   `sh_flags`   |        8        | Flags (`ALLOC`, `WRITE`, `EXEC`)           |
+|     `0x10`      |   `sh_addr`    |        8        | Virtual address (if allocated)             |
+|     `0x18`      |  `sh_offset`   |        8        | Section's offset in file                   |
+|     `0x20`      |   `sh_size`    |        8        | Section size (in file or memory)           |
+|     `0x28`      |   `sh_link`    |        4        | Links to other section (used by `.symtab`) |
+|     `0x2C`      |   `sh_info`    |        4        | Extra info (like `#` of symbols)           |
+|     `0x30`      | `sh_addralign` |        8        | Alignment constraints                      |
+|     `0x38`      |  `sh_entsize`  |        8        | Size of each entry if section is table     |
+
+
+### <u>Pointer Fields In SHT</u>
+
+|  Field Name   | Description                          |
+| :-----------: | :----------------------------------- |
+|   `e_shoff`   | SHT offset in file                   |
+| `e_shentsize` | Size of a section header             |
+|   `e_shnum`   | Number of entries                    |
+| `e_shstrndx`  | Index of each section name as string |
+
+
+### <u>Binary Blueprint</u>
+
+- Various binary codes are linked to a symbol in symbol table.
+- This symbol is represented with human readable name.
+- For example, `main` & `printf` etc.
+- These are not necessary for execution but for purpose of linking, debugging & analysis.
+- That's why some toolchains strip SHT from ELF using `strip`.
+
+
+### <u>Inspecting SHT</u>
+
+#### Command:
+
+```sh
+readelf -S /bin/ls
+```
+
+We can alternatively use `objdump -h <file_name>`.
+
+#### Output:
+
+- A few columns are excluded to maintain readability.
+
+```
+Section Headers:
+  [Nr] Name       Type         Addr     Off    Size   ES Flg Lk
+  [ 0]            NULL         00000000 000000 000000 00      0
+  [ 1] .interp    PROGBITS     00000000 0000e0 00001c 00   A  0   
+  [ 2] .note.ABI  NOTE         00000000 000100 000020 00   A  0   
+  [ 3] .text      PROGBITS     00000000 000200 001000 00  AX  0   
+  [ 4] .data      PROGBITS     00001000 001200 000080 00  WA  0   
+```
+
+
+### <u>Creating SH Entry</u>
+
+- We are doing so by creating an instance of structure `Elf64_Shdr`.
+
+```c
+struct Elf64_Shdr sh_text = {
+    .sh_name      = 1,              // Offset in '.shstrtab'
+    .sh_type      = SHT_PROGBITS,
+    .sh_flags     = SHF_ALLOC | SHF_EXECINSTR,
+    .sh_addr      = 0x400000,
+    .sh_offset    = 0x1000,
+    .sh_size      = 0x200,
+    .sh_addralign = 0x10
 };
 ```

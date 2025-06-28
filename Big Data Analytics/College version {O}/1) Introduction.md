@@ -116,3 +116,44 @@
 
 - **<u>Structured data</u>:** Any data that has fixed format.
 - For example, RDBMS tables or consistent format etc.
+
+
+### <u>Semi-Structured</u>
+
+- **<u>Semi-structured data</u>:** Unrefined data from which, extracting useful information is comparatively easier.
+- For example, web caches which provide critical info but are not structured enough.
+
+
+### <u>Differences Comparison</u>
+
+| Factors               | Structured Data            | Semi-Structured Data | Unstructured Data         |
+| :-------------------- | :------------------------- | :------------------- | :------------------------ |
+| **Dependence**        | Dependent                  | Partially dependent  | Independent               |
+| **Flexibility**       | Less flexible              | Moderately flexible  | Very flexible             |
+| **Transaction**       | Secured transaction        | Derived transaction  | No transaction management |
+| **Concurrency**       | Used                       | Derived              | Not used                  |
+| **Query performance** | Structured queries         | Immature queries     | No queries                |
+| **Technology used**   | Relational database tables | RDF & XML            | Raw data library          |
+
+
+
+## **Topic - 5: Intelligent Data Analysis (IDA)**
+
+### <u>Introduction</u>
+
+- IDA is related to artificial intelligence.
+- It is about digging previously unknown insights from large amount of data.
+- Fields using it - Data engineering, database mining, and many more.
+- **Rule finding** is finding for rules in dataset for existing data.
+- These usually use ML & deep learning methods.
+
+
+### <u>Steps For IDA</u>
+
+1. Data preparation
+2. Rules finding or data mining
+3. Result validation & explanation
+
+
+
+## **Topic - 6: Traditional v/s Business Approach**
