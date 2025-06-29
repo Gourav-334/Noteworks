@@ -178,3 +178,66 @@ $$ \text{REPEAT} $$
 | Data is independent of information.  | Information is dependent on data.                                                 |
 | Not sufficient for decision making.  | Sufficient for decision making.                                                   |
 | For example, a student's test score. | For example, a student's average score that can be used for statistical analysis. |
+
+
+### <u>Cybersecurity v/s Information Security</u>
+
+|      Parameters      | Cyber Security                                        | Information Security                                               |
+| :------------------: | :---------------------------------------------------- | :----------------------------------------------------------------- |
+| **Basic Definition** | Protecting data from foreign resources over internet. | Protecting data from unauthorized access by maintaining integrity. |
+|     **Defense**      | Acts as first line of defence.                        | Comes into play after breach of security.                          |
+
+
+### <u>Why Network Security?</u>
+
+#### Confidentiality:
+
+- Prevention of unauthorized access
+- Protection against cyber threats
+- Compliance with regulations
+
+#### Integrity:
+
+- Business continuity
+- Protection of reputation
+
+#### Availability:
+
+- Personal privacy
+- Prevention of financial loss
+
+
+
+## **Topic - 5: Information Security Threats**
+
+### <u>Threats To Information Systems</u>
+
+- Hardware failure
+- Software failure
+- Human error
+- Terminal access penetration
+- Theft of data
+- Fire
+- Electrical issues
+
+
+### <u>Human Threats To Information</u>
+
+- Phishing
+- SQL injections
+- Crime-as-a-Service (CAAS)
+- Internet of Things (IoT)
+- Cracking
+- The shadow broker (TSB)
+- Ransomware
+- GDPR blackmail attacks
+- Distributed denial of service
+- Cyber-physical attacks
+
+
+### <u>Information Assurance</u>
+
+- Information assurance is service that includes managing use, transaction, storage, and more operations on information safely.
+- It assures users of integrity, availability, authenticity, non-repudiation & confidentiality of data.
+- While information assurance adds to safe guidelines in hardware & cloud services, cyber security is about protecting from threats digitally.
+- Now that can include hardware, software, networking architecture or anything.

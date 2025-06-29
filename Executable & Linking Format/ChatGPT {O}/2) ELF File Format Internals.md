@@ -297,3 +297,87 @@ struct Elf64_Shdr sh_text = {
     .sh_addralign = 0x10
 };
 ```
+
+
+
+## **Topic - 4: ELF Classes & Endianness**
+
+### <u>Introduction</u>
+
+- Two indexes of array `e_ident` define class & endianness.
+
+|   Field    | Index In `e_ident[]` | Meaning                         |
+| :--------: | :------------------: | ------------------------------- |
+| `EI_CLASS` |     `e_ident[4]`     | Address size (32-bit or 64-bit) |
+| `EI_DATA`  |     `e_ident[5]`     | Endianness (little or big)      |
+
+
+### <u>Values Of ELF Class</u>
+
+| `e_ident[EI_CLASS]` |    Value     | Meaning | Typical Architecture      |
+| :-----------------: | :----------: | :-----: | ------------------------- |
+|       `0x01`        | `ELFCLASS32` | 32-bit  | x86, ARM32                |
+|       `0x02`        | `ELFCLASS64` | 64-bit  | x86_64, AArch64, RISC-V64 |
+
+
+### <u>Values Of ELF Endianness</u>
+
+| `e_ident[EI_DATA]` |     Value     |    Meaning    | Affected Architectures |
+| :----------------: | :-----------: | :-----------: | ---------------------- |
+|       `0x01`       | `ELFDATA2LSB` | Little Endian | x86, RISC-V, AArch64   |
+|       `0x02`       | `ELFDATA2MSB` |  Big Endian   | Some MIPS, PowerPC     |
+
+- **<u>Little endianness</u>:** Least significant byte comes first in memory (reversed).
+
+
+### <u>Field Sizes & Layout</u>
+
+#### ELFCLASS32:
+
+- Address fields are of **4 bytes** each.
+- This includes `e_entry`, `p_vaddr`, and more.
+
+|        Header        | Size (in bytes) |
+| :------------------: | :-------------: |
+|      ELF header      |       52        |
+| Program header table |       32        |
+| Section header table |       40        |
+
+#### ELFCLASS64:
+
+- Address fields are of **8 bytes** each.
+
+|        Header        | Size (in bytes) |
+| :------------------: | :-------------: |
+|      ELF header      |       64        |
+| Program header table |       56        |
+| Section header table |       64        |
+
+
+### <u>Checking Class & Endianness</u>
+
+- We can check class & endianness through `readelf -h`.
+- Two of the listed details is about class & endianness.
+
+
+### <u>Assembling E-IDENT</u>
+
+```c
+unsigned char e_ident[16] = {
+  0x7f, 'E', 'L', 'F',   // Magic number
+  0x02,                  // ELFCLASS64 (64-bit)
+  0x01,                  // ELFDATA2LSB (little endian)
+  0x01,                  // ELF version
+  0x00,                  // System V ABI
+  ...
+};
+```
+
+
+### <u>Mismatch Consequences</u>
+
+| Design Aspect       | Implication                                      |
+| ------------------- | ------------------------------------------------ |
+| `ELFCLASS` mismatch | Loader will reject the binary.                   |
+| Endianness mismatch | You'll get corrupted fields on read.             |
+| Cross-compiling     | Must write ELF headers in target class & endian. |

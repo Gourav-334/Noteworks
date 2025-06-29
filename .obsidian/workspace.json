@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "07f712fe60373fbf",
+        "id": "565abf96e512d812",
         "type": "tabs",
         "children": [
           {
-            "id": "48f024661ebeb00f",
+            "id": "a4556abf9676041b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "C++ Programming/W3Schools {C}/SOURCE CPP (OLD).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SOURCE CPP (OLD)"
             }
           }
         ]
@@ -165,19 +169,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48f024661ebeb00f",
+  "active": "a4556abf9676041b",
   "lastOpenFiles": [
-    "Big Data Analytics/College version {O}/1) Introduction.md",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
+    "Cyber Security/College Version {O}/1) Information Security.md",
+    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
+    "C++ Programming/W3Schools {C}/5) Memory Management.md",
+    "Big Data Analytics/College version {O}/1) Introduction.md",
     "Information & Network Security/College version {O}/1) Cyber Security Basics.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
-    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Cyber Security/College Version {O}/1) Information Security.md",
     "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
     "C++ Programming/W3Schools {C}/7) Generic.md",
     "C++ Programming/W3Schools {C}/SOURCE CPP (OLD).md",
-    "C++ Programming/W3Schools {C}/5) Memory Management.md",
     "C++ Programming/W3Schools {C}/6) Standard Template Library.md",
     "C++ Programming/W3Schools {C}/4) Exception Handling.md",
     "C++ Programming/W3Schools {C}/3) File Handling.md",
