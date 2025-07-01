@@ -157,7 +157,7 @@ readelf -l /bin/ls
 Program Headers:
   Type           Offset   VirtAddr           PhysAddr          
   LOAD           0x000000 0x0000000000400000 0x0000000000400000 
-  LOAD           0x0017e8 0x0000000000601e8 0x0000000000601e8 
+  LOAD           0x0017e8 0x0000000000601e8  0x0000000000601e8 
 ```
 
 - Try it out, it provides various details about the binary.
@@ -381,3 +381,310 @@ unsigned char e_ident[16] = {
 | `ELFCLASS` mismatch | Loader will reject the binary.                   |
 | Endianness mismatch | You'll get corrupted fields on read.             |
 | Cross-compiling     | Must write ELF headers in target class & endian. |
+
+
+
+## **Topic - 5: Dynamic Linking Sections**
+
+### <u>Introduction</u>
+
+- If binaries are dynamically linked, they depend on shared libraries.
+- Such binaries use ***symbol stubs*** which are resolved by dynamic loader (`ld.so`) at runtime.
+- Such dynamic resolution is known as **lazy resolution**.
+- **<u>Stubs</u>:** Codes which redirect flow of control to somewhere else.
+- **<u>Eager resolution</u>:** Symbols being loaded at starting itself (static linking).
+- This keeps the size of core binary short.
+- Dynamic linking involves three sections - `.dynamic`, `.got` & `.plt`.
+
+
+### <u>Section Descriptions</u>
+
+|  Section   |         Meaning          | Purpose                                         |
+| :--------: | :----------------------: | ----------------------------------------------- |
+| `.dynamic` |         Dynamic          | Metadata for the dynamic linker (`ld.so`)       |
+|   `.got`   |   Global Offset Table    | Address table for data/function pointers        |
+|   `.plt`   | Procedural Linkage Table | Assembly stubs for calling unresolved functions |
+
+- These sections exist only in dynamically linked binaries.
+
+
+### <u>.dynamic Section</u>
+
+- `.dynamic` section contains array of `Elf64_Dyn` structures.
+- Entries in this structure work as key-value pairs.
+
+#### `Elf64_Dyn` structure:
+
+```c
+typedef struct
+{
+    Elf64_Sxword d_tag;
+    
+    union {
+        Elf64_Xword d_val;
+        Elf64_Addr  d_ptr;
+    } d_un;
+    
+} Elf64_Dyn;
+```
+
+|       Field        | Description                    |
+| :----------------: | ------------------------------ |
+|      `d_tag`       | Type of dynamic entry (`DT_*`) |
+| `d_val` or `d_ptr` | Value or address               |
+
+#### Values for `d_tag`:
+
+|     Tag     | Meaning                         |
+| :---------: | ------------------------------- |
+| `DT_NEEDED` | Required shared library         |
+|  `DT_INIT`  | Address of `init` routine       |
+| `DT_PLTGOT` | Address of `.got`               |
+| `DT_SYMTAB` | Symbol table for dynamic linker |
+| `DT_JMPREL` | Relocations for `.plt`          |
+
+
+#### <u>Inspecting Dynamic Details</u>
+
+- You can write following `readelf` command to know its dynamic details.
+
+```sh
+readelf -d /bin/ls
+```
+
+
+### <u>.got Section</u>
+
+- Global offset table contains addresses of external functions & data.
+- These are resolved during runtime, and their actual addresses are used.
+- They point to entries in `.plt`.
+
+
+### <u>.plt Section</u>
+
+- Stubs in this section call dynamic linker when they execute.
+- Stores/caches the addresses in `.plt` section.
+- Whenever a symbol is required, the program directly jumps to its address.
+- Basically, `.plt` section acts as a trapdoor system.
+
+
+### <u>Inspecting Sections</u>
+
+#### By pattern:
+
+```sh
+readelf -S /bin/ls | grep '.dynamic'
+readelf -S /bin/ls | grep '.got'
+readelf -S /bin/ls | grep '.plt'
+```
+
+#### All spots:
+
+```sh
+objdump -d /bin/ls | grep 'plt'
+```
+
+
+
+## **Topic - 6: Symbol Tables**
+
+### <u>Introduction</u>
+
+- Symbol tables associate names of symbols with addresses.
+- And these can be relocated.
+- These all features help in debugging, disassembly & reverse engineering.
+
+
+### <u>Types Of Symbol Tables</u>
+
+|   Table   | Purpose                        | Present in                                     |
+| :-------: | ------------------------------ | ---------------------------------------------- |
+| `.symtab` | Full static symbol table       | Object files, unstripped executables           |
+| `.dynsym` | Dynamic symbol table (minimal) | Dynamically-linked executables and shared libs |
+
+- String tables for `.symtab` & `.dynsym` are `.strtab` & `.dynstr` respectively.
+
+
+### <u>Structure Container</u>
+
+- Each structure `Elf64_Sym` contains information for each symbol.
+
+#### `Elf64_Sym`:
+
+```c
+typedef struct
+{
+  Elf64_Word    st_name;
+  unsigned char st_info;
+  unsigned char st_other;
+  Elf64_Half    st_shndx;
+  Elf64_Addr    st_value;
+  Elf64_Xword   st_size;
+} Elf64_Sym;
+```
+
+#### Field roles:
+
+|   Field    | Meaning                                                                                       |
+| :--------: | --------------------------------------------------------------------------------------------- |
+| `st_name`  | Offset into `.strtab` or `.dynstr` to get the symbol's name                                   |
+| `st_info`  | Encodes both binding (global/local) and type (func, object, etc.)                             |
+| `st_other` | Usually `0`; used for visibility (`DEFAULT`, `HIDDEN`)                                        |
+| `st_shndx` | Section index this symbol is defined in (e.g., `.text`, `.data`, or special like `SHN_UNDEF`) |
+| `st_value` | Address (relative or absolute) of the symbol                                                  |
+| `st_size`  | Size of the symbol (used for functions, arrays)                                               |
+
+#### Values for `st_shndx`:
+
+|Value|Meaning|
+|---|---|
+|`SHN_UNDEF`|Undefined (extern symbol)|
+|`SHN_ABS`|Absolute value (not relocatable)|
+|`SHN_COMMON`|Unallocated common symbols|
+
+
+### <u>Symbol Bindings & Types</u>
+
+#### Bindings:
+
+|    Field     | Meaning                                   |
+| :----------: | ----------------------------------------- |
+| `STB_LOCAL`  | Only visible from current file            |
+| `STB_GLOBAL` | Visible from outside also                 |
+|  `STB_WEAK`  | Visible from outside & can be overridden. |
+
+#### Types:
+
+|     Field     | Meaning          |
+| :-----------: | ---------------- |
+|  `STT_FUNC`   | A function       |
+| `STT_OBJECT`  | -                |
+| `STT_SECTION` | A section itself |
+
+
+### <u>.symtab v/s .dynsym</u>
+
+| Field                 | `.symtab`                | `.dynsym`                       |
+| --------------------- | ------------------------ | ------------------------------- |
+| **Purpose**           | For linking/debugging    | For dynamic linking (`ld.so`)   |
+| **Size**              | Full symbol list         | Only exported/imported symbols  |
+| **Associated string** | `.strtab`                | `.dynstr`                       |
+| **Kept at runtime?**  | Often stripped (`strip`) | Always present in dynamic ELF   |
+| **Found in**          | All object files         | Only shared objects & dyn execs |
+
+
+### <u>Visual Simulation</u>
+
+#### Symbol table (`.symtab`):
+
+```c
+"main" = .text + 0x0000000000001140  
+"printf" = undefined (will be linked)
+"global_var" = .data + 0x0000000000002010
+```
+
+#### String table (`.strtab`):
+
+- This string table is for `.symtab` only.
+
+```txt
+\0main\0printf\0global_var\0...
+```
+
+- This is how it will be represented in string table.
+- `st_name` are placed from offset into this table.
+
+
+### <u>Viewing Symbol Tables</u>
+
+```sh
+readelf -s ./a.out            # Both .symtab and .dynsym
+readelf -Ws ./a.out           # Demangle symbols
+objdump -t ./a.out            # Symbol table (.symtab only)
+nm ./a.out                    # User-friendly symbol viewer
+```
+
+
+### <u>Loader FAQs</u>
+
+- All kind of offsets mentioned are offsets to information in files, not memory addresses from RAM.
+- This includes ELF header offsets like `e_phoff`, `r_offset`, `sh_offset` or even GOT.
+- It is responsibility of loader to look up for unoccupied memory space & provide that to the executable.
+- However, we consider memory addresses in RAM when it comes to virtual addresses like `st_value` or `p_vaddr`.
+
+
+
+## **Topic - 7: Relocation Entries**
+
+### <u>Introduction</u>
+
+- **<u>Relocation</u>:** Assignment of memory addresses to symbols in symbol table.
+- This is done during generation of final executable.
+- Object & dynamic binaries don't contain relocation information.
+- Addresses in relocation refer to memory addresses in RAM.
+
+
+### <u>Relocation Sections</u>
+
+| Section | Role                                 | Architecture |
+| :-----: | ------------------------------------ | ------------ |
+| `.rel`  | Relocation entries (without addends) | x86_32       |
+| `.rela` | Relocation entries (with addends)    | x86_64       |
+
+- `.rela.text` patches `.text` section instructions.
+- `.rela.dyn` patches dynamic relocations.
+- **<u>Addends</u>:** Constants that are added to symbols while performing operations.
+- For example, refer to the instruction given below.
+
+```gas
+movq symbol+8(%rip), %rax
+```
+
+#### `.rel` structure (for 32-bit):
+
+```c
+typedef struct {
+    Elf64_Addr  r_offset;
+    Elf64_Xword r_info;
+} Elf64_Rel;
+```
+
+- Each instance of this structure might represent individual symbol.
+
+#### `.rela` structure (for 63-bit):
+
+```c
+typedef struct {
+    Elf64_Addr   r_offset;    // Where to apply relocation
+    Elf64_Xword  r_info;      // Symbol + Type
+    Elf64_Sxword r_addend;    // Constant addend
+} Elf64_Rela;
+```
+
+#### Fields:
+
+|   Field    | Meaning                                            |
+| :--------: | -------------------------------------------------- |
+| `r_offset` | File offset or memory location to patch            |
+|  `r_info`  | Encodes symbol index + relocation type             |
+| `r_addend` | Value to add to final relocation (in `.rela` only) |
+
+#### Relocation types (`r_info`):
+
+- These are actually specific to **64-bit** architecture.
+- They are just information about the relocation type & are critical.
+- For missing or wrong `r_info` value, the linker may produce corrupt binaries.
+
+|         Type         | Meaning                                                                                               |
+| :------------------: | ----------------------------------------------------------------------------------------------------- |
+|    `R_X86_64_64`     | Replace with **64-bit** absolute symbol address, just like how `mov` replaces whole register's value. |
+|   `R_X86_64_PC32`    | **32-bit** PC/ instruction pointer (IP) relative address (`rel32`).                                   |
+|   `R_X86_64_PLT32`   | PC-relative call/jump to PLT entry, like in `call` or `jump` for indirect reference.                  |
+| `R_X86_64_GLOB_DAT`  | Set GOT entry to symbol value, set by loader at runtime.                                              |
+| `R_X86_64_JUMP_SLOT` | Used in lazy resolution via `.plt`.                                                                   |
+| `R_X86_64_RELATIVE`  | Set address relative to `base_addr` (PIE/DSO use), meaning set as per base address size.              |
+
+
+### <u>Inspecting Relocation Information</u>
+
+- We can inspect relocation information using `readelf -r`.
