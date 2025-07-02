@@ -157,3 +157,26 @@
 
 
 ## **Topic - 6: Traditional v/s Business Approach**
+
+### <u>Traditional Data v/s Big Data</u>
+
+| Traditional Data                                         | Big Data                                                             |
+| :------------------------------------------------------- | :------------------------------------------------------------------- |
+| Generated at enterprise level.                           | Generated outside & used at enterprise level.                        |
+| Volume ranges from GBs to TBs.                           | Volume ranges from PBs to EBs (exabytes).                            |
+| Deals only with structured data.                         | Deals with both structured & unstructured data.                      |
+| Generated less frequently.                               | Generated more frequently.                                           |
+| Data is centralized.                                     | Data is distributed.                                                 |
+| Data integration is easy.                                | Data integration is very difficult.                                  |
+| Default system configuration is enough to process it.    | Specialized & more powerful configuration is required to process it. |
+| General purpose database tools are enough to operate it. | Requires special tools to operate it.                                |
+| Needs common algorithms to perform operations on it.     | Needs special algorithms to perform operations on it.                |
+| Data model is schema-based & thus strict.                | Data model is not schema-based & thus flexible.                      |
+| Stable & inter-related.                                  | Unstable & not necessarily inter-related.                            |
+| For example - Financial records, web transactions etc.   | For example - Video, social media etc.                               |
+
+
+### <u>Confidentiality & Data Accuracy</u>
+
+- **<u>Confidentiality</u>:** Setting up rules & restrictions to limit access to confidential data.
+- This is dealt with access control & cryptography.

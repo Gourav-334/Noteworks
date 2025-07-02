@@ -39,4 +39,25 @@ int main()
 
 - Pass as an element or just use your brain buddy!
 
+
+### <u>Dynamic Class Objects</u>
+
+```cpp
+BST *tree = new BST();        // Creation
+
+
+/* Using its methods: */
+
+tree -> insert(89);
+tree -> insert(23);
+tree -> insert(19);
+tree -> insert(90);
+tree -> insert(55);
+tree -> insert(61);
+
+delete tree;        // Deletion
+```
+
+- Destructors of dynamic class objects are not called automatically when the program ends.
+
 ---

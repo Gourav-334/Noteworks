@@ -688,3 +688,49 @@ typedef struct {
 ### <u>Inspecting Relocation Information</u>
 
 - We can inspect relocation information using `readelf -r`.
+
+
+
+## **Topic - 8: Interpreting ELF Binary**
+
+### <u>Definitions</u>
+
+- `readelf` - Tool used for inspecting internals information.
+- `obdump` - Tool used for viewing assembly & raw binary.
+
+
+### <u>Minimal ELF File</u>
+
+- We can strip the ELF generation to minimum size without using `strip`.
+- It can be done by use of `-nostartfiles` flag of GCC.
+
+```sh
+gcc -nostartfiles -o hello hello.c
+```
+
+
+### <u>readelf Options</u>
+
+|    Option    | Description                    |
+| :----------: | ------------------------------ |
+|     `-a`     | Shows all information          |
+|     `-h`     | Shows ELF header (entry point) |
+|     `-l`     | Shows program header           |
+|     `-S`     | Shows section header           |
+|     `-r`     | Shows relocations              |
+|     `-s`     | Shows symbol table             |
+|     `-d`     | Shows `.dynamic` section       |
+| `--dyn-syms` | Shows dynamic symbol table     |
+
+
+### <u>objdump Options</u>
+
+|Option|Description|
+|---|---|
+|`-d`|Disassemble|
+|`-x`|All headers|
+|`-t`|Symbols (from `.symtab`)|
+|`--section=.text`|Disassemble only `.text`|
+|`-r`|Relocation entries|
+
+---

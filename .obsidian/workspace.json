@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "84f01e1869125051",
+        "id": "b6c52fd4b41f25f4",
         "type": "tabs",
         "children": [
           {
-            "id": "c1c5faf44aecc508",
+            "id": "850f2ef8cffdd744",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,28 +165,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1c5faf44aecc508",
+  "active": "850f2ef8cffdd744",
   "lastOpenFiles": [
-    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
+    "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
+    "C++ Programming/W3Schools {C}/11) Lambda Expressions.md",
+    "C++ Programming/W3Schools {C}/10) Smart Pointers.md",
+    "C++ Programming/W3Schools {C}/09) Multithreading.md",
     "C++ Programming/W3Schools {C}/SOURCE CPP (OLD).md",
-    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
+    "C++ Programming/W3Schools {C}/01) Comparison With C.md",
+    "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
+    "C++ Programming/W3Schools {C}/03) File Handling.md",
+    "C++ Programming/W3Schools {C}/04) Exception Handling.md",
+    "C++ Programming/W3Schools {C}/05) Memory Management.md",
+    "C++ Programming/W3Schools {C}/06) Standard Template Library.md",
+    "C++ Programming/W3Schools {C}/07) Generic.md",
+    "C++ Programming/W3Schools {C}/08) Making Libraries.md",
+    "C Programming/Sololearn {C}/05) Memory Management.md",
+    "C Programming/Sololearn {C}/10) GNU C Compiler.md",
+    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
+    "Testing & Quality Assurance/College version {O}/Free Notes.md",
     "Cyber Security/College Version {O}/1) Information Security.md",
-    "C++ Programming/W3Schools {C}/5) Memory Management.md",
     "Big Data Analytics/College version {O}/1) Introduction.md",
+    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
+    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Information & Network Security/College version {O}/1) Cyber Security Basics.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
-    "C++ Programming/W3Schools {C}/7) Generic.md",
-    "C++ Programming/W3Schools {C}/6) Standard Template Library.md",
-    "C++ Programming/W3Schools {C}/4) Exception Handling.md",
-    "C++ Programming/W3Schools {C}/3) File Handling.md",
-    "Testing & Quality Assurance/College version {O}/Free Notes.md",
     "Testing & Quality Assurance/College version {O}/Questions.md",
     "Information & Network Security/College version {O}/media/image1.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-25 114643.png",
-    "C++ Programming/W3Schools {C}/2) Object-Oriented Programming.md",
-    "C++ Programming/W3Schools {C}/1) Comparison With C.md",
     "Testing & Quality Assurance/College version {O}/media",
     "Testing & Quality Assurance/College version {O}",
     "Testing & Quality Assurance",
@@ -199,13 +206,6 @@
     "Information & Network Security/College version {O}/media",
     "Information & Network Security/College version {O}",
     "Information & Network Security",
-    "Linux Development/GNU Debugger.md",
-    "Linux Development/Global Components Access.md",
-    "Linux Development/Git.md",
-    "Linux Development/CMake.md",
-    "Cyber Security/Try Hack Me {D}/02) Linux Fundamentals.md",
-    "Cyber Security/Try Hack Me {D}/01) Cyber Security Basics.md",
-    "Linux Development/Vim.md",
-    "Linux Development/Snap Packaging.md"
+    "Linux Development/GNU Debugger.md"
   ]
 }

@@ -1,4 +1,4 @@
-# $\fbox{Chapter 6: GENERIC}$
+# $\fbox{Chapter 7: GENERIC}$
 
 
 

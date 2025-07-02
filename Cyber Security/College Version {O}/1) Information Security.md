@@ -241,3 +241,18 @@ $$ \text{REPEAT} $$
 - It assures users of integrity, availability, authenticity, non-repudiation & confidentiality of data.
 - While information assurance adds to safe guidelines in hardware & cloud services, cyber security is about protecting from threats digitally.
 - Now that can include hardware, software, networking architecture or anything.
+- This also includes making modifications or gatekeeping company's default workflow.
+
+>**<u>NOTE</u>:**
+>One thing to take not of is that vulnerability in one business asset affects whole connected supply chain.
+
+
+
+## **Topic - 6: Risk Analysis**
+
+### <u>Phases</u>
+
+1. **<u>Asset identification</u>:** Listing all digital assets being used.
+2. **<u>Threat identification</u>:** Identifying vulnerabilities in those assets.
+3. **<u>Vulnerability assessment</u>:** Assessing level of vulnerability.
+4. **<u>Likelihood assessment</u>:** Assessing likelihood of threat occurrence.
