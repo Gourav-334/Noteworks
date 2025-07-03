@@ -22,9 +22,32 @@
 5. Error handling
 6. Cause-effect
 7. State-transition
+8. Use case testing
 
 #### Tools:
 
 - Selenium
 - Jmeter
 - QTP
+
+
+### <u>White-Box Testing</u>
+
+#### Advantages:
+
+- Expert feedback
+- Risk avoidance
+- Quality improvement
+
+#### Disadvantages:
+
+- Cost (to human resources)
+
+#### Types:
+
+1. Penetration testing
+2. Path testing
+3. Mutation testing
+4. Loop testing
+5. Unit testing
+6. Integration testing

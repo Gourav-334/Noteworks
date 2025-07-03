@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b6c52fd4b41f25f4",
+        "id": "1bf6d72b22e01fad",
         "type": "tabs",
         "children": [
           {
-            "id": "850f2ef8cffdd744",
+            "id": "3538af1f02c45a33",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,9 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "850f2ef8cffdd744",
+  "active": "3538af1f02c45a33",
   "lastOpenFiles": [
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
+    "Testing & Quality Assurance/College version {O}/Free Notes.md",
+    "Testing & Quality Assurance/College version {O}/BDA Notes.md",
+    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
+    "Linux Development/Git.md",
+    "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
+    "Big Data Analytics/College version {O}/1) Introduction.md",
+    "Cyber Security/College Version {O}/1) Information Security.md",
     "C++ Programming/W3Schools {C}/11) Lambda Expressions.md",
     "C++ Programming/W3Schools {C}/10) Smart Pointers.md",
     "C++ Programming/W3Schools {C}/09) Multithreading.md",
@@ -183,11 +190,7 @@
     "C Programming/Sololearn {C}/05) Memory Management.md",
     "C Programming/Sololearn {C}/10) GNU C Compiler.md",
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Testing & Quality Assurance/College version {O}/Free Notes.md",
-    "Cyber Security/College Version {O}/1) Information Security.md",
-    "Big Data Analytics/College version {O}/1) Introduction.md",
     "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
-    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Information & Network Security/College version {O}/1) Cyber Security Basics.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
@@ -197,15 +200,12 @@
     "Testing & Quality Assurance/College version {O}/media",
     "Testing & Quality Assurance/College version {O}",
     "Testing & Quality Assurance",
-    "Linux Development/Ubuntu.md",
-    "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Executable & Linking Format/ChatGPT {O}/media",
     "Executable & Linking Format/ChatGPT {O}",
     "Executable & Linking Format/Linux Foundation {D}/media/image2.png",
     "Executable & Linking Format/Linux Foundation {O}/media/Screenshot 2025-06-21 151020.png",
     "Information & Network Security/College version {O}/media",
     "Information & Network Security/College version {O}",
-    "Information & Network Security",
-    "Linux Development/GNU Debugger.md"
+    "Information & Network Security"
   ]
 }

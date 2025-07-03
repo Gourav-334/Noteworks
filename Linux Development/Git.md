@@ -60,7 +60,7 @@ git config --list --local
 ssh-keygen -t ed25519 -C example@gmail.com
 ```
 
-- `25519` is the encryption used when generating key.
+- `ed25519` is the encryption used when generating key.
 - It will prompt question for location to store keys, prefer choosing ~/.
 
 
@@ -185,27 +185,81 @@ git merge <branch_name>
 
 ## **Topic - 5: Tracking Changes**
 
-### <u>Unstage Changes</u>
-
-```sh
-git reset --all
-```
-
-
 ### <u>Uncommit Changes</u>
 
 ```sh
-git revert <commit_id>
+git revert <commit_id>         # Hard reset (loses all progress)
+git reset --soft HEAD~1        # Soft reset without losing work
+git reset --all                # Unstage all changes
+```
+
+
+### <u>Stashing</u>
+
+- Stashing is used for saving temporary works.
+
+```sh
+git stash save "message"        # Same as 'git stash push'.
+git stash list
+git stash pop
+git stash drop stash@{0}        # Removes most recent stash.
+```
+
+
+### <u>Removing Untracked Files</u>
+
+```sh
+git clean -fd
+```
+
+- `-f` means forceful cleaning, while `-d` means including untracked directories.
+- So, `-fd` together is very destructive.
+
+
+### <u>Rebasing</u>
+
+| Type                     | Example                                   | Purpose                                         |
+| ------------------------ | ----------------------------------------- | ----------------------------------------------- |
+| **Basic rebase**         | `git rebase main`                         | Replay current branch commits onto `main`       |
+| **Interactive rebase**   | `git rebase -i HEAD~3`                    | Edit, squash, reorder last 3 commits            |
+| **Onto specific commit** | `git rebase --onto newbase oldbase topic` | Move `topic` branch from `oldbase` to `newbase` |
+| **Abort**                | `git rebase --abort`                      | Cancel ongoing rebase                           |
+| **Continue after fix**   | `git rebase --continue`                   | Resume rebase after conflict                    |
+| **Skip**                 | `git rebase --skip`                       | Ignore a problematic commit                     |
+
+
+
+## **Topic - 6: Tagging**
+
+```sh
+git tag v1.0                              # Lightweight tag
+git tag -a v1.0 -m "release notes"        # Annoted '-a' tag
+git push origin v1.0
+git push origin --tags                    # Push all tags
 ```
 
 
 
-## **Topic - 6: Miscalleneous**
+## **Topic - 7: Miscellaneous**
 
 ### <u>Total Number Of Commits</u>
 
 ```sh
 git rev-list --count HEAD
 ```
+
+
+### <u>Log Customization</u>
+
+```sh
+git log --oneline --graph --all --decorate
+```
+
+|     Flag     | Purpose                                    |
+| :----------: | ------------------------------------------ |
+| `--oneline`  | Compress each commit to one line           |
+|  `--graph`   | Draws ASCII commit tree (branches, merges) |
+|   `--all`    | Show all branches (not just current)       |
+| `--decorate` | Show branch/tag names alongside commits    |
 
 ---

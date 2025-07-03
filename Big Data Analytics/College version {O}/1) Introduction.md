@@ -180,3 +180,44 @@
 
 - **<u>Confidentiality</u>:** Setting up rules & restrictions to limit access to confidential data.
 - This is dealt with access control & cryptography.
+
+
+
+## **Topic - 7: Case Study For Big Data**
+
+### <u>Big Data Solutions</u>
+
+#### Storage:
+
+- For huge amount of data, we can use Hadoop' HDFS feature.
+- **<u>HDFS</u>:** Hadoop Distributed File System
+- It works on - ***"Write once, read many times"*** principle.
+- Hadoop is open source, so no cost issue.
+
+#### Processing:
+
+- **Map reduce algorithm** is applied to find data in distributed network.
+- This algorithm optimizes searching of data.
+
+#### Analyze:
+
+- For analysis, **Pig** or **Hive** can be used.
+
+
+### <u>Objectives Of Businesses</u>
+
+1. Identification & mitigation of risk
+2. Preventive maintenance & support
+3. Content analysis of unstructured data
+4. Personalization & recommendation
+5. Forecasting & price optimization
+6. Fraud prevention & cyber security
+7. Customer acquisition & retention
+8. Better business intelligence
+
+>**<u>Fact</u>:**
+>1. ***Walmart***, one of the earliest user of big data concept, used Hadoop & SQL to mine data and get real-time customers purchase insights.
+>2. ***Uber*** has similar story.
+>3. ***Netflix*** recommendation engine similarly uses Hadoop, Hive & Pig.
+
+---
