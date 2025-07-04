@@ -38,3 +38,25 @@
 - Hill cipher
 - Polyalphabetic cipher
 - One-time pad
+
+
+
+## **Topic - 3: Caesar Cipher**
+
+### <u>Algorithms</u>
+
+#### Encryption:
+
+$$ C\;=\;E(3,P)\;=\;(P+3)\;mod\;26$$
+
+#### Decryption:
+
+$$ P\;=\;D(3,C)\;=\;(C-3)\;mod\;26 $$
+
+
+### <u>Working</u>
+
+- Alphabets are assigned indexes, starting from $0$ to $25$.
+- Basically, alphabets are switched with other alphabets as per the key.
+- For negative numbers, subtract the result from $26$.
+- During brute force attack on Caesar ciphers, cryptanalyst needs to try just 26 possible keys ($[0,25]$).

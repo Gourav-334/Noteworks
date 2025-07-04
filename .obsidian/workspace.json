@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1bf6d72b22e01fad",
+        "id": "d83bcccdd95789fa",
         "type": "tabs",
         "children": [
           {
-            "id": "3538af1f02c45a33",
+            "id": "75cbc7b85a7982d2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,16 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3538af1f02c45a33",
+  "active": "75cbc7b85a7982d2",
   "lastOpenFiles": [
+    "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
+    "Linux Development/Git.md",
+    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
+    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
+    "Cyber Security/College Version {O}/1) Information Security.md",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Testing & Quality Assurance/College version {O}/Free Notes.md",
     "Testing & Quality Assurance/College version {O}/BDA Notes.md",
-    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
-    "Linux Development/Git.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Big Data Analytics/College version {O}/1) Introduction.md",
-    "Cyber Security/College Version {O}/1) Information Security.md",
     "C++ Programming/W3Schools {C}/11) Lambda Expressions.md",
     "C++ Programming/W3Schools {C}/10) Smart Pointers.md",
     "C++ Programming/W3Schools {C}/09) Multithreading.md",
@@ -191,10 +193,8 @@
     "C Programming/Sololearn {C}/10) GNU C Compiler.md",
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
     "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
-    "Information & Network Security/College version {O}/1) Cyber Security Basics.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
-    "Testing & Quality Assurance/College version {O}/Questions.md",
     "Information & Network Security/College version {O}/media/image1.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-25 114643.png",
     "Testing & Quality Assurance/College version {O}/media",

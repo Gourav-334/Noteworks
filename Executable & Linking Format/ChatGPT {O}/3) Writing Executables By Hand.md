@@ -296,6 +296,7 @@ uint8_t code[] = {
 
 - Though each instruction varies in length (in bytes), the loader differentiates by reading the first byte.
 - The first byte tells which opcode is being used.
+- Message comes at last because `.data` & `.bss` sections start after `.text` ends.
 
 #### Writing byte streams:
 
@@ -336,7 +337,7 @@ return 0;
 
 
 
-### <u>Assembly Code</u>
+### <u>Generator Code</u>
 
 #### Headers:
 
@@ -485,3 +486,150 @@ printf("ELF binary 'hello' generated in out!\n");
 
 return 0;
 ```
+
+
+
+## **Topic - 5: Flat Binaries & ELF Transformation**
+
+### <u>Goals/Objectives</u>
+
+- Choosing offsets for sections ourselves.
+- Wrapping flat binary in ELF template by providing it sections offsets.
+
+
+### <u>Binary Layout Plan</u>
+
+| Offset | Description      | Size (in bytes) |
+| :----: | ---------------- | :-------------: |
+| `0x00` | `Elf64_Ehdr`     |       64        |
+| `0x40` | `Elf64_Phdr`     |       56        |
+| `0x78` | Flat binary code |     Depends     |
+
+
+### <u>Flat Binary Code</u>
+
+#### Headers:
+
+```c
+/* hello_elf.c */
+
+#include <stdio.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <elf.h>
+```
+
+#### Loading flat binary (inside `main()`):
+
+```c
+FILE *f = fopen("flat.bin", "rb");
+if (!f) {perror("flat.bin"); return 1;}
+```
+
+#### Saving size of flat:
+
+```c
+fseek(f, 0, SEEK_END);
+size_t flat_size = ftell(f);
+fseek(f, 0, SEEK_SET);
+```
+
+#### Loading flat to memory:
+
+```c
+uint8_t *flat = malloc(flat_size);
+fread(flat, 1, flat_size, f);
+fclose(f);
+```
+
+#### Allocating full buffer:
+
+```c
+size_t elf_size = 0x78 + flat_size;    // 0x78 is offset of code
+uint8_t *elf = calloc(1, elf_size);    // Zero-initialized
+```
+
+- Notice that `eld` is a pointer to our reserved memory for modifying `flat.bin`.
+
+#### ELF header:
+
+```c
+Elf64_Ehdr *ehdr = (Elf64_Ehdr *)elf;
+memcpy(ehdr->e_ident, "\x7f""ELF", 4);
+
+
+ehdr -> e_ident[EI_CLASS]   = ELFCLASS64;
+ehdr -> e_ident[EI_DATA]    = ELFDATA2LSB;
+ehdr -> e_ident[EI_VERSION] = EV_CURRENT;
+ehdr -> e_ident[EI_OSABI]   = ELFOSABI_SYSV;
+
+ehdr -> e_type = ET_EXEC;
+ehdr -> e_machine = EM_X86_64;
+ehdr -> e_version = EV_CURRENT;
+ehdr -> e_entry = 0x400078;              // Entry point
+ehdr -> e_phoff = sizeof(Elf64_Ehdr);    // Program header offset
+ehdr -> e_ehsize = sizeof(Elf64_Ehdr);
+ehdr -> e_phentsize = sizeof(Elf64_Phdr);
+ehdr -> e_phnum = 1;
+```
+
+- We are taking casted pointers instead of structure instances to overlay structure on previously reserved memory.
+
+#### Program header:
+
+```c
+Elf64_Phdr *phdr = (Elf64_Phdr *)(elf + sizeof(Elf64_Ehdr));
+
+phdr -> p_type = PT_LOAD;
+phdr -> p_offset = 0;
+phdr -> p_vaddr = 0x400000;
+phdr -> p_paddr = 0x400000;
+phdr -> p_filesz = elf_size;
+phdr -> p_memsz  = elf_size;
+phdr -> p_flags = PF_R | PF_X;
+phdr -> p_align = 0x1000;
+```
+
+#### Copy flat to buffer:
+
+```c
+memcpy(elf + 0x78, flat, flat_size);
+```
+
+#### Writing to flat file:
+
+```c
+FILE *out = fopen("hello_elf", "wb");
+fwrite(elf, 1, elf_size, out);
+fclose(out);
+```
+
+#### Freeing memory:
+
+```c
+free(flat);
+free(elf);
+```
+
+#### Closing statements:
+
+```c
+printf("Generated ELF: hello_elf\n");
+return 0;
+```
+
+
+### <u>Build & Run</u>
+
+- We will build flat binary using NASM first.
+
+```sh
+nasm -f bin -o flat.bin hello.asm
+```
+
+- `-f bin` means **output format is binary**.
+- `hello.asm` is input file, while `flat.bin` is output file.
+- Rest of the steps are same as shown in previous topics.
+
+---

@@ -250,9 +250,26 @@ $$ \text{REPEAT} $$
 
 ## **Topic - 6: Risk Analysis**
 
-### <u>Phases</u>
+### <u>Steps</u>
 
 1. **<u>Asset identification</u>:** Listing all digital assets being used.
 2. **<u>Threat identification</u>:** Identifying vulnerabilities in those assets.
 3. **<u>Vulnerability assessment</u>:** Assessing level of vulnerability.
 4. **<u>Likelihood assessment</u>:** Assessing likelihood of threat occurrence.
+5. **<u>Impact assessment</u>:** Analysis of possible impact on organization's infrastructures.
+6. **<u>Risk calculation</u>:** Combines likelihood & impact assessment.
+7. **<u>Risk prioritization</u>:** Helps focus on more critical infrastructures first & most.
+8. **<u>Mitigating strategies</u>:** Strategies to overcome vulnerabilities.
+9. **<u>Documentation & reporting</u>:** Documenting everything & reporting to stakeholders.
+10. **<u>Continuous monitoring & review</u>:** *\*As the name says...*
+
+
+### <u>Risk Control Cycle</u>
+
+1. Identify
+2. Assess & evaluate
+3. Strategize
+4. Implement
+5. Monitor & document
+
+---

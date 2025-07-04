@@ -76,7 +76,7 @@ eval "$(ssh-agent -s)"
 
 ### <u>Step - III</u>
 
-- Check for presence of $config$ file in the created folder.
+- Check for presence of `config` file in the created folder.
 
 ```sh
 ~/.ssh/config
@@ -229,7 +229,93 @@ git clean -fd
 
 
 
-## **Topic - 6: Tagging**
+## **Topic - 6: Bisection**
+
+### <u>Introduction</u>
+
+- Bisection helps us finding a buggy commit that caused certain problem.
+- This is done using binary search on the commit list.
+- It starts bisecting the middle commit in range from first & last commit.
+- Then it changes direction as per our feedback, after we manually test.
+
+
+### <u>Commands</u>
+
+#### Start:
+
+```sh
+git bisect start
+```
+
+#### Feedback loop:
+
+```sh
+git bisect bad
+git bisect good <good_commit>
+```
+
+- `<good_commit>` can be commit hash, tag or reference.
+- Commit hash example - `41b3a2f`
+- Tag example - `v1.2.0`
+- Reference - `main~10`
+
+#### Reset to head:
+
+```sh
+git bisect reset        # After we have found faulty commit.
+```
+
+
+
+## **Topic - 7: Hooks**
+
+### <u>Introduction</u>
+
+- **Hooks** are used for automating Git-based operations.
+- Files for hooks are found at `.git/hook/`.
+- Files there are stored with `.sample` extension, which has to be removed in order to be usable.
+- They use Bash script code only to run.
+
+
+### <u>Files Present</u>
+
+- `pre-commit.sample`
+- `commit-msg.sample`
+- `pre-push.sample`
+- `pre-base.sample`
+- `post-merge.sample`
+- `post-checkout.sample`
+
+>**<u>Note</u>:**
+>1. Remove the extension & allow runnable permission before running them.
+>2. If any file is missing, we can simply create one.
+>3. Scripts can be smartly written for conditional operations.
+
+
+### <u>Example</u>
+
+- Let's say we want commits to be in format shown below.
+
+```
+feat: add login support
+fix: correct typo in loader
+```
+
+- Then we can edit `commit-msg` to form shown below.
+
+```sh
+#!/bin/bash
+commit_msg=$(cat "$1")
+
+if ! grep -qE "^(feat|fix|doc|refactor): .+" <<< "$commit_msg"; then
+	echo "[ERROR] Commit message must start with feat|fix|doc|refactor"
+	exit 1
+fi
+```
+
+
+
+## **Topic - 8: Tagging**
 
 ```sh
 git tag v1.0                              # Lightweight tag
@@ -240,7 +326,61 @@ git push origin --tags                    # Push all tags
 
 
 
-## **Topic - 7: Miscellaneous**
+## **Topic - 9: Submodules**
+
+### <u>Introduction</u>
+
+- Used for bundling a repository with its dependencies, present in different directory.
+- Dependencies retain their own commit history.
+- Each submodule is kept in different directory.
+
+
+### <u>Commands</u>
+
+#### Add a submodule:
+
+```sh
+git submodule add https://github.com/user/repo.git path/to/subm
+```
+
+- Directly adding submodule in root directly is not allowed by Git.
+
+#### Getting submodules:
+
+- This is useful when we need sub-modules that are dependencies of a cloned repository.
+
+```sh
+git submodule init
+git submodule update
+
+# OR JUST
+
+git clone --recurse-submodules <repo>
+```
+
+#### Pull changes:
+
+- We can pull changes to submodules using the command given below.
+
+```sh
+cd submodules/ && git pull
+```
+
+
+### <u>Removing Submodule</u>
+
+```sh
+# Removing entry from .gitmodules
+git config -f .gitmodules --remove-section submodule.path/to/subm
+rm -rf .git/modules/path/to/submodule
+
+git rm --cached path/to/subm
+rm -rf path/to/subm
+```
+
+
+
+## **Topic - 10: Miscellaneous**
 
 ### <u>Total Number Of Commits</u>
 
