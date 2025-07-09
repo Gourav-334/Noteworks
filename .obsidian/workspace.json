@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d83bcccdd95789fa",
+        "id": "f8a02aece9916f86",
         "type": "tabs",
         "children": [
           {
-            "id": "75cbc7b85a7982d2",
+            "id": "fb918c0d596dbefb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "d1380046182a1bac",
@@ -165,18 +164,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75cbc7b85a7982d2",
+  "active": "fb918c0d596dbefb",
   "lastOpenFiles": [
+    "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
+    "UNIX System Calls/CPP Reference {C}/5) Multithreading.md",
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
+    "Testing & Quality Assurance/College version {O}/Free Notes.md",
+    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
+    "Big Data Analytics/College version {O}/2) Hadoop.md",
+    "Big Data Analytics/College version {O}/1) Introduction.md",
     "Linux Development/Git.md",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
-    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
     "Cyber Security/College Version {O}/1) Information Security.md",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
-    "Testing & Quality Assurance/College version {O}/Free Notes.md",
     "Testing & Quality Assurance/College version {O}/BDA Notes.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
-    "Big Data Analytics/College version {O}/1) Introduction.md",
     "C++ Programming/W3Schools {C}/11) Lambda Expressions.md",
     "C++ Programming/W3Schools {C}/10) Smart Pointers.md",
     "C++ Programming/W3Schools {C}/09) Multithreading.md",
@@ -190,9 +192,6 @@
     "C++ Programming/W3Schools {C}/07) Generic.md",
     "C++ Programming/W3Schools {C}/08) Making Libraries.md",
     "C Programming/Sololearn {C}/05) Memory Management.md",
-    "C Programming/Sololearn {C}/10) GNU C Compiler.md",
-    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
     "Information & Network Security/College version {O}/media/image1.png",

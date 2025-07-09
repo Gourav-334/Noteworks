@@ -51,3 +51,35 @@
 4. Loop testing
 5. Unit testing
 6. Integration testing
+
+
+### <u>Cyclomatic Complexity</u>
+
+| Cyclomatic Complexity | Level                       |
+| :-------------------: | :-------------------------- |
+|         1-10          | Low (effort, cost, time)    |
+|         11-20         | Medium (effort, cost, time) |
+|         21-30         | High (effort, cost, time)   |
+|       31-ABOVE        | Highest                     |
+
+- Independent path
+- Nodes
+- Edges
+- Region (bounded)
+
+$$ CC(m)\;\text{OR}\;V(G) $$
+$$ M\;=\;E\;-\;N\;+\;2 $$
+$$ M\;=\;R\;+\;1 $$
+
+
+### <u>BBT v/s WBT</u>
+
+| BBT                                         | WBT                                                  |
+| :------------------------------------------ | :--------------------------------------------------- |
+| Beta testing                                | Alpha testing                                        |
+| User, client, stakeholder, businessmen      | Tester, developer, export, project manager, SQA, SQC |
+| Externally                                  | Internally                                           |
+| Domain knowledge experience is not required | Required (domain, project, code)                     |
+| Closed-box testing                          | Glass-box, clear-box, code-based test                |
+| Get feedback from user & client             | Tester, developer, expert (feedback)                 |
+|                                             |                                                      |
