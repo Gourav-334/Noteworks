@@ -82,4 +82,28 @@ $$ M\;=\;R\;+\;1 $$
 | Domain knowledge experience is not required | Required (domain, project, code)                     |
 | Closed-box testing                          | Glass-box, clear-box, code-based test                |
 | Get feedback from user & client             | Tester, developer, expert (feedback)                 |
-|                                             |                                                      |
+
+
+### <u>Object-Oriented Testing</u>
+
+- **<u>OOT</u>:** A method in which we can check all concepts of OOP.
+- It is done after completion of conventional testing.
+- Mainly applicable on large scale projects.
+
+#### Disadvantages:
+
+- Complex issues
+- Can't perform automation testing
+
+#### Levels:
+
+1. Algorithmic level
+2. Class-level testing
+3. Interclass-level testing
+4. Cluster-level testing
+5. System-level testing
+6. Regression testing
+
+>**<u>QUESTIONS</u>:**
+>1. Disadvantages of conventional testing.
+>2. Disadvantages of OOT.

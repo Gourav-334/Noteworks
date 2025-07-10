@@ -6,8 +6,8 @@
 
 ### <u>Conventions</u>
 
-- `#` prompts execution of commands with root privileges, either with default root user or with `sudo`.
-- `$` executes commands as a non-privileged user.
+- `#` in terminal means execution of commands with root privileges, either with default root user or with `sudo`.
+- While `$` executes commands as a non-privileged user.
 
 
 ### <u>Getting Location of Bash</u>
@@ -20,7 +20,7 @@ which bash
 ### <u>First Script</u>
 
 ```sh
-\#!usr/bin/bash
+#!usr/bin/bash
 
 str="Hello, World!"
 echo $str
@@ -64,6 +64,8 @@ my_func        # Calling the function
 echo $1 $2 $3      # Statement 1
 echo '$1 $2 $3'    # Statement 2
 echo "$1 $2 $3"    # Statement 3
+
+# Output: $1 $2 $3
 ```
 
 - Only line 2 is executed successfully, notice it between single inverted commas.
@@ -75,16 +77,16 @@ echo "$1 $2 $3"    # Statement 3
 ```sh
 #!usr/bin/bash
 
-args=(" \$@ ")
+args=(" $@ ")        # " $@ " means receive args.
 
 echo ${args[0]} ${args[1]} ${args[2]} ${args[3]}    # Line 1
 echo $@        # Line 2
 echo $#        # Line 3
 ```
 
-- Line 1 – Prints first 4 arguments passed with command `bash test.sh`.
-- Line 2 – Prints all arguments passed.
-- Line 3 – Prints the number of arguments passed.
+- **Line 1 –** Prints first 4 arguments passed with command `bash test.sh`.
+- **Line 2 –** Prints all arguments passed.
+- **Line 3 –** Prints the number of arguments passed.
 
 
 ### <u>Echoing Terminal Commands</u>
@@ -96,8 +98,8 @@ echo $(uname -o)        # Line 1
 echo uname -o           # Line 2
 ```
 
-- Line 1 – Prints `GNU/Linux` i.e. the name of the operating system.
-- Line 2 – Prints literally `uname -o`.
+- **Line 1 –** Prints `GNU/Linux` i.e. the name of the operating system.
+- **Line 2 –** Prints literally `uname -o`.
 
 
 ### <u>Taking User Inputs</u>
@@ -114,9 +116,8 @@ read name sur                        # Todd Baker
 echo "Name: $name, Surname: $sur"    # Name: Todd, Surname: Baker
 
 echo "Enter your full name: "
-read name sur                        #Gourav Kumar Mallick
-echo "Name: $name, Surname: $sur"
-# Name: Gourav, Surname: Kumar Mallick
+read name sur                        # Gourav Kumar Mallick
+echo "Name: $name, Surname: $sur"    # Name: Gourav (rest is surname)
 ```
 
 
@@ -169,6 +170,19 @@ bashtrap()
 - `bashtrap` is the variable name we gave to our trap, of type `INT` (interrupt).
 - (`;`) is used to write multiple commands on same line.
 
+#### Other traps:
+
+|   Trap   | Description                             |
+| :------: | :-------------------------------------- |
+|  `EXIT`  | Triggered during normal exit.           |
+|  `ERR`   | Stored in `ERR` when error encountered. |
+|  `TERM`  | Termination request                     |
+|  `HUP`   | Hang up (terminal closed)               |
+|  `QUIT`  | Manual exit from keyboard (`Ctrl`+).    |
+| `DEBUG`  | Storing debug info advanced.            |
+| `RETURN` | Stores return point                     |
+| `SIGINT` | Traps the signal interrupt number.      |
+
 
 ### <u>Difference In Bash Shell Commands</u>
 
@@ -176,11 +190,11 @@ bashtrap()
 #!usr/bin/bash
 
 ls                   # Line 1
-echo "\$(ls)"        # Line 2
+echo "$(ls)"        # Line 2
 ```
 
-- Line 1 – Direct & makes some proper indentation to shell texts.
-- Line 2 – Comparatively less efficient.
+- **Line 1 –** Direct & makes some proper indentation to shell texts.
+- **Line 2 –** Comparatively less efficient.
 
 
 ### <u>Array</u>
@@ -253,23 +267,23 @@ fi
 
 ### <u>File Testing</u>
 
-|    `-b filename`    | Block special file.                                 |
-| :-----------------: | --------------------------------------------------- |
-|    `-c filename`    | Special character file.                             |
-| `-d directory_name` | Check for directory existence.                      |
-|    `-e filename`    | Check for file existence.                           |
-|    `-f filename`    | Check for regular file existence & not directory.   |
-|    `-G filename`    | Check if file exists & owned by effective group ID. |
-|    `-g filename`    | True if file exists & group ID is set.              |
-|    `-k filename`    | Sticky bit.                                         |
-|    `-L filename`    | Symbolic bit.                                       |
-|    `-O filename`    | True if file exists & owned by effective user ID.   |
-|    `-r filename`    | Check if file is readable.                          |
-|    `-S filename`    | Check if file is socket.                            |
-|    `-s filename`    | Check if file is of non-zero size.                  |
-|    `-u filename`    | Check if file has set user ID bit.                  |
-|    `-w filename`    | Check if file is writable.                          |
-|    `-x filename`    | Check if file is executable.                        |
+|    `-b filename`    | Block special file.                                                |
+| :-----------------: | ------------------------------------------------------------------ |
+|    `-c filename`    | Checks if file represents character device driver.                 |
+| `-d directory_name` | Check for directory existence.                                     |
+|    `-e filename`    | Check for file existence.                                          |
+|    `-f filename`    | Check for regular file existence & not directory.                  |
+|    `-G filename`    | Check if file exists & owned by effective group ID.                |
+|    `-g filename`    | True if file exists & group ID is set.                             |
+|    `-k filename`    | Sticky bit - Checks if directory rights is particular to an owner. |
+|    `-L filename`    | Symbolic bit - Used to search by pattern.                          |
+|    `-O filename`    | True if file exists & owned by effective user ID.                  |
+|    `-r filename`    | Check if file is readable.                                         |
+|    `-S filename`    | Check if file is socket.                                           |
+|    `-s filename`    | Check if file is of non-zero size.                                 |
+|    `-u filename`    | Check if file has set user ID bit.                                 |
+|    `-w filename`    | Check if file is writable.                                         |
+|    `-x filename`    | Check if file is executable.                                       |
 
 #### Example 1:
 

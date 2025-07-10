@@ -265,3 +265,135 @@ void process(struct Big b);
 - The hidden padding in structs are aligned when number of arguments go beyond seven.
 - They are aligned in stack & more significant bits are filled with zeroes.
 - That's the padding we see in C structs.
+
+
+
+## **Topic - 4: Return Values**
+
+### <u>Goals/Objectives</u>
+
+- Understanding how values are returned from function.
+- Understanding where returned values are stored in memory.
+- Types - Scalar & structs
+
+
+### <u>Scalar Return Types</u>
+
+|Return Type|Register(s) Used|
+|---|---|
+|`int`, `char`, `short`, `bool`, pointer|`rax`|
+|`long`, `void *`|`rax`|
+|`__int128`|`rdx:rax`|
+|`float`|`xmm0`|
+|`double`|`xmm0`|
+|`long double`|`st0` (x87 FPU — legacy)|
+
+
+### <u>Integer Example</u>
+
+#### C:
+
+```c
+int add(int a, int b) {
+    return a + b;
+}
+```
+
+- `objdump` is very useful when viewing equivalent assembly code & cross-checking how returning is performed.
+
+#### NASM:
+
+```asm
+mov eax, edi        ; copy a
+add eax, esi        ; add b
+ret                 ; result in eax
+```
+
+
+### <u>Mixed Approach</u>
+
+- If both `int` & `float` are used in a structure, both RAX & XMM0 are used.
+- Complex numbers use XMM0 & XMM1 together.
+
+
+
+## **Topic - 5: Stack Alignment & Red Zone**
+
+### <u>Goals/Objectives</u>
+
+- Understanding stack alignment requirements.
+- Understanding concept of red zone.
+
+
+### <u>Stack Alignment</u>
+
+- Modern CPUs can handle 16-byte alignment fast.
+- Both SSE & AVX require 16-byte alignment.
+- Even the stack pointer (RSP) needs alignment to 16-bytes.
+
+
+### <u>Stack Pointer</u>
+
+- As said earlier, RSP register is aligned by 16-bytes before `call`.
+- But after `call`, an 8-byte address might be pushed to RSP.
+- This removes the 16-byte alignment we had earlier.
+
+
+### <u>Red Zone</u>
+
+- **<u>Red zone</u>:** 128-byte long area before RSP which interrupts can't affect.
+- It allows leaf functions to use it for data storage, without RSP alignment.
+- **<u>Leaf function</u>:** Function which doesn't call another function.
+- Red zone is useful as it can be used by trivial leaf functions without stress to adjust RSP.
+- Also red zone boosts leaf function's performance.
+
+```gas
+# Using red zone for locals without pushing/popping stack.
+movq $42, -8(%rsp)        # Directly storing data
+```
+
+- `-8` means 8 bytes before RSP.
+
+>**<u>NOTE</u>:**
+>1. **Windows x64 ABI** doesn't contain red zone.
+>2. Some kernel or low-level might not allow using red zone.
+
+
+### <u>Common Doubt</u>
+
+- One doubt would be that while RSP's value is variable, how could red zone be relative to it?
+- Red zone is not a fixed memory space, but rather something that floats with RSP.
+- Whatever the value of RSP is, 128-bytes before it is red zone.
+
+
+### <u>Non-Leaf Function</u>
+
+```nasm
+sub rsp, 32        ; Allocate 32 bytes on stack (16B aligned)
+
+...                ; Use [rsp], [rsp+8], etc.
+
+call printf        ; Function call allowed
+add rsp, 32        ; Deallocate
+ret
+```
+
+- Notice that memory in stack is allocated via subtraction, meaning stack grows downward.
+
+
+
+## **Topic - 6: Signal Frame ABI**
+
+### <u>Introduction</u>
+
+- **<u>Signal frame</u>:** An environment created to handle a received signal.
+- Whenever a signal is received by a user-space process, the kernel interrupts the normal flow of program & signal frame is created.
+- It is created at process's stack.
+- This signal frame handles the received signal & then resumes the paused flow of program.
+
+
+### <u>Moment Of Signal Delivery</u>
+
+1. Kernel saves current user context into struct `sigcontext` or `ucontext`.
+2. Allocates space on stack for signal frame.
+3. 
