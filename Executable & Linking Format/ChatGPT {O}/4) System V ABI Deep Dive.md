@@ -231,7 +231,7 @@ void draw(struct Point p);
 - Struct is of 8 bytes, can be easily passed via two registers for each member.
 - Both the struct members `x` & `y` would be passed through `rdi` & `rsi` respectively.
 
-```asm
+```nasm
 mov edi, 4        ; p.x = 4
 mov esi, 5        ; p.y = 5
 call draw
@@ -303,7 +303,7 @@ int add(int a, int b) {
 
 #### NASM:
 
-```asm
+```nasm
 mov eax, edi        ; copy a
 add eax, esi        ; add b
 ret                 ; result in eax
@@ -391,9 +391,112 @@ ret
 - It is created at process's stack.
 - This signal frame handles the received signal & then resumes the paused flow of program.
 
+>**<u>NOTE</u>:**
+>If there is no signal handler, then the OS performs default action.
+
 
 ### <u>Moment Of Signal Delivery</u>
 
-1. Kernel saves current user context into struct `sigcontext` or `ucontext`.
+#### What "kernel" does?
+
+1. Saves current user context/state into struct `sigcontext` or `ucontext`.
 2. Allocates space on stack for signal frame.
-3. 
+3. Pushes a fake return address to restorer function.
+4. Control of process is transferred to the signal handler.
+
+>**<u>NOTE</u>:**
+>1. Saving user context/state includes saving resisters, signal numbers etc.
+>2. Restorer is a function used to safely return from signal frame.
+>3. Fake address is `ret`, which calls restorer & restorer calls `sigreturn`.
+
+#### What "user process" does?
+
+5. Executes signal handler.
+
+#### What "kernel" does - II:
+
+6. After return from signal frame, kernel restores user context/state back.
+7. Resumes the normal execution of the program that was paused.
+
+>**<u>NOTE</u>:**
+>1. Return from signal frame is done using `sigreturn` syscall.
+>2. Restorer function is provided by ***glibc*** or user manually.
+>3. Restorer function makes the `sigreturn` syscall.
+
+
+### <u>Signal Frame Layout</u>
+
+```
+(High Address)
+
+|------------|    <- RSP at signal entry
+| siginfo_t  |       (optional, if SA_SIGINFO set)
+|------------|
+| ucontext_t |    <- Saved GPRs, FPUs, sigmask, etc.
+|------------|
+| return addr|    <- Trampoline/restorer
+|------------|
+
+(Low Address)
+```
+
+- `siginfo_t` stores information about signal.
+- Signal masks are stored as `sigset_t` at ***bitmask***, but inaccessible by users.
+- **<u>Bitmask</u>:** 1024-bits (128 bytes) representing blocked signals.
+
+
+### <u>Registers Involved</u>
+
+| Register | Purpose                                  |
+| :------: | ---------------------------------------- |
+|  `%rsp`  | Points to signal frame (set by kernel)   |
+|  `%rip`  | Set to signal handler address            |
+|  `%rax`  | May be used for syscall like `sigreturn` |
+|  Others  | Saved in `ucontext_t`                    |
+
+- Signal handler's address is set by the programmer.
+
+```c
+struct sigaction sa;
+sa.sa_handler = my_handler;
+
+sigaction(SIGINT, &sa, NULL);
+```
+
+
+### <u>Related Syscalls</u>
+
+|    Syscall     | Description                       |
+| :------------: | --------------------------------- |
+|  `sigaction`   | Register a signal handler         |
+| `rt_sigaction` | Modern version (with `siginfo_t`) |
+|  `sigreturn`   | Restore context, resume execution |
+
+
+### <u>SA_SIGINFO v/s Legacy Mode</u>
+
+#### SA_SIGINFO:
+
+```c
+void handler(int sig, siginfo_t *, void *);
+```
+
+- Pushed by user.
+- More detailed for better debugging experience.
+- Has larger frame.
+
+#### Legacy mode:
+
+```c
+void handler(int sig);
+```
+
+- Pushed by kernel.
+- Poor debugging experience.
+- Smaller frame.
+
+>**<u>WARNING</u>:**
+>1. Red zone mustn't be used in signal handling!
+>2. Stack must be marked with `PROT_EXEC` (meaning executable) to work.
+
+---

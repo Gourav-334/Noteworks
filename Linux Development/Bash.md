@@ -366,17 +366,17 @@ done
 
 function my_func
 {
-	echo $2        # Prints second argument
+	echo $2        # Prints second argument (index 1)
 }
 
-my_func "Gourav" "Aarav" "Papa" "Mamma"
+my_func "Batman" "Superman" "Flash" "Aquaman"
 # These are arguments passed
 ```
 
 #### Output:
 
 ```sh
-Aarav
+Superman
 ```
 
 
@@ -392,19 +392,24 @@ do
 done
 
 exit 0
-	1) Mauritius
-	2) Quebec
-	3) Switzerland
-	4) Chicago
 ```
 
-#### Input:
+#### Output - I:
+
+```sh
+1) Mauritius
+2) Quebec
+3) Switzerland
+4) Chicago
+```
+
+#### Prompt input:
 
 ```sh
 #? 2
 ```
 
-#### Output:
+#### Output - II:
 
 ```sh
 Selected word: Quebec
@@ -421,7 +426,7 @@ case $WORD in
 	2) echo "Riptide"
 	3) echo "Pacman"
 	4) exit
-esac
+esac    # case closing
 ```
 
 - `1`, `2`, `3` etc are patterns which as input `WORD`, affect which case to be executed.
@@ -429,7 +434,7 @@ esac
 
 ### <u>Quotes & Quotations</u>
 
-- Meta characters like `$` can be escaped with just like C/C++.
+- Meta characters like `$` can be escaped with just like in C/C++.
 - Even single quotes `' '` can be used to enclose whole string, keeping meta characters literally.
 - Double quotes `" "` takes all meta characters literally, except `$`, and `.`.
 
@@ -468,7 +473,7 @@ echo "$(($NUM1 + $NUM2))"           # 65
 
 - Its `-i` after declare because it means the declared variable is an integer.
 - Otherwise, it may work as string if not defined explicitly.
-- Notice the difference between let & declare clearly above.
+- Notice the difference between `let` & `declare` clearly above.
 - We can use other operators as well, including modulus & `**` for power.
 
 
@@ -509,8 +514,10 @@ read INPUT
 
 echo "Result with 3 digits after decimal point: "
 echo "scale=3; ${INPUT}" | bc
+echo "3.5 + 2.2" | bc        # 5.7
 ```
 
+- `bc` stands for basic calculator.
 - The semicolon after scale is important, which when not being there can cause error.
 
 ---

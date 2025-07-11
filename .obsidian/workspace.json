@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ccf96221827e93e",
+        "id": "b3993d2123ceac25",
         "type": "tabs",
         "children": [
           {
-            "id": "fe91139313b917db",
+            "id": "850302191d6fbecf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "d1380046182a1bac",
@@ -165,21 +164,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe91139313b917db",
+  "active": "850302191d6fbecf",
   "lastOpenFiles": [
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
+    "Testing & Quality Assurance/College version {O}/Free Notes.md",
+    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
+    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
+    "Linux Development/Bash.md",
+    "Linux Development/Ubuntu.md",
+    "Linux Development/Git.md",
     "Big Data Analytics/GTU Darshan {O}/2) Hadoop.md",
     "Big Data Analytics/GTU Darshan {O}/1) Introduction.md",
-    "Testing & Quality Assurance/College version {O}/Free Notes.md",
     "Computer Network/College Version {C}/4) Transport Layer.md",
     "Computer Network/College Version {C}/2) Data Link Layer.md",
     "Cyber Security/College Version {O}/1) Information Security.md",
     "Information & Network Security/College version {O}/1) Cyber Security Basics.md",
-    "Linux Development/Bash.md",
-    "Linux Development/Git.md",
     "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
     "UNIX System Calls/CPP Reference {C}/5) Multithreading.md",
-    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Testing & Quality Assurance/College version {O}/BDA Notes.md",
@@ -191,8 +192,6 @@
     "C++ Programming/W3Schools {C}/01) Comparison With C.md",
     "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
     "C++ Programming/W3Schools {C}/03) File Handling.md",
-    "C++ Programming/W3Schools {C}/04) Exception Handling.md",
-    "C++ Programming/W3Schools {C}/05) Memory Management.md",
     "Information & Network Security/College version {O}/media/image2.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-06-28 140529.png",
     "Information & Network Security/College version {O}/media/image1.png",

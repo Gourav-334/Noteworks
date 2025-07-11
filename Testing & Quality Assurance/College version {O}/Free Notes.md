@@ -107,3 +107,39 @@ $$ M\;=\;R\;+\;1 $$
 >**<u>QUESTIONS</u>:**
 >1. Disadvantages of conventional testing.
 >2. Disadvantages of OOT.
+
+
+### <u>OOT Techniques</u>
+
+1. Random testing (monkey testing / fuzzy testing)
+2. Partition testing
+3. State-based testing
+4. Scenario-based testing
+5. Use-based testing
+6. Attribute-based testing
+7. Class testing
+8. Integration testing
+9. Inheritance testing
+10. Polymorphism testing
+
+>**<u>TOOLS</u>:**
+>1. Quick check
+>2. Test sigma
+>3. Randoop
+>4. Test grain
+
+### <u>Random testing</u>
+
+#### Introduction:
+
+- We can use random values for testing.
+- Similar to black-box testing.
+- Can be performed by user.
+- Used in large scale projects.
+- Doesn't require formal training.
+- No boundary set for testing values.
+- Can perform random testing on it.
+
+#### Advantages:
+
+- 
