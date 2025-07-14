@@ -130,8 +130,6 @@ $$ M\;=\;R\;+\;1 $$
 
 ### <u>Random testing</u>
 
-#### Introduction:
-
 - We can use random values for testing.
 - Similar to black-box testing.
 - Can be performed by user.
@@ -140,6 +138,8 @@ $$ M\;=\;R\;+\;1 $$
 - No boundary set for testing values.
 - Can perform random testing on it.
 
-#### Advantages:
 
-- 
+### <u>Partition Testing</u>
+
+- Very similar to equivalence class testing.
+- Three types - State-based, attribute-based & category-based.

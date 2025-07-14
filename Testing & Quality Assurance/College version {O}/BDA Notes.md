@@ -35,3 +35,29 @@ $$ \fbox{Key}\rightarrow\fbox{Value} $$
 #### Disadvantages:
 
 - Query language not present.
+
+
+### <u>NewSQL</u>
+
+$$ \text{NewSQL = SQL + NoSQL} $$
+
+- Combines scalability of NoSQL with traditional RDBMS.
+- High performance & availability $=> \text{NoSQL}$
+- ACID properties (consistency) $=> \text{SQL}$
+
+#### Databases:
+
+- VoltDB
+- NuoDB
+
+#### RDBMS v/s NoSQL v/s NewSQL:
+
+| Aspect         | RDBMS                                 | NoSQL                             | NewSQL                            |
+| :------------- | :------------------------------------ | :-------------------------------- | :-------------------------------- |
+| **Schema**     | Has fixed schema                      | Has flexible schema               | Has flexible schema               |
+| **Data types** | Uses custom data types                | Utilizes those native to JSON     | Uses custom & JSON data types     |
+| **Properties** | Supports ACID theorem                 | Supports CAP theorem              | Supports both ACID & CAP theorems |
+| **Use case**   | Security & consistency                | Performance & scalability         | All                               |
+| **Technology** | Government information infrastructure | Corporate information information | Big data analytics                |
+| **Scaling**    | Vertical scaling                      | Horizontal scaling                | Both                              |
+| **Examples**   | MySQL, PostgreSQL etc                 | MongoDB, Redis etc                | CockroachDB, MariaDB etc          |

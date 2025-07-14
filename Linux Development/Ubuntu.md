@@ -158,8 +158,8 @@ fi
 
 ### <u>Execute Arguments</u>
 
-- `xargs` is used to make operations on input/output of previous command.
-- It uses a pipe (`|`) which is used for sending output of a command as next command's input.
+- `xargs` is used to convert `stdin` of previous command(s) into arguments.
+- It uses a pipe (`|`) which is used for passing output of one command as input of next.
 
 #### Example 1:
 
@@ -178,6 +178,9 @@ echo "file1 file2" | xargs -n 1 echo
 ```
 
 - `-n 1 echo` means run `echo` on each argument of previous command for once (`1`).
+- `-n` - For each
+- `1` - Once
+- `echo` - Output
 
 #### Example 3:
 
@@ -203,8 +206,8 @@ cat names.txt | xargs -I{} echo "Hello {}"
 ### <u>Cut</u>
 
 - `cut` command is used for extracting specific columns or characters.
-- `-d` is used to define the separation delimiter & `-f` for field/column number.
-- `-c` is used for extracting character from a position.
+- `-d` is used to define the separation **delimiter** & `-f` for **field**/column number.
+- `-c` is used for extracting **character** from a position.
 
 #### Extracting fields:
 
@@ -259,8 +262,6 @@ cut -c1-5 filename.txt
 ```sh
 echo "Gourav 2025 Final" | cut -d' ' -f2
 ```
-
-- Notice that `cut` didn't required `xargs`, because `cut` is self-sufficient to read outputs from previous command.
 
 
 ### <u>Action Scanner & Text Processor</u>
@@ -364,11 +365,11 @@ sed -n '5,10p' file.txt
 #### Replace on specific lines:
 
 ```sh
-# On single line, only for first occurrence.
+# On single line (2nd line), only for first occurrence.
 sed '2s/foo/bar/'
 
 # On multiple lines, for all occurrences.
-sed '1,3s/foo/bar'
+sed '1,3s/foo/bar/g'
 ```
 
 #### Delete specific lines:
@@ -388,6 +389,6 @@ sed -i.bak 's/foo/bar/g' file.txt
 ```
 
 - Changes are made on `file.txt` & backup is stored as `file.txt.bak`.
-- `-i` (inline) means that only changes are made to file, nothing is printed on stdout (terminal).
+- `-i` (inline) means that only changes are made to file, nothing is printed on `stdout` (terminal).
 
 ---
