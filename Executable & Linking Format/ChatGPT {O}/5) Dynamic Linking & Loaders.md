@@ -215,3 +215,68 @@ objdump -p ./myBin | grep -i path        # View path
 ```
 /custom/path/to/libs\0
 ```
+
+
+
+## **Topic - 5: Writing Minimal Dynamic Binary**
+
+### <u>Goals/Objectives</u>
+
+- Create a simple dynamically linked ELF executable.
+- Use dynamic linking only with `.so` files.
+- Trigger runtime loader `ld.so` to run.
+
+
+### <u>Involved Sections</u>
+
+|  Section   | Purpose                                                     |
+| :--------: | ----------------------------------------------------------- |
+| `.interp`  | Path to dynamic loader                                      |
+| `.dynamic` | Metadata for dynamic linker (relocations, libraries, paths) |
+|   `.plt`   | Stub for dynamic calls                                      |
+|   `.got`   | Holds addresses of functions/data                           |
+| `.dynsym`  | Symbol table for dynamic linking                            |
+| `.dynstr`  | Strings for symbol names                                    |
+
+- **Path to dynamic loader -** `/lib64/ld-linux-x86-64.so.2`.
+
+
+### <u>Example</u>
+
+#### Code:
+
+```gas
+.section .data
+	msg: .asciz "Hello, World!\n"
+	len = .- msg
+
+
+.section .text
+.global _start
+
+_start:
+	mov $1, %rax
+	mov $1, %rdi
+	lea msg(%rip), %rsi
+	mov $len, %rdx
+	call write@PLT        # Calling 'write' dynamically from GOT.
+	
+	mov $60, %rax
+	xor %rdi, %rdi
+	syscall
+```
+
+#### Compile & run:
+
+```sh
+ld dynelf.s -o dynelf.o
+
+ld dynelf.o -o dynelf \
+	-dynamic-linker /lib64/ld-linux-x86-64.so.2 \
+	-lc
+```
+
+- `-dynamic-linker <PATH>` - Path to dynamic linker.
+- `-lc` - Link against `libc` (for `write`).
+
+---
