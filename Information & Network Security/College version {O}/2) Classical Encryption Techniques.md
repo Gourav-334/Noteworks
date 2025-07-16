@@ -138,88 +138,122 @@ $$ K^{-1}\;=\;adj(K)\;\times\;det^{-1}\;mod\;26 $$
 
 ### <u>Modulo Inverse Example</u>
 
-- `(3 × 9) mod 26 = 1 → 9 is mod inverse of 3`
-
 $$ (3\;\times\;9)\;mod\;26\;=\;1 $$
 $$ \fbox{9 is mod inverse of 3} $$
 
 
 
-## 6. Polyalphabetic Ciphers
+## **Topic - 6: Polyalphabetic Ciphers**
 
-> Uses multiple cipher alphabets to reduce frequency correlation
+### <u>Introduction</u>
 
-### 6.1 Vigenère Cipher
+- Uses multiple cipher alphabets to reduce frequency correlation.
 
-- `Cᵢ = (Pᵢ + Kᵢ) mod 26`
-- Key repeats if shorter than plaintext
-- **Example**:
-  - Plain: `HELLO`
-  - Key: `GMGMG`
-  - Cipher: `NQRXU`
-- Repeated patterns help in attack
 
-### 6.2 Vernam Cipher (Stream Cipher)
+### <u>Vigenère Cipher</u>
 
-- **Logic**: `Cᵢ = Pᵢ XOR Kᵢ`
+$$ C_{i}\;=\;(P_{i}\;+\;K_{i})\;mod\;26 $$
+
+- Key repeats if shorter than plaintext.
+
+
+### <u>Example</u>
+
+$$ Plain\;\rightarrow\;\text{HELLO} $$
+$$ Key\;\rightarrow\;\text{GMGMG} $$
+$$ Cipher\;\rightarrow\;\text{NQRXU} $$
+
+- Repeated patterns help in attacking.
+
+
+### <u>Vernam Cipher</u>
+
+- Also known as **stream cipher**.
+
+$$ C_{i}\;=\;P_{i}\;XOR\;K_{i} $$
+
 - Bitwise XOR
-- **Used in OTP (One Time Pad)**
-
----
-
-## 7. OTP (One-Time Pad)
-
-- Key = truly random, same length as plaintext
-- **Unbreakable** (no frequency correlation)
-- **Limitations**:
-  - Difficult key generation & distribution
-- **Example**:
-  - Same ciphertext may yield multiple plausible plaintexts
-
----
-
-## 8. Transposition Techniques
-
-> Rearranges symbols (no substitution)
-
-### 8.1 Rail Fence
-
-- Write in diagonal rails, read row-wise  
-  _Example_:
-
-M . . . E . . . E . . . T  
-. E . M . T . A . T . E .  
-. . A . . K . . . E . . .  
-→ Cipher: MEMATEAKETETHPR
+- Used in OTP (One Time Pad).
 
 
-### 8.2 Row/Column Transposition
 
-- Write in matrix → Read columns in order of key
-- **Key**: 4 3 1 2 5 6 7
-- **Plain**:
+## **Topic - 7: OTP (One-Time Pad)**
 
-ATTACKP  
-POSTPONE  
-DUNTILT  
-WOAMXYZ
+### <u>Introduction</u>
 
-- **Cipher**: TTNA APTM TSUO AODW COIX KNLYPETZ
-- **Stronger**: Apply transposition in multiple stages
+- Key is truly random, same length as plaintext.
+- Unbreakable due to no frequency correlation.
 
----
 
-## 9. Steganography
+### <u>Limitations</u>
 
-> Hides data inside cover media (image/audio/video)
+  - Difficult key generation & distribution.
 
-- **Goal**: Make message invisible, not unreadable
-- **Method**: Least Significant Bit (LSB) alteration
-- **Example**:
-- Hide “Hi” → H=01001000, i=01101001
+
+### <u>Example</u>
+
+  - Same ciphertext may yield multiple plausible plaintexts.
+
+
+
+## **Topic - 8: Transposition Techniques**
+
+### <u>Introduction</u>
+
+- Rearranges symbols i.e. no substitution.
+
+
+### <u>Rail Fence</u>
+
+- Write in diagonal rails, read row-wise.
+
+
+### <u>Example</u>
+
+```
+M . . . E . . . E . . . T
+. E . M . T . A . T . E .
+. . A . . K . . . E . . .
+```
+
+$$ Cipher\;\rightarrow\;\text{MEMATEAKETETHPR} $$
+
+
+### <u>Row/Column Transposition</u>
+
+- Write in matrix & read columns in order of key.
+
+$$ Key\;\rightarrow\;4\;3\;1\;2\;5\;6\;7 $$
+$$ Plain: $$
+$$ \text{ATTACKP} $$
+$$ \text{POSTPONE} $$
+$$ \text{DUNTILT} $$
+$$ \text{WOAMXYZ} $$
+$$ Cipher\;\rightarrow\;\text{TTNA APTM TSUO AODW COIX KNLYPETZ} $$
+
+- It is stronger as it applies transposition in multiple stages.
+
+
+
+## **Topic - 9: Steganography**
+
+### <u>Introduction</u>
+
+- Hides data inside cover media (image/audio/video).
+- Goal is to make message invisible, not unreadable.
+- We use **Least Significant Bit (LSB) alteration** method.
+
+
+### <u>Example</u>
+
+$$ \text{Hide "Hi"}\;\rightarrow\;H=01001000,\;i=01101001 $$
+
 - Change LSBs of 16 pixels accordingly
-- **Tools**:
+
+
+### <u>Tools</u>
+
 - Online LSB tools
-- Python: `Stegano`, `Pillow`
+- **Python -** Stegano, Pillow
 
 ---

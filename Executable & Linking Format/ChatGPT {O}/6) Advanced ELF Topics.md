@@ -49,3 +49,78 @@ gcc -fPIE -pie test.c -o test
 
 ### <u>Introduction</u>
 
+- **<u>Relocation</u>:** Adjusting addresses in binary files & point to correct runtime location.
+- For **static** linking, relocating is done by **linker** (`.o` $\rightarrow$ Single ELF).
+- For **dynamic** linking, relocating is done by **loader** (Single ELF $\rightarrow$ Memory).
+
+
+### <u>Data Structures Involved</u>
+
+#### Symbol table:
+
+- Symbol table contains symbols like functions & variables.
+- Each symbol possesses name, type, section, offset, size.
+
+#### Relocation table:
+
+- Contains sections like `.rel.text` & `.rela.text`.
+- Related structs are `Elf64_Rel` & `Elf64_Rela`.
+- Structs contain `r_offset`, `r_info` & `r_addend`.
+
+#### Global offset table:
+
+- Contains runtime addresses of global symbols.
+- Used for lazy/dynamic linking.
+
+
+### <u>Relocation Entry Fields (RELA)</u>
+
+```c
+typedef struct {
+	Elf64_Addr r_offset;      // Where to apply relocation
+	Elf64_Xword r_info;       // Symbol and type
+	Elf64_Sxword r_addend;    // Constant addend (RELA only)
+} Elf64_Rela;
+```
+
+- In `r_info`, higher bits denote the symbol & lower bits denote type.
+
+
+### <u>Relocations Types</u>
+
+|   Relocation Type   | Meaning                                       |
+| :-----------------: | --------------------------------------------- |
+|    `R_X86_64_64`    | Replace with full **64-bit** symbol address   |
+|   `R_X86_64_PC32`   | **32-bit** PC-relative address                |
+|  `R_X86_64_PLT32`   | Call/jump to symbol in PLT (dynamic call)     |
+| `R_X86_64_GOTPCREL` | Offset from RIP to GOT entry                  |
+| `R_X86_64_RELATIVE` | Add base address to value (used for PIE, DSO) |
+
+- `R_X86_64_RELATIVE` is used in PIE to relocate data relative to base address.
+- And it doesn't require symbol lookup & thus faster.
+
+
+### <u>Examples</u>
+
+#### Static linking:
+
+```gas
+mov foo(%rip), %rax
+```
+
+- When this instruction is read, linker resolves address for `foo`.
+- And then inserts its address in instruction.
+
+#### Dynamic linking:
+
+- Let's say a symbol is found & its address is not known.
+- So, dynamic linker (`ld.so`) will look for it in `.rela.plt` & `.dynsym`.
+- For example, `printf` is searched in `libc` & then patched to GOT or PLT.
+
+
+### <u>Inspecting Relocation</u>
+
+```sh
+readelf -r your.o        # Shows relocation entries
+objdump -r your.o        # Same with additional symbols
+```

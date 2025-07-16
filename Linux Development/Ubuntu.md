@@ -391,4 +391,55 @@ sed -i.bak 's/foo/bar/g' file.txt
 - Changes are made on `file.txt` & backup is stored as `file.txt.bak`.
 - `-i` (inline) means that only changes are made to file, nothing is printed on `stdout` (terminal).
 
+
+
+## **Topic - 4: Misconception Correction**
+
+### <u>Alternative Sequence Loop</u>
+
+```sh
+for i in {1..5}        # Notice '{1..5}'
+do
+	echo $i
+done
+```
+
+
+### <u>Redirection Direction</u>
+
+#### Forward:
+
+```sh
+echo $(seq 5) > file.txt
+```
+
+#### Backward:
+
+```sh
+bash script.sh < file.txt
+```
+
+- Contents in `file.txt` work as input to `read`.
+
+
+### <u>Running Bash Like Out</u>
+
+1. Add the shebang to script.
+
+```sh
+#!/bin/bash
+```
+
+2. Allow execution permission to it.
+
+```sh
+chmod +x file.sh
+```
+
+3. Run script like ELF executable.
+
+```sh
+./file.sh
+```
+
 ---

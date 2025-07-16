@@ -143,3 +143,9 @@ $$ M\;=\;R\;+\;1 $$
 
 - Very similar to equivalence class testing.
 - Three types - State-based, attribute-based & category-based.
+
+
+### <u>Scenario-Based Testing</u>
+
+- We can test based on different scenarios.
+- 
