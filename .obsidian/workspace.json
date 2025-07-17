@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d5951c4881060d7",
+        "id": "29423a82880a358e",
         "type": "tabs",
         "children": [
           {
-            "id": "cbac886aefeea2c5",
+            "id": "486ac314f2577c19",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -164,14 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbac886aefeea2c5",
+  "active": "486ac314f2577c19",
   "lastOpenFiles": [
+    "Testing & Quality Assurance/College version {O}/1) Software Testing.md",
+    "Testing & Quality Assurance/College version {O}/media",
+    "Testing & Quality Assurance/College version {O}",
+    "Linux Development/Ubuntu.md",
+    "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
-    "Linux Development/Ubuntu.md",
     "Linux Development/Bash.md",
-    "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
-    "Testing & Quality Assurance/College version {O}/Free Notes.md",
+    "Testing & Quality Assurance/FreeNotes {O}/Free Notes.md",
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
     "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/13) File Handling.md",

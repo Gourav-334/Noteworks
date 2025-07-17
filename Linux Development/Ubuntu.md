@@ -395,6 +395,12 @@ sed -i.bak 's/foo/bar/g' file.txt
 
 ## **Topic - 4: Misconception Correction**
 
+### <u>Facts Clarification</u>
+
+- `set -e` exits the script if a command returns non-zero.
+- **IFS (Internal Field Separator)** splits arguments by spaces & handles wildcards.
+
+
 ### <u>Alternative Sequence Loop</u>
 
 ```sh
@@ -440,6 +446,23 @@ chmod +x file.sh
 
 ```sh
 ./file.sh
+```
+
+
+### <u>Writing Arrays</u>
+
+```sh
+arr = (a b c)
+```
+
+
+### <u>Selective Output</u>
+
+```sh
+var="unix/linux"
+echo ${var#*/}        # Notice the '*/' which tells which part to select.
+
+# Output: unix
 ```
 
 ---

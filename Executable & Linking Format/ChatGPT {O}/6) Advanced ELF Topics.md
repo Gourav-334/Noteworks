@@ -124,3 +124,56 @@ mov foo(%rip), %rax
 readelf -r your.o        # Shows relocation entries
 objdump -r your.o        # Same with additional symbols
 ```
+
+
+
+## **Topic - 3: Stripping Binaries; What Gets Removed?**
+
+### <u>Purpose</u>
+
+- To reduce file size.
+- To obfuscate the binary.
+- To prevent reverse engineering.
+
+>**<u>NOTE</u>:**
+>**<u>Obfuscating</u>:** Purposely making something more confusing.
+
+
+### <u>What Gets Removed?</u>
+
+| Removed Section      | Description                                               |
+| -------------------- | --------------------------------------------------------- |
+| `.symtab`            | Everything in symbol table.                               |
+| `.strtab`            | Function or variable names as string.                     |
+| `.debug_*`           | All debugging information.                                |
+| `.comment`           | Metadata for compiler (e.g. GCC version).                 |
+| `.note.*` (optional) | Build notes, OS info, etc. (depending on flags).          |
+| `.rel.*` / `.rela.*` | Relocation entries (only in non-PIE, non-final binaries). |
+
+
+### <u>What Is Retained?</u>
+
+|  Section   | Why it remains            |
+| :--------: | ------------------------- |
+|  `.text`   | Actual code               |
+|  `.data`   | Static data               |
+|   `.bss`   | Uninitialized memory      |
+| `.rodata`  | Constant data             |
+| `.dynsym`  | Dynamic symbol table      |
+| `.dynstr`  | Dynamic string table      |
+| `.interp`  | Dynamic linker path       |
+| `.dynamic` | Dynamic linking info      |
+|   `.got`   | Needed for GOT resolution |
+|   `.plt`   | Needed for PLT resolution |
+
+- All dynamic sections in table above are required only in dynamic linking/loading.
+
+
+### <u>Selectively Stripping</u>
+
+```sh
+strip --strip-debug           # Remove the debug section only.
+strip --strip-unneeded        # Remove everything unrequired during runtime.
+```
+
+- In MacOS, `strip -x` removes local symbols but keeps global ones.
