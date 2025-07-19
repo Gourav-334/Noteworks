@@ -331,15 +331,35 @@ objdump -x your_binary | grep TLS                  # See usage of TLS
 
 ### <u>Structural Differences</u>
 
-| Aspect                    | Static Linking                          | Dynamic Linking                           |
-| ------------------------- | --------------------------------------- | ----------------------------------------- |
-| **ELF Type**              | `ET_EXEC`                               | `ET_DYN` (for PIE) or `ET_EXEC` (non-PIE) |
-| **Symbol Table**          | Usually stripped, no unresolved symbols | Contains unresolved dynamic symbols       |
-| **`.dynsym` / `.dynstr`** | Absent                                  | Present                                   |
-| **`.got` / `.plt`**       | Absent                                  | Present                                   |
-| **Relocation Sections**   | Resolved at link-time, then discarded   | Present (`.rela.plt`, `.rela.dyn`)        |
-| **`.interp` Section**     | Not needed                              | Required (points to dynamic linker)       |
-| **Shared Libs Needed**    | No                                      | Yes (`NEEDED` entries in `.dynamic`)      |
-| **Startup Time**          | Faster                                  | Slower (runtime symbol resolution)        |
-| **Binary Size**           | Larger                                  | Smaller                                   |
-| **Memory Sharing**        | No                                      | Yes (shared `.so` mapped by OS)           |
+| Aspect                    | Static Linking                          | Dynamic Linking                      |
+| ------------------------- | --------------------------------------- | ------------------------------------ |
+| **ELF Type**              | `ET_EXEC`                               | `ET_DYN` (PIE), `ET_EXEC` (non-PIE)  |
+| **Symbol Table**          | Usually stripped, no unresolved symbols | Contains unresolved dynamic symbols  |
+| **`.dynsym` / `.dynstr`** | Absent                                  | Present                              |
+| **`.got` / `.plt`**       | Absent                                  | Present                              |
+| **Relocation Sections**   | Resolved at link-time, then discarded   | Present (`.rela.plt`, `.rela.dyn`)   |
+| **`.interp` Section**     | Not needed                              | Required (points to dynamic linker)  |
+| **Shared Libs Needed**    | No                                      | Yes (`NEEDED` entries in `.dynamic`) |
+| **Startup Time**          | Faster                                  | Slower (runtime symbol resolution)   |
+| **Binary Size**           | Larger                                  | Smaller                              |
+| **Memory Sharing**        | No                                      | Yes (shared `.so` mapped by OS)      |
+| **Behavior**              | Predictable                             | Unpredictable                        |
+| **Versioning**            | Equal among symbols                     | Versioning hell                      |
+| **Updating**              | Easier to update                        | Difficult to update                  |
+
+- Static files are self-contained, so they don't require GOT or PLT.
+- Archive (`.a`) files are just bundle of `.o` files, nothing else.
+
+>**<u>NOTE</u>:**
+>1. `PT_INTERP` points to `/lib64/ld-linux-x86-64.so.2`.
+>2. `PT_LOAD` & `PT_GNU_RELRO` are used for protecting memory.
+
+
+### <u>Both Compilations</u>
+
+```sh
+gcc -static -o static_bin test.c        # Contains '-static' flag.
+gcc -o dyn_bin test.c                   # No special flag required.
+```
+
+---

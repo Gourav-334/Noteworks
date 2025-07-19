@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cc651d9232ba3c2c",
+        "id": "ab0509cabb5f75e2",
         "type": "tabs",
         "children": [
           {
-            "id": "535afd683908a392",
+            "id": "c4b1aa05f1b32983",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "535afd683908a392",
+  "active": "c4b1aa05f1b32983",
   "lastOpenFiles": [
+    "Linux Development/Git.md",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Software Quality Testing/College version {O}/1) Software Testing.md",
     "Software Quality Testing/College version {O}/2) Testing Techniques.md",
