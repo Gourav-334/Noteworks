@@ -177,3 +177,169 @@ strip --strip-unneeded        # Remove everything unrequired during runtime.
 ```
 
 - In MacOS, `strip -x` removes local symbols but keeps global ones.
+
+
+
+## **Topic - 4: Symbol Versioning**
+
+### <u>Introduction</u>
+
+- ***Symbol versioning*** is performed to maintain backward compatibility.
+- Done when updates are being made to symbols, but older ones still need to run.
+- Basically, newer & older functions coexist together after so.
+- Primarily done in shared libraries.
+
+
+### <u>Motivations & Problems</u>
+
+- Symbol versioning helps in older programs still running on legacy library.
+- So, linker & loader can clearly distinguish among these versions.
+
+
+### <u>Version Indexes</u>
+
+- In `.dynsym`, every symbol is assigned a version index.
+- For example, `0` means **no version**, `1` means **local symbol**, and more.
+
+
+### <u>Symbol Versioning Sections</u>
+
+|   Section Name   | Description                                                   |
+| :--------------: | :------------------------------------------------------------ |
+|  `.gnu.version`  | Contains mapping of each dynamic symbols with their versions. |
+| `.gnu_version_r` | Lists required versions from dependency shared objects.       |
+| `.gnu_version_d` | Describes supported versions by the shared object.            |
+
+
+### <u>Version Scripts</u>
+
+- **<u>Version scripts</u>:** Scripts used to assign symbols their respective version names.
+- This script is saved with `.map` extension.
+- It also defines scope & visibility of its symbols.
+
+```map
+VER_1.0 {
+	global:
+	    foo;
+	
+	local:
+	    *;
+};
+
+
+VER_2.0 {
+	global:
+	    foo@@VER_1.0;        // foo is aliased to version 1.0
+	    bar;
+};
+```
+
+
+### <u>Dynamic Linker Behavior</u>
+
+- `ld.so` matches mentioned symbols with correct version.
+- This is done by looking up at which version of symbol the binary was linked with.
+
+
+### <u>Inspecting Symbol Versions</u>
+
+```sh
+readelf --symbols --wide --use-dynamic yourlib.so
+readelf --version-info yourlib.so
+objdump -T yourlib.so
+```
+
+
+
+## **Topic - 5: Thread Local Storage (TLS)**
+
+### <u>Introduction</u>
+
+- **<u>TLS</u>:** A feature that lets each thread have its own instance/copy for variables.
+- This ensures safety as shared global data is dangerous due to race conditions.
+- Also there is no requirement of synchronization due to unshared common data.
+- The local instances of variables made through TLS act as global, but isolated.
+- Alternative to using TLS are mutexes guarding each global variable.
+
+
+### <u>Code Example</u>
+
+```c
+__thread int tls_var = 42;             // Older GCC version
+_Thread_local int tls_var = 42;        // GCC C11+
+```
+
+- Each thread will get a copy of `tls_var`.
+
+
+### <u>TLS Sections</u>
+
+- In PHT, TLS sections are marked with `PT_TLS`.
+
+|      Section       | Purpose                            |
+| :----------------: | ---------------------------------- |
+|      `.tdata`      | Initialized TLS data               |
+|      `.tbss`       | Uninitialized TLS data             |
+| `.init_array`, etc | Used during dynamic TLS allocation |
+
+
+### <u>Thread Pointer</u>
+
+- TLS variables are accessed relative to **thread pointer**.
+- Thread pointer's location depends on the OS & architecture.
+- `x86_64` uses `%fs` or `%gs` base register.
+- While ARM uses dedicated register `TPIDR_EL0`.
+
+
+### <u>TLS Access Models</u>
+
+- TLS access models are used by compilers.
+- In GCC, a model is picked as per context of linking & optimization level.
+
+|Model|Description|Use Case|
+|---|---|---|
+|**Local Exec**|Direct access if TLS is known at link time|Static, fastest|
+|**Initial Exec**|Access via GOT if linked to dynamic but loaded early|Efficient fallback|
+|**General Dynamic**|Access via `__tls_get_addr` via PLT|Fully dynamic TLS|
+|**Local Dynamic**|Optimized dynamic access within one module|Modern compromise|
+
+
+### <u>Inspecting TLS</u>
+
+```sh
+readelf -l your_binary | grep TLS                  # Check present TLS segments
+readelf -S your_binary | grep '\.tdata\|\.tbss'    # Check symbols in TLL section
+objdump -x your_binary | grep TLS                  # See usage of TLS
+```
+
+
+### <u>Real Application Usage</u>
+
+- `errno`
+- Thread-specific caches
+- Logging buffers
+
+
+
+## **Topic - 6: Binary Layout Differences**
+
+### <u>Introduction</u>
+
+- We will learn about binary layout differences between static & dynamic linking.
+- **<u>Dynamic linking</u>:** Only references are stored as `.so` & loaded at runtime.
+
+
+### <u>Structural Differences</u>
+
+| Aspect                    | Static Linking                          | Dynamic Linking                           |
+| ------------------------- | --------------------------------------- | ----------------------------------------- |
+| **ELF Type**              | `ET_EXEC`                               | `ET_DYN` (for PIE) or `ET_EXEC` (non-PIE) |
+| **Symbol Table**          | Usually stripped, no unresolved symbols | Contains unresolved dynamic symbols       |
+| **`.dynsym` / `.dynstr`** | Absent                                  | Present                                   |
+| **`.got` / `.plt`**       | Absent                                  | Present                                   |
+| **Relocation Sections**   | Resolved at link-time, then discarded   | Present (`.rela.plt`, `.rela.dyn`)        |
+| **`.interp` Section**     | Not needed                              | Required (points to dynamic linker)       |
+| **Shared Libs Needed**    | No                                      | Yes (`NEEDED` entries in `.dynamic`)      |
+| **Startup Time**          | Faster                                  | Slower (runtime symbol resolution)        |
+| **Binary Size**           | Larger                                  | Smaller                                   |
+| **Memory Sharing**        | No                                      | Yes (shared `.so` mapped by OS)           |

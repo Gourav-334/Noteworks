@@ -465,4 +465,52 @@ echo ${var#*/}        # Notice the '*/' which tells which part to select.
 # Output: unix
 ```
 
+
+### <u>Read/Write Permission</u>
+
+```sh
+chmod 644
+```
+
+- `644` gives `rw-r-r--` rights i.e. R/W for owner, R for group & R for unknowns.
+
+
+### <u>No Hangup</u>
+
+- `nohup` makes a process immune to `SIGHUP` signal which can hang up the process.
+- So, the command below can't be hungup when running in background.
+
+```sh
+nohup ./myScript.sh &
+```
+
+
+### <u>Substring Printing</u>
+
+```sh
+str="abcdef"
+echo "${str:2:3}"        # Start from index 2 for next 3 characters.
+
+# Output: cde
+```
+
+
+### <u>Inverted Commas</u>
+
+```sh
+for f in *.md; do        # Despite '*.md' being open, syntax is correct.
+  echo "File: $f"
+done
+```
+
+
+### <u>Sorting & Unique</u>
+
+```sh
+cat file.txt | sort | uniq -c > out.txt
+```
+
+- `sort` sorts the output in dictionary order.
+- `uniq` fetches unique lines (`-c`).
+
 ---
