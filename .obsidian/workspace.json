@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab0509cabb5f75e2",
+        "id": "9b9c16b56734b35c",
         "type": "tabs",
         "children": [
           {
-            "id": "c4b1aa05f1b32983",
+            "id": "d4985c0daaadabd7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -164,18 +165,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4b1aa05f1b32983",
+  "active": "d4985c0daaadabd7",
   "lastOpenFiles": [
+    "Linux Development/Ubuntu.md",
+    "Linux Development/Bash.md",
     "Linux Development/Git.md",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Software Quality Testing/College version {O}/1) Software Testing.md",
     "Software Quality Testing/College version {O}/2) Testing Techniques.md",
-    "Linux Development/Ubuntu.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
-    "Linux Development/Bash.md",
     "Software Quality Testing/FreeNotes {O}/Free Notes.md",
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
     "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",

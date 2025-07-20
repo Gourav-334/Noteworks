@@ -513,4 +513,33 @@ cat file.txt | sort | uniq -c > out.txt
 - `sort` sorts the output in dictionary order.
 - `uniq` fetches unique lines (`-c`).
 
+
+### <u>Shift Arguments</u>
+
+- Used for skipping argument(s).
+
+
+#### <u>Grep Return Values</u>
+
+- `0` - Match
+- `1` - No match
+- `2` - Error
+
+
+### <u>Argument Mentioning</u>
+
+- `"$@"` - Each argument quoted individually.
+- `$*` - All arguments in one string.
+
+
+### <u>Redirection Blocker</u>
+
+- Redirection can't be done normal way if `noclobber` is set.
+
+```sh
+set -o noclobber
+```
+
+- For force overwriting `>|` is used, which bypasses `noclobber`.
+
 ---
