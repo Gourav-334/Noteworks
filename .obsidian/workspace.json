@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b9c16b56734b35c",
+        "id": "92eb40894a2b92d1",
         "type": "tabs",
         "children": [
           {
-            "id": "d4985c0daaadabd7",
+            "id": "0900a3378dfe9d32",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4985c0daaadabd7",
+  "active": "0900a3378dfe9d32",
   "lastOpenFiles": [
+    "Software Quality Testing/FreeNotes {O}/Free Notes.md",
     "Linux Development/Ubuntu.md",
     "Linux Development/Bash.md",
     "Linux Development/Git.md",
@@ -177,7 +177,6 @@
     "Software Quality Testing/College version {O}",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
-    "Software Quality Testing/FreeNotes {O}/Free Notes.md",
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
     "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/13) File Handling.md",

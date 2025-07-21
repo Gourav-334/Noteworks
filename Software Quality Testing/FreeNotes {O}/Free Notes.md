@@ -148,4 +148,14 @@ $$ M\;=\;R\;+\;1 $$
 ### <u>Scenario-Based Testing</u>
 
 - We can test based on different scenarios.
-- 
+
+
+### <u>Question Set - 2</u>
+
+#### Differentiate between OOT & conventional testing:
+
+| Aspect         | Object-Oriented Testing                                                                      | Conventional Testing                                  |
+| :------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **Type**       | Manual testing                                                                               | Both manual & automation testing                      |
+| **Levels**     | It includes algorithmic, class, system, regression level.                                    | It includes unit & integration level.                 |
+| **Techniques** | Class, inheritance, polymorphism, fault-based, scenario-based, state-based, partition-based. | Boundary value, decision table, white box, black box. |
