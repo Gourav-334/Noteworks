@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "92eb40894a2b92d1",
+        "id": "b76a2fcc97808034",
         "type": "tabs",
         "children": [
           {
-            "id": "0900a3378dfe9d32",
+            "id": "c504d4085df83b19",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -164,8 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0900a3378dfe9d32",
+  "active": "c504d4085df83b19",
   "lastOpenFiles": [
+    "Cyber Security/College Version {O}/3) Firewalls & Network Defense Tools.md",
+    "Software Quality Testing/FreeNotes {O}/Questions.md",
+    "Software Quality Testing/FreeNotes {O}/New Questions.md",
     "Software Quality Testing/FreeNotes {O}/Free Notes.md",
     "Linux Development/Ubuntu.md",
     "Linux Development/Bash.md",
