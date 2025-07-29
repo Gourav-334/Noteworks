@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b76a2fcc97808034",
+        "id": "5e8f14976f477fb6",
         "type": "tabs",
         "children": [
           {
-            "id": "c504d4085df83b19",
+            "id": "ddc8b52137e4b793",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c504d4085df83b19",
+  "active": "ddc8b52137e4b793",
   "lastOpenFiles": [
+    "Cyber Security/College Version {O}/4) Block Ciphers & Data Encryption Standard.md",
+    "Information & Network Security/College version {O}/media/image7.png",
+    "Information & Network Security/College version {O}/media/image6.png",
+    "Information & Network Security/College version {O}/media/image5.png",
+    "Information & Network Security/College version {O}/media/image4.png",
+    "Information & Network Security/College version {O}/media/image3.png",
+    "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191013.png",
+    "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191056.png",
     "Cyber Security/College Version {O}/3) Firewalls & Network Defense Tools.md",
     "Software Quality Testing/FreeNotes {O}/Questions.md",
     "Software Quality Testing/FreeNotes {O}/New Questions.md",
