@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e8f14976f477fb6",
+        "id": "6c19717bc4eebf4f",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc8b52137e4b793",
+            "id": "574a1f5455bd3c1b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,9 +165,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ddc8b52137e4b793",
+  "active": "574a1f5455bd3c1b",
   "lastOpenFiles": [
-    "Cyber Security/College Version {O}/4) Block Ciphers & Data Encryption Standard.md",
+    "Software Quality Testing/College version {O}/3) Object-Oriented Testing.md",
+    "Software Quality Testing/College version {O}/2) Testing Techniques.md",
+    "Information & Network Security/College version {O}/3) Block Ciphers & Data Encryption Standard.md",
+    "Software Quality Testing/College version {O}/1) Software Testing.md",
+    "C Programming/Sololearn {C}/04) Structures & Unions.md",
+    "C Programming/Sololearn {C}/03) Strings.md",
+    "C Programming/Sololearn {C}/02) Pointers.md",
+    "C Programming/Sololearn {C}/01) Standard IO.md",
     "Information & Network Security/College version {O}/media/image7.png",
     "Information & Network Security/College version {O}/media/image6.png",
     "Information & Network Security/College version {O}/media/image5.png",
@@ -183,8 +190,6 @@
     "Linux Development/Bash.md",
     "Linux Development/Git.md",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
-    "Software Quality Testing/College version {O}/1) Software Testing.md",
-    "Software Quality Testing/College version {O}/2) Testing Techniques.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
@@ -196,8 +201,6 @@
     "x86 Assembly/Infinite Intuitions (GAS) {C}/07) Environment Setup.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/08) Registers Revision.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/10) Addressing Modes.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/09) Linux System Calls.md",
-    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Executable & Linking Format/ChatGPT {O}/1) Introduction & Ground Setup.md"
+    "x86 Assembly/Infinite Intuitions (GAS) {C}/09) Linux System Calls.md"
   ]
 }

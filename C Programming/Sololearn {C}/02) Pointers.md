@@ -7,7 +7,7 @@
 ## **Topic – 1: General Information**
 
 - Memory addresses are stored as hexadecimal values.
-- `\` is called **indirection/dereference** operator.
+- `*` is called **indirection/dereference** operator.
 - **<u>Dereferencing</u>:** Process of checking what a pointer is pointing to.
 - We use parentheses around `(*ptr)++` during unary operations.
 
@@ -19,9 +19,9 @@
 
 ```c
 void func(int x) {printf("%d", x);}
-void (*ptr)(int);    // Pointer to a void type function (int argument).
-ptr = func;          // Pointer assignment to function.
-ptr(3);              // Performing function
+void (*ptr)(int) = NULL;    // Pointer to a void type function (int argument).
+ptr = func;                 // Pointer assignment to function.
+ptr(3);                     // Performing function
 ```
 
 - A function with use of its pointer, can only be performed but not printed.
@@ -35,12 +35,12 @@ int sub(int x, int y);
 int mult(int x, int y);
 int div(int x, int y);
 
-int (*op[4](int, int))
+int (*op[4])(int, int) = {NULL};
 
-op[1] = add;
-op[2] = sub;
-op[3] = mult;
-op[4] = div;
+op[1] = &add;     // Can also be 'op[1] = add;'
+op[2] = &sub;     // Same as 'op[1] = sub;'
+op[3] = &mult;    // Same as 'op[1] = mult;'
+op[4] = &div;     // Same as 'op[1] = div;'
 
 int choice;
 scanf("%d", &choice);

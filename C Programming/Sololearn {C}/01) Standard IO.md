@@ -65,12 +65,4 @@ printf("PI = %3.2f", 3.14159);    // PI = 3.14
 >**<u>NOTE</u>:**
 >Remember expressions like: `if(!(m=='x'||n=='x'))`.
 
-
-
-## **Topic – 4: Loops**
-
-### <u>Do-While Loops</u>
-
-- A semicolon is added at the end of every **do-while** loop block.
-
 ---

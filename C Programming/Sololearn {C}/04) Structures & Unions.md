@@ -32,7 +32,7 @@ struct student s3 = s2;
 
 ```c
 ptr = &student;
-ptr2 = (*student).age;    // Same as 'x = student -> age'.
+ptr2 = (*student).age;    // Same as 'ptr2 = student -> age'.
 ```
 
 
@@ -55,7 +55,7 @@ struct cuboid measure[3] = {{1,2,3},{4,5,6},{7,8,9}};
 ### <u>Defining Union Inside Structure</u>
 
 ```c
-union {int id; char name[20];} employee;
+union Data {int id; char name[20];} employee;    // Employee is an instance of Data
 ```
 
 ---
