@@ -19,7 +19,9 @@ m = calloc(7, sizeof(int));
 ### <u>Reallocation</u>
 
 ```c
-realloc(m, 16);    // Expands pointer coverage by 16 bytes.
+realloc(m, 16);    // Readjust pointer coverage to 16 bytes.
 ```
+
+- So, the total coverage could also shrink.
 
 ---

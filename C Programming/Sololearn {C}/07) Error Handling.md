@@ -26,7 +26,6 @@ errno = 404;        // Custom error code
 fprintf(stderror, "Error code: %d", errno);
 ```
 
-- Keyword `extern` is used in `dynamic libraries`, so **GCC** will pop up warnings if used otherwise.
 - And the error variable name must `errno` only, otherwise **GCC** will pop up error.
 - We can use simple I/O functions too but writing code this way increases readability.
 
@@ -37,7 +36,7 @@ fprintf(stderror, "Error code: %d", errno);
 - Works by importing `<errno.h>` & `<math.h>` header.
 
 ```c
-sqrt(-2.0);    // Trapped by EDOM
+sqrt(-2.0);    // Trapped by 'errno' as EDOM
 
 if (errno==EDOM) { /* Statements */ }
 else if (errno==ERANGE) { /* Statements */ }

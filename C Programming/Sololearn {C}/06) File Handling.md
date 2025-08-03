@@ -67,4 +67,6 @@ fprintf(fptr, "Name: %s, Age: %d", name, age);    // Writing to file
 fscanf(fptr, "Name: %s, Age: %d", name, age);     // Reading from file
 ```
 
+- `fscanf()` indeed matches pattern from the file.
+
 ---

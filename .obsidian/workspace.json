@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6c19717bc4eebf4f",
+        "id": "e11ad41de6ed9623",
         "type": "tabs",
         "children": [
           {
-            "id": "574a1f5455bd3c1b",
+            "id": "0d812beb5553bd9d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,8 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "574a1f5455bd3c1b",
+  "active": "0d812beb5553bd9d",
   "lastOpenFiles": [
+    "C Programming/Sololearn {C}/07) Error Handling.md",
+    "C Programming/Sololearn {C}/06) File Handling.md",
+    "C Programming/Sololearn {C}/05) Memory Management.md",
     "Software Quality Testing/College version {O}/3) Object-Oriented Testing.md",
     "Software Quality Testing/College version {O}/2) Testing Techniques.md",
     "Information & Network Security/College version {O}/3) Block Ciphers & Data Encryption Standard.md",
@@ -198,9 +200,6 @@
     "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/13) File Handling.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/12) Floating-Point Instructions.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/07) Environment Setup.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/08) Registers Revision.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/10) Addressing Modes.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/09) Linux System Calls.md"
+    "x86 Assembly/Infinite Intuitions (GAS) {C}/07) Environment Setup.md"
   ]
 }
