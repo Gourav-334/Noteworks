@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e11ad41de6ed9623",
+        "id": "7ed8c7a13fb945a6",
         "type": "tabs",
         "children": [
           {
-            "id": "0d812beb5553bd9d",
+            "id": "ee895289619094cf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -164,8 +165,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d812beb5553bd9d",
+  "active": "ee895289619094cf",
   "lastOpenFiles": [
+    "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
     "C Programming/Sololearn {C}/06) File Handling.md",
     "C Programming/Sololearn {C}/05) Memory Management.md",
@@ -199,7 +201,6 @@
     "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
     "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/13) File Handling.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/12) Floating-Point Instructions.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/07) Environment Setup.md"
+    "x86 Assembly/Infinite Intuitions (GAS) {C}/12) Floating-Point Instructions.md"
   ]
 }
