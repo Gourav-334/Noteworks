@@ -159,3 +159,31 @@ $$ M\;=\;R\;+\;1 $$
 | **Type**       | Manual testing                                                                               | Both manual & automation testing                      |
 | **Levels**     | It includes algorithmic, class, system, regression level.                                    | It includes unit & integration level.                 |
 | **Techniques** | Class, inheritance, polymorphism, fault-based, scenario-based, state-based, partition-based. | Boundary value, decision table, white box, black box. |
+
+
+
+### <u>Client-Server & Web-Based Testing</u>
+
+| Client-Server Testing                                                                                                             | Web Application Testing                                                                                                                                   |
+| :-------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Client-server testing involves testing interactions between client and server over the intranet in a more controlled environment. | Web application testing involves testing interactions between the web browser and web server over the internet is more diverse than the intranet network. |
+| Client-server testing is usually two-tier architecture testing. This consists of a client system and a server system.             | Web application testing is usually three-tier architecture testing. This consists of a web server, browser, and DB server.                                |
+| Testing over the intranet. An intranet is a private computer network within an organization                                       |                                                                                                                                                           |
+| Security and performance are not a concern in this testing.                                                                       | Security and performance are big concern in this testing.                                                                                                 |
+| Testing efforts and types of testing are less.                                                                                    | Testing efforts and types of testing are more.                                                                                                            |
+| The client-server testing  types performed are as follows -                                                                       |                                                                                                                                                           |
+
+
+### <u>Software Testing Lifecycle (STLC)</u>
+
+1. Requirement analysis
+2. Test planning
+3. Test case development
+4. Test environment setup
+5. Test execution
+6. Test closure/exit
+
+#### Advantages:
+
+- We can use Agile while using STLC.
+- We can easily find out the bugs when using STLC.

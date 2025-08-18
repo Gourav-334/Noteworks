@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ed8c7a13fb945a6",
+        "id": "54be9709b09a2cdd",
         "type": "tabs",
         "children": [
           {
-            "id": "ee895289619094cf",
+            "id": "c9bc34bb67ade836",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee895289619094cf",
+  "active": "c9bc34bb67ade836",
   "lastOpenFiles": [
+    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
+    "Python App Development/1) Graphical User Interface.md",
+    "Executable & Linking Format/ChatGPT {O}/7) Spinoff Summaries.md",
+    "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
     "C Programming/Sololearn {C}/06) File Handling.md",
@@ -189,7 +193,6 @@
     "Cyber Security/College Version {O}/3) Firewalls & Network Defense Tools.md",
     "Software Quality Testing/FreeNotes {O}/Questions.md",
     "Software Quality Testing/FreeNotes {O}/New Questions.md",
-    "Software Quality Testing/FreeNotes {O}/Free Notes.md",
     "Linux Development/Ubuntu.md",
     "Linux Development/Bash.md",
     "Linux Development/Git.md",
@@ -198,9 +201,6 @@
     "Software Quality Testing/College version {O}",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
     "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
-    "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md",
-    "Executable & Linking Format/ChatGPT {O}/5) Dynamic Linking & Loaders.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/13) File Handling.md",
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/12) Floating-Point Instructions.md"
+    "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md"
   ]
 }
