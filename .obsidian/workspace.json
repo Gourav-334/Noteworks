@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54be9709b09a2cdd",
+        "id": "dbe11bc91111a639",
         "type": "tabs",
         "children": [
           {
-            "id": "c9bc34bb67ade836",
+            "id": "97748608b7e8ce8e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,12 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9bc34bb67ade836",
+  "active": "97748608b7e8ce8e",
   "lastOpenFiles": [
-    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
-    "Python App Development/1) Graphical User Interface.md",
     "Executable & Linking Format/ChatGPT {O}/7) Spinoff Summaries.md",
+    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
+    "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
+    "Python App Development/1) Graphical User Interface.md",
     "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
     "C Programming/Sololearn {C}/07) Error Handling.md",
     "C Programming/Sololearn {C}/06) File Handling.md",
@@ -200,7 +202,6 @@
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}",
     "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
-    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md",
-    "Executable & Linking Format/ChatGPT {O}/4) System V ABI Deep Dive.md"
+    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md"
   ]
 }

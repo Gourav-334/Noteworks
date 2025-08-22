@@ -56,3 +56,53 @@ int unsetenv(const char *name);
 /* Modify environment variable by its path. */
 int putenv(char *string);
 ```
+
+
+
+## **Topic - 2: UNIX Standard Calls**
+
+### <u>Process Functions</u>
+
+```c
+/* Create copy of current parent process. */
+pid_t fork(void);
+
+/* Replacing current parent process. */
+int execl(const char *path, const char *arg, ..., NULL);
+int execv(const char *path, const char *argv[]);
+
+/* Get child's process ID. */
+pid_t getpid(void);
+
+/* Get parent's process ID. */
+pid_t getppid(void);
+
+/* Put parent process into waiting. */
+pid_t wait(int *status);
+
+/* Put child process into waiting. */
+pid_t waitpid(pid_t pid, int *status, int options);
+
+/* Set user ID. */
+int setuid(uid_t uid);
+
+/* Set group ID. */
+int setgid(gid_t gid);
+
+/* Terminate current child process. */
+void _exit(int status);
+```
+
+
+### <u>File Operations</u>
+
+```c
+/* Creating/opening file. */
+int open(const char *pathname, int flags, mode_t mode);
+
+/* Writing to file. */
+ssize_t write(int fd, const void *buf, size_t count);
+
+/* Reading from file. */
+ssize_t read(int fd, const void *buf, size_t count);
+```

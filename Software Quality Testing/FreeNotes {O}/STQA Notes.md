@@ -187,3 +187,16 @@ $$ M\;=\;R\;+\;1 $$
 
 - We can use Agile while using STLC.
 - We can easily find out the bugs when using STLC.
+
+
+### <u>SDLC v/s STLC</u>
+
+| Aspect             | SDLC                                     | STLC                                             |
+| :----------------- | :--------------------------------------- | :----------------------------------------------- |
+| **Full Form**      | Software Development Lifecycle           | Software Testing Lifecycle                       |
+| **Use Case**       | Used in development.                     | Used in testing.                                 |
+| **Plan**           | Structured plan to develop software.     | Structured plan to test software.                |
+| **Time**           | Comes before & during building software. | Comes after the software is made.                |
+| **Role**           | Related to creation of software.         | Related to debugging of software.                |
+| **Manpower**       | Developers are enough for SDLC.          | Both testers & developers are required for STLC. |
+| **Tools Required** | Compilers, graphs, etc.                  | Asserts, scripts, etc.                           |
