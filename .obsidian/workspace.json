@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbe11bc91111a639",
+        "id": "35dd61343bbf688c",
         "type": "tabs",
         "children": [
           {
-            "id": "97748608b7e8ce8e",
+            "id": "ded8f895015b6a64",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97748608b7e8ce8e",
+  "active": "ded8f895015b6a64",
   "lastOpenFiles": [
-    "Executable & Linking Format/ChatGPT {O}/7) Spinoff Summaries.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
+    "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
+    "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
+    "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
     "Python App Development/1) Graphical User Interface.md",
@@ -200,8 +202,6 @@
     "Linux Development/Git.md",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Software Quality Testing/College version {O}/media",
-    "Software Quality Testing/College version {O}",
-    "Information & Network Security/College version {O}/2) Classical Encryption Techniques.md",
-    "Cyber Security/College Version {O}/2) Systems Vulnerability Scanning.md"
+    "Software Quality Testing/College version {O}"
   ]
 }

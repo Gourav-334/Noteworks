@@ -105,4 +105,90 @@ ssize_t write(int fd, const void *buf, size_t count);
 
 /* Reading from file. */
 ssize_t read(int fd, const void *buf, size_t count);
+
+/* Closing file. */
+int close(int fd);
+
+/* Moving file pointer. */
+off_t lseek(int fd, off_t offset, int whence);
+
+/* Deleting a file. */
+int unlink(const char *pathname);
+
+/* Renaming a file. */
+int rename(const char *oldpath, const char *newpath);
+
+/* Getting information about the file. */
+int stat(const char *pathname, struct stat *statbuf);
+```
+
+
+### <u>File Permissions</u>
+
+```c
+/* Assigning permission to a file. */
+int chmod(const char *pathname, mode_t mode);
+
+/* File ownership. */
+int chown(const char *pathname, uid_t owner, gid_t group);
+
+/* Get user ID. */
+uid_t getuid(void);
+
+/* Get group ID. */
+gid_t getgid(void);
+
+/* Get effective user ID. */
+uid_t geteuid(void);
+
+/* Get effective group ID. */
+gid_t getegid(void);
+```
+
+
+### <u>File Descriptor Manipulation</u>
+
+```c
+/* Duplicating descriptor. */
+int dup(int oldfd);
+int dup2(int oldfd, int newfd);
+
+/* Syncing file. */
+fsync(fd);
+
+/* Checks if FD points to terminal. */
+int isatty(int fd);
+```
+
+
+### <u>Working Directory Functions</u>
+
+```c
+/* Change directory. */
+int chdir(const char *path);
+
+/* Get current working directory. */
+int *getcwd(char *buf, size_t size);
+```
+
+
+### <u>System Configuration</u>
+
+```c
+/* Get host name. */
+int gethostname(char *name, size_t len);
+
+/* Get a system information as per the passed 'name'. */
+long sysconfig(int name);
+```
+
+
+### <u>Sleep</u>
+
+```c
+/* Second-precision */
+unsigned int sleep(unsigned int seconds);
+
+/* Microsecond-precision */
+int usleep(useconds_t usec);
 ```

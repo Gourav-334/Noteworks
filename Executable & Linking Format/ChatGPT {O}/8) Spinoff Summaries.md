@@ -1,4 +1,4 @@
-# $\fbox{Chapter 7: SPINOFF SUMMARIES}$
+# $\fbox{Chapter 8: SPINOFF SUMMARIES}$
 
 
 
@@ -105,3 +105,18 @@
 
 
 ## **Topic - 3: Writing Executables By Hand**
+
+### <u>Clarity</u>
+
+#### How loader recognizes start of sections?
+
+- Information about offset of each section is already packed into program header file.
+
+#### How instruction breaks to binaries?
+
+- **Parts -** Opcodes, operands, addressing mode, prefixes
+- Formal breakdown for x86 processors will be as shown below.
+
+```out
+[prefixes][opcode][ModR/M][SIB][displacement][immediate]
+```
