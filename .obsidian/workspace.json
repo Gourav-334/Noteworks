@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "35dd61343bbf688c",
+        "id": "95c1005b19eb8873",
         "type": "tabs",
         "children": [
           {
-            "id": "ded8f895015b6a64",
+            "id": "eac38687e44ec501",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ded8f895015b6a64",
+  "active": "eac38687e44ec501",
   "lastOpenFiles": [
-    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
+    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",

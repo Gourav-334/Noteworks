@@ -192,3 +192,44 @@ unsigned int sleep(unsigned int seconds);
 /* Microsecond-precision */
 int usleep(useconds_t usec);
 ```
+
+
+
+## **Topic - 3: File Control**
+
+```c
+/* File controller, modifying permissions to descriptor flag. */
+int fcntl(int fd, int cmd, ...);
+
+/* Flocker, modifying the type of lock on file behaviour. */
+int flock(int fd, int operation);
+```
+
+
+
+## **Topic - 4: Signal Handling**
+
+### <u>Portable Signal Functions</u>
+
+```c
+/* Signal registering & handling. */
+void (*signal(int signum, void (*handler)(int)))(int);
+
+/* Raise a signal manually. */
+int raise(int sig);
+```
+
+
+### <u>POSIX Signal Functions</u>
+
+```c
+/* Generally used to kill a signal, but works elseway too. */
+int kill(pid_t pid, int sig);
+
+/*  */
+int sigaction(
+	int signum,
+	const struct sigaction *act,
+	struct sigaction *oldact
+);
+```

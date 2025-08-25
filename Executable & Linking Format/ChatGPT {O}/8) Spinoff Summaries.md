@@ -111,6 +111,7 @@
 #### How loader recognizes start of sections?
 
 - Information about offset of each section is already packed into program header file.
+- But its on us to select offset for the sections.
 
 #### How instruction breaks to binaries?
 
@@ -120,3 +121,52 @@
 ```out
 [prefixes][opcode][ModR/M][SIB][displacement][immediate]
 ```
+
+
+
+## **Topic - 4: System V ABI Deep Dive**
+
+### <u>SysV Conventions</u>
+
+- Stack layout during function calls
+- Way of using registers
+- Argument & return value passing
+- Caller/callee responsibilities
+
+
+### <u>Arguments In Order</u>
+
+- **1st to 6th Order -** `rdi`, `rsi`, `rdx`, `rcx`, `r8`, `r9`
+- **Rest -** Pushed to stack
+
+
+### <u>Value Returning</u>
+
+| Return Type                  | Where It's Returned             |
+| :--------------------------- | :------------------------------ |
+| Integer/pointer (any scalar) | `rax`                           |
+| 128-bit values               | `rax`:`rdx`                     |
+| Structures                   | Hidden pointer or memory layout |
+
+
+### <u>GPR Usage</u>
+
+|     Register      | Name                | Usage                                                |
+| :---------------: | :------------------ | :--------------------------------------------------- |
+|       `rax`       | Accumulator         | Arithmetic operations, return value.                 |
+|       `rbx`       | Base register       | General purpose, point to data.                      |
+|       `rcx`       | Count register      | Loop counter, 4th argument.                          |
+|       `rdx`       | Data register       | I/O, 3rd argument.                                   |
+|       `rsi`       | Source index        | Source memory address, 2nd argument.                 |
+|       `rdi`       | Source destination  | Destination memory address, 1st argument.            |
+|       `rbp`       | Base pointer        | Points to base of current function's frame in stack. |
+|       `rsp`       | Stack pointer       | Points to the top of stack.                          |
+|       `r8`        | General purpose     | 5th argument.                                        |
+|       `r9`        | General purpose     | 6th argument.                                        |
+|    `r10`-`r11`    | General purpose     | Scratch, system call temporary.                      |
+|    `r12`-`r15`    | General purpose     | Preserved across call.                               |
+|       `rip`       | Instruction pointer | Points to address of next instruction.               |
+| `eflags`/`rflags` | Flag register       | Contains statuses.                                   |
+
+- **Caller saved (scratch) -** RAX, RCX, RDX, RSI, RDI, R8-R11
+- **Callee saved (preserved) -** RBX, RBP, R12-R15, RSP
