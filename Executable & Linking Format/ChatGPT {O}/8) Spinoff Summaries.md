@@ -146,6 +146,7 @@
 | :--------------------------- | :------------------------------ |
 | Integer/pointer (any scalar) | `rax`                           |
 | 128-bit values               | `rax`:`rdx`                     |
+| Floating point value         | `xmm0`:`xmm1`                   |
 | Structures                   | Hidden pointer or memory layout |
 
 
@@ -170,3 +171,46 @@
 
 - **Caller saved (scratch) -** RAX, RCX, RDX, RSI, RDI, R8-R11
 - **Callee saved (preserved) -** RBX, RBP, R12-R15, RSP
+
+
+### <u>Stack Layout</u>
+
+#### Activation record:
+
+```
+HIGHER ADDRESS
+|
+|
++------------------------------------+
+| argN+2 (if needed)                 |
+| arg7 (stack-passed args)           |
++------------------------------------+
+| Return address (from `call`)       |
++------------------------------------+
+| Previous RBP (saved frame pointer) |
++------------------------------------+
+| Local variables (pushed by callee) |
+| (aligned to 16 bytes)              |
++------------------------------------+
+|
+|
+LOWER ADDRESS
+```
+
+#### Signal frame:
+
+```
+HIGHER ADDRESS
+|
+|
++-------------+   <- RSP at signal entry
+| siginfo_t   |      (optional if SA_SIGINFO set)
++-------------+
+| ucontext_t  |   <- Saved GPRs, FPUs, sigmasks, etc.
++-------------+
+| return addr |   <- Trampoline / restorer
++-------------+
+|
+|
+LOWER ADDRESSES
+```
