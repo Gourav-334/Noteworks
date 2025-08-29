@@ -226,10 +226,60 @@ int raise(int sig);
 /* Generally used to kill a signal, but works elseway too. */
 int kill(pid_t pid, int sig);
 
-/*  */
+/* Assigning new signal handling struct for a signal. */
 int sigaction(
 	int signum,
 	const struct sigaction *act,
 	struct sigaction *oldact
 );
+
+/* Change masking rules for a signal. */
+int sigprocmask(int how, const sigset_t  *set, sigset_t *oldset);
+
+/* Waits until a signal is received. */
+int sigwait(const sigset_t *set, int *sig);
+
+/* Pausing or suspending a signal (no polling). */
+int sigsuspend(const sigset_t *mask);
+```
+
+
+
+## **Topic - 5: POSIX Multithreading**
+
+### <u>Creation Of Thread</u>
+
+```c
+#include <stdio.h>
+#include <pthread.h>
+
+
+/* Exit function for thread. */
+
+void *func(void *arg)
+{
+	pthread_exit(NULL);
+	return NULL;
+}
+
+
+/* Main function */
+
+int main()
+{
+	/* Creating thread ID storage. */
+	
+	pthread_t thread;           // Single thread ID
+	pthread_t thread_arr[7];    // Array of thread IDs
+	
+	
+	/* Creating the thread itself. */
+	
+	pthread_create(&thread, NULL, func, NULL);
+	
+	
+	/* Let main() function wait for thread execution. */
+	
+	pthread_join(thread, NULL);
+}
 ```
