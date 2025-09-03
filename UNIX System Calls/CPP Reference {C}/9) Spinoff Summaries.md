@@ -281,5 +281,67 @@ int main()
 	/* Let main() function wait for thread execution. */
 	
 	pthread_join(thread, NULL);
+	
+	return 0;
 }
 ```
+
+
+### <u>Thread Attributes</u>
+
+```c
+/* Creating attribute. */
+pthread_attr_t attr;
+
+/* Initializing attribute. */
+pthread_attr_init(&attr);
+
+/* Joinable state */
+pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
+
+/* Detached state */
+pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+
+/* State size setting. */
+pthread_attr_setstacksize(&attr, size);
+
+/* Killing an attribute. */
+pthread_attr_destroy(&attr);
+```
+
+
+### <u>Mutex</u>
+
+```c
+/* Creating mutex. */
+pthread_mutex_t lock;
+
+/* Initializing mutex. */
+pthread_mutex_init(&lock, NULL);
+
+/* Actions */
+pthread_mutex_lock(&lock);           // Blocks until resource is in use.
+pthread_mutex_unlock(&lock);         // Unlocks the thread.
+pthread_mutex_trylock(&lock);        // Returns 0 if mutex already lock.
+
+/* Kill a mutex. */
+pthread_mutex_destroy(&lock);
+```
+
+
+### <u>Mutex Attributes</u>
+
+```c
+/* Creating mutex attribute. */
+pthread_mutexattr_t lockAttr;
+
+/* Initializing mutex attribute. */
+pthread_mutexattr_init(&lockAttr);
+
+/* Configuring mutex type. */
+pthread_mutexattr_settype(&lockAttr, PTHREAD_MUTEX_NORMAL);
+```
+
+
+
+## **Topic - 6: Socket Programming**

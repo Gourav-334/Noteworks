@@ -82,7 +82,7 @@
 ### <u>Dynamic Sections</u>
 
 - **`.dynamic` -** Contains metadata for dynamic linker.
-- **`.got` -** Contains addresses of shared symbols.
+- **`.got` -** Contains addresses of external symbols & global variables.
 - **`.plt` -** Stubs to register unresolved shared symbols into `.got`.
 - **`.symtab` -** Contains record of all static symbols.
 - **`.dynsym` -** Contains record of all dynamic symbols.
@@ -213,4 +213,43 @@ HIGHER ADDRESS
 |
 |
 LOWER ADDRESSES
+```
+
+
+### <u>Warnings</u>
+
+- Red zones mustn't be used in signal handling.
+- Stack must be marked with `PROT_EXEC` to work during execution.
+
+
+
+## **Topic - 5: Dynamic Linker & Loader**
+
+### <u>Loader Responsibilities</u>
+
+- To parse dynamic sections.
+- To resolve symbols & load `.so` (if required).
+- To relocate sections.
+- Lazy & eager symbol resolution.
+- To run initializers.
+- To jump to `_start` section.
+
+
+### <u>RPATH v/s RUNPATH</u>
+
+- Both contain paths to many shared libraries.
+- There are other options to encode paths, but with an order of preference.
+- `DT_RPATH` is deprecated while `DT_RUNPATH` is modern.
+- Both are of `char*` type & point to strings in `.dynstr`.
+- We can encode a path to ELF executable using the commands given below.
+
+```sh
+# RPATH
+gcc -Wl,-rpath,/custom/path myprog.c -o myprog
+
+# RUNPATH
+gcc -Wl,--enable-new-dtags -Wl,-rpath,/custom/path myprog.c -o myprog
+
+patchelf --set-rpath /new/lib ./myBin        # Set/modify path
+patchelf --remove-rpath ./binary             # Remove path
 ```

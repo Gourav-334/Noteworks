@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89c1394cddba8382",
+        "id": "a00bc45143d5f7cc",
         "type": "tabs",
         "children": [
           {
-            "id": "d3ba16e147d43e3f",
+            "id": "9d2c887d242e4fa6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 218.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,11 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3ba16e147d43e3f",
+  "active": "9d2c887d242e4fa6",
   "lastOpenFiles": [
+    "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
-    "Pasted image 20250829190705.png",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
+    "Pasted image 20250829190705.png",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
