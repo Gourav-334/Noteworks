@@ -253,3 +253,7 @@ gcc -Wl,--enable-new-dtags -Wl,-rpath,/custom/path myprog.c -o myprog
 patchelf --set-rpath /new/lib ./myBin        # Set/modify path
 patchelf --remove-rpath ./binary             # Remove path
 ```
+
+
+
+## **Topic - 6: Advanced ELF Topics**

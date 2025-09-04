@@ -345,3 +345,64 @@ pthread_mutexattr_settype(&lockAttr, PTHREAD_MUTEX_NORMAL);
 
 
 ## **Topic - 6: Socket Programming**
+
+### <u>Server</u>
+
+#### Required headers:
+
+```c
+#include <sys/types.h>     // Contains special data types.
+#include <sys/socket.h>    // Contains socket-related structures.
+#include <netinet/in.h>    // Contains internet domain related stuffs.
+```
+
+#### Structures & functions:
+
+```c
+/* Socket's address (like server's, clinet's). */
+struct sockaddr_in server;
+server.sin_family = AF_NET;    // Must always be set to AF_NET.
+server.sin_port = htons(port);    // Argument conversion to port number.
+server.sin_addr.s_addr = INADDR_ANY;    // IP address of server.
+
+/* Creating a socket. */
+sockfd = socket(AF_NET, SOCK_STREAM, 0);
+
+/* Binding a socket. */
+bind(sockfd, (struct sockaddr_in*) &server, sizeof(server));
+
+/* Looking for a server. */
+listen(sockfd, 5);
+
+/* Accepting connection request. */
+newsockfd = accept(sockfd, (struct sockaddr_in*), &client, &clilen);
+
+/* Reading from socket. */
+n = read(newsockfd, buffer, 256);
+
+/* Writing to socket. */
+n = write(newsockfd, "I got your message!", 19);
+```
+
+
+### <u>Client</u>
+
+#### Required headers:
+
+```c
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netdb.h>             // Defines structure for 'hostent'.
+```
+
+#### Structures & functions:
+
+```c
+/* Socket address of client. */
+struct sockaddr_in client;
+
+/* Pointer to 'hostent' struct, containing host details. */
+struct hostent *server;
+```

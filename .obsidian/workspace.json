@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a00bc45143d5f7cc",
+        "id": "f7943d5096d760d0",
         "type": "tabs",
         "children": [
           {
-            "id": "9d2c887d242e4fa6",
+            "id": "32a01c94c6743601",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,15 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d2c887d242e4fa6",
+  "active": "32a01c94c6743601",
   "lastOpenFiles": [
-    "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
+    "Information & Network Security/College version {O}/4) Multiple Encryptions & Triple DES.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
+    "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
+    "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
     "Pasted image 20250829190705.png",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
-    "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
     "Python App Development/1) Graphical User Interface.md",
     "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
@@ -201,7 +202,6 @@
     "Software Quality Testing/FreeNotes {O}/New Questions.md",
     "Linux Development/Ubuntu.md",
     "Linux Development/Bash.md",
-    "Linux Development/Git.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
