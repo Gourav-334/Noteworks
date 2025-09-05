@@ -257,3 +257,38 @@ patchelf --remove-rpath ./binary             # Remove path
 
 
 ## **Topic - 6: Advanced ELF Topics**
+
+### <u>Stripping Binaries</u>
+
+- **Removed sections -** `.symtab`, `.strtab`, `.debug_*`, `.comment`, `.note.*`, `.rel.*`, `.rela.*`
+- **Retained sections -** `.text`, `.data`, `.bss`, `.rodata`, `.dynsym`, `.dynstr`, `.interp`, `.dynamic`, `.got`, `.plt`
+- We can also selectively remove any section we want to.
+
+
+### <u>Symbol Versioning</u>
+
+#### Sections:
+
+|   Section Name   | Description                                                   |
+| :--------------: | :------------------------------------------------------------ |
+|  `.gnu.version`  | Contains mapping of each dynamic symbols with their versions. |
+| `.gnu_version_n` | Lists required versions from dependency shared objects.       |
+| `.gnu_version_d` | Describes supported versions by the shared object.            |
+
+#### Version script:
+
+```
+VER_1.0 {
+	global:
+		foo;
+		
+	local:
+		*;
+};
+
+VER_2.0 {
+	global:
+		foo@@VER_1.0;        // 'foo' is aliased to version 1.0
+		bar;
+};
+```
