@@ -292,3 +292,14 @@ VER_2.0 {
 		bar;
 };
 ```
+
+
+### <u>TLS Sections</u>
+
+| Section            | Purpose                             |
+| :----------------- | :--------------------------------- |
+| `.tdata`           | Initialized TLS da                  |
+| `.tbss`            | Uninitialized TLS d             a   |
+| `.init_array`, e Used during dynamic TLS allocation TLS  |
+
+---
