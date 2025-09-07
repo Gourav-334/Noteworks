@@ -32,7 +32,7 @@
 - Knowing these few breakdowns help in referencing any kind of instruction in future with super ease.
 
 
-### <u>Pseudo/Memory Representation</u>
+### <u>Memory Representation</u>
 
 ```
 Address     Bytes          Meaning
@@ -40,4 +40,16 @@ Address     Bytes          Meaning
 0x08048005  CD 80          int 0x80
 ```
 
-- The instruction decoder reads the binary code byte-by-byte.
+- The instruction decoder reads a binary code byte-by-byte.
+- For example, the representation above shows two instructions.
+- For the first instruction i.e. `B8 01 00 00 00`, the decoder knows that there are four more bytes to be read.
+- Its equivalent assembly code is shown below.
+
+```gas
+section .text
+    global _start
+
+_start:
+    mov eax, 1        ; load constant into eax
+    int 0x80          ; syscall: exit(1)
+```
