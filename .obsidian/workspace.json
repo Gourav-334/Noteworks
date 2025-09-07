@@ -11,10 +11,14 @@
             "id": "9baabde6ef3f9f3e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "7) Binary Code Translation"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
+    "width": 231.5,
     "collapsed": true
   },
   "right": {
@@ -168,6 +172,7 @@
   },
   "active": "9baabde6ef3f9f3e",
   "lastOpenFiles": [
+    "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
     "Information & Network Security/College version {O}/4) Multiple Encryptions & Triple DES.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
@@ -201,7 +206,6 @@
     "Software Quality Testing/FreeNotes {O}/Questions.md",
     "Software Quality Testing/FreeNotes {O}/New Questions.md",
     "Linux Development/Ubuntu.md",
-    "Linux Development/Bash.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
