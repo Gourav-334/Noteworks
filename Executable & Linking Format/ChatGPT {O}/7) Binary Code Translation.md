@@ -53,3 +53,77 @@ _start:
     mov eax, 1        ; load constant into eax
     int 0x80          ; syscall: exit(1)
 ```
+
+
+
+## **Topic - 2: x86 Instruction Set Architecture**
+
+### <u>Parts Of Instructions</u>
+
+| Element           | About                                            |
+| :---------------- | :----------------------------------------------- |
+| Optional prefixes | For segment override, repeat, operand size, etc. |
+| Opcode byte(s)    | Takes about 1-3 bytes.                           |
+| ModR/M byte       | If operand has register or memory.               |
+| SIB byte          | If complex addressing is required.               |
+| Displacement      | If memory offset is required.                    |
+| Immediate         | A literal value.                                 |
+
+
+### <u>Abstracted Terms</u>
+
+#### ModR/M byte:
+
+| Part | Size  | Usage                   |
+| :--: | :---: | :---------------------- |
+| Mod  | 2-bit | Addressing mode         |
+| Reg  | 3-bit | Register operand        |
+| R/M  | 3-bit | Memory/register operand |
+
+#### SIB byte:
+
+- Encodes **scale-index base** addressing (complex addressing).
+- For example, `[EAX + EBX*4 + 8]`
+
+
+### <u>Breakdown Examples</u>
+
+#### `mov eax, ebx`:
+
+- **Bytes -** `89 D8`
+- `89` means `MOV r/m32, r32`.
+- `D8` is a  ModR/M.
+
+$$ \text{Mod = 11 (register)} $$
+$$ \text{Reg = 3 (EBX)} $$
+$$ \text{R/M = 0 (EAX)} $$
+
+#### `mov eax, [ebx]`:
+
+- **Bytes -** `8B 03`
+- `8B` means `MOV r32, r/m32`.
+- `03` is a ModR/M.
+
+$$ \text{Mod = 00 (memory)} $$
+$$ \text{Reg = 0 (EAX)} $$
+$$ \text{R/M = 3 (EBX)} $$
+
+#### `mov [ebx+4], eax`:
+
+- **Bytes -** `89 43 04`
+- `89` means `MOV r/m32, r32`.
+- `43` is a ModR/M.
+
+$$ \text{Mod = 01 (disp8)} $$
+$$ \text{Reg = 0 (EAX)} $$
+$$ \text{R/M = 3 (EBX)} $$
+$$ \fbox{EAX+4}\;\leftarrow\;\text{EAX}  $$
+
+#### `add eax, 5`:
+
+- **Bytes -** `83 C0 05`
+- `83` means `ADD r/m32, imm8`.
+- `C0` means ModR/M with EAX.
+- `05` is immediate `5`.
+
+---

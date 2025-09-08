@@ -361,8 +361,8 @@ pthread_mutexattr_settype(&lockAttr, PTHREAD_MUTEX_NORMAL);
 ```c
 /* Socket's address (like server's, clinet's). */
 struct sockaddr_in server;
-server.sin_family = AF_NET;    // Must always be set to AF_NET.
-server.sin_port = htons(port);    // Argument conversion to port number.
+server.sin_family = AF_NET;             // Must always be set to AF_NET.
+server.sin_port = htons(port);          // Argument conversion to port number.
 server.sin_addr.s_addr = INADDR_ANY;    // IP address of server.
 
 /* Creating a socket. */
@@ -400,9 +400,26 @@ n = write(newsockfd, "I got your message!", 19);
 #### Structures & functions:
 
 ```c
+/* Fethcing port number of host. */
+portno = argv[2];
+
 /* Socket address of client. */
 struct sockaddr_in client;
 
 /* Pointer to 'hostent' struct, containing host details. */
 struct hostent *server;
+server.sin_family = AF_INET;        // IP address
+server.sin_port = htons(portno);
+
+/* Setting up client socket. */
+sockfd = socket(AF_NET, SOCK_STREAM, 0);
+
+/* Fetching hostname from argument. */
+hostname = gethostbyname(argv[1]);
+
+/* Connecting to server socket. */
+connect(sockfd, &server, sizeof(server));
+
+/* Sending stream to server. */
+write(sockfd, buffer, strlen(buffer)*sizeof(char));
 ```
