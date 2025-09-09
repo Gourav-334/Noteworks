@@ -423,3 +423,37 @@ connect(sockfd, &server, sizeof(server));
 /* Sending stream to server. */
 write(sockfd, buffer, strlen(buffer)*sizeof(char));
 ```
+
+
+
+## **Topic - 7: System Memory Management**
+
+### <u>Memory Mapping</u>
+
+```c
+/* Mapping memory region. */
+void *mmap(void *addr, size_t length, int prot, int flags, int fd, off_t offset);
+
+/* Unmapping memory region. */
+int munmap(void *addr, size_t length);
+```
+
+
+### <u>Memory Control</u>
+
+```c
+/* Modifying region's protection policy. */
+int mprotect(void *addr, size_t len, int prot);
+
+/* Modifying memory's synchronization policy. */
+int msync(void *addr, size_t length, int flags);
+
+/* Memory usage hints/advises feature. */
+int madvise(void *addr, size_t length, int advice);
+
+/* Locking a memory region. */
+int mlock(const void *addr, size_t len);
+
+/* Unlocking a memory region. */
+int munlock(const void *addr, size_t len);
+```

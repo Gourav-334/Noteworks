@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1732c17b467d04f",
+        "id": "9bf38009972f58e6",
         "type": "tabs",
         "children": [
           {
-            "id": "652d059138ccb637",
+            "id": "e02f32b462822bf3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
+    "width": 239.5,
     "collapsed": true
   },
   "right": {
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "652d059138ccb637",
+  "active": "e02f32b462822bf3",
   "lastOpenFiles": [
-    "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
+    "Cyber Security/College Version {O}/5) Introduction To Cyber Crime Investigation.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
+    "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
     "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
     "Information & Network Security/College version {O}/4) Multiple Encryptions & Triple DES.md",
@@ -201,7 +202,6 @@
     "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191056.png",
     "Cyber Security/College Version {O}/3) Firewalls & Network Defense Tools.md",
     "Software Quality Testing/FreeNotes {O}/Questions.md",
-    "Software Quality Testing/FreeNotes {O}/New Questions.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
