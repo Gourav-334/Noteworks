@@ -457,3 +457,16 @@ int mlock(const void *addr, size_t len);
 /* Unlocking a memory region. */
 int munlock(const void *addr, size_t len);
 ```
+
+
+
+## **Topic - 8: Linux System Calls**
+
+### <u>System Call Functions</u>
+
+```c
+/* Raw system call, independent of libc. */
+long syscall(long number, ...);
+```
+
+---

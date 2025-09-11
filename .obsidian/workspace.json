@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9bf38009972f58e6",
+        "id": "b4bd2e466b3c14a6",
         "type": "tabs",
         "children": [
           {
-            "id": "e02f32b462822bf3",
+            "id": "dab3ae8db84d7c3d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e02f32b462822bf3",
+  "active": "dab3ae8db84d7c3d",
   "lastOpenFiles": [
-    "Cyber Security/College Version {O}/5) Introduction To Cyber Crime Investigation.md",
+    "Information & Network Security/College version {O}/5) Number Theory & Advanced Encryption Standard.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
+    "Cyber Security/College Version {O}/5) Introduction To Cyber Crime Investigation.md",
     "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
     "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
     "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
@@ -201,7 +202,6 @@
     "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191013.png",
     "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191056.png",
     "Cyber Security/College Version {O}/3) Firewalls & Network Defense Tools.md",
-    "Software Quality Testing/FreeNotes {O}/Questions.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
