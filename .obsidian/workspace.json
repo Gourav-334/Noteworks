@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c181e322bb52dea1",
+        "id": "78881d03b9707f54",
         "type": "tabs",
         "children": [
           {
-            "id": "d98238d4513cbb2a",
+            "id": "513f056eaa74527c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d98238d4513cbb2a",
+  "active": "513f056eaa74527c",
   "lastOpenFiles": [
+    "Information & Network Security/College version {O}/6) Asymmetric Ciphers.md",
+    "Software Quality Testing/FreeNotes {O}/BDA Notes.md",
     "Software Quality Testing/College version {O}/5) QA Concepts & Standards.md",
     "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
     "Information & Network Security/College version {O}/5) Number Theory & Advanced Encryption Standard.md",
@@ -193,8 +195,6 @@
     "Software Quality Testing/College version {O}/1) Software Testing.md",
     "C Programming/Sololearn {C}/04) Structures & Unions.md",
     "C Programming/Sololearn {C}/03) Strings.md",
-    "C Programming/Sololearn {C}/02) Pointers.md",
-    "C Programming/Sololearn {C}/01) Standard IO.md",
     "Information & Network Security/College version {O}/media/image7.png",
     "Information & Network Security/College version {O}/media/image6.png",
     "Information & Network Security/College version {O}/media/image5.png",

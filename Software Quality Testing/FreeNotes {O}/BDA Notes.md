@@ -61,3 +61,13 @@ $$ \text{NewSQL = SQL + NoSQL} $$
 | **Technology** | Government information infrastructure | Corporate information information | Big data analytics                |
 | **Scaling**    | Vertical scaling                      | Horizontal scaling                | Both                              |
 | **Examples**   | MySQL, PostgreSQL etc                 | MongoDB, Redis etc                | CockroachDB, MariaDB etc          |
+
+
+
+### <u>Hive</u>
+
+- Data warehouse
+- Analysis
+- HIVE engine translate into DAG
+- HQL
+- User/ hive/ warehouse
