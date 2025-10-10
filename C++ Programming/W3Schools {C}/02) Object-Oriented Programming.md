@@ -53,9 +53,9 @@ class Cars
 		int year;
 		
 		Cars(string x, string y, int z) {
-			name = x;
-			model = y;
-			year = z;
+			this->name = x;
+			this->model = y;
+			this->year = z;
 		}
 };
 
@@ -65,8 +65,8 @@ int main()
 }
 ```
 
-- It is advised to not keep the name of arguments same as attributes.
-- There exists a `exist` keyword.
+- It is advised to not keep the name of arguments same as attributes if not using `this`.
+- There exists an `exist` keyword.
 
 
 ### <u>Encapsulation</u>
@@ -80,12 +80,10 @@ class Employee
 		int salary;
 	
 	private:
-		void setSalary(int s) {salary = s;}
-		void getSalary() {return salary;}
+		void setSalary(int s) {this->salary = s;}
+		int getSalary() {return this->salary;}
 };
 ```
-
-- It however is not working at all, I tried.
 
 
 ### <u>Inheritance</u>

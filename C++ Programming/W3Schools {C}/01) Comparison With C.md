@@ -100,19 +100,6 @@ pow(x,y)
 
 ## **Topic - 3: Storage Elements**
 
-### <u>Structures</u>
-
-```cpp
-struct {
-	int myNum;
-	string myString;
-}
-myStruct1, myStruct2, myStruct3;
-```
-
-- When pointers are defined for structures without `typedef`, then the pointers are blamed by the compiler & debugger.
-
-
 ### <u>Function Parameters</u>
 
 - We can also pass whole array as parameter.
