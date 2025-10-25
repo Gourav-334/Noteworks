@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0e377493674b6f7",
+        "id": "c3ab223f07492c60",
         "type": "tabs",
         "children": [
           {
-            "id": "bae68c940899e9a3",
+            "id": "6e4b7d1142278f70",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bae68c940899e9a3",
+  "active": "6e4b7d1142278f70",
   "lastOpenFiles": [
+    "Internet Of Things/NPTEL {O}/3) IoT Connectivity Tech & Protocols.md",
+    "Internet Of Things/NPTEL {O}/media/image14.png",
+    "Internet Of Things/NPTEL {O}/media/image13.png",
+    "Internet Of Things/NPTEL {O}/media/image12.png",
+    "Internet Of Things/NPTEL {O}/media/image11.png",
+    "Internet Of Things/NPTEL {O}/media/image10.png",
+    "Internet Of Things/NPTEL {O}/2) Sensors, Actuation & IoT Networking.md",
+    "Internet Of Things/NPTEL {O}/media/image9.png",
+    "Internet Of Things/NPTEL {O}/media/image8.png",
+    "Internet Of Things/NPTEL {O}/media/image7.png",
+    "Internet Of Things/NPTEL {O}/media/image6.png",
+    "Internet Of Things/NPTEL {O}/1) Introduction To IoT.md",
+    "Internet Of Things/NPTEL {O}/media/image5.png",
+    "Internet Of Things/NPTEL {O}/media",
+    "Internet Of Things/NPTEL {O}/New folder",
+    "Internet Of Things/NPTEL {O}",
+    "Internet Of Things",
     "Information & Network Security/College version {O}/8) Key Management & Distribution.md",
     "Information & Network Security/College version {O}/7) Cryptographic Data Integrity Algorithms.md",
     "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
@@ -187,22 +204,10 @@
     "Information & Network Security/College version {O}/4) Multiple Encryptions & Triple DES.md",
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
-    "Pasted image 20250829190705.png",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
     "Python App Development/1) Graphical User Interface.md",
-    "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
-    "C Programming/Sololearn {C}/07) Error Handling.md",
-    "C Programming/Sololearn {C}/06) File Handling.md",
-    "C Programming/Sololearn {C}/05) Memory Management.md",
-    "Information & Network Security/College version {O}/media/image7.png",
-    "Information & Network Security/College version {O}/media/image6.png",
-    "Information & Network Security/College version {O}/media/image5.png",
-    "Information & Network Security/College version {O}/media/image4.png",
-    "Information & Network Security/College version {O}/media/image3.png",
-    "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191013.png",
-    "Information & Network Security/College version {O}/media/Screenshot 2025-07-29 191056.png",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
