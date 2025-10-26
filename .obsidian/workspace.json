@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3ab223f07492c60",
+        "id": "696e0001b2bc7889",
         "type": "tabs",
         "children": [
           {
-            "id": "6e4b7d1142278f70",
+            "id": "664cc2db29d4d672",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,21 +166,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e4b7d1142278f70",
+  "active": "664cc2db29d4d672",
   "lastOpenFiles": [
+    "Internet Of Things/NPTEL {O}/4) Sensor Networks.md",
+    "Internet Of Things/NPTEL {O}/media/image30.png",
+    "Internet Of Things/NPTEL {O}/media/image29.png",
+    "Internet Of Things/NPTEL {O}/media/image27.png",
+    "Internet Of Things/NPTEL {O}/media/image28.png",
+    "Internet Of Things/NPTEL {O}/media/image26.png",
+    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185306.png",
+    "Internet Of Things/NPTEL {O}/media/image25.png",
+    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185158.png",
+    "Internet Of Things/NPTEL {O}/media/image24.png",
+    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185117.png",
     "Internet Of Things/NPTEL {O}/3) IoT Connectivity Tech & Protocols.md",
-    "Internet Of Things/NPTEL {O}/media/image14.png",
-    "Internet Of Things/NPTEL {O}/media/image13.png",
-    "Internet Of Things/NPTEL {O}/media/image12.png",
-    "Internet Of Things/NPTEL {O}/media/image11.png",
-    "Internet Of Things/NPTEL {O}/media/image10.png",
     "Internet Of Things/NPTEL {O}/2) Sensors, Actuation & IoT Networking.md",
-    "Internet Of Things/NPTEL {O}/media/image9.png",
-    "Internet Of Things/NPTEL {O}/media/image8.png",
-    "Internet Of Things/NPTEL {O}/media/image7.png",
-    "Internet Of Things/NPTEL {O}/media/image6.png",
     "Internet Of Things/NPTEL {O}/1) Introduction To IoT.md",
-    "Internet Of Things/NPTEL {O}/media/image5.png",
     "Internet Of Things/NPTEL {O}/media",
     "Internet Of Things/NPTEL {O}/New folder",
     "Internet Of Things/NPTEL {O}",
@@ -207,7 +208,6 @@
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
     "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
-    "Python App Development/1) Graphical User Interface.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]

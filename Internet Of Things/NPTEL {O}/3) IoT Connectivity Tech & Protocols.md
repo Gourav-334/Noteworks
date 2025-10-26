@@ -187,87 +187,106 @@
 
 ## **Topic - 6: CoAP (Constrained Application Protocol)**
 
-### Overview
+### <u>Overview</u>
+
 - Lightweight **RESTful protocol** over **UDP** for M2M communication.
 - Created by IETF CoRE group.
 
-### Architecture
+
+### <u>Architecture</u>
+
 - Two sub-layers: **Messaging** (reliability) and **Request/Response** (communication).
 
-### Message Types
+
+### <u>Message Types</u>
+
 - Confirmable, Non-confirmable, Piggyback, Separate.
 
-### Features
+
+### <u>Features</u>
+
 - Reduced overhead, simple caching, resource discovery, push notifications.
 - CoAP supports `GET`, `POST`, `PUT`, `DELETE`.
 
-```css
-/* Diagram Placeholder: CoAP Message and Flow Model */
-```
+![CoAP Request-Response Model](./media/image15.png)
 
----
 
-## 7. XMPP (Extensible Messaging and Presence Protocol)
 
-### Overview
+## **Topic - 7: XMPP (Extensible Messaging and Presence Protocol)**
+
+### <u>Overview</u>
+
 - XML-based, real-time communication protocol.
 - Decentralized client–server model.
 - Open and extensible; supports peer-to-peer and machine communication.
 
-### Core Technologies
-| Module | Function |
-|---------|-----------|
-| Core | XML streaming |
-| Jingle | Voice/video signaling |
-| Multi-user Chat | Group communication |
-| PubSub | Alerts & notifications |
-| BOSH | HTTP binding for XMPP |
 
-### Features
+### <u>Core Technologies</u>
+
+| Module          | Function               |
+| --------------- | ---------------------- |
+| Core            | XML streaming          |
+| Jingle          | Voice/video signaling  |
+| Multi-user Chat | Group communication    |
+| PubSub          | Alerts & notifications |
+| BOSH            | HTTP binding for XMPP  |
+
+
+### <u>Features</u>
+
 - Secure, flexible, open, decentralized.
 
-### Weaknesses
+
+### <u>Weaknesses</u>
+
 - No QoS, text-based overhead, base64 encoding needed for binary data.
 
-### Applications
+
+### <u>Applications</u>
+
 - IoT communication, VoIP signaling, gaming, smart grids, social networking.
 
-```css
-/* Diagram Placeholder: XMPP Client-Server Model */
-```
+![XMPP Client-Server Model](./media/image16.png)
 
----
 
-## 8. AMQP (Advanced Message Queuing Protocol)
 
-### Overview
+## **Topic - 8: AMQP (Advanced Message Queuing Protocol)**
+
+### <u>Overview</u>
+
 - Binary, open standard for enterprise-level messaging.
 - Provides reliable communication between applications.
 - ISO/IEC 19464.
 
-### Components
-| Component | Function |
-|------------|-----------|
-| **Exchange** | Routes incoming messages. |
-| **Queue** | Buffers messages per consumer group. |
-| **Binding** | Defines routing rules. |
 
-### Message Delivery Modes
+### <u>Components</u>
+
+| Component    | Function                             |
+| ------------ | ------------------------------------ |
+| **Exchange** | Routes incoming messages.            |
+| **Queue**    | Buffers messages per consumer group. |
+| **Binding**  | Defines routing rules.               |
+
+
+### <u>Message Delivery Modes</u>
+
 - At-most-once, At-least-once, Exactly-once.
 
-### Frame Types
+
+### <u>Frame Types</u>
+
 - Open, Begin, Attach, Transfer, Flow, Disposition, Detach, End, Close.
 
-### Features
+
+### <u>Features</u>
+
 - QoS, persistence, routing flexibility, interoperability, multi-consumption support.
 
-### Applications
+
+### <u>Applications</u>
+
 - Enterprise message systems, asynchronous servers, distributed processing, data replication.
 
-```css
-/* Diagram Placeholder: AMQP Exchange–Queue Flow */
-```
+![AMQP Exchange-Queue Flow](./media/image17.png)
 
 ---
-
-*Notes formatted in the user’s hierarchical, abstract markdown style for IoT Chapter 3.*
