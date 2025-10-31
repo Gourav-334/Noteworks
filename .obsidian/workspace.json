@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "696e0001b2bc7889",
+        "id": "57143f76332d5769",
         "type": "tabs",
         "children": [
           {
-            "id": "664cc2db29d4d672",
+            "id": "e93a285b6afdb5f8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,19 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "664cc2db29d4d672",
+  "active": "e93a285b6afdb5f8",
   "lastOpenFiles": [
+    "Internet Of Things/NPTEL {O}/6) IoT Interoperability & Arduino.md",
+    "Internet Of Things/NPTEL {O}/media/image45.png",
+    "Internet Of Things/NPTEL {O}/media/image44.png",
+    "Internet Of Things/NPTEL {O}/media/image43.png",
+    "Internet Of Things/NPTEL {O}/media/image42.png",
+    "Internet Of Things/NPTEL {O}/5) Advanced Sensor Networks.md",
+    "Internet Of Things/NPTEL {O}/media/image32.png",
+    "Internet Of Things/NPTEL {O}/media/image33.png",
+    "Internet Of Things/NPTEL {O}/media/image34.png",
+    "Internet Of Things/NPTEL {O}/media/image35.png",
+    "Internet Of Things/NPTEL {O}/media/image36.png",
+    "Internet Of Things/NPTEL {O}/media/image37.png",
     "Internet Of Things/NPTEL {O}/4) Sensor Networks.md",
-    "Internet Of Things/NPTEL {O}/media/image30.png",
-    "Internet Of Things/NPTEL {O}/media/image29.png",
-    "Internet Of Things/NPTEL {O}/media/image27.png",
-    "Internet Of Things/NPTEL {O}/media/image28.png",
-    "Internet Of Things/NPTEL {O}/media/image26.png",
-    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185306.png",
-    "Internet Of Things/NPTEL {O}/media/image25.png",
-    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185158.png",
-    "Internet Of Things/NPTEL {O}/media/image24.png",
-    "Internet Of Things/NPTEL {O}/media/Screenshot 2025-10-26 185117.png",
     "Internet Of Things/NPTEL {O}/3) IoT Connectivity Tech & Protocols.md",
     "Internet Of Things/NPTEL {O}/2) Sensors, Actuation & IoT Networking.md",
     "Internet Of Things/NPTEL {O}/1) Introduction To IoT.md",
@@ -206,8 +208,6 @@
     "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
     "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
     "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
-    "Executable & Linking Format/Linux Foundation {D}/1) Object Files.md",
-    "UNIX System Calls/CPP Reference {C}/1) Standard Library.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
