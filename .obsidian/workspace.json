@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "57143f76332d5769",
+        "id": "4867d28973620602",
         "type": "tabs",
         "children": [
           {
-            "id": "e93a285b6afdb5f8",
+            "id": "08e06c71da3132c5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,20 +166,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e93a285b6afdb5f8",
+  "active": "08e06c71da3132c5",
   "lastOpenFiles": [
+    "Big Data Analytics/College Collab {O}/5) Map Reduce Framework.md",
+    "Big Data Analytics/College Collab {O}/4) Basics Of Hadoop.md",
+    "Big Data Analytics/College Collab {O}/media/image14.png",
+    "Big Data Analytics/College Collab {O}/media/image4.png",
+    "Big Data Analytics/College Collab {O}/media/image13.png",
+    "Big Data Analytics/College Collab {O}/media/image12.png",
+    "Big Data Analytics/College Collab {O}/media/image11.png",
+    "Big Data Analytics/College Collab {O}/media/image10.png",
+    "Big Data Analytics/College Collab {O}/media/image9.png",
+    "Big Data Analytics/College Collab {O}/media/image8.png",
+    "Big Data Analytics/College Collab {O}/media/image7.png",
+    "Big Data Analytics/College Collab {O}/media/image6.png",
+    "Big Data Analytics/College Collab {O}/3) Advanced NoSQL Concepts.md",
+    "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
+    "Big Data Analytics/College Collab {O}/1) Introduction.md",
+    "Internet Of Things/NPTEL {O}/9) Cloud Computing & SDN Advances.md",
+    "Internet Of Things/NPTEL {O}/8) Remote Data Login & SDN.md",
+    "Internet Of Things/NPTEL {O}/7) Python & Raspberry Pi.md",
     "Internet Of Things/NPTEL {O}/6) IoT Interoperability & Arduino.md",
-    "Internet Of Things/NPTEL {O}/media/image45.png",
-    "Internet Of Things/NPTEL {O}/media/image44.png",
-    "Internet Of Things/NPTEL {O}/media/image43.png",
-    "Internet Of Things/NPTEL {O}/media/image42.png",
     "Internet Of Things/NPTEL {O}/5) Advanced Sensor Networks.md",
-    "Internet Of Things/NPTEL {O}/media/image32.png",
-    "Internet Of Things/NPTEL {O}/media/image33.png",
-    "Internet Of Things/NPTEL {O}/media/image34.png",
-    "Internet Of Things/NPTEL {O}/media/image35.png",
-    "Internet Of Things/NPTEL {O}/media/image36.png",
-    "Internet Of Things/NPTEL {O}/media/image37.png",
     "Internet Of Things/NPTEL {O}/4) Sensor Networks.md",
     "Internet Of Things/NPTEL {O}/3) IoT Connectivity Tech & Protocols.md",
     "Internet Of Things/NPTEL {O}/2) Sensors, Actuation & IoT Networking.md",
@@ -201,13 +209,6 @@
     "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
     "Information & Network Security/College version {O}/5) Number Theory & Advanced Encryption Standard.md",
     "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
-    "Cyber Security/College Version {O}/5) Introduction To Cyber Crime Investigation.md",
-    "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
-    "Executable & Linking Format/ChatGPT {O}/8) Spinoff Summaries.md",
-    "Information & Network Security/College version {O}/4) Multiple Encryptions & Triple DES.md",
-    "Software Quality Testing/FreeNotes {O}/STQA Notes.md",
-    "Cyber Security/College Version {O}/4) Introduction To Cyber Crime & Law.md",
-    "Executable & Linking Format/ChatGPT {O}/3) Writing Executables By Hand.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
