@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4867d28973620602",
+        "id": "c2d5e44aa672fd82",
         "type": "tabs",
         "children": [
           {
-            "id": "08e06c71da3132c5",
+            "id": "87fad1245fcf2d0d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5,
+    "width": 251.5,
     "collapsed": true
   },
   "right": {
@@ -166,20 +166,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08e06c71da3132c5",
+  "active": "87fad1245fcf2d0d",
   "lastOpenFiles": [
+    "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
+    "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
+    "Internet Of Things/NPTEL {O}/11) Smart IoT Applications.md",
+    "Internet Of Things/NPTEL {O}/10) Industry Applications & Research.md",
     "Big Data Analytics/College Collab {O}/5) Map Reduce Framework.md",
+    "Big Data Analytics/College Collab {O}/media/image19.png",
+    "Big Data Analytics/College Collab {O}/media/image18.png",
+    "Big Data Analytics/College Collab {O}/media/image17.png",
+    "Big Data Analytics/College Collab {O}/media/image16.png",
+    "Big Data Analytics/College Collab {O}/media/image15.png",
     "Big Data Analytics/College Collab {O}/4) Basics Of Hadoop.md",
     "Big Data Analytics/College Collab {O}/media/image14.png",
     "Big Data Analytics/College Collab {O}/media/image4.png",
     "Big Data Analytics/College Collab {O}/media/image13.png",
     "Big Data Analytics/College Collab {O}/media/image12.png",
     "Big Data Analytics/College Collab {O}/media/image11.png",
-    "Big Data Analytics/College Collab {O}/media/image10.png",
-    "Big Data Analytics/College Collab {O}/media/image9.png",
-    "Big Data Analytics/College Collab {O}/media/image8.png",
-    "Big Data Analytics/College Collab {O}/media/image7.png",
-    "Big Data Analytics/College Collab {O}/media/image6.png",
     "Big Data Analytics/College Collab {O}/3) Advanced NoSQL Concepts.md",
     "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
     "Big Data Analytics/College Collab {O}/1) Introduction.md",
@@ -205,10 +209,6 @@
     "Software Quality Testing/College version {O}/6) Risk & Change Management.md",
     "Information & Network Security/College version {O}/6) Asymmetric Ciphers.md",
     "Software Quality Testing/FreeNotes {O}/BDA Notes.md",
-    "Software Quality Testing/College version {O}/5) QA Concepts & Standards.md",
-    "Software Quality Testing/College version {O}/4) Testing Process & Specialized System.md",
-    "Information & Network Security/College version {O}/5) Number Theory & Advanced Encryption Standard.md",
-    "UNIX System Calls/CPP Reference {C}/9) Spinoff Summaries.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]

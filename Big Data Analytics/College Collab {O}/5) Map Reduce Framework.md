@@ -1,87 +1,82 @@
-# Chapter 3B: MapReduce Framework
+# $\fbox{Chapter 5: MAP REDUCE FRAMEWORK}$
 
 
 
-## 1. Introduction to MapReduce
 
-### Definition
+
+## **Topic - 1: Introduction to MapReduce**
+
+### <u>Definition</u>
+
 - **MapReduce** is a **parallel programming framework** to process large volumes of distributed data.
 - Processes Big Data stored in **HDFS** through user-defined **Map** and **Reduce** functions.
 - Originally developed by **Google (2004)**.
 
-### Key Operations
+
+### <u>Key Operations</u>
+
 1. **Map:** Processes input data → emits intermediate key–value pairs.
 2. **Reduce:** Aggregates intermediate results → outputs final key–value pairs.
 
-```css
-/* Diagram Placeholder: MapReduce Flow Overview */
-```
 
----
 
-## 2. Working of MapReduce
+## **Topic - 2: Working of MapReduce**
 
-### Architecture
+### <u>Architecture</u>
+
 - Operates on a **Master–Slave** model.
 - **Master (JobTracker)** coordinates jobs and assigns tasks.
 - **Workers (TaskTrackers)** execute Map and Reduce tasks.
 
-### Execution Flow
+
+### <u>Execution Flow</u>
+
 1. User submits job to **JobTracker**.
 2. JobTracker splits input data → assigns to TaskTrackers.
 3. Each TaskTracker runs **Mapper** and **Reducer** independently.
 4. Results are aggregated and written back to **HDFS**.
 
-```css
-/* Diagram Placeholder: Master–Slave Communication in MapReduce */
-```
 
----
 
-## 3. MapReduce Functions
+## **Topic - 3: MapReduce Functions**
 
-### Functional Model
+### <u>Functional Model</u>
+
 ```text
 map(in_key, in_value) → list(out_key, intermediate_value)
 reduce(out_key, list(intermediate_value)) → list(out_value)
 ```
 
-### Programming Influence
+
+### <u>Programming Influence</u>
+
 - Derived from **functional programming** concepts.
 - Abstracts parallelization, fault tolerance, and load balancing.
 
-```css
-/* Diagram Placeholder: Map and Reduce Function Structure */
-```
 
----
 
-## 4. Challenges Solved by MapReduce
+## **Topic - 4: Challenges Solved by MapReduce**
 
-| Challenge | Description | MapReduce Solution |
-|------------|--------------|--------------------|
+| Challenge                 | Description                               | MapReduce Solution                    |
+| ------------------------- | ----------------------------------------- | ------------------------------------- |
 | **Critical Path Problem** | Delay in one node affects job completion. | Parallel, independent task execution. |
-| **Reliability** | Node failure halts progress. | Task re-execution on other nodes. |
-| **Equal Split** | Uneven data load on nodes. | Automatic data partitioning. |
-| **Single Split Failure** | Failure in one chunk affects entire job. | Fault-tolerant reprocessing. |
-| **Aggregation** | Need to merge distributed results. | Automatic shuffling & merging. |
+| **Reliability**           | Node failure halts progress.              | Task re-execution on other nodes.     |
+| **Equal Split**           | Uneven data load on nodes.                | Automatic data partitioning.          |
+| **Single Split Failure**  | Failure in one chunk affects entire job.  | Fault-tolerant reprocessing.          |
+| **Aggregation**           | Need to merge distributed results.        | Automatic shuffling & merging.        |
 
----
 
-## 5. Advantages of MapReduce
+
+## **Topic - 5: Advantages of MapReduce**
 
 - **Parallel Processing:** Divide and Conquer → faster data handling.
 - **Data Locality:** Computation moves to data, not vice versa.
 - **Scalability:** Processes petabyte-scale datasets efficiently.
 - **Fault Tolerance:** Retries failed tasks automatically.
 
-```css
-/* Diagram Placeholder: Parallelism and Data Locality */
-```
 
----
 
-## 6. Core MapReduce Terminologies
+## **Topic - 6: Core MapReduce Terminologies**
 
 | Term | Definition |
 |------|-------------|
@@ -96,60 +91,63 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 | **Task** | Execution instance of Mapper or Reducer. |
 | **Task Attempt** | A retry of a failed task on a different node. |
 
----
 
-## 7. Mapper Function – Workflow
 
-### Steps
+## **Topic - 7: Mapper Function – Workflow**
+
+### <u>Steps</u>
+
 1. **Input Split:** Logical unit of work; defines data processed by a single mapper.
 2. **RecordReader:** Converts input splits into key–value pairs.
 3. **Mapping:** Processes pairs and outputs intermediate key–value results.
 
-### Input Formats
-- **TextInputFormat (Default)**
-- **KeyValueTextInputFormat**
-- **SequenceFileInputFormat**
-- **SequenceFileAsTextInputFormat**
 
-```css
-/* Diagram Placeholder: Mapper Function Flow */
-```
+### <u>Input Formats</u>
 
----
+- **`TextInputFormat`** (Default)
+- **`KeyValueTextInputFormat`**
+- **`SequenceFileInputFormat`**
+- **`SequenceFileAsTextInputFormat`**
 
-## 8. Shuffle and Sort Phase
+![Mapper Function Flow](./media/image15.png)
 
-### Purpose
+
+
+## **Topic - 8: Shuffle and Sort Phase**
+
+### <u>Purpose</u>
+
 - Automatically handled by the MapReduce framework.
 - Ensures values for the same key reach the same reducer.
 
-### Sub-steps
+
+### <u>Sub-steps</u>
+
 1. **Merging:** Combines all pairs with identical keys.
-2. **Sorting:** Orders pairs by key → <Key, List<\Value>>.
+2. **Sorting:** Orders pairs by key → `<Key, List<Value>>`.
 
-```css
-/* Diagram Placeholder: Shuffle and Sort Mechanism */
-```
+![Shuffle and Sort Mechanism](./media/image16.png)
 
----
 
-## 9. Reducer Function – Workflow
 
-### Function
+## **Topic - 9: Reducer Function – Workflow**
+
+### <u>Function</u>
+
 - Executes once per **unique key**.
 - Aggregates all intermediate values for that key.
 
-### Output
+
+### <u>Output</u>
+
 - Zero or more final key–value pairs.
 - Final results stored in **HDFS output directory**.
 
-```css
-/* Diagram Placeholder: Reducer Function Flow */
-```
+![Reducer Function Flow](./media/image17.png)
 
----
 
-## 10. End-to-End MapReduce Process
+
+## **Topic - 10: End-to-End MapReduce Process**
 
 1. Input split into chunks.
 2. Mappers process each chunk → emit intermediate results.
@@ -157,84 +155,84 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 4. Reducers aggregate grouped values.
 5. Final output written to HDFS.
 
-```css
-/* Diagram Placeholder: Complete MapReduce Pipeline */
-```
+![Complete MapReduce Pipeline](./media/image18.png)
 
----
 
-## 11. MapReduce Applications
 
-| Category | Example |
-|-----------|----------|
-| **Summarization** | Counting, statistics aggregation |
-| **Classification** | Top-N records, sorting |
-| **Recommendation** | Predict user preferences |
-| **Analytics** | Join, selection, filtering |
+## **Topic - 11: MapReduce Applications**
 
----
+| Category           | Example                          |
+| ------------------ | -------------------------------- |
+| **Summarization**  | Counting, statistics aggregation |
+| **Classification** | Top-N records, sorting           |
+| **Recommendation** | Predict user preferences         |
+| **Analytics**      | Join, selection, filtering       |
 
-## 12. Example – Inverted Index
 
-### Problem
-Build a list of unique words or hashtags and their document occurrences.
 
-### Example Input (Tweets)
+## **Topic - 12: Example – Inverted Index**
+
+### <u>Problem</u>
+
+- Build a list of unique words or hashtags and their document occurrences.
+
+
+### <u>Example Input (Tweets)</u>
+
 ```
 "It’s not too late to vote. #ElectionDay"
 "Happy #PrimaryDay"
 ```
 
-### Map Function
+
+### <u>Map Function</u>
+
 ```text
 map(tweet) → (hashtag, tweet)
 ```
 
-### Reduce Function
+
+### <u>Reduce Function</u>
+
 ```text
 reduce(hashtag, list(tweets)) → (hashtag, [list of tweets])
 ```
 
-### Example Output
+
+### <u>Example Output</u>
+
 ```
 (ElectionDay, [“It’s not too late to vote...”, “Say NO to corruption...”])
 (PrimaryDay, [“Midtown polling office...”, “Happy #PrimaryDay”])
 ```
 
-```css
-/* Diagram Placeholder: Inverted Index via MapReduce */
-```
 
----
 
-## 13. MapReduce on YARN
+## **Topic - 13: MapReduce on YARN**
 
-### MRv2 (MapReduce v2)
+### <u>MRv2 (MapReduce v2)</u>
+
 - Integrated with **YARN** in Hadoop 2.x.
 - **JobTracker** and **TaskTracker** replaced by:
-  - **ResourceManager**
-  - **ApplicationMaster**
-  - **NodeManager**
+	- **ResourceManager**
+	- **ApplicationMaster**
+	- **NodeManager**
 
-### Advantages
+
+### <u>Advantages</u>
+
 - Enhanced scalability and multi-job execution.
 - Supports real-time and interactive applications.
 
-```css
-/* Diagram Placeholder: MapReduce on YARN Architecture */
-```
+![MapReduce on YARN Architecture](./media/image19.png)
 
----
 
-## 14. Summary
+
+## **Topic - 14: Summary**
 
 - MapReduce simplifies large-scale data processing using **parallelism**.
 - Fault tolerance and scalability are built-in.
 - MRv2 with YARN provides improved flexibility.
 - Commonly used for analytics, indexing, and recommendation systems.
-
-```css
-/* Diagram Placeholder: Summary of MapReduce Workflow */
-```
 
 ---
