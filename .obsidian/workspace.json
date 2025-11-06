@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c2d5e44aa672fd82",
+        "id": "9de703d01e5aea28",
         "type": "tabs",
         "children": [
           {
-            "id": "87fad1245fcf2d0d",
+            "id": "a9dd776f56b48423",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87fad1245fcf2d0d",
+  "active": "a9dd776f56b48423",
   "lastOpenFiles": [
+    "Typology/Jungian Typology.md",
+    "Typology/Temperaments.md",
     "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
     "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
     "Internet Of Things/NPTEL {O}/11) Smart IoT Applications.md",
@@ -207,8 +209,6 @@
     "Psychology Reports/Ann.md",
     "Psychology Reports",
     "Software Quality Testing/College version {O}/6) Risk & Change Management.md",
-    "Information & Network Security/College version {O}/6) Asymmetric Ciphers.md",
-    "Software Quality Testing/FreeNotes {O}/BDA Notes.md",
     "Software Quality Testing/College version {O}/media",
     "Software Quality Testing/College version {O}"
   ]
