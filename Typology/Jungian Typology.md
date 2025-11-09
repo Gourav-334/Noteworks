@@ -18,103 +18,94 @@
 
 ### 1.2 <u>Energy Direction</u>:
 
-|**Aspect**|Introversion (I)|Extroversion (E)|
-|:-|:-:|:-:|
-|**Target Data**|Internal|External|
-|**Nature**|Complicated|Representable|
-|**Objective**|Refine/reflect|Adapt|
-|**Form**|Subjective|Objective|
-|**Direction**|Conclusive|Spectrum|
-|**Quantity**|Precision|Sufficiency|
+| **Aspect**      | Introversion (I) | Extroversion (E) |
+| :-------------- | :--------------: | :--------------: |
+| **Target Data** |     Internal     |     External     |
+| **Basis**       |    Past data     |  Reliable data   |
+| **Nature**      |   Complicated    |  Representable   |
+| **Form**        |    Subjective    |    Objective     |
+| **Direction**   |    Conclusive    |     Spectrum     |
+| **Objective**   |    Impression    |    Adaptation    |
 
 
 
-## 2. Token Definitions
+## 2. Jungian Definitions
 
 
 ### 2.1 <u>Information</u>:
 
-- **<u>Sensing (S)</u>:** Perceiving physical world as it is through 5 senses.
-- **<u>Intuiting (N)</u>:** Perceiving physical world in form of discrete patterns, which are missed by senses.
-- **<u>Feeling (F)</u>:** Taking decisions as per emotional influence.
-- **<u>Thinking (T)</u>:** Taking decisions as per logical reasoning.
+- **<u>Sensing (S)</u>:** Experiencing a system in terms of ***physical stimulus***.
+- **<u>Intuiting (N)</u>:** Experiencing a system in terms of ***unconscious visions***.
+- **<u>Feeling (F)</u>:** Evaluating contents of a system in terms of ***abstract values***.
+- **<u>Thinking (T)</u>:** Evaluating contents of a system in terms of ***logical relations***.
 
 
 ### 2.2 <u>Energy Direction</u>:
 
-- **<u>Introversion (I)</u>:** Pulling in & internally processing/reflecting on meta (N/T) or human (S/F) information, refined by personally experienced data.
-- **<u>Extroversion (E)</u>:** Projecting out & externally processing/representing meta (N/T) or human (S/F) information, refined by impersonal objective data.
+- **<u>Introversion (I)</u>:** Considering ***subjective*** data for evaluation.
+- **<u>Extroversion (E)</u>:** Adapting to ***objective*** external systems.
 
 
-### 2.3 <u>Target Attributes</u>:
+### 2.3 <u>Cognitive Functions Definition</u>:
 
-- Base of decision making
-- Topics for casual discussion
-- Job feedback with reason
-- Natural hobby
-
-
-
-## 3. Singular Jungian Definition
-
-
-- ***Si*** - Preference to <u>trap/reserve</u> sensory details for <u>reflection</u>.
-- ***Se*** - Preference to <u>engage</u> with sensory details for <u>representable action</u>.
-- ***Ni*** - Preference to <u>trap/reserve</u> abstract patterns for <u>reflection</u>.
-- ***Ne*** - Preference to <u>engage</u> with abstract patterns for <u>representable action</u>.
-- ***Fi*** - Preference to <u>trap/reserve</u> emotions (any) for <u>reflection</u>.
-- ***Fe*** - Preference to <u>engage</u> with emotions (any) for <u>representable action</u>.
-- ***Ti*** - Preference to <u>trap/reserve</u> mechanical logic for <u>reflection</u>.
-- ***Te*** - Preference to <u>engage</u> with mechanical logic for <u>representable action</u>.
+- ***Si*** - Considering <u>subjective</u> <u>sensation</u> for evaluation.
+- ***Se*** - Adapting to <u>objective</u> <u>sensation</u> of external system.
+- ***Ni*** - Considering <u>subjective</u> <u>visions</u> for evaluation.
+- ***Ne*** - Adapting to <u>objective</u> <u>visions</u> of external system.
+- ***Fi*** - Considering <u>subjective</u> <u>values</u> for evaluation.
+- ***Fe*** - Adapting to <u>objective</u> <u>values</u> of external system.
+- ***Ti*** - Considering <u>subjective</u> <u>logic</u> for evaluation.
+- ***Te*** - Adapting to <u>objective</u> <u>logic</u> of external system.
 
 
 
-## 4. Note Before Proceeding
+## 3. Note Before Proceeding
 
 
-### 4.1 <u>About The Method</u>:
+### 3.1 <u>About The Method</u>:
 
 - This method tries to type an individual in terms of ***"Jungian typology"*** for its simplicity & consistency.
 - Then the result it piped to its equivalent MBTI type.
-- Then at last, a refutation for the result is presented.
-- If refutation seems **"too much"** deviated, then competing tokens are reconsidered.
-- Unlike rest of the methods where behavior is noticed & then functions are typed, this one types first & refutes later.
+
+
+### 3.2 <u>Common Pitfalls/Confusions</u>:
+
+- For linear processing, extroverted function after introverted (**I-E**) means actions are taken only after reflection.
+- Meaning, for an **INTJ** (**Ni-Te**), first an unconscious singular image is caught (**Ni**), then they adapt to objective logic for representing their vision (**Te**).
+- While for introverted function after extroverted (**E-I**) means actions are hammered with most obvious way (**E**) in order to gain insights (**I**).
+- For example, an **ENTJ** (**Te-Ni**) considers objective logic to fulfill needs (**Te**), and then sees the vision that those fulfillments can serve (**Ni**).
+- Then similarly the repetition occurs when moving towards tertiary & auxiliary function (**I-E-I-E or E-I-E-I**). Think of how sinusoidal wave graph looks like.
+- Verbal expression or actions arising from any function doesn't indicate a function itself. Cognitive functions are processed in mind, where acting or not acting on them is a choice.
+- Direction of processing from ***dominant*** to ***inferior*** function is different from which function one uses the most, even though stronger functions might be used more.
 
 
 
-### 4.2 <u>Common Pitfalls/Confusions</u>:
-
-- For linear processing, extroverted function after introverted (I-E) means actions are taken only after reflection.
-- Meaning, for an INTJ (Ni-Te), first abstract patterns are internally processed/ reflected (Ni), then they are projected as real-world practical systems (Te), verbally or in practice.
-- While for introverted function after extroverted (E-I) means actions are hammered with most obvious way (E) in order to gain insights (I).
-- For example, an ENTJ (Te-Ni) takes most objective or conventional approach in real-world systems (Te), and gains insights from the results to later reflect on them (Ni).
-- Then similarly the repeatition occurs when moving towards tertiary & auxiliary function (I-E-I-E or E-I-E-I) - think sinusoidal wave graph.
+## 4. Procedure (v7.0.0)
 
 
-
-## 5. Procedure (v6.1.3)
-
-
-1. Carefully read & get a feel of each Jungian function, and its two derivative cognitive functions from **secction 1** to **4**.
+1. Carefully read & get a feel of each Jungian function, and its two derivative cognitive functions from **section 1** to **4**.
 2. List down all the traits of the person/ character/ entity you want to type.
-3. For each of the trait, write comma seperated Jungian functions (**N**, **S**, **T**, **F**) with a rating on range of **\[-3,3\]** (each of the 4).
-4. Mark each irrelevant trait with **X** (independent trait).
-5. Sum up all the points for each function & write it in **chained score** format as $f1:f2:f3:f4$ where each $f$ is a Jungian function.
-6. Rule is that functions with same scores can be interchanged, and some functions can be scored negatively when a trait shows its absence.
-7. If their ordering doesn't make sense in MBTI terms, re-evaluate if required (write $N:T:F:S$ instead of $T:N:F:S$).
-8. Now check if the dominant function is turned inward/ processed internally (**I**) or turned outward/ representable externally (**E**).
-9. Now as per that, type the Jungian personality for the subject (MBTI to Jungian example: ***INTJ = IN(T)***).
-10. Then pipe the **equivalent MBTI type** for the previously found **Jungian type**. If procedure is followed properly, the cognitive functions are expected to be explainable with their ordering.
-
-> **<u>TIPS</u>:**
-> - Explain why each choosen score & function for their corresponding traits make sense.
-> - Also explain why the independent traits don't fit/ pervade the cognitive theory.
-> - Best it is advised to refute for the functions which are **not** part of the stack too.
+3. Now try grouping these traits as per mutual relevancy to each other.
+4. Then for each group, order the traits in the order of their way of processing.
+5. Assign a **Jungian** function for each trait in each group, then type the group.
+6. If any trait seems confusing, leave it as it is. Else look at their direction (**I**/**E**) & rewrite them.
+7. Resolve the confusing traits in form of **Jungian functions** into **cognitive functions** now.
+8. Check for consistency in the answers for each group, and provide point to each type formed.
+9. The type with most points is chosen to be proven.
 
 
 
-## 6. Unsolved Mysteries
+## 5. Last Change Log
 
+
+### 5.3 <u>What's New</u>:
+
+- Clearer and more accurate definition written for direction of focus (**I** or **E**).
+- Cognitive functions definitions written with clear understanding of difference of perceiving and judging.
+- Functions are written as per Jung's definitions, but with logical consistencies of his cryptic lines.
+
+
+### 5.2 <u>Unsolved Mysteries</u>:
 
 - How to identify feeling function in psychopaths, sociopaths or desensitized individuals?
 - What happens with the last 4 (shadow) function stack?
