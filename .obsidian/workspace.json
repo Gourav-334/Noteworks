@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4c979deac43a9b81",
+        "id": "7421055a7a9d7da0",
         "type": "tabs",
         "children": [
           {
-            "id": "7cf074aaba90a40a",
+            "id": "d42a3762d42e5387",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 251.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cf074aaba90a40a",
+  "active": "d42a3762d42e5387",
   "lastOpenFiles": [
     "Typology/Jungian Typology.md",
     "Typology/Temperaments.md",

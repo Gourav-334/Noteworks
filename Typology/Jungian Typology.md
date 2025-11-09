@@ -91,8 +91,9 @@
 6. Rule is that functions with same scores can be interchanged, and some functions can be scored negatively when a trait shows its absence.
 7. If their ordering doesn't make sense in MBTI terms, re-evaluate if required (write $N:T:F:S$ instead of $T:N:F:S$).
 8. Now check if the dominant function is turned inward/ processed internally (**I**) or turned outward/ representable externally (**E**).
-9. Now as per that, type the Jungian personality for the subject (MBTI to Jungian example: ***INTJ = IN(T)***).
-10. Then pipe the **equivalent MBTI type** for the previously found **Jungian type**. If procedure is followed properly, the cognitive functions are expected to be explainable with their ordering.
+9. For resolving equal scores & axis confusion, group all the traits per function and assign the cognitive functions to them. Then put the stronger group first with proper arguments.
+10. Now as per that, type the Jungian personality for the subject (MBTI to Jungian example: ***INTJ = IN(T)***).
+11. Then pipe the **equivalent MBTI type** for the previously found **Jungian type**. If procedure is followed properly, the cognitive functions are expected to be explainable with their ordering.
 
 
 
