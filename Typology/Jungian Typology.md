@@ -80,18 +80,19 @@
 
 
 
-## 4. Procedure (v7.0.0)
+## 4. Procedure (v7.1.0)
 
 
 1. Carefully read & get a feel of each Jungian function, and its two derivative cognitive functions from **section 1** to **4**.
 2. List down all the traits of the person/ character/ entity you want to type.
-3. Now try grouping these traits as per mutual relevancy to each other.
-4. Then for each group, order the traits in the order of their way of processing.
-5. Assign a **Jungian** function for each trait in each group, then type the group.
-6. If any trait seems confusing, leave it as it is. Else look at their direction (**I**/**E**) & rewrite them.
-7. Resolve the confusing traits in form of **Jungian functions** into **cognitive functions** now.
-8. Check for consistency in the answers for each group, and provide point to each type formed.
-9. The type with most points is chosen to be proven.
+3. For each of the trait, write comma seperated Jungian functions (**N**, **S**, **T**, **F**) with a rating on range of **\[-3,3\]** (each of the 4).
+4. Mark each irrelevant trait with **X** (independent trait).
+5. Sum up all the points for each function & write it in **chained score** format as $f1:f2:f3:f4$ where each $f$ is a Jungian function.
+6. Rule is that functions with same scores can be interchanged, and some functions can be scored negatively when a trait shows its absence.
+7. If their ordering doesn't make sense in MBTI terms, re-evaluate if required (write $N:T:F:S$ instead of $T:N:F:S$).
+8. Now check if the dominant function is turned inward/ processed internally (**I**) or turned outward/ representable externally (**E**).
+9. Now as per that, type the Jungian personality for the subject (MBTI to Jungian example: ***INTJ = IN(T)***).
+10. Then pipe the **equivalent MBTI type** for the previously found **Jungian type**. If procedure is followed properly, the cognitive functions are expected to be explainable with their ordering.
 
 
 
