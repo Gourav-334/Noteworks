@@ -76,10 +76,10 @@ int main()
 ```cpp
 class Employee
 {
-	public:
+	private:
 		int salary;
 	
-	private:
+	public:
 		void setSalary(int s) {this->salary = s;}
 		int getSalary() {return this->salary;}
 };
@@ -128,10 +128,6 @@ class Child: public Parent {
 		string meth() override {return "Beta";}
 }
 ```
-
-- Never use any iostream/std function like `cout` or `cin` for void methods, else your life will become hell!
-- Just call void methods directly.
-- And methods with return type must use them.
 
 
 ### <u>This Keyword</u>

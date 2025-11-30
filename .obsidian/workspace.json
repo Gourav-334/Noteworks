@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7421055a7a9d7da0",
+        "id": "762b24892584cc4a",
         "type": "tabs",
         "children": [
           {
-            "id": "d42a3762d42e5387",
+            "id": "0391604bcdfdfd74",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d42a3762d42e5387",
+  "active": "0391604bcdfdfd74",
   "lastOpenFiles": [
+    "AFCAT Edition/Grok {O}/Geography.md",
+    "AFCAT Edition/Grok {O}/History.md",
+    "AFCAT Edition/Grok {O}",
+    "AFCAT Edition",
+    "Logical Reasoning/Grok {O}/00) Syllabus.md",
+    "Logical Reasoning/Grok {O}/01) Coding-Decoding.md",
+    "Pasted image 20251118151911.png",
+    "Logical Reasoning/Untitled.md",
+    "Logical Reasoning/Grok {O}",
+    "Logical Reasoning",
     "Typology/Jungian Typology.md",
+    "Typology/Moral Alignment.md",
+    "UNIX System Calls/Dude Love's book {D}/1) Essential Concepts.md",
+    "UNIX System Calls/CPP Reference {C}/8) Linux System Calls.md",
+    "Graphviz/Grok {O}/Dot Engine.md",
+    "Graphviz/Grok {O}",
+    "Graphviz",
+    "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
     "Typology/Temperaments.md",
     "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
     "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
@@ -185,7 +202,6 @@
     "Big Data Analytics/College Collab {O}/media/image4.png",
     "Big Data Analytics/College Collab {O}/media/image13.png",
     "Big Data Analytics/College Collab {O}/media/image12.png",
-    "Big Data Analytics/College Collab {O}/media/image11.png",
     "Big Data Analytics/College Collab {O}/3) Advanced NoSQL Concepts.md",
     "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
     "Big Data Analytics/College Collab {O}/1) Introduction.md",
@@ -194,22 +210,9 @@
     "Internet Of Things/NPTEL {O}/7) Python & Raspberry Pi.md",
     "Internet Of Things/NPTEL {O}/6) IoT Interoperability & Arduino.md",
     "Internet Of Things/NPTEL {O}/5) Advanced Sensor Networks.md",
-    "Internet Of Things/NPTEL {O}/4) Sensor Networks.md",
-    "Internet Of Things/NPTEL {O}/3) IoT Connectivity Tech & Protocols.md",
-    "Internet Of Things/NPTEL {O}/2) Sensors, Actuation & IoT Networking.md",
-    "Internet Of Things/NPTEL {O}/1) Introduction To IoT.md",
     "Internet Of Things/NPTEL {O}/media",
     "Internet Of Things/NPTEL {O}/New folder",
     "Internet Of Things/NPTEL {O}",
-    "Internet Of Things",
-    "Information & Network Security/College version {O}/8) Key Management & Distribution.md",
-    "Information & Network Security/College version {O}/7) Cryptographic Data Integrity Algorithms.md",
-    "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
-    "C++ Programming/W3Schools {C}/01) Comparison With C.md",
-    "Psychology Reports/Ann.md",
-    "Psychology Reports",
-    "Software Quality Testing/College version {O}/6) Risk & Change Management.md",
-    "Software Quality Testing/College version {O}/media",
-    "Software Quality Testing/College version {O}"
+    "Internet Of Things"
   ]
 }
