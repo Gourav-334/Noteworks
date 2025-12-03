@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55d6b913720a9a11",
+        "id": "75459e8a178004b4",
         "type": "tabs",
         "children": [
           {
-            "id": "771b8b3d01c980c6",
+            "id": "e0e0817bfcbabb52",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "771b8b3d01c980c6",
+  "active": "e0e0817bfcbabb52",
   "lastOpenFiles": [
+    "AFCAT Edition/Grok {O}/Science.md",
     "AFCAT Edition/Grok {O}/Economics.md",
     "AFCAT Edition/Grok {O}/Political Science.md",
     "AFCAT Edition/Grok {O}/Geography.md",
@@ -209,7 +210,6 @@
     "Big Data Analytics/College Collab {O}/1) Introduction.md",
     "Internet Of Things/NPTEL {O}/9) Cloud Computing & SDN Advances.md",
     "Internet Of Things/NPTEL {O}/8) Remote Data Login & SDN.md",
-    "Internet Of Things/NPTEL {O}/7) Python & Raspberry Pi.md",
     "Internet Of Things/NPTEL {O}/media",
     "Internet Of Things/NPTEL {O}/New folder",
     "Internet Of Things/NPTEL {O}",
