@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b2e2d1cb8b163989",
+        "id": "fc845500e90ca337",
         "type": "tabs",
         "children": [
           {
-            "id": "51157ea9ba96b35b",
+            "id": "b19d725dfc160c83",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51157ea9ba96b35b",
+  "active": "b19d725dfc160c83",
   "lastOpenFiles": [
+    "Executable & Linking Format/ChatGPT {O}/9) Structure Of ELF.md",
+    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
+    "Numerical Ability/Grok {O}/03) Percentage.md",
+    "Numerical Ability/Grok {O}/02) Average.md",
+    "Numerical Ability/Grok {O}/01) Simplification.md",
+    "Numerical Ability/Grok {O}",
+    "Numerical Ability",
+    "AFCAT Edition/Grok {O}/Static GK.md",
     "AFCAT Edition/Grok {O}/Current Affairs 2025.md",
     "AFCAT Edition/Grok {O}/Defence.md",
     "AFCAT Edition/Grok {O}/Science.md",
@@ -195,24 +203,16 @@
     "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
     "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
     "Internet Of Things/NPTEL {O}/11) Smart IoT Applications.md",
-    "Internet Of Things/NPTEL {O}/10) Industry Applications & Research.md",
-    "Big Data Analytics/College Collab {O}/5) Map Reduce Framework.md",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
     "Big Data Analytics/College Collab {O}/media/image17.png",
     "Big Data Analytics/College Collab {O}/media/image16.png",
     "Big Data Analytics/College Collab {O}/media/image15.png",
-    "Big Data Analytics/College Collab {O}/4) Basics Of Hadoop.md",
     "Big Data Analytics/College Collab {O}/media/image14.png",
     "Big Data Analytics/College Collab {O}/media/image4.png",
     "Big Data Analytics/College Collab {O}/media/image13.png",
     "Big Data Analytics/College Collab {O}/media/image12.png",
-    "Big Data Analytics/College Collab {O}/3) Advanced NoSQL Concepts.md",
-    "Big Data Analytics/College Collab {O}/2) NoSQL Data Management.md",
-    "Big Data Analytics/College Collab {O}/1) Introduction.md",
     "Internet Of Things/NPTEL {O}/media",
-    "Internet Of Things/NPTEL {O}/New folder",
-    "Internet Of Things/NPTEL {O}",
-    "Internet Of Things"
+    "Internet Of Things/NPTEL {O}/New folder"
   ]
 }
