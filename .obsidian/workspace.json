@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fc845500e90ca337",
+        "id": "0135d3d4242dd4c4",
         "type": "tabs",
         "children": [
           {
-            "id": "b19d725dfc160c83",
+            "id": "d0ac012a2c7d122a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b19d725dfc160c83",
+  "active": "d0ac012a2c7d122a",
   "lastOpenFiles": [
+    "Numerical Ability/Grok {O}/04) Ratios & Proportions.md",
     "Executable & Linking Format/ChatGPT {O}/9) Structure Of ELF.md",
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
     "Numerical Ability/Grok {O}/03) Percentage.md",
@@ -202,7 +203,6 @@
     "Typology/Temperaments.md",
     "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
     "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
-    "Internet Of Things/NPTEL {O}/11) Smart IoT Applications.md",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
     "Big Data Analytics/College Collab {O}/media/image17.png",
