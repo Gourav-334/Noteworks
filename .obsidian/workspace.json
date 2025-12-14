@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0135d3d4242dd4c4",
+        "id": "83236130f37f7630",
         "type": "tabs",
         "children": [
           {
-            "id": "d0ac012a2c7d122a",
+            "id": "d200f9e9a792ffbc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0ac012a2c7d122a",
+  "active": "d200f9e9a792ffbc",
   "lastOpenFiles": [
+    "Numerical Ability/Grok {O}/10) Number System.md",
+    "Numerical Ability/Grok {O}/09) Algebra.md",
+    "Gaming Strategies/Custom {O}/Need For Speed - Prostreet.md",
+    "Numerical Ability/Grok {O}/08) Time, Speed & Distance.md",
     "Numerical Ability/Grok {O}/04) Ratios & Proportions.md",
+    "Typology/Enneagram.md",
+    "Numerical Ability/Grok {O}/07) Time & Work.md",
+    "Typology/Jungian Typology.md",
+    "Numerical Ability/Grok {O}/06) Interests.md",
+    "Gaming Strategies/Custom {O}/Counter-Strike Source.md",
+    "Gaming Strategies/Custom {O}",
+    "Gaming Strategies",
+    "Numerical Ability/Grok {O}/05) Profit & Loss.md",
     "Executable & Linking Format/ChatGPT {O}/9) Structure Of ELF.md",
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
     "Numerical Ability/Grok {O}/03) Percentage.md",
@@ -189,20 +201,10 @@
     "Logical Reasoning/Grok {O}/00) Syllabus.md",
     "Logical Reasoning/Grok {O}/01) Coding-Decoding.md",
     "Pasted image 20251118151911.png",
-    "Logical Reasoning/Untitled.md",
     "Logical Reasoning/Grok {O}",
     "Logical Reasoning",
-    "Typology/Jungian Typology.md",
-    "Typology/Moral Alignment.md",
-    "UNIX System Calls/Dude Love's book {D}/1) Essential Concepts.md",
-    "UNIX System Calls/CPP Reference {C}/8) Linux System Calls.md",
-    "Graphviz/Grok {O}/Dot Engine.md",
     "Graphviz/Grok {O}",
     "Graphviz",
-    "C++ Programming/W3Schools {C}/02) Object-Oriented Programming.md",
-    "Typology/Temperaments.md",
-    "Internet Of Things/NPTEL {O}/13) Emerging Trends In IoT.md",
-    "Internet Of Things/NPTEL {O}/12) IoT Security & Privacy.md",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
     "Big Data Analytics/College Collab {O}/media/image17.png",
@@ -211,8 +213,6 @@
     "Big Data Analytics/College Collab {O}/media/image14.png",
     "Big Data Analytics/College Collab {O}/media/image4.png",
     "Big Data Analytics/College Collab {O}/media/image13.png",
-    "Big Data Analytics/College Collab {O}/media/image12.png",
-    "Internet Of Things/NPTEL {O}/media",
-    "Internet Of Things/NPTEL {O}/New folder"
+    "Big Data Analytics/College Collab {O}/media/image12.png"
   ]
 }
