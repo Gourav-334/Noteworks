@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83236130f37f7630",
+        "id": "908b006a82152802",
         "type": "tabs",
         "children": [
           {
-            "id": "d200f9e9a792ffbc",
+            "id": "215c3e1a53de0bcf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d200f9e9a792ffbc",
+  "active": "215c3e1a53de0bcf",
   "lastOpenFiles": [
     "Numerical Ability/Grok {O}/10) Number System.md",
+    "Device Drivers/Grok {O}/01) Kernel Mindset & Ground Truth.md",
+    "Device Drivers/Grok {O}",
+    "Device Drivers",
     "Numerical Ability/Grok {O}/09) Algebra.md",
     "Gaming Strategies/Custom {O}/Need For Speed - Prostreet.md",
     "Numerical Ability/Grok {O}/08) Time, Speed & Distance.md",
@@ -199,12 +202,9 @@
     "AFCAT Edition/Grok {O}",
     "AFCAT Edition",
     "Logical Reasoning/Grok {O}/00) Syllabus.md",
-    "Logical Reasoning/Grok {O}/01) Coding-Decoding.md",
     "Pasted image 20251118151911.png",
     "Logical Reasoning/Grok {O}",
     "Logical Reasoning",
-    "Graphviz/Grok {O}",
-    "Graphviz",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
     "Big Data Analytics/College Collab {O}/media/image17.png",
