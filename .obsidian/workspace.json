@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "908b006a82152802",
+        "id": "175490d2c53b88f7",
         "type": "tabs",
         "children": [
           {
-            "id": "215c3e1a53de0bcf",
+            "id": "a7a9574d9b9879e8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "215c3e1a53de0bcf",
+  "active": "a7a9574d9b9879e8",
   "lastOpenFiles": [
+    "Device Drivers/Grok {O}/03) Character Device Concept.md",
+    "Numerical Ability/Grok {O}/11) Mensuration.md",
+    "Device Drivers/Grok {O}/02) Entering Kernel Space.md",
     "Numerical Ability/Grok {O}/10) Number System.md",
     "Device Drivers/Grok {O}/01) Kernel Mindset & Ground Truth.md",
     "Device Drivers/Grok {O}",
@@ -197,11 +200,8 @@
     "AFCAT Edition/Grok {O}/Science.md",
     "AFCAT Edition/Grok {O}/Economics.md",
     "AFCAT Edition/Grok {O}/Political Science.md",
-    "AFCAT Edition/Grok {O}/Geography.md",
-    "AFCAT Edition/Grok {O}/History.md",
     "AFCAT Edition/Grok {O}",
     "AFCAT Edition",
-    "Logical Reasoning/Grok {O}/00) Syllabus.md",
     "Pasted image 20251118151911.png",
     "Logical Reasoning/Grok {O}",
     "Logical Reasoning",
