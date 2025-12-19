@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "175490d2c53b88f7",
+        "id": "5d33d62a189b88d9",
         "type": "tabs",
         "children": [
           {
-            "id": "a7a9574d9b9879e8",
+            "id": "b6a2934bf1a96072",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Typology/Temperaments.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Temperaments"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 251.5
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -166,8 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7a9574d9b9879e8",
+  "active": "b6a2934bf1a96072",
   "lastOpenFiles": [
+    "Typology/Jungian Typology.md",
+    "Typology/Enneagram.md",
+    "Typology/Moral Alignment.md",
+    "Typology/Temperaments.md",
     "Device Drivers/Grok {O}/03) Character Device Concept.md",
     "Numerical Ability/Grok {O}/11) Mensuration.md",
     "Device Drivers/Grok {O}/02) Entering Kernel Space.md",
@@ -179,9 +186,7 @@
     "Gaming Strategies/Custom {O}/Need For Speed - Prostreet.md",
     "Numerical Ability/Grok {O}/08) Time, Speed & Distance.md",
     "Numerical Ability/Grok {O}/04) Ratios & Proportions.md",
-    "Typology/Enneagram.md",
     "Numerical Ability/Grok {O}/07) Time & Work.md",
-    "Typology/Jungian Typology.md",
     "Numerical Ability/Grok {O}/06) Interests.md",
     "Gaming Strategies/Custom {O}/Counter-Strike Source.md",
     "Gaming Strategies/Custom {O}",
@@ -198,8 +203,6 @@
     "AFCAT Edition/Grok {O}/Current Affairs 2025.md",
     "AFCAT Edition/Grok {O}/Defence.md",
     "AFCAT Edition/Grok {O}/Science.md",
-    "AFCAT Edition/Grok {O}/Economics.md",
-    "AFCAT Edition/Grok {O}/Political Science.md",
     "AFCAT Edition/Grok {O}",
     "AFCAT Edition",
     "Pasted image 20251118151911.png",
