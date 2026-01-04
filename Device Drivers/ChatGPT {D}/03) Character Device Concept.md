@@ -135,3 +135,151 @@ $$ \framebox[6cm]{file\_operations.open()} $$
 
 ## **Topic - 7: Writing Character Device**
 
+### <u>Driver Code File</u>
+
+```c
+/* Including required libraries. */
+
+#include <linux/module.h>
+#include <linux/init.h>
+#include <linux/fs.h>
+#include <linux/cdev.h>
+#include <linux/uaccess.h>
+
+
+
+/* Useful macro definitions. */
+
+#define DEVICE_NAME "mychardev"
+#define BUF_LEN 32
+
+
+
+
+
+/* Global definitions/declarations */
+
+static dev_t dev_num;
+static struct cdev my_cdev;
+static char kbuf[BUF_LEN] = "Hello from kernel\n";
+
+
+
+
+
+/* Driver code for "open" operation. */
+
+static int my_open(struct inode *inode, struct file *file)
+{
+    pr_info("mychardev: opened\n");
+    return 0;
+}
+
+
+
+/* Driver code for "read" operation. */
+
+static ssize_t my_read(struct file *file, char __user *buf, size_t len, loff_t *offset)
+{
+    size_t to_copy;
+
+    if (*offset >= BUF_LEN) return 0;
+    to_copy = min(len, (size_t)(BUF_LEN - *offset));
+
+    if (copy_to_user(buf, kbuf + *offset, to_copy)) return -EFAULT;
+    *offset += to_copy;
+    
+    return to_copy;
+}
+
+
+
+
+
+/* File operations structure. */
+
+static struct file_operations fops = {
+    .owner = THIS_MODULE,
+    .open  = my_open,
+    .read  = my_read,
+};
+
+
+
+
+
+/* Driver code for "initialization". */
+
+static int __init my_init(void)
+{
+    int ret;
+
+    ret = alloc_chrdev_region(&dev_num, 0, 1, DEVICE_NAME);
+    if (ret)
+        return ret;
+
+    cdev_init(&my_cdev, &fops);
+
+    ret = cdev_add(&my_cdev, dev_num, 1);
+    if (ret)
+        unregister_chrdev_region(dev_num, 1);
+
+    pr_info("mychardev: registered (%d:%d)\n",
+            MAJOR(dev_num), MINOR(dev_num));
+    return ret;
+}
+
+
+
+/* Driver code for "exiting". */
+
+static void __exit my_exit(void)
+{
+    cdev_del(&my_cdev);
+    unregister_chrdev_region(dev_num, 1);
+    pr_info("mychardev: unregistered\n");
+}
+
+
+
+
+
+/* Linking init & exit module + license */
+
+module_init(my_init);
+module_exit(my_exit);
+
+MODULE_LICENSE("GPL");
+
+```
+
+
+### <u>Makefile</u>
+
+```makefile
+obj-m += chardev.o
+
+all:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+clean:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+```
+
+
+### <u>Build & Load</u>
+
+```sh
+make
+sudo insmod chardev.ko
+sudo dmesg | grep mychardev    # Will display major & minor number.
+```
+
+
+### <u>Creating Device Node</u>
+
+```sh
+sudo mknod /dev/mychardev c <major> <minor>
+sudo chmod 666 /dev/mychardev
+cat /dev/mychardev
+```
