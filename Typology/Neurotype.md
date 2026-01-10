@@ -2,36 +2,36 @@
 
 
 
-## 1. Introduction
+## **1. Introduction**
 
 
-### 1.1 About
+### 1.1 <u>About</u>:
 
 **Neurotype** is a functional framework for describing how individuals operate under varying levels of pressure, uncertainty, and demand. Rather than categorizing personality traits or preferences, neurotype models the **underlying response architecture** that governs threat perception, drive, regulation, dominance, and contextual integration.
 
 
-### 1.2 Contrast
+### 1.2 <u>Contrast</u>:
 
 Most existing systems focus on _how people describe themselves_ or _how they prefer to interact_. Neurotype instead focuses on **how the system behaves when tested**: under stress, constraint, competition, responsibility, and loss of control. These are the conditions where differences become structural rather than stylistic.
 
 
-### 1.3 Core Working
+### 1.3 <u>Core Working</u>:
 
 At its core, neurotype assumes that human behavior is shaped by relatively stable neurofunctional tendencies that interact with situational load. These tendencies do not determine intelligence, morality, or potential. They determine **default responses**: what activates first, what compensates, and what collapses last.
 
 
-### 1.4 Limitations
+### 1.4 <u>Important Note</u>:
 
 Neurotype is not a clinical model and does not measure biological levels of neurochemicals. It is a **proxy-based system**, using observable behavioral patterns to infer functional orientations associated with major neurochemical systems. The goal is not diagnosis, but **mechanistic clarity**: to explain why individuals with similar skills or values can diverge dramatically under pressure.
 
 
-### 1.5 Structure
+### 1.5 <u>Structure</u>:
 
 To balance rigor with usability, neurotype employs a binary interface layered over continuous internal scores. This design minimizes interpretive bias while preserving structural depth. Labels are derived, not assigned, and always subordinate to the underlying configuration.
 
 
 
-## 2. Usage
+## **2. Usage**
 
 
 - Analyzing behavior under stress or responsibility.
@@ -43,13 +43,13 @@ It does not claim to replace existing models. It exists to address what they con
 
 
 
-## 3. Neurochemical Axes & Functional Factors
+## **3. Neurochemical Axes & Functional Factors**
 
 
 ### 3.1 <u>C - Cortisol (Threat Reactivity)</u>:
 
 #### Definition:
-Cortisol represents baseline **threat sensitivity and stress reactivity**—how readily an individual’s system enters a heightened vigilance state and how long it remains there.
+Cortisol represents baseline **threat sensitivity and stress reactivity**: how readily an individual’s system enters a heightened vigilance state and how long it remains there.
 
 #### High C:
 - Rapid activation under uncertainty or challenge.
@@ -141,7 +141,7 @@ E determines _how much context is absorbed before response_. It is not empathy o
 
 
 
-## 4. Nuances & Behavioral Combinations
+## **4. Nuances & Behavioral Combinations**
 
 
 ### 4.1 <u>Interaction Principles</u>:
@@ -173,11 +173,11 @@ Neurotype classification is based on **trait stability**, not transient states. 
 - Measure neurochemistry
 - Predict pathology or success
 
-It models **functional response architecture**—how systems activate, regulate, assert, and integrate when demands increase.
+It models **functional response architecture**: how systems activate, regulate, assert, and integrate when demands increase.
 
 
 
-## 5. Typing Style & Type Representation
+## **5. Typing Style & Type Representation**
 
 
 >**<u>NOTE</u>:**

@@ -50,4 +50,5 @@
 ### <u>Kernel Configuration</u>
 
 - Makes use of `make menuconfig` and `.config`.
-- Turning `CONFIG_MODULES=y` enables
+- Turning `CONFIG_MODULES=y` enables module support.
+- 

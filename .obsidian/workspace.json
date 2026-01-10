@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a6e7c08e26ccb1db",
+        "id": "3fba716749bc3db9",
         "type": "tabs",
         "children": [
           {
-            "id": "829ef3a3d26461f3",
+            "id": "b1b7f65bc9df2851",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typology/Neurotype.md",
+                "file": "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neurotype"
+              "title": "01) Environment Setup"
             }
           }
         ]
@@ -170,13 +170,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "829ef3a3d26461f3",
+  "active": "b1b7f65bc9df2851",
   "lastOpenFiles": [
-    "Typology/Neurotype.md",
-    "Device Drivers/Grok {O}/02) Linux Kernel Architecture.md",
-    "Device Drivers/Grok {O}/01) Environment Setup.md",
-    "Device Drivers/Grok {O}",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+    "Bare-Metal Programming/Grok {O}",
+    "Bare-Metal Programming",
+    "Device Drivers/Grok {D}/02) Linux Kernel Architecture.md",
     "Typology/Jungian Typology.md",
+    "Typology/Neurotype.md",
+    "Device Drivers/Grok {D}/01) Environment Setup.md",
+    "Device Drivers/Grok {D}",
     "Typology/Temperaments.md",
     "Engineering Summaries/Custom {O}/Engineering Mathematics.md",
     "Engineering Summaries/Custom {O}",
@@ -204,10 +207,7 @@
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
     "Numerical Ability/Grok {O}/03) Percentage.md",
     "Numerical Ability/Grok {O}/02) Average.md",
-    "Numerical Ability/Grok {O}/01) Simplification.md",
     "Numerical Ability/Grok {O}",
-    "Numerical Ability",
-    "AFCAT Edition/Grok {O}",
     "Pasted image 20251118151911.png",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
