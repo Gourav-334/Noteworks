@@ -27,3 +27,301 @@
 
 ## **Topic - 2: x86 Boot Process**
 
+### <u>Power-On Reset</u>
+
+#### When CPU powers/resets:
+
+- CPU enters real-mode
+- Interrupts are disabled
+- Paging is disabled
+- Caches are undefined
+- Segment registers are in reset state
+
+#### Reset vector/ CPU execution point:
+
+| What             | Where                      |
+| :--------------- | :------------------------- |
+| CS:IP            | `0xF000:0xFFF0`            |
+| Physical address | `0xFFFFFFF0` (modern CPUs) |
+
+- This mapping is not to the RAM.
+- Instead it maps to firmware ROM, where the CPU starts.
+
+
+### <u>Firmware's BIOS Model</u>
+
+1. CPU sanity check
+2. POST (Power-On Self Test)
+3. Hardware enumeration & detection
+4. Boot device selection
+5. Bootstrapping first sector
+
+>**<u>NOTE</u>:**
+>Firmware disappears after temporary services.
+
+
+### <u>BIOS Services</u>
+
+- BIOS interacts with hardware using software interrupts.
+
+| Interrupt  | Purpose      |
+| :--------: | :----------- |
+| `INT 0x10` | Video output |
+| `INT 0x13` | Disk I/O     |
+| `INT 0x16` | Keyboard     |
+| `INT 0x15` | System info  |
+
+#### Interrupt constraints:
+
+- Usable in real-mode only
+- Often buggy & inconsistent
+
+>**<u>NOTE</u>:**
+>As per industrial standards, it is advised to only use BIOS for bootstrapping, not fully depend.
+
+
+### <u>Boot Device & Sector Load</u>
+
+1. BIOS selects a boot device.
+2. Reads sector `0`.
+3. Loads 512 bytes to memory address.
+```sh
+0x0000:0x7C00
+```
+4. Checks last two bytes.
+```sh
+0x55 0xAA
+```
+5. Jumps to `0x7C00`.
+6. Now our code executes here.
+
+
+### <u>Boot Sector Constraints</u>
+
+- Fit in 512 bytes
+- End with signature `0xAA55`
+- Executes in real mode
+- No memory stack
+- No memory map
+
+
+### <u>Usual Boot Sectors</u>
+
+1. Sets up minimal stack
+2. Uses BIOS disk
+3. Loads more sectors
+4. Transfers control
+
+
+### <u>OS Handover Models</u>
+
+- Raw bootloader $\rightarrow$ Kernel
+- Multiboot loader $\rightarrow$ Kernel
+- Firmware $\rightarrow$ OS (UEFI)
+
+
+### <u>After Entering Kernel</u>
+
+|Aspect|State|
+|---|---|
+|Mode|32-bit protected mode|
+|Paging|Disabled|
+|Interrupts|Disabled|
+|Stack|Undefined unless set|
+|Memory map|Provided (if Multiboot)|
+|Devices|Mostly uninitialized|
+
+
+### <u>Common Failure Points</u>
+
+- Wrong segment assumptions
+- Stack misuse
+- Overwriting boot code
+- Invalid GDT entries
+- Jumping without flushing pipeline
+- Long dependency on BIOS
+
+
+### <u>Timeline</u>
+
+$$ \framebox[7cm]{Power On} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{CPU Reset Vector (ROM)} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Firmware (BIOS)} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Boot Device Selection} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Boot Sector @ 0x7C00} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Bootloader} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Protected Mode} $$
+$$ \downarrow $$
+$$ \framebox[7cm]{Kernel Entry} $$
+
+
+
+## **Topic - 3: Cross-Compilation Setup**
+
+### <u>Introduction</u>
+
+- **<u>Hosted compiler</u>:** Compilers which produces programs to run on OS.
+- **<u>Freestanding compiler</u>:** Compilers which produce programs to run without OS.
+
+
+### <u>Hosted Environment Assumptions</u>
+
+- OS exists
+- C's runtime library `crt0` is present
+- Syscalls are available
+- Stack, heap & TLS exist
+
+
+### <u>Freestanding Environment Assumptions</u>
+
+- No OS
+- No startup files
+- No runtime support
+
+
+### <u>Target Triples</u>
+
+- **<u>Target triple</u>:** Encodes system expectation in `<architecture>-<vendor>-<system>` format.
+
+| Triple             | Meaning           |
+| ------------------ | ----------------- |
+| `x86_64-linux-gnu` | Hosted Linux      |
+| `i686-elf`         | 32-bit x86, no OS |
+| `x86_64-elf`       | 64-bit x86, no OS |
+
+
+### <u>Required Toolchains</u>
+
+|Tool|Purpose|
+|---|---|
+|`gcc`|Code generation|
+|`as`|Assembly|
+|`ld`|Linking & layout|
+|`objdump`|Disassembly|
+|`readelf`|ELF inspection|
+|`nm`|Symbol inspection|
+
+
+### <u>Flags</u>
+
+#### Compiler flags:
+
+```sh
+-ffreestanding              # Assumes there is no host
+-fno-builtin                # Prevents libc injection
+-fno-stack-protector        # Removes protections
+-nostdlib
+-nostartfiles
+-nodefaultlibs
+```
+
+#### Architecture control:
+
+- These control ABI-specific behavior.
+
+```sh
+-m32                   # For 32-bit kernel
+-mno-red-zone          # Mandatory for x86_64 kernels
+-mcmodel=kernel        # Later, for 64-bit
+```
+
+
+### <u>Linker Script</u>
+
+- **<u>Linker script</u>:** A script which defines which files have to be linked.
+- Programmer has to explicitly define load address, section placement, entry symbol, and memory regions.
+
+#### Example pseudocode:
+
+```asm
+ENTRY(_start)
+
+SECTIONS {
+  . = 1M;
+  .text : { *(.text*) }
+  .rodata : { *(.rodata*) }
+  .data : { *(.data*) }
+  .bss : { *(.bss*) }
+}
+```
+
+
+
+### <u>Build Steps</u>
+
+1. Build `binutils` for `i686-elf`.
+2. Build `gcc` for `i686-elf`.
+3. Install into isolated prefix.
+4. Add to `PATH`.
+
+
+### <u>Setting Environment</u>
+
+1. Install pre-requisites.
+
+```sh
+sudo apt update
+sudo apt install -y \
+  build-essential \
+  bison \
+  flex \
+  libgmp3-dev \
+  libmpc-dev \
+  libmpfr-dev \
+  texinfo \
+  wget
+```
+
+2. Create an isolated toolchain prefix.
+
+```sh
+export PREFIX="$HOME/opt/cross"
+export TARGET=i686-elf
+export PATH="$PREFIX/bin:$PATH"
+```
+
+3. Build `binutils`
+
+```sh
+mkdir -p ~/src && cd ~/src
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.xz
+tar -xf binutils-2.42.tar.xz
+
+mkdir binutils-build && cd binutils-build
+../binutils-2.42/configure \
+  --target=$TARGET \
+  --prefix=$PREFIX \
+  --with-sysroot \
+  --disable-nls \
+  --disable-werror
+
+make -j$(nproc)
+make install
+```
+
+4. Build GCC
+
+```sh
+cd ~/src
+wget https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.xz
+tar -xf gcc-13.2.0.tar.xz
+
+mkdir gcc-build && cd gcc-build
+../gcc-13.2.0/configure \
+  --target=$TARGET \
+  --prefix=$PREFIX \
+  --disable-nls \
+  --enable-languages=c \
+  --without-headers
+
+make -j$(nproc) all-gcc
+make -j$(nproc) all-target-libgcc
+make install-gcc
+make install-target-libgcc
+```

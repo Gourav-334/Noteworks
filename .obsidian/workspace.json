@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3fba716749bc3db9",
+        "id": "add8b93f76d62625",
         "type": "tabs",
         "children": [
           {
-            "id": "b1b7f65bc9df2851",
+            "id": "e24336f79e3b41eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "01) Environment Setup"
+              "title": "New tab"
             }
           }
         ]
@@ -170,9 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1b7f65bc9df2851",
+  "active": "e24336f79e3b41eb",
   "lastOpenFiles": [
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+    "Bare-Metal Programming/Grok {O}/media",
+    "Bare-Metal Programming/Grok {O}/New folder",
     "Bare-Metal Programming/Grok {O}",
     "Bare-Metal Programming",
     "Device Drivers/Grok {D}/02) Linux Kernel Architecture.md",
@@ -201,13 +199,10 @@
     "Numerical Ability/Grok {O}/06) Interests.md",
     "Gaming Strategies/Custom {O}/Counter-Strike Source.md",
     "Gaming Strategies/Custom {O}",
-    "Gaming Strategies",
     "Numerical Ability/Grok {O}/05) Profit & Loss.md",
     "Executable & Linking Format/ChatGPT {O}/9) Structure Of ELF.md",
     "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
     "Numerical Ability/Grok {O}/03) Percentage.md",
-    "Numerical Ability/Grok {O}/02) Average.md",
-    "Numerical Ability/Grok {O}",
     "Pasted image 20251118151911.png",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
