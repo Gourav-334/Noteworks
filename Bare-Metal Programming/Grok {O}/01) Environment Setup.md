@@ -269,40 +269,40 @@ SECTIONS {
 sudo apt update
 sudo apt install -y \
   build-essential \
-  bison \
-  flex \
-  libgmp3-dev \
-  libmpc-dev \
-  libmpfr-dev \
-  texinfo \
+  bison \              # Parser generator
+  flex \               # Lexer generator
+  libgmp3-dev \        # GNU multiple-precision arithmetic lib
+  libmpc-dev \         # GNU complex number arithmetic lib
+  libmpfr-dev \        # GNU multiple-precision floating point lib
+  texinfo \            # Documentation tool for vendor validation
   wget
 ```
 
 2. Create an isolated toolchain prefix.
 
 ```sh
-export PREFIX="$HOME/opt/cross"
-export TARGET=i686-elf
-export PATH="$PREFIX/bin:$PATH"
+export PREFIX="$HOME/opt/cross"        # Setting new dir "cross" for installation.
+export TARGET=i686-elf                 # Setting prefix to control this dir.
+export PATH="$PREFIX/bin:$PATH"        # Setting default lookup path at "/bin".
 ```
 
 3. Build `binutils`
 
 ```sh
-mkdir -p ~/src && cd ~/src
+mkdir -p ~/src && cd ~/src          # Creating dir to work within.
 wget https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.xz
-tar -xf binutils-2.42.tar.xz
+tar -xf binutils-2.42.tar.xz        # Downloading source code (not binary).
 
-mkdir binutils-build && cd binutils-build
-../binutils-2.42/configure \
-  --target=$TARGET \
-  --prefix=$PREFIX \
-  --with-sysroot \
-  --disable-nls \
+mkdir binutils-build && cd binutils-build    # Separating build artifacts.
+../binutils-2.42/configure \        # Audits system & creates makefile per that.
+  --target=$TARGET \        # Tying target as i686-elf
+  --prefix=$PREFIX \        # Tying path as $HOME/opt/cross
+  --with-sysroot \          # Enables support for system root dir.
+  --disable-nls \           # Disables native language support.
   --disable-werror
 
-make -j$(nproc)
-make install
+make -j$(nproc)        # Parallel build with all CPU cores.
+make install           # Copies tools to PATH.
 ```
 
 4. Build GCC
@@ -310,7 +310,7 @@ make install
 ```sh
 cd ~/src
 wget https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.xz
-tar -xf gcc-13.2.0.tar.xz
+tar -xf gcc-13.2.0.tar.xz        # Downloading GNU source code.
 
 mkdir gcc-build && cd gcc-build
 ../gcc-13.2.0/configure \
@@ -320,8 +320,8 @@ mkdir gcc-build && cd gcc-build
   --enable-languages=c \
   --without-headers
 
-make -j$(nproc) all-gcc
-make -j$(nproc) all-target-libgcc
+make -j$(nproc) all-gcc                  # Using just code generator.
+make -j$(nproc) all-target-libgcc        # Helping processes
 make install-gcc
 make install-target-libgcc
 ```

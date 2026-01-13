@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "add8b93f76d62625",
+        "id": "6436018baebfeb02",
         "type": "tabs",
         "children": [
           {
-            "id": "e24336f79e3b41eb",
+            "id": "c665d8edb2751795",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01) Environment Setup"
             }
           }
         ]
@@ -166,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e24336f79e3b41eb",
+  "active": "c665d8edb2751795",
   "lastOpenFiles": [
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Bare-Metal Programming/Grok {O}/media",
