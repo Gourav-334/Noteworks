@@ -325,3 +325,63 @@ make -j$(nproc) all-target-libgcc        # Helping processes
 make install-gcc
 make install-target-libgcc
 ```
+
+
+
+## **Topic - 4: QEMU, GDB, Makefile**
+
+### <u>QEMU Emulation</u>
+
+- A full system emulator.
+- **Emulates -** CPU, RAM, chipset, BIOS, peripherals, etc.
+- It doesn't emulate Linux.
+
+```sh
+qemu-system-i386 \        # Emulating 32-bit x86 machine.
+  -drive file=disk.img,format=raw \
+  -boot order=c \         # Boot from disk (not network/CD)
+  -no-reboot \            # Don't reboot, just stop on crash
+  -no-shutdown
+```
+
+
+### <u>Bare-Metal Debugging</u>
+
+- GDB doesn't debug OS, just the CPU state.
+- QEMU has a remote debugging port to connect with GDB.
+
+```sh
+-s \        # Freeze CPU at rest.
+-S          # Start GDB server on TCP port 1234.
+```
+
+- After this, GDB can see registers, memory, and control execution.
+- GDB reads symbols from `.elf` files, `.img` file is for booting purpose.
+
+
+### <u>Minimal Makefile</u>
+
+#### Format:
+
+```make
+target: dependencies
+	command
+```
+
+#### Example:
+
+```sh
+all: disk.img        # First target to build on command "make"
+
+boot.o: boot.s
+	$(AS) boot.s -o boot.o
+
+kernel.elf: boot.o
+	$(LD) -T linker.ld boot.o -o kernel.elf
+
+disk.img: kernel.elf
+	dd if=kernel.elf of=disk.img conv=notrunc        # Executable to disk.
+```
+
+- `$(AS)` expands to `i686-elf-as`.
+- `$(LD)` expands to `i686-elf-ld`.

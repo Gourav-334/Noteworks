@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6436018baebfeb02",
+        "id": "61740799b7378f2e",
         "type": "tabs",
         "children": [
           {
-            "id": "c665d8edb2751795",
+            "id": "e743e86ad1df448d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+                "file": "Summaries/Custom {O}/Basic Electronics {O}.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01) Environment Setup"
+              "title": "Basic Electronics {O}"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
+    "width": 223.5,
     "collapsed": true
   },
   "right": {
@@ -170,8 +170,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c665d8edb2751795",
+  "active": "e743e86ad1df448d",
   "lastOpenFiles": [
+    "Summaries/Custom {O}/Engineering Mathematics {O}.md",
+    "Summaries/Custom {O}/Basic Electronics {O}.md",
+    "Basic Electronics/ChatGPT {O}/08) Digital Electronics Basics.md",
+    "Basic Electronics/ChatGPT {O}/07) Amplifiers & Operational Amplifiers.md",
+    "Basic Electronics/ChatGPT {O}/06) Field Effect Transistors.md",
+    "Basic Electronics/ChatGPT {O}/05) Bipolar Junction Transistor.md",
+    "Basic Electronics/ChatGPT {O}/04) Diodes & Rectifier Circuits.md",
+    "Basic Electronics/ChatGPT {O}/03) Semiconductor Physics.md",
+    "Basic Electronics/ChatGPT {O}/02) Passive Components & Network.md",
+    "Basic Electronics/ChatGPT {O}/01) Electronics Foundation.md",
+    "Basic Electronics/ChatGPT {O}",
+    "Basic Electronics",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Bare-Metal Programming/Grok {O}/media",
     "Bare-Metal Programming/Grok {O}/New folder",
@@ -183,9 +195,8 @@
     "Device Drivers/Grok {D}/01) Environment Setup.md",
     "Device Drivers/Grok {D}",
     "Typology/Temperaments.md",
-    "Engineering Summaries/Custom {O}/Engineering Mathematics.md",
-    "Engineering Summaries/Custom {O}",
-    "Engineering Summaries",
+    "Summaries/Custom {O}",
+    "Summaries",
     "Device Drivers/ChatGPT {D}/03) Character Device Concept.md",
     "Typology/Enneagram.md",
     "Typology/Moral Alignment.md",
@@ -194,19 +205,9 @@
     "Numerical Ability/Grok {O}/10) Number System.md",
     "Device Drivers/ChatGPT {D}/01) Kernel Mindset & Ground Truth.md",
     "Device Drivers/ChatGPT {D}",
-    "Device Drivers",
     "Numerical Ability/Grok {O}/09) Algebra.md",
     "Gaming Strategies/Custom {O}/Need For Speed - Prostreet.md",
     "Numerical Ability/Grok {O}/08) Time, Speed & Distance.md",
-    "Numerical Ability/Grok {O}/04) Ratios & Proportions.md",
-    "Numerical Ability/Grok {O}/07) Time & Work.md",
-    "Numerical Ability/Grok {O}/06) Interests.md",
-    "Gaming Strategies/Custom {O}/Counter-Strike Source.md",
-    "Gaming Strategies/Custom {O}",
-    "Numerical Ability/Grok {O}/05) Profit & Loss.md",
-    "Executable & Linking Format/ChatGPT {O}/9) Structure Of ELF.md",
-    "Executable & Linking Format/ChatGPT {O}/2) ELF File Format Internals.md",
-    "Numerical Ability/Grok {O}/03) Percentage.md",
     "Pasted image 20251118151911.png",
     "Big Data Analytics/College Collab {O}/media/image19.png",
     "Big Data Analytics/College Collab {O}/media/image18.png",
