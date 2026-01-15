@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "61740799b7378f2e",
+        "id": "9585faef76005cc3",
         "type": "tabs",
         "children": [
           {
-            "id": "e743e86ad1df448d",
+            "id": "361da95dcb11771e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Summaries/Custom {O}/Basic Electronics {O}.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Basic Electronics {O}"
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e743e86ad1df448d",
+  "active": "361da95dcb11771e",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/Engineering Mathematics {O}.md",
     "Summaries/Custom {O}/Basic Electronics {O}.md",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+    "Summaries/Custom {O}/Engineering Mathematics {O}.md",
     "Basic Electronics/ChatGPT {O}/08) Digital Electronics Basics.md",
     "Basic Electronics/ChatGPT {O}/07) Amplifiers & Operational Amplifiers.md",
     "Basic Electronics/ChatGPT {O}/06) Field Effect Transistors.md",
@@ -184,7 +181,6 @@
     "Basic Electronics/ChatGPT {O}/01) Electronics Foundation.md",
     "Basic Electronics/ChatGPT {O}",
     "Basic Electronics",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Bare-Metal Programming/Grok {O}/media",
     "Bare-Metal Programming/Grok {O}/New folder",
     "Bare-Metal Programming/Grok {O}",

@@ -385,3 +385,117 @@ disk.img: kernel.elf
 
 - `$(AS)` expands to `i686-elf-as`.
 - `$(LD)` expands to `i686-elf-ld`.
+
+
+
+## **Topic - 5: Empty Bootable Image**
+
+### <u>Required Directory Layout</u>
+
+```sh
+baremetal/
+├── boot.s           # 16-bit real-mode boot sector
+├── linker.ld        # Controls where bytes land
+├── Makefile         # Deterministic build
+└── build/           # Artifacts (optional, but clean)
+```
+
+
+### <u>Boot Sector</u>
+
+- Code must be in real mode, loaded at `0x7C00`, end with signature `0x55AA`.
+
+```asm
+/* boot.s — Minimal boot sector */
+.code16
+.global _start
+
+
+_start:
+    cli                 // No interrupts yet.
+
+.hang:
+    hlt                 // Stop the CPU.
+    jmp .hang           // Loop forever
+
+
+/* Pad to 512 bytes and add boot signature. */
+.org 510            // 510 bytes
+.word 0xAA55        // Next 2 bytes
+```
+
+- `.org` tells assembler that code is starting from address `0x0`.
+- **`cli` -** Clear interrupt flag
+
+
+### <u>Linker Script</u>
+
+```ld
+/* linker.ld — absolute control */
+ENTRY(_start)
+
+SECTIONS
+{
+  . = 0x7C00;                # . means current location counter
+  .text : { *(.text*) }      # Place everything with '.text' pattern
+}
+```
+
+
+### <u>Makefile</u>
+
+```make
+AS      := i686-elf-as
+LD      := i686-elf-ld
+
+all: disk.img
+
+boot.o: boot.s
+	$(AS) boot.s -o boot.o
+
+kernel.elf: boot.o
+	$(LD) -T linker.ld boot.o -o kernel.elf
+
+disk.img: kernel.elf
+	i686-elf-objcopy -O binary kernel.elf disk.img
+
+clean:
+	rm -f boot.o kernel.elf disk.img
+```
+
+- `bs=512` & `count=1` means exactly one boot sector with `512` bytes of space.
+- `conv=notrunc` avoids accidental truncation to code.
+- Now we can `make` and `hexdump` to verify boot signature.
+
+
+### <u>Running In QEMU</u>
+
+```sh
+qemu-system-i386 \
+  -drive file=disk.img,format=raw \
+  -boot order=c \
+  -no-reboot \
+  -no-shutdown
+```
+
+
+### <u>Trying Debugging</u>
+
+#### Attaching GDB to QEMU:
+
+```sh
+qemu-system-i386 -s -S -drive file=disk.img,format=raw
+```
+
+#### GDB commands:
+
+```sh
+gdb kernel.elf
+```
+
+```gdb
+target remote :1234
+info registers
+```
+
+---
