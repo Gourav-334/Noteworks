@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9585faef76005cc3",
+        "id": "c96f5051df43abd5",
         "type": "tabs",
         "children": [
           {
-            "id": "361da95dcb11771e",
+            "id": "9d546ab0f9d2899d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,11 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "361da95dcb11771e",
+  "active": "9d546ab0f9d2899d",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/Basic Electronics {O}.md",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+    "Summaries/Custom {O}/Basic Electronics {C}.md",
     "Summaries/Custom {O}/Engineering Mathematics {O}.md",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Basic Electronics/ChatGPT {O}/08) Digital Electronics Basics.md",
     "Basic Electronics/ChatGPT {O}/07) Amplifiers & Operational Amplifiers.md",
     "Basic Electronics/ChatGPT {O}/06) Field Effect Transistors.md",

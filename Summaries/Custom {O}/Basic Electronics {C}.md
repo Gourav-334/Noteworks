@@ -28,7 +28,7 @@
 ## **Chapter - 2: Passive Components & Network**
 
 - **Passive components:** Does not generate energy (register, capacitor, inductor).
-- **Register ($R$):** Opposes flow of current by converting electrical energy into heat.
+- **Resistor ($R$):** Opposes flow of current by converting electrical energy into heat.
 - **Capacitor ($C$):** Stores energy in electric field (two conductive plate + dielectric in mid). ($Q=CV$)
 - **Inductor ($L$):** Stores energy in magnetic field (coil of wire). ($V=L \frac{dI}{dt}$)
 - **Series connection:** Same current across / voltages add.
@@ -83,11 +83,54 @@
 - **Transistor:** Control element used in amplification and switching.
 - **Bipolar junction transistor (BJT):** Transistor with 3 regions - emitter, base, collector.
 - **Emitter:** Injects electrons, heavily doped.
-- **Base:** Place to recombine, very thin and lightly doped.
-- **Collector:** Collects electrons, moderately doped
+- **Base:** Controls carrier flow, very thin and lightly doped.
+- **Collector:** Collects electrons and delivers current, moderately doped.
 - **NPN transistor:** Emitter-base junction is forward biased, base-collector is reverse.
 - NPN transistor is used for amplification.
-- **Transistor current:** $I_E=I_B+I_C$
-- **Current gain:** $\beta = \frac{I_C}{I_B}$
+- **Transistor current:** $I_E=I_B+I_C$ (logical as per BJT diagram)
+- **Current gain:** Current gained per unit loss. ($\beta = \frac{I_C}{I_B}$)
 - **Cutoff:** BJT switched OFF
 - **Saturation:** BJT switched ON
+- **Emitter resistor:** Resistor used to avoid thermal runaway in heated circuits.
+
+
+
+## **Chapter - 6: Field Effect Transistors**
+
+- **Impedance ($Z$):** Total opposition to AC.
+- **Field effect transistor:** Voltage-controlled transistor with high input impedance.
+- **MOSFET:** Metal Oxide Semiconductor Field Effect Transistor (also amplifies)
+- **MOSFET terminals:** Gate (insulated by oxide layer), source, drain, and body/substrate.
+- **NMOS:** MOSFET where majority of carriers are electrons. Faster and low resistance.
+- **PMOS:** Majority of carriers are holes. Slower and high resistance.
+- **Threshold voltage ($V_t$):** Minimum voltage required for MOSFET to conduct current.
+- **CMOS:** Complementary MOS (NMOS + PMOS combined)
+- In real MOSFET applications, sometimes gate oxides breakdown.
+
+
+
+## **Chapter - 7: Amplifiers & Operational Amplifiers**
+
+- **Amplifier gain:** Ratio of input to output. It could be for $V$, $I$ or $P$.
+- **Voltage gain:** $A_v= \frac{V_o}{V_i}$
+- **Load:** Any node that consumes current/power. Like resistor, inductor, or circuit.
+- **Input impedance:** Resistance sensed by source.
+- **Output impedance:** Resistance sensed by loads.
+- **Operational amplifier:** Ideal amplifier model.
+- **Op-amp assumptions:** $\infty$ input impedance, $0$ output impedance, $\infty$ bandwidth.
+- **Op-amp terminals:** Non-inverting input ($+$), inverting input ($-$), output, supply.
+- **Negative feedback:** Feeding input some part of output.
+
+
+
+## **Chapter - 8: Digital Electronics Basics**
+
+- **Analog systems:** Continuous and sensitive to noise.
+- **Digital systems:** Uses discrete voltage levels & noise tolerant.
+- **Noise margin:** Voltage limit after which digital circuit gives logic error.
+- **Functionally complete gates:** Gates using which any other gate could be produced.
+- **Combinational circuits:** Circuits where output depends only on current inputs.
+- **Combinational elements:** Adders, multiplexers, encoders, etc.
+- **Sequential circuits:** Memory / circuits where output depends on past state.
+
+---
