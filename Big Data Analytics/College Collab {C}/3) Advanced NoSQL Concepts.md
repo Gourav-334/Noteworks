@@ -86,7 +86,7 @@
 - Social networks, recommendation systems, fraud detection.
 - **Query Language:** Cypher (for Neo4j).
 
-![Graph Database Model](./media/image1.png)
+![Graph Database Model](Big%20Data%20Analytics/College%20Collab%20{C}/media/image1.png)
 
 
 
@@ -123,7 +123,7 @@
 - **CP systems:** MongoDB, HBase.
 - **AP systems:** Cassandra, CouchDB.
 
-![CAP Triangle](./media/image2.png)
+![CAP Triangle](Big%20Data%20Analytics/College%20Collab%20{C}/media/image2.png)
 
 
 
@@ -187,7 +187,7 @@ MATCH (a:Person)-[:FRIEND]->(b) RETURN a.name, b.name
 - Distributes data horizontally across servers.
 - Enhances scalability.
 
-![Replication vs Sharding](./media/image3.png)
+![Replication vs Sharding](Big%20Data%20Analytics/College%20Collab%20{C}/media/image3.png)
 
 
 

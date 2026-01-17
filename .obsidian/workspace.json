@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c96f5051df43abd5",
+        "id": "efd3c21145d35954",
         "type": "tabs",
         "children": [
           {
-            "id": "9d546ab0f9d2899d",
+            "id": "a555089e384ba587",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5,
-    "collapsed": true
+    "width": 223.5
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -166,20 +165,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d546ab0f9d2899d",
+  "active": "a555089e384ba587",
   "lastOpenFiles": [
+    "Basic Electrical Engineering/ChatGPT {O}/07) Electrical Measurements.md",
+    "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md",
+    "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md",
+    "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md",
+    "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md",
+    "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
+    "Basic Electrical Engineering/ChatGPT {O}/01) AC Fundamentals & Phasors.md",
+    "Basic Electrical Engineering/ChatGPT {O}",
+    "Basic Electrical Engineering",
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
     "Summaries/Custom {O}/Engineering Mathematics {O}.md",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-    "Basic Electronics/ChatGPT {O}/08) Digital Electronics Basics.md",
-    "Basic Electronics/ChatGPT {O}/07) Amplifiers & Operational Amplifiers.md",
-    "Basic Electronics/ChatGPT {O}/06) Field Effect Transistors.md",
-    "Basic Electronics/ChatGPT {O}/05) Bipolar Junction Transistor.md",
-    "Basic Electronics/ChatGPT {O}/04) Diodes & Rectifier Circuits.md",
-    "Basic Electronics/ChatGPT {O}/03) Semiconductor Physics.md",
-    "Basic Electronics/ChatGPT {O}/02) Passive Components & Network.md",
-    "Basic Electronics/ChatGPT {O}/01) Electronics Foundation.md",
-    "Basic Electronics/ChatGPT {O}",
+    "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md",
+    "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md",
+    "Basic Electronics/ChatGPT {C}/06) Field Effect Transistors.md",
+    "Basic Electronics/ChatGPT {C}/05) Bipolar Junction Transistor.md",
+    "Basic Electronics/ChatGPT {C}/04) Diodes & Rectifier Circuits.md",
+    "Basic Electronics/ChatGPT {C}/03) Semiconductor Physics.md",
+    "Basic Electronics/ChatGPT {C}/02) Passive Components & Network.md",
+    "Basic Electronics/ChatGPT {C}/01) Electronics Foundation.md",
+    "Basic Electronics/ChatGPT {C}",
     "Basic Electronics",
     "Bare-Metal Programming/Grok {O}/media",
     "Bare-Metal Programming/Grok {O}/New folder",
@@ -192,27 +201,17 @@
     "Device Drivers/Grok {D}",
     "Typology/Temperaments.md",
     "Summaries/Custom {O}",
-    "Summaries",
     "Device Drivers/ChatGPT {D}/03) Character Device Concept.md",
     "Typology/Enneagram.md",
-    "Typology/Moral Alignment.md",
-    "Numerical Ability/Grok {O}/11) Mensuration.md",
-    "Device Drivers/ChatGPT {D}/02) Entering Kernel Space.md",
-    "Numerical Ability/Grok {O}/10) Number System.md",
-    "Device Drivers/ChatGPT {D}/01) Kernel Mindset & Ground Truth.md",
-    "Device Drivers/ChatGPT {D}",
-    "Numerical Ability/Grok {O}/09) Algebra.md",
-    "Gaming Strategies/Custom {O}/Need For Speed - Prostreet.md",
-    "Numerical Ability/Grok {O}/08) Time, Speed & Distance.md",
     "Pasted image 20251118151911.png",
-    "Big Data Analytics/College Collab {O}/media/image19.png",
-    "Big Data Analytics/College Collab {O}/media/image18.png",
-    "Big Data Analytics/College Collab {O}/media/image17.png",
-    "Big Data Analytics/College Collab {O}/media/image16.png",
-    "Big Data Analytics/College Collab {O}/media/image15.png",
-    "Big Data Analytics/College Collab {O}/media/image14.png",
-    "Big Data Analytics/College Collab {O}/media/image4.png",
-    "Big Data Analytics/College Collab {O}/media/image13.png",
-    "Big Data Analytics/College Collab {O}/media/image12.png"
+    "Big Data Analytics/College Collab {C}/media/image19.png",
+    "Big Data Analytics/College Collab {C}/media/image18.png",
+    "Big Data Analytics/College Collab {C}/media/image17.png",
+    "Big Data Analytics/College Collab {C}/media/image16.png",
+    "Big Data Analytics/College Collab {C}/media/image15.png",
+    "Big Data Analytics/College Collab {C}/media/image14.png",
+    "Big Data Analytics/College Collab {C}/media/image4.png",
+    "Big Data Analytics/College Collab {C}/media/image13.png",
+    "Big Data Analytics/College Collab {C}/media/image12.png"
   ]
 }

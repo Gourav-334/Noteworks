@@ -109,7 +109,7 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 - **`SequenceFileInputFormat`**
 - **`SequenceFileAsTextInputFormat`**
 
-![Mapper Function Flow](./media/image15.png)
+![Mapper Function Flow](Big%20Data%20Analytics/College%20Collab%20{C}/media/image15.png)
 
 
 
@@ -126,7 +126,7 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 1. **Merging:** Combines all pairs with identical keys.
 2. **Sorting:** Orders pairs by key → `<Key, List<Value>>`.
 
-![Shuffle and Sort Mechanism](./media/image16.png)
+![Shuffle and Sort Mechanism](Big%20Data%20Analytics/College%20Collab%20{C}/media/image16.png)
 
 
 
@@ -143,7 +143,7 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 - Zero or more final key–value pairs.
 - Final results stored in **HDFS output directory**.
 
-![Reducer Function Flow](./media/image17.png)
+![Reducer Function Flow](Big%20Data%20Analytics/College%20Collab%20{C}/media/image17.png)
 
 
 
@@ -155,7 +155,7 @@ reduce(out_key, list(intermediate_value)) → list(out_value)
 4. Reducers aggregate grouped values.
 5. Final output written to HDFS.
 
-![Complete MapReduce Pipeline](./media/image18.png)
+![Complete MapReduce Pipeline](Big%20Data%20Analytics/College%20Collab%20{C}/media/image18.png)
 
 
 
@@ -224,7 +224,7 @@ reduce(hashtag, list(tweets)) → (hashtag, [list of tweets])
 - Enhanced scalability and multi-job execution.
 - Supports real-time and interactive applications.
 
-![MapReduce on YARN Architecture](./media/image19.png)
+![MapReduce on YARN Architecture](Big%20Data%20Analytics/College%20Collab%20{C}/media/image19.png)
 
 
 

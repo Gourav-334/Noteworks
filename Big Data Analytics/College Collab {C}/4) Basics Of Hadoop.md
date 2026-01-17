@@ -18,7 +18,7 @@
 - Efficient handling of **big data** (structured, semi-structured, unstructured).
 - Fault-tolerant, scalable, and high-throughput system.
 
-![Hadoop Ecosystem Overview](./media/image4.png)
+![Hadoop Ecosystem Overview](Big%20Data%20Analytics/College%20Collab%20{C}/media/image4.png)
 
 
 
@@ -36,7 +36,7 @@
 - **Aadhaar Database**: Requires matching 10 fingerprints, 2 irises, and demographics for each record.
 - Handles 600 trillion comparisons daily using Hadoop.
 
-![Distributed File System Concept](./media/image6.png)
+![Distributed File System Concept](Big%20Data%20Analytics/College%20Collab%20{C}/media/image6.png)
 
 
 
@@ -54,7 +54,7 @@
 
 - Data replication across nodes ensures no single point of failure.
 
-![Vertical vs Horizontal Scaling](./media/image5.png)
+![Vertical vs Horizontal Scaling](Big%20Data%20Analytics/College%20Collab%20{C}/media/image5.png)
 
 
 
@@ -95,7 +95,7 @@
 - Added **YARN (Yet Another Resource Negotiator)** for better resource management.
 - Enhanced scalability and multi-application support.
 
-![Hadoop 1.x vs Hadoop 2.x Architecture](./media/image7.png)
+![Hadoop 1.x vs Hadoop 2.x Architecture](Big%20Data%20Analytics/College%20Collab%20{C}/media/image7.png)
 
 
 
@@ -114,7 +114,7 @@
 - Files split into blocks; each block replicated (default 3 copies).
 - **Example:** 514 MB file → 5 blocks (4 × 128 MB + 1 × 2 MB); replicated thrice = 15 total blocks.
 
-![HDFS Block Replication](./media/image8.png)
+![HDFS Block Replication](Big%20Data%20Analytics/College%20Collab%20{C}/media/image8.png)
 
 
 
@@ -130,7 +130,7 @@
 - No two replicas on same node.
 - Max two replicas on same rack.
 
-![Hadoop Rack Awareness](./media/image9.png)
+![Hadoop Rack Awareness](Big%20Data%20Analytics/College%20Collab%20{C}/media/image9.png)
 
 
 
@@ -159,7 +159,7 @@
 - Slave daemon storing actual data blocks.
 - Handles **read/write requests** and **block replication**.
 
-![HDFS Master–Slave Architecture](./media/image10.png)
+![HDFS Master–Slave Architecture](Big%20Data%20Analytics/College%20Collab%20{C}/media/image10.png)
 
 
 
@@ -197,7 +197,7 @@
 - Batch-oriented (no real-time processing).
 - Non-trivial for interdependent tasks (e.g., TSP).
 
-![MapReduce Flow](./media/image11.png)
+![MapReduce Flow](Big%20Data%20Analytics/College%20Collab%20{C}/media/image11.png)
 
 
 
@@ -217,7 +217,7 @@
 - Centralized resource management.
 - Enables multi-engine processing (batch, interactive, real-time).
 
-![Hadoop YARN Architecture](./media/image12.png)
+![Hadoop YARN Architecture](Big%20Data%20Analytics/College%20Collab%20{C}/media/image12.png)
 
 
 
@@ -248,7 +248,7 @@
 | **Resource Management** | YARN, ZooKeeper |
 | **Data Analysis** | Mahout, Oozie |
 
-![Hadoop Ecosystem Stack](./media/image13.png)
+![Hadoop Ecosystem Stack](Big%20Data%20Analytics/College%20Collab%20{C}/media/image13.png)
 
 
 
@@ -269,6 +269,6 @@
 - Erasure Coding and YARN improve efficiency and flexibility.
 - Key for modern Big Data infrastructure.
 
-![Hadoop Architecture Summary](./media/image14.png)
+![Hadoop Architecture Summary](Big%20Data%20Analytics/College%20Collab%20{C}/media/image14.png)
 
 ---
