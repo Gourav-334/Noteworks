@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efd3c21145d35954",
+        "id": "b1e7f3754b1073b3",
         "type": "tabs",
         "children": [
           {
-            "id": "a555089e384ba587",
+            "id": "88dac88133991cda",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,21 +166,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a555089e384ba587",
+  "active": "88dac88133991cda",
   "lastOpenFiles": [
+    "Summaries/Custom {O}/Basic Electrical Engineering {O}.md",
+    "Summaries/Custom {O}/Basic Electronics {C}.md",
+    "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md",
+    "Summaries/Custom {O}/Engineering Mathematics {D}.md",
+    "Basic Electrical Engineering/ChatGPT {O}/01) AC Fundamentals & Phasors.md",
     "Basic Electrical Engineering/ChatGPT {O}/07) Electrical Measurements.md",
     "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md",
-    "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md",
     "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
-    "Basic Electrical Engineering/ChatGPT {O}/01) AC Fundamentals & Phasors.md",
     "Basic Electrical Engineering/ChatGPT {O}",
     "Basic Electrical Engineering",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-    "Summaries/Custom {O}/Basic Electronics {C}.md",
-    "Summaries/Custom {O}/Engineering Mathematics {O}.md",
     "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md",
     "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md",
     "Basic Electronics/ChatGPT {C}/06) Field Effect Transistors.md",
@@ -202,7 +204,6 @@
     "Typology/Temperaments.md",
     "Summaries/Custom {O}",
     "Device Drivers/ChatGPT {D}/03) Character Device Concept.md",
-    "Typology/Enneagram.md",
     "Pasted image 20251118151911.png",
     "Big Data Analytics/College Collab {C}/media/image19.png",
     "Big Data Analytics/College Collab {C}/media/image18.png",
