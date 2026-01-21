@@ -62,3 +62,68 @@
 - **Magnetic energy storage ($W$):** Energy is stored and returned in ideal circuits. ($W=\frac{1}{2}LI^2$)
 - **Hysteresis:** Energy loss per cycle in practical circuits.
 - **Eddy's current:** Current induced in magnetic field from change in flux, also producing heat.
+
+
+
+## **Chapter - 4: Transformers**
+
+- **Transformers:** Machines that allow changing voltage level, efficient long distance transmission, and circuit isolation.
+- **Primary winding:** Part of transformer giving input.
+- **Secondary winding:** Part of transformer giving output.
+- **Magnetic core:** Low reluctance path for flux in transformer.
+- **Mutual induction:** AC input from primary winding keeps altering magnetic flux which induces EMF in secondary winding.
+- **EMF equation:** Ratio of secondary to primary RMS voltage in same as total turns. ($\frac{V_s}{V_p}=\frac{N_s}{N_p}$)
+- **Ideal transformer:** Step-up $V$ causes step-down $I$, and vice-versa. ($V_pI_p=V_sI_s$)
+- **Practical transformer:** Copper loss, core loss from hysteresis / eddy's current, leakages, etc.
+- **Transformer efficiency:** $\eta = \frac{\text{Output power}}{\text{Input power}}\times 100\%$
+- **Power transformers:** Transformers which achieve efficiency over $95\%$.
+- **Voltage regulation:** Occurs as per measurement of voltage, where lower regulation means better performance.
+- **Transformer types:** Step-up/ step-down, power, distribution, and isolation.
+- **Why no DC:** No changing flux to induce EMF, instead causing overheating.
+
+
+
+## **Chapter - 5: DC Machines**
+
+- **DC machine parts:** Stator, rotor, commutator, and brushes.
+- **Stator:** Field system that produces magnetic field.
+- **Rotor:** Armature that carries current and rotates.
+- **Commutator:** Mechanical rectifier.
+- **Brushes:** Provides electrical contact.
+- **Lorentz's force:** Force experienced by a conducting material in magnetic field.
+- **Torque:** Movement produced in conducting materials through Lorentz's force.
+- **DC motor:** Current flows through armature and interacts with magnetic field to produce torque.
+- **DC generator:** Armature rotates, conductor cuts magnetic flux, and EMF is induced.
+- **Back EMF:** EMF generated opposite to supply when motor rotates, limiting supply and regulating speed.
+- $\text{Speed of motor} \propto EMF$
+- **DC machines type:** Shunt, series, and compound.
+- **DC machine losses:** Copper loss, hysteresis, eddy's current, friction, etc.
+- **DC machine problems:** Worn-out brushes, sparking, maintenance difficulty, etc.
+
+
+
+## **Chapter - 6: AC Machines**
+
+- AC current in stator $\rightarrow$ Magnetic fields combine $\rightarrow$ Rotating magnetic field (RMF)
+- **Synchronous speed:** Speed of rotating magnetic field, with $P$ poles. ($N_s=\frac{120f}{P}$)
+- **Induction motor:** RMF cuts conductors, EMF induced in rotor interacts with RMF to produce torque.
+- **Slip:** Synchronous and rotor speed difference. ($s=\frac{N_s-N_r}{N_s}$)
+- **Squirrel cage:** Robust and low-cost rotor.
+- **Slip-ring:** Rotor with high initial torque and control.
+- **Synchronous machines:** Machine where rotor speed and synchronous speed are same.
+
+
+
+## **Chapter - 7: Electrical Measurements**
+
+- **Measuring instrument types:** Indicating, recording, and integrating.
+- **Integrating instruments:** Totalizing quantity over time (like energy meters).
+- **Analog instruments:** Subject to parallax error.
+- **Ammeter:** Connected with load in series & has very low internal resistance.
+- **Voltmeter:** Connected in parallel to component & has very high internal resistance.
+- **Wattmeter:** Uses current coil in series & voltage coil in parallel.
+- **Load effect:** Change in circuit behavior after connecting an instrument.
+- Voltmeter draws current & thus voltage drops.
+- Ammeter adds resistance & thus current reduces.
+
+---
