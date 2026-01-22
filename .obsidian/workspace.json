@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "63af9eba905a144e",
+        "id": "dd84d183eb36cc5c",
         "type": "tabs",
         "children": [
           {
-            "id": "2632a99250e97813",
+            "id": "56002158d4cc4cfe",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 223.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -165,17 +166,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2632a99250e97813",
+  "active": "56002158d4cc4cfe",
   "lastOpenFiles": [
-    "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
-    "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
-    "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
+    "Summaries/Custom {O}/Digital Electronics {O}.md",
     "Digital Electronics/ChatGPT {O}/08) Interfacing & Abstraction.md",
+    "Digital Electronics/ChatGPT {O}/media/image19.webp",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 202972.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image18.png",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 398678.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image17.webp",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 890793.crdownload",
     "Digital Electronics/ChatGPT {O}/07) Timing & Hazards.md",
     "Digital Electronics/ChatGPT {O}/06) Finite State Machines.md",
-    "Digital Electronics/ChatGPT {O}/05) Flip-Flops & Latches.md",
     "Digital Electronics/ChatGPT {O}/04) Sequential Logic.md",
-    "Digital Electronics/ChatGPT {O}",
+    "Digital Electronics/ChatGPT {O}/media/image16.gif",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 49842.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image15.webp",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 983678.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image14.png",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 480441.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image13.jpg",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 484101.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image12.png",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 817879.crdownload",
+    "Digital Electronics/ChatGPT {O}/media/image11.jpg",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 193500.crdownload",
+    "Digital Electronics/ChatGPT {O}/05) Flip-Flops & Latches.md",
+    "Digital Electronics/ChatGPT {O}/media/image10.png",
+    "Digital Electronics/ChatGPT {O}/media/Unconfirmed 292076.crdownload",
+    "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
+    "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
+    "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
     "Summaries/Custom {O}/Engineering Mathematics {D}.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
     "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
@@ -188,30 +209,10 @@
     "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
-    "Basic Electrical Engineering/ChatGPT {O}",
-    "Basic Electrical Engineering",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md",
     "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md",
     "Basic Electronics/ChatGPT {C}/06) Field Effect Transistors.md",
-    "Basic Electronics/ChatGPT {C}/05) Bipolar Junction Transistor.md",
-    "Basic Electronics/ChatGPT {C}/04) Diodes & Rectifier Circuits.md",
-    "Basic Electronics/ChatGPT {C}",
-    "Basic Electronics",
-    "Bare-Metal Programming/Grok {O}/media",
-    "Bare-Metal Programming/Grok {O}/New folder",
-    "Bare-Metal Programming/Grok {O}",
-    "Bare-Metal Programming",
-    "Device Drivers/Grok {D}",
-    "Pasted image 20251118151911.png",
-    "Big Data Analytics/College Collab {C}/media/image19.png",
-    "Big Data Analytics/College Collab {C}/media/image18.png",
-    "Big Data Analytics/College Collab {C}/media/image17.png",
-    "Big Data Analytics/College Collab {C}/media/image16.png",
-    "Big Data Analytics/College Collab {C}/media/image15.png",
-    "Big Data Analytics/College Collab {C}/media/image14.png",
-    "Big Data Analytics/College Collab {C}/media/image4.png",
-    "Big Data Analytics/College Collab {C}/media/image13.png",
-    "Big Data Analytics/College Collab {C}/media/image12.png"
+    "Basic Electronics/ChatGPT {C}/05) Bipolar Junction Transistor.md"
   ]
 }
