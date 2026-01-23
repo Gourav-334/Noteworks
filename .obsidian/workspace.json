@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd84d183eb36cc5c",
+        "id": "c6efbf663f37e1be",
         "type": "tabs",
         "children": [
           {
-            "id": "56002158d4cc4cfe",
+            "id": "b0a47131c7c46b02",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56002158d4cc4cfe",
+  "active": "b0a47131c7c46b02",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/Digital Electronics {O}.md",
+    "Summaries/Custom {O}/Digital Electronics {C}.md",
+    "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
     "Digital Electronics/ChatGPT {O}/08) Interfacing & Abstraction.md",
     "Digital Electronics/ChatGPT {O}/media/image19.webp",
     "Digital Electronics/ChatGPT {O}/media/Unconfirmed 202972.crdownload",
@@ -194,7 +195,6 @@
     "Digital Electronics/ChatGPT {O}/05) Flip-Flops & Latches.md",
     "Digital Electronics/ChatGPT {O}/media/image10.png",
     "Digital Electronics/ChatGPT {O}/media/Unconfirmed 292076.crdownload",
-    "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
     "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
     "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
     "Summaries/Custom {O}/Engineering Mathematics {D}.md",
