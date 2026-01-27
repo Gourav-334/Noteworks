@@ -208,3 +208,140 @@ end
 
 endmodule
 ```
+
+
+
+## **Topic - 5: Control Statements**
+
+### <u>Conditional Statements</u>
+
+```verilog
+always @(*) begin
+    if (sel == 0)
+        y = a;        // y is reg
+    else
+        y = b;
+end
+```
+
+- `y` have to a `reg` to work inside `always` block.
+
+
+### <u>Multi-Bit Vector</u>
+
+```verilog
+input [1:0] in,
+output reg [3:0] y
+```
+
+- `in` is of 2-bits & `y` of `4`.
+- Used in multiplexers, demultiplexers, etc.
+
+
+### <u>Switch-Cases</u>
+
+```verilog
+case (in)
+    2'b00: y = 4'b0001;
+    2'b01: y = 4'b0010;
+    2'b10: y = 4'b0100;
+    2'b11: y = 4'b1000;
+    default: y = 4'b0000;
+endcase
+```
+
+- `2'b00` = `2`-bit binary (`b`) valued `00`.
+- `4'b0000` = `4`-bit binary (`b`) valued `0000`.
+
+
+### <u>Example Codes</u>
+
+#### Multiplexer:
+
+```verilog
+module mux2to1(
+    input  a,
+    input  b,
+    input  sel,
+    output reg y
+);
+
+always @(*) begin
+    if (sel == 0)
+        y = a;
+    else
+        y = b;
+end
+
+endmodule
+```
+
+#### Decoder code:
+
+```verilog
+module decoder2to4(
+    input  [1:0] in,
+    output reg [3:0] y
+);
+
+always @(*) begin
+    case (in)
+        2'b00: y = 4'b0001;
+        2'b01: y = 4'b0010;
+        2'b10: y = 4'b0100;
+        2'b11: y = 4'b1000;
+        default: y = 4'b0000;
+    endcase
+end
+
+endmodule
+```
+
+
+
+## **Topic - 6: Sequential Logic & Clocks**
+
+### <u>Clock Condition</u>
+
+```verilog
+always @(posedge clk) begin
+	q <= d;
+end
+```
+
+- Now values inside `always` block update only during clock edges.
+- And we use `<=` for sequential circuits.
+
+
+### <u>Testbench Changes</u>
+
+```verilog
+`timescale 1ns/1ps
+
+module tb_dff;
+	
+    reg clk;
+    reg rst;
+    reg d;
+    wire q;
+	
+    dff uut (.clk(clk), .rst(rst), .d(d), .q(q));
+	
+    always #5 clk = ~clk;        // ADDED LINE: 10 ns period for clock
+	
+    initial begin
+	    $dumpfile("wave.vcd");
+        $dumpvars(0, tb_dff);
+        
+        clk = 0; rst = 1; d = 0; #12
+        rst = 0;        // Release reset (not on edge)
+		
+        d = 1;  #10;        // Sampled on next posedge
+        d = 0;  #10;
+        d = 1;  #10;
+		
+        $finish;
+    end
+	
+endmodule
+```
