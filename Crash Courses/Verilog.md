@@ -345,3 +345,36 @@ module tb_dff;
 	
 endmodule
 ```
+
+
+
+## **Topic - 7: Registers, Counters, State**
+
+### <u>Reset</u>
+
+- Initializes or brings register to a known value (like `0`).
+- Otherwise there would be random assignation.
+- On activation of reset, memory must be cleared.
+
+
+
+## **Topic - 8: Reset, Enable, Safe Sequential Design**
+
+### <u>Asynchronous Reset</u>
+
+- Acts immediately without waiting for clock.
+- Used in power-up safety.
+
+
+### <u>Synchronous Reset</u>
+
+- Acts only on clock's edge.
+- More predictable
+- Used in most FPGA designs.
+
+
+### <u>Enables</u>
+
+- Decides if a register should be updated on clock's edge.
+- While reset rarely does anything, enables frequently work.
+- Reset checks the value first, before enable.
