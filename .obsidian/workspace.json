@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a81943e4a98e4a9f",
+        "id": "1eb7ac19c95b563e",
         "type": "tabs",
         "children": [
           {
-            "id": "0bcfd19569b80c39",
+            "id": "e1c9e18f955374b6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0bcfd19569b80c39",
+  "active": "e1c9e18f955374b6",
   "lastOpenFiles": [
     "Crash Courses/Verilog.md",
     "Summaries/Custom {O}/Digital Electronics {C}.md",

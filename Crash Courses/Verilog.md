@@ -378,3 +378,5 @@ endmodule
 - Decides if a register should be updated on clock's edge.
 - While reset rarely does anything, enables frequently work.
 - Reset checks the value first, before enable.
+
+---
