@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1eb7ac19c95b563e",
+        "id": "a38b77b20c088d54",
         "type": "tabs",
         "children": [
           {
-            "id": "e1c9e18f955374b6",
+            "id": "8a40b36e9e5143eb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1c9e18f955374b6",
+  "active": "8a40b36e9e5143eb",
   "lastOpenFiles": [
+    "Typology/Potentiology.md",
     "Crash Courses/Verilog.md",
     "Summaries/Custom {O}/Digital Electronics {C}.md",
     "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
@@ -212,7 +213,6 @@
     "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md",
-    "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md",
-    "Basic Electronics/ChatGPT {C}/06) Field Effect Transistors.md"
+    "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md"
   ]
 }
