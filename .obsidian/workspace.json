@@ -172,6 +172,7 @@
   },
   "active": "8a40b36e9e5143eb",
   "lastOpenFiles": [
+    "Typology/Jungian Typology.md",
     "Typology/Potentiology.md",
     "Crash Courses/Verilog.md",
     "Summaries/Custom {O}/Digital Electronics {C}.md",
@@ -216,7 +217,6 @@
     "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-    "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md",
-    "Basic Electronics/ChatGPT {C}/07) Amplifiers & Operational Amplifiers.md"
+    "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md"
   ]
 }
