@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a38b77b20c088d54",
+        "id": "50a552c2f13bd558",
         "type": "tabs",
         "children": [
           {
-            "id": "8a40b36e9e5143eb",
+            "id": "73afd6a458cda987",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,10 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a40b36e9e5143eb",
+  "active": "73afd6a458cda987",
   "lastOpenFiles": [
-    "Typology/Jungian Typology.md",
     "Typology/Potentiology.md",
+    "Typology/Jungian Typology.md",
+    "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Crash Courses/Verilog.md",
     "Summaries/Custom {O}/Digital Electronics {C}.md",
     "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
@@ -207,7 +210,6 @@
     "Summaries/Custom {O}/Engineering Mathematics {D}.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
     "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
-    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Untitled.md",
     "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md",
     "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md",
@@ -215,8 +217,6 @@
     "Basic Electrical Engineering/ChatGPT {O}/07) Electrical Measurements.md",
     "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md",
     "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md",
-    "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-    "Basic Electronics/ChatGPT {C}/08) Digital Electronics Basics.md"
+    "Basic Electrical Engineering/ChatGPT {O}/02) AC Circuit Analysis.md"
   ]
 }
