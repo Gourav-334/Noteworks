@@ -17,6 +17,7 @@
 - **Repressed:** Unconsciously blocked from awareness.
 - **Seed:** The point on timeline from where a function starts fresh after previous crash.
 - **Crash:** A temporary shutdown of a function caused by sustained conflict with its opposing function domain, leading to loss of evaluative authority by primary function.
+- **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
 
 
 
@@ -56,7 +57,7 @@ Logic is **mechanical** perception, where the object is perceived in terms of **
 *"**Morality** is a domain of cognitive functions in which the subject perceives the object in terms of **moral values**."*
 
 #### 3.4.2 Description:
-Morality is value-based perception, where the object is perceived in terms of moral values. If using it the subject looks at something, it will see that in form of moral values. Consider the same printer example from previous examples, if the subject perceives a printer printing pages using a moral function. It will say, *"Such an incredible innovative piece made by someone is what we together are taking leverage of. We should similarly strive to contribute to society, as its a good virtue."* It sees the object as something that holds some values in it, or displays moral values in some way.
+Morality is **value-based** perception, where the object is perceived in terms of **moral values**. If using it the subject looks at something, it will see that in form of **moral values**. Consider the same printer example from previous examples, if the subject perceives a printer printing pages using a moral function. It will say, *"Such an incredible innovative piece made by someone is what we together are taking leverage of. We should similarly strive to contribute to society, as its a good virtue."* It sees the object as something that **holds some value** in it, or displays moral values in some way.
 
 
 
@@ -69,6 +70,7 @@ Morality is value-based perception, where the object is perceived in terms of mo
 *"Using **subjective functions**, the subject evaluates the object with reference to the **available impressions** of target function domain with the **subject**. This perception is then merged into existing impressions as a single unit, and could be reflected upon, **independent** of object."*
 
 #### 4.1.2 Description:
+Subject uses subjective function to understand the object by **recalling** their **past perceptions**. These perceptions exist in a **singular form** as an impression. And this new perceptions finally merges into a **single impression** after being understood, expanding understanding with the particular function. This continues with many perceptions and the subject keeps **accumulating new data**, increasing the overall size of unit impression. The subject could later reflect upon this impression **without** having to depend on an active stimulus from object.
 
 
 ### 4.2 <u>Objective (Obj)</u>:
@@ -77,6 +79,7 @@ Morality is value-based perception, where the object is perceived in terms of mo
 *"Using **objective functions**, the subject evaluates the object with reference to the **available details** of target function domain about the **object**. This perception **pulls** the subject towards **mentally adapting** to those details, thus **dependent** on object."*
 
 #### 4.2.2 Description:
+Subject uses objective functions to understand the object by **noticing the details** that object possesses. These perceptions are seen as something **fresh and new**, not necessarily to do with past perceptions. It is **not** stored as a unit impression, instead it is just adaptation to the object's details **temporarily**, until the subject receives **active stimulus** from the object. After this stimulus ends, there is no use of it. Its not that the subject may not value what he learned from objective details, but he **won't reflect** upon it if he perceives newer objects.
 
 
 
@@ -183,10 +186,10 @@ Morality is value-based perception, where the object is perceived in terms of mo
 
 | Primary Function Domain | Secondary Function Domain | Repressed Function Domain |
 | :---------------------- | :------------------------ | :------------------------ |
-| X                       | L, M                      | H                         |
-| H                       | L, M                      | X                         |
-| L                       | X, H                      | M                         |
-| M                       | X, H                      | L                         |
+| X                       | L, M                      | A                         |
+| A                       | L, M                      | X                         |
+| L                       | X, A                      | M                         |
+| M                       | X, A                      | L                         |
 
 3. Each type is expressed with 3 fixed letters.
 4. First letter of a type tells about direction of primary function (**S**/**O**).
