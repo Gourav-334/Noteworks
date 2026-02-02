@@ -229,7 +229,7 @@ When a subject uses **ObjM** function, it perceives the object and notices the m
 | M                       | X, A                      | L                         |
 
 3. Each type is expressed with 3 fixed letters.
-4. First letter of a type tells about direction of primary function (**S**/**O**).
+4. First letter of a type tells about direction of primary function (**Sbj**/**Obj**).
 5. Second letter tells about the domain of primary function.
 6. Third letter tells about the domain of secondary function.
 
@@ -243,121 +243,160 @@ $$ \text{Type = } SbjMX $$
 - Third letter is the domain of secondary function i.e. **experience (X)** but directed opposite to primary function's direction, making it **objective experience (ObjX)**.
 - This example profile yields the type **SbjMX** which as per functional definition maps closely to ***IF(S)*** in classic Jungian typology, ***ISFP*** in MBTI, and ***ESI*** in socionics.
 
+| Type | +ve Realm Runtime Energy Consumption | -ve Realm Runtime Energy Consumption |
+| :--: | :----------------------------------- | :----------------------------------- |
+| ISFP | SbjM < ObjX < SbjA < ObjL            | ObjL < SbjX < ObjA < SbjL            |
+
+
+### 7.3 <u>Mapping Equivalents</u>:
+
+| Potentiology | Classic Jungian | MBTI | Socionics |
+| :----------: | :-------------: | :--: | :-------: |
+|    SbjXL     |      IS(T)      | ISTJ |    SLI    |
+|    SbjXM     |      IS(F)      | ISFJ |    SEI    |
+|    ObjLX     |      ET(S)      | ESTJ |    LSE    |
+|    ObjMX     |      EF(S)      | ESFJ |    ESE    |
+|    SbjLX     |      IT(S)      | ISTP |    LSI    |
+|    SbjMX     |      IF(S)      | ISFP |    ESI    |
+|    ObjXL     |      ES(T)      | ESTP |    SLE    |
+|    ObjXM     |      ES(F)      | ESFP |    SEE    |
+|    SbjAM     |      IN(F)      | INFJ |    IEI    |
+|    SbjMA     |      IF(N)      | INFP |    EII    |
+|    ObjMA     |      EF(N)      | ENFJ |    EIE    |
+|    ObjAM     |      EN(F)      | ENFP |    IEE    |
+|    SbjAL     |      IN(T)      | INTJ |    ILI    |
+|    SbjLA     |      IT(N)      | INTP |    LII    |
+|    ObjLA     |      ET(N)      | ENTJ |    LIE    |
+|    ObjAL     |      EN(T)      | ENTP |    ILE    |
+
+
+### 7.4 <u>Evaluation Suggestions</u>:
+
+- Look for how long someone can use a particular function comfortably.
+- And what the person does after a crash, during the recovery period.
+- These might not be shown outward necessarily, and the subject might be very good at using or controlling it.
+- For example, an ***SbjAM*** might be good at sports when recovering from crash while using ***ObjX***.
+- This can be known by asking the exact questions a person wants to be asked.
+- For example, a ***ObjL*** might be very much interested in telling how they handle logical situations at work place effectively.
+- Questions must be kept within a short radius of time, usually within 1-2 years, because types are dynamic and there is no guarantee for them to be fixed.
+- Method can be either descriptive, or analytical based on objectively provable facts.
+- People who have been recently diagnosed with any form of trauma must be evaluated carefully and with respect to navigate through anomalies.
+
 
 
 ## 8. Types Explanations
 
 
-### 7.1 <u>SPL</u>:
+### 7.1 <u>SbjXL</u>:
 
 #### 7.1.1 Working:
 
 #### 7.1.2 Example:
 
 
-### 7.2 <u>SPM</u>:
+### 7.2 <u>SbjXM</u>:
 
 #### 7.2.1 Working:
 
 #### 7.2.2 Example:
 
 
-### 7.3 <u>OPL</u>:
+### 7.3 <u>ObjLX</u>:
 
 #### 7.3.1 Working:
 
 #### 7.3.2 Example:
 
 
-### 7.4 <u>OPM</u>:
+### 7.4 <u>ObjMX</u>:
 
 #### 7.4.1 Working:
 
 #### 7.4.2 Example:
 
 
-### 7.5 <u>SHL</u>:
+### 7.5 <u>SbjLX</u>:
 
 #### 7.5.1 Working:
 
 #### 7.5.2 Example:
 
 
-### 7.6 <u>SHM</u>:
+### 7.6 <u>SbjMX</u>:
 
 #### 7.6.1 Working:
 
 #### 7.6.2 Example:
 
 
-### 7.7 <u>OHL</u>:
+### 7.7 <u>ObjXL</u>:
 
 #### 7.7.1 Working:
 
 #### 7.7.2 Example:
 
 
-### 7.8 <u>OHM</u>:
+### 7.8 <u>ObjXM</u>:
 
 #### 7.8.1 Working:
 
 #### 7.8.2 Example:
 
 
-### 7.9 <u>SLP</u>:
+### 7.9 <u>SbjAM</u>:
 
 #### 7.9.1 Working:
 
 #### 7.9.2 Example:
 
 
-### 7.10 <u>SLM</u>:
+### 7.10 <u>SbjMA</u>:
 
 #### 7.10.1 Working:
 
 #### 7.10.2 Example:
 
 
-### 7.11 <u>OLP</u>:
+### 7.11 <u>ObjMA</u>:
 
 #### 7.11.1 Working:
 
 #### 7.11.2 Example:
 
 
-### 7.12 <u>OLH</u>:
+### 7.12 <u>ObjAM</u>:
 
 #### 7.12.1 Working:
 
 #### 7.12.2 Example:
 
 
-### 7.13 <u>SMP</u>:
+### 7.13 <u>SbjAL</u>:
 
 #### 7.13.1 Working:
 
 #### 7.13.2 Example:
 
 
-### 7.14 <u>SMH</u>:
+### 7.14 <u>SbjLA</u>:
 
 #### 7.14.1 Working:
 
 #### 7.14.2 Example:
 
 
-### 7.15 <u>OMP</u>:
+### 7.15 <u>ObjLA</u>:
 
 #### 7.15.1 Working:
 
 #### 7.15.2 Example:
 
 
-### 7.16 <u>OMH</u>:
+### 8.16 <u>ObjAL</u>:
 
-#### 7.16.1 Working:
+#### 8.16.1 Working:
 
-#### 7.16.2 Example:
+#### 8.16.2 Example:
 
 
 
