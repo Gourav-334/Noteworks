@@ -18,6 +18,7 @@
 - **Seed:** The point on timeline from where a function starts fresh after previous crash.
 - **Crash:** A temporary shutdown of a function caused by sustained conflict with its opposing function domain, leading to loss of evaluative authority by primary function.
 - **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
+- **Leakage:** Conscious or unconscious use of a cognitive function that belongs to negative realm, with cost of high mental energy consumption.
 
 
 
@@ -70,7 +71,7 @@ Morality is **value-based** perception, where the object is perceived in terms o
 *"Using **subjective functions**, the subject evaluates the object with reference to the **available impressions** of target function domain with the **subject**. This perception is then merged into existing impressions as a single unit, and could be reflected upon, **independent** of object."*
 
 #### 4.1.2 Description:
-Subject uses subjective function to understand the object by **recalling** their **past perceptions**. These perceptions exist in a **singular form** as an impression. And this new perceptions finally merges into a **single impression** after being understood, expanding understanding with the particular function. This continues with many perceptions and the subject keeps **accumulating new data**, increasing the overall size of unit impression. The subject could later reflect upon this impression **without** having to depend on an active stimulus from object.
+Subject uses subjective function to understand the object by **recalling** their **past perceptions**. These perceptions exist in a **singular form** as an impression. And this new perceptions finally merges into a **single impression** after being understood, expanding understanding with the particular function. This continues with many perceptions and the subject keeps **accumulating new data**, increasing the overall size of unit impression. The subject could later reflect upon this impression **without** having to depend on an active stimulus from object. And because the subject matches object to each content present in impression, it is usually processes **slower** than objective functions.
 
 
 ### 4.2 <u>Objective (Obj)</u>:
@@ -79,7 +80,7 @@ Subject uses subjective function to understand the object by **recalling** their
 *"Using **objective functions**, the subject evaluates the object with reference to the **available details** of target function domain about the **object**. This perception **pulls** the subject towards **mentally adapting** to those details, thus **dependent** on object."*
 
 #### 4.2.2 Description:
-Subject uses objective functions to understand the object by **noticing the details** that object possesses. These perceptions are seen as something **fresh and new**, not necessarily to do with past perceptions. It is **not** stored as a unit impression, instead it is just adaptation to the object's details **temporarily**, until the subject receives **active stimulus** from the object. After this stimulus ends, there is no use of it. Its not that the subject may not value what he learned from objective details, but he **won't reflect** upon it if he perceives newer objects.
+Subject uses objective functions to understand the object by **noticing the details** that object possesses. These perceptions are seen as something **fresh and new**, not necessarily to do with past perceptions. It is **not** stored as a unit impression, instead it is just adaptation to the object's details **temporarily**, until the subject receives **active stimulus** from the object. After this stimulus ends, there is no use of it. Its not that the subject may not value what he learned from objective details, but he **won't reflect** upon it if he perceives newer objects. And because the subject isolates object as a system, it usually processes **faster** than subjective functions.
 
 
 
@@ -92,6 +93,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 *"Using **subjective experiencer** function, the subject evaluates the object with reference to available **concrete impressions** with the **subject**. This experience is then merged into existing impressions about experiences as a single experience, and could be reflected upon, **independent** of object."*
 
 #### 5.1.2 Description:
+When a subject uses **SbjX** function, it perceives the object and reflects upon how that experience makes sense to his existing impression of experiences. It accepts the experience if it makes sense with impression, and might reject the experience if it seems different from their experience. But they might still acquire newer experiences through **ObjX** leakages. Example for **SbjX** usage would be, a person understands why one of the two newly brought printers works as the previous one used to be, but won't accept a printer with different controls. Or even after witnessing its working, he would prefer using the printer with known controls. But he will accept it if there is no other choice, or an **ObjX** leakage occurs.
 
 
 ### 5.2 <u>Objective Experiencer (ObjX)</u>:
@@ -100,6 +102,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 *"Using **objective experiencer** function, the subject evaluates the object with reference to available **concrete details** about the **object**. This experience **pulls** the subject towards **mentally adapting** to those experiences, thus **dependent** on object."*
 
 #### 5.2.2 Description:
+When a subject uses **ObjX** function, it perceives the object and notices the concrete details with it, and then seeks to mentally adapt to that experience. It is open to adapting newer experiences when required even if they don't align with past experiences. But they might still form impressions through **SbjX** leakages. Example for **ObjX** usage would be, a person sees the difference in two newly brought printers with differing controls. He will be drawn towards using the printer with different controls than the existing one if it is situationally better to use. But he will use the printer with known working if there is none other available, or a **SbjX** leakage occurs.
 
 
 ### 5.3 <u>Subjective Abstraction (SbjA)</u>:
@@ -108,6 +111,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 *"Using **subjective abstraction** function, the subject evaluates the object with reference to available **abstract impressions** with the **subject**. This abstract is then merged into existing impressions about patterns as a single abstract, and could be reflected upon, **independent** of object."*
 
 #### 5.3.2 Description:
+When a subject uses **SbjA** function, it perceives the object and reflects upon how that abstraction makes sense to his existing impression of abstracts. It accepts the abstract if it makes sense with impression, and might reject the experience if it seems different from their abstraction. But they might still acquire newer abstractions through **ObjA** leakages. Example for **SbjA** usage would be, a person .
 
 
 ### 5.4 <u>Objective Abstraction (ObjA)</u>:
@@ -124,6 +128,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 *"Using **subjective logician** function, the subject evaluates the object with reference to available **logical impressions** with the **subject**. This logic is then merged into existing impressions as a single logic, and could be reflected upon, **independent** of object."*
 
 #### 5.5.2 Description:
+When a subject uses **SbjX** function, it perceives the object and reflects upon how that experience makes sense to his existing impression of experiences. It accepts the experience if it makes sense with impression, and might reject the experience if it seems different from their experience. But they might still acquire newer experiences through **ObjX** leakages. Example for **SbjX** usage would be, a person understands why one of the two newly brought printers works as the previous one used to be, but won't accept a printer with different controls. Or even after witnessing its working, he would prefer using the printer with known controls. But he will accept it if there is no other choice, or an **ObjX** leakage occurs.
 
 
 ### 5.6 <u>Objective Logician (ObjL)</u>:
@@ -140,6 +145,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 *"Using **subjective moral** function, the subject evaluates the object with reference to available **moral impressions** with the **subject**. This value is then merged into existing impressions about morality as a single unit, and could be reflected upon, **independent** of object."*
 
 #### 5.7.2 Description:
+When a subject uses **SbjX** function, it perceives the object and reflects upon how that experience makes sense to his existing impression of experiences. It accepts the experience if it makes sense with impression, and might reject the experience if it seems different from their experience. But they might still acquire newer experiences through **ObjX** leakages. Example for **SbjX** usage would be, a person understands why one of the two newly brought printers works as the previous one used to be, but won't accept a printer with different controls. Or even after witnessing its working, he would prefer using the printer with known controls. But he will accept it if there is no other choice, or an **ObjX** leakage occurs.
 
 
 ### 5.8 <u>Objective Moral (ObjM)</u>:
