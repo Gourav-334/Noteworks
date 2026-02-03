@@ -19,7 +19,6 @@
 - **Crash:** A temporary shutdown of a function caused by sustained conflict with its opposing function domain, leading to loss of evaluative authority by primary function.
 - **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
 - **Leakage:** Conscious or unconscious use of a cognitive function that belongs to negative realm, with cost of high mental energy consumption.
-- **Realm:** A group of four cognitive functions arranged in increasing order of their mental power consumption.
 
 
 
@@ -192,42 +191,55 @@ When a subject uses **ObjM** function, it perceives the object and notices the m
 ## 6. Positioning System
 
 
-### 6.1 <u>Functions Arrangement</u>:
+### 6.1 <u>Energy Theory</u>:
+
+![Capacity](./media/energy.png)
+
+There are **8 cognitive functions** as discussed before, which are arranged in **decreasing order** of their energy capacity. Meaning, the first function in order (**1st** function) has the highest energy storage capacity, second in series (**2nd function**) has the second highest energy capacity, and so on. And finally the last function in series (**8th function**) has least capacity for storing energy. And the ego tends to default to the function which at a given frame of time has highest energy in them, but after switching a fixed energy cost is paid by the chosen function, or energy in it is less than that cost, it outright crashes to point where no energy is left.
+
+So that way, when all the functions have theoretically full energy as per their respective capacities, the ego defaults to **1st function**. And when the energy level for **1st function** drops below **2nd function** with minimal energy cost paid, the ego will default to using **2nd function** as perceiving function. And when energy level of **2nd function** falls below the third's level with minimal cost paid, ego switches to using **3rd function** for perceiving. Or if **1st function** charges to a level more than **3rd function**, ego returns to using **1st function**.
+
+Cognitive functions **deplete** energy during use but recover only when **disengaged**. Recovery is not automatic and occurs under conditions specific to each function’s domain. In general, recovery is slower than depletion, introducing asymmetry that allows burnout, cascade, and delayed stabilization. The model therefore avoids equilibrium assumptions while preserving long-term functional reuse.
+
+What ego chooses by default, and what the subject manually chooses to use **aren't same**. Ego works as per the defined **energy theory**, but the subject might choose a function with lower energy level and at any position, **by choice**. Ego just **directs the tendency** of subject towards the function with highest energy, **not** control the subject's decision which they can consciously take **against tendency**. But its usually **unhealthy** when subject chooses so, resulting in frequent burnout and dissatisfaction. The tendency of ego towards a particular mode of perception if used at right area of focus, it adds to satisfaction of the subject.
 
 
-### 6.2 <u>Example</u>:
+### 6.2 <u>Positioning Logic</u>:
+
+- If first function is **Sbj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Sbj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Obj** type.
+- Else if first function is **Obj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Obj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Sbj** type.
+- **Experience (X)** & **Abstraction (A)** in same direction (both **Sbj**/**Obj**) are completely opposite to each other, just like **Logic (L)** & **Morality (M)** in same direction are.
+- This is because **X** & **A**, and **L** & **M** in same direction are two alternative choice subject gets to perceive, where only one can be used.
+- So for example **ObjA**, its complete opposite function would be **ObjX**. Because theoretically when each function is at equal level, the ego will choose the one which has highest energy capacity.
+- The capacitive position of complete opposite type depends on how far they are from center of positioning. Both the functions must have equal radius from center.
+- So if a function say **ObjM** is at **1st**, **ObjL** would be at **8th**. Or if **ObjM** is at **2nd**, **ObjL** would be at **7th**, and so on.
 
 
 ### 6.3 <u>Types Table</u>:
 
 - The table below shows each 16 type with their most capacitive function (**1st function**) to least capacitive function (**8th function**).
 
-|**Type**|**1st**|**2nd**|**3rd**|**4th**|**5th**|**6th**|**7th**|**8th**|
-|---|---|---|---|---|---|---|---|---|
-|**SbjXL**|SbjX|ObjL|SbjM|ObjA|ObjX|SbjL|ObjM|SbjA|
-|**SbjXM**|SbjX|ObjM|SbjL|ObjA|ObjX|SbjM|ObjL|SbjA|
-|**ObjLX**|ObjL|SbjX|ObjM|SbjA|ObjX|SbjL|ObjM|SbjA|
-|**ObjMX**|ObjM|SbjX|ObjL|SbjA|ObjX|SbjM|ObjL|SbjA|
-|**SbjLX**|SbjL|ObjX|SbjM|ObjA|ObjL|SbjX|ObjM|SbjA|
-|**SbjMX**|SbjM|ObjX|SbjL|ObjA|ObjM|SbjX|ObjL|SbjA|
-|**ObjXL**|ObjX|SbjL|ObjM|SbjA|ObjX|SbjM|ObjL|SbjA|
-|**ObjXM**|ObjX|SbjM|ObjL|SbjA|ObjX|SbjL|ObjM|SbjA|
-|**SbjAL**|SbjA|ObjL|SbjM|ObjX|ObjA|SbjL|ObjM|SbjX|
-|**SbjAM**|SbjA|ObjM|SbjL|ObjX|ObjA|SbjM|ObjL|SbjX|
-|**ObjLA**|ObjL|SbjA|ObjM|SbjX|ObjA|SbjL|ObjM|SbjX|
-|**ObjMA**|ObjM|SbjA|ObjL|SbjX|ObjA|SbjM|ObjL|SbjX|
-|**SbjLA**|SbjL|ObjA|SbjM|ObjX|ObjL|SbjA|ObjM|SbjX|
-|**SbjMA**|SbjM|ObjA|SbjL|ObjX|ObjM|SbjA|ObjL|SbjX|
-|**ObjAL**|ObjA|SbjL|ObjM|SbjX|ObjA|SbjM|ObjL|SbjX|
-|**ObjAM**|ObjA|SbjM|ObjL|SbjX|ObjA|SbjL|ObjM|SbjX|
+| **Type**  | **1st** | **2nd** | **3rd** | **4th** | **5th** | **6th** | **7th** | **8th** |
+| --------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| **SbjXL** | SbjX    | ObjL    | SbjM    | ObjA    | ObjX    | SbjL    | ObjM    | SbjA    |
+| **SbjXM** | SbjX    | ObjM    | SbjL    | ObjA    | ObjX    | SbjM    | ObjL    | SbjA    |
+| **ObjLX** | ObjL    | SbjX    | ObjA    | SbjM    | SbjL    | ObjX    | SbjA    | ObjM    |
+| **ObjMX** | ObjM    | SbjX    | ObjA    | SbjL    | SbjM    | ObjX    | SbjA    | ObjL    |
+| **SbjLX** | SbjL    | ObjX    | SbjA    | ObjM    | ObjL    | SbjX    | ObjA    | SbjM    |
+| **SbjMX** | SbjM    | ObjX    | SbjA    | ObjL    | ObjM    | SbjX    | ObjA    | SbjL    |
+| **ObjXL** | ObjX    | SbjL    | ObjM    | SbjA    | SbjX    | ObjL    | SbjM    | ObjA    |
+| **ObjXM** | ObjX    | SbjM    | ObjL    | SbjA    | SbjX    | ObjM    | SbjL    | ObjA    |
+| **SbjAL** | SbjA    | ObjL    | SbjM    | ObjX    | ObjA    | SbjL    | ObjM    | SbjX    |
+| **SbjAM** | SbjA    | ObjM    | SbjL    | ObjX    | ObjA    | SbjM    | ObjL    | SbjX    |
+| **ObjLA** | ObjL    | SbjA    | ObjX    | SbjM    | SbjL    | ObjA    | SbjX    | ObjM    |
+| **ObjMA** | ObjM    | SbjA    | ObjX    | SbjL    | SbjM    | ObjA    | SbjX    | ObjL    |
+| **SbjLA** | SbjL    | ObjA    | SbjX    | ObjM    | ObjL    | SbjA    | ObjX    | SbjM    |
+| **SbjMA** | SbjM    | ObjA    | SbjX    | ObjL    | ObjM    | SbjA    | ObjX    | SbjL    |
+| **ObjAL** | ObjA    | SbjL    | ObjM    | SbjX    | SbjA    | ObjL    | SbjM    | ObjX    |
+| **ObjAM** | ObjA    | SbjM    | ObjL    | SbjX    | SbjA    | ObjM    | SbjL    | ObjX    |
 
 
-### 6.4 <u>Energy Theory</u>:
-
-![Capacity](./media/energy.png)
-
-
-### 6.5 <u>Porting Equivalent Types</u>:
+### 6.4 <u>Porting Equivalent Types</u>:
 
 - The table below shows ported types from Potentiology to other Jungian typologies.
 - These are approximation to closest type, but not static for difference in theories across each of them.
@@ -361,23 +373,23 @@ When a subject uses **ObjM** function, it perceives the object and notices the m
 #### 7.15.2 Example:
 
 
-### 8.16 <u>ObjAL</u>:
+### 7.16 <u>ObjAL</u>:
 
-#### 8.16.1 Working:
+#### 7.16.1 Working:
 
-#### 8.16.2 Example:
-
-
-
-## 9. Important Note
+#### 7.16.2 Example:
 
 
-### 9.1 <u>For Mental Health Professionals</u>:
+
+## 8. Important Note
 
 
-### 9.2 <u>For Educators & Researchers</u>:
+### 8.1 <u>For Mental Health Professionals</u>:
 
 
-### 9.3 <u>For Hobbyists & General Users</u>:
+### 8.2 <u>For Educators & Researchers</u>:
+
+
+### 8.3 <u>For Hobbyists & General Users</u>:
 
 ---
