@@ -19,6 +19,7 @@
 - **Crash:** A temporary shutdown of a function caused by sustained conflict with its opposing function domain, leading to loss of evaluative authority by primary function.
 - **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
 - **Leakage:** Conscious or unconscious use of a cognitive function that belongs to negative realm, with cost of high mental energy consumption.
+- **Realm:** A group of four cognitive functions arranged in increasing order of their mental power consumption.
 
 
 
@@ -191,64 +192,45 @@ When a subject uses **ObjM** function, it perceives the object and notices the m
 ## 6. Positioning System
 
 
-### 6.1 <u>Realms</u>:
-
-#### 6.1.1 Positive:
-"***Positive realm** contains the four cognitive functions which ego **takes into its consideration** for evaluation of object.*"
-
-#### 6.1.2 Negative:
-"***Negative realm** contains the four cognitive functions which ego **continuously devalues** from its consideration for evaluation of object.*"
+### 6.1 <u>Functions Arrangement</u>:
 
 
-### 6.2 <u>Identifying Functions</u>:
-
-#### 6.2.1 Primary function:
-*"**Primary function** consumes the **least mental energy**, thus ego is naturally drawn towards it for **longest duration** of time from seed, though ego has choice to go with or against tendencies. It acts as the **first lens** to perceive from."*
-
-#### 6.2.2 Secondary function:
-*"**Secondary function** consumes **comparatively more** mental energy than primary function, but less than repressed function. Its tendency comes after perception is evaluated and **passed** from primary function. When engaged alongside the primary function, the secondary increases **total mental energy** expenditure and shortens sustainable runtime."*
-
-#### 6.2.3 Repressed function:
-*"**Repressed function** consumes most energy when chosen as mode of perception by ego. It has **lowest runtime** tendency after seed, and primary function actively **suppresses** it until its own crash."*
+### 6.2 <u>Example</u>:
 
 
+### 6.3 <u>Types Table</u>:
 
-## 7. Representation
+- The table below shows each 16 type with their most capacitive function (**1st function**) to least capacitive function (**8th function**).
 
-
-### 7.1 <u>Rules</u>:
-
-1. Direction of secondary and repressed functions are same, and opposite to that of primary's.
-2. Below is the table showing corresponding possible secondary and repressed domains for each primary domain:
-
-| Primary Function Domain | Secondary Function Domain | Repressed Function Domain |
-| :---------------------- | :------------------------ | :------------------------ |
-| X                       | L, M                      | A                         |
-| A                       | L, M                      | X                         |
-| L                       | X, A                      | M                         |
-| M                       | X, A                      | L                         |
-
-3. Each type is expressed with 3 fixed letters.
-4. First letter of a type tells about direction of primary function (**Sbj**/**Obj**).
-5. Second letter tells about the domain of primary function.
-6. Third letter tells about the domain of secondary function.
-
-
-### 7.2 <u>Example</u>:
-
-$$ \text{Type = } SbjMX $$
-
-- First letter is direction of primary function as **subjective (Sbj)**.
-- Second letter is the domain of primary function i.e. **morality (M)** and thus function is **subjective morality (SbjM)**.
-- Third letter is the domain of secondary function i.e. **experience (X)** but directed opposite to primary function's direction, making it **objective experience (ObjX)**.
-- This example profile yields the type **SbjMX** which as per functional definition maps closely to ***IF(S)*** in classic Jungian typology, ***ISFP*** in MBTI, and ***ESI*** in socionics.
-
-| Type | +ve Realm Runtime Energy Consumption | -ve Realm Runtime Energy Consumption |
-| :--: | :----------------------------------- | :----------------------------------- |
-| ISFP | SbjM < ObjX < SbjA < ObjL            | ObjL < SbjX < ObjA < SbjL            |
+|**Type**|**1st**|**2nd**|**3rd**|**4th**|**5th**|**6th**|**7th**|**8th**|
+|---|---|---|---|---|---|---|---|---|
+|**SbjXL**|SbjX|ObjL|SbjM|ObjA|ObjX|SbjL|ObjM|SbjA|
+|**SbjXM**|SbjX|ObjM|SbjL|ObjA|ObjX|SbjM|ObjL|SbjA|
+|**ObjLX**|ObjL|SbjX|ObjM|SbjA|ObjX|SbjL|ObjM|SbjA|
+|**ObjMX**|ObjM|SbjX|ObjL|SbjA|ObjX|SbjM|ObjL|SbjA|
+|**SbjLX**|SbjL|ObjX|SbjM|ObjA|ObjL|SbjX|ObjM|SbjA|
+|**SbjMX**|SbjM|ObjX|SbjL|ObjA|ObjM|SbjX|ObjL|SbjA|
+|**ObjXL**|ObjX|SbjL|ObjM|SbjA|ObjX|SbjM|ObjL|SbjA|
+|**ObjXM**|ObjX|SbjM|ObjL|SbjA|ObjX|SbjL|ObjM|SbjA|
+|**SbjAL**|SbjA|ObjL|SbjM|ObjX|ObjA|SbjL|ObjM|SbjX|
+|**SbjAM**|SbjA|ObjM|SbjL|ObjX|ObjA|SbjM|ObjL|SbjX|
+|**ObjLA**|ObjL|SbjA|ObjM|SbjX|ObjA|SbjL|ObjM|SbjX|
+|**ObjMA**|ObjM|SbjA|ObjL|SbjX|ObjA|SbjM|ObjL|SbjX|
+|**SbjLA**|SbjL|ObjA|SbjM|ObjX|ObjL|SbjA|ObjM|SbjX|
+|**SbjMA**|SbjM|ObjA|SbjL|ObjX|ObjM|SbjA|ObjL|SbjX|
+|**ObjAL**|ObjA|SbjL|ObjM|SbjX|ObjA|SbjM|ObjL|SbjX|
+|**ObjAM**|ObjA|SbjM|ObjL|SbjX|ObjA|SbjL|ObjM|SbjX|
 
 
-### 7.3 <u>Mapping Equivalents</u>:
+### 6.4 <u>Energy Theory</u>:
+
+![Capacity](./media/energy.png)
+
+
+### 6.5 <u>Porting Equivalent Types</u>:
+
+- The table below shows ported types from Potentiology to other Jungian typologies.
+- These are approximation to closest type, but not static for difference in theories across each of them.
 
 | Potentiology | Classic Jungian | MBTI | Socionics |
 | :----------: | :-------------: | :--: | :-------: |
@@ -270,21 +252,8 @@ $$ \text{Type = } SbjMX $$
 |    ObjAL     |      EN(T)      | ENTP |    ILE    |
 
 
-### 7.4 <u>Evaluation Suggestions</u>:
 
-- Look for how long someone can use a particular function comfortably.
-- And what the person does after a crash, during the recovery period.
-- These might not be shown outward necessarily, and the subject might be very good at using or controlling it.
-- For example, an ***SbjAM*** might be good at sports when recovering from crash while using ***ObjX***.
-- This can be known by asking the exact questions a person wants to be asked.
-- For example, a ***ObjL*** might be very much interested in telling how they handle logical situations at work place effectively.
-- Questions must be kept within a short radius of time, usually within 1-2 years, because types are dynamic and there is no guarantee for them to be fixed.
-- Method can be either descriptive, or analytical based on objectively provable facts.
-- People who have been recently diagnosed with any form of trauma must be evaluated carefully and with respect to navigate through anomalies.
-
-
-
-## 8. Types Explanations
+## 7. Types Explanations
 
 
 ### 7.1 <u>SbjXL</u>:

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "50a552c2f13bd558",
+        "id": "0018b5ae0491ec68",
         "type": "tabs",
         "children": [
           {
-            "id": "73afd6a458cda987",
+            "id": "40e039b21ae151bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,8 +170,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73afd6a458cda987",
+  "active": "40e039b21ae151bd",
   "lastOpenFiles": [
+    "Typology/media/energy.png",
+    "Typology/media/Unconfirmed 188487.crdownload",
+    "Typology/Potentiology.md",
     "Typology/media/m.png",
     "Typology/media/Unconfirmed 201603.crdownload",
     "Typology/media/l.png",
@@ -191,9 +194,6 @@
     "Typology/media/obj.png",
     "Typology/media/Unconfirmed 218181.crdownload",
     "Typology/media/sbjm.png",
-    "Typology/media/Unconfirmed 754843.crdownload",
-    "Typology/media/sbjl.png",
-    "Typology/Potentiology.md",
     "Typology/Jungian Typology.md",
     "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
