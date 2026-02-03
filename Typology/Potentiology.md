@@ -206,13 +206,11 @@ What ego chooses by default, and what the subject manually chooses to use **aren
 
 ### 6.2 <u>Positioning Logic</u>:
 
-- If first function is **Sbj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Sbj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Obj** type.
-- Else if first function is **Obj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Obj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Sbj** type.
-- **Experience (X)** & **Abstraction (A)** in same direction (both **Sbj**/**Obj**) are completely opposite to each other, just like **Logic (L)** & **Morality (M)** in same direction are.
-- This is because **X** & **A**, and **L** & **M** in same direction are two alternative choice subject gets to perceive, where only one can be used.
-- So for example **ObjA**, its complete opposite function would be **ObjX**. Because theoretically when each function is at equal level, the ego will choose the one which has highest energy capacity.
-- The capacitive position of complete opposite type depends on how far they are from center of positioning. Both the functions must have equal radius from center.
-- So if a function say **ObjM** is at **1st**, **ObjL** would be at **8th**. Or if **ObjM** is at **2nd**, **ObjL** would be at **7th**, and so on.
+If first function is **Sbj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Sbj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Obj** type. Else if first function is **Obj** type, all other odd positions (**3rd**, **5th**, **7th**) are also of **Obj** type, and the even positions (**2nd**, **4th**, **6th**, **8th**) are of **Sbj** type.
+
+**Experience (X)** & **Abstraction (A)** in same direction (both **Sbj**/**Obj**) are completely opposite to each other, just like **Logic (L)** & **Morality (M)** in same direction are. This is because **X** & **A**, and **L** & **M** in same direction are two alternative choice subject gets to perceive, where only one can be used. So for example **ObjA**, its complete opposite function would be **ObjX**. Because theoretically when each function is at equal level, the ego will choose the one which has highest energy capacity.
+
+The capacitive position of complete opposite type depends on how far they are from center of positioning. Both the functions must have equal radius from center. So if a function say **ObjM** is at **1st**, **ObjL** would be at **8th**. Or if **ObjM** is at **2nd**, **ObjL** would be at **7th**, and so on.
 
 
 ### 6.3 <u>Types Table</u>:
@@ -270,114 +268,1070 @@ What ego chooses by default, and what the subject manually chooses to use **aren
 
 ### 7.1 <u>SbjXL</u>:
 
-#### 7.1.1 Working:
+#### 7.1.1 Working
 
-#### 7.1.2 Example:
+##### **Introduction**
+**SbjXL** is a type whose **most capacitive (1st) function** is **Subjective Experiencer (SbjX)**, with **Logic (L)** as the dominant evaluative axis rather than Morality.
 
+##### **Core perceptual orientation**
+- The ego defaults to **SbjX**, meaning the subject primarily perceives the world through **internally stored concrete impressions**.
+- Experiences are evaluated by **matching new stimuli against past lived experiences**, not by adapting to object details.
+- The subject trusts _what has worked before_ as the baseline for reality.
+
+##### **Logical framing (XL)**
+- Logic acts as the **structuring lens**, but it is **not primary in perception**.
+- Logical evaluation occurs **after experience is accepted into impression space**.
+- Logic is used to **stabilize, justify, and preserve experiential consistency**, not to redefine experience proactively.
+
+##### **Functional flow (high → low energy)**
+1. **SbjX (Primary)** – Stable experiential impressions; resistance to unfamiliar experiential formats.
+2. **ObjL (Secondary)** – Uses external logical rules when necessary, especially for efficiency, compliance, or system interaction.
+3. **SbjM (Tertiary)** – Moral impressions form gradually from lived experience rather than ideology.
+4. **ObjA (Quaternary)** – Limited tolerance for abstract speculation unless it directly solves a concrete problem.
+5. **Lower functions (ObjX, SbjL, ObjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjX** and **ObjX** (forced unfamiliar experiences) leads to **experiential crash**.
+- Under stress, the subject may:
+    - Over‑rely on rigid routines
+    - Reject objectively superior tools due to unfamiliar experiential formats
+    - Display irritation toward abstract or speculative discussions
+- Recovery requires **re‑stabilization of familiar experiential patterns**, not persuasion or reasoning.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Operate in familiar, proven experiential environments
+	- Apply logic _instrumentally_ without redefining experience 
+	- Avoid repeated forced adaptation to unfamiliar experiential systems
+
+#### 7.1.2 Example
+
+##### **Scenario: Introduction of a new system at the workplace**
+A subject of type **SbjXL** has been using a particular workflow or machine for years.
+- When a new system is introduced:
+    - They first compare it against **how previous systems felt and behaved in practice**, not how it is logically superior.
+    - If the experiential interface aligns with stored impressions, adoption is smooth.
+    - If it differs significantly, resistance appears even if the new system is objectively better.
+- Logical arguments such as:
+    - _It is faster_
+    - _It is more efficient_
+    - _It has better architecture_
+    are **secondary**, and persuasive only _after_ experiential acceptance.
+- If forced to adopt:
+    - The subject may comply using **ObjL**, but dissatisfaction accumulates.
+    - Repeated forced adaptation may trigger **SbjX crash**, resulting in withdrawal, burnout, or disengagement.
+
+##### **Real‑world behavioral signature**
+- Prefers tools, environments, and methods that feel **familiar and proven**.
+- Learns best through **hands‑on repetition**, not abstract explanation.
+- Values reliability and continuity over innovation for its own sake.
+
+---
 
 ### 7.2 <u>SbjXM</u>:
 
 #### 7.2.1 Working:
 
+##### **Introduction**
+**SbjXM** is a type whose **most capacitive (1st) function** is **Subjective Experiencer (SbjX)**, with **Morality (M)** as the dominant evaluative axis rather than Logic.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjX**, meaning the subject primarily perceives the world through **internally stored concrete impressions**.
+- Experiences are evaluated by **matching new stimuli against past lived experiences**, not by adapting to object details.
+- What feels familiar, lived, and experientially coherent is treated as trustworthy and real.
+
+##### **Moral framing (XM)**
+- Morality acts as the **primary evaluative lens**, but it is **not primary in perception**.
+- Moral evaluation occurs **after experience is accepted into impression space**.
+- Moral judgments are grounded in **what has been lived and felt as right or wrong**, not in abstract ethical systems or external norms.
+
+##### **Functional flow (high → low energy)**
+1. **SbjX (Primary)** – Stable experiential impressions; preference for familiar experiential formats.
+2. **ObjM (Secondary)** – Adapts to external moral expectations when necessary, especially for social harmony or situational demands.
+3. **SbjL (Tertiary)** – Logical impressions form slowly from experience rather than formal reasoning.
+4. **ObjA (Quaternary)** – Low tolerance for abstract pattern speculation unless it supports experiential or moral coherence.
+5. **Lower functions (ObjX, ObjL, SbjM, SbjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjX** and **ObjX** (forced unfamiliar experiences) leads to **experiential crash**.
+- Sustained conflict between **SbjM** and **ObjM** (forced moral adaptation) leads to **moral exhaustion**.
+- Under stress, the subject may:
+	- Withdraw from environments that violate personal experiential values
+	- Appear stubborn or emotionally rigid
+	- Reject “reasonable” compromises that feel morally wrong based on lived impressions
+- Recovery requires **return to familiar experiential environments** and reaffirmation of personal moral impressions.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Live and operate in environments aligned with personal experiential values
+	- Act according to morals derived from lived experience
+	- Avoid repeated pressure to morally adapt against internal impressions
+
 #### 7.2.2 Example:
 
+##### **Scenario: Ethical disagreement in a workplace**
+A subject of type **SbjXM** works in an organization that introduces a practice considered acceptable by most employees.
+- When encountering the practice:
+	- The subject evaluates it based on **how similar actions felt in past experiences**, not on formal ethical arguments.
+	- If it conflicts with prior lived moral impressions, discomfort arises immediately.
+	- Even if the practice is legally permitted or socially accepted, rejection may persist.
+- External justifications such as:
+	- *Everyone is doing it*
+	- *It is standard industry practice*
+	- *There is no rule against it*
+	are **secondary** and often ineffective unless experiential moral alignment is achieved.
+- If forced to comply:
+	- The subject may adapt temporarily using **ObjM**.
+	- Long-term compliance without alignment leads to dissatisfaction, disengagement, or exit.
+
+##### **Real-world behavioral signature**
+- Strong loyalty to people, places, and practices that feel morally familiar.
+- Learns moral boundaries through lived consequences rather than theory.
+- Values authenticity and experiential integrity over efficiency or abstraction.
+
+##### **One-line definition**
+**SbjXM** stabilizes reality through **subjective concrete experience**, using morality as a secondary tool to preserve experiential value-consistency.
+
+---
 
 ### 7.3 <u>ObjLX</u>:
 
 #### 7.3.1 Working:
 
+##### **Introduction**
+**ObjLX** is a type whose **most capacitive (1st) function** is **Objective Logician (ObjL)**, with **Experience (X)** as the dominant perceptual counter-domain rather than Abstraction.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjL**, meaning the subject primarily perceives the world through **objective logical properties present in the object**.
+- Objects are evaluated by analyzing how their components, rules, and mechanisms function in reality.
+- Truth is determined by **what works according to observable logic**, not by internal impressions or precedent.
+
+##### **Experiential grounding (LX)**
+- Experience acts as the **perceptual grounding domain**, but it is **not subjective**.
+- The subject seeks to **adapt to concrete realities as they exist**, rather than interpreting them through past impressions.
+- Experience is treated as raw input that must conform to logical structure, not as something to be preserved for familiarity.
+
+##### **Functional flow (high → low energy)**
+1. **ObjL (Primary)** – Continuous engagement with external logic, systems, rules, and mechanisms.
+2. **SbjX (Secondary)** – Forms experiential impressions gradually to support logical stability.
+3. **ObjA (Tertiary)** – Notices abstract patterns when they improve system efficiency or coherence.
+4. **SbjM (Quaternary)** – Personal moral impressions are weak and often deferred.
+5. **Lower functions (SbjL, ObjX, ObjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjL** and **SbjL** (forced reliance on internal logic without external validation) leads to **logical instability**.
+- Sustained conflict between **ObjL** and **ObjM** (forced moral compliance overriding logic) leads to **systemic frustration**.
+- Under stress, the subject may:
+  - Become rigidly rule-bound or pedantic
+  - Dismiss experiential or emotional concerns as irrelevant
+  - Over-optimize systems while ignoring human impact
+- Recovery requires **re-engagement with objective systems** where logic is respected and effective.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+  - Operate in environments governed by clear rules and logic
+  - Solve concrete problems through system analysis
+  - Avoid pressure to prioritize morality or abstraction over functional correctness
+
 #### 7.3.2 Example:
 
+##### **Scenario: Process inefficiency in an organization**
+A subject of type **ObjLX** identifies that an existing workflow is inefficient.
+- When examining the workflow:
+	- The subject analyzes **how each step logically contributes to the outcome**.
+	- Redundant or illogical steps are flagged regardless of tradition or emotional attachment.
+	- Past usage or familiarity is considered secondary to logical correctness.
+- Arguments such as:
+	- *We have always done it this way*
+	- *People are comfortable with this method*
+	- *Changing it might upset others*
+	carry little weight unless they affect system functionality.
+- If prevented from implementing changes:
+	- The subject may comply temporarily but grows increasingly frustrated.
+	- Long-term obstruction can result in disengagement or abrupt exit.
+
+##### **Real-world behavioral signature**
+- Naturally spots inefficiencies and contradictions in systems.
+- Learns best by **understanding how things work internally**.
+- Values correctness, coherence, and functionality over comfort or tradition.
+
+##### **One-line definition**
+**ObjLX** stabilizes reality through **objective logical structure**, using concrete experience as grounding input rather than subjective reference.
+
+---
 
 ### 7.4 <u>ObjMX</u>:
 
 #### 7.4.1 Working:
 
+##### **Introduction**
+**ObjMX** is a type whose **most capacitive (1st) function** is **Objective Moral (ObjM)**, with **Experience (X)** as the dominant perceptual counter-domain rather than Abstraction.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjM**, meaning the subject primarily perceives the world through **objective moral values present in the environment**.
+- Situations are evaluated based on shared norms, social expectations, and externally observable value systems.
+- What is considered right or wrong is determined by **collective standards**, not by personal impressions or internal moral narratives.
+
+##### **Experiential grounding (MX)**
+- Experience acts as the **perceptual grounding domain**, but it is **objective rather than subjective**.
+- The subject adapts to **concrete situational realities** to align with prevailing moral expectations.
+- Experience is treated as immediate feedback on whether behavior conforms to or violates accepted norms.
+
+##### **Functional flow (high → low energy)**
+1. **ObjM (Primary)** – Continuous adaptation to external moral values, norms, and social rules.
+2. **SbjX (Secondary)** – Forms experiential impressions that support moral alignment and situational awareness.
+3. **ObjA (Tertiary)** – Notices abstract patterns when they help predict social or moral outcomes.
+4. **SbjL (Quaternary)** – Internal logical frameworks are weak and often deferred to external authority.
+5. **Lower functions (ObjL, ObjX, SbjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjM** and **SbjM** (forced personal moral stance without social backing) leads to **moral disorientation**.
+- Sustained conflict between **ObjM** and **ObjL** (logical objections overriding moral norms) leads to **normative tension**.
+- Under stress, the subject may:
+	- Become overly conformist or socially rigid
+	- Suppress personal discomfort to maintain harmony
+	- Enforce norms without questioning their rationale
+- Recovery requires **re-immersion in stable moral environments** where values are shared and reinforced.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Operate within clearly defined moral and social frameworks
+	- Adapt behavior to meet shared expectations without conflict
+	- Avoid environments where moral standards are ambiguous or contradictory
+
 #### 7.4.2 Example:
 
+##### **Scenario: Group decision-making with ethical implications**
+A subject of type **ObjMX** participates in a team deciding how to handle a sensitive issue.
+- When evaluating options:
+	- The subject considers **how each option aligns with accepted norms and group values**.
+	- Choices that maintain social harmony and moral consensus are favored.
+	- Personal logical objections are secondary to collective agreement.
+- Arguments such as:
+	- *This is how responsible organizations behave*
+	- *Most people would find this acceptable*
+	- *It maintains trust and reputation*
+	carry significant weight.
+- If asked to act against group norms:
+	- The subject experiences discomfort and hesitation.
+	- Prolonged pressure can lead to withdrawal or stress-driven compliance.
+
+##### **Real-world behavioral signature**
+- Highly attuned to social expectations and moral climates.
+- Learns appropriate behavior through situational feedback.
+- Values harmony, reputation, and shared values over personal reasoning.
+
+##### **One-line definition**
+**ObjMX** stabilizes reality through **objective moral alignment**, using concrete experience as feedback to maintain conformity with shared values.
+
+___
 
 ### 7.5 <u>SbjLX</u>:
 
+
 #### 7.5.1 Working:
+
+##### **Introduction**
+**SbjLX** is a type whose **most capacitive (1st) function** is **Subjective Logician (SbjL)**, with **Experience (X)** as the dominant perceptual counter-domain rather than Abstraction.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjL**, meaning the subject primarily perceives the world through **internally formed logical impressions**.
+- Objects are evaluated by checking whether their behavior aligns with the subject’s existing internal logic.
+- Truth is determined by **logical consistency with prior understanding**, not by direct adaptation to object mechanics.
+
+##### **Experiential grounding (LX)**
+- Experience acts as the **grounding domain**, but it is **subjective rather than objective**.
+- Concrete experiences are interpreted through pre-existing logic instead of being taken at face value.
+- Experience serves to confirm or invalidate internal logical models rather than redefine them immediately.
+
+##### **Functional flow (high → low energy)**
+1. **SbjL (Primary)** – Stable internal logical frameworks; resistance to externally imposed logic.
+2. **ObjX (Secondary)** – Adapts to concrete experiences when required by situational reality.
+3. **SbjA (Tertiary)** – Abstract impressions form slowly from logical extrapolation.
+4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often deprioritized.
+5. **Lower functions (ObjL, SbjX, SbjM, ObjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjL** and **ObjL** (forced reliance on external logic) leads to **logical defensiveness**.
+- Sustained conflict between **SbjL** and **ObjX** (chaotic or inconsistent experiences) leads to **cognitive overload**.
+- Under stress, the subject may:
+	- Argue rigidly from principle
+	- Dismiss practical or emotional considerations
+	- Over-intellectualize concrete problems
+	- Recovery requires **return to internally coherent logical systems** and reduction of experiential noise.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Operate within systems that respect internal logical coherence
+	- Engage with experience on their own analytical terms
+	- Avoid environments that demand constant pragmatic adaptation without explanation
+
+
 
 #### 7.5.2 Example:
 
+##### **Scenario: Evaluating a new procedure**
+A subject of type **SbjLX** is introduced to a new operational procedure.
+- When assessing the procedure:
+	- The subject first checks whether it **makes logical sense internally**.
+	- If steps appear inconsistent or unjustified, skepticism arises regardless of practical success.
+	- Experiential success alone is insufficient without logical clarity.
+- Arguments such as:
+	- *It works in practice*
+	- *Others have tested it*
+	- *It saves time*
+	are secondary unless the underlying logic is explained.
+- If forced to follow the procedure:
+	- The subject may comply using **ObjX**, but dissatisfaction accumulates.
+	- Prolonged mismatch can lead to disengagement or passive resistance.
+
+##### **Real-world behavioral signature**
+- Strong preference for logically elegant solutions.
+- Learns best through explanation and reasoning before application.
+- Values coherence and internal consistency over speed or conformity.
+
+##### **One-line definition**
+**SbjLX** stabilizes reality through **subjective logical coherence**, using experience as supporting evidence rather than primary authority.
+
+---
 
 ### 7.6 <u>SbjMX</u>:
 
+
 #### 7.6.1 Working:
+
+##### **Introduction**
+**SbjMX** is a type whose **most capacitive (1st) function** is **Subjective Moral (SbjM)**, with **Experience (X)** as the dominant perceptual counter-domain rather than Abstraction.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjM**, meaning the subject primarily perceives the world through **internally formed moral impressions**.
+- Situations are evaluated by checking whether they align with the subject’s existing sense of right and wrong.
+- Moral truth is determined by **consistency with lived moral impressions**, not by external consensus or formal codes.
+
+##### **Experiential grounding (MX)**
+- Experience acts as the **grounding domain**, but it is **subjective rather than objective**.
+- Concrete experiences are interpreted through internal moral impressions instead of being accepted at face value.
+- Experience serves to confirm, deepen, or challenge existing moral understanding rather than redefine it immediately.
+
+##### **Functional flow (high → low energy)**
+1. **SbjM (Primary)** – Stable internal moral frameworks derived from lived impressions.
+2. **ObjX (Secondary)** – Adapts to concrete experiential demands when situationally unavoidable.
+3. **SbjA (Tertiary)** – Abstract impressions emerge slowly as moral generalizations.
+4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often deprioritized.
+5. **Lower functions (ObjM, SbjX, SbjL, ObjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjM** and **ObjM** (forced alignment with external moral norms) leads to **moral alienation**.
+- Sustained conflict between **SbjM** and **ObjX** (repeated exposure to morally dissonant experiences) leads to **moral fatigue**.
+- Under stress, the subject may:
+	- Withdraw from environments that violate internal values
+	- Appear inflexible or morally uncompromising
+	- Reject pragmatic or “necessary” compromises
+	- Recovery requires **reaffirmation of internal moral impressions** and return to value-aligned environments.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+  - Live and act in accordance with personally held moral impressions
+  - Engage with experience without violating internal values
+  - Avoid sustained pressure to conform morally without inner agreement
 
 #### 7.6.2 Example:
 
+##### **Scenario: Value conflict in a practical situation**
+A subject of type **SbjMX** is placed in a situation where a practical solution conflicts with personal values.
+- When evaluating options:
+	- The subject prioritizes **whether the action feels morally acceptable** based on past lived experiences.
+	- Practical success or efficiency is secondary to moral alignment.
+	- Even small violations can produce strong internal resistance.
+- Arguments such as:
+	- *This is necessary to get results*
+	- *Everyone does this*
+	- *It is logically justified*
+	are insufficient unless moral coherence is achieved.
+- If forced to act against values:
+	- The subject may comply using **ObjX**.
+	- Prolonged violation leads to disengagement, guilt, or withdrawal.
+
+##### **Real-world behavioral signature**
+- Strong commitment to personal values formed through experience.
+- Learns moral boundaries through consequence and reflection, not instruction.
+- Values integrity and authenticity over efficiency or formal correctness.
+
+##### **One-line definition**
+**SbjMX** stabilizes reality through **subjective moral coherence**, using experience as grounding input while resisting externally imposed value systems.
+
+---
 
 ### 7.7 <u>ObjXL</u>:
 
+
 #### 7.7.1 Working:
+
+##### **Introduction**
+**ObjXL** is a type whose **most capacitive (1st) function** is **Objective Experiencer (ObjX)**, with **Logic (L)** as the dominant evaluative axis rather than Morality.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjX**, meaning the subject primarily perceives the world through **direct, concrete details present in the object**.
+- Experiences are taken as they occur, without filtering them through prior impressions.
+- Reality is defined by **what is happening now and what can be directly engaged with**, not by memory or internal reference.
+
+##### **Logical framing (XL)**
+- Logic acts as the **primary evaluative lens**, but it does not override perception.
+- Logical evaluation is applied **after direct experiential engagement**, to optimize action or understanding.
+- Logic is used pragmatically to structure immediate reality, not to build detached theoretical systems.
+
+##### **Functional flow (high → low energy)**
+1. **ObjX (Primary)** – High adaptability to immediate concrete reality and changing conditions.
+2. **SbjL (Secondary)** – Forms internal logical impressions to support decision-making.
+3. **ObjM (Tertiary)** – Adapts to external moral expectations when situationally relevant.
+4. **SbjA (Quaternary)** – Abstract internal patterning is weak and often avoided.
+5. **Lower functions (SbjX, ObjL, SbjM, ObjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjX** and **SbjX** (forced reliance on past impressions) leads to **experiential impatience**.
+- Sustained conflict between **ObjX** and **ObjA** (forced abstraction) leads to **restlessness and disengagement**.
+- Under stress, the subject may:
+	- Act impulsively without reflection
+	- Dismiss historical precedent as irrelevant
+	- Become frustrated with prolonged analysis or theorizing
+	- Recovery requires **re-engagement with immediate, concrete activity** and freedom of action.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Directly interact with the environment without excessive mediation
+	- Apply logic to solve real-time problems
+	- Avoid prolonged abstraction or enforced reflection on past experience
+
+---
 
 #### 7.7.2 Example:
 
+##### **Scenario: Responding to a rapidly changing situation**
+A subject of type **ObjXL** is placed in a situation requiring immediate action.
+- When conditions change:
+	- The subject reacts by **directly engaging with what is happening**, adjusting behavior in real time.
+	- Prior plans or abstract models are discarded if they no longer fit reality.
+	- Logical assessment follows action rather than preceding it.
+- Arguments such as:
+	- *This is how we usually do it*
+	- *The theory suggests another approach*
+	- *We should wait and analyze*
+	are ineffective in urgent contexts.
+- If forced into prolonged analysis:
+	- The subject becomes restless or disengaged.
+	- Performance improves again once action is permitted.
+
+##### **Real-world behavioral signature**
+- Highly responsive to environmental changes.
+- Learns best through **direct trial and error**.
+- Values adaptability, speed, and practical engagement over abstraction or moral deliberation.
+
+##### **One-line definition**
+**ObjXL** stabilizes reality through **direct objective experience**, using logic as a practical tool to navigate immediate conditions.
+
+---
 
 ### 7.8 <u>ObjXM</u>:
 
 #### 7.8.1 Working:
 
+##### **Introduction**
+**ObjXM** is a type whose **most capacitive (1st) function** is **Objective Experiencer (ObjX)**, with **Morality (M)** as the dominant evaluative axis rather than Logic.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjX**, meaning the subject primarily perceives the world through **direct, concrete details present in the object**.
+- Experiences are taken as they occur, without filtering them through prior impressions or internal narratives.
+- Reality is defined by **what is immediately happening and can be directly engaged with**.
+
+##### **Moral framing (XM)**
+- Morality acts as the **primary evaluative lens**, but it does not precede perception.
+- Moral evaluation is applied **after direct experiential engagement**, based on externally visible value cues.
+- Moral decisions are shaped by **situational norms and immediate social feedback**, not by abstract ethical reasoning or internalized moral systems.
+
+##### **Functional flow (high → low energy)**
+1. **ObjX (Primary)** – High adaptability to immediate concrete reality and changing situations.
+2. **SbjM (Secondary)** – Forms internal moral impressions from repeated experiences.
+3. **ObjL (Tertiary)** – Uses external logic instrumentally when needed for practical outcomes.
+4. **SbjA (Quaternary)** – Abstract internal patterning is weak and often avoided.
+5. **Lower functions (SbjX, ObjM, SbjL, ObjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjX** and **SbjX** (forced reliance on past experiential impressions) leads to **impatience and resistance**.
+- Sustained conflict between **ObjX** and **ObjM** (externally imposed moral rigidity) leads to **reactive defiance or disengagement**.
+- Under stress, the subject may:
+	- Act impulsively without considering long-term impact
+	- Prioritize immediate harmony over moral consistency
+	- Reject prolonged deliberation or theoretical discussion
+	- Recovery requires **return to active engagement with concrete reality** and situational freedom.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Freely interact with the environment in real time
+	- Respond to moral expectations as situations arise without heavy moralization
+	- Avoid prolonged abstraction, theorizing, or rigid moral constraint
+
 #### 7.8.2 Example:
 
+##### **Scenario: Handling a spontaneous social situation**
+A subject of type **ObjXM** encounters an unexpected social situation requiring immediate response.
+- When responding:
+	- The subject reacts based on **what is happening in the moment**, adjusting behavior fluidly.
+	- Moral cues are picked up from the environment and acted upon quickly.
+	- There is little reliance on prior plans or internal moral deliberation.
+- Arguments such as:
+	- *This violates a principle*
+	- *We should think this through*
+	- *There is a better logical approach*
+	tend to be dismissed in favor of immediate situational handling.
+- If constrained by strict rules:
+	- The subject may become restless or disengaged.
+	- Performance improves once flexibility is restored.
+
+##### **Real-world behavioral signature**
+- Highly responsive to social and environmental cues.
+- Learns appropriate behavior through **direct interaction**.
+- Values spontaneity, adaptability, and situational harmony over consistency or abstraction.
+
+##### **One-line definition**
+**ObjXM** stabilizes reality through **direct objective experience**, using situational moral cues to guide immediate action.
+
+___
 
 ### 7.9 <u>SbjAM</u>:
 
+
 #### 7.9.1 Working:
+
+##### **Introduction**
+**SbjAM** is a type whose **most capacitive (1st) function** is **Subjective Abstraction (SbjA)**, with **Morality (M)** as the dominant evaluative axis rather than Logic.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjA**, meaning the subject primarily perceives the world through **internally formed abstract impressions and symbolic patterns**.
+- Objects and situations are interpreted by matching them against existing internal models, themes, or narratives.
+- Reality is understood through **what a situation represents or signifies**, not through its concrete details.
+
+##### **Moral framing (AM)**
+- Morality acts as the **primary evaluative lens**, shaping how abstract patterns are judged.
+- Moral evaluation occurs **within the internal abstract framework**, not through immediate social norms.
+- Values are derived from **abstract ideals, meanings, and internalized principles**, rather than lived moral precedent alone.
+
+##### **Functional flow (high → low energy)**
+1. **SbjA (Primary)** – Stable internal abstract models, symbolic interpretations, and pattern narratives.
+2. **ObjM (Secondary)** – Adapts to external moral expectations when situational alignment is necessary.
+3. **SbjX (Tertiary)** – Concrete experiential impressions form slowly and serve as supporting data.
+4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often perceived as restrictive.
+5. **Lower functions (ObjA, SbjM, ObjX, SbjL)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjA** and **ObjA** (forced adoption of externally imposed abstractions) leads to **conceptual alienation**.
+- Sustained conflict between **SbjA** and **ObjX** (excessive concrete demands) leads to **mental exhaustion**.
+- Under stress, the subject may:
+	- Retreat into internal symbolism or moral idealism
+	- Detach from immediate practical realities
+	- Reject solutions that lack meaning or moral depth
+	- Recovery requires **return to internal abstract coherence** and alignment with personally meaningful values.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Interpret reality through personally meaningful abstract frameworks
+	- Act in alignment with internally held moral ideals
+	- Avoid environments that demand constant concrete adaptation or rigid logic
 
 #### 7.9.2 Example:
 
+##### **Scenario: Interpreting a morally charged event**
+A subject of type **SbjAM** encounters a situation with moral implications.
+- When interpreting the situation:
+	- The subject seeks to understand **what the event represents in a broader moral or symbolic sense**.
+	- Immediate facts are secondary to underlying meaning.
+	- Decisions are guided by internal ideals rather than situational convenience.
+- Arguments such as:
+	- *This is how things usually work*
+	- *It is practically efficient*
+	- *Others accept it*
+	are ineffective unless they align with the subject’s abstract moral framework.
+- If forced into purely practical action:
+	- The subject may comply temporarily.
+	- Prolonged mismatch leads to disengagement or withdrawal.
+
+##### **Real-world behavioral signature**
+- Oriented toward meaning, symbolism, and moral ideals.
+- Learns best through conceptual narratives and reflection.
+- Values integrity of ideals over practicality or speed.
+
+##### **One-line definition**
+**SbjAM** stabilizes reality through **subjective abstraction**, using morality to evaluate meaning and guide alignment with internal ideals.
+
+---
 
 ### 7.10 <u>SbjMA</u>:
 
+
 #### 7.10.1 Working:
+
+##### **Introduction**
+**SbjMA** is a type whose **most capacitive (1st) function** is **Subjective Morality (SbjM)**, with **Abstraction (A)** as the dominant perceptual counter-domain rather than Experience.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjM**, meaning the subject primarily perceives reality through **internally formed moral impressions and value judgments**.
+- Situations are interpreted in terms of what feels ethically right or wrong based on accumulated inner moral impressions.
+- Moral truth is defined by **internal value coherence**, not by external consensus or immediate outcomes.
+
+##### **Abstract grounding (MA)**
+- Abstraction acts as the **grounding perceptual domain**, but it is **subjective rather than objective**.
+- Abstract patterns, ideals, and narratives are interpreted through internal moral values.
+- Abstraction serves to **contextualize and universalize moral impressions**, not to detach from them.
+
+##### **Functional flow (high → low energy)**
+1. **SbjM (Primary)** – Stable internal moral frameworks derived from lived and reflected impressions.
+2. **ObjA (Secondary)** – Adapts to external abstract patterns when they can be morally contextualized.
+3. **SbjX (Tertiary)** – Concrete experiences are selectively absorbed to support moral understanding.
+4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often subordinated to values.
+5. **Lower functions (ObjM, ObjX, SbjL, SbjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjM** and **ObjM** (pressure to conform to external moral norms) leads to **moral alienation**.
+- Sustained conflict between **SbjM** and **ObjA** (forced abstract reframing without moral grounding) leads to **value dilution**.
+- Under stress, the subject may:
+	- Retreat into moral absolutism
+	- Reject abstract systems perceived as value-neutral
+	- Disengage from environments that demand moral compromise
+	- Recovery requires **reaffirmation of internal moral values** and restoration of abstract meaning aligned with them.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Live according to internally coherent moral values
+	- Interpret abstract ideas through a moral lens
+	- Avoid prolonged exposure to value-neutral or morally conflicting systems
 
 #### 7.10.2 Example:
 
+##### **Scenario: Interpreting an abstract ideology**
+A subject of type **SbjMA** encounters a broad ideological or philosophical framework.
+- When evaluating the ideology:
+	- The subject first assesses **whether its underlying values align with personal moral impressions**.
+	- Logical consistency or empirical support is secondary to moral resonance.
+	- Abstract appeal alone is insufficient without ethical alignment.
+- Arguments such as:
+	- *It is logically consistent*
+	- *It is widely accepted*
+	- *It explains many things*
+	carry little weight if moral alignment is absent.
+- If pressured to adopt the ideology:
+	- The subject may comply superficially.
+	- Prolonged pressure leads to disengagement or moral resistance.
 
-### 7.11 <u>ObjMA</u>:
+##### **Real-world behavioral signature**
+- Strongly values moral authenticity over intellectual elegance.
+- Learns abstract ideas best when they are morally contextualized.
+- Prioritizes ethical integrity over neutrality or detachment.
+
+##### **One-line definition**
+**SbjMA** stabilizes reality through **subjective moral coherence**, using abstraction to contextualize and universalize internally held values.
+
+---
+
+### 7.11 ObjMA:
+
 
 #### 7.11.1 Working:
 
+##### **Introduction**
+**ObjMA** is a type whose **most capacitive (1st) function** is **Objective Moral (ObjM)**, with **Abstraction (A)** as the dominant perceptual counter-domain rather than Experience.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjM**, meaning the subject primarily perceives reality through **externally observable moral values, norms, and collective standards**.
+- Situations are evaluated based on how well they align with shared ethical expectations rather than personal moral impressions.
+- Moral truth is determined by **what is accepted, endorsed, or reinforced by the surrounding environment**.
+
+##### **Abstract grounding (MA)**
+- Abstraction acts as the **grounding perceptual domain**, but it is **objective rather than subjective**.
+- The subject adapts to **existing abstract moral frameworks**, such as ideologies, doctrines, or institutional value systems.
+- Abstraction serves to organize and justify moral norms, not to reinterpret them personally.
+
+##### **Functional flow (high → low energy)**
+1. **ObjM (Primary)** – Continuous adaptation to external moral values, norms, and ethical expectations.
+2. **SbjA (Secondary)** – Forms internal abstract impressions to understand and anticipate moral systems.
+3. **ObjX (Tertiary)** – Engages with concrete reality to enact or enforce moral norms.
+4. **SbjL (Quaternary)** – Internal logical structuring is weak and often deferred to external authority.
+5. **Lower functions (SbjM, ObjA, SbjX, ObjL)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjM** and **SbjM** (pressure to adopt a personal moral stance without social backing) leads to **moral uncertainty**.
+- Sustained conflict between **ObjM** and **ObjA** (exposure to conflicting abstract moral systems) leads to **normative confusion**.
+- Under stress, the subject may:
+	- Become rigidly conformist or dogmatic
+	- Over-enforce rules without contextual sensitivity
+	- Suppress personal discomfort to maintain moral order
+	- Recovery requires **re-stabilization within a clear, shared moral framework**.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Operate within well-defined moral systems
+	- Apply abstract moral frameworks consistently
+	- Avoid environments with ambiguous or conflicting value structures
+
 #### 7.11.2 Example:
 
+##### **Scenario: Implementing an ethical policy**
+A subject of type **ObjMA** is responsible for applying an ethical or compliance policy.
+- When enforcing the policy:
+	- The subject prioritizes **alignment with established moral standards and institutional values**.
+	- Personal opinions are set aside in favor of consistency and fairness.
+	- Abstract principles are treated as authoritative guides for action.
+- Arguments such as:
+	- *This feels wrong personally*
+	- *There are exceptions*
+	- *The situation is emotionally complex*
+	are secondary unless they are recognized within the formal moral framework.
+- If the framework is unclear:
+	- The subject experiences hesitation or stress.
+	- Performance improves once standards are clarified or codified.
+
+##### **Real-world behavioral signature**
+- Strong orientation toward rules, codes, and ethical standards.
+- Learns moral expectations through formal structures and doctrine.
+- Values consistency, legitimacy, and shared principles over personal conviction.
+
+##### **One-line definition**
+**ObjMA** stabilizes reality through **objective moral structure**, using abstraction to systematize and apply shared values.
+
+---
 
 ### 7.12 <u>ObjAM</u>:
 
+
 #### 7.12.1 Working:
+
+##### **Introduction**
+**ObjAM** is a type whose **most capacitive (1st) function** is **Objective Abstraction (ObjA)**, with **Morality (M)** as the dominant evaluative axis rather than Logic.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjA**, meaning the subject primarily perceives the world through **abstract patterns, structures, and relationships present in the object**.
+- Situations are interpreted by identifying overarching systems, trends, or models that exist independently of personal meaning.
+- Reality is understood in terms of **how elements relate within a broader abstract structure**.
+
+##### **Moral framing (AM)**
+- Morality acts as the **primary evaluative lens**, shaping which abstract patterns are accepted or rejected.
+- Moral evaluation is based on **externally recognized ethical frameworks** rather than personal values.
+- Abstract systems are judged according to whether they align with accepted moral ideals or societal principles.
+
+##### **Functional flow (high → low energy)**
+1. **ObjA (Primary)** – Continuous adaptation to external abstract systems, patterns, and structures.
+2. **SbjM (Secondary)** – Forms internal moral impressions from engagement with abstract moral frameworks.
+3. **ObjX (Tertiary)** – Engages with concrete reality to test or apply abstract models.
+4. **SbjL (Quaternary)** – Internal logical structuring is weak and often deferred to external systems.
+5. **Lower functions (SbjA, ObjM, SbjX, ObjL)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjA** and **SbjA** (forced personal reinterpretation of abstractions) leads to **conceptual dissonance**.
+- Sustained conflict between **ObjA** and **ObjX** (excessive concrete demands) leads to **cognitive overload**.
+- Under stress, the subject may:
+	- Over-intellectualize moral issues
+	- Prioritize systemic correctness over human impact
+	- Struggle to act decisively in emotionally charged situations
+	- Recovery requires **re-engagement with coherent abstract systems** that provide moral clarity.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Work within well-defined abstract frameworks
+	- Apply moral standards consistently across systems
+	- Avoid environments dominated by ambiguity or unstructured experience
 
 #### 7.12.2 Example:
 
+##### **Scenario: Designing a morally guided system**
+A subject of type **ObjAM** is tasked with creating or refining a system that must meet ethical standards.
+- When approaching the task:
+	- The subject focuses on **structuring the system according to abstract models**.
+	- Moral requirements are integrated as constraints within the system design.
+	- Personal feelings or anecdotal experiences are minimized.
+- Arguments such as:
+	- *This feels unfair*
+	- *It works in practice*
+	- *People are uncomfortable with it*
+	are secondary unless they can be expressed within the abstract moral framework.
+- If forced into ad-hoc decision-making:
+	- The subject becomes stressed or indecisive.
+	- Performance improves when clear abstract guidelines are restored.
 
-### 7.13 <u>SbjAL</u>:
+##### **Real-world behavioral signature**
+- Strong aptitude for systems design and policy architecture.
+- Learns best through formal models and structured frameworks.
+- Values consistency, scalability, and principled design over situational flexibility.
 
-#### 7.13.1 Working:
+##### **One-line definition**
+**ObjAM** stabilizes reality through **objective abstraction**, using morality to evaluate and constrain abstract systems.
 
-#### 7.13.2 Example:
+---
 
+### 7.14 SbjAL:
 
-### 7.14 <u>SbjLA</u>:
 
 #### 7.14.1 Working:
 
+##### **Introduction**
+**SbjAL** is a type whose **most capacitive (1st) function** is **Subjective Abstraction (SbjA)**, with **Logic (L)** as the dominant evaluative axis rather than Morality.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjA**, meaning the subject primarily perceives reality through **internally formed abstract impressions, models, and symbolic patterns**.
+- Situations are interpreted by matching them against internal conceptual frameworks rather than concrete details.
+- Reality is understood in terms of **what a situation means, implies, or represents**, not merely what is directly observable.
+
+##### **Logical framing (AL)**
+- Logic acts as the **primary evaluative lens**, structuring and refining internal abstractions.
+- Logical evaluation occurs **within the internal abstract space**, not through direct engagement with external systems.
+- Logic is used to test consistency, coherence, and validity of abstract models rather than to optimize practical execution.
+
+##### **Functional flow (high → low energy)**
+1. **SbjA (Primary)** – Stable internal abstract models, symbolic interpretations, and conceptual narratives.
+2. **ObjL (Secondary)** – Adapts to external logical systems when they support or validate internal abstractions.
+3. **SbjX (Tertiary)** – Concrete experiential impressions are selectively absorbed to support abstract understanding.
+4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often subordinated to logical structure.
+5. **Lower functions (ObjA, SbjL, ObjX, SbjM)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjA** and **ObjA** (forced adoption of externally imposed abstractions) leads to **conceptual alienation**.
+- Sustained conflict between **SbjA** and **ObjX** (excessive demand for concrete action) leads to **mental fatigue**.
+- Under stress, the subject may:
+	- Retreat further into internal theorizing
+	- Dismiss practical constraints as superficial
+	- Over-refine abstract models without implementation
+	- Recovery requires **return to internally coherent abstract frameworks** and logical clarification.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Develop and explore internally meaningful abstract systems
+	- Apply logic to refine concepts without external pressure
+	- Avoid environments dominated by immediate practicality or moral enforcement
+
 #### 7.14.2 Example:
 
+##### **Scenario: Developing a conceptual framework**
+A subject of type **SbjAL** is tasked with developing a theoretical or conceptual model.
+- When working on the model:
+	- The subject focuses on **structuring internal abstractions logically**.
+	- Empirical or practical considerations are secondary to conceptual clarity.
+	- External validation is useful but not required for initial confidence.
+- Arguments such as:
+	- *It works in practice*
+	- *People find it useful*
+	- *It aligns with ethical values*
+	are secondary unless they expose logical inconsistency.
+- If forced into immediate application:
+	- The subject may comply minimally.
+	- Prolonged pressure leads to disengagement or frustration.
 
-### 7.15 <u>ObjLA</u>:
+##### **Real-world behavioral signature**
+- Strong inclination toward theory-building and conceptual synthesis.
+- Learns best through abstraction and logical analysis.
+- Values elegance, coherence, and internal consistency over immediacy or convention.
+
+##### **One-line definition**
+**SbjAL** stabilizes reality through **subjective abstraction**, using logic to structure, validate, and refine internal conceptual models.
+
+___
+
+### 7.14 SbjLA:
+
+
+#### 7.14.1 Working:
+
+##### **Introduction**
+**SbjLA** is a type whose **most capacitive (1st) function** is **Subjective Logician (SbjL)**, with **Abstraction (A)** as the dominant perceptual counter-domain rather than Experience.
+
+##### **Core perceptual orientation**
+- The ego defaults to **SbjL**, meaning the subject primarily perceives reality through **internally constructed logical frameworks and rules**.
+- Objects and situations are evaluated by checking their coherence with existing internal logic.
+- Truth is defined by **internal logical consistency**, not by immediate practicality or external validation.
+
+##### **Abstract grounding (LA)**
+- Abstraction acts as the **grounding perceptual domain**, but it is **subjective rather than objective**.
+- Abstract patterns, concepts, and models are interpreted and reshaped through internal logical structures.
+- Abstraction serves to expand, refine, and generalize internal logic rather than replace it.
+
+##### **Functional flow (high → low energy)**
+1. **SbjL (Primary)** – Stable internal logical systems and principled reasoning.
+2. **ObjA (Secondary)** – Adapts to external abstract structures when they align with internal logic.
+3. **SbjX (Tertiary)** – Concrete experiences are selectively absorbed to test logical consistency.
+4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often subordinated to logic.
+5. **Lower functions (ObjL, ObjX, SbjM, SbjA)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **SbjL** and **ObjL** (forced reliance on externally imposed logic) leads to **logical defensiveness**.
+- Sustained conflict between **SbjL** and **ObjA** (exposure to incoherent or poorly structured abstractions) leads to **conceptual frustration**.
+- Under stress, the subject may:
+	- Become rigidly argumentative
+	- Dismiss practical or emotional considerations
+	- Over-refine logic without applying it
+	- Recovery requires **restoration of internal logical coherence** and reduction of external conceptual noise.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Develop and operate within internally consistent logical systems
+	- Engage with abstract ideas on their own analytical terms
+	- Avoid environments that demand moral or experiential compromise without logical justification
+
+#### 7.13.2 Example:
+
+##### **Scenario: Evaluating a theoretical model**
+A subject of type **SbjLA** encounters a new theoretical or conceptual model.
+- When evaluating the model:
+	- The subject checks whether it **fits coherently within existing logical frameworks**.
+	- Empirical success or popularity is secondary to structural soundness.
+	- Abstract elegance matters only if it preserves logical rigor.
+- Arguments such as:
+	- *It is widely accepted*
+	- *It works in practice*
+	- *It aligns with values*
+	are unconvincing unless logical coherence is demonstrated.
+- If pressured to accept the model:
+	- The subject may comply superficially.
+	- Prolonged pressure leads to disengagement or intellectual withdrawal.
+
+##### **Real-world behavioral signature**
+- Strong preference for theoretical clarity and precision.
+- Learns best through structured reasoning and proof.
+- Values coherence, rigor, and conceptual integrity over application speed.
+
+##### **One-line definition**
+**SbjLA** stabilizes reality through **subjective logical coherence**, using abstraction to refine and generalize internal reasoning systems.
+
+---
+
+### 7.15 ObjLA:
+
 
 #### 7.15.1 Working:
 
+##### **Introduction**
+**ObjLA** is a type whose **most capacitive (1st) function** is **Objective Logician (ObjL)**, with **Abstraction (A)** as the dominant perceptual counter-domain rather than Experience.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjL**, meaning the subject primarily perceives reality through **logical properties, rules, and mechanisms present in the object**.
+- Situations are evaluated by analyzing how systems function, interconnect, and produce outcomes.
+- Truth is determined by **objective logical correctness**, independent of personal impressions or symbolic meaning.
+
+##### **Abstract grounding (LA)**
+- Abstraction acts as the **grounding perceptual domain**, but it is **objective rather than subjective**.
+- The subject adapts to **existing abstract structures**, such as models, frameworks, and classifications inherent in the system.
+- Abstraction is used to generalize and scale logic, not to reinterpret it personally.
+
+##### **Functional flow (high → low energy)**
+1. **ObjL (Primary)** – Continuous engagement with external logic, rules, and system mechanics.
+2. **SbjA (Secondary)** – Forms internal abstract impressions to understand and anticipate systems.
+3. **ObjX (Tertiary)** – Engages with concrete reality to test or execute logical systems.
+4. **SbjM (Quaternary)** – Internal moral impressions are weak and often deferred.
+5. **Lower functions (SbjL, ObjA, SbjX, ObjM)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjL** and **SbjL** (forced reliance on personal logic without external validation) leads to **logical insecurity**.
+- Sustained conflict between **ObjL** and **ObjA** (exposure to poorly defined or inconsistent abstractions) leads to **systemic frustration**.
+- Under stress, the subject may:
+  - Become rigidly procedural or pedantic
+  - Dismiss experiential or moral concerns as irrelevant
+  - Over-optimize systems while ignoring context
+- Recovery requires **re-engagement with clear, well-defined logical systems**.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Work within systems governed by clear logic and rules
+	- Apply abstract models to improve functionality
+	- Avoid environments driven primarily by sentiment or ambiguity
+
+---
+
 #### 7.15.2 Example:
 
+##### **Scenario: Designing a scalable system**
+A subject of type **ObjLA** is tasked with designing or refining a complex system.
+- When approaching the task:
+	- The subject focuses on **logical structure, constraints, and dependencies**.
+	- Abstract models are treated as objective tools for scaling and optimization.
+	- Personal preference or symbolic meaning is set aside.
+- Arguments such as:
+	- *It feels intuitive*
+	- *People prefer it this way*
+	- *It has moral significance*
+	carry little weight unless they affect system correctness.
+- If forced to work without structure:
+	- The subject experiences frustration or disengagement.
+	- Performance improves once rules and models are clarified.
 
-### 7.16 <u>ObjAL</u>:
+##### **Real-world behavioral signature**
+- Strong aptitude for system design and optimization.
+- Learns best through formal models and logical analysis.
+- Values correctness, scalability, and clarity over flexibility or sentiment.
+
+##### **One-line definition**
+**ObjLA** stabilizes reality through **objective logical structure**, using abstraction to generalize and scale external systems.
+
+---
+
+### 7.16 ObjAL:
+
 
 #### 7.16.1 Working:
 
+##### **Introduction**
+**ObjAL** is a type whose **most capacitive (1st) function** is **Objective Abstraction (ObjA)**, with **Logic (L)** as the dominant evaluative axis rather than Morality.
+
+##### **Core perceptual orientation**
+- The ego defaults to **ObjA**, meaning the subject primarily perceives reality through **abstract patterns, structures, and relationships present in the object**.
+- Situations are understood by identifying systemic relationships, trends, and models that exist independently of personal interpretation.
+- Reality is defined by **how elements fit within an objective abstract framework**, not by experiential familiarity or symbolic meaning.
+
+##### **Logical framing (AL)**
+- Logic acts as the **primary evaluative lens**, governing how abstract patterns are validated.
+- Logical evaluation is applied by checking **consistency, coherence, and correctness of abstract systems**.
+- Logic is used to refine, optimize, and interrelate abstract models rather than to ground them in experience or morality.
+
+##### **Functional flow (high → low energy)**
+1. **ObjA (Primary)** – Continuous engagement with external abstract systems, patterns, and models.
+2. **SbjL (Secondary)** – Forms internal logical impressions to support abstraction evaluation.
+3. **ObjX (Tertiary)** – Engages with concrete reality to test or instantiate abstract systems.
+4. **SbjM (Quaternary)** – Internal moral impressions are weak and often sidelined.
+5. **Lower functions (SbjA, ObjL, SbjX, ObjM)** – Accessed mainly via leakage or sustained pressure.
+
+##### **Stress and failure pattern**
+- Sustained conflict between **ObjA** and **SbjA** (forced personal reinterpretation of abstraction) leads to **conceptual resistance**.
+- Sustained conflict between **ObjA** and **ObjX** (excessive demand for immediate concreteness) leads to **cognitive strain**.
+- Under stress, the subject may:
+	- Over-systematize without implementation
+	- Ignore human or contextual factors
+	- Become detached from practical consequences
+	- Recovery requires **re-engagement with coherent abstract frameworks** and logical validation.
+
+##### **Satisfaction condition**
+- Satisfaction arises when the subject can:
+	- Work with well-defined abstract models and systems
+	- Apply logic to refine and interconnect abstractions
+	- Avoid environments dominated by moral ambiguity or experiential chaos
+
 #### 7.16.2 Example:
+
+##### **Scenario: Analyzing a complex theoretical system**
+A subject of type **ObjAL** is tasked with analyzing or refining a large theoretical framework.
+- When approaching the task:
+	- The subject focuses on **mapping relationships, constraints, and dependencies** within the system.
+	- Logical consistency across the entire structure is prioritized.
+	- Personal meaning or ethical framing is treated as external to the task.
+- Arguments such as:
+	- *It feels meaningful*
+	- *People resonate with it*
+	- *It has moral importance*
+	are irrelevant unless they expose logical inconsistency.
+- If forced into experiential justification:
+	- The subject becomes disengaged or resistant.
+	- Performance improves once abstraction and logic are allowed to dominate.
+
+##### **Real-world behavioral signature**
+- Exceptional at system modeling and theoretical analysis.
+- Learns best through abstraction combined with logical rigor.
+- Values coherence, scalability, and structural integrity over sentiment or immediacy.
+
+##### **One-line definition**
+**ObjAL** stabilizes reality through **objective abstraction**, using logic to validate, refine, and interrelate abstract systems.
 
 
 
