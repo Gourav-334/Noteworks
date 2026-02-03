@@ -4,6 +4,18 @@
 
 ## 1. Introduction
 
+Potentiology is a cognitive framework that describes **how a subject perceives, evaluates, and stabilizes reality** through distinct modes of perception, referred to as cognitive functions. Rather than focusing on behavior, traits, or personality descriptions, the theory models cognition as a **dynamic system of perceptual domains and energy capacities**.
+
+The framework is built on two foundational distinctions. First, perception operates across four domains: **Experience (X), Abstraction (A), Logic (L), and Morality (M)**. Second, each domain can be oriented **subjectively**, referencing internal impressions, or **objectively**, referencing properties of the external object. The combination of domain and direction produces eight cognitive functions.
+
+Unlike static typology systems, Potentiology introduces an **energy-based positioning model**, where each function has a finite capacity and depletes with use. The ego defaults to the function with the highest available energy at a given moment, while conscious choice may override this tendency at a cost. This allows the theory to account for burnout, dissatisfaction, stress behavior, and functional shifts over time without invoking pathology.
+
+Potentiology is not a diagnostic or predictive tool. It does not claim to measure intelligence, morality, or mental health. Its purpose is explanatory: to provide a **structural language** for discussing perceptual bias, evaluative conflict, and environmental fit.
+
+The theory draws conceptual inspiration from Jungian psychology and related typological systems but is **not derived from them**. All definitions, mechanisms, and type structures in Potentiology are internally defined and operate according to their own logic.
+
+This document presents the core terminology, functional domains, directional mechanics, energy model, and resulting cognitive types, followed by guidance on responsible use and interpretation.
+
 
 
 ## 2. Terminologies
@@ -283,12 +295,12 @@ The capacitive position of complete opposite type depends on how far they are fr
 - Logical evaluation occurs **after experience is accepted into impression space**.
 - Logic is used to **stabilize, justify, and preserve experiential consistency**, not to redefine experience proactively.
 
-##### **Functional flow (high → low energy)**
-1. **SbjX (Primary)** – Stable experiential impressions; resistance to unfamiliar experiential formats.
-2. **ObjL (Secondary)** – Uses external logical rules when necessary, especially for efficiency, compliance, or system interaction.
-3. **SbjM (Tertiary)** – Moral impressions form gradually from lived experience rather than ideology.
-4. **ObjA (Quaternary)** – Limited tolerance for abstract speculation unless it directly solves a concrete problem.
-5. **Lower functions (ObjX, SbjL, ObjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjX (Primary):** Stable experiential impressions; resistance to unfamiliar experiential formats.
+2. **ObjL (Secondary):** Uses external logical rules when necessary, especially for efficiency, compliance, or system interaction.
+3. **SbjM (Tertiary):** Moral impressions form gradually from lived experience rather than ideology.
+4. **ObjA (Quaternary):** Limited tolerance for abstract speculation unless it directly solves a concrete problem.
+5. **Lower functions (ObjX, SbjL, ObjM, SbjA):** Accessed mainly via leakage or under sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjX** and **ObjX** (forced unfamiliar experiences) leads to **experiential crash**.
@@ -345,12 +357,12 @@ A subject of type **SbjXL** has been using a particular workflow or machine for 
 - Moral evaluation occurs **after experience is accepted into impression space**.
 - Moral judgments are grounded in **what has been lived and felt as right or wrong**, not in abstract ethical systems or external norms.
 
-##### **Functional flow (high → low energy)**
-1. **SbjX (Primary)** – Stable experiential impressions; preference for familiar experiential formats.
-2. **ObjM (Secondary)** – Adapts to external moral expectations when necessary, especially for social harmony or situational demands.
-3. **SbjL (Tertiary)** – Logical impressions form slowly from experience rather than formal reasoning.
-4. **ObjA (Quaternary)** – Low tolerance for abstract pattern speculation unless it supports experiential or moral coherence.
-5. **Lower functions (ObjX, ObjL, SbjM, SbjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjX (Primary):** Stable experiential impressions; preference for familiar experiential formats.
+2. **ObjM (Secondary):** Adapts to external moral expectations when necessary, especially for social harmony or situational demands.
+3. **SbjL (Tertiary):** Logical impressions form slowly from experience rather than formal reasoning.
+4. **ObjA (Quaternary):** Low tolerance for abstract pattern speculation unless it supports experiential or moral coherence.
+5. **Lower functions (ObjX, ObjL, SbjM, SbjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjX** and **ObjX** (forced unfamiliar experiences) leads to **experiential crash**.
@@ -411,12 +423,12 @@ A subject of type **SbjXM** works in an organization that introduces a practice 
 - The subject seeks to **adapt to concrete realities as they exist**, rather than interpreting them through past impressions.
 - Experience is treated as raw input that must conform to logical structure, not as something to be preserved for familiarity.
 
-##### **Functional flow (high → low energy)**
-1. **ObjL (Primary)** – Continuous engagement with external logic, systems, rules, and mechanisms.
-2. **SbjX (Secondary)** – Forms experiential impressions gradually to support logical stability.
-3. **ObjA (Tertiary)** – Notices abstract patterns when they improve system efficiency or coherence.
-4. **SbjM (Quaternary)** – Personal moral impressions are weak and often deferred.
-5. **Lower functions (SbjL, ObjX, ObjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjL (Primary):** Continuous engagement with external logic, systems, rules, and mechanisms.
+2. **SbjX (Secondary):** Forms experiential impressions gradually to support logical stability.
+3. **ObjA (Tertiary):** Notices abstract patterns when they improve system efficiency or coherence.
+4. **SbjM (Quaternary):** Personal moral impressions are weak and often deferred.
+5. **Lower functions (SbjL, ObjX, ObjM, SbjA):** Accessed mainly via leakage or under sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjL** and **SbjL** (forced reliance on internal logic without external validation) leads to **logical instability**.
@@ -477,12 +489,12 @@ A subject of type **ObjLX** identifies that an existing workflow is inefficient.
 - The subject adapts to **concrete situational realities** to align with prevailing moral expectations.
 - Experience is treated as immediate feedback on whether behavior conforms to or violates accepted norms.
 
-##### **Functional flow (high → low energy)**
-1. **ObjM (Primary)** – Continuous adaptation to external moral values, norms, and social rules.
-2. **SbjX (Secondary)** – Forms experiential impressions that support moral alignment and situational awareness.
-3. **ObjA (Tertiary)** – Notices abstract patterns when they help predict social or moral outcomes.
-4. **SbjL (Quaternary)** – Internal logical frameworks are weak and often deferred to external authority.
-5. **Lower functions (ObjL, ObjX, SbjM, SbjA)** – Accessed mainly via leakage or under sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjM (Primary):** Continuous adaptation to external moral values, norms, and social rules.
+2. **SbjX (Secondary):** Forms experiential impressions that support moral alignment and situational awareness.
+3. **ObjA (Tertiary):** Notices abstract patterns when they help predict social or moral outcomes.
+4. **SbjL (Quaternary):** Internal logical frameworks are weak and often deferred to external authority.
+5. **Lower functions (ObjL, ObjX, SbjM, SbjA):** Accessed mainly via leakage or under sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjM** and **SbjM** (forced personal moral stance without social backing) leads to **moral disorientation**.
@@ -544,12 +556,12 @@ ___
 - Concrete experiences are interpreted through pre-existing logic instead of being taken at face value.
 - Experience serves to confirm or invalidate internal logical models rather than redefine them immediately.
 
-##### **Functional flow (high → low energy)**
-1. **SbjL (Primary)** – Stable internal logical frameworks; resistance to externally imposed logic.
-2. **ObjX (Secondary)** – Adapts to concrete experiences when required by situational reality.
-3. **SbjA (Tertiary)** – Abstract impressions form slowly from logical extrapolation.
-4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often deprioritized.
-5. **Lower functions (ObjL, SbjX, SbjM, ObjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjL (Primary):** Stable internal logical frameworks; resistance to externally imposed logic.
+2. **ObjX (Secondary):** Adapts to concrete experiences when required by situational reality.
+3. **SbjA (Tertiary):** Abstract impressions form slowly from logical extrapolation.
+4. **ObjM (Quaternary):** External moral expectations are weakly tolerated and often deprioritized.
+5. **Lower functions (ObjL, SbjX, SbjM, ObjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjL** and **ObjL** (forced reliance on external logic) leads to **logical defensiveness**.
@@ -613,12 +625,12 @@ A subject of type **SbjLX** is introduced to a new operational procedure.
 - Concrete experiences are interpreted through internal moral impressions instead of being accepted at face value.
 - Experience serves to confirm, deepen, or challenge existing moral understanding rather than redefine it immediately.
 
-##### **Functional flow (high → low energy)**
-1. **SbjM (Primary)** – Stable internal moral frameworks derived from lived impressions.
-2. **ObjX (Secondary)** – Adapts to concrete experiential demands when situationally unavoidable.
-3. **SbjA (Tertiary)** – Abstract impressions emerge slowly as moral generalizations.
-4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often deprioritized.
-5. **Lower functions (ObjM, SbjX, SbjL, ObjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjM (Primary):** Stable internal moral frameworks derived from lived impressions.
+2. **ObjX (Secondary):** Adapts to concrete experiential demands when situationally unavoidable.
+3. **SbjA (Tertiary):** Abstract impressions emerge slowly as moral generalizations.
+4. **ObjL (Quaternary):** External logical systems are weakly tolerated and often deprioritized.
+5. **Lower functions (ObjM, SbjX, SbjL, ObjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjM** and **ObjM** (forced alignment with external moral norms) leads to **moral alienation**.
@@ -680,12 +692,12 @@ A subject of type **SbjMX** is placed in a situation where a practical solution 
 - Logical evaluation is applied **after direct experiential engagement**, to optimize action or understanding.
 - Logic is used pragmatically to structure immediate reality, not to build detached theoretical systems.
 
-##### **Functional flow (high → low energy)**
-1. **ObjX (Primary)** – High adaptability to immediate concrete reality and changing conditions.
-2. **SbjL (Secondary)** – Forms internal logical impressions to support decision-making.
-3. **ObjM (Tertiary)** – Adapts to external moral expectations when situationally relevant.
-4. **SbjA (Quaternary)** – Abstract internal patterning is weak and often avoided.
-5. **Lower functions (SbjX, ObjL, SbjM, ObjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjX (Primary):** High adaptability to immediate concrete reality and changing conditions.
+2. **SbjL (Secondary):** Forms internal logical impressions to support decision-making.
+3. **ObjM (Tertiary):** Adapts to external moral expectations when situationally relevant.
+4. **SbjA (Quaternary):** Abstract internal patterning is weak and often avoided.
+5. **Lower functions (SbjX, ObjL, SbjM, ObjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjX** and **SbjX** (forced reliance on past impressions) leads to **experiential impatience**.
@@ -748,12 +760,12 @@ A subject of type **ObjXL** is placed in a situation requiring immediate action.
 - Moral evaluation is applied **after direct experiential engagement**, based on externally visible value cues.
 - Moral decisions are shaped by **situational norms and immediate social feedback**, not by abstract ethical reasoning or internalized moral systems.
 
-##### **Functional flow (high → low energy)**
-1. **ObjX (Primary)** – High adaptability to immediate concrete reality and changing situations.
-2. **SbjM (Secondary)** – Forms internal moral impressions from repeated experiences.
-3. **ObjL (Tertiary)** – Uses external logic instrumentally when needed for practical outcomes.
-4. **SbjA (Quaternary)** – Abstract internal patterning is weak and often avoided.
-5. **Lower functions (SbjX, ObjM, SbjL, ObjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjX (Primary):** High adaptability to immediate concrete reality and changing situations.
+2. **SbjM (Secondary):** Forms internal moral impressions from repeated experiences.
+3. **ObjL (Tertiary):** Uses external logic instrumentally when needed for practical outcomes.
+4. **SbjA (Quaternary):** Abstract internal patterning is weak and often avoided.
+5. **Lower functions (SbjX, ObjM, SbjL, ObjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjX** and **SbjX** (forced reliance on past experiential impressions) leads to **impatience and resistance**.
@@ -815,12 +827,12 @@ ___
 - Moral evaluation occurs **within the internal abstract framework**, not through immediate social norms.
 - Values are derived from **abstract ideals, meanings, and internalized principles**, rather than lived moral precedent alone.
 
-##### **Functional flow (high → low energy)**
-1. **SbjA (Primary)** – Stable internal abstract models, symbolic interpretations, and pattern narratives.
-2. **ObjM (Secondary)** – Adapts to external moral expectations when situational alignment is necessary.
-3. **SbjX (Tertiary)** – Concrete experiential impressions form slowly and serve as supporting data.
-4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often perceived as restrictive.
-5. **Lower functions (ObjA, SbjM, ObjX, SbjL)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjA (Primary):** Stable internal abstract models, symbolic interpretations, and pattern narratives.
+2. **ObjM (Secondary):** Adapts to external moral expectations when situational alignment is necessary.
+3. **SbjX (Tertiary):** Concrete experiential impressions form slowly and serve as supporting data.
+4. **ObjL (Quaternary):** External logical systems are weakly tolerated and often perceived as restrictive.
+5. **Lower functions (ObjA, SbjM, ObjX, SbjL):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjA** and **ObjA** (forced adoption of externally imposed abstractions) leads to **conceptual alienation**.
@@ -882,12 +894,12 @@ A subject of type **SbjAM** encounters a situation with moral implications.
 - Abstract patterns, ideals, and narratives are interpreted through internal moral values.
 - Abstraction serves to **contextualize and universalize moral impressions**, not to detach from them.
 
-##### **Functional flow (high → low energy)**
-1. **SbjM (Primary)** – Stable internal moral frameworks derived from lived and reflected impressions.
-2. **ObjA (Secondary)** – Adapts to external abstract patterns when they can be morally contextualized.
-3. **SbjX (Tertiary)** – Concrete experiences are selectively absorbed to support moral understanding.
-4. **ObjL (Quaternary)** – External logical systems are weakly tolerated and often subordinated to values.
-5. **Lower functions (ObjM, ObjX, SbjL, SbjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjM (Primary):** Stable internal moral frameworks derived from lived and reflected impressions.
+2. **ObjA (Secondary):** Adapts to external abstract patterns when they can be morally contextualized.
+3. **SbjX (Tertiary):** Concrete experiences are selectively absorbed to support moral understanding.
+4. **ObjL (Quaternary):** External logical systems are weakly tolerated and often subordinated to values.
+5. **Lower functions (ObjM, ObjX, SbjL, SbjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjM** and **ObjM** (pressure to conform to external moral norms) leads to **moral alienation**.
@@ -949,12 +961,12 @@ A subject of type **SbjMA** encounters a broad ideological or philosophical fram
 - The subject adapts to **existing abstract moral frameworks**, such as ideologies, doctrines, or institutional value systems.
 - Abstraction serves to organize and justify moral norms, not to reinterpret them personally.
 
-##### **Functional flow (high → low energy)**
-1. **ObjM (Primary)** – Continuous adaptation to external moral values, norms, and ethical expectations.
-2. **SbjA (Secondary)** – Forms internal abstract impressions to understand and anticipate moral systems.
-3. **ObjX (Tertiary)** – Engages with concrete reality to enact or enforce moral norms.
-4. **SbjL (Quaternary)** – Internal logical structuring is weak and often deferred to external authority.
-5. **Lower functions (SbjM, ObjA, SbjX, ObjL)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjM (Primary):** Continuous adaptation to external moral values, norms, and ethical expectations.
+2. **SbjA (Secondary):** Forms internal abstract impressions to understand and anticipate moral systems.
+3. **ObjX (Tertiary):** Engages with concrete reality to enact or enforce moral norms.
+4. **SbjL (Quaternary):** Internal logical structuring is weak and often deferred to external authority.
+5. **Lower functions (SbjM, ObjA, SbjX, ObjL):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjM** and **SbjM** (pressure to adopt a personal moral stance without social backing) leads to **moral uncertainty**.
@@ -1016,12 +1028,12 @@ A subject of type **ObjMA** is responsible for applying an ethical or compliance
 - Moral evaluation is based on **externally recognized ethical frameworks** rather than personal values.
 - Abstract systems are judged according to whether they align with accepted moral ideals or societal principles.
 
-##### **Functional flow (high → low energy)**
-1. **ObjA (Primary)** – Continuous adaptation to external abstract systems, patterns, and structures.
-2. **SbjM (Secondary)** – Forms internal moral impressions from engagement with abstract moral frameworks.
-3. **ObjX (Tertiary)** – Engages with concrete reality to test or apply abstract models.
-4. **SbjL (Quaternary)** – Internal logical structuring is weak and often deferred to external systems.
-5. **Lower functions (SbjA, ObjM, SbjX, ObjL)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjA (Primary):** Continuous adaptation to external abstract systems, patterns, and structures.
+2. **SbjM (Secondary):** Forms internal moral impressions from engagement with abstract moral frameworks.
+3. **ObjX (Tertiary):** Engages with concrete reality to test or apply abstract models.
+4. **SbjL (Quaternary):** Internal logical structuring is weak and often deferred to external systems.
+5. **Lower functions (SbjA, ObjM, SbjX, ObjL):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjA** and **SbjA** (forced personal reinterpretation of abstractions) leads to **conceptual dissonance**.
@@ -1065,10 +1077,10 @@ A subject of type **ObjAM** is tasked with creating or refining a system that mu
 
 ---
 
-### 7.14 SbjAL:
+### 7.13 SbjAL:
 
 
-#### 7.14.1 Working:
+#### 7.13.1 Working:
 
 ##### **Introduction**
 **SbjAL** is a type whose **most capacitive (1st) function** is **Subjective Abstraction (SbjA)**, with **Logic (L)** as the dominant evaluative axis rather than Morality.
@@ -1083,12 +1095,12 @@ A subject of type **ObjAM** is tasked with creating or refining a system that mu
 - Logical evaluation occurs **within the internal abstract space**, not through direct engagement with external systems.
 - Logic is used to test consistency, coherence, and validity of abstract models rather than to optimize practical execution.
 
-##### **Functional flow (high → low energy)**
-1. **SbjA (Primary)** – Stable internal abstract models, symbolic interpretations, and conceptual narratives.
-2. **ObjL (Secondary)** – Adapts to external logical systems when they support or validate internal abstractions.
-3. **SbjX (Tertiary)** – Concrete experiential impressions are selectively absorbed to support abstract understanding.
-4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often subordinated to logical structure.
-5. **Lower functions (ObjA, SbjL, ObjX, SbjM)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjA (Primary):** Stable internal abstract models, symbolic interpretations, and conceptual narratives.
+2. **ObjL (Secondary):** Adapts to external logical systems when they support or validate internal abstractions.
+3. **SbjX (Tertiary):** Concrete experiential impressions are selectively absorbed to support abstract understanding.
+4. **ObjM (Quaternary):** External moral expectations are weakly tolerated and often subordinated to logical structure.
+5. **Lower functions (ObjA, SbjL, ObjX, SbjM):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjA** and **ObjA** (forced adoption of externally imposed abstractions) leads to **conceptual alienation**.
@@ -1105,7 +1117,7 @@ A subject of type **ObjAM** is tasked with creating or refining a system that mu
 	- Apply logic to refine concepts without external pressure
 	- Avoid environments dominated by immediate practicality or moral enforcement
 
-#### 7.14.2 Example:
+#### 7.13.2 Example:
 
 ##### **Scenario: Developing a conceptual framework**
 A subject of type **SbjAL** is tasked with developing a theoretical or conceptual model.
@@ -1150,12 +1162,12 @@ ___
 - Abstract patterns, concepts, and models are interpreted and reshaped through internal logical structures.
 - Abstraction serves to expand, refine, and generalize internal logic rather than replace it.
 
-##### **Functional flow (high → low energy)**
-1. **SbjL (Primary)** – Stable internal logical systems and principled reasoning.
-2. **ObjA (Secondary)** – Adapts to external abstract structures when they align with internal logic.
-3. **SbjX (Tertiary)** – Concrete experiences are selectively absorbed to test logical consistency.
-4. **ObjM (Quaternary)** – External moral expectations are weakly tolerated and often subordinated to logic.
-5. **Lower functions (ObjL, ObjX, SbjM, SbjA)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **SbjL (Primary):** Stable internal logical systems and principled reasoning.
+2. **ObjA (Secondary):** Adapts to external abstract structures when they align with internal logic.
+3. **SbjX (Tertiary):** Concrete experiences are selectively absorbed to test logical consistency.
+4. **ObjM (Quaternary):** External moral expectations are weakly tolerated and often subordinated to logic.
+5. **Lower functions (ObjL, ObjX, SbjM, SbjA):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **SbjL** and **ObjL** (forced reliance on externally imposed logic) leads to **logical defensiveness**.
@@ -1217,12 +1229,12 @@ A subject of type **SbjLA** encounters a new theoretical or conceptual model.
 - The subject adapts to **existing abstract structures**, such as models, frameworks, and classifications inherent in the system.
 - Abstraction is used to generalize and scale logic, not to reinterpret it personally.
 
-##### **Functional flow (high → low energy)**
-1. **ObjL (Primary)** – Continuous engagement with external logic, rules, and system mechanics.
-2. **SbjA (Secondary)** – Forms internal abstract impressions to understand and anticipate systems.
-3. **ObjX (Tertiary)** – Engages with concrete reality to test or execute logical systems.
-4. **SbjM (Quaternary)** – Internal moral impressions are weak and often deferred.
-5. **Lower functions (SbjL, ObjA, SbjX, ObjM)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjL (Primary):** Continuous engagement with external logic, rules, and system mechanics.
+2. **SbjA (Secondary):** Forms internal abstract impressions to understand and anticipate systems.
+3. **ObjX (Tertiary):** Engages with concrete reality to test or execute logical systems.
+4. **SbjM (Quaternary):** Internal moral impressions are weak and often deferred.
+5. **Lower functions (SbjL, ObjA, SbjX, ObjM):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjL** and **SbjL** (forced reliance on personal logic without external validation) leads to **logical insecurity**.
@@ -1286,12 +1298,12 @@ A subject of type **ObjLA** is tasked with designing or refining a complex syste
 - Logical evaluation is applied by checking **consistency, coherence, and correctness of abstract systems**.
 - Logic is used to refine, optimize, and interrelate abstract models rather than to ground them in experience or morality.
 
-##### **Functional flow (high → low energy)**
-1. **ObjA (Primary)** – Continuous engagement with external abstract systems, patterns, and models.
-2. **SbjL (Secondary)** – Forms internal logical impressions to support abstraction evaluation.
-3. **ObjX (Tertiary)** – Engages with concrete reality to test or instantiate abstract systems.
-4. **SbjM (Quaternary)** – Internal moral impressions are weak and often sidelined.
-5. **Lower functions (SbjA, ObjL, SbjX, ObjM)** – Accessed mainly via leakage or sustained pressure.
+##### **Functional flow (high $\rightarrow$ low energy)**
+1. **ObjA (Primary):** Continuous engagement with external abstract systems, patterns, and models.
+2. **SbjL (Secondary):** Forms internal logical impressions to support abstraction evaluation.
+3. **ObjX (Tertiary):** Engages with concrete reality to test or instantiate abstract systems.
+4. **SbjM (Quaternary):** Internal moral impressions are weak and often sidelined.
+5. **Lower functions (SbjA, ObjL, SbjX, ObjM):** Accessed mainly via leakage or sustained pressure.
 
 ##### **Stress and failure pattern**
 - Sustained conflict between **ObjA** and **SbjA** (forced personal reinterpretation of abstraction) leads to **conceptual resistance**.
@@ -1340,10 +1352,30 @@ A subject of type **ObjAL** is tasked with analyzing or refining a large theoret
 
 ### 8.1 <u>For Mental Health Professionals</u>:
 
+Potentiology is **not a diagnostic or clinical framework** and must not be used as a substitute for established psychological or psychiatric models. It describes **cognitive perception styles and energy dynamics**, not mental health conditions or pathology.
+
+Types, crashes, leakages, and dissatisfaction in Potentiology do **not** indicate disorders. They represent **energy conflicts or misalignment** between a subject’s dominant functions and their environment, which may coexist with but do not imply clinical issues.
+
+For professionals, Potentiology may serve as a **supplementary interpretive tool**, useful for understanding burnout, chronic dissatisfaction, value conflict, or why certain coping strategies repeatedly fail. It can help reframe distress in terms of **energy depletion and perceptual mismatch**, rather than personal weakness.
+
+Potentiology should always be applied **alongside**, never **in place of**, evidence-based assessment, diagnosis, and treatment.
+
 
 ### 8.2 <u>For Educators & Researchers</u>:
 
+Potentiology is intended as a **theoretical and exploratory cognitive model**, not a validated educational or scientific instrument. It may be useful for **conceptual analysis, comparative theory, and hypothesis generation**, but it should not be presented as established psychological fact.
+
+Educators and researchers may use Potentiology to examine **modes of perception, evaluative bias, energy depletion, and environmental fit**, especially in interdisciplinary contexts such as cognitive science, systems theory, or human–machine interaction. However, empirical claims drawn from the model must be **clearly labeled as speculative** unless independently validated.
+
+Potentiology should be treated as a **framework for structured thinking**, not as a replacement for experimentally grounded models or standardized pedagogical tools.
+
 
 ### 8.3 <u>For Hobbyists & General Users</u>:
+
+Potentiology is a **self-exploratory and explanatory framework**, not a test, label, or measure of worth. Types describe **how perception and evaluation tend to operate**, not intelligence, maturity, or success.
+
+Use the model to understand **patterns of satisfaction, burnout, and preference**, not to box yourself or others into rigid identities. People can and do operate outside their dominant functions, often at an energy cost.
+
+Potentiology works best as a **tool for reflection**, not comparison. Treat it as a map for understanding tendencies, not a rulebook for judging behavior.
 
 ---
