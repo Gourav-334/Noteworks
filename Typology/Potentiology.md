@@ -1,8 +1,8 @@
 # Potentiology: A Cognitive Energy Framework
 
 Gourav Kumar Mallick
-Affiliation: Parul University (Student)
-Email: 12b.39gourav@email.com
+Parul University
+12b.39gourav@email.com
 
 
 
@@ -44,7 +44,7 @@ This document presents the core terminology, functional domains, directional mec
 - **Seed:** The point on timeline from where a function starts fresh after previous crash.
 - **Crash:** A temporary shutdown of a function caused by sustained conflict with its opposing function domain, leading to loss of evaluative authority by primary function.
 - **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
-- **Leakage:** Conscious or unconscious use of a cognitive function that belongs to negative realm, with cost of high mental energy consumption.
+- **Leakage:** Conscious or unconscious use of a cognitive function at lower position.
 
 
 
@@ -102,7 +102,7 @@ Morality is **value-based** perception, where the object is perceived in terms o
 ### 4.1 <u>Subjective (Sbj)</u>:
 
 #### 4.1.1 Definition:
-*"Using **subjective functions**, the subject evaluates the object with reference to the **available impressions** of target function domain with the **subject**. This perception is then merged into existing impressions as a single unit, and could be reflected upon, **independent** of object."*
+*"Using **subjective functions**, the subject evaluates the object with reference to the **available impressions** of target function domain with the **subject**. This perception is then merged into existing impressions as a single unit. Also its **independent** of the object."*
 
 ![Sbj](./media/sbj.png)
 
@@ -128,7 +128,7 @@ Subject uses objective functions to understand the object by **noticing the deta
 ### 5.1 <u>Subjective Experiencer (SbjX)</u>:
 
 #### 5.1.1 Definition:
-*"Using **subjective experiencer** function, the subject evaluates the object with reference to available **concrete impressions** with the **subject**. This experience is then merged into existing impressions about experiences as a single experience, and could be reflected upon, **independent** of object."*
+*"Using **subjective experiencer** function, the subject evaluates the object with reference to available **concrete impressions** with the **subject**. This experience is then merged into existing impressions about experiences as a single experience. Also its **independent** of the object."*
 
 ![SbjX](./media/sbjx.png)
 
@@ -150,7 +150,7 @@ When a subject uses **ObjX** function, it perceives the object and notices the c
 ### 5.3 <u>Subjective Abstraction (SbjA)</u>:
 
 #### 5.3.1 Definition:
-*"Using **subjective abstraction** function, the subject evaluates the object with reference to available **abstract impressions** with the **subject**. This abstract is then merged into existing impressions about patterns as a single abstract, and could be reflected upon, **independent** of object."*
+*"Using **subjective abstraction** function, the subject evaluates the object with reference to available **abstract impressions** with the **subject**. This abstract is then merged into existing impressions about latent patterns as a single abstract. Also its **independent** of the object."*
 
 ![SbjA](./media/sbja.png)
 
@@ -172,7 +172,7 @@ When a subject uses **ObjA** function, it perceives the object and notices the a
 ### 5.5 <u>Subjective Logician (SbjL)</u>:
 
 #### 5.5.1 Definition:
-*"Using **subjective logician** function, the subject evaluates the object with reference to available **logical impressions** with the **subject**. This logic is then merged into existing impressions as a single logic, and could be reflected upon, **independent** of object."*
+*"Using **subjective logician** function, the subject evaluates the object with reference to available **logical impressions** with the **subject**. This logic is then merged into existing impressions about logical properties as a single logic. Also its **independent** of the object."*
 
 ![SbjL](./media/sbjl.png)
 
@@ -194,7 +194,7 @@ When a subject uses **ObjL** function, it perceives the object and notices the l
 ### 5.7 <u>Subjective Moral (SbjM)</u>:
 
 #### 5.7.1 Definition:
-*"Using **subjective moral** function, the subject evaluates the object with reference to available **moral impressions** with the **subject**. This value is then merged into existing impressions about morality as a single unit, and could be reflected upon, **independent** of object."*
+*"Using **subjective moral** function, the subject evaluates the object with reference to available **moral impressions** with the **subject**. This value is then merged into existing impressions about morality as a single unit. Also its **independent** of the object."*
 
 ![SbjM](./media/sbjm.png)
 
@@ -292,8 +292,6 @@ The capacitive position of complete opposite type depends on how far they are fr
 
 ## 7. Types Explanations
 
-
-# 7. Types Explanations
 
 Each type is defined by its most capacitive function (**1st**) and evaluative axis. Descriptions use only the defined domains and directions. The ego defaults to the highest-energy function. Satisfaction occurs when the environment matches the primary function’s natural mode.
 

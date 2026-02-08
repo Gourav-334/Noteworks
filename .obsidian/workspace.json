@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "db043436558366ce",
+        "id": "95c08a8ec4c6ec5e",
         "type": "tabs",
         "children": [
           {
-            "id": "5ac9c01544f72641",
+            "id": "07146cafa701eb52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02) BIOS Boot Sector"
+              "title": "New tab"
             }
           }
         ]
@@ -170,11 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ac9c01544f72641",
+  "active": "07146cafa701eb52",
   "lastOpenFiles": [
-    "x86 Assembly/Infinite Intuitions (GAS) {C}/08) Registers Revision.md",
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
+    "Bare-Metal Programming/Grok {O}/media/image1.png",
+    "Bare-Metal Programming/Grok {O}/media/Screenshot 2026-02-08 121554.png",
     "Typology/Potentiology.md",
+    "Summaries/Custom {O}/Digital Electronics {C}.md",
+    "Summaries/Custom {O}/Engineering Mathematics {D}.md",
+    "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
+    "x86 Assembly/Infinite Intuitions (GAS) {C}/08) Registers Revision.md",
     "Typology/media/energy.png",
     "Typology/media/Unconfirmed 188487.crdownload",
     "Typology/media/m.png",
@@ -191,15 +193,11 @@
     "Typology/media/Unconfirmed 723243.crdownload",
     "Typology/media/obja.png",
     "Typology/media/Unconfirmed 865999.crdownload",
-    "Typology/media/objx.png",
     "Typology/media/Unconfirmed 86756.crdownload",
-    "Typology/media/obj.png",
     "Typology/media/Unconfirmed 218181.crdownload",
     "Typology/Jungian Typology.md",
-    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Crash Courses/Verilog.md",
-    "Summaries/Custom {O}/Digital Electronics {C}.md",
     "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
     "Digital Electronics/ChatGPT {O}/08) Interfacing & Abstraction.md",
     "Digital Electronics/ChatGPT {O}/07) Timing & Hazards.md",
@@ -208,15 +206,12 @@
     "Digital Electronics/ChatGPT {O}/05) Flip-Flops & Latches.md",
     "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
     "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
-    "Summaries/Custom {O}/Engineering Mathematics {D}.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
-    "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
     "Untitled.md",
     "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md",
     "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md",
     "Basic Electrical Engineering/ChatGPT {O}/01) AC Fundamentals & Phasors.md",
     "Basic Electrical Engineering/ChatGPT {O}/07) Electrical Measurements.md",
-    "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md",
-    "Basic Electrical Engineering/ChatGPT {O}/05) DC Machines.md"
+    "Basic Electrical Engineering/ChatGPT {O}/06) AC Machines.md"
   ]
 }

@@ -102,3 +102,170 @@ mov ds, ax
 2. Set known segment values (`DS`, `ES`, `SS`)
 3. Set a valid stack (`SS`:`SP`)
 4. Then proceed with the objective.
+
+
+
+## **Topic - 2: BIOS Services & Disk Interrupts**
+
+### <u>BIOS Service</u>
+
+- **<u>BIOS service</u>:** Software interrupt that transfers control to firmware using registers.
+
+#### Steps:
+
+1. Interrupt is called using a 16-bit register (`int xx`).
+2. CPU pushes `FLAGS`, `CS`, `IP` & jumps to firmware handler.
+3. BIOS code runs & control is later returned using `iret`.
+
+
+### <u>Real-Mode Interrupts</u>
+
+- IVT starts from `0x00000` with 256 entries of $4\;bytes$ each.
+
+$$ 256 \times 4 \text\;byte = 1\;KiB $$
+
+- So we load the `CS`:`IP` as per that to access IVT.
+- Structure for any IVT entry is: `IVT[n] = { IP_low, IP_high, CS_low, CS_high }`.
+
+```asm
+int 0x10
+```
+
+- The code above when executed, the CPU looks for entry number `0x10` in IVT.
+- Load the $4\;byte$ value stored there to `CS`:`IP` & jumps in it.
+
+
+### <u>Calling Convention</u>
+
+|      Register       | Work            |
+| :-----------------: | :-------------- |
+|        `AH`         | Function number |
+| `AL`/`BX`/`CX`/`DX` | Parameters      |
+|  Flags / registers  | Return status   |
+
+
+### <u>BIOS Video Services</u>
+
+- Accessed through interrupt `int 0x10`.
+- We can get teletype (plain) output with `AH` as `0x0E`.
+- This will include printing a character, advancing cursor, and scrolling.
+- But its different from direct VGA access.
+
+| Register | Meaning           | Work/Value          |
+| :------: | ----------------- | ------------------- |
+|   `AH`   | `0x0E` (function) | Function number     |
+|   `AL`   | ASCII character   | Storing character   |
+|   `BH`   | Page number       | Usually `0`         |
+|   `BL`   | Text attribute    | Graphics modes only |
+
+#### Example:
+
+```asm
+mov ah, 0x0e        ; Function: Teletype output
+mov al, 'X'         ; Character to print
+mov bh, 0x00        ; Page 0
+```
+
+
+### <u>BIOS Disk Services (CHS)</u>
+
+- Disk read is done with `AH` as `0x02`.
+
+| Register  | Meaning                    |
+| --------- | -------------------------- |
+| `AH`      | `0x02` (read sectors)      |
+| `AL`      | Sector count               |
+| `CH`      | Cylinder                   |
+| `CL`      | Sector (bits 0–5)          |
+| `DH`      | Head                       |
+| `DL`      | Drive (`0x80` = first HDD) |
+| `ES`:`BX` | Destination buffer         |
+
+- `AH` returns the status code.
+- If carry flag is set, an error occurred.
+- CHS is avoided in industries for its limitations & non-standardization.
+
+
+### <u>Disk I/O Problems</u>
+
+- Disk services don't work after protected mode.
+- They are also very slow, inconsistent, with difficulty debugging.
+- It must be used to load something better only, like multiboot loader.
+
+
+### <u>Interrupt Safety Rules</u>
+
+1. Disable interrupts if not required.
+2. Always cleanse registers before calling an interrupt.
+3. Do not rely on stack state.
+4. Never call BIOS from protected mode.
+
+
+
+## **Topic - 3: Geometry & Signature**
+
+### <u>Boot Sector</u>
+
+- **<u>Boot sector</u>:** First $512\;bytes$ bytes from a bootable device that are read from BIOS & executed in real-mode.
+- This region in bootable device is known as boot sector.
+- But it should contain the boot signature.
+
+
+### <u>Sector Size Justification</u>
+
+- Each sector's size is $512\;bytes$, and BIOS disk I/O reads one sector at a time.
+- So to maintain minimum reading area & backward compatibility, rule has never changed.
+- This sector is loaded into memory and then executed.
+
+
+### <u>Stepwise BIOS Working</u>
+
+1. BIOS selects a booting device.
+2. Reads first sector (LBA 0).
+3. Copies it to physical address `0x7C00`.
+4. Checks boot signature.
+5. If valid, jumps to `CS:IP = 0000:7C00`
+6. If invalid, tries next device.
+
+
+### <u>Boot Signature</u>
+
+| Offset | Required Value |
+| :----: | :------------: |
+| `510`  |     `0x55`     |
+| `511`  |     `0xAA`     |
+
+#### Little-endian emission:
+
+```asm
+.word 0xAA55        # 55 AA
+```
+
+
+### <u>Geometry</u>
+
+![Disk Read-Write Hardware](./media/image1.png)
+
+- **<u>CHS</u>:** Cylinder Head Sector
+- BIOS disk services were originally made to read CHS.
+- But still same logic is used for backward compatibility.
+- BIOS are very sensitive to alignment & padding.
+
+
+### <u>Boot Sector Layout</u>
+
+| Offset  |  Size  | Purpose                    |
+| :-----: | :----: | :------------------------- |
+| `0x000` | `~440` | Boot code                  |
+| `0x1B8` |  `4`   | Disk signature             |
+| `0x1BE` |  `64`  | Partition table (MBR only) |
+| `0x1FE` |  `2`   | Boot signature (`55` `AA`) |
+
+
+### <u>Industrial Standard</u>
+
+|Stage|Responsibility|
+|---|---|
+|Boot sector|Minimal loader|
+|Second stage|CPU setup|
+|Kernel|Real system|
