@@ -269,3 +269,167 @@ mov bh, 0x00        ; Page 0
 |Boot sector|Minimal loader|
 |Second stage|CPU setup|
 |Kernel|Real system|
+
+
+
+## **Topic - 4: Writing Real-Mode Bootloader**
+
+### <u>Design Constraints</u>
+
+1. CPU will start in real-mode
+2. BIOS loads up at physical location `0x7C00`
+3. `CS`:`IP` to be used
+4. Interrupts may fire up
+5. Must fit in $512\;bytes$
+6. Must end with `0x55AA`
+
+
+### <u>Structure Of Bootloader</u>
+
+1. Disable interrupts
+2. Normalize segment registers
+3. Set up a stack
+4. Re-enable interrupts (if required)
+5. Hand-off control
+
+
+### <u>Bootloader Code</u>
+
+```asm
+.code16                 # Explicitly mention code as 16-bit.
+.intel_syntax noprefix
+.global _start
+
+
+
+_start:
+    cli                 # Disable interrupts
+
+
+    /* Normalizing segment resiters */
+    
+    xor ax, ax            # AX = 0 (only GPRs could be XORed)
+    mov ds, ax            # DS = 0
+    mov es, ax            # ES = 0
+    mov ss, ax            # SS = 0
+  
+
+    /* Setting up a safe stack */
+
+    mov sp, 0x7C00      # Stack grows downward
+    sti                 # Re-enable interrupt
+
+  
+  
+    /* Printing a message using SI */
+
+    mov si, msg             # SI points to string.
+
+
+.print_loop:
+    lodsb                   # Load single byte (AL = *SI; SI++)
+    test al, al             # End of string? (TEST = Non-destructive AND)
+
+    jz .done_print          # Checking if flag is 0
+
+  
+    mov ah, 0x0E            # BIOS teletype output
+    mov bh, 0x00            # Page 0
+    int 0x10                # Print character
+
+    jmp .print_loop
+
+
+
+.done_print:
+
+    /* Halt cleanly */
+
+    .hang:
+        hlt
+        jmp .hang
+
+
+
+/* Data section */
+
+msg:
+    .ascii "Bootloader alive.\r\n"
+    .byte 0               # Null terminator
+
+
+/* Boot signature */
+
+.org 510
+.word 0xAA55
+```
+
+
+### <u>Code Analysis</u>
+
+- Interrupts were re-enabled only after stack was set up.
+- Stack pointer (`sp`) points to `0x7C00` & grows downward.
+- Stack segment (`ss`) is made `0` because program is loaded at `0x7C00` to `0x7DFF`, and keeping `ss` above overwrites code.
+
+
+### <u>Linker Code</u>
+
+```ld
+ENTRY(_start)
+
+SECTIONS
+{
+  . = 0x7C00;             /* Bytes are placed from */
+
+  .text :                 /* All code and data are merged into single image */
+  {
+    *(.text*)
+    *(.rodata*)
+    *(.data*)
+  }
+}
+```
+
+
+### <u>Makefile</u>
+
+```makefile
+AS      := i686-elf-as
+LD      := i686-elf-ld
+OBJCOPY := i686-elf-objcopy
+
+
+all: disk.img
+
+# boot.s -> boot.o (+ linker.ld) -> kernel.elf -> disk.img
+
+boot.o: boot.s
+	$(AS) boot.s -o boot.o
+
+kernel.elf: boot.o
+	$(LD) -T linker.ld boot.o -o kernel.elf
+
+disk.img: kernel.elf
+	$(OBJCOPY) -O binary kernel.elf disk.img
+
+clean:
+	rm -f boot.o kernel.elf disk.img
+```
+
+- **`kernel.elf`:** For debugging purposes
+
+
+### <u>Shell Commands</u>
+
+```sh
+make clean
+make
+
+hexdump -C disk.img | tail
+
+qemu-system-i386 \
+	-drive file=disk.img,format=raw \
+	-boot order=c \
+	-no-reboot \
+	-no-shutdown
+```

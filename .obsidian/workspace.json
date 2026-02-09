@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "95c08a8ec4c6ec5e",
+        "id": "76451d89668c183f",
         "type": "tabs",
         "children": [
           {
-            "id": "07146cafa701eb52",
+            "id": "4fd9f79b4b16c5de",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07146cafa701eb52",
+  "active": "4fd9f79b4b16c5de",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
+    "Typology/Jungian Typology.md",
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/media/image1.png",
     "Bare-Metal Programming/Grok {O}/media/Screenshot 2026-02-08 121554.png",
     "Typology/Potentiology.md",
@@ -195,7 +196,6 @@
     "Typology/media/Unconfirmed 865999.crdownload",
     "Typology/media/Unconfirmed 86756.crdownload",
     "Typology/media/Unconfirmed 218181.crdownload",
-    "Typology/Jungian Typology.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Crash Courses/Verilog.md",
     "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
