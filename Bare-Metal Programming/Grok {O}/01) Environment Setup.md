@@ -405,23 +405,23 @@ baremetal/
 
 - Code must be in real mode, loaded at `0x7C00`, end with signature `0x55AA`.
 
-```asm
-/* boot.s — Minimal boot sector */
+```nasm
+; boot.s — Minimal boot sector
 .code16
 .global _start
 
 
 _start:
-    cli                 // No interrupts yet.
+    cli                 ; No interrupts yet.
 
 .hang:
-    hlt                 // Stop the CPU.
-    jmp .hang           // Loop forever
+    hlt                 ; Stop the CPU.
+    jmp .hang           ; Loop forever
 
 
-/* Pad to 512 bytes and add boot signature. */
-.org 510            // 510 bytes
-.word 0xAA55        // Next 2 bytes
+; Pad to 512 bytes and add boot signature.
+.org 510            ; 510 bytes
+.word 0xAA55        ; Next 2 bytes
 ```
 
 - `.org` tells assembler that code is starting from address `0x0`.

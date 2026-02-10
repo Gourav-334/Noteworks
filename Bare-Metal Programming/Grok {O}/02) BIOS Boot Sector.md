@@ -67,7 +67,7 @@ $$ \text{Physical address = (Segment << 4) + Offset} $$
 
 #### Boot code:
 
-```asm
+```nasm
 mov ax, 0x7c00
 mov ds, ax
 ```
@@ -127,7 +127,7 @@ $$ 256 \times 4 \text\;byte = 1\;KiB $$
 - So we load the `CS`:`IP` as per that to access IVT.
 - Structure for any IVT entry is: `IVT[n] = { IP_low, IP_high, CS_low, CS_high }`.
 
-```asm
+```nasm
 int 0x10
 ```
 
@@ -160,7 +160,7 @@ int 0x10
 
 #### Example:
 
-```asm
+```nasm
 mov ah, 0x0e        ; Function: Teletype output
 mov al, 'X'         ; Character to print
 mov bh, 0x00        ; Page 0
@@ -237,8 +237,8 @@ mov bh, 0x00        ; Page 0
 
 #### Little-endian emission:
 
-```asm
-.word 0xAA55        # 55 AA
+```nasm
+.word 0xAA55        ; 55 AA
 ```
 
 
@@ -295,47 +295,47 @@ mov bh, 0x00        ; Page 0
 
 ### <u>Bootloader Code</u>
 
-```asm
-.code16                 # Explicitly mention code as 16-bit.
+```nasm
+.code16                 ; Explicitly mention code as 16-bit.
 .intel_syntax noprefix
 .global _start
 
 
 
 _start:
-    cli                 # Disable interrupts
+    cli                 ; Disable interrupts
 
 
-    /* Normalizing segment resiters */
+    ; Normalizing segment resiters
     
-    xor ax, ax            # AX = 0 (only GPRs could be XORed)
-    mov ds, ax            # DS = 0
-    mov es, ax            # ES = 0
-    mov ss, ax            # SS = 0
+    xor ax, ax            ; AX = 0 (only GPRs could be XORed)
+    mov ds, ax            ; DS = 0
+    mov es, ax            ; ES = 0
+    mov ss, ax            ; SS = 0
   
 
-    /* Setting up a safe stack */
+    ; Setting up a safe stack
 
-    mov sp, 0x7C00      # Stack grows downward
-    sti                 # Re-enable interrupt
+    mov sp, 0x7C00      ; Stack grows downward
+    sti                 ; Re-enable interrupt
 
   
   
-    /* Printing a message using SI */
+    ; Printing a message using SI
 
-    mov si, msg             # SI points to string.
+    mov si, msg             ; SI points to string.
 
 
 .print_loop:
-    lodsb                   # Load single byte (AL = *SI; SI++)
-    test al, al             # End of string? (TEST = Non-destructive AND)
+    lodsb                   ; Load single byte (AL = *SI; SI++)
+    test al, al             ; End of string? (TEST = Non-destructive AND)
 
-    jz .done_print          # Checking if flag is 0
+    jz .done_print          ; Checking if flag is 0
 
   
-    mov ah, 0x0E            # BIOS teletype output
-    mov bh, 0x00            # Page 0
-    int 0x10                # Print character
+    mov ah, 0x0E            ; BIOS teletype output
+    mov bh, 0x00            ; Page 0
+    int 0x10                ; Print character
 
     jmp .print_loop
 
@@ -343,7 +343,7 @@ _start:
 
 .done_print:
 
-    /* Halt cleanly */
+    ; Halt cleanly
 
     .hang:
         hlt
@@ -351,14 +351,14 @@ _start:
 
 
 
-/* Data section */
+; Data section
 
 msg:
     .ascii "Bootloader alive.\r\n"
-    .byte 0               # Null terminator
+    .byte 0               ; Null terminator
 
 
-/* Boot signature */
+; Boot signature
 
 .org 510
 .word 0xAA55
@@ -433,3 +433,87 @@ qemu-system-i386 \
 	-no-reboot \
 	-no-shutdown
 ```
+
+
+
+## **Topic - 5: Common Pitfalls & Debugging Techniques**
+
+### <u>Type Of Failures</u>
+
+1. Code is never executed
+2. Code is reached but not executed
+3. Code is reached & partially executed
+4. Execution dies with interrupt or BIOS call
+
+
+### <u>No Bootable Device</u>
+
+- This is a case where code is never executed.
+- BIOS either prints saying there is no bootable device or skips entirely.
+- **Causes -** Missing signature, displaced signature, or code larger than $512\;bytes$.
+
+#### Verifying size:
+
+```sh
+stat -c %s disk.img
+```
+
+
+### <u>Triple Fault</u>
+
+- Blank QEMU screen flashes and restarts (closes) immediately.
+- **Causes -** Invalid interrupt state, stack misuse, or invalid segment register.
+
+#### Example:
+
+```asm
+sti               ; interrupts enabled
+mov ss, ax        ; stack not set yet
+```
+
+
+### <u>Silent Hang</u>
+
+- BIOS disk is loaded but screen stays blank, without reset.
+- **Causes -** Wrong address, infinite loop, accidental `hlt` execution, or corrupt `IP`.
+- **Solution -** Printing progress marker across parts of program.
+
+
+### <u>Partial Output & Freezing</u>
+
+- **Causes -** Stack overflow, `SI` corruption, segment mismatch (`CS != DS`), or clobbered registers.
+- **Solution -** Assume clobbering after `INT`, reload `SI` after BIOS calls, etc.
+
+
+### <u>Segment Bugs</u>
+
+- Reading garbage because `CS != DS`.
+- Can use following code to enforce.
+
+```nasm
+push cs        ; Push CS to stack
+pop ds         ; Pop stack's top (=CS) to DS
+```
+
+
+### <u>Stack Corruption Patterns</u>
+
+- BIOS corrupts memory if stack is not set before re-enabling.
+- `CALL` without `RET`.
+- Deep recursion which is discouraged in writing bootloaders.
+
+>**<u>TIPS</u>:**
+>1. Keep stack shallow and below code region.
+>2. Beware, BIOS calls can corrupt stack.
+
+
+### <u>Myths About BIOS</u>
+
+- BIOS implementation differs across vendors & emulators.
+- These implementations can sometimes violate their own specs.
+
+>**<u>TIPS</u>:**
+>1. Always check carry flag after `13h`.
+>2. Avoid disk I/O until not really necessary.
+>3. Prefer using `10h`.
+>4. Use GDB to inspect `CS`:`IP` & memory at `0x7C00`.
