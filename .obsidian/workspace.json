@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "229164477229b606",
+        "id": "3cf28d3f44e637e2",
         "type": "tabs",
         "children": [
           {
-            "id": "c56662fbbb5deaff",
+            "id": "7a68e78bb509bc5f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,16 +166,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c56662fbbb5deaff",
+  "active": "7a68e78bb509bc5f",
   "lastOpenFiles": [
     "Summaries/Custom {O}/C Programming {O}.md",
-    "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
-    "Summaries/Custom {O}/Executable & Linking Format {C}.md",
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Summaries/Custom {O}/UNIX System Calls {C}.md",
     "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
+    "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
+    "Summaries/Custom {O}/Executable & Linking Format {C}.md",
     "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Typology/Jungian Typology.md",
-    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal Programming/Grok {O}/media/image1.png",
     "Bare-Metal Programming/Grok {O}/media/Screenshot 2026-02-08 121554.png",
     "Typology/Potentiology.md",

@@ -92,3 +92,65 @@ union accumulator        // Total coverage: 0x0-0x7
 	uint64_t rax;        // Region: 0x0-0x8
 };
 ```
+
+
+
+## **Topic - 5: Memory Management**
+
+- `realloc()` could both expand or shrink the memory coverage.
+
+```c
+realloc(m, 16);        // 'm' points to memory offset.
+```
+
+
+
+## **Topic - 6: File Handling**
+
+- `FILE` is a `typedef`.
+
+```c
+/* Reading from file */
+ch = fgetc(fptr);
+fgets(buff, n, fptr);
+
+/* Writing to file */
+fputc(c, fptr);
+fputs(str, fptr);
+
+/* Array-based R/W */
+fread(arr, size, n, fptr);         // Reads 'n' items.
+fwrite(arr, size, n, fptr);        // Writes 'n' items.
+
+/* Cursor-based operations */
+fseek(fptr, n, pos);        // pos = SEEK_SET or SEEK_CUR or SEEK_END
+
+/* Formatted R/W */
+fprintf(fptr, "Name: %s, Age: %d", name, age);
+fscanf(fptr, "Name: %s, Age: %d", name, age);         // Very unsafe
+```
+
+
+
+## **Topic - 7: Error Handling**
+
+```c
+/* Exiting */
+exit(EXIT_FAILURE);
+exit(EXIT_SUCCESS);
+```
+
+- Error code must be named `errno` to be used by `stderr`.
+- `errno` could be re-assigned a value.
+
+```c
+/* Custom error code */
+#include <errno.h>
+extern int errno;
+errno = 404;
+fprintf(stderr, "Error code: %d", errno);
+```
+
+- **`EDOM` -** Macro representing impossible calculation error. For example, `sqrt(-2.0)`.
+- **`ERANGE` -** Macro representing return of undefined value. For example, `log(0.0)`.
+- **`ferror()` -** Returns file-related error value.

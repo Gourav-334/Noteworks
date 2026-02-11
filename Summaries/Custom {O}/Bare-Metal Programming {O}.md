@@ -28,3 +28,12 @@
 - **QEMU debug port:** `1234` for GDB (debugs `.elf` files).
 - **Bare-metal project structure:** `boot.s`, `linker.ld`, `Makefile`, `build/`
 - **`.org`:** Assembler macro to request storing data from `0x0` in order.
+
+
+
+## **Chapter - 2: BIOS Boot Sector**
+
+- At boot sector, BIOS uses real-mode with max $1\;MiB$ memory.
+- $\text{Physical address = (Segment << 4) + Offset}$
+- Different segments & offsets when summed might give same physical address.
+- 
