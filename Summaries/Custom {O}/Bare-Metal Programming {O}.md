@@ -34,6 +34,10 @@
 ## **Chapter - 2: BIOS Boot Sector**
 
 - At boot sector, BIOS uses real-mode with max $1\;MiB$ memory.
-- $\text{Physical address = (Segment << 4) + Offset}$
-- Different segments & offsets when summed might give same physical address.
+- $\text{Physical address = (Segment << 4) + Offset = (CS x 16) + IP}$
+- `CS` = Offset of considered frame of $64\;KiB$
+- `IP` = Address from that $64\;KiB$ frame
+- For example, $\text{Address = CS:IP = 0x0000 + 0x7C00 = 0x00007C00}$
+- Earlier 8086 had no wire to transfer immediate value to segment register.
+- **Real-mode address space:** $1\;MiB$ (6 regions & `0x00000`-`0xFFFFF`)
 - 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf28d3f44e637e2",
+        "id": "baf16f0ef09d5842",
         "type": "tabs",
         "children": [
           {
-            "id": "7a68e78bb509bc5f",
+            "id": "ac36f20b20a54980",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a68e78bb509bc5f",
+  "active": "ac36f20b20a54980",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/C Programming {O}.md",
+    "Typology/Enneagram.md",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
+    "Summaries/Custom {O}/C Programming {O}.md",
     "Summaries/Custom {O}/UNIX System Calls {C}.md",
     "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
     "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
@@ -212,7 +213,6 @@
     "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
     "Untitled.md",
-    "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md",
-    "Basic Electrical Engineering/ChatGPT {O}/03) Magnetic Circuits.md"
+    "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md"
   ]
 }
