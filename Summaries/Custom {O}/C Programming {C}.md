@@ -223,3 +223,79 @@ float y = x + 3.5;        // y = 8.5
 int x = 5;
 float y = (int)(x + 3.5);
 ```
+
+
+
+## **Topic - 10: GNU C Compiler**
+
+- The following code is calling as per MSVC calling convention.
+- **MSVC:** Microsoft Visual C++
+
+```c
+#ifndef EXAMPLE_H
+	#define EXAMPLE_H
+
+#ifdef _WIN32                    // Built-in macro by Windows.
+	#ifdef EXAMPLE_EXPORT        // Passed in command to GCC when compiling.
+		#define EXAMPLE_API __declspec(dllexport)
+	#else
+		#define EXAMPLE_API __declspec(dllimport)
+	#endif
+	#define CALL_CONV __stdcall        // Stack management macro for Windows.
+#else
+	#define EXAMPLE_API
+	#define CALL_CONV
+#endif
+
+EXAMPLE_API void hello();
+
+#endif
+```
+
+- While Linux's dynamic header code is much cleaner, relying on **System V AMD64 ABI**.
+
+```c
+#ifndef EXAMPLE_H
+	#define EXAMPLE_H
+
+#ifndef __GNUC__
+	#define EXAMPLE_API __attribute__((visibility("default")))
+#else
+	#define EXAMPLE_API
+#endif
+
+EXAMPLE_API void hello();
+
+#endif
+```
+
+- `__attribute__` is tag for GCC for adding metadata to function `visibility("default")`.
+- `(())` for function is used as that's convention for GCC compile (no ISO standards for so).
+- **`-o`:** GCC flag for conversion from one file type to another.
+
+```sh
+# Linking libraries
+gcc -o example example.c -lmath
+
+# Optimizing code
+gcc -O3 -o example example.c        # Vectorization (using SIMD/SISD)
+
+# Static compilation
+gcc -c file.c -o file.o
+ar rcs libfile.a file1.o file2.o
+gcc -o main main.c -L. -static -lmath
+
+# Dynamic compilation
+gcc -fPIC -c program.c -o program.o
+gcc -shared -o libprogram.so program.o
+gcc -o program main.c -L. -lprogram
+
+# Example linking in order
+gcc myfile.c \
+-I/usr/include -I/usr/include/readline -I../../include \
+-L/usr/lib/x86_64-linux-gnu -L../../lib \
+-ltosbitAPI-lreadline-lhistory-lncurses \
+-o myfile
+```
+
+---

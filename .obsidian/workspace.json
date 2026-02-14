@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76a5f268301b2348",
+        "id": "94b40213cc572ec9",
         "type": "tabs",
         "children": [
           {
-            "id": "bc4ebf7ea8477825",
+            "id": "524ea6ad282ec2c7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,16 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc4ebf7ea8477825",
+  "active": "524ea6ad282ec2c7",
   "lastOpenFiles": [
-    "Summaries/Custom {O}/C Programming {O}.md",
+    "Summaries/Custom {O}/C Programming {C}.md",
+    "Bare-Metal Programming/Grok {O}/03) Entering Protected Mode.md",
+    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
+    "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Typology/Enneagram.md",
     "Summaries/Custom {O}/UNIX System Calls {C}.md",
-    "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
     "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
     "Summaries/Custom {O}/Executable & Linking Format {C}.md",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
     "Typology/Jungian Typology.md",
     "Bare-Metal Programming/Grok {O}/media/image1.png",
     "Bare-Metal Programming/Grok {O}/media/Screenshot 2026-02-08 121554.png",
@@ -212,7 +213,6 @@
     "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
     "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
     "Summaries/Custom {O}/Basic Electronics {C}.md",
-    "Untitled.md",
-    "Basic Electrical Engineering/ChatGPT {O}/04) Transformers.md"
+    "Untitled.md"
   ]
 }
