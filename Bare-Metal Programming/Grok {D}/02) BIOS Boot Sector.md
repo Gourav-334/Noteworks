@@ -244,7 +244,7 @@ mov bh, 0x00        ; Page 0
 
 ### <u>Geometry</u>
 
-![Disk Read-Write Hardware](./media/image1.png)
+![Disk Read-Write Hardware](Bare-Metal%20Programming/Grok%20{D}/media/image1.png)
 
 - **<u>CHS</u>:** Cylinder Head Sector
 - BIOS disk services were originally made to read CHS.

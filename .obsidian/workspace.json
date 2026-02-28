@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94b40213cc572ec9",
+        "id": "da9c6f2a0066b3e2",
         "type": "tabs",
         "children": [
           {
-            "id": "524ea6ad282ec2c7",
+            "id": "fbfd6da602cbf63d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Typology/neurochemical_research/Neurochemicals.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Neurochemicals"
             }
           }
         ]
@@ -50,7 +54,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -166,24 +170,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "524ea6ad282ec2c7",
+  "active": "fbfd6da602cbf63d",
   "lastOpenFiles": [
+    "Typology/Neurotype.md",
+    "Typology/neurochemical_research/Neurochemicals.md",
+    "Typology/neurochemical_research",
+    "Typology/Socionics.md",
+    "Summaries/Custom {O}/C++ Programming {O}.md",
     "Summaries/Custom {O}/C Programming {C}.md",
-    "Bare-Metal Programming/Grok {O}/03) Entering Protected Mode.md",
-    "Bare-Metal Programming/Grok {O}/01) Environment Setup.md",
-    "Bare-Metal Programming/Grok {O}/02) BIOS Boot Sector.md",
+    "Bare-Metal Programming/Blundell {O}/Untitled.md",
+    "Bare-Metal Programming/ChatGPT {O}",
+    "Bare-Metal Programming/Blundell {D}/02) Boot Process.md",
+    "Bare-Metal Programming/Blundell {D}/01) Introduction.md",
+    "Bare-Metal Programming/Blundell {D}",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
+    "Bare-Metal Programming/Grok {D}/03) Entering Protected Mode.md",
     "Typology/Enneagram.md",
+    "Typology/Temperaments.md",
+    "Summaries/Custom {O}/Bourne Again Shell {O}.md",
+    "C++ Programming/W3Schools {C}/01) Comparison With C.md",
+    "Typology/Potentiology.md",
+    "Summaries/Custom {O}/Executable & Linking Format {C}.md",
+    "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
+    "Typology/Jungian Typology.md",
+    "Bare-Metal Programming/Grok {D}/01) Environment Setup.md",
+    "Bare-Metal Programming/Grok {D}/02) BIOS Boot Sector.md",
     "Summaries/Custom {O}/UNIX System Calls {C}.md",
     "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
-    "Summaries/Custom {O}/Executable & Linking Format {C}.md",
-    "Typology/Jungian Typology.md",
-    "Bare-Metal Programming/Grok {O}/media/image1.png",
+    "Bare-Metal Programming/Grok {D}/media/image1.png",
     "Bare-Metal Programming/Grok {O}/media/Screenshot 2026-02-08 121554.png",
-    "Typology/Potentiology.md",
     "Summaries/Custom {O}/Digital Electronics {C}.md",
     "Summaries/Custom {O}/Engineering Mathematics {D}.md",
-    "Summaries/Custom {O}/Basic Electrical Engineering {C}.md",
     "x86 Assembly/Infinite Intuitions (GAS) {C}/08) Registers Revision.md",
     "Typology/media/energy.png",
     "Typology/media/Unconfirmed 188487.crdownload",
@@ -200,19 +217,6 @@
     "Typology/media/objl.png",
     "Typology/media/Unconfirmed 723243.crdownload",
     "Typology/media/obja.png",
-    "Typology/media/Unconfirmed 865999.crdownload",
-    "Typology/media/Unconfirmed 86756.crdownload",
-    "Typology/media/Unconfirmed 218181.crdownload",
-    "Crash Courses/Verilog.md",
-    "Digital Electronics/ChatGPT {O}/03) Arithmetic Logic.md",
-    "Digital Electronics/ChatGPT {O}/08) Interfacing & Abstraction.md",
-    "Digital Electronics/ChatGPT {O}/07) Timing & Hazards.md",
-    "Digital Electronics/ChatGPT {O}/06) Finite State Machines.md",
-    "Digital Electronics/ChatGPT {O}/04) Sequential Logic.md",
-    "Digital Electronics/ChatGPT {O}/05) Flip-Flops & Latches.md",
-    "Digital Electronics/ChatGPT {O}/02) Combinational Logic.md",
-    "Digital Electronics/ChatGPT {O}/01) Boolean Logic.md",
-    "Summaries/Custom {O}/Basic Electronics {C}.md",
-    "Untitled.md"
+    "Crash Courses/Verilog.md"
   ]
 }

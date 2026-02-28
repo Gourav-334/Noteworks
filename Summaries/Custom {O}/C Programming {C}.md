@@ -4,7 +4,7 @@
 
 
 
-## **Topic - 1: Standard I/O**
+## **Chapter - 1: Standard I/O**
 
 ```c
 /* Character I/O */
@@ -27,7 +27,7 @@ scanf("%d %f %c", &num, &fl, &ch);
 
 
 
-## **Topic - 2: Pointers**
+## **Chapter - 2: Pointers**
 
 - **Indirection/dereference operator:** `*`
 - **Dereferencing:** Checking what pointer is pointing to.
@@ -40,7 +40,7 @@ ptr(3);            // 3 is argument to 'func'.
 
 
 
-## **Topic - 3: String Functions**
+## **Chapter - 3: String Functions**
 
 - A string pointer is constant & thus couldn't change.
 
@@ -66,7 +66,7 @@ long int strtol(str);          // Safer alternative to 'atoi()'.
 
 
 
-## **Topic - 4: Structures & Unions**
+## **Chapter - 4: Structures & Unions**
 
 - **Composite data type:** Can contain collection of elements with different data types.
 - **Aggregate data type:** Composite data type
@@ -95,7 +95,7 @@ union accumulator        // Total coverage: 0x0-0x7
 
 
 
-## **Topic - 5: Memory Management**
+## **Chapter - 5: Memory Management**
 
 - `realloc()` could both expand or shrink the memory coverage.
 
@@ -105,7 +105,7 @@ realloc(m, 16);        // 'm' points to memory offset.
 
 
 
-## **Topic - 6: File Handling**
+## **Chapter - 6: File Handling**
 
 - `FILE` is a `typedef`.
 
@@ -132,7 +132,7 @@ fscanf(fptr, "Name: %s, Age: %d", name, age);         // Very unsafe
 
 
 
-## **Topic - 7: Error Handling**
+## **Chapter - 7: Error Handling**
 
 ```c
 /* Exiting */
@@ -157,7 +157,7 @@ fprintf(stderr, "Error code: %d", errno);
 
 
 
-## **Topic - 8: Preprocessor Directives**
+## **Chapter - 8: Preprocessor Directives**
 
 - Preprocessor directives are processed before compilation, so it will work even if inside functions.
 
@@ -195,7 +195,7 @@ printf("%s", TO_STR(123/@$@12));
 
 
 
-## **Topic - 9: Type Qualifiers & Casting**
+## **Chapter - 9: Type Qualifiers & Casting**
 
 - **Type qualifiers:** Keywords used to modify property of variables.
 - 3 type qualifiers - `const`, `volatile`, `restrict`
@@ -226,7 +226,7 @@ float y = (int)(x + 3.5);
 
 
 
-## **Topic - 10: GNU C Compiler**
+## **Chapter - 10: GNU C Compiler**
 
 - The following code is calling as per MSVC calling convention.
 - **MSVC:** Microsoft Visual C++
