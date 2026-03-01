@@ -384,3 +384,88 @@ g++ myfile.c \
 -ltosbitAPI-lreadline-lhistory-lncurses \
 -o myfile
 ```
+
+
+
+## **Chapter - 9: Multithreading**
+
+```cpp
+/* Create & join */
+thread th(func);        // Function assigned to thread.
+th.join();              // Wait for thread to complete execution.
+
+/* Creating thread ID */
+thread::id ID = this_thread::get_pid();
+```
+
+
+
+## **Chapter - 10: Smart Pointers**
+
+```cpp
+/* Smart pointer header */
+#include <memory>
+
+/* Unique pointer */
+unique_ptr<int> ptr(new int(7));        // 'ptr' points to 7
+ptr.reset(new int(9));                  // 7 is freed, 'ptr' points to 9
+int *raw = ptr.release();               // Transfer ownership to a raw ptr
+ptr.get();                              // Get address of object
+ptr2 = move(ptr);                       // Transfer ownership to a unique ptr
+
+/* Shared pointer */
+shared_ptr<int> ptr(new int(7));        // Usual initialization
+shared_ptr<int> ptr2 = ptr;             // Sharing ownership with ptr2
+ptr.reset(new int(9));
+ptr.get();
+ptr.use_count();                        // Number of owners
+ptr.unique();                           // Checks if only one owner
+ptr.swap(ptr2);                         // Transfer ownership to a shared ptr
+
+/* Weak pointers */
+shared_ptr<int> shared(new int(42));
+weak_ptr<int> weak = shared;            // Can't manipulate value, but refer
+weak.lock();                            // Get address of object
+weak.expired();                         // Checks if object still exists
+```
+
+
+
+## **Chapter - 11: Lambda Expressions**
+
+$$ [capture](parameters)\;\rightarrow\;return\_type \{\;body\;\};$$
+
+```cpp
+/* Generic lambda */
+auto add = [](int a, int b) {        // Captures nothing ('[]')
+    x = a+b;
+    return x;
+};
+
+/* Lambda with return type */
+auto add = [](int a, int b) -> int {
+	x = a+b;
+	return x;
+};
+
+/* Using lambda expression */
+int result = add(3, 4);
+```
+
+| Syntax | Meaning                                 | Description           |
+| ------ | --------------------------------------- | --------------------- |
+| `[]`   | Capture nothing                         | Plain                 |
+| `[x]`  | Capture `x` by value                    | Don't change `x`      |
+| `[&x]` | Capture `x` by reference                | Change `x`            |
+| `[=]`  | Capture all used variables by value     | Don't change anything |
+| `[&]`  | Capture all used variables by reference | Change everything     |
+
+```cpp
+/* Value capturing lambda expression */
+auto int = [x]() mutable {
+	x++;
+	return x;
+};
+```
+
+---
