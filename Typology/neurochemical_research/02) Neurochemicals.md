@@ -15,7 +15,7 @@
 >*A neurotransmitter that encodes reward prediction and drives goal-directed behavior.*
 
 
-### 1.2 <u>Endorphins (E)</u>:
+### 1.2 <u>Endorphin (E)</u>:
 
 - Reduce physical pain
 - Produce mild euphoria
