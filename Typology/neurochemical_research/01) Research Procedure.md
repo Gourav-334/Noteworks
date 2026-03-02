@@ -8,9 +8,9 @@
 3. Clarify definitions of cognitive functions (**DONE**)
 4. Simplify function definitions (**DONE**)
 5. Set a scale to represent priorities (**DONE**)
-6. Score each chemical for each function
-7. Design ideal score table for each 16 type
-8. Select most suitable statistical method
+6. List strongly typed popular characters for each type
+7. Get score sheet on their chemical profile by AI
+8. Select most suitable statistical method to apply
 9. Take a sample set for testing via AI
 
 
