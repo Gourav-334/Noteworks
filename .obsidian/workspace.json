@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7cdc43ac123b1be8",
+        "id": "6cf4b63742f16c21",
         "type": "tabs",
         "children": [
           {
-            "id": "48abff26b9bc9c9c",
+            "id": "8fbcce01b662040b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typology/neurochemical_research/01) Research Procedure.md",
+                "file": "Typology/neurochemical_research/03) Scaling & Scoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01) Research Procedure"
-            }
-          },
-          {
-            "id": "05cd33bd81f7c386",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typology/neurochemical_research/05) Testing Series.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "05) Testing Series"
+              "title": "03) Scaling & Scoring"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +170,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05cd33bd81f7c386",
+  "active": "8fbcce01b662040b",
   "lastOpenFiles": [
-    "Typology/neurochemical_research/04) Scaling & Scoring.md",
-    "Typology/neurochemical_research/05) Testing Series.md",
+    "Typology/neurochemical_research/04) Testing Series.md",
+    "Typology/neurochemical_research/03) Scaling & Scoring.md",
+    "Pasted image 20260303221333.png",
+    "Pasted image 20260303221331.png",
+    "Typology/neurochemical_research/03) Cognitive Functions.md",
+    "Typology/neurochemical_research/02) Neurochemicals.md",
+    "Typology/neurochemical_research/01) Research Procedure.md",
     "Pasted image 20260302215113.png",
     "Pasted image 20260302214324.png",
     "Pasted image 20260302214041.png",
@@ -197,16 +187,11 @@
     "Pasted image 20260302212520.png",
     "Pasted image 20260302212434.png",
     "Pasted image 20260302212157.png",
-    "Pasted image 20260302211841.png",
-    "Typology/neurochemical_research/01) Research Procedure.md",
     "Bare-Metal x86/ChatGPT {O}/01) Power On Procedure.md",
-    "Bare-Metal x86/ChatGPT {O}/media/image3.jpg",
     "Bare-Metal x86/ChatGPT {O}/media/Unconfirmed 301342.crdownload",
     "Bare-Metal x86/ChatGPT {O}/media/Unconfirmed 20851.crdownload",
     "Bare-Metal x86/ChatGPT {O}/media/Unconfirmed 30857.crdownload",
     "Bare-Metal x86/ChatGPT {O}/media",
-    "Typology/neurochemical_research/02) Neurochemicals.md",
-    "Typology/neurochemical_research/03) Cognitive Functions.md",
     "Summaries/Custom {O}/C++ Programming {C}.md",
     "Typology/Socionics.md",
     "Typology/Neurotype.md",
@@ -229,7 +214,6 @@
     "Typology/Jungian Typology.md",
     "Bare-Metal x86/Grok {D}/01) Environment Setup.md",
     "Bare-Metal x86/Grok {D}/02) BIOS Boot Sector.md",
-    "Summaries/Custom {O}/UNIX System Calls {C}.md",
     "Typology/media/Unconfirmed 188487.crdownload",
     "Typology/media/Unconfirmed 201603.crdownload",
     "Typology/media/Unconfirmed 477738.crdownload"

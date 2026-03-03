@@ -34,4 +34,31 @@ $$ \text{Matching = 10/15 = 66.66\%} $$
 $$ \text{1-Letter Flip = 3/15 = 20.00\%} $$
 $$ \text{Incompatible = 2/15 = 13.33\%} $$
 
+
+
+## 2. Test - II
+
+
+### 2.1 <u>Testing Details</u>:
+
+| Sno. | Character & Franchise | Resulting Type | Expected Type |  Difference  |
+| :--: | :-------------------- | :------------: | :-----------: | :----------: |
+|  1   | Miles Morales         |     Te-Si      |     Fe-Si     | Incompatible |
+|  2   | Arya Stark            |     Ti-Si      |     Ti-Se     |      -       |
+|  3   | Atticus Finch         |     Ni-Fe      |     Ni-Fe     |      -       |
+|  4   | Elsa                  |     Fe-Ni      |     Ni-Fe     |   J/P flip   |
+|  5   | Kratos                |     Ti-Se      |     Se-Ti     |   J/P flip   |
+|  6   | Wednesday Adams       |     Ne-Ti      |     Ni-Te     | Incompatible |
+|  7   | Percy Jackson         |     Se-Fi      |     Se-Fi     |      -       |
+|  8   | Katara                |     Fe-Ni      |     Fe-Si     |   S/N flip   |
+|  9   | Severus Snape         |     Ni-Te      |     Ni-Te     |      -       |
+|  10  | Arthur Morgan         |     Ti-Se      |     Ti-Se     |      -       |
+
+
+### 2.2 <u>Test Results</u>:
+
+$$ \text{Matching = 5/10 = 50\%} $$
+$$ \text{1-Letter Flip = 3/10 = 30\%} $$
+$$ \text{Incompatible = 2/15 = 20\%} $$
+
 ---
