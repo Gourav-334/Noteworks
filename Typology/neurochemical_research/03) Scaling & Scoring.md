@@ -78,9 +78,16 @@
 
 ### 3.2 <u>IS(F)</u>:
 
-| Sno. | Character | Show/Movie | Total Votes | Dominant Portion | Auxiliary Portion |
-| :--: | :-------- | :--------- | :---------: | :--------------: | :---------------: |
-|      |           |            |             |                  |                   |
+| Sno. | Character                           | Show/Movie                                     | Total Votes | Dominant Portion | Auxiliary Portion |
+| :--: | :---------------------------------- | :--------------------------------------------- | :---------: | :--------------: | :---------------: |
+|      | Shinji Ikari                        | Neon Genesis Evangelion                        |     561     |      62.4%       |       20.1%       |
+|      | Kaedehara Kazuha                    | Genshin Impact                                 |     335     |      56.4%       |       25.1%       |
+|      | Fluttershy                          | My Little Pony: Friendship Is Magic (2010)     |     325     |      51.4%       |       15.9%       |
+|      | Karen Smith                         | Mean Girls (2004)                              |     225     |      69.8%       |       14.2%       |
+|      | Adrien Agreste "Chat Noir"          | Miraculous: Tales of Ladybug & Cat Noir (2015) |     202     |      53.5%       |       25.7%       |
+|      | Yor (Briar) Forger "Thorn Princess" |                                                |     159     |      78.0%       |       5.0%        |
+|      | Jane "Eleven" Hopper                | Stranger Things (2016)                         |     154     |      66.9%       |       26.0%       |
+|      | Sawako Kuronuma                     | Kimi ni Todoke                                 |     122     |      79.5%       |       9.8%        |
 
 
 ### 3.3 <u>ES(T)</u>:
