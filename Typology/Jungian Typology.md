@@ -272,34 +272,4 @@
 }
 ```
 
-
-
-## 7. Personality Types
-
-
-### 7.5 <u>NiTe</u>:
-
-#### 7.5.1 **CHILDHOOD:**
-
-#### 7.5.2 **TEENAGE:**
-
-#### 7.5.3 **ADULTHOOD:**
-
-#### 7.5.4 **INTERESTS:**
-
-#### 7.5.5 **AVERSION:**
-
-
-### 7.10 <u>TiNe</u>:
-
-#### 7.10.1 **CHILDHOOD:**
-
-#### 7.10.2 **TEENAGE:**
-
-#### 7.10.3 **ADULTHOOD:**
-
-#### 7.10.4 **INTERESTS:**
-
-#### 7.10.5 **AVERSION:**
-
 ---
