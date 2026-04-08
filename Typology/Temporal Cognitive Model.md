@@ -130,3 +130,40 @@ $$ \text{Feeling (F) + Introversion (i) = Fi} $$
 *"Cognitive function in which the conscious energy is concentrated on evaluation or judgment of abstract importance by relying on external sources for reference, as an active impression."*
 
 $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
+
+
+
+## 6. Positioning System
+
+
+### 6.1 <u>?</u>:
+
+
+### 6.1 <u>?</u>:
+
+
+### 6.1 <u>?</u>:
+
+
+### 6.1 <u>?</u>:
+
+
+
+## 7. Type Notations
+
+
+
+## 8. Important Note
+
+
+
+## 9. References
+
+
+
+## 10. License
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+---
