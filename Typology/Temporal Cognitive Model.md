@@ -8,10 +8,10 @@ Parul University
 
 ## Abstract
 
-1. Expand definition
-2. Explain how term makes sense
-3. Contrast with stereotypes
-4. Provide an example
+1. Explain how term makes sense
+2. Expand definition
+3. Provide an example
+4. Contrast with stereotypes
 
 
 
@@ -35,12 +35,16 @@ Parul University
 
 ![Dynamic Function Domain](./media/dynamic.png)
 
+It is termed as *dynamic function* for being an active carrier of time, related *"dynamically"* to time. The function domains, and their derivative cognitive function are directly related to flow of time. They can be represented on a timeline ranging from negative infinity to positive infinity, and could refer to past, present, future, or imaginary timeline. They just observe the flow of time from any part of the timeline, without evaluating its contents. For someone using it, the conscious energy flows towards the recall of timeline, or simulating one that doesn't exist or haven't been experienced. For someone who often imagines or often recalls past, they might probably possess a *lens* which is a dynamic function.
+
 
 ### 2.2 <u>Static Function Domains (T/F)</u>:
 
 *"Function domains that are **independent** of **temporal traversal**, focused on the **evaluation** of time frames, and process events in terms of **values**."*
 
 ![Static Function Domain](./media/static.png)
+
+It is termed as *static function* for not actively experiencing flow of time (past, present, future, or imaginary), being *"static"* in relation to it, thus engaging with the values in content that these time frames or the experience brings. These analysis are conducted using any form of values, which might make sense or not, possible to be represented or not, but they are related to values. And these values can be represented in terms of numbers, labels, or preferences, etc. Someone using static function as their *lens* would be concerned about logical, moral, or preference-driven correctness for a system that is being analyzed. Flow of time or alternatives aren't their primary source of energy utilization.
 
 
 
@@ -51,20 +55,36 @@ Parul University
 
 *"Dynamic function domain which processes events based on the **lived timeline**, i.e., directly experienced moments, having **endpoints**."*
 
+![Sensing](./media/s.png)
+
+***Sensing*** is the dynamic function domain in which the conscious energy is concentrated towards recalling or observation of *lived timeline*, which is simply everything that a subject has *experienced* through their *five senses*. So its basically that part of timeline which the subject has gone through, starting from its *birth to the present moment* that is being experienced actively. Those having their lens as a sensing function are often practical, believing in what they have experienced or see themselves. And they might not be very willing to process something that is out of bound from their experienced timeline.
+
 
 ### 3.2 <u>Intuition (N)</u>:
 
 "*Dynamic function domain which processes events based on a **simulated timeline**, i.e., indirectly experienced moments, having **no endpoints**.*"
+
+![Intuition](./media/n.png)
+
+Intuition is the dynamic function domain in which the conscious energy is concentrated towards simulating a timeline that the subject hasn't witnessed through its senses directly. So its basically the function in which the subject refers to the simulated alternative timeline, which it hasn't necessarily gone through. Even in experienced cases, it will prefer simulation of new scenarios. Those having their lens as an intuition function often think out of bounds to their lived or experienced timeline, being imaginative and anticipating truth and foresights, based on real-world or imaginary alternative worlds.
 
 
 ### 3.3 <u>Thinking (T)</u>:
 
 *"Static function domain that processes events in terms of values based on the **structural properties** of the object in focus."*
 
+![Thinking](./media/t.png)
+
+Thinking is the static function domain in which the conscious energy is concentrated towards evaluation of time frames of objects based on values of its structural properties. However, it might be confused as intuition for being related to digging insights. So using thinking function, one might use logical formulae or methods to jump through time frames or simulate it, but not referring to time in its raw form. Those having their lens as a thinking function often analyze a given system or structure for their respective motivations, using values. Values here are related to the properties of logical system, whether measured in size, mass, or performance, etc.
+
 
 ### 3.4 <u>Feeling (F)</u>:
 
 *"Static function domain that processes events in terms of values based on the **abstract importance** of the object in focus."*
+
+![Feeling](./media/f.png)
+
+Feeling is the static function domain in which the conscious energy is concentrated towards evaluation of time frames based on its abstract importance. It is different from thinking given this type of value can't be logically deducted or inferred from any source. These are rather more abstract analysis based on how someone gives it importance, or has strong feeling towards. This is different from sensational feeling, more about norms, morality, or principles, etc. Those having their lens as a feeling function often have strong moral standards or preferences which might not be explainable or provable in terms of logic or efficiency.
 
 
 
