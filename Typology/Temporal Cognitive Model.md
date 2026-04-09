@@ -163,12 +163,20 @@ Extroverted intuition is the cognitive function in which the conscious energy of
 
 $$ \text{Thinking (T) + Introversion (i) = Ti} $$
 
+![Introverted Thinking](./media/ti.png)
+
+Introverted thinking is the cognitive function in which the conscious energy of the subject concentrates on the structural values that subject strongly believes in. Structural values mean anything that refers to the logical properties of an object. This object can be a physical system, theoretical system, an environment, or network of people, etc. Anything where logic can be used to describe the object is considered as a structural value. But those with introverted thinking as their lens, this structural value or logic is very subjective to how they understand about matters. It might not match with structural values that others possess, or even representable on a universal scale. But it is also possible that some people will possess same or similar understanding.
+
 
 ### 5.6 <u>Extroverted Thinking (Te)</u>:
 
 *"Cognitive function in which the conscious energy is concentrated on **evaluation** or **generation** of structural properties by relying on **external sources** for reference, as an **active impression**."*
 
 $$ \text{Thinking (T) + Extroversion (e) = Te} $$
+
+![Extroverted Thinking](./media/te.png)
+
+Extroverted thinking is the cognitive function in which the conscious energy of the subject is focused on the structural properties as defined by external sources. Unlike introverted thinking, extroverted thinking concentrates on universal facts that can be proven with direct inference like statistics, mass poll, or official reports, etc. Or could be derived from existing external sources. Just like introverted thinking, it might choose to analyze, generate, or prove something, etc, but i.e. with universally provable logic, data, and representation. These external sources and facts are latest sources of data, changing immediately if needs or requirements change. But goal of those using this function as their lens can be anything enabled by the way it processes.
 
 
 ### 5.7 <u>Introverted Feeling (Fi)</u>:
@@ -177,12 +185,20 @@ $$ \text{Thinking (T) + Extroversion (e) = Te} $$
 
 $$ \text{Feeling (F) + Introversion (i) = Fi} $$
 
+![Introverted Feeling](./media/fi.png)
+
+Introverted feeling is a cognitive function in which the cognitive energy of the subject concentrates of abstract values that the subject strongly believes in, without relying on externally represented values. They possess personal beliefs which is the stable impression, and based on that they judge an object to categorize, accept, reject, or understand, etc. These values aren't logically describable or representable, using custom or universal scales. But those values work more as preference-based symbolic labels, very abstract in their nature. Someone having their lens as introverted feeling function would judge isolated systems or time frames in terms of how they personally value them, or its contents, without relying on external or universal sources.
+
 
 ### 5.8 <u>Extroverted Feeling (Fe)</u>:
 
 *"Cognitive function in which the conscious energy is concentrated on **evaluation** or **judgment** of abstract importance by relying on **external sources** for reference, as an **active impression**."*
 
 $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
+
+![Extroverted Feeling](./media/fe.png)
+
+Extroverted feeling is a cognitive function in which the conscious energy of the subject is concentrated on abstract values from external sources as latest impressions. Unlike introverted feeling lens users which refer to the internally stabilized impression containing abstract values, extroverted feeling lens users refer to external sources and global rulebooks for values. So some of those references would be what a system or a group collectively values, or what a particular scripture or religious book says about values, etc. But its worth noting that such references aren't limited to groups and scrolls, and using them in right or wrong practices completely depends on its user, not on the function itself.
 
 
 
@@ -199,12 +215,12 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 *"Supporting function to the primary function (**lens**), acting as an **enabling tool** for **execution and refinement** utility to it."*
 
 
-### 6.3 <u>Suppressed</u>:
+### 6.3 <u>Spark</u>:
 
 *"An **inconsistent function** used as an **escape mechanism**, appearing as a balancing function when lens and tool are **overused** for long periods."*
 
 
-### 6.4 <u>Repressed</u>:
+### 6.4 <u>Drain</u>:
 
 *"Unconsciously suppressed function, repressed **to let** the primary function (lens) do its work. It sometimes appears for **brief period** of time yet **most energy-expensive**."*
 
