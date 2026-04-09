@@ -1,4 +1,4 @@
-# Temporal Cognitive Model
+# Temporal Reference Cognition
 
 Gourav Kumar Mallick
 Parul University
@@ -8,21 +8,17 @@ Parul University
 
 ## Abstract
 
-1. Explain how term makes sense
-2. Expand definition
-3. Provide an example
-4. Contrast with stereotypes
-
 
 
 ## 1. Terminologies
 
 
 - **Function:** Shorter term for *cognitive function*.
-- **Cognitive function:** Mode of perception with a direction of focus.
-- **Subject:** Conscious entity which perceives the *object*.
-- **Object:** Content of consciousness which is being perceived by *subject*.
-- **Impression:** A compressed, internally stored representation of repeated perceptions within a domain.
+- **Cognitive function:** Defines how the conscious energy processed an *object* based on a situation.
+- **Subject:** Conscious entity which uses its conscious energy to process an *object*.
+- **Object:** Content of consciousness which is being perceived by *subject*, it could be real or hypothetical scenario which the subject focuses on for any underlying reason.
+- **Impression:** An idea of third-party object the subject focuses on in order to process the primary object.
+- **Leakage:** Use of cognitive function which is not part of a subject's function stack, utilizing a lot of conscious energy but with low concentration and duration.
 
 
 
@@ -202,27 +198,43 @@ Extroverted feeling is a cognitive function in which the conscious energy of the
 
 
 
-## 6. Positioning System
+## 6. Function Stack
 
 
 ### 6.1 <u>Lens</u>:
 
 *"Primary function used by a subject to **color its world view**, running **most of the time** yet utilizing **least of its energy**, and defines their core processing style."*
 
+![Lens](./media/lens.png)
+
+Lens is the primary cognitive function that a subject uses to color its general worldview. Everything that it perceives or witnesses is mostly filtered with this function only. So that means an extroverted sensor would be anchored with real time experiences most of the time actively, and an introverted sensor would be referring to their past experiences most of the time, etc. But in what they utilize those references completely depends on them. As a reminder, this function is one of the 8 cognitive functions formed with function domains and a mode of reference.
+
 
 ### 6.2 <u>Tool</u>:
 
 *"Supporting function to the primary function (**lens**), acting as an **enabling tool** for **execution and refinement** utility to it."*
+
+![Tool](./media/tool.png)
+
+Tool is the secondary cognitive function in a subject's stack which supports and enables the lens function through execution. If the lens is a dynamic function, then tool must be static and vice-versa. And if the lens is introverted, the tool has to be extroverted and vice-versa. It might help to  implement it, to prove it, or to strengthen the speculation, analysis, or judgement of it. So for example, if a subject has introverted intuition as their lens to draw concrete simulated scenarios, then extroverted thinking if that's their tool might help in implementation using defined standards.
 
 
 ### 6.3 <u>Spark</u>:
 
 *"An **inconsistent function** used as an **escape mechanism**, appearing as a balancing function when lens and tool are **overused** for long periods."*
 
+![Spark](./media/spark.png)
+
+Spark is the balancing cognitive function that balances the effects which rise from overuse of lens and tool together. It is partially suppressed, sometimes even unconsciously. It appears as a temporary replacement to the tool. For a dynamic tool function, spark is the other dynamic function. And for static tool, its the other static function. And its mode of reference is opposite to tool's, i.e. same as lens's. So for someone with introverted thinking tool, the extroverted feeling spark might come up inconsistently sometimes.
+
 
 ### 6.4 <u>Drain</u>:
 
 *"Unconsciously suppressed function, repressed **to let** the primary function (lens) do its work. It sometimes appears for **brief period** of time yet **most energy-expensive**."*
+
+![Drain](./media/drain.png)
+
+Drain is the highly suppressed cognitive function which comes up as a compensation to burnout, mental fatigue, or stress, etc. This function is suppressed for a very long duration, and unlike spark it doesn't appear inconsistently, but appears together for a brief amount of time, but with high intensity. It could be considered as a periodical and natural healthy process, or as an unhealthy obsession. If lens is a static function, then drain is the other static function. And if lens is a dynamic function, then drain is the other dynamic function. Its mode of reference is opposite to lens.
 
 
 
@@ -231,8 +243,33 @@ Extroverted feeling is a cognitive function in which the conscious energy of the
 
 ### 7.1 <u>Function Stack</u>:
 
+| Type    |     Callsign      | Lens | Tool | Spark | Drain | Closest Jungian | Closest Socionics |
+| :------ | :---------------: | :--: | :--: | :---: | :---: | --------------: | ----------------: |
+| **RST** |   *"Tradition"*   |  Si  |  Te  |  Fi   |  Ne   |       **IS(T)** |           **SLI** |
+| **RSF** |   *"Nostalgia"*   |  Si  |  Fe  |  Ti   |  Ne   |       **IS(F)** |           **SEI** |
+| **AST** |  *"Experiment"*   |  Se  |  Ti  |  Fe   |  Ni   |       **ES(T)** |           **SLE** |
+| **ASF** |    *"Energy"*     |  Se  |  Fi  |  Te   |  Ni   |       **ES(F)** |           **SEE** |
+| **RNT** |   *"Planning"*    |  Ni  |  Te  |  Fi   |  Se   |       **IN(T)** |           **ILI** |
+| **RNF** |   *"Awareness"*   |  Ni  |  Fe  |  Ti   |  Se   |       **IN(F)** |           **IEI** |
+| **ANT** |   *"Curiosity"*   |  Ne  |  Ti  |  Fe   |  Si   |       **EN(T)** |           **ILE** |
+| **ANF** |     *"Dream"*     |  Ne  |  Fi  |  Te   |  Si   |       **EN(F)** |           **IEE** |
+| **RTS** |   *"Guarding"*    |  Ti  |  Se  |  Ni   |  Fe   |       **IT(S)** |           **LSI** |
+| **RTN** |  *"Improvement"*  |  Ti  |  Ne  |  Si   |  Fe   |       **IT(N)** |           **LII** |
+| **ATS** |     *"Duty"*      |  Te  |  Si  |  Ne   |  Fi   |       **ET(S)** |           **LSE** |
+| **ATN** |    *"Mission"*    |  Te  |  Ni  |  Se   |  Fi   |       **ET(N)** |           **LIE** |
+| **RFS** |  *"Protection"*   |  Fi  |  Se  |  Ni   |  Te   |       **IF(S)** |           **ESI** |
+| **RFN** | *"Understanding"* |  Fi  |  Ne  |  Si   |  Te   |       **IF(N)** |           **EII** |
+| **AFS** |  *"Connection"*   |  Fe  |  Si  |  Ne   |  Ti   |       **EF(S)** |           **ESE** |
+| **AFN** |   *"Community"*   |  Fe  |  Ni  |  Se   |  Ti   |       **EF(N)** |           **EIE** |
+
 
 ### 7.2 <u>Notation Rules</u>:
+
+1. Every type is represented by three letters.
+2. First letter represents the mode of reference for lens function ($R$/$A$).
+3. $R$ stands for resting or introverted mode of reference, while $A$ stands for active or extroverted mode of reference.
+4. Second letter represents the function domain of lens function.
+5. Third letter represents the function domain of tool function.
 
 
 
