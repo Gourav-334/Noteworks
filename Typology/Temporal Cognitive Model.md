@@ -91,14 +91,22 @@ Feeling is the static function domain in which the conscious energy is concentra
 ## 4. Modes Of Reference
 
 
-### 4.1 <u>Introverted (i)</u>:
+### 4.1 <u>Introversion (i)</u>:
 
 *"A mode of reference in which the conscious energy is concentrated at a **resting impression**, relying on a **stable source** of data."*
 
+![Introversion](./media/i.png)
 
-### 4.2 <u>Extroverted (e)</u>:
+Introversion is a mode of reference in which the conscious energy is concentrated on source of impression that is stable and resting in balance. This impression is isn't actively relying on any stimuli or source to be updated with new data. Any changes made to this resting impression is slow and steady. A subject whose lens is introverted in nature, usually engages with a singular stable impression. While what they do with it whether that's creation, formation, speculation, understanding, depends completely on them. For any given function, what's predictable is how that is used by subject to process. Not their intent or goal.
+
+
+### 4.2 <u>Extroversion (e)</u>:
 
 *"Mode of reference in which the conscious energy is concentrated at an **active impression**, relying on the **latest source** of data."*
+
+![Extroversion](./media/e.png)
+
+Extroversion is a mode of reference in which the subject's conscious energy concentrates on latest sources of data. This impression might change actively, as new sources of impression appear. The source of impression can be anything latest, including what someone has recently witnessed, trends, moral values people possess, newest statistical records, manual that has been recently updated with best practices, etc. The subject doesn't rely on itself or its own impressions as his lens, but what impression is latest. Just like those with function as any introverted lens, people with extroverted lens function will use it to process, but what they do after that is completely on them.
 
 
 
@@ -111,12 +119,20 @@ Feeling is the static function domain in which the conscious energy is concentra
 
 $$ \text{Sensing (S) + Introversion (i) = Si} $$
 
+![Introverted Sensing](./media/si.png)
+
+Introverted sensing is the cognitive function in which the conscious energy of the subject concentrates on the part of timeline that subject has personally experienced through his five senses, i.e. in form of sight, taste, hearing, touch, or odors. It is not about their ability of precisely or accurately recalling events, but the act of reference to their memory. Having this as their lens, they will refer to their past experiences time-to-time for making decisions or carrying out activities. But what they do with those reference points completely depends on them. They might not necessarily be stuck in routine or be closed-minded, given its theoretical possible for them to adjust to new conditions by processing new experiences as similar to how their past was.
+
 
 ### 5.2 <u>Extroverted Sensing (Se)</u>:
 
 *"Cognitive function in which the conscious energy is concentrated on the **end of the timeline** in the subject's experience, i.e., the **present moment**, it is facing actively, as an **active impression**."*
 
 $$ \text{Sensing (S) + Extroversion (e) = Se} $$
+
+![Extroverted Sensing](./media/se.png)
+
+Extroverted sensing is the cognitive function in which the conscious energy of the subject is concentrated on the very end of their lived experience, i.e. the present moment. It is because the last lived experience is technically the final time frame that the subject experienced, constantly sticking to the the latest time frame as the recent source of data. Those who have their lens as extroverted sensing, have very high awareness to what's going on around them every now and then. This doesn't necessarily has anything to do with seeking new or exciting experiences, with optimistic or reckless attitude, given its on the motivations of the subject and how they use it. But they don't often concentrate much on past, future consequences, or possibilities.
 
 
 ### 5.3 <u>Introverted Intuition (Ni)</u>:
@@ -125,12 +141,20 @@ $$ \text{Sensing (S) + Extroversion (e) = Se} $$
 
 $$ \text{Intuition (N) + Introversion (i) = Ni} $$
 
+![Introverted Intuition](./media/ni.png)
+
+Introverted intuition is the cognitive function in which the conscious energy of the subject is concentrated on the whole eternal timeline that it simulates. This timeline is something that the subject has possibly never experienced with his senses personally. And even if they have, they will prefer to simulate a separate timeline instead of using their past impressions. This eternal scale allows them to keep the timeline very open, flexible, and able to bring something totally out of the box into perspective no one thought of. But its worth noting that there goal might require not whole simulated timeline. Like any other function, for someone with this function as lens, it completely depends on them how they use this function, and what emotions that evokes.
+
 
 ### 5.4 <u>Extroverted Intuition (Ne)</u>:
 
 *"Cognitive function in which the conscious energy is concentrated on the **end of the timeline** that the **subject simulates**, thus hopping time to time for **no theoretical endpoint** on an eternal scale, as an active impression."*
 
 $$ \text{Intuition (N) + Extroversion (e) = Ne} $$
+
+![Extroverted Intuition](./media/ne.png)
+
+Extroverted intuition is the cognitive function in which the conscious energy of the subject is concentrated on the very end of the simulated eternal timeline. But because the eternal timeline has no starting or ending point, and thus has no theoretical endpoints, the subject hops across the simulated timeline's multiple segments. They might appear changing topics, making multiple predictions, having many interests, etc, all rising from single stimulus. This is different from those with introverted intuition lens, which simulates and focuses on the whole timeline as a single conclusive impression. While extroverted intuition receives one stimulus, and then it starts searching for the endpoint of that timeline, ending up seeing multiple possibilities.
 
 
 ### 5.5 <u>Introverted Thinking (Ti)</u>:
