@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "66954dd4e3c0c363",
+        "id": "a34fa03640a459e1",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd341dc8e91be13",
+            "id": "64ae7fe5e0880efd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typology/Temporal Reference Cognition.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Temporal Reference Cognition"
-            }
-          },
-          {
-            "id": "d4ffb2a5358fa58a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typology/Potentiology.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Potentiology"
+              "title": "New tab"
             }
           }
         ]
@@ -184,36 +166,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1fd341dc8e91be13",
+  "active": "64ae7fe5e0880efd",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
+    "Bare-Metal x86/Hoang {O}/media/image6.png",
+    "Bare-Metal x86/Hoang {O}/media/image5.png",
+    "Bare-Metal x86/Hoang {O}/media/image4.png",
+    "Bare-Metal x86/Hoang {O}/media/image3.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-03 145613.png",
+    "Bare-Metal x86/Hoang {O}/media/image2.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-03 144747.png",
+    "Typology/Temporal Reference Cognition.md",
+    "Typology/Potentiology.md",
     "Typology/media/drain.png",
     "Typology/media/Unconfirmed 372626.crdownload",
     "Typology/media/spark.png",
     "Typology/media/Unconfirmed 734945.crdownload",
     "Typology/media/tool.png",
     "Typology/media/Unconfirmed 617563.crdownload",
-    "Typology/media/lens.png",
     "Typology/media/Unconfirmed 201313.crdownload",
-    "Typology/media/fe.png",
     "Typology/media/Unconfirmed 219151.crdownload",
-    "Typology/media/fi.png",
     "Typology/media/Unconfirmed 834833.crdownload",
-    "Typology/media/te.png",
     "Typology/media/Unconfirmed 949262.crdownload",
-    "Typology/media/ti.png",
     "Typology/media/Unconfirmed 550719.crdownload",
-    "Typology/media/ne.png",
     "Typology/media/Unconfirmed 414621.crdownload",
-    "Typology/media/ni.png",
     "Typology/media/Unconfirmed 66049.crdownload",
-    "Typology/media/se.png",
-    "Typology/Potentiology.md",
-    "Typology/Temporal Reference Cognition.md",
     "Typology/Jungian Typology.md",
     "Typology/VRDW CJTW - 7.md",
     "Typology/neurochemical_research/03) Scaling & Scoring.md",
     "Typology/neurochemical_research/02) Neurochemicals.md",
-    "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/01) Domain Documents.md",
     "Bare-Metal x86/Grok - II {D}/02) x86 Architecture Bedrock.md",
     "Bare-Metal x86/Grok - II {D}/01) Prerequisites.md",
