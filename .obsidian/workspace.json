@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a34fa03640a459e1",
+        "id": "92e574a1ae37ead1",
         "type": "tabs",
         "children": [
           {
-            "id": "64ae7fe5e0880efd",
+            "id": "d67ccffd9e241537",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64ae7fe5e0880efd",
+  "active": "d67ccffd9e241537",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
+    "Bare-Metal x86/Hoang {O}/media/image7.png",
     "Bare-Metal x86/Hoang {O}/media/image6.png",
     "Bare-Metal x86/Hoang {O}/media/image5.png",
     "Bare-Metal x86/Hoang {O}/media/image4.png",
@@ -182,7 +183,6 @@
     "Typology/media/Unconfirmed 372626.crdownload",
     "Typology/media/spark.png",
     "Typology/media/Unconfirmed 734945.crdownload",
-    "Typology/media/tool.png",
     "Typology/media/Unconfirmed 617563.crdownload",
     "Typology/media/Unconfirmed 201313.crdownload",
     "Typology/media/Unconfirmed 219151.crdownload",

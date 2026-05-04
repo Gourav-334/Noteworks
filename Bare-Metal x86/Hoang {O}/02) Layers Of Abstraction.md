@@ -97,3 +97,33 @@
 | LOW  | $X$  | HIGH |
 | $X$  | LOW  | HIGH |
 | HIGH | HIGH | LOW  |
+
+
+### <u>OR Gate In 74HC00</u>
+
+![74HC00 OR Gate](./media/image7.png)
+
+- Similarly, to create four OR gates, we would require four 74HC00 chips.
+
+
+### <u>Assembly Instructions</u>
+
+```nasm
+or <op1>, <op2>          ; Selects correct chip combination
+nand <op1>, <op2>
+```
+
+- Assembly languages are designed in a way that *opcodes* select correct devices or chips to run the program.
+- **<u>Opcode</u>:** Operation code / binary index code
+
+| Instruction | Binary Code |
+| :---------: | :---------: |
+|   `nand`    |    `00`     |
+|    `or`     |    `01`     |
+
+```nasm
+nand 1100, 1100        ; 0011001100
+```
+
+- **<u>Decoder</u>:** Device that decides which device to select further as per operation.
+- ***Apollo Guidance Computer*** produced for *Apollo space program* used purely NOR gates.
