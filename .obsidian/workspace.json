@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "92e574a1ae37ead1",
+        "id": "bcd532735fb281a7",
         "type": "tabs",
         "children": [
           {
-            "id": "d67ccffd9e241537",
+            "id": "2518faa65717d1d4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d67ccffd9e241537",
+  "active": "2518faa65717d1d4",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/media/image7.png",
