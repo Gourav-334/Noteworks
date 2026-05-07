@@ -127,3 +127,14 @@ nand 1100, 1100        ; 0011001100
 
 - **<u>Decoder</u>:** Device that decides which device to select further as per operation.
 - ***Apollo Guidance Computer*** produced for *Apollo space program* used purely NOR gates.
+
+
+
+## **Topic - 4: Abstraction**
+
+### <u>Domain-Specific Languages</u>
+
+- In Linux, applications controlled by domain-specific languages are stored in `/etc`.
+- **<u>Programmable Programming Language</u>:** A language which can morph itself as another language to suit the problem domain.
+
+---

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcd532735fb281a7",
+        "id": "db694a9e8c22c0e6",
         "type": "tabs",
         "children": [
           {
-            "id": "2518faa65717d1d4",
+            "id": "170fa773a6fcb8f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2518faa65717d1d4",
+  "active": "170fa773a6fcb8f3",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
+    "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
     "Bare-Metal x86/Hoang {O}/media/image7.png",
     "Bare-Metal x86/Hoang {O}/media/image6.png",
     "Bare-Metal x86/Hoang {O}/media/image5.png",
@@ -190,7 +192,6 @@
     "Typology/media/Unconfirmed 949262.crdownload",
     "Typology/media/Unconfirmed 550719.crdownload",
     "Typology/media/Unconfirmed 414621.crdownload",
-    "Typology/media/Unconfirmed 66049.crdownload",
     "Typology/Jungian Typology.md",
     "Typology/VRDW CJTW - 7.md",
     "Typology/neurochemical_research/03) Scaling & Scoring.md",
