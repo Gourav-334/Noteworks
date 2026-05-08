@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db694a9e8c22c0e6",
+        "id": "7fbca9e170912a70",
         "type": "tabs",
         "children": [
           {
-            "id": "170fa773a6fcb8f3",
+            "id": "678f0a3ac8d75b5b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,24 +166,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "170fa773a6fcb8f3",
+  "active": "678f0a3ac8d75b5b",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
+    "Bare-Metal x86/Hoang {O}/media/image11.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-08 192714.png",
+    "Bare-Metal x86/Hoang {O}/media/image10.png",
+    "Bare-Metal x86/Hoang {O}/media/image9.png",
+    "Bare-Metal x86/Hoang {O}/media/image8.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-08 121645.png",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
     "Bare-Metal x86/Hoang {O}/media/image7.png",
     "Bare-Metal x86/Hoang {O}/media/image6.png",
     "Bare-Metal x86/Hoang {O}/media/image5.png",
     "Bare-Metal x86/Hoang {O}/media/image4.png",
-    "Bare-Metal x86/Hoang {O}/media/image3.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-03 145613.png",
-    "Bare-Metal x86/Hoang {O}/media/image2.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-03 144747.png",
     "Typology/Temporal Reference Cognition.md",
     "Typology/Potentiology.md",
-    "Typology/media/drain.png",
     "Typology/media/Unconfirmed 372626.crdownload",
-    "Typology/media/spark.png",
     "Typology/media/Unconfirmed 734945.crdownload",
     "Typology/media/Unconfirmed 617563.crdownload",
     "Typology/media/Unconfirmed 201313.crdownload",
@@ -212,7 +212,6 @@
     "Bare-Metal Programming/Blundell {O}/Untitled.md",
     "Bare-Metal x86/Blundell {D}/02) Boot Process.md",
     "Bare-Metal x86/Blundell {D}/01) Introduction.md",
-    "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
-    "Bare-Metal x86/Grok {D}/03) Entering Protected Mode.md"
+    "Summaries/Custom {O}/Bare-Metal Programming {O}.md"
   ]
 }
