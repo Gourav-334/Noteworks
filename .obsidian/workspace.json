@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7fbca9e170912a70",
+        "id": "ceb9cd122b21ef7d",
         "type": "tabs",
         "children": [
           {
-            "id": "678f0a3ac8d75b5b",
+            "id": "852cd6d57d1d5367",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "678f0a3ac8d75b5b",
+  "active": "852cd6d57d1d5367",
   "lastOpenFiles": [
+    "Crash Courses/Competitive Coding.md",
     "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Bare-Metal x86/Hoang {O}/media/image11.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-08 192714.png",
