@@ -296,10 +296,121 @@ VER_2.0 {
 
 ### <u>TLS Sections</u>
 
-| Section            | Purpose                             |
-| :----------------- | :--------------------------------- |
-| `.tdata`           | Initialized TLS da                  |
-| `.tbss`            | Uninitialized TLS d             a   |
-| `.init_array`, e Used during dynamic TLS allocation TLS  |
+|      Section       | Purpose                            |
+| :----------------: | ---------------------------------- |
+|      `.tdata`      | Initialized TLS data               |
+|      `.tbss`       | Uninitialized TLS data             |
+| `.init_array`, etc | Used during dynamic TLS allocation |
+
+
+
+## **Topic - 7: Binary Code Translation**
+
+### <u>Machine Code & Binary Representation</u>
+
+- For an x86 instruction, it has range of $[1,15]$ bytes.
+- **Operand:** Involved data in an operation.
+- **Immediate:** A literal value in instruction.
+- **Displacement:** A memory offset
+- For registers & certain assembly instructions, their binary size & involved encodings may vary.
+
+
+### <u>x86 Instruction Set Architecture</u>
+
+| Element           | About                                            |
+| :---------------- | :----------------------------------------------- |
+| Optional prefixes | For segment override, repeat, operand size, etc. |
+| Opcode byte(s)    | Takes about 1-3 bytes.                           |
+| ModR/M byte       | If operand has register or memory.               |
+| SIB byte          | If complex addressing is required.               |
+| Displacement      | If memory offset is required.                    |
+| Immediate         | A literal value.                                 |
+
+| Part | Size  | Usage                   |
+| :--: | :---: | :---------------------- |
+| Mod  | 2-bit | Addressing mode         |
+| Reg  | 3-bit | Register operand        |
+| R/M  | 3-bit | Memory/register operand |
+
+
+### <u>Instruction Example</u>
+
+- `mov eax, ebx` $\rightarrow$ `MOV r/m32, r32` $\rightarrow$ `89 D8`
+- `89` = `mov`
+- `D8` = `eax, ebx`
+
+>**<u>NOTE</u>:**
+>1. Little-endian ***only*** affects the order of how values in containers are read, i.e. backwards.
+>2. It ***doesn't*** affect how the instructions are read, i.e. forward.
+
+
+
+## **Topic - 8: Structure Of ELF**
+
+### <u>ELF File Overview</u>
+
+- **Logical/programmer view:** Set of *sections* useful for compilers/linkers.
+- For example, `.text`, `.data`, `.bss`, `.rodata`, etc.
+- **Runtime/loader view:** Set of *segments* useful for OS loader.
+- For example, `LOAD`, `DYNAMIC`, etc.
+
+
+### <u>ELF Header</u>
+
+- Starts from `0` and of $64$ bytes.
+- It describes file type, architecture, entry point, address to program/section header.
+- **Embedded fields -** `e_ident`, `e_type`, `e_machine`, `e_entry`, `e_phoff`, `e_phoff`, `e_flags`, `e_ehsize`, `e_phentsize`, `e_phnum`, `e_shentsize`, `e_shnum`, `e_shstrndx`.
+
+
+### <u>Program Header Table</u>
+
+- Starts from the address stored at `phoff`.
+- It guides loader to map segments to memory (one PHT for each segment).
+- **Embedded fields -** `p_type`, `p_offset`, `p_vaddr`, `p_paddr`, `p_filesz`, `p_memsz`, `p_flags`, `p_align`.
+
+
+### <u>Section Header Table</u>
+
+- Starts from the address stored at `e_shoff`.
+- Guides linkers & debuggers in linking & symbol resolution (one SHT for each section).
+- **Embedded fields -** `sh_name`, `sh_type`, `sh_flags`, `sh_addr`, `sh_offset`, `sh_size`, `sh_link`, `sh_info`, `sh_addralign`, `sh_entsize`.
+
+
+### <u>Symbol Table</u>
+
+- Used by linker & debugger to map functions & variables to their addresses.
+- **Embedded fields -** `st_name`, `st_info`, `st_info`, `st_other`, `st_shndx`, `st_value`, `st_size`.
+
+
+### <u>Relocation Entries</u>
+
+- Used by linker to patch addresses.
+- **Format -** `.rela.<section>` or `.rel.<section>`
+- **Embedded fields -** `r_offset`, `r_info`, `r_addend`.
+
+
+### <u>Dynamic Section</u>
+
+- Used by dynamic linker for shared libraries.
+- **Embedded tags -** `DT_NEEDED`, `DT_PLTRELSZ`, `DT_JMPREL`, `DT_SYMTAB`, `DT_STRTAB`.
+
+
+### <u>ELF Binary Organization</u>
+
+```
+ELF Header
+Program Header Table
+Section Header Table (for linker/debugger)
+
++----------------+  
+| .text          |  <- executable code
+| .rodata        |  <- constants
+| .data          |  <- initialized vars
+| .bss           |  <- zero-initialized vars
+| .symtab/.strtab|  <- symbols
+| .rela/.rel     |  <- relocations
+| .dynamic       |  <- dynamic linking info
++----------------+
+```
 
 ---
