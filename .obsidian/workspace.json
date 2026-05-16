@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "444798a40c6c2e1d",
+        "id": "048afb332d2ca7e8",
         "type": "tabs",
         "children": [
           {
-            "id": "343d3fdb566a15e0",
+            "id": "952b2e09a8a993ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,15 +166,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "343d3fdb566a15e0",
+  "active": "952b2e09a8a993ad",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
+    "Bare-Metal x86/Hoang {O}/media/image13.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-16 153414.png",
+    "Bare-Metal x86/Hoang {O}/media/image12.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-16 113748.png",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Summaries/Custom {O}/Executable & Linking Format {C}.md",
     "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
     "Executable & Linking Format/ChatGPT {O}/7) Binary Code Translation.md",
     "Executable & Linking Format/ChatGPT {O}/9) Summary.md",
     "Crash Courses/Competitive Coding.md",
-    "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Bare-Metal x86/Hoang {O}/media/image11.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-08 192714.png",
     "Bare-Metal x86/Hoang {O}/media/image10.png",
@@ -183,10 +187,6 @@
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-08 121645.png",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
-    "Bare-Metal x86/Hoang {O}/media/image7.png",
-    "Bare-Metal x86/Hoang {O}/media/image6.png",
-    "Bare-Metal x86/Hoang {O}/media/image5.png",
-    "Bare-Metal x86/Hoang {O}/media/image4.png",
     "Typology/Temporal Reference Cognition.md",
     "Typology/Potentiology.md",
     "Typology/media/Unconfirmed 372626.crdownload",
@@ -212,7 +212,6 @@
     "Typology/neurochemical_research/04) Testing Series.md",
     "Typology/neurochemical_research/01) Research Procedure.md",
     "Typology/neurochemical_research/03) Cognitive Functions.md",
-    "Typology/Socionics.md",
-    "Typology/Neurotype.md"
+    "Typology/Socionics.md"
   ]
 }
