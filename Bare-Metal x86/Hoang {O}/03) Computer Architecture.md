@@ -141,8 +141,52 @@ $$ \framebox[7cm]{Hardware} $$
 
 ## **Topic - 3: x86 Architecture**
 
+### <u>Introduction</u>
+
 - **<u>Chipset</u>:** Set of chips, where each has a different purpose or function.
 - For example, memory controller, graphic controller, network controller, power controller, etc.
 - Hardware devices on a desktop computer are connected through *motherboard* PCB.
 - CPU and motherboard must be compatible with each other, where each motherboards is defined by its chipset model.
-- 
+
+
+### <u>Motherboard Slots</u>
+
+- At least one slot for CPU
+- Two chipsets called northbridge and southbridge chips
+- Memory stick slots
+- At least one slot for graphic card
+- Generic slot for other devices (network card, sound card)
+- Ports for I/O devices
+
+>**<u>NOTE</u>:**
+>***Northbridge chip*** is used for high-performance communication (among CPU, GPU, and memory).
+>***Southbridge chip*** is used for other form of communication (among I/O devices).
+
+
+### <u>Operating System</u>
+
+- OS is written by programming both the CPU and the connected devices.
+- Primary responsibility of an OS is to manage internal memory & communicate I/O through pins.
+
+![Motherboard Organization](./media/image14.png)
+
+- This interface matches to how Intel's *Q35* chipset is organized.
+
+
+
+## **Topic - 4: x86 Execution Environment**
+
+### <u>Introduction</u>
+
+- **<u>Execution environment</u>:** Environment with facility to make executable code.
+
+
+### <u>Compulsory Factors</u>
+
+- Supported operations
+- Places to store operands
+- Maximum number of operands
+- Type of operands
+- Allowed sizes of operands
+
+---
