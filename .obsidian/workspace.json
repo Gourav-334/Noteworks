@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "881709beceb1150b",
+        "id": "3e4b2bba53db3d4e",
         "type": "tabs",
         "children": [
           {
-            "id": "4a34bbdcfbce7df5",
+            "id": "22c61913c04eea41",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a34bbdcfbce7df5",
+  "active": "22c61913c04eea41",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Typology/Temporal Reference Cognition.md",
+    "Typology/Temperaments.md",
+    "Typology/Research On Dominating Types.md",
+    "Typology/media/3rd.png",
+    "Typology/media/Unconfirmed 684344.crdownload",
+    "Typology/media/2nd.png",
+    "Typology/media/Unconfirmed 718226.crdownload",
+    "Typology/media/1st.png",
+    "Typology/media/Unconfirmed 209746.crdownload",
+    "Typology/media/0th.png",
+    "Typology/media/Unconfirmed 57530.crdownload",
     "Bare-Metal x86/Hoang {O}/media/image16.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-19 185205.png",
     "Bare-Metal x86/Hoang {O}/media/image15.png",
@@ -177,10 +188,6 @@
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Bare-Metal x86/Hoang {O}/media/image14.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-18 100437.png",
-    "Bare-Metal x86/Hoang {O}/media/image13.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-16 153414.png",
-    "Bare-Metal x86/Hoang {O}/media/image12.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-16 113748.png",
     "Executable & Linking Format/ChatGPT {O}/6) Advanced ELF Topics.md",
     "Summaries/Custom {O}/Executable & Linking Format {C}.md",
     "Executable & Linking Format/ChatGPT {O}/8) Structure Of ELF.md",
@@ -189,17 +196,12 @@
     "Crash Courses/Competitive Coding.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
-    "Typology/Temporal Reference Cognition.md",
     "Typology/Potentiology.md",
     "Typology/media/Unconfirmed 372626.crdownload",
     "Typology/media/Unconfirmed 734945.crdownload",
     "Typology/media/Unconfirmed 617563.crdownload",
     "Typology/media/Unconfirmed 201313.crdownload",
     "Typology/media/Unconfirmed 219151.crdownload",
-    "Typology/media/Unconfirmed 834833.crdownload",
-    "Typology/media/Unconfirmed 949262.crdownload",
-    "Typology/media/Unconfirmed 550719.crdownload",
-    "Typology/media/Unconfirmed 414621.crdownload",
     "Typology/Jungian Typology.md",
     "Typology/VRDW CJTW - 7.md",
     "Typology/neurochemical_research/03) Scaling & Scoring.md",
@@ -211,7 +213,6 @@
     "Summaries/Custom {O}/C++ Programming {C}.md",
     "Bare-Metal x86/ChatGPT {D}/02) Small UEFI Program.md",
     "Bare-Metal x86/ChatGPT {D}/01) Power On Procedure.md",
-    "Typology/neurochemical_research/04) Testing Series.md",
-    "Typology/neurochemical_research/01) Research Procedure.md"
+    "Typology/neurochemical_research/04) Testing Series.md"
   ]
 }

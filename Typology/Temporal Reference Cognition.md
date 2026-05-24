@@ -9,7 +9,7 @@ Parul University
 ## Abstract
 
 
-*Temporal Reference Cognition (TRC)* proposes a generative, mechanistic framework for modeling human cognition by decomposing cognitive functions into three orthogonal primitives: **function domains** (Sensing/Intuition as dynamic timeline processors; Thinking/Feeling as static evaluative processors), and **modes of reference** (Introversion/Extroversion as internally stabilized versus externally updated reference frames). Within this model, each cognitive function is constructed as a composition of a processing domain and a reference mode, enabling all eight classical functions to be **derived rather than described**. TRC further introduces a hierarchical function stack, comprising **lens** (primary processor), **tool** (stabilizing executor), **spark** (inconsistent compensatory function), and **drain** (repressed high-cost function), to explain cognitive prioritization, adaptation, and failure under sustained use or stress. By reframing perception as **timeline traversal** and judgment as **value assignment independent of temporal flow**, the model unifies previously fragmented interpretations of intuition (e.g., creativity, foresight, branching) and thinking/feeling (e.g., correctness vs. importance) into a coherent system. The framework also introduces a compact three-letter notation encoding reference mode and functional domains, allowing systematic derivation of 16 stable cognitive configurations while remaining extensible to non-ideal or distorted states. Compared to existing typological systems, TRC emphasizes **structural clarity, minimal primitives, and generative capability**, providing a foundation for modeling cognition beyond descriptive typologies.
+_Temporal Reference Cognition (TRC)_ proposes a generative, mechanistic framework for modeling human cognition that differs from Jungian theory, Socionics, and MBTI by deriving cognitive functions from minimal compositional primitives rather than treating them as descriptive archetypes. The model decomposes cognition into three orthogonal primitives: **function domains** (Sensing/Intuition as dynamic timeline processors; Thinking/Feeling as static evaluative processors), and **modes of reference** (Introversion/Extroversion as internally stabilized versus externally updated reference frames). Within this architecture, each cognitive function emerges as a composition of a processing domain and a reference mode, enabling all eight classical functions to be **systematically derived rather than loosely interpreted**. TRC further introduces a hierarchical function stack comprising **lens** (primary processor), **tool** (stabilizing executor), **spark** (inconsistent compensatory function), and **drain** (repressed high-cost function), allowing cleaner analysis of cognitive prioritization, adaptation, workspace compatibility, and energetic failure under prolonged stress through recursive processing loops. By reframing perception as **timeline traversal** and judgment as **value assignment independent of temporal flow**, the framework unifies fragmented interpretations of intuition (e.g., foresight, branching, creativity) and thinking/feeling (e.g., correctness versus importance) into a coherent temporal-processing system. TRC also introduces a compact three-letter notation encoding reference mode and functional domains, enabling systematic derivation of 16 stable cognitive configurations while remaining extensible to distorted or non-ideal states. Compared to existing typological systems, TRC emphasizes **structural clarity, temporal mechanics, minimal primitives, safe component decomposition, and generative capability**, providing a scalable foundation for cognition modeling beyond descriptive personality typologies.
 
 
 
@@ -22,6 +22,7 @@ Parul University
 - **Object:** Content of consciousness which is being perceived by *subject*, it could be real or hypothetical scenario which the subject focuses on for any underlying reason.
 - **Impression:** An idea of third-party object the subject focuses on in order to process the primary object.
 - **Leakage:** Use of cognitive function which is not part of a subject's function stack, utilizing a lot of conscious energy but with low concentration and duration.
+- **Forgery:** Special way to use cognitive functions to replace the reliance on other function in same domain with opposite mode of reference. Most useful in workspace energy loop theory.
 
 
 
@@ -120,7 +121,7 @@ $$ \text{Sensing (S) + Introversion (i) = Si} $$
 
 ![Introverted Sensing](./media/si.png)
 
-***Introverted sensing*** is the *cognitive function* in which the conscious energy of the subject concentrates on the part of timeline that subject has *personally experienced* through his five senses, i.e. in form of *sight*, *taste*, *hearing*, *touch*, or *odors*. It is *not* about their ability of precisely or accurately recalling events, but the *act of reference* to their memory itself. Having this as their lens, they will refer to their *past experiences* time-to-time for making decisions or carrying out activities. But what they do with those reference points completely depends on them. They might not necessarily be stuck in routine or be closed-minded, given its theoretical possible for them to adjust to new conditions by processing new experiences as how it is similar to their past.
+***Introverted sensing*** is the *cognitive function* in which the conscious energy of the subject concentrates on the part of timeline that subject has *personally experienced* through his five senses, i.e. in form of *sight*, *taste*, *hearing*, *touch*, or *odors*. It is *not* about their ability of precisely or accurately recalling events, but the *act of reference* to their memory itself. Having this as their lens, they will refer to their *past experiences* time-to-time for making decisions or carrying out activities. But what they do with those reference points completely depends on them. They might not necessarily be stuck in routine or be closed-minded, given its theoretical possible for them to adjust to new conditions by processing new experiences as how it is similar to their past. Not necessarily, but this function is very much responsible for evoking the sense of *nostalgia*.
 
 
 ### 5.2 <u>Extroverted Sensing (Se)</u>:
@@ -131,7 +132,7 @@ $$ \text{Sensing (S) + Extroversion (e) = Se} $$
 
 ![Extroverted Sensing](./media/se.png)
 
-***Extroverted sensing*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the *very end* of their lived experience, i.e. the *present moment*. It is because the last lived experience is technically the final time frame that the subject experienced, constantly sticking to the the *latest time frame* as the recent source of data. Those who have their *lens* as extroverted sensing, have very high awareness to what's going on around them every now and then. This *doesn't* necessarily has anything to do with seeking new or exciting experiences, with optimistic or reckless attitude, given its on the motivations of the subject and how they use it. But they don't often concentrate much on past, future consequences, or possibilities.
+***Extroverted sensing*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the *very end* of their lived experience, i.e. the *present moment*. It is because the last lived experience is technically the final time frame that the subject experienced, constantly sticking to the the *latest time frame* as the recent source of data. Those who have their *lens* as extroverted sensing, have very high awareness to what's going on around them every now and then. This *doesn't* necessarily has anything to do with seeking new or exciting experiences, with optimistic or reckless attitude, given its on the motivations of the subject and how they use it. But they don't often concentrate much on past, future consequences, or possibilities. Its completely on the subject to focus on it without caring for *consequences*, or use it to *control them*.
 
 
 ### 5.3 <u>Introverted Intuition (Ni)</u>:
@@ -142,7 +143,7 @@ $$ \text{Intuition (N) + Introversion (i) = Ni} $$
 
 ![Introverted Intuition](./media/ni.png)
 
-***Introverted intuition*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the *whole eternal timeline* that it simulates. This timeline is something that the subject has possibly never experienced with his senses personally. And even if they have, they will *prefer to simulate* a separate timeline instead of using their past impressions. This eternal scale allows them to keep the timeline very open, flexible, and able to bring something *totally out of the box* into perspective no one thought of. But its worth noting that there goal might not require whole simulated timeline. Like any other function, for someone with this function as lens, it completely depends on them how they use this function, and what emotions that evokes.
+***Introverted intuition*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the *whole eternal timeline* that it simulates. This timeline is something that the subject has possibly never experienced with his senses personally. And even if they have, they will *prefer to simulate* a separate timeline instead of using their past impressions. This eternal scale allows them to keep the timeline very open, flexible, and able to bring something *totally out of the box* into perspective no one thought of. But its worth noting that there goal might not require whole simulated timeline. Like any other function, for someone with this function as lens, it depends on them how they use this function, and what emotions that evokes. Its open-ended and aligned with *world's* trajectory instead of closed systems, sometimes as strong gut feeling.
 
 
 ### 5.4 <u>Extroverted Intuition (Ne)</u>:
@@ -153,7 +154,7 @@ $$ \text{Intuition (N) + Extroversion (e) = Ne} $$
 
 ![Extroverted Intuition](./media/ne.png)
 
-***Extroverted intuition*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the very *end of the simulated eternal* timeline. But because the eternal timeline has no starting or ending point, and thus has *no theoretical endpoints*, the subject *hops* across the simulated timeline's *multiple segments*. They might appear changing topics, making multiple predictions, having many interests, etc, all rising from *single stimulus*. This is different from those with introverted intuition *lens*, which simulates and focuses on the whole timeline as a *single conclusive impression*. While extroverted intuition receives one stimulus, and then it starts searching for the endpoint of that timeline, ending up simulating *multiple possibilities*.
+***Extroverted intuition*** is the *cognitive function* in which the conscious energy of the subject is concentrated on the very *end of the simulated eternal* timeline. But because the eternal timeline has no starting or ending point, and thus has *no theoretical endpoints*, the subject *hops* across the simulated timeline's *multiple segments*. They might appear changing topics, making multiple predictions, having many interests, etc, all rising from *single stimulus*. This is different from those with introverted intuition *lens*, which simulates and focuses on the whole timeline as a *single conclusive impression*. While extroverted intuition receives one stimulus, and then it starts searching for the endpoint of that timeline, ending up simulating *multiple possibilities*. What makes this lens different from those with it at lower position is disconnection among changing object itself.
 
 
 ### 5.5 <u>Introverted Thinking (Ti)</u>:
@@ -164,7 +165,7 @@ $$ \text{Thinking (T) + Introversion (i) = Ti} $$
 
 ![Introverted Thinking](./media/ti.png)
 
-***Introverted thinking*** is the *cognitive function* in which the conscious energy of the subject concentrates on the *structural values* that subject *strongly believes* in. Structural values mean anything that refers to the *logical properties* of an object. This object can be a physical system, theoretical system, an environment, or network of people, etc. Anything where logic can be used to *describe* the object is considered as a structural value. But those with introverted thinking as their lens, this structural value or logic is very subjective to how they understand about various matters. It might not match with structural values that others possess, or even representable on a *universal* scale. But it is also possible that some people will possess same or similar understanding.
+***Introverted thinking*** is the *cognitive function* in which the conscious energy of the subject concentrates on the *structural values* that makes *sense logically* to the subject. Structural values mean anything that refers to the *logical properties* of an object. This object can be a physical system, theoretical system, an environment, or network of people, etc. Anything where logic can be used to *describe* the object is considered as a structural value. But those with introverted thinking as their lens, this structural value or logic is very subjective to how they understand about various matters. It might not match with structural values that others possess, or even representable on a *universal* scale. But it is also possible that some people will possess same or similar understanding. This somehow may risk sacrificing real-world operational optimization.
 
 
 ### 5.6 <u>Extroverted Thinking (Te)</u>:
@@ -175,7 +176,7 @@ $$ \text{Thinking (T) + Extroversion (e) = Te} $$
 
 ![Extroverted Thinking](./media/te.png)
 
-***Extroverted thinking*** is the *cognitive function* in which the conscious energy of the subject is focused on the *structural properties* as defined by *external sources*. Unlike *introverted thinking*, extroverted thinking concentrates on *universal facts* that can be proven with direct *inference* like statistics, mass poll, or official reports, etc. Or could be *derived* from existing external sources. Just like introverted thinking, it might choose to *analyze*, *generate*, or *prove* something, etc, but i.e. with *universally provable logic*, data, and representation. These external sources and facts are latest sources of data, *changing immediately* if needs or requirements change. But goal of those using this function as their lens can be anything enabled by the way it processes.
+***Extroverted thinking*** is the *cognitive function* in which the conscious energy of the subject is focused on the *structural properties* as defined by *external sources*. Unlike *introverted thinking*, extroverted thinking concentrates on *working logic* in outside world that can be proven with direct *inference* like statistics, mass poll, or official reports, etc. Or could be *derived* from existing external sources. Just like introverted thinking, it might choose to *analyze*, *generate*, or *prove* something, etc, but i.e. without having to make sense of it to trust it, trust rather comes from its proven mettle or mass usage. These external sources and facts are latest sources of data, *changing immediately* if needs or requirements change. But goal of those using this function as their lens can be anything enabled by the way it processes. This may somehow risk theoretical correctness or scalability.
 
 
 ### 5.7 <u>Introverted Feeling (Fi)</u>:
@@ -186,7 +187,7 @@ $$ \text{Feeling (F) + Introversion (i) = Fi} $$
 
 ![Introverted Feeling](./media/fi.png)
 
-***Introverted feeling*** is a *cognitive function* in which the cognitive energy of the subject concentrates of *abstract values* that the subject *strongly believes* in, without relying on *externally represented values*. They possess *personal beliefs* which is the *stable impression*, and based on that they judge an object to categorize, accept, reject, or understand, etc. These values *aren't logically describable or representable*, using custom or universal scales. But those values work more as preference-based symbolic labels, very abstract in their nature. Someone having their lens as introverted feeling function would judge *isolated systems* or *time frames* in terms of how they personally value them, or its contents, without relying on external or universal sources.
+***Introverted feeling*** is a *cognitive function* in which the cognitive energy of the subject concentrates of *abstract values* that the subject *strongly believes* in, without relying on *externally represented values*. They possess *personal beliefs* which is the *stable impression*, and based on that they judge an object to categorize, accept, reject, or understand, etc. These values *aren't logically describable or representable*, using custom or universal scales. But those values work more as preference-based symbolic labels, very abstract in their nature. Someone having their lens as introverted feeling function would judge *isolated systems* or *time frames* in terms of how they personally value them, or its contents, without relying on external or universal sources. Its not that they are willingly rude to people for mismatch in values, but they are their *own filter* for value-based judgement.
 
 
 ### 5.8 <u>Extroverted Feeling (Fe)</u>:
@@ -197,7 +198,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 
 ![Extroverted Feeling](./media/fe.png)
 
-***Extroverted feeling*** is a *cognitive function* in which the conscious energy of the subject is concentrated on *abstract values* from *external sources* as *latest impressions*. Unlike introverted feeling *lens* users which refer to the internally stabilized impression containing abstract values, extroverted feeling lens users refer to *external sources* and *global rulebooks* for values. So some of those references could be what a system or a group *collectively* values, or what a particular *scripture* or *religious book* says about values, etc. But its worth noting that such references aren't limited to groups and scrolls, and using them in right or wrong practices completely depends on its user, not on the function itself.
+***Extroverted feeling*** is a *cognitive function* in which the conscious energy of the subject is concentrated on *abstract values* from *external sources* as *latest impressions*. Unlike introverted feeling *lens* users which refer to the internally stabilized impression containing abstract values, extroverted feeling lens users refer to *external sources* and *global rulebooks* for values. So some of those references could be what a system or a group *collectively* values, or what a particular *scripture* or *religious book* says about values, etc. In simple language, their filter of judging object is not within them, but in *outside world*. But its worth noting that such references aren't limited to groups and scrolls, and using them in right or wrong practices completely depends on its user, not on the function itself.
 
 
 
@@ -241,10 +242,50 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 
 
 
-## 7. Type Notations
+## 7. Workspace Energy Loops
 
 
-### 7.1 <u>Function Stack</u>:
+### 7.1 <u>0th Degree Stress</u>:
+
+*"**Most normal** environment for a subject, where they have to primarily rely on **Lens-Tool** loop to carry-on their objective of workspace. They thrive here for **most natural alignment** with their processing style. Its also **least draining** energy-wise for them on long run."*
+
+![0th Degree Stress](./media/0th.png)
+
+We will take $RTN$ as an example to answer how it works. Naturally $RTN$ are aligned to use $Ti-Ne$ loop *without spending* a lot of mental energy. This would typically include environment where they need to rely on their *personal clarity* and *custom methods* to analyze or generate closed systems with logical principles ($Ti$). And to aid or balance their analysis or generation of structural properties, they would simulate a timeline of working system at *various points* of the timeline in search of latest frame ($Ne$), and then refine their model accordingly.
+
+
+### 7.2 <u>1st Degree Stress</u>:
+
+*"**Quite manageable** environment for a subject, where they have to primarily rely on **Lens-Spark** loop to carry-on their objective of workspace. Required processing style **somewhat aligns** with their natural way. It consumes comparatively more energy than **0th degree stress** environment.*"
+
+![1st Degree Stress](./media/1st.png)
+
+Continuing the $RTN$ example, sometimes $RTN$ are compelled to use $Ti-Si$ loop *without spending* a truly significant amount of mental energy. This would typically include environment where they need to rely on their *personal clarity* and *custom methods* to analyze or generate closed systems with logical principles ($Ti$). And to aid or balance their analysis or generation of structural properties, they have to recall their *past experiences* and *sensory recalls*, *spiraling within psyche* for having two resting/introverted functions, and then refine their model accordingly.
+
+
+### 7.3 <u>2nd Degree Stress</u>:
+
+*"**Visibly straining** environment for a subject, where they have to primarily rely on **Drain-Spark** loop to carry-on their objective of workspace. Required processing style **clearly misaligns** with their natural way. It consumes comparatively more energy than **1st degree stress** environment.*"
+
+![2nd Degree Stress](./media/2nd.png)
+
+Continuing the $RTN$ example, it becomes quite considerable to change workspace if it forces subject to use $Fe-Si$ loop which spends quite *significant mental energy*. This would typically include environment where they need to rely on *external sources* to *adopt abstract values* of a given system ($Fe$). And to aid or balance their analysis or generation of structural properties, they have to recall their past experiences and sensory recalls. Even if *more costly* in terms of mental energy than $Ti-Si$, it somehow provides more balance among usage of functions.
+
+
+### 7.4 <u>3rd Degree Stress</u>:
+
+*"**Most mentally exhausting** environment for a subject, where they have to primarily rely on **Drain-Tool** loop to carry-on their objective of workspace. Required processing style **aggressively against** their natural way. It consumes **most energy** than rest of the environments.*"
+
+![3rd Degree Stress](./media/3rd.png)
+
+Continuing the $RTN$ example, the workspace becomes *very dissatisfying and tiring* if it forces subject to use $Fe-Ne$ loop which spends *aggressive amount* of mental energy. This would typically include environment where they need to rely on *external sources* to adopt abstract values of a given system ($Fe$). And to aid or balance their *adoption to abstract values* through external sources, they would simulate a timeline of whole value system at *various points* of the timeline in search of latest frame ($Ne$), and then adopt better with that system accordingly.
+
+
+
+## 8. Type Notations
+
+
+### 8.1 <u>Function Stack</u>:
 
 | Type    |     Callsign      | Lens | Tool | Spark | Drain | Closest Jungian | Closest Socionics |
 | :------ | :---------------: | :--: | :--: | :---: | :---: | --------------: | ----------------: |
@@ -266,7 +307,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 | **AFN** |   *"Community"*   | $Fe$ | $Ni$ | $Se$  | $Ti$  |       **EF(N)** |           **EIE** |
 
 
-### 7.2 <u>Notation Rules</u>:
+### 8.2 <u>Notation Rules</u>:
 
 1. Every type is represented by three letters.
 2. First letter represents the mode of reference for lens function ($R$/$A$).
@@ -276,10 +317,10 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 
 
 
-## 8. Important Notes
+## 9. Important Notes
 
 
-### 8.1 <u>For Mental Health Professionals</u>:
+### 9.1 <u>For Mental Health Professionals</u>:
 
 - Temporal Reference Cognition (TRC) is a **cognitive processing model**, not a diagnostic or clinical framework. It should **not be used as a substitute for established diagnostic tools** such as DSM-5 or ICD classifications.
 - The model can be useful for understanding **how clients process experiences**, particularly in distinguishing between:
@@ -294,7 +335,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 
 
 
-### 8.2 <u>For Educators</u>:
+### 9.2 <u>For Educators</u>:
 
 - TRC can be used to understand **learning styles as processing differences**, not ability differences.
 - Students may vary in:
@@ -310,7 +351,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 - Avoid rigid labeling; the model is intended to **enhance instructional flexibility**, not categorize students permanently.
 
 
-### 8.3 <u>For Researchers</u>:
+### 9.3 <u>For Researchers</u>:
 
 - TRC presents a **minimal, generative framework** for cognitive modeling, where functions are derived from:
 	- Function domains ($S$/$N$, $T$/$F$)
@@ -330,7 +371,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 	- Longitudinal studies on function dynamics
 
 
-### 8.4 <u>For Hobbyists & General Users</u>:
+### 9.4 <u>For Hobbyists & General Users</u>:
 
 - TRC is a tool for **understanding how you process information**, not for labeling identity or limiting yourself.
 - Your type reflects:
@@ -349,11 +390,9 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 	- Improve communication with others
 - Types are **stable tendencies, not fixed identities**, and growth involves expanding beyond habitual patterns.
 
----
 
 
-
-## 9. References
+## 10. References
 
 
 - Jung, C. G. (1921). *Psychological Types*. Zürich: Rascher Verlag.  
@@ -365,7 +404,7 @@ $$ \text{Feeling (F) + Extroversion (e) = Fe} $$
 
 
 
-## 10. License
+## 11. License
 
 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/

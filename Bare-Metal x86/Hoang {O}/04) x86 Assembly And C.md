@@ -89,3 +89,13 @@ hd test        # 'hd' is short alternative for 'hexdump'
 
 ![Hexdump Part - I](./media/image15.png)
 ![Hexdump Part - II](./media/image16.png)
+
+
+### <u>Changing Mode</u>
+
+- By default, flat binaries are produced in 16-bit mode.
+- To change it to 32-bit mode, write the following line in the beginning of source file.
+
+```nasm
+bits 32
+```
