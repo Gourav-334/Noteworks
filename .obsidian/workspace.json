@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5cc292833575ab68",
+        "id": "a73d71dd396bcd70",
         "type": "tabs",
         "children": [
           {
-            "id": "bf89e64e4dd8bb71",
+            "id": "982ca3c1ded9c52a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf89e64e4dd8bb71",
+  "active": "982ca3c1ded9c52a",
   "lastOpenFiles": [
+    "Typology/Temporal Reference Cognition.md",
+    "Typology/Veons.md",
+    "Typology/Enneagram.md",
+    "Typology/Jungian Typology.md",
+    "Typology/Temperaments.md",
+    "Typology/Socionics.md",
+    "Typology/Research On Dominating Types.md",
+    "Typology/Potentiology.md",
+    "Typology/Neurotype.md",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Bare-Metal x86/Hoang {O}/media/image19.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134750.png",
@@ -175,10 +184,6 @@
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134452.png",
     "Bare-Metal x86/Hoang {O}/media/image17.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 124452.png",
-    "Typology/Jungian Typology.md",
-    "Typology/Temporal Reference Cognition.md",
-    "Typology/Temperaments.md",
-    "Typology/Research On Dominating Types.md",
     "Typology/media/3rd.png",
     "Typology/media/Unconfirmed 684344.crdownload",
     "Typology/media/2nd.png",
@@ -197,7 +202,6 @@
     "Crash Courses/Competitive Coding.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
-    "Typology/Potentiology.md",
     "Typology/media/Unconfirmed 372626.crdownload",
     "Typology/media/Unconfirmed 734945.crdownload",
     "Typology/media/Unconfirmed 617563.crdownload",
@@ -209,9 +213,6 @@
     "Bare-Metal x86/Hoang {O}/01) Domain Documents.md",
     "Bare-Metal x86/Grok - II {D}/02) x86 Architecture Bedrock.md",
     "Bare-Metal x86/Grok - II {D}/01) Prerequisites.md",
-    "Migration Strategies/New Zealand {O}/01) Background Leverage.md",
-    "Summaries/Custom {O}/C++ Programming {C}.md",
-    "Bare-Metal x86/ChatGPT {D}/02) Small UEFI Program.md",
-    "Bare-Metal x86/ChatGPT {D}/01) Power On Procedure.md"
+    "Migration Strategies/New Zealand {O}/01) Background Leverage.md"
   ]
 }
