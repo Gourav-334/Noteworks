@@ -99,3 +99,41 @@ hd test        # 'hd' is short alternative for 'hexdump'
 ```nasm
 bits 32
 ```
+
+
+
+## **Topic - 5: Anatomy Of An Assembly Instruction**
+
+### <u>Prefixes</u>
+
+- *Prefixes* are optional for programmers to insert.
+- They are basically another assembly instructions, added by default to instructions where *opcode* is of 2-3 bytes.
+
+![Intel 64 & IA-32 Architecture](./media/image17.png)
+
+
+### <u>Opcode</u>
+
+- *Opcode* is a unique number that identifies an instruction.
+- For example, `04` is represented by `add`.
+- An opcode could be **1-3 bytes** long & may have additional **3-bit** field from $\text{ModR/M}$.
+
+
+### <u>ModR/M</u>
+
+- $\text{ModR/M}$ specifies the operands (register/ address/ immediate).
+- **Three parts -** $mod$, $reg/opcode$, $r/m$
+- **<u>mod</u>:** Modifier field, combined with $r/m$ to produce 32 possible values (8 registers, 24 addressing modes).
+- **<u>reg/opcode</u>:** Encodes/represents register operand, or extends opcode by 3-bits.
+- **<u>r/m</u>:** Encodes register operand, or combines with $mod$ to extend addressing mode.
+
+
+### <u>Addressing Mode & Register</u>
+
+#### 16-bit mode:
+
+![16-Bit Table](./media/image18.png)
+
+#### 32-bit mode:
+
+![32-Bit Mode](./media/image19.png)
