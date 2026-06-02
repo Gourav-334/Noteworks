@@ -173,7 +173,7 @@ div {
 
 ### <u>Rounded Image</u>
 
-![Rounded Image](./media/image8.png)
+![Rounded Image](Web%20Designing/W3Schools%20{D}/media/image8.png)
 
 ```css
 img {
@@ -184,7 +184,7 @@ img {
 
 ### <u>Circled Image</u>
 
-![Circled Image](./media/image9.png)
+![Circled Image](Web%20Designing/W3Schools%20{D}/media/image9.png)
 
 ```css
 img {
@@ -195,7 +195,7 @@ img {
 
 ### <u>Opacity</u>
 
-![Setting Opacity](./media/image10.png)
+![Setting Opacity](Web%20Designing/W3Schools%20{D}/media/image10.png)
 
 ```css
 img {opacity: 0.5;}

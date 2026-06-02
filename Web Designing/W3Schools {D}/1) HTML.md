@@ -436,7 +436,7 @@ body
 
 - One must make sure that the number of data are same in each row as defined.
 
-![Table](./media/image1.png)
+![Table](Web%20Designing/W3Schools%20{D}/media/image1.png)
 
 #### CSS attributes:
 
@@ -482,7 +482,7 @@ table, th, td
 
 #### Padding:
 
-![Padding & Spacing](./media/image2.png)
+![Padding & Spacing](Web%20Designing/W3Schools%20{D}/media/image2.png)
 
 ```css
 th, td
@@ -553,7 +553,7 @@ It's a <span> very pleasant </span> day.
 
 ### <u>Flex</u>
 
-![Before flex](./media/image3.png)
+![Before flex](Web%20Designing/W3Schools%20{D}/media/image3.png)
 
 - We can use flex to keep divisions side-by-side.
 - Let's experiment with the HTML for image shown above.
@@ -565,7 +565,7 @@ It's a <span> very pleasant </span> day.
 </style>
 ```
 
-![Before flex](./media/image4.png)
+![Before flex](Web%20Designing/W3Schools%20{D}/media/image4.png)
 
 
 ### <u>Grid</u>
@@ -682,16 +682,16 @@ document.getElementById("demo").style.backgroundColor = "yellow";
 <meta charset="UTF-8" content="width=device-width">
 ```
 
-![Meta Character Example](./media/image5.png)
+![Meta Character Example](Web%20Designing/W3Schools%20{D}/media/image5.png)
 
 
 ### <u>Layout Format</u>
 
-![Layout Format](./media/image6.png)
+![Layout Format](Web%20Designing/W3Schools%20{D}/media/image6.png)
 
 - Tags being used - `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<footer>`, `<details>`, `<summary>`.
 
-![Layout](./media/image7.png)
+![Layout](Web%20Designing/W3Schools%20{D}/media/image7.png)
 
 
 ### <u>Responsive Design</u>

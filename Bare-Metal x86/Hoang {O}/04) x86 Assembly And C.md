@@ -137,3 +137,32 @@ bits 32
 #### 32-bit mode:
 
 ![32-Bit Mode](./media/image19.png)
+
+
+### <u>Example - I</u>
+
+```nasm
+jmp [0x1234]        ; ff 26 34 12
+```
+
+- `0xff` is the opcode
+- `0x26` is $ModR/M$ telling that opcode is `disp16` (16-bit offset)
+
+
+### <u>Example - II</u>
+
+```nasm
+add eax, ecx        ; 66 01 c8
+```
+
+- `0x66` is the additional prefix (allows operand size switching)
+- `0x01` is the opcode
+- `0xc8` $ModR/M$ byte (row: 1st operand `ax` & column: 2nd operand `cx`)
+- Column is ignored if only one operand is required.
+
+
+### <u>Scale Index Base</u>
+
+$$ \text{Effective address = scale * index + base} $$
+
+- **<u>Scale</u>:** 
