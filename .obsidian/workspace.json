@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "53462b9d09a85c90",
+        "id": "34eedb1947f7ebfa",
         "type": "tabs",
         "children": [
           {
-            "id": "14e7151150b8f606",
+            "id": "22649b18a00dd928",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14e7151150b8f606",
+  "active": "22649b18a00dd928",
   "lastOpenFiles": [
+    "Typology/Psychological Types - Vol. 8.md",
+    "Typology/Jungian Typology.md",
     "Web Designing/TypeAtlas {O}/14) Security Basics.md",
     "Web Designing/TypeAtlas {O}/13) Environment Variables.md",
     "Web Designing/TypeAtlas {O}/12) Vercel.md",
@@ -188,7 +190,6 @@
     "Typology/Temporal Reference Cognition.md",
     "Typology/Veons.md",
     "Typology/Enneagram.md",
-    "Typology/Jungian Typology.md",
     "Typology/Temperaments.md",
     "Typology/Socionics.md",
     "Typology/Research On Dominating Types.md",
@@ -208,7 +209,6 @@
     "Typology/media/Unconfirmed 209746.crdownload",
     "Typology/media/0th.png",
     "Typology/media/Unconfirmed 57530.crdownload",
-    "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
     "Typology/media/Unconfirmed 372626.crdownload",
     "Typology/media/Unconfirmed 734945.crdownload",
