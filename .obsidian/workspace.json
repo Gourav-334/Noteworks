@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "34eedb1947f7ebfa",
+        "id": "d96ae0e442f7d3bc",
         "type": "tabs",
         "children": [
           {
-            "id": "22649b18a00dd928",
+            "id": "0654dec5ab10a5ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Typology/VEONS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "VEONS"
             }
           }
         ]
@@ -166,8 +170,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22649b18a00dd928",
+  "active": "0654dec5ab10a5ed",
   "lastOpenFiles": [
+    "Typology/Neurotype.md",
+    "Typology/Socionics.md",
+    "Easter Eggs/Others/Biotech Review Paper.md",
+    "Easter Eggs/Others",
+    "Jungian Typology/04) Types Of Attitudes.md",
+    "Jungian Typology/03) Subject & Object.md",
+    "Jungian Typology/02) Misconceptions Around Types.md",
+    "Jungian Typology/11) Summary.md",
+    "Jungian Typology/01) Preface.md",
+    "Jungian Typology/10) Function Stacking.md",
+    "Jungian Typology/09) Feeling & Feeling Types.md",
+    "Jungian Typology/07) Intuition & Intuition Types.md",
+    "Jungian Typology/06) Sensing & Sensing Types.md",
+    "Jungian Typology/08) Thinking & Thinking Types.md",
+    "Jungian Typology/05) Perception & Judgement.md",
+    "Jungian Typology",
     "Typology/Psychological Types - Vol. 8.md",
     "Typology/Jungian Typology.md",
     "Web Designing/TypeAtlas {O}/14) Security Basics.md",
@@ -180,21 +200,7 @@
     "Web Designing/TypeAtlas {O}/07) shadcn ui.md",
     "08).md",
     "Web Designing/TypeAtlas {O}/06) Tailwind CSS.md",
-    "Web Designing/TypeAtlas {O}/05) Next.js 15.md",
-    "Web Designing/TypeAtlas {O}/04) React.md",
-    "Web Designing/TypeAtlas {O}/03) Typescript.md",
-    "Web Designing/TypeAtlas {O}/02) HTML & CSS Basics.md",
-    "Web Designing/TypeAtlas {O}/01) Git & GitHub.md",
     "Web Designing/TypeAtlas {O}",
-    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
-    "Typology/Temporal Reference Cognition.md",
-    "Typology/Veons.md",
-    "Typology/Enneagram.md",
-    "Typology/Temperaments.md",
-    "Typology/Socionics.md",
-    "Typology/Research On Dominating Types.md",
-    "Typology/Potentiology.md",
-    "Typology/Neurotype.md",
     "Bare-Metal x86/Hoang {O}/media/image19.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134750.png",
     "Bare-Metal x86/Hoang {O}/media/image18.png",
@@ -211,8 +217,6 @@
     "Typology/media/Unconfirmed 57530.crdownload",
     "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
     "Typology/media/Unconfirmed 372626.crdownload",
-    "Typology/media/Unconfirmed 734945.crdownload",
-    "Typology/media/Unconfirmed 617563.crdownload",
-    "Typology/media/Unconfirmed 201313.crdownload"
+    "Typology/media/Unconfirmed 734945.crdownload"
   ]
 }

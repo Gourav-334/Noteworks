@@ -11,175 +11,99 @@
 ## 2. Information Elements
 
 
-### 2.1 <u>Introverted Thinking (Ti)</u>:
+### 2.1 <u>Introverted Sensation (Si)</u>:
 
-- Internal consistency
-- Definitions & classifications
-- Logical relationships between concepts
-- Formal structure
-- System coherence
+Responsible for detailed perception of physical sensations; questions of comfort, utility, and pleasure; and a sense of harmony and acclimation with one's environment (especially physical).
 
->*Is it internally consistent?*
 
+### 2.2 <u>Extraverted Sensation (Se)</u>:
 
-### 2.2 <u>Extraverted Thinking (Te)</u>:
+Perception of physical objects and the amount of space they take up in the real world, the impact something has on its environment and the threat it poses to other objects.
 
-- Empirical efficiency
-- Measurable results
-- Productivity
-- External data
-- Practical optimization
 
->*Does this work in reality?*
+### 2.3 <u>Introverted Intuition (Ni)</u>:
 
+Responsible for the imagination of how things will develop over time, a sense of what is meaningful or transcendent and the understanding that some things are inevitable.
 
-### 2.3 <u>Introverted Feeling (Fi)</u>:
 
-- Personal values
-- Loyalty
-- Psychological distance
-- Moral alignment
-- Depth of bonds
+### 2.4 <u>Extraverted Intuition (Ne)</u>:
 
->*What is the relational stance here?*
+Perception of abstract concepts and the amount of potential they could hold, the multiple alternatives to any proposition and their latent capabilities.
 
 
-### 2.4 <u>Extraverted Feeling (Fe)</u>:
+### 2.5 <u>Introverted Logic (Ti)</u>:
 
-- Emotional expression
-- Mood regulation
-- Group affect
-- Visible emotional energy
+Responsible for understanding logic and structure, categorizations, ordering and priorities, logical analysis and distinctions, logical explanations.
 
->*What is the emotional climate?*
 
+### 2.6 <u>Extraverted Logic (Te)</u>:
 
-### 2.5 <u>Introverted Intuition (Ni)</u>:
+Judgement of the efficiency of actions and technical processes, the prudence of a method or approach and how it will work practically.
 
-- Temporal flow
-- Inevitable outcomes
-- Forecasting
-- Convergence
-- Pattern convergence
 
->*Where is this heading?*
+### 2.7 <u>Introverted Ethics (Fi)</u>:
 
+Responsible for understanding the quality, nature, and appropriate distance of personal relations; makes subjective judgments; and aspires to goodness of character.
 
-### 2.6 <u>Extraverted Intuition (Ne)</u>:
 
-- Alternative options
-- Idea generation
-- Expansion
-- Potential states
+### 2.8 <u>Extraverted Ethics (Fe)</u>:
 
->*What else could this become?*
+Judgement of the infectiousness of expressions and emotional states, the appeal of a message or image and how someone will react emotionally.
 
 
-### 2.7 <u>Introverted Sensing (Si)</u>:
 
-- Comfort
-- Physical equilibrium
-- Subtle bodily awareness
-- Environmental harmony
+## 3. Same Attitude Functions
 
->*Is this stable and balanced?*
 
+### 3.1 <u>Si vs. Ni</u>:
 
-### 2.8 <u>Extraverted Sensing (Se)</u>:
+|                                                                                                         Si                                                                                                          |                                                                                                                                                                                   Ni                                                                                                                                                                                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Si understands how well a person or thing's behavior agrees with its nature as well as the differences between comfortable behaviors and positions and uncomfortable ones. In that sense, it is the opposite of Ni. | Ni understands how causes in the past lead through to outcomes in the future. Ni is acutely aware of long-term trends and tendencies that are occurring across any single present moment, and sees events as part of a continuous flow. Ni perceives the possible ramifications of future events and notices ties to the past. In that sense, it is the opposite of Si. |
 
-- Direct impact
-- Pressure
-- Territory
-- Assertive action
-- Resource control
 
->*Who controls this space?*
+### 3.2 <u>Se vs. Ne</u>:
 
+|                                                                                                         Se                                                                                                         |                                                                                                                Ne                                                                                                                 |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Se is geared towards action and decides immediately on quick assessments of superficial, concrete data, making the approach direct and imbued with a harsh determination. In this sense, it is the opposite of Ne. | Ne is geared towards speculation and likes to consider different possibilities, giving unorthodox perspectives a chance, making the approach indirect and roundabout in a whimsical way. In this sense, it is the opposite of Se. |
 
 
-## 3. Model A Position
+### 3.3 <u>Ti vs. Fi</u>:
 
+|                                                                                                                                     Ti                                                                                                                                      |                                                                                                                                   Fi                                                                                                                                   |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Ti interprets information according to how it fits into a validating system. Ti is particularly aware of logical consistency and how concepts relate to each other in meaning and structure, independently of particular purposes. In this sense, it is the opposite of Fi. | R has a strong understanding of a person's nature and intentions, one person's feelings towards another, their attitudes of like or dislike, and based on this information, how intimate or distant a relationship should be. In this sense, it is the opposite of Ti. |
 
-### 3.1 <u>Base (Dominant)</u>:
 
-- Strongest
-- Most confident
-- Automatic
-- Primary filter of reality
-- Evaluative
+### 3.4 <u>Te vs. Fe</u>:
 
+|                                                                                                            Te                                                                                                             |                                                                                                                         Fe                                                                                                                         |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Te is geared towards facts and assesses situations based on what happened, looking to convey information as accurately as possible, making communication dry and matter-of-fact. In this sense, it is the opposite of Fe. | Fe is geared towards feelings and assesses situations based on how people feel, looking to convey one's emotions as authentically as possible, making communication exaggerated and charged with passion. In this sense, Fe is the opposite of Te. |
 
-### 3.2 <u>Creative</u>:
 
-- Strong
-- Flexible
-- Instrumental
-- Supports base
-- Used strategically
 
+## 4. Introversion vs. Extroversion
 
-### 3.3 <u>Role</u>:
 
-- Normative
-- Socially expected
-- Used formally
-- Energy draining
+### 4.1 <u>Si vs. Se</u>:
 
+Se approaches reality in terms of the clash of opposing forces, winning over weaker opponents and looking to push a situation to their advantage, even if that requires an intense struggle. In this sense, it is the inverse of Si.
 
-### 3.4 <u>Vulnerable (PoLR)</u>:
 
-- Weakest
-- Blind spot
-- Highly sensitive to criticism
-- Avoided
+### 4.2 <u>Ni vs. Ne</u>:
 
+Ne approaches what is possible in terms of expanding its variety, opening new doors and wandering wherever curiosity points next, avoiding any kind of limitation. In this sense, it is the inverse of Ni.
 
-### 3.5 <u>Suggestive (Dual-Seeking)</u>:
 
-- Weak but desired
-- Feels relieving when supplied by others
-- Unconscious need
+### 4.3 <u>Te vs. Ti</u>:
 
+Te approaches systems in terms of how they can be improved, changing and adding to one's knowledge through empirical observation in order to increase functionality and profitability. In this sense, it is the inverse of Ti.
 
-### 3.6 <u>Mobilizing (Hidden Agenda)</u>:
 
-- Weak but aspirational
-- Area of growth motivation
-- Feels rewarding when developed
+### 4.4 <u>Fe vs. Fi</u>:
 
-
-### 3.7 <u>Ignoring</u>:
-
-- Strong but unvalued
-- Competent but not prioritized
-- Often dismissed
-
-
-### 3.8 <u>Demonstrative</u>:
-
-- Strong
-- Automatic
-- Not consciously emphasized
-- Used effortlessly
-
-
-
-## 4. Valued & Unvalued Elements
-
-
-### 4.1 <u>Valued Elements</u>:
-
-- Base
-- Creative
-- Suggestive
-- Mobilizing
-
-
-### 4.2 <u>Unvalued Elements</u>:
-
-- Role
-- PoLR
-- Ignoring
-- Demonstrative
+Fe approaches people in terms of how they are made to feel, provoking and changing people's emotions through expressive actions in order to raise excitement and enthusiasm. In this sense, is the inverse of Fi.
 
 ---
