@@ -20,6 +20,7 @@ Point to note is that Jung originally never intended to create a formal system t
 
 - *Ego* is the identification of an entity with themselves, the sense of *"me"* or *"I"*.
 - *Consciousness* is the energy that powers a subject for it to be able to perceive or judge what it encounters, the awareness of an entity or being.
+- *Content of consciousness* is what the consciousness or awareness focuses or converges attention towards.
 - *Subject* is the conscious entity (you) who perceives or judges the content of consciousness.
 - *Object* is what the subject perceives or judges. It can be anything, starting from another person or group to a larger system.
 - *Attitude* is mode of orientation for a subject where it tends to either internally organize information (introversion), or adapt to requirements of present conditions (extroversion).
@@ -62,4 +63,27 @@ For example, imagine a person with primary orientation towards the sensing funct
 
 *Intuition* is the other perceiving function. And unlike sensation, it processes information based on what is implied beyond sensory details. Its not a mystical or magical function, it is something all of us use, but some have naturally dominant orientation towards this form of processing. It perceives the object or even subjective content, and perceives something that senses didn't perceived. Then who perceived it? Its the *unconscious*, a primal realization that perceives something you can't directly reach through sensory perception or through judging. It can sometimes resemble other functions and could be difficult to distinguish with, but its easier ones we understand why it is a perceiving function. So why is it a perceiving function? Because perception is about registering what it observed or experienced instead of being evaluated, and intuition comes as a sudden realization without steps or causal chains. Perception is immediate and direct, judging is made in steps. But that doesn't guarantee correctness of perception made by intuition.
 
-For example, imagine same regular-sized rock but a person who encounters it is primarily oriented towards intuitive function. Instead of perceiving its sensory details, he might perceive it as something representing eternal time, or reach an immediate conclusion that there was a beach nearby before (without steps or deduction). To an outside observer, this might either feel too mystical, or too absurd. Reason being that 
+For example, imagine same regular-sized rock but a person who encounters it is primarily oriented towards intuitive function. Instead of perceiving its sensory details, he might perceive it as something representing eternal time, or reach an immediate conclusion that there was a beach nearby before (without steps or deduction). To an outside observer, this might either feel too mystical or too absurd, depending on how accurate and abstract it was.
+
+
+#### *iii. Thinking*
+
+*Thinking* is one of the two judging functions. It judges or evaluates the information based on concepts and logical relations. It processes the contents of consciousness by evaluating what they are and how they connect with each other. Or in a more formal way, its a function which evaluates contents of consciousness whether subjective or objective, based on their structural magnitude. Something which is governed by rules and physical principles. Why physical principles or structural magnitude? Because whatever is considered logical, has some values attached to it, which will be cleared in next example. Why is it a judging function? Because the content in consciousness is not being simply registered as sensing or intuition do, but being evaluated based on concepts and logical relations. Unlike perception which is immediate, evaluation occurs in stages or steps, judging the content instead of just observing it.
+
+For example, following the same story about a regular-sized rock and a person, this time a primarily thinking oriented person holds the rock, and evaluates it based on concepts and logical relations or rules. He focuses on the structure of rock, its diameter, particular color it has, and its magnitude of its weight as per measurement value. Unlike sensing where it was simply registered how the rock was perceived by the senses as, and intuition which saw a deeper meaning or potential in it beyond senses, thinking function evaluates it using concepts and logical relations.
+
+
+#### *iv. Feeling*
+
+*Feeling* is the other judging function. It judges or evaluates the information or contents in consciousness based on abstract importance or valuation. Meaning, it processes those information by evaluating what kind of abstract value if holds for the subject or in the object. A question might be about what kind of abstract value? And what part is abstract in it? Well, most people place certain value or importance in ideas, materials, or people, etc. Someone likes a certain kind of dress to wear, or places very much importance in certain ideology, etc. So it depends on whether the value is internal, or it adapts itself to objective conditions. Well, that's our future concern when we move on to study two types of feeling functions formed after attitudes are combined, point is that the values placed by a feeling function can't be logically deducted or inferred as it was in thinking function, being *"abstract"*. Why judging function? Because just like thinking, it is based on evaluation, and not immediate register of data based on perception. It evaluates the contents to decide if it must operate on it or not.
+
+For example, following the same story about a regular-sized rock and a person, this time a primarily feeling oriented person holds the rock, and evaluates it based on its abstract importance or abstract value. It might put or evaluate it based on factors like *"is it good?"*, *"is it beautiful?"*, or even *"is it likeable?"* Now these might not make appear logical to many, but finding *beauty* or *likeableness* in something like rock, if assuming such happens, the processing involved is feeling oriented.
+
+
+
+## V. Psychological Types
+
+
+#### *i. Introverted Sensing*
+
+*Introverted sensing* is a type produced from simultaneous primary orientation towards an introverted attitude, and towards sensing function. Its not that 
