@@ -165,4 +165,60 @@ add eax, ecx        ; 66 01 c8
 
 $$ \text{Effective address = scale * index + base} $$
 
-- **<u>Scale</u>:** 
+#### Scale:
+
+- Scale is the number of bytes an element in array takes.
+- It can have values as $1$, $2$, $4$, or $8$.
+- For elements with different size different from $2$, $4$, or $8$, its value must be set to $1$.
+- And when scale's value is set to $1$, the $\text{index}$ must be manually set to reach the element in array.
+- For instance, refer to example below:
+
+$$ \text{Effective address = 1 * (12 * n) + base} $$
+
+- $1$ is scale, $(12*n)$ is manually set index value.
+- But doing this uses an extra `mul` instruction which is detrimental to performance, specially if accessed in loop.
+- The possible values of $2$, $4$, and $8$ bytes map to 16-bit, 32-bit, and 64-bit numbers.
+
+#### Base:
+
+- *Base* is the starting address of an array.
+
+
+### <u>32-Bit Addresses Forms</u>
+
+![Addresses Formed With 32-bit](./media/image20.png)
+
+
+### <u>Example - III</u>
+
+```nasm
+jmp [eax*2 + ebx]        ; 00000000 67 ff 24 43
+```
+
+- `0x67` is the prefix for overriding address size.
+- `0xff` is the opcode for `jmp`.
+- `0x24` is the $ModR/M$ value.
+- `0x43` is the $SIB$ byte.
+- As per the 32-bit address table, the $SIB$ byte `0x43` means that `eax` is scaled to `2` & added with `ebx`.
+
+
+### <u>Example - IV</u>
+
+```nasm
+jump [0x1234]        ; ff 26 34 12
+```
+
+- `0x26` is the $ModR/M$ byte.
+
+
+### <u>Immediate</u>
+
+```nasm
+mov eax, 0x1234        ; 66 b8 34 12 00 00
+```
+
+- `0x1234` is $Immediate$ value.
+
+
+
+## **Topic - 6: Understanding Instructions In Detail**

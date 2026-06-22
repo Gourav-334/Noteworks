@@ -123,7 +123,7 @@ As a result, thinking-oriented processing emphasizes logical structure, objectiv
 | **Glutamate ($ga$)**      | Neurotransmitter specialized for **neural computation and information transmission**, forming the primary excitatory signaling system of the brain. | Faster information processing, improved learning, enhanced analytical capacity, greater mental activity.       | Mental fog, slower thinking, reduced learning efficiency, difficulty processing complex information.    |
 | **GABA ($gb$)**           | Neurotransmitter specialized for **suppressing irrelevant neural activity**, improving the signal-to-noise ratio of thought.                        | Greater mental stability, reduced distraction, more orderly reasoning, improved concentration.                 | Racing thoughts, distractibility, cognitive noise, difficulty maintaining coherent reasoning.           |
 | **Norepinephrine ($np$)** | Neurotransmitter specialized for **focusing cognitive resources on important information**, increasing vigilance and task engagement.               | Enhanced concentration, faster reaction to relevant information, improved sustained attention.                 | Poor focus, reduced alertness, mental sluggishness, difficulty sustaining attention on demanding tasks. |
-| **d. D-Serine ($ds$)**    | Neuromodulator specialized for **supporting precise learning and synaptic refinement**, helping the brain update and validate internal models.      | Improved reasoning accuracy, enhanced learning, better integration of new information with existing knowledge. | Reduced cognitive precision, slower learning, difficulty refining or correcting mental models.          |
+| **D-Serine ($ds$)**       | Neuromodulator specialized for **supporting precise learning and synaptic refinement**, helping the brain update and validate internal models.      | Improved reasoning accuracy, enhanced learning, better integration of new information with existing knowledge. | Reduced cognitive precision, slower learning, difficulty refining or correcting mental models.          |
 | **Aspartate ($as$)**      | Excitatory neurotransmitter specialized for **supporting high-energy neural signaling and computational activity** alongside glutamate.             | Increased neural responsiveness, enhanced cognitive activation, improved processing speed.                     | Reduced cognitive activation, slower information processing, diminished mental responsiveness.          |
 
 
@@ -139,7 +139,7 @@ As a result, feeling-oriented processing emphasizes determining what matters, wh
 | **Oxytocin ($ot$)**    | Neurochemical specialized for **assigning value to trust, connection, and social bonding**, strengthening feelings of closeness and cooperation.              | Increased trust, empathy, attachment, social warmth, stronger interpersonal bonds.                      | Social detachment, reduced trust, difficulty forming emotional connections, decreased social satisfaction.             |
 | **Vasopressin ($vp$)** | Neurochemical specialized for **assigning value to loyalty, commitment, protection, and social responsibility**.                                              | Increased protectiveness, commitment, vigilance toward valued people or groups, stronger sense of duty. | Reduced attachment to commitments, lower protective instincts, weaker feelings of loyalty or responsibility.           |
 | **Prolactin ($pl$)**   | Hormone specialized for **assigning value to caregiving, nurturing, and long-term support of others**.                                                        | Increased nurturing behavior, patience, caregiving motivation, concern for dependents.                  | Reduced nurturing motivation, lower caregiving drive, diminished concern for dependent individuals.                    |
-| **c. Cortisol ($co$)** | Hormone specialized for **assigning value to threats, risks, and survival-relevant concerns**, prioritizing what may require immediate attention.             | Increased threat awareness, caution, prioritization of risks, heightened sense of urgency.              | Reduced sensitivity to danger, underestimation of risks, diminished responsiveness to important threats or challenges. |
+| **Cortisol ($co$)**    | Hormone specialized for **assigning value to threats, risks, and survival-relevant concerns**, prioritizing what may require immediate attention.             | Increased threat awareness, caution, prioritization of risks, heightened sense of urgency.              | Reduced sensitivity to danger, underestimation of risks, diminished responsiveness to important threats or challenges. |
 
 
 
@@ -150,6 +150,8 @@ As a result, feeling-oriented processing emphasizes determining what matters, wh
 
 - Excess: $+$
 - Deficient: $-$
+
+>*Even better if we use scales instead like $[-2,2]$, or $[0,10]$, etc.*
 
 
 ### 4.2 <u>Function Dissection (Schema)</u>:
@@ -177,7 +179,23 @@ $$ \text{primaryFunction + secondaryFunction + mainAttitude} $$
 ### 4.5 <u>Type Notation (Example)</u>:
 
 Let's say a type has primary function as thinking ($T$), secondary as sensing ($S$), and an attitude of introversion ($I$):
+
 $$ \text{T + S + I = TSI} $$
+
+
+### 4.6 <u>Complete Typing Procedure</u>:
+
+$$ \sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{n}{(x_i - \mu)^2}} $$
+
+1. The person typing the person is provided with the list of neurochemicals for each primitive ($I$/$E$/$S$/$N$/$T$/$F$).
+2. For chemicals listed for each primitive, the typologist rates them on a scale of $[-2,2]$ where $-2$ means extreme deficiency & $2$ means too excess.
+3. Sum is made for the chemicals existing in each of the primitive separately.
+4. For the functions, the primitive with highest score is chosen to be the first letter.
+5. If it draws in score with another function of different type, then we choose of the two which shares the same function type as the lowest scoring one.
+6. Else if two highest scoring functions share the same score, then whichever has lower absolute standard deviation ranks first.
+7. Then the one ranking second after applying rules above must be the second letter.
+8. For third letter, we will compare scores of both the attitudes, and the one scoring more would be it.
+9. If they score equal, then again a absolute standard deviation test is made and the one having lower deviation is chosen.
 
 
 
@@ -221,7 +239,37 @@ The framework is most useful when applied as a tool for reflection and communica
 
 
 
-## 6. License
+## 6. Reference Table For Programmers
+
+
+|Neurochemical|
+|---|
+|**(I, N)** Acetylcholine (ac)|
+|**(I, N)** Anandamide (aa)|
+|**(T)** Aspartate (as)|
+|**(N)** BDNF (bd)|
+|**(F)** Cortisol (co)|
+|**(T)** D-Serine (ds)|
+|**(E, N)** Dopamine (da)|
+|**(S)** Endorphins (ed)|
+|**(N)** Estrogen (eg)|
+|**(T)** GABA (gb)|
+|**(T)** Glutamate (ga)|
+|**(S)** Histamine (ha)|
+|**(I, S)** Melatonin (mt)|
+|**(E, T)** Norepinephrine (np)|
+|**(E, S)** Orexin (or)|
+|**(F)** Oxytocin (ot)|
+|**(F)** Prolactin (pl)|
+|**(I, F)** Serotonin (st)|
+|**(S)** Substance P (sp)|
+|**(E)** Testosterone (ts)|
+|**(F)** Vasopressin (vp)|
+
+
+
+## 7. License
+
 
 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/

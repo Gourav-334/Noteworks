@@ -1,0 +1,11 @@
+# $$ \fbox{Preface} $$
+
+
+
+
+
+My name is *Gourav Kumar Mallick*, and I have spent more than four years of time in endless enquiries about typology systems. What started as a genuine interest in understanding how people can be classified became a major bottleneck for productivity in real-life work. The reason being curiosity interfering with what is personally believed to be more important in life. And as I have personally observed that I am not the only one with this experience, rather there are many people who obsessively cling to typology for some similar or other reasons. I observed that many shared this obsession like mines with it, which gradually evolves into something unhealthy and more difficult to manage the longer you wait.
+
+A practical solution to this issue as I realized is to first understand what the original authors intended for their respective systems, avoiding unverified online sources and opinions of strangers, and accepting that these systems are not perfect or fool-proof while lying on a spectrum and containing inconsistencies. Understanding what original authors said about a system and avoiding random unverified online sources reduces a significant number of open-ended loops many are entrapped in. Also many people know very well that these classifications aren't airtight perfect, but they fall on a spectrum where minor shifts in personality and differences between two subjects of same type are very easy to spot.
+
+By profession I am a *systems engineer* specializing in *low-level software*, and that natural orientation in understanding systems got me into typology too, starting with a Jungian-variant system with sixteen possible classifications of people. But later I realized how inconsistent it was, and many of its theoretical claims were very easy to break with logic. I won't be mentioning about any derivative system until and unless I feel it has a consistent framework. I will stick to the original authors, and only their reliable derivative systems if they are consistent enough to hold up rigorous critics. Deliberately I have kept this book smaller, to make sure that people don't end up spending a lot of time on it, and thus opening up another loop.

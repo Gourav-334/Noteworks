@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d96ae0e442f7d3bc",
+        "id": "39da86494c638bad",
         "type": "tabs",
         "children": [
           {
-            "id": "0654dec5ab10a5ed",
+            "id": "9cea062de6a9ffb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typology/VEONS.md",
+                "file": "Neutralizing Typology Noise/04) Classic Jungian Typology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VEONS"
+              "title": "04) Classic Jungian Typology"
             }
           }
         ]
@@ -170,8 +170,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0654dec5ab10a5ed",
+  "active": "9cea062de6a9ffb9",
   "lastOpenFiles": [
+    "Neutralizing Typology Noise/04) Classic Jungian Typology.md",
+    "Neutralizing Typology Noise/03) Introduction.md",
+    "Neutralizing Typology Noise/02) Table Of Contents.md",
+    "Neutralizing Typology Noise/00) Book Format.md",
+    "Neutralizing Typology Noise/01) Preface.md",
+    "New folder",
+    "Typology/Psychological Types - Vol. 8.md",
+    "Neutralizing Typology Noise",
+    "Typology/VEONS.md",
+    "Typology/VRDW CJTE - 7.md",
+    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Bare-Metal x86/Hoang {O}/media/image20.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-06-16 125511.png",
     "Typology/Neurotype.md",
     "Typology/Socionics.md",
     "Easter Eggs/Others/Biotech Review Paper.md",
@@ -188,18 +201,9 @@
     "Jungian Typology/08) Thinking & Thinking Types.md",
     "Jungian Typology/05) Perception & Judgement.md",
     "Jungian Typology",
-    "Typology/Psychological Types - Vol. 8.md",
     "Typology/Jungian Typology.md",
     "Web Designing/TypeAtlas {O}/14) Security Basics.md",
     "Web Designing/TypeAtlas {O}/13) Environment Variables.md",
-    "Web Designing/TypeAtlas {O}/12) Vercel.md",
-    "Web Designing/TypeAtlas {O}/11) Gemini API.md",
-    "Web Designing/TypeAtlas {O}/10) Authentication Concepts.md",
-    "Web Designing/TypeAtlas {O}/09) Supabase.md",
-    "Web Designing/TypeAtlas {O}/08) PostreSQL.md",
-    "Web Designing/TypeAtlas {O}/07) shadcn ui.md",
-    "08).md",
-    "Web Designing/TypeAtlas {O}/06) Tailwind CSS.md",
     "Web Designing/TypeAtlas {O}",
     "Bare-Metal x86/Hoang {O}/media/image19.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134750.png",
@@ -211,12 +215,8 @@
     "Typology/media/Unconfirmed 684344.crdownload",
     "Typology/media/2nd.png",
     "Typology/media/Unconfirmed 718226.crdownload",
-    "Typology/media/1st.png",
     "Typology/media/Unconfirmed 209746.crdownload",
-    "Typology/media/0th.png",
     "Typology/media/Unconfirmed 57530.crdownload",
-    "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf",
-    "Typology/media/Unconfirmed 372626.crdownload",
-    "Typology/media/Unconfirmed 734945.crdownload"
+    "Bare-Metal x86/Hoang {O}/02) Layers Of Abstraction.pdf"
   ]
 }
