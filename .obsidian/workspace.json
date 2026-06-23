@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39da86494c638bad",
+        "id": "2f02521d8bfea225",
         "type": "tabs",
         "children": [
           {
-            "id": "9cea062de6a9ffb9",
+            "id": "9d82fd17742d96b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9cea062de6a9ffb9",
+  "active": "9d82fd17742d96b9",
   "lastOpenFiles": [
     "Neutralizing Typology Noise/04) Classic Jungian Typology.md",
     "Neutralizing Typology Noise/03) Introduction.md",
