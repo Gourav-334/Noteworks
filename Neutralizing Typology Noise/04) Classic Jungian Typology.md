@@ -231,8 +231,12 @@ This type primarily prefers to stick with their *subjective factor* of *sensatio
 
 #### *iii. ES(T)*
 
+This type primarily prefers to adapt with the *objective factor* of *sensation*, isolates the objective environment or system of concern from subjective sensory impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, judging *logical relations* in contents of consciousness enables them to perceive more sensory details in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *unconscious* factor.
+
 
 #### *iv. ES(F)*
+
+This type primarily prefers to adapt with the *objective factor* of *sensation*, isolates the objective environment or system of concern from subjective sensory impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, judging *abstract values* in contents of consciousness enables them to perceive more sensory details in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *unconscious* factor.
 
 
 #### *v. IN(T)*
@@ -247,8 +251,12 @@ This type primarily prefers to stick with their *subjective factor* of *unconsci
 
 #### *vii. EN(T)*
 
+This type primarily prefers to adapt with the *objective factor* of *unconscious images*, isolates the objective environment or system of concern from subjective unconscious impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, judging *logical relations* in contents of consciousness enables them to perceive more unconscious images in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *sensory* factor.
+
 
 #### *viii. EN(F)*
+
+This type primarily prefers to adapt with the *objective factor* of *unconscious images*, isolates the objective environment or system of concern from subjective unconscious impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, judging *abstract values* in contents of consciousness enables them to perceive more unconscious images in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *sensory* factor.
 
 
 #### *ix. IT(S)*
@@ -263,8 +271,12 @@ This type primarily prefers to stick with their *subjective factor* of *logical 
 
 #### *xi. ET(S)*
 
+This type primarily prefers to adapt with the *objective factor* of *logical relations*, isolates the objective environment or system of concern from subjective logical impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, perceiving *sensory details* in contents of consciousness enables them to judge more logical relations in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *values* factor.
+
 
 #### *xii. ET(N)*
+
+This type primarily prefers to adapt with the *objective factor* of *logical relations*, isolates the objective environment or system of concern from subjective logical impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, perceiving *unconscious images* in contents of consciousness enables them to judge more logical relations in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *values* factor.
 
 
 #### *xiii. IF(S)*
@@ -279,5 +291,21 @@ This type primarily prefers to stick with their *subjective factor* of *abstract
 
 #### *xv. EF(S)*
 
+This type primarily prefers to adapt with the *objective factor* of *abstract values*, isolates the objective environment or system of concern from subjective values impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, perceiving *sensory details* in contents of consciousness enables them to judge more abstract values in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *logical* factor.
+
 
 #### *xvi. EF(N)*
+
+This type primarily prefers to adapt with the *objective factor* of *abstract values*, isolates the objective environment or system of concern from subjective values impressions, adapts to objective factors even if their signatures don't exist in their subjective impressions, perceiving *unconscious images* in contents of consciousness enables them to judge more abstract values in them. And their repression may occasionally blast as temporary intense stubbornness with subjective *logical* factor.
+
+
+
+## VIII. My Personal Opinion
+
+The original theory by *Carl Jung* seems to address sufficient information to know how processing primitives interact with each others. But ultimately, interpretations for same subject may vary from person to person even if they are being genuine about it, which Jung already agrees to when describing psychological types. Thus, these behaviors exist on a spectrum, and with uneven ratio with other primitives and factors. While there are limited primitives introduced to us, i.e. two attitudes, four functions, there could have been more of them or less of them. But what matters in a theory is if they can cover all the possible phenomena convincingly for the readers.
+
+In the examples I provided throughout this chapter, and might be in future chapters on other systems, they were often stretched to extreme and relied on minimal factors and interpretations in order to provide a clean contrast with other concepts. In reality, they exist on a spectrum as I stated before. And I tried to make example positive to neutral in how subject in examples might be judged ethically. But in reality, the healthy and unhealthy types co-exist together. Jung also put emphasis on hazardous psychological consequences for children brought up in environment where they are forced to project type which doesn't align with their natural orientation, and it was a valid concern. My best advise to people wouldn't be to "change" their type, which by theory isn't possible. But to become their own healthy and improved version.
+
+Modern systems are often rigid, and don't agree with fluidity in personalities, making them easy to be criticized by readers. However, Jung's initial theory stands out as sufficient, practical, and in my opinion the most logically consistent theory when compared to its derivatives. Because it has clear rules, primitives, concepts, and there is not contradiction when they are described. And where there might rise contradictions, they are directly addressed by the author. What could improve the theory as per me is research on its objective significance, for example *EEG brain-scan* studies by *Dario Nardi* in 2006. Shockingly it aligns more with Jung's original theory than its derivative systems for showing activity in supposedly "6th function" of subjects, which Jung's theory by default complies with.
+
+---
