@@ -171,4 +171,113 @@ $$ T = \text{Thinking} $$
 $$ F = \text{Feeling} $$
 
 
-#### *iv. *
+#### *iv. Notation Rules*
+
+1. First letter represents the primary attitude of the subject ($I$/$E$).
+2. Second letter represents the dominant function of the subject ($S$/$N$/$T$/$F$).
+3. Then there is a bracket to write the auxiliary function's letter within it.
+4. If the dominant function is of perceiving type ($S$/$N$), then auxiliary will be a judging one ($T$/$F$), and vice-versa.
+
+
+#### *v. Notation Example*
+
+Let's say we need to represent type of a subject who has a dominant function of *thinking* ($T$) with primary attitude of *introversion* ($I$) to produce effects of *introverted thinking* type. And an auxiliary function of *sensing* to support and balance the thinking function.
+
+>*Notice that auxiliary function is of perceiving type for dominant one being a judging type.*
+
+Steps follows as per these conditions would be (referring to the 4 steps discussed in *Notation Rules* section):
+
+1. $I$
+2. $IT$
+3. $IT()$
+4. $IT(S)$
+
+
+#### *vi. Mapping Closest Types*
+
+| Serial No. | Classic Jungian Type | MBTI Type | Socionics Type |
+| :--------: | :------------------: | :-------: | :------------: |
+|     1      |       $IS(T)$        |  $ISTJ$   | $SLI$ / $ISTp$ |
+|     2      |       $IS(F)$        |  $ISFJ$   | $SEI$ / $ISFp$ |
+|     3      |       $ES(T)$        |  $ESTP$   | $SLE$ / $ESTp$ |
+|     4      |       $ES(F)$        |  $ESFP$   | $SEE$ / $ESFp$ |
+|     5      |       $IN(T)$        |  $INTJ$   | $ILI$ / $INTp$ |
+|     6      |       $IN(F)$        |  $INFJ$   | $IEI$ / $INFp$ |
+|     7      |       $EN(T)$        |  $ENTP$   | $ILE$ / $ENTp$ |
+|     8      |       $EN(F)$        |  $ENFP$   | $IEE$ / $ENFp$ |
+|     9      |       $IT(S)$        |  $ISTP$   | $LSI$ / $ISTj$ |
+|     10     |       $IT(N)$        |  $INTP$   | $LII$ / $INTj$ |
+|     11     |       $ET(S)$        |  $ESTJ$   | $LSE$ / $ESTj$ |
+|     12     |       $ET(N)$        |  $ENTJ$   | $LIE$ / $ENTj$ |
+|     13     |       $IF(S)$        |  $ISFP$   | $ESI$ / $ISFj$ |
+|     14     |       $IF(N)$        |  $INFP$   | $EII$ / $INFj$ |
+|     15     |       $EF(S)$        |  $ESFJ$   | $ESE$ / $ESFj$ |
+|     16     |       $EF(N)$        |  $ENFJ$   | $EIE$ / $ENFj$ |
+
+
+
+## VII. Sixteen Personality Types
+
+
+#### *i. IS(T)*
+
+This type primarily prefers to stick with their *subjective factor* of *sensation*, makes sense of new objects by comparing them to subjective sensory impressions, **doesn't** prefer to adapt with objective sensory factors if their signature **doesn't** match with their subjective factor of sensation, judging *logical relations* in contents of consciousness enables them to perceive more sensory details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *unconscious* factor in their environment.
+
+
+#### *ii. IS(F)*
+
+This type primarily prefers to stick with their *subjective factor* of *sensation*, makes sense of new objects by comparing them to subjective sensory impressions, **doesn't** prefer to adapt with objective sensory factors if their signature **doesn't** match with their subjective factor of sensation, judging *abstract values* in contents of consciousness enables them to perceive more sensory details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *unconscious* factor in their environment.
+
+
+#### *iii. ES(T)*
+
+
+#### *iv. ES(F)*
+
+
+#### *v. IN(T)*
+
+This type primarily prefers to stick with their *subjective factor* of *unconscious images*, makes sense of new objects by comparing them to subjective unconscious impressions, **doesn't** prefer to adapt with objective unconscious factors if their signature **doesn't** match with their subjective factor of unconsciousness, judging *logical relations* in contents of consciousness enables them to perceive more unconscious details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *sensory* factor in their environment.
+
+
+#### *vi. IN(F)*
+
+This type primarily prefers to stick with their *subjective factor* of *unconscious images*, makes sense of new objects by comparing them to subjective unconscious impressions, **doesn't** prefer to adapt with objective unconscious factors if their signature **doesn't** match with their subjective factor of unconsciousness, and judging *abstract values* in contents of consciousness enables them to perceive more unconscious details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *sensory* factor in their environment.
+
+
+#### *vii. EN(T)*
+
+
+#### *viii. EN(F)*
+
+
+#### *ix. IT(S)*
+
+This type primarily prefers to stick with their *subjective factor* of *logical relations*, makes sense of new objects by comparing them to subjective logical impressions, **doesn't** prefer to adapt with objective logical factors if their signature **doesn't** match with their subjective factor of logical understanding, and perceiving *sensory details* in contents of consciousness enables them to evaluate more logical details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *abstract valuation* factor in their environment.
+
+
+#### *x. IT(N)*
+
+This type primarily prefers to stick with their *subjective factor* of *logical relations*, makes sense of new objects by comparing them to subjective logical impressions, **doesn't** prefer to adapt with objective logical factors if their signature **doesn't** match with their subjective factor of logical understanding, and perceiving *unconscious images* in contents of consciousness enables them to evaluate more logical details in them, and their repressions may occasionally blast as temporary intense adaptation to changing *abstract valuation* factor in their environment.
+
+
+#### *xi. ET(S)*
+
+
+#### *xii. ET(N)*
+
+
+#### *xiii. IF(S)*
+
+This type primarily prefers to stick with their *subjective factor* of *abstract values*, makes sense of new objects by comparing them to subjective value impressions, **doesn't** prefer to adapt with objective value factors if their signature **doesn't** match with their subjective factor of abstract values, and perceiving *sensory details* in contents of consciousness enables them to evaluate more abstract values in them, and their repressions may occasionally blast as temporary intense adaptation to changing *logical* factor in their environment.
+
+
+#### *xiv. IF(N)*
+
+This type primarily prefers to stick with their *subjective factor* of *abstract values*, makes sense of new objects by comparing them to subjective value impressions, **doesn't** prefer to adapt with objective value factors if their signature **doesn't** match with their subjective factor of abstract values, and perceiving *unconscious images* in contents of consciousness enables them to evaluate more abstract values in them, and their repressions may occasionally blast as temporary intense adaptation to changing *logical* factor in their environment.
+
+
+#### *xv. EF(S)*
+
+
+#### *xvi. EF(N)*
