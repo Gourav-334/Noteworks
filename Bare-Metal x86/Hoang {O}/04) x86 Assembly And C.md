@@ -222,3 +222,15 @@ mov eax, 0x1234        ; 66 b8 34 12 00 00
 
 
 ## **Topic - 6: Understanding Instructions In Detail**
+
+### <u>Opcode Table</u>
+
+- Lists all possible opcodes.
+- **Fields -** Opcode, instruction, Op/En, 64/32-bit Mode, CPUID, Feature flag, Description, etc.
+
+#### Opcode:
+
+- Unique hexadecimal number assigned to the opcode.
+- There can be multiple opcodes as variants to same instruction.
+
+#### Instruction:

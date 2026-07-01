@@ -7,7 +7,7 @@
 | 4          | Preface                               | ✅      |
 | 5          | Acknowledgements (Optional)           | ❌      |
 | 6          | Table of Contents (Index of Chapters) | ⬜      |
-| 7          | Introduction                          | ⬜      |
+| 7          | Introduction                          | ✅      |
 | 8          | Chapters                              | ⬜      |
 | 9          | Appendix (Optional)                   | ⬜      |
 | 10         | Bibliography / References (Optional)  | ⬜      |
