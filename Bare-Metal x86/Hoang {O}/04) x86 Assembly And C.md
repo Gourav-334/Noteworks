@@ -123,9 +123,23 @@ bits 32
 
 - $\text{ModR/M}$ specifies the operands (register/ address/ immediate).
 - **Three parts -** $mod$, $reg/opcode$, $r/m$
-- **<u>mod</u>:** Modifier field, combined with $r/m$ to produce 32 possible values (8 registers, 24 addressing modes).
-- **<u>reg/opcode</u>:** Encodes/represents register operand, or extends opcode by 3-bits.
-- **<u>r/m</u>:** Encodes register operand, or combines with $mod$ to extend addressing mode.
+- **<u>mod</u>:** Tells whether the operand is register or memory, and if there is a displacement.
+- **<u>reg/opcode</u>:** Tells which register is the second operand.
+- **<u>r/m</u>:** Depending on value of $mod$ field, it tells which register or addressing mode is used.
+
+
+### <u>ModR/M Example</u>
+
+- Consider `11011000` as the $ModR/M$ byte.
+
+```
+mov eax, [ebx]        ; ModR/M = (00 | 000 | 011)
+```
+
+- **$mod$ -** `00` (means memory operand without any displacement)
+- **$reg$ -** `000` (use EAX as second operand)
+- **$r/m$ -** `011` (use EBX as first operand)
+- But because `00` says the instruction is about memory operand, `011` as first operand means memory address of EBX, not value at EBX.
 
 
 ### <u>Addressing Mode & Register</u>

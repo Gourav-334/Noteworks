@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0496d99d1795db55",
+        "id": "ef840ce919e0c9b9",
         "type": "tabs",
         "children": [
           {
-            "id": "24f6d91a2f1835eb",
+            "id": "303611aa01cc930d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24f6d91a2f1835eb",
+  "active": "303611aa01cc930d",
   "lastOpenFiles": [
+    "Crash Courses/TCS IPA/05) Structured Query Language.md",
+    "Crash Courses/TCS IPA/04) Java.md",
+    "Crash Courses/TCS IPA/03) UNIX.md",
+    "Crash Courses/TCS IPA/02) User Interface.md",
+    "Crash Courses/TCS IPA/01) Business Skills.md",
+    "Crash Courses/TCS IPA",
+    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Summaries/Bare-Metal Programming {O}.md",
     "Books/Ontology Of Time/03) Established Facts.md",
     "Books/Ontology Of Time/02) Table Of Contents.md",
@@ -196,21 +203,14 @@
     "Summaries/Custom {O}/media",
     "Summaries/Custom {O}/New folder",
     "Bare-Metal x86/Hoang {O}/01) Domain Documents.md",
-    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Books/Neutralizing Typology Noise/04) Classic Jungian Typology.md",
     "Books/Neutralizing Typology Noise/02) Table Of Contents.md",
-    "Books/Neutralizing Typology Noise/00) Book Format.md",
-    "Books/Neutralizing Typology Noise/03) Introduction.md",
-    "Books/Neutralizing Typology Noise/01) Preface.md",
     "New folder",
-    "Typology/Psychological Types - Vol. 8.md",
     "Books/Neutralizing Typology Noise",
-    "Typology/VEONS.md",
     "Bare-Metal x86/Hoang {O}/media/image20.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-06-16 125511.png",
     "Easter Eggs/Others",
-    "Jungian Typology",
     "Bare-Metal x86/Hoang {O}/media/image19.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134750.png",
     "Bare-Metal x86/Hoang {O}/media/image18.png"
