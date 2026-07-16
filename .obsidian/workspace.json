@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef840ce919e0c9b9",
+        "id": "0b58cf0d9ea4694c",
         "type": "tabs",
         "children": [
           {
-            "id": "303611aa01cc930d",
+            "id": "a05c81d09e05fdcb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,15 +166,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "303611aa01cc930d",
+  "active": "a05c81d09e05fdcb",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Bare-Metal x86/Hoang {O}/media/image22.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png",
+    "Bare-Metal x86/Hoang {O}/media/image21.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 173524.png",
     "Crash Courses/TCS IPA/05) Structured Query Language.md",
     "Crash Courses/TCS IPA/04) Java.md",
     "Crash Courses/TCS IPA/03) UNIX.md",
     "Crash Courses/TCS IPA/02) User Interface.md",
     "Crash Courses/TCS IPA/01) Business Skills.md",
     "Crash Courses/TCS IPA",
-    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Summaries/Bare-Metal Programming {O}.md",
     "Books/Ontology Of Time/03) Established Facts.md",
     "Books/Ontology Of Time/02) Table Of Contents.md",
@@ -205,14 +209,9 @@
     "Bare-Metal x86/Hoang {O}/01) Domain Documents.md",
     "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Books/Neutralizing Typology Noise/04) Classic Jungian Typology.md",
-    "Books/Neutralizing Typology Noise/02) Table Of Contents.md",
     "New folder",
     "Books/Neutralizing Typology Noise",
     "Bare-Metal x86/Hoang {O}/media/image20.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-06-16 125511.png",
-    "Easter Eggs/Others",
-    "Bare-Metal x86/Hoang {O}/media/image19.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-05-27 134750.png",
-    "Bare-Metal x86/Hoang {O}/media/image18.png"
+    "Easter Eggs/Others"
   ]
 }

@@ -242,9 +242,108 @@ mov eax, 0x1234        ; 66 b8 34 12 00 00
 - Lists all possible opcodes.
 - **Fields -** Opcode, instruction, Op/En, 64/32-bit Mode, CPUID, Feature flag, Description, etc.
 
+
+### <u>Operand Table Columns</u>
+
 #### Opcode:
 
-- Unique hexadecimal number assigned to the opcode.
-- There can be multiple opcodes as variants to same instruction.
+- Hex representation of opcode.
+- There can be multiple opcodes variants to same instruction.
+- **Reference -** Section 3.1.1.1 and 3.1.1.2 (Intel Volume 2).
 
 #### Instruction:
+
+- Includes the opcode and the operand.
+- Operands can have relative addresses represented as $rel8$, $rel16$, or $rel32$.
+- **<u>Relative addresses</u>:** Used in conditional statements to know where to jump/move.
+- $rel8$ for instance means jump to instruction that is $[-127,128]$ bytes from next instruction.
+- **Reference -** Section 3.1.1.3 (Intel Volume 2).
+
+#### Op/En:
+
+- Short for *operand/encoding*.
+- Shows how operands are encoded in ModR/M byte.
+- If any instruction requires multiple operands, then *Instruction Operand Encoding* table is referred.
+
+| Op/En | Operand1 | Operand2 | Operand3 | Operand4 |
+| :---- | :------: | :------: | :------: | :------: |
+
+- An operand can be $r$ (readable), $w$ (writable) or both.
+- For example, the $r/m$ operand (EBX) in `movl %ebx, %eax` is read-only.
+
+#### 64/32-bit mode:
+
+- Tells whether a class of opcode is available in 64-bit and 32-bit systems.
+
+#### CPUID feature flag:
+
+- Tells if any particular CPU feature is required to run the instruction.
+
+#### Compat/Leg mode:
+
+- *Compat/Leg* stands for compatibility/legacy mode.
+- This field is not included by instructions usually.
+- When present, it lets 64-bit variants of instructions to smoothly run on 32/16-bit ones.
+
+#### Operation:
+
+- Example pseudo-code implementation of an instruction.
+- **Reference -** Section 3.1.1.9 (Intel Volume 2).
+
+#### Exceptions:
+
+- Possible errors that may arise from instruction not running correctly,
+- **Exception types -**
+	1. Protected-Mode Exception
+	2. Real-Mode Exception
+	3. Virtual-8086 Mode Exception
+	4. Floating-Point Exception
+	5. SIMD Floating-Point Exception
+	6. Compatibility Mode Exception
+	7. 64-bit Mode Exception
+
+
+
+## **Topic - 7: Example `jmp` Instruction
+
+### <u>Opcode Table</u>
+
+![Jump Opcode Table](./media/image21.png)
+
+- `ff` opcode represents those `jmp` instructions where jump is made on an absolute address.
+- This is known as a *far jump*.
+- And the value of address tells how far it is from DS (data segment).
+
+
+### <u>Example - I</u>
+
+```nasm
+main:
+	jmp main          ; 00: eb fe
+	jmp main2         ; 02: eb 02
+	jmp main          ; 04: eb fa
+
+main2:
+	jmp 0x1234        ; 06: e9 2b 12
+```
+
+- `fe` as a signed value translates to `-2`.
+- So, `fe` here points `2` bytes before the next byte (`eb` at `02`), i.e. `main` again.
+
+
+### <u>Example - II</u>
+
+- A far jump instruction can be written with `far` keyword as shown below:
+
+```nasm
+jmp far [eax]        ; 67 ff 28
+```
+
+- In this instruction, we get CS:EIP combination pointing to an address.
+- This address is what is stored at address pointed by EAX.
+- To understand it better, refer to the diagram below:
+
+![Far Jump Example Visualization](./media/image22.png)
+
+- Blue part (`0x5678`) highlighted is the code segment address.
+- While red part (`0x1234`) highlighted is a memory address lying in that segment, from where execution will continue.
