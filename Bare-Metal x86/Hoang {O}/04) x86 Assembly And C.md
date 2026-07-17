@@ -347,3 +347,41 @@ jmp far [eax]        ; 67 ff 28
 
 - Blue part (`0x5678`) highlighted is the code segment address.
 - While red part (`0x1234`) highlighted is a memory address lying in that segment, from where execution will continue.
+
+
+
+## **Topic - 8: Examine Compiled Data**
+
+### <u>Command To Use</u>
+
+```sh
+objdump -z -M intel -S -D \
+-j .data -j .bss <object_file> | less
+```
+
+- `-j` flags are used to specify sections.
+- `-z` flag is used to show zero bytes (which are otherwise replaced with dots).
+
+
+### <u>Memory Alignment</u>
+
+- Memory needs to align with the operand sizes.
+- For example, a word is of 2 bytes, but using overfitting it to 4 bytes would require two CPU cycles to read it.
+
+
+### <u>Primitive Sizes In C</u>
+
+```c
+#include <stdint.h>
+
+uint8_t byte = 0x12;        // Byte and similarly would be word, dw, qw.
+unsigned __int128 dqword = (__int128) 0x123456789abcdef;
+```
+
+- For the second line of code, GCC throws error if CPU doesn't support 64-bit mode.
+
+
+### <u>Sizes</u>
+
+- A `char` isn't guaranteed to be of 1 byte, but instead the smallest addressable size.
+- Data types like `uintX_t` however stick to required size strictly (though padding might exist by default).
