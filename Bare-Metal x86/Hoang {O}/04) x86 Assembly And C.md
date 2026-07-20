@@ -385,3 +385,36 @@ unsigned __int128 dqword = (__int128) 0x123456789abcdef;
 
 - A `char` isn't guaranteed to be of 1 byte, but instead the smallest addressable size.
 - Data types like `uintX_t` however stick to required size strictly (though padding might exist by default).
+
+
+### <u>Pointer Data Types</u>
+
+- **<u>Near pointer</u>:** 16/32-bit address offset within a segment.
+- **<u>Far pointer</u>:** Address offset but with defined segment selector.
+- **<u>Segment selector</u>:** Index/address to offset of a particular segment.
+
+![Pointer Types](./media/image23.png)
+
+- C supports only near pointers (addresses within segment).
+- This is because far pointers are platform dependent.
+
+
+### <u>Bit Field Data Type</u>
+
+- **<u>Bit field</u>:** A pack of contagiously aligned bits, where its parts represent different information.
+- Bit fields can be coded in C, but represented only within `struct` or `union`.
+
+```c
+union bit_field {
+	unsigned int al:8;          // Bit width of 8
+	unsigned int ax:16;         // Bit width of 16
+	unsigned int eax:32;        // Bit width of 32
+	unsigned int rax:64;        // Bit width of 64
+};
+```
+
+- Because we used `int` here, it takes 32-bits (say on a particular machine).
+- And the first member `al` takes 8-bits initially, but has 24-bits remaining now.
+- If next member added fits in remaining bits, then its stored right there, otherwise a different storage unit is allocated.
+- Our second member `ax` thus fits into the remaining 24-bits easily, being of just 16-bits, leaving 8 remaining bits.
+- Now because `eax` won't fit there being of 32-bits, a new storage unit is allocated.

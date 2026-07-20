@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "29da73d166a57d02",
+        "id": "99e2b38175cf104f",
         "type": "tabs",
         "children": [
           {
-            "id": "fc4e2dee93f1962e",
+            "id": "bf209d70342d1050",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,9 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc4e2dee93f1962e",
+  "active": "bf209d70342d1050",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Bare-Metal x86/Hoang {O}/media/image23.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png",
     "Bare-Metal x86/Hoang {O}/03) Computer Architecture.md",
     "Bare-Metal x86/Hoang {O}/media/image22.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png",
@@ -193,7 +195,6 @@
     "Easter Eggs/Plannings & Projects/media",
     "Easter Eggs/Plannings & Projects/System Programming Roadmap.md",
     "Summaries/media/image1.png",
-    "Summaries/media/image6.png",
     "Summaries/Custom {O}/Bare-Metal Programming {O}.md",
     "Summaries/UNIX System Calls {C}.md",
     "Summaries/Executable & Linking Format {C}.md",
@@ -211,7 +212,6 @@
     "Books/Neutralizing Typology Noise/04) Classic Jungian Typology.md",
     "New folder",
     "Books/Neutralizing Typology Noise",
-    "Bare-Metal x86/Hoang {O}/media/image20.png",
     "Easter Eggs/Others"
   ]
 }
