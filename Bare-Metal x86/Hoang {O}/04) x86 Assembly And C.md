@@ -418,3 +418,70 @@ union bit_field {
 - If next member added fits in remaining bits, then its stored right there, otherwise a different storage unit is allocated.
 - Our second member `ax` thus fits into the remaining 24-bits easily, being of just 16-bits, leaving 8 remaining bits.
 - Now because `eax` won't fit there being of 32-bits, a new storage unit is allocated.
+
+
+### <u>Exercise</u>
+
+#### Exercise - I:
+
+```c
+struct bit_field {
+	int data1:8;
+};
+
+struct bit_field bf = {
+	.data1 = 0x1234;
+};
+```
+
+- For overflowing size of value, bits from the lower end are chosen.
+- So the value of `data1` will be `0x34`.
+
+
+### <u>String Data Type</u>
+
+- String in assembly differs from that in C.
+- **<u>String (in x86)</u>:** Continuous sequence of bits, bytes, words, or doublewords.
+
+
+### <u>Padding Alignment</u>
+
+```c
+#include <stdio.h>
+
+uint8_t a8[2] = {0x12, 0x34};
+uint16_t a16[2] = {0x1234, 0x5678};
+uint32_t a32[2] = {0x12345678, 0x9abcdef0};
+uint64_t a64[2] = {0x123456789abcdef0, 0x123456789abcdef0};
+
+int main(int argc, char *argv[])
+{
+	return 0;
+}
+```
+
+- Alignment can be maximum to 4 bytes in a 64-bit architecture.
+- So the memory layout looks something like this:
+
+```
+12 34 00 00
+34 12 78 56
+34 12 78 56 f0 de bc 9a
+34 12 78 56 f0 de bc 9a 34 12 78 56 f0 de bc 9a
+```
+
+- Memory representation of multi-dimensional array is similarly linear as normal array.
+- For example, `arr[2][2]` is same in representation as `arr[4]`.
+
+
+
+## **Topic - 9: Examine Compiled Code**
+
+### <u>Command</u>
+
+```sh
+objdump --no-show-raw-insn \
+-M intel -S -D <object_file> | less
+```
+
+- `--no-show-raw-insn` is used to omit opcodes.
