@@ -19,3 +19,15 @@
 - **1916 -** Lucknow pack under which *Tilak* & *Muhammad Ali Jinnah* came together to form a union between *Congress* and *AIML* in order to overthrow British government in demand of self-rule governance. Moreover, even the moderate and extremist leaders came together under this same objective.
 
 - **1919 -** *Rowlett Act*, also known as *Black Act* was continuation act by *Justice Sydney Rowlett* to continue repressive acts which were introduced during WW1. This act introduced arrests without warrant & imprisonment without trials. Indians were promised political reforms but this act originally set in *1915* still continued. This lead to a peaceful protest in Amritsar which turned into tragic *Jallianwala Bag Massacre* under *General Dyer*.
+
+- **1919 to 1924 -** The *Treaty of Sèvres* by British Empire stripped Ottoman empire of its caliphate, the head of Sunni Islamic world, causing widespread anger among Muslims in India. This gave birth to *Khilafat Movement*, led by the Ali brothers. *Muhammad Ali Jauhar* was the organizer for Khilafat committees and advocated pan-Islamic solidarity. While *Shaukat Ali* made efforts to spread the movement to rural areas, and was jailed multiple times.
+
+- **1920 to 1922 -** Mahatma Gandhi saw *Khilafat Movement* as a way to bring Hindu-Muslim union against British regime, and started *Non-Cooperation Movement* to boycott British goods, facilities, and titles. But halted by Gandhi when supposed peaceful protesters ended up killing 12 policeman in Chauri Chaura.
+
+- **1928 -** *Simon Commission* was passed by *Sir John Simon* to reform Indian government, which had 7 members, none of which were Indian. This enraged Indians and they showed black flags in protests with slogan of *"Simon Go Back!"*. One of the protesting groups led by *Lala Lajpat Rai*, who was brutally beaten by the police and died from his injuries later.
+
+- **1929 -** *Congress' Lahore Session* was hosted where *Purna Swaraj* (complete independence) was demanded under newly elected Congress president *Jawaharlal Nehru*. In *26 January 1930*, Congress declared a premature independence day which later came to be known as *Republic Day* from 1950.
+
+- **1930 -** *Civil Disobedience Movement* occurred, where Gandhiji urged people to break unjust laws set for monopoly purposes, like that of tax on salt. Gandhiji walked for 240 miles, from Sabarmati Ashram to Dandi in order to break salt law by fetching it from sea water. This was *Dandi March*. Many protestors including Gandhiji was jailed.
+
+- **1931 -** Gandhi-Irwin pact was signed, which was a negotiation between British Raj and Gandhi/Congress. This was regarding the recently held *Civil Disobedience Movement*, where a reform was sought to be brought. British released the non-violent Indian prisoners, while Gandhi withdrew the movement. But at second round table conference in London, Gandhi's demand of fully independent India was rejected.
