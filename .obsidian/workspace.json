@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "226b76e2ed2a3d21",
+        "id": "c977d696c180723c",
         "type": "tabs",
         "children": [
           {
-            "id": "f0583c09dfa29f11",
+            "id": "92a14827bbcfdf13",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0583c09dfa29f11",
+  "active": "92a14827bbcfdf13",
   "lastOpenFiles": [
-    "AFCAT Edition/ChatGPT {O}/History.md",
+    "AFCAT Edition/ChatGPT {O}/Polity.md",
+    "AFCAT Edition/Grok {O}/Political Science.md",
     "AFCAT Edition/Grok {O}/History.md",
+    "AFCAT Edition/ChatGPT {O}/History.md",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "AFCAT Edition/ChatGPT {O}",
     "Bare-Metal x86/Hoang {O}/media/image23.png",
@@ -207,11 +209,9 @@
     "Summaries/C Programming {C}.md",
     "Summaries/Bourne Again Shell {O}.md",
     "Summaries/Basic Electronics {C}.md",
-    "Summaries/Basic Electrical Engineering {C}.md",
     "Summaries/media",
     "Summaries/Custom {O}/media",
     "Summaries/Custom {O}/New folder",
-    "Bare-Metal x86/Hoang {O}/01) Domain Documents.md",
     "New folder",
     "Books/Neutralizing Typology Noise"
   ]

@@ -60,25 +60,25 @@
 
 ## **Topic - 4: Viceroys & Governors**
 
-|Viceroy|Year|Famous for / Controversy|
-|---|---|---|
-|Lord Curzon|1899–1905|Partition of Bengal 1905|
-|Lord Reading|1921–26|Chauri-Chaura → Non-Coop withdrawn|
-|Lord Irwin|1926–31|Gandhi-Irwin Pact, Dandi March|
-|Lord Willingdon|1931–36|Suppressed Civil Disobedience|
-|Lord Linlithgow|1936–44|Quit India → longest tenure|
-|Lord Mountbatten|1947|Last Viceroy → Partition + Independence|
+| Viceroy          | Year      | Famous for / Controversy                |
+| ---------------- | --------- | --------------------------------------- |
+| Lord Curzon      | 1899–1905 | Partition of Bengal 1905                |
+| Lord Reading     | 1921–26   | Chauri-Chaura → Non-Coop withdrawn      |
+| Lord Irwin       | 1926–31   | Gandhi-Irwin Pact, Dandi March          |
+| Lord Willingdon  | 1931–36   | Suppressed Civil Disobedience           |
+| Lord Linlithgow  | 1936–44   | Quit India → longest tenure             |
+| Lord Mountbatten | 1947      | Last Viceroy → Partition + Independence |
 
 
 
 ## **Topic - 5: Revolutionary Organizations**
 
-|Organisation|Founder / Leader|Place / Note|
-|---|---|---|
-|Anushilan Samiti|Barindra Ghosh, Aurobindo|Bengal|
-|Abhinav Bharat|Vinayak Damodar Savarkar|Nasik Conspiracy case|
-|Hindustan Republican Assoc|Ram Prasad Bismil, Ashfaqullah|Kakori Conspiracy 1925|
-|HSRA|Bhagat Singh, Chandrashekhar|Lahore Conspiracy + Assembly bomb|
+| Organisation               | Founder / Leader               | Place / Note                      |
+| -------------------------- | ------------------------------ | --------------------------------- |
+| Anushilan Samiti           | Barindra Ghosh, Aurobindo      | Bengal                            |
+| Abhinav Bharat             | Vinayak Damodar Savarkar       | Nasik Conspiracy case             |
+| Hindustan Republican Assoc | Ram Prasad Bismil, Ashfaqullah | Kakori Conspiracy 1925            |
+| HSRA                       | Bhagat Singh, Chandrashekhar   | Lahore Conspiracy + Assembly bomb |
 
 
 

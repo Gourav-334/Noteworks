@@ -31,3 +31,72 @@
 - **1930 -** *Civil Disobedience Movement* occurred, where Gandhiji urged people to break unjust laws set for monopoly purposes, like that of tax on salt. Gandhiji walked for 240 miles, from Sabarmati Ashram to Dandi in order to break salt law by fetching it from sea water. This was *Dandi March*. Many protestors including Gandhiji was jailed.
 
 - **1931 -** Gandhi-Irwin pact was signed, which was a negotiation between British Raj and Gandhi/Congress. This was regarding the recently held *Civil Disobedience Movement*, where a reform was sought to be brought. British released the non-violent Indian prisoners, while Gandhi withdrew the movement. But at second round table conference in London, Gandhi's demand of fully independent India was rejected.
+
+- **1932 -** In *August 1932*, the British prime minister *Ramsay MacDonald* declared a political draft *Communal Award* where the minorities of India, including *Dalits* (scheduled castes) get a separate electorate for them. *Dr. B.R. Ambedkar* was in support of this, as it represented minorities, but Gandhi started a fast unto death while being imprisoned. So bilateral dialogues were exchanged between Gandhi and Ambedkar under *Poona Pact* of *September 1932*. Both agreed for reserved seats for Dalits in legislative assembly, but not separate electorate.
+
+- **1935 -** *Government Of India Act* was passed by British Parliament with a series of reforms. All subjects like agriculture, education, health, finance, etc, were passed to Indian ministers, unlike those introduced in *1919* targeting key ones. Also it let certain provinces being managed and controlled by Congress ministers. Also it extended right to vote to about 10%. This framework later served as the blueprint of *Constitution Of India*.
+
+- **1940 -** *Individual Satyagraha* started where selected individuals participated in Satyagraha. This was specifically against British draft to recruit Indians into military during WW2. This didn't gave Indian citizens a choice, and in exchange the demand for Indian independence was rejected despite the heavy war efforts. First *Vinoba Bhawe*, then *Jawaharlal Nehru* were jailed.
+
+- **1942 -** Winston Churchill sent *Sir Stafford Cripps*, a senior minister to make a proposal to Gandhi under which Indians will volunteer in WW2 effort along allies, and in return they would provide constitutional reforms. Both Congress and Muslim League rejected it as it didn't promise immediate independence. Then *Quit India Movement* started where a mass uprising came up against Britishers to leave India.
+
+- **1945 to 1946 -** Trials against captured INA officers started at *Red Fort, Delhi*. First trial was against three officers: *Shah Nawaz Khan*, *Prem Kumar Sehgal*, and *Gurbaksh Singh Dhillon*. But everyone was eventually released for rising protest against the trials.
+
+- **1946 -** Britain began procedures to smoothly transfer power to Indians, under *Cabinet Mission*. Three British minsters: *Lord Pethick Lawrence*, *Sir Stafford Cripps*, and *A.V. Alexander* came to aid in framing constitution. It proposed three province groups: Hindu majority, Muslim majority, and Bengal-Assam region. Congress supported while denying grouping, while Muslim League demanded separate nation *Pakistan*. Then under *Interim Government*, Jawaharlal Nehru ran India until full independence, getting hands on governance experience. Also the *Royal Indian Navy Mutiny* broke out against bad pay, bad food, and racial discrimination. Ended up killing 200 sailors. INC condemned the mutiny for being violent.
+
+- **1947 -** Partition & Indian independence. *Lore Mountbatten* replaced *Lord Wavell* as the viceroy. Mountbatten also proposed the plan to divide India as per religious demographics of the region, including provinces like Punjab and Bengal. Princely states could join either dominion.
+
+
+
+## **Topic - 2: Other Prominent Female Figures**
+
+- **Aruna Asaf Ali -** Married to a Congress leader *Asaf Ali* who introduced her to politics. Known for defying British orders to hoist Congress flag in *Bombay* (now Mumbai). Later served as Delhi's first woman mayor in 1958.
+
+- **Captain Laxmi Sehgal -** Born in Chennai (1914), leader of *Rani Of Jhansi Regiment* of INA. Studies medicine in Singapore, came in contact of Bose to later join INA. Led campaigns against British in Burma (Myanmar). Ran for presidency against *A.P.J. Abdul Kalam* in 2002. Was awarded *Padma Bhushan in 1998.
+
+
+
+## **Topic - 3: Frequently Asked Questions**
+
+- *Annie Besant* was the first woman president of INC, despite being British.
+- *Sarojini Naidu* was the first **Indian** woman president of INC.
+- *Purna Swaraj* resolution was passed in *Lahore Session of 1929*.
+- *Tilak* and *Besant* formed *Indian Home Rule League* separately and then later merged it.
+- *Sardar Vallabhbhai Patel* led *Bardoli Satyagraha* in Gujarat against unfair taxation on land and crops.
+
+
+
+## **Topic - 4: Viceroys & Governors**
+
+| Viceroy          | Year      | Famous for / Controversy                |
+| ---------------- | --------- | --------------------------------------- |
+| Lord Curzon      | 1899–1905 | Partition of Bengal 1905                |
+| Lord Reading     | 1921–26   | Chauri-Chaura → Non-Coop withdrawn      |
+| Lord Irwin       | 1926–31   | Gandhi-Irwin Pact, Dandi March          |
+| Lord Willingdon  | 1931–36   | Suppressed Civil Disobedience           |
+| Lord Linlithgow  | 1936–44   | Quit India → longest tenure             |
+| Lord Mountbatten | 1947      | Last Viceroy → Partition + Independence |
+
+
+
+## **Topic - 5: Revolutionary Organizations**
+
+- **Anushilan Samiti -** Militant revolutionary group founded by *Aurobindo Ghosh* & *Barindra Ghosh*in *Calcutta* 1902, training people in martial arts and bomb making. Involved in attempt on *Magistrate Kingsford’s* life. Was known as one of the most dangerous armed group.
+
+- **Abhinav Bharat -** Another underground militant society founded by *Vinayak Damodar Savarkar* & his brother *Ganesh Savarkar* in 1904. It made armed struggle against British rule, inspired from *Mazzini* of Italy. British collector *A.M.T. Jackson* at Nashik was assassinated by *Anant Kanhere*, a young militant associated to *Abhinav Bharat*.
+
+- **Hindustan Republican Association -** Founded by *Ram Prasad Bismil*, *Sachindra Nath Sanyal*, and *Jogesh Chandra Chatterjee* in 1924, Kanpur. Collected funds through armed robberies from government funds, like *Kakori Train Robbery (1925)*. Later renamed as *HSRA* (S=Socialist).
+
+
+
+## **Topic - 6: Newspapers & Journals**
+
+| Paper / Journal       | Founder / Editor                                 | Note                |
+| --------------------- | ------------------------------------------------ | ------------------- |
+| Kesari & Maratha      | Tilak                                            | Extremist voice     |
+| Young India & Harijan | Gandhi                                           | Gandhi’s mouthpiece |
+| Al-Hilal & Al-Balagh  | Abul Kalam Azad                                  | Urdu, pro-Khilafat  |
+| Bombay Chronicle      | Pherozeshah Mehta                                | Moderate            |
+| Hindustan Times       | Founded 1924 (later Madan Mohan Malaviya linked) | -                   |
+
+---
