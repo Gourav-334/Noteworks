@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ab5e3575cd625af",
+        "id": "af0f7c07f7f12ba8",
         "type": "tabs",
         "children": [
           {
-            "id": "6cd373bf5bef3cba",
+            "id": "1b518f22ff5acd5e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cd373bf5bef3cba",
+  "active": "1b518f22ff5acd5e",
   "lastOpenFiles": [
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/17) Organization & Their Headquarters.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/16) Country, Capital & Currency.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/15) Inventions.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/14) Dams & Stadiums.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/13) National Parks, Wildlife Sanctuaries & Bird Sanctuaries.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/12) Monuments.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/11) Temples.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/10) Festivals.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/09) Dance Forms.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/08) Music & Instruments.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/07) Books & Authors.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/06) Literature.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/05) Sports.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/04) Awards.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/03) Important Days.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/02) Census.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/01) India's First.md",
+    "AFCAT Edition/ChatGPT {O}/General Knowledge",
     "AFCAT Edition/ChatGPT {O}/Economics/10) Current Economic Indicators.md",
     "AFCAT Edition/ChatGPT {O}/Economics/09) Agriculture & Industry.md",
     "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
@@ -177,26 +196,8 @@
     "AFCAT Edition/ChatGPT {O}/Economics/05) Fiscal Policy & Budget.md",
     "AFCAT Edition/ChatGPT {O}/Economics/04) Inflation & Monetary Policy.md",
     "AFCAT Edition/ChatGPT {O}/Economics/03) Banking System.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/02) National Incomes.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/01) Basics Of Economics.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
-    "AFCAT Edition/ChatGPT {O}/Geography/11) Agriculture.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/10) Indian Geography.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/09) World Geography.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/08) Ocean.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/05) Mountains, Plateaus & Plains.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/06) Atmosphere.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/07) Cyclones & Anticyclones.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/04) Rocks, Earthquakes & Volcanoes.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/03) Longitudes & Latitudes.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/02) Earth.md",
-    "AFCAT Edition/ChatGPT {O}/Geography/01) Universe.md",
     "AFCAT Edition/ChatGPT {O}/Geography",
-    "AFCAT Edition/ChatGPT {O}/Polity/10) Constitutional Bodies & Non-Constitutional Bodies.md",
-    "AFCAT Edition/ChatGPT {O}/Polity/09) Panchayati Raj & Municipalities.md",
-    "AFCAT Edition/ChatGPT {O}/Polity/08) Judiciary.md",
-    "AFCAT Edition/ChatGPT {O}/Polity/07) State Government.md",
-    "AFCAT Edition/ChatGPT {O}/Polity/06) Central Government.md",
     "AFCAT Edition/ChatGPT {O}/Polity",
     "AFCAT Edition/ChatGPT {O}/History",
     "AFCAT Edition/ChatGPT {O}",
@@ -213,7 +214,6 @@
     "Easter Eggs/Plannings & Projects/media/image1.png",
     "Easter Eggs/Plannings & Projects/media/Screenshot 2026-07-02 201251.png",
     "Easter Eggs/Plannings & Projects/media/Screenshot 2026-07-02 192418.png",
-    "Easter Eggs/Plannings & Projects/media",
     "Summaries/media/image1.png"
   ]
 }
