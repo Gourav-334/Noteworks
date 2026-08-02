@@ -1,4 +1,4 @@
-# $\fbox{POLITICAL SCIENCE}$
+# $\fbox{POLITY}$
 
 
 
