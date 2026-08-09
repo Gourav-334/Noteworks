@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "af0f7c07f7f12ba8",
+        "id": "c27399460f73fc28",
         "type": "tabs",
         "children": [
           {
-            "id": "1b518f22ff5acd5e",
+            "id": "75a6ec866e45950a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Typology/Honeycomb Computational Cognition.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Honeycomb Computational Cognition"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 226.5,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -167,8 +172,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b518f22ff5acd5e",
+  "active": "75a6ec866e45950a",
   "lastOpenFiles": [
+    "Typology/media/hcc6.png",
+    "Typology/media/Unconfirmed 189192.crdownload",
+    "Typology/media/hcc5.png",
+    "Typology/media/Unconfirmed 610320.crdownload",
+    "Typology/media/hcc4.png",
+    "Typology/media/Unconfirmed 810351.crdownload",
+    "Typology/media/hcc3.png",
+    "Typology/media/Unconfirmed 748796.crdownload",
+    "Typology/media/hcc2.png",
+    "Typology/media/Unconfirmed 566519.crdownload",
+    "Typology/media/hcc1.png",
+    "Typology/media/Unconfirmed 647233.crdownload",
+    "Typology/Honeycomb Computational Cognition.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/17) Organization & Their Headquarters.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/16) Country, Capital & Currency.md",
@@ -194,26 +212,13 @@
     "AFCAT Edition/ChatGPT {O}/Economics/07) International Economy.md",
     "AFCAT Edition/ChatGPT {O}/Economics/06) Indian Economy.md",
     "AFCAT Edition/ChatGPT {O}/Economics/05) Fiscal Policy & Budget.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/04) Inflation & Monetary Policy.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/03) Banking System.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
     "AFCAT Edition/ChatGPT {O}/Geography",
     "AFCAT Edition/ChatGPT {O}/Polity",
-    "AFCAT Edition/ChatGPT {O}/History",
-    "AFCAT Edition/ChatGPT {O}",
-    "AFCAT Edition/Copilot {C}",
     "Bare-Metal x86/Hoang {O}/media/image23.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png",
     "Bare-Metal x86/Hoang {O}/media/image22.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png",
-    "Bare-Metal x86/Hoang {O}/media/image21.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 173524.png",
-    "Crash Courses/TCS IPA",
-    "Books/Ontology Of Time",
-    "Books",
-    "Easter Eggs/Plannings & Projects/media/image1.png",
-    "Easter Eggs/Plannings & Projects/media/Screenshot 2026-07-02 201251.png",
-    "Easter Eggs/Plannings & Projects/media/Screenshot 2026-07-02 192418.png",
-    "Summaries/media/image1.png"
+    "Bare-Metal x86/Hoang {O}/media/image21.png"
   ]
 }
