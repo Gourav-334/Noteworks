@@ -485,3 +485,21 @@ objdump --no-show-raw-insn \
 ```
 
 - `--no-show-raw-insn` is used to omit opcodes.
+
+
+### <u>Important Instructions</u>
+
+```nasm
+cdq                  ; Convert DWORD value in EAX to QWORD.
+neg eax              ; Negate EAX register content.
+sete al              ; Set AL if equal, similarly SETNE/SETG/SETLE/etc.
+movzx eax, al        ; Zeroes remaining bytes of a register.
+```
+
+
+### <u>Important Facts</u>
+
+- Logical AND (`&&`) and logical OR (`||`) are purely software implemented, not hardwired.
+- GCC uses `add`/`sub` instead of `inc`/`dec` for `++`/`--` type codes due to *partial flag register stall*.
+- *Partial flag register stall* is a situation when certain instructions change the content in flag, and `inc`/`dec` are dependent on the flag.
+- Even the ***Intel Manual*** suggests using `add`/`sub` instead of `inc`/`dec`.

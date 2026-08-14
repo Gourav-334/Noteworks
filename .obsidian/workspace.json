@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c27399460f73fc28",
+        "id": "8e277de42ff6c852",
         "type": "tabs",
         "children": [
           {
-            "id": "75a6ec866e45950a",
+            "id": "b2a94864f8bd2c0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Typology/Honeycomb Computational Cognition.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Honeycomb Computational Cognition"
+              "title": "New tab"
             }
           }
         ]
@@ -172,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75a6ec866e45950a",
+  "active": "b2a94864f8bd2c0d",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Typology/Honeycomb Computational Cognition.md",
+    "Typology/VEONS.md",
     "Typology/media/hcc6.png",
     "Typology/media/Unconfirmed 189192.crdownload",
     "Typology/media/hcc5.png",
@@ -186,7 +185,6 @@
     "Typology/media/Unconfirmed 566519.crdownload",
     "Typology/media/hcc1.png",
     "Typology/media/Unconfirmed 647233.crdownload",
-    "Typology/Honeycomb Computational Cognition.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/17) Organization & Their Headquarters.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/16) Country, Capital & Currency.md",
@@ -211,14 +209,12 @@
     "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
     "AFCAT Edition/ChatGPT {O}/Economics/07) International Economy.md",
     "AFCAT Edition/ChatGPT {O}/Economics/06) Indian Economy.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/05) Fiscal Policy & Budget.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
     "AFCAT Edition/ChatGPT {O}/Geography",
     "AFCAT Edition/ChatGPT {O}/Polity",
     "Bare-Metal x86/Hoang {O}/media/image23.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png",
     "Bare-Metal x86/Hoang {O}/media/image22.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png",
-    "Bare-Metal x86/Hoang {O}/media/image21.png"
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png"
   ]
 }
