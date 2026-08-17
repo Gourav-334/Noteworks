@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e277de42ff6c852",
+        "id": "20b7ac22e8770c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "b2a94864f8bd2c0d",
+            "id": "c65f634f6a9e782b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,9 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2a94864f8bd2c0d",
+  "active": "c65f634f6a9e782b",
   "lastOpenFiles": [
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Bare-Metal x86/Hoang {O}/media/image24.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-15 143201.png",
     "Typology/Honeycomb Computational Cognition.md",
     "Typology/VEONS.md",
     "Typology/media/hcc6.png",
@@ -208,13 +210,10 @@
     "AFCAT Edition/ChatGPT {O}/Economics/09) Agriculture & Industry.md",
     "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
     "AFCAT Edition/ChatGPT {O}/Economics/07) International Economy.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/06) Indian Economy.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
     "AFCAT Edition/ChatGPT {O}/Geography",
     "AFCAT Edition/ChatGPT {O}/Polity",
     "Bare-Metal x86/Hoang {O}/media/image23.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png",
-    "Bare-Metal x86/Hoang {O}/media/image22.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-15 210910.png"
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png"
   ]
 }

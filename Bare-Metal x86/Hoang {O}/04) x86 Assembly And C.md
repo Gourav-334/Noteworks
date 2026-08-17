@@ -503,3 +503,22 @@ movzx eax, al        ; Zeroes remaining bytes of a register.
 - GCC uses `add`/`sub` instead of `inc`/`dec` for `++`/`--` type codes due to *partial flag register stall*.
 - *Partial flag register stall* is a situation when certain instructions change the content in flag, and `inc`/`dec` are dependent on the flag.
 - Even the ***Intel Manual*** suggests using `add`/`sub` instead of `inc`/`dec`.
+
+
+### <u>Scope</u>
+
+- **<u>Scope</u>:** Code written between `{}`, which can also be unnamed.
+- **<u>Automatic variables</u>:** Local variables, known as so for being automatically allocated and then removed from the stacked.
+- **<u>Stack frame</u>:** Dedicated storage for data of a called function in stack.
+- Given below is the stack frame structure.
+
+![Stack Frame Structure](./media/image24.png)
+
+
+### <u>Function Call & Return</u>
+
+- Arguments are pushed in reverse order of what's written as high-level language.
+- So in `(int a, int b)`, `b` is pushed before `a`.
+- This is because certain functions like `printf` can have indefinite number of arguments.
+- After `ret`, the execution returns to previous scope as its address is implicitly pushed (instruction immediately after `call`).
+- This address is pushed after all the arguments in stack.
