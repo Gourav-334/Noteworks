@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "20b7ac22e8770c3e",
+        "id": "fe9189dcdaefa404",
         "type": "tabs",
         "children": [
           {
-            "id": "c65f634f6a9e782b",
+            "id": "237f78286cc672e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "05) Anatomy Of A Program"
             }
           }
         ]
@@ -168,9 +172,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c65f634f6a9e782b",
+  "active": "237f78286cc672e1",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/media/image25.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-18 183802.png",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
+    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Bare-Metal x86/Hoang {O}/media/image24.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-15 143201.png",
     "Typology/Honeycomb Computational Cognition.md",
@@ -209,11 +216,9 @@
     "AFCAT Edition/ChatGPT {O}/Economics/10) Current Economic Indicators.md",
     "AFCAT Edition/ChatGPT {O}/Economics/09) Agriculture & Industry.md",
     "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/07) International Economy.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
     "AFCAT Edition/ChatGPT {O}/Geography",
     "AFCAT Edition/ChatGPT {O}/Polity",
-    "Bare-Metal x86/Hoang {O}/media/image23.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-07-20 134242.png"
+    "Bare-Metal x86/Hoang {O}/media/image23.png"
   ]
 }

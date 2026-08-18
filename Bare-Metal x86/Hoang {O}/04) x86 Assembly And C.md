@@ -522,3 +522,5 @@ movzx eax, al        ; Zeroes remaining bytes of a register.
 - This is because certain functions like `printf` can have indefinite number of arguments.
 - After `ret`, the execution returns to previous scope as its address is implicitly pushed (instruction immediately after `call`).
 - This address is pushed after all the arguments in stack.
+
+---
