@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe9189dcdaefa404",
+        "id": "bdfdea9aa80a5e4a",
         "type": "tabs",
         "children": [
           {
-            "id": "237f78286cc672e1",
+            "id": "3fe0911c657eb482",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "05) Anatomy Of A Program"
+              "title": "New tab"
             }
           }
         ]
@@ -172,15 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "237f78286cc672e1",
+  "active": "3fe0911c657eb482",
   "lastOpenFiles": [
+    "Typology/Honeycomb Computational Cognition.md",
+    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Bare-Metal x86/Hoang {O}/media/image25.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-18 183802.png",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
-    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Bare-Metal x86/Hoang {O}/media/image24.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-15 143201.png",
-    "Typology/Honeycomb Computational Cognition.md",
     "Typology/VEONS.md",
     "Typology/media/hcc6.png",
     "Typology/media/Unconfirmed 189192.crdownload",
@@ -218,7 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
     "AFCAT Edition/ChatGPT {O}/Economics",
     "AFCAT Edition/ChatGPT {O}/Geography",
-    "AFCAT Edition/ChatGPT {O}/Polity",
-    "Bare-Metal x86/Hoang {O}/media/image23.png"
+    "AFCAT Edition/ChatGPT {O}/Polity"
   ]
 }

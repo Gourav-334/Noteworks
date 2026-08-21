@@ -183,40 +183,19 @@ For example, the affinitive information a pen presents could be its beauty, soci
 ## 8. Function Stack
 
 
-Basic rule is that the stack follows this table, where the default computation mode decreases when moving right and downward: [48]
+### 8.1 <u>Default Lens</u>:
 
-| $p$  | $s1$ |  -  |
-| :--: | :--: | :-: |
-| $s2$ | $t$  |  -  |
-|  -   |  -   | $q$ |
+Combination of primary attitude and primary information element. This defines what someone views the world in terms of, and their default interaction using that information. For example, *default lens* in $DLI$ is $Ti$. So their primary way of understanding the world would be in terms of facts & cause-effects, and their tendency is to break those facts into smaller facts.
 
 
-### 8.1 <u>Primary Function Set (p)</u>:
+### 8.2 <u>Default Support</u>:
 
-Default computation mode, where the attention of subject goes majority of time. This set contains one function formed with a dominant attitude and dominant information element. Like dominant $I$ and dominant $T$ forms $Ti$. [49]
-
-For example, a person with $Ti$ primary function might spend majority of the time decomposing facts behind the systems they encounter like electronic systems, theoretical formulae, or even social hierarchy, but processed in terms of facts instead of affinitive values it presents. [50]
+Is one of the function from opposing information types and opposite attitude of *default lens*. This function doesn't lead the view or interaction of the subject with world, but supports the *default lens* with alternative perspective. For example, *default support* in $DLI$ is $Ne$. So their secondary way of understanding the world would be in terms of latent patterns or potentials, and their tendency when it supports would be to join those patterns to form a larger web.
 
 
-### 8.2 <u>Secondary Function Set (s)</u>:
+### 8.3 <u>Default Ignored</u>:
 
-Takes cover when the *primary function* is stuck somewhere in composition or decomposition process. This set contains two functions, one with same information element as primary, but altered attitude. Or same attitude but one of the other information element type. Like $Ti$ will have secondary $\{Te,Ni\}$ or $\{Te,Si\}$. [51]
-
-Continuing previous example, if $Ti$ is stuck decomposing systems, it might try combining decomposed sub-systems in different manner to understand it ($Te$), or decompose its latent information ($Ni$). [52]
-
-
-### 8.3 <u>Tertiary Function Set (t)</u>:
-
-Controls processing when even *secondary function set* gets stuck while composing or decomposing information. This set contains one function, which is same as the function in *secondary function set* with information element other than the primary one's, but altered attitude. Like $Ti$ will have tertiary $Se$ or $Ne$. [53]
-
-Continuing same example, if $Te$ and $Ni$ are stuck for the subject, it will try combining the latent aspects of the system in a certain way to produce an abstract system ($Ne$). [54]
-
-
-### 8.4 <u>Quaternary Function Set (q)</u>:
-
-Works as an accessible toolkit when the subject needs to perform activities or processing that requires other functions. This set contains remaining four function. Like $Ti$ with $Ne$ auxiliary will have $\{Si,Se,Fi,Fe\}$. [55]
-
-Continuing same example, a person with *primary function set* of $Ti$ and *tertiary function set* $Ne$ would be able to understand affinitive values and systems by accessing $Fi$ or $Fe$ functions. While also using functions like $Si$ or $Se$ to interact with the physical aspects of world. [56]
+Is the other information element of same type as *default support* function but with opposing attitude. This function
 
 
 
