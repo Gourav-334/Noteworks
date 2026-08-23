@@ -108,9 +108,86 @@ Magic: 7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
 |  `2`  | Big endian, 2's complement    |
 
 
-### <u>Version</u>
+### <u>Version (ELF)</u>
 
-- **<u>Version</u>:** ELF header version number.
+- **<u>Version (ELF)</u>:** ELF header version number.
 
-|Value|Description|
-|:-:|:-|
+| Value | Description     |
+| :---: | :-------------- |
+|  `0`  | Invalid version |
+|  `1`  | Current version |
+
+
+### <u>OS/ABI</u>
+
+- **<u>OS/ABI</u>:** Target OS, was used as padding byte before.
+- ABI document lists all the compatible OS.
+
+
+### <u>Type</u>
+
+- **<u>Type</u>:** Object file type
+
+|  Value   | Description                     |
+| :------: | :------------------------------ |
+|   `0`    | No file type                    |
+|   `1`    | Relocatable file                |
+|   `2`    | Executable file                 |
+|   `3`    | Shared object file              |
+|   `4`    | Core file                       |
+| `0xff00` | Processor specific, lower bound |
+| `0xffff` | Processor specific, upper bound |
+
+- Basically, values from `0xff00` to `0xffff` are reserved to define additional file types, if processor has such specific to it.
+
+
+### <u>Version (Object File)</u>
+
+- **<u>Version (object files)</u>:** Version number of current object file.
+
+
+### <u>Entry Point Address</u>
+
+- **<u>Entry point address</u>:** Address to the start of first instruction to be executed.
+- By default, its `main` function where the first instruction is expected.
+- But the default function could be configured by specifying it to GCC.
+
+
+### <u>Start Of Program Header</u>
+
+- **<u>Start of program header</u>:** Number of bytes in ELF before offset of *program header*.
+- For example, the program header starts at 65th byte, then *start of program header* will be `64` as there are $64$ bytes before the offset.
+
+
+### <u>Flags</u>
+
+- **<u>Flags</u>:** The way processor flags need to be set when the program is loaded.
+- `0x0` means EFLAG register is set to clear state.
+
+
+### <u>Number Of Section Headers</u>
+
+- In a section header, the first entry is always an empty section.
+
+
+### <u>Section Header String Table Index</u>
+
+- **<u>Section header string table index</u>:** The index or the sequence number of *string table* in *section header*.
+
+
+
+## **Topic - 4: Section Header Table**
+
+### <u>ELF Conditions To Satisfy</u>
+
+- Every *section* can have just one *section header*.
+- A *section header* can have no *section*.
+- Every *section* has its contents arranged contiguously, not distributed.
+- No content in file is stored at more than one *section*.
+
+
+### <u>Getting All Headers</u>
+
+```sh
+readelf -S hello        # Gets all headers from a object file.
+```

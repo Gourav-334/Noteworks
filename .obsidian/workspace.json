@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bdfdea9aa80a5e4a",
+        "id": "48c958062a5d966d",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe0911c657eb482",
+            "id": "7894721e83aba4bc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fe0911c657eb482",
+  "active": "7894721e83aba4bc",
   "lastOpenFiles": [
-    "Typology/Honeycomb Computational Cognition.md",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
+    "Typology/Honeycomb Computational Cognition.md",
     "Bare-Metal x86/Hoang {O}/media/image25.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-18 183802.png",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
