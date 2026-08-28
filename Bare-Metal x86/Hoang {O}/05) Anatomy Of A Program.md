@@ -191,3 +191,115 @@ Magic: 7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
 ```sh
 readelf -S hello        # Gets all headers from a object file.
 ```
+
+
+### <u>First Line In Output</u>
+
+```
+[Nr] Name        Type           Address            Offset
+     Size        EntSize        Flags  Link  Info  Align
+```
+
+- **`Nr` -** Index of the section
+- **`Type` -** Type of section (`PROGBITS`, `NOBITS`, `SYMTAB`, etc)
+- **`Address` -** Starting virtual address of section, where the program loads
+- **`Offset` -** Distance of first byte in section from start of file
+- **`EntSize` -** Sizes of all fixed size tables in section (if any)
+- **`Link` -** Contains only *index* of a section (if applicable)
+- **`Info` -** Contains one of *index*, *symbol table*, or *hash table* entry of a section
+- **`Align` -** Enforces alignment values ($0$ or $2^n$ where $n$ is whole nummber)
+
+
+### <u>Last Line Output</u>
+
+```
+W (write), A (alloc), X (execute), M (merge), S (strings), l (large)
+I (info), L (linkorder), G (group), T (TLS), E (exclude), x (unknown)
+O (extra OS processing required) o (OS specific), p (processor specific)
+```
+
+- Attempt to execute code in `.data` will be denied by the OS.
+- But this is not protected in bare-metal mode.
+
+| Flag | Description                                                                             |
+| :--: | :-------------------------------------------------------------------------------------- |
+| `W`  | Bytes in these sections are *writable* during execution.                                |
+| `A`  | Memory in this section is *allocated* during execution.                                 |
+| `X`  | Section contains *executable* instructions.                                             |
+| `M`  | Bytes in this section might be *merged* with others having similar name/type/etc.       |
+| `S`  | Section contains *null-terminated strings*, their size is mentioned in `EntSize` field. |
+| `l`  | *Large section* as per x86_64 architecture (defined in x86_64 ABI only).                |
+| `I`  | `info` field of this section contains *index* of another section.                       |
+| `L`  | Section *order* of this section is preserved when linking.                              |
+| `G`  | *Member* of a section group.                                                            |
+| `T`  | This section contains *Thread-Local Storage* to allow multithreading.                   |
+| `E`  | These sections are excluded from executable and shared libraries.                       |
+| `x`  | Unknown/custom ELF flag.                                                                |
+| `O`  | OS-specific flags (have to be combined manually).                                       |
+| `o`  | Contains bits which are reserved for OS-specific semantics.                             |
+| `p`  | Contains bits which are reserved for processor-specific semantics.                      |
+
+
+### <u>Example - I</u>
+
+```
+[Nr] Name             Type             Address            Offset
+     Size             EntSize          Flags  Link  Info  Align
+
+[ 1] .interp          PROGBITS         0000000000400238   00000238
+     000000000000001c 0000000000000000     A     0     0      1
+```
+
+- `Type` is `PROGBITS`, which means this section is part of the program.
+- `EntSize` is `0`, which means there are no fixed-size entries in this section.
+- `Info` and `Link` are both `0`, which means this section doesn't link to any other section or entry in table.
+- `Align` is `1`, which means there is no alignment.
+
+
+### <u>Example - II</u>
+
+```
+[Nr] Name             Type             Address            Offset
+     Size             EntSize          Flags  Link  Info  Align
+
+[14] .text            PROGBITS         00000000004003e0   000003e0
+     0000000000000192 0000000000000000     AX    0     0     16
+```
+
+- `Align` is `16`, meaning starting address of the section must be divisible by `16`.
+
+
+
+## **Topic - 5: Understand Section In-Depth**
+
+### <u>Hexdump Command</u>
+
+```sh
+readelf -x <section_name | section_number> <file>
+
+# Examples
+readelf -x 25 hello
+readelf -x .data hello
+```
+
+- If a section contains string symbol tables, then `-x` can be replaced with `-p`.
+
+
+### <u>NULL Section</u>
+
+- A section of `NULL` type is inactive & has no relation with any other section.
+- First entry in section header table is always `NULL` section.
+
+```
+[Nr] Name             Type             Address            Offset
+     Size             EntSize          Flags  Link  Info  Align
+
+[ 0]                  NULL             0000000000000000   00000000
+     0000000000000000 0000000000000000           0     0      0
+```
+
+- Trying to examine data in `NULL` section, it says:
+
+```
+Section ” has no data to dump.
+```

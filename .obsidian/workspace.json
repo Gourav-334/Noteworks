@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "48c958062a5d966d",
+        "id": "d3cd439ece96fbba",
         "type": "tabs",
         "children": [
           {
-            "id": "7894721e83aba4bc",
+            "id": "398e37baa57e7730",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5,
+    "width": 221.5,
     "collapsed": true
   },
   "right": {
@@ -168,27 +168,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7894721e83aba4bc",
+  "active": "398e37baa57e7730",
   "lastOpenFiles": [
+    "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
+    "Computer Hardware Repairing/media/image18.png",
+    "Computer Hardware Repairing/media/Screenshot 2026-08-28 182422.png",
+    "Computer Hardware Repairing/media/image17.png.~tmp",
+    "Computer Hardware Repairing/media/image17.png",
+    "Computer Hardware Repairing/media/Screenshot 2026-08-28 180514.png",
+    "Computer Hardware Repairing/media/image16.png",
+    "Computer Hardware Repairing/media/Screenshot 2026-08-28 180418.png",
+    "Computer Hardware Repairing/media/image15.png",
+    "Computer Hardware Repairing/media/Screenshot 2026-08-28 175551.png",
+    "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
+    "Computer Hardware Repairing/media/image14.png",
+    "Computer Hardware Repairing/media/Screenshot 2026-08-28 174900.png",
+    "Computer Hardware Repairing/01) Keyboards.md",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
+    "Computer Hardware Repairing/media",
+    "Computer Hardware Repairing/New folder",
+    "Computer Hardware Repairing",
     "Typology/Honeycomb Computational Cognition.md",
-    "Bare-Metal x86/Hoang {O}/media/image25.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-18 183802.png",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
-    "Bare-Metal x86/Hoang {O}/media/image24.png",
-    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-15 143201.png",
     "Typology/VEONS.md",
-    "Typology/media/hcc6.png",
     "Typology/media/Unconfirmed 189192.crdownload",
-    "Typology/media/hcc5.png",
     "Typology/media/Unconfirmed 610320.crdownload",
-    "Typology/media/hcc4.png",
     "Typology/media/Unconfirmed 810351.crdownload",
-    "Typology/media/hcc3.png",
     "Typology/media/Unconfirmed 748796.crdownload",
-    "Typology/media/hcc2.png",
     "Typology/media/Unconfirmed 566519.crdownload",
-    "Typology/media/hcc1.png",
     "Typology/media/Unconfirmed 647233.crdownload",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/17) Organization & Their Headquarters.md",
@@ -207,13 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/04) Awards.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/03) Important Days.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/02) Census.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/01) India's First.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge",
-    "AFCAT Edition/ChatGPT {O}/Economics/10) Current Economic Indicators.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/09) Agriculture & Industry.md",
-    "AFCAT Edition/ChatGPT {O}/Economics/08) Poverty, Unemployment & Human Development.md",
-    "AFCAT Edition/ChatGPT {O}/Economics",
-    "AFCAT Edition/ChatGPT {O}/Geography",
-    "AFCAT Edition/ChatGPT {O}/Polity"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/01) India's First.md"
   ]
 }
