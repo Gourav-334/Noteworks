@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3cd439ece96fbba",
+        "id": "115eaae603a685d8",
         "type": "tabs",
         "children": [
           {
-            "id": "398e37baa57e7730",
+            "id": "86841f5b938777e7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,8 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "398e37baa57e7730",
+  "active": "86841f5b938777e7",
   "lastOpenFiles": [
+    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
+    "Pasted image 20260831140547.png",
+    "Bare-Metal x86/Hoang {O}/media/image26.png",
+    "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-31 134806.png",
     "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
     "Computer Hardware Repairing/media/image18.png",
     "Computer Hardware Repairing/media/Screenshot 2026-08-28 182422.png",
@@ -179,12 +183,8 @@
     "Computer Hardware Repairing/media/image16.png",
     "Computer Hardware Repairing/media/Screenshot 2026-08-28 180418.png",
     "Computer Hardware Repairing/media/image15.png",
-    "Computer Hardware Repairing/media/Screenshot 2026-08-28 175551.png",
     "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
-    "Computer Hardware Repairing/media/image14.png",
-    "Computer Hardware Repairing/media/Screenshot 2026-08-28 174900.png",
     "Computer Hardware Repairing/01) Keyboards.md",
-    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Computer Hardware Repairing/media",
     "Computer Hardware Repairing/New folder",
     "Computer Hardware Repairing",

@@ -303,3 +303,37 @@ readelf -x .data hello
 ```
 Section ” has no data to dump.
 ```
+
+
+### <u>Other Section Types</u>
+
+- **`NOTE` -** Read by vendors and programmers to understand about the executable.
+- **`PROGBITS` -** Contains primary content of the code, either code or data.
+- **`SYMTAB`**
+- **`DYNSYM`**
+- **`TLS`**
+- **``**
+
+
+### <u>PROGBITS Sections</u>
+
+- **`.text`**
+- **`.data` -** Memory for these data are initialized during assembling.
+- **`.rodata`**
+- **`.bss` -** *Block Started by Symbol*, memory for these aren't initialized during assembly.
+- Other most sections are used for dynamic linking.
+
+
+### <u>DYNSYM Section Output</u>
+
+![DYNSYM Section Output|700](./media/image26.png)
+
+- **`Num` -** Index of entry
+- **`Value` -** Virtual memory address of the symbol
+- **`Type` -** Type of symbol
+	- **`OBJECT` -** In C, all variables are of this type.
+	- **`SECTION` -** Associated with a section & exists for relocation.
+	- **`COMMON` -** Variables using `extern` keyword.
+- **`Bind` -** Scope of the symbol
+	- **`LOCAL` -** Variables using `static` keyword.
+	- 
