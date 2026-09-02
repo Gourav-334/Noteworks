@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "115eaae603a685d8",
+        "id": "a2e2f28571b90cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "86841f5b938777e7",
+            "id": "fab534acd4fd4e7e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,21 +168,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86841f5b938777e7",
+  "active": "fab534acd4fd4e7e",
   "lastOpenFiles": [
+    "Hardware Repairing/03) Optical Mouses (Wireless).md",
+    "Hardware Repairing/media/image20.png",
+    "Hardware Repairing/media/Screenshot 2026-09-02 132155.png",
+    "Hardware Repairing/media/image19.png",
+    "Hardware Repairing/media/Screenshot 2026-09-02 130641.png",
+    "Hardware Repairing/media/image14.png",
+    "Hardware Repairing/media/Screenshot 2026-09-02 130436.png",
+    "Hardware Repairing/02) Optical Mouses (Wired).md",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Pasted image 20260831140547.png",
     "Bare-Metal x86/Hoang {O}/media/image26.png",
     "Bare-Metal x86/Hoang {O}/media/Screenshot 2026-08-31 134806.png",
     "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
     "Computer Hardware Repairing/media/image18.png",
-    "Computer Hardware Repairing/media/Screenshot 2026-08-28 182422.png",
     "Computer Hardware Repairing/media/image17.png.~tmp",
-    "Computer Hardware Repairing/media/image17.png",
-    "Computer Hardware Repairing/media/Screenshot 2026-08-28 180514.png",
-    "Computer Hardware Repairing/media/image16.png",
-    "Computer Hardware Repairing/media/Screenshot 2026-08-28 180418.png",
-    "Computer Hardware Repairing/media/image15.png",
     "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
     "Computer Hardware Repairing/01) Keyboards.md",
     "Computer Hardware Repairing/media",
@@ -212,8 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/06) Literature.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/05) Sports.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/04) Awards.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/03) Important Days.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/02) Census.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/01) India's First.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/03) Important Days.md"
   ]
 }
