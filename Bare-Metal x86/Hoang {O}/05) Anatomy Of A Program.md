@@ -312,10 +312,10 @@ Section ” has no data to dump.
 - **`SYMTAB`**
 - **`DYNSYM`**
 - **`TLS`**
-- **``**
+- **`STRTAB` -** Contains null-terminated strings representing symbol and section names, with first & last byte as `NULL`.
 
 
-### <u>PROGBITS Sections</u>
+### <u>PROGBITS Type Sections</u>
 
 - **`.text`**
 - **`.data` -** Memory for these data are initialized during assembling.
@@ -330,10 +330,73 @@ Section ” has no data to dump.
 
 - **`Num` -** Index of entry
 - **`Value` -** Virtual memory address of the symbol
-- **`Type` -** Type of symbol
+- **`Type` -** Type of symbol:
 	- **`OBJECT` -** In C, all variables are of this type.
 	- **`SECTION` -** Associated with a section & exists for relocation.
-	- **`COMMON` -** Variables using `extern` keyword.
-- **`Bind` -** Scope of the symbol
+	- **`COMMON` -** Uninitialized global variables.
+- **`Bind` -** Scope of the symbol:
 	- **`LOCAL` -** Variables using `static` keyword.
-	- 
+	- `GLOBAL` - Variables using `extern` keyword.
+	- **`WEAK` -** Symbols whose definitions could vary (acts as global by default).
+- **`Vis` -** Visibility of the symbol:
+	- **`DEFAULT` -** Visibility is same as the symbol's scope.
+	- **`HIDDEN` -** Symbol isn't visible outside the compiled binary it is part of.
+	- **`PROTECTED` -** Visible outside the compiled binary it stays in, but can't be redefined anywhere.
+	- **`INTERNAL` -** Processor-specific visibility defined in specific ABI.
+- **`Ndx` -** Index of section in which the symbol resides. Indexes are of types as follows:
+	- **`ABS` -** Absolute, meaning section's index won't change when relocating.
+	- **`COM` -** Section's index is an unallocated *"common"* block.
+	- **`UND` -** Undefined symbol in current file, relies on definition in other file during runtime.
+	- **`LORESERVE` -** Lower boundary of reserved indexes (`0xff00`).
+	- **`HIRESERVE` -** Higher boundary of reserved indexes (`0xffff`).
+	- **`XINDEX` -** Index higher than `LOWRESERVE` & their actual value is stored at `SYMTAB_SHNDX`.
+	- **Others -** Processor-specific like `ANSI_COM`, `LARGE_COM`, `SCOM`, `SUND`, etc.
+
+
+### <u>Weak Symbol In C</u>
+
+#### `file1.c`:
+
+```c
+__attribute__((weak)) int add(int a, int b)
+{
+	printf("warning: Function is not implemented yet.");
+	return 0;
+}
+```
+
+#### `file2.c`:
+
+```c
+int add(int a, int b)
+{
+	return (a + b);
+}
+```
+
+#### `gcc` compilation:
+
+```sh
+gcc file1.c file2.c -o hello
+./hello
+```
+
+- Returns `a+b` as the sum.
+- But if `file2.c` wouldn't have existed, then we must have seen the `warning:` on the terminal.
+
+
+### <u>Main Function As Symbol</u>
+
+```
+Num:              Value   Size   Type   Bind     Vis       Ndx   Name
+ 62:   0000000000400526     32   FUNC   GLOBAL   DEFAULT    14   main
+```
+
+
+### <u>STRTAB Type Sections</u>
+
+- **`.shstrtab` -** Contains all the *section names*.
+- **`.strtab` -** Contains all the *symbol names* (variable, function, structs, etc).
+
+>**<u>NOTE</u>:**
+>But the values of *strings* defined in the code are stored at `.rodata`, not any `STRTAB`.
