@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e8b7ce34f776550",
+        "id": "075a3c547959a90d",
         "type": "tabs",
         "children": [
           {
-            "id": "96264b3eb7af722f",
+            "id": "3f99243cf0de9101",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5,
+    "width": 218.83334350585938,
     "collapsed": true
   },
   "right": {
@@ -168,8 +168,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96264b3eb7af722f",
+  "active": "3f99243cf0de9101",
   "lastOpenFiles": [
+    "Hardware Repairing/05) Central Processing Unit.md",
+    "Hardware Repairing/media/image29.jpg",
+    "Hardware Repairing/media/Unconfirmed 404418.crdownload",
+    "Hardware Repairing/media/image28.png",
+    "Hardware Repairing/media/Unconfirmed 563949.crdownload",
+    "Hardware Repairing/media/image27.png",
+    "Hardware Repairing/media/Unconfirmed 763665.crdownload",
     "Hardware Repairing/04) Monitors.md",
     "Hardware Repairing/media/image26.png",
     "Hardware Repairing/media/Unconfirmed 17975.crdownload",
@@ -185,18 +192,12 @@
     "Hardware Repairing/media/Unconfirmed 548200.crdownload",
     "Hardware Repairing/media/image22.jpg",
     "Hardware Repairing/media/Unconfirmed 291728.crdownload",
-    "Hardware Repairing/media/image21.jpg",
-    "Hardware Repairing/media/Unconfirmed 2837.crdownload",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Hardware Repairing/03) Optical Mouses (Wireless).md",
-    "Hardware Repairing/media/image20.png",
-    "Hardware Repairing/media/Screenshot 2026-09-02 132155.png",
     "Hardware Repairing/02) Optical Mouses (Wired).md",
     "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
-    "Computer Hardware Repairing/media/image17.png.~tmp",
     "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
     "Computer Hardware Repairing/01) Keyboards.md",
-    "Computer Hardware Repairing/media",
     "Typology/Honeycomb Computational Cognition.md",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Typology/VEONS.md",
@@ -213,7 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/08) Music & Instruments.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/07) Books & Authors.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/06) Literature.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/05) Sports.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/04) Awards.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/05) Sports.md"
   ]
 }
