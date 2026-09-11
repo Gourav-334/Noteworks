@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "075a3c547959a90d",
+        "id": "7912ba312e596425",
         "type": "tabs",
         "children": [
           {
-            "id": "3f99243cf0de9101",
+            "id": "fc81434febedb262",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,30 +168,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f99243cf0de9101",
+  "active": "fc81434febedb262",
   "lastOpenFiles": [
+    "Admin Auditing/02) Resource Monitoring Applications.md",
+    "Admin Auditing/01) Crash & Error Logging Applications.md",
+    "Admin Auditing/media/image3.png",
+    "Admin Auditing/media/Screenshot 2026-09-10 123734.png",
+    "Admin Auditing/media/image2.png",
+    "Admin Auditing/media/Screenshot 2026-09-10 123619.png",
+    "Admin Auditing/media/image1.png",
+    "Admin Auditing/media/Screenshot 2026-09-10 123350.png",
+    "Admin Auditing/media",
+    "Admin Auditing/New folder",
+    "Admin Auditing",
+    "Hardware Repairing/06) Printers (Inkjet).md",
+    "Hardware Repairing/media/image31.png",
+    "Hardware Repairing/media/Unconfirmed 913317.crdownload",
+    "Hardware Repairing/media/image30.png",
+    "Hardware Repairing/media/Unconfirmed 833727.crdownload",
     "Hardware Repairing/05) Central Processing Unit.md",
     "Hardware Repairing/media/image29.jpg",
     "Hardware Repairing/media/Unconfirmed 404418.crdownload",
     "Hardware Repairing/media/image28.png",
     "Hardware Repairing/media/Unconfirmed 563949.crdownload",
-    "Hardware Repairing/media/image27.png",
     "Hardware Repairing/media/Unconfirmed 763665.crdownload",
     "Hardware Repairing/04) Monitors.md",
-    "Hardware Repairing/media/image26.png",
     "Hardware Repairing/media/Unconfirmed 17975.crdownload",
-    "Hardware Repairing/media/image25.png",
     "Hardware Repairing/media/Unconfirmed 63871.crdownload",
-    "Hardware Repairing/media/image24.png",
-    "Hardware Repairing/media/Unconfirmed 999238.crdownload",
-    "Hardware Repairing/media/image23.png",
-    "Hardware Repairing/media/Unconfirmed 793865.crdownload",
-    "Hardware Repairing/media/image22.png",
-    "Hardware Repairing/media/Unconfirmed 494545.crdownload",
-    "Hardware Repairing/media/image21.png",
-    "Hardware Repairing/media/Unconfirmed 548200.crdownload",
-    "Hardware Repairing/media/image22.jpg",
-    "Hardware Repairing/media/Unconfirmed 291728.crdownload",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Hardware Repairing/03) Optical Mouses (Wireless).md",
     "Hardware Repairing/02) Optical Mouses (Wired).md",
@@ -212,8 +215,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/10) Festivals.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/09) Dance Forms.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/08) Music & Instruments.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/07) Books & Authors.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/06) Literature.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/05) Sports.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/07) Books & Authors.md"
   ]
 }
