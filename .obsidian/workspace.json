@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a51128ea8275e989",
+        "id": "f1adb0b084da0e61",
         "type": "tabs",
         "children": [
           {
-            "id": "7d49a05740268488",
+            "id": "35c6231b21bdae87",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,8 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d49a05740268488",
+  "active": "35c6231b21bdae87",
   "lastOpenFiles": [
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Strategic Treaties.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Hierarchies.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Untitled",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs",
     "Admin Auditing/03) Diagnostic Tool Applications.md",
     "Admin Auditing/media/image6.png",
     "Admin Auditing/media/Screenshot 2026-09-12 142433.png",
@@ -194,8 +199,6 @@
     "Hardware Repairing/media/Unconfirmed 563949.crdownload",
     "Hardware Repairing/media/Unconfirmed 763665.crdownload",
     "Hardware Repairing/04) Monitors.md",
-    "Hardware Repairing/media/Unconfirmed 17975.crdownload",
-    "Hardware Repairing/media/Unconfirmed 63871.crdownload",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Hardware Repairing/03) Optical Mouses (Wireless).md",
     "Hardware Repairing/02) Optical Mouses (Wired).md",
@@ -212,8 +215,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/14) Dams & Stadiums.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/13) National Parks, Wildlife Sanctuaries & Bird Sanctuaries.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/12) Monuments.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/11) Temples.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/10) Festivals.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/09) Dance Forms.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/11) Temples.md"
   ]
 }
