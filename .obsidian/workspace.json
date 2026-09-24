@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1adb0b084da0e61",
+        "id": "0c8c2b0c680783a1",
         "type": "tabs",
         "children": [
           {
-            "id": "35c6231b21bdae87",
+            "id": "932882162bd0511e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.83334350585938,
-    "collapsed": true
+    "width": 218.83334350585938
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -168,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35c6231b21bdae87",
+  "active": "932882162bd0511e",
   "lastOpenFiles": [
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/Strategic Treaties.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Hierarchies.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Strategic Alliances.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Personal Questions.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Untitled",
     "AFCAT Edition/ChatGPT {C}/Current Affairs",
@@ -214,7 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/15) Inventions.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/14) Dams & Stadiums.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/13) National Parks, Wildlife Sanctuaries & Bird Sanctuaries.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/12) Monuments.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/11) Temples.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/12) Monuments.md"
   ]
 }
