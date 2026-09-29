@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c8c2b0c680783a1",
+        "id": "5577daa765a4c84f",
         "type": "tabs",
         "children": [
           {
-            "id": "932882162bd0511e",
+            "id": "b09e32891d5bf0e3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.83334350585938
+    "width": 218.83334350585938,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -167,12 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "932882162bd0511e",
+  "active": "b09e32891d5bf0e3",
   "lastOpenFiles": [
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/image1.png",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/Screenshot 2026-09-29 090418.png",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/Screenshot 2026-09-29 090027.png",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/media",
+    "AFCAT Edition/ChatGPT {C}/Current Affairs/New folder",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Hierarchies.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Strategic Alliances.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Personal Questions.md",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Untitled",
     "AFCAT Edition/ChatGPT {C}/Current Affairs",
     "Admin Auditing/03) Diagnostic Tool Applications.md",
@@ -185,9 +191,6 @@
     "Admin Auditing/02) Resource Monitoring Applications.md",
     "Admin Auditing/01) Crash & Error Logging Applications.md",
     "Admin Auditing/media/image3.png",
-    "Admin Auditing/media/Screenshot 2026-09-10 123734.png",
-    "Admin Auditing/media/image2.png",
-    "Admin Auditing/media/Screenshot 2026-09-10 123619.png",
     "Admin Auditing/media",
     "Admin Auditing/New folder",
     "Admin Auditing",
@@ -196,8 +199,6 @@
     "Hardware Repairing/media/Unconfirmed 833727.crdownload",
     "Hardware Repairing/05) Central Processing Unit.md",
     "Hardware Repairing/media/Unconfirmed 404418.crdownload",
-    "Hardware Repairing/media/Unconfirmed 563949.crdownload",
-    "Hardware Repairing/media/Unconfirmed 763665.crdownload",
     "Hardware Repairing/04) Monitors.md",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Hardware Repairing/03) Optical Mouses (Wireless).md",
@@ -213,7 +214,6 @@
     "AFCAT Edition/ChatGPT {O}/General Knowledge/16) Country, Capital & Currency.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/15) Inventions.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/14) Dams & Stadiums.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/13) National Parks, Wildlife Sanctuaries & Bird Sanctuaries.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/12) Monuments.md"
+    "AFCAT Edition/ChatGPT {O}/General Knowledge/13) National Parks, Wildlife Sanctuaries & Bird Sanctuaries.md"
   ]
 }
