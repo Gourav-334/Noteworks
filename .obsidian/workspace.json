@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5577daa765a4c84f",
+        "id": "f7c63c3a9b84890e",
         "type": "tabs",
         "children": [
           {
-            "id": "b09e32891d5bf0e3",
+            "id": "5d08a698df344a27",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b09e32891d5bf0e3",
+  "active": "5d08a698df344a27",
   "lastOpenFiles": [
+    "Typology/Honeycomb Computational Cognition.md",
+    "EFLAM/C Manual.md",
+    "EFLAM",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/media/image1.png",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/media/Screenshot 2026-09-29 090418.png",
@@ -198,7 +201,6 @@
     "Hardware Repairing/media/Unconfirmed 913317.crdownload",
     "Hardware Repairing/media/Unconfirmed 833727.crdownload",
     "Hardware Repairing/05) Central Processing Unit.md",
-    "Hardware Repairing/media/Unconfirmed 404418.crdownload",
     "Hardware Repairing/04) Monitors.md",
     "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
     "Hardware Repairing/03) Optical Mouses (Wireless).md",
@@ -206,7 +208,6 @@
     "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
     "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
     "Computer Hardware Repairing/01) Keyboards.md",
-    "Typology/Honeycomb Computational Cognition.md",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
     "Typology/VEONS.md",
     "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",

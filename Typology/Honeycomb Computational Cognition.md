@@ -12,11 +12,11 @@ Parul University (Student),
 
 ## 1. Abstract
 
-The **Honeycomb Computational Cognition Model (HCC)** is a typological framework for describing differences in the default computation of information by a subject. It distinguishes two attitudes, *Introversion* and *Extroversion*, describing *decompositional* and *compositional* processing, respectively, from four information elements: *Sensing*, *Intuition*, *Thinking*, and *Feeling*. These six primitives combine into functions representing distinct modes of processing particular forms of information. [1]
+The **Honeycomb Computational Cognition Model (HCC)** is a typological framework for describing differences in the default computation of information by a subject. It distinguishes two attitudes, *Introversion* and *Extroversion*, describing *decompositional* and *compositional* processing, respectively, from four information elements: *Sensing*, *Intuition*, *Thinking*, and *Feeling*. These six primitives combine into functions representing distinct modes of processing particular forms of information.
 
-HCC is constrained by axioms intended to distinguish default computational mode from goals, abilities, prior experience, resources, environmental conditions, and intelligence. Functions may interact through a hierarchical architecture of primary, secondary, tertiary, and quaternary function sets, allowing alternative computational modes to become accessible when processing encounters obstacles or requires different information. From this architecture, HCC derives sixteen typological configurations represented through its own notation. [2]
+HCC is constrained by axioms intended to distinguish default computational mode from goals, abilities, prior experience, resources, environmental conditions, and intelligence. Functions may interact through a hierarchical architecture of primary, secondary, tertiary, and quaternary function sets, allowing alternative computational modes to become accessible when processing encounters obstacles or requires different information. From this architecture, HCC derives sixteen typological configurations represented through its own notation.
 
-The model is intended as a computationally oriented extension within the broader Jungian family of typological theories. It describes patterns of information processing rather than psychological health, mental disorders, or clinical conditions, and is not intended as a diagnostic instrument. [3]
+The model is intended as a computationally oriented extension within the broader Jungian family of typological theories. It describes patterns of information processing rather than psychological health, mental disorders, or clinical conditions, and is not intended as a diagnostic instrument.
 
 
 
@@ -25,28 +25,28 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 2.1 <u>Subjective Baseline</u>:
 
-- **Consciousness:** Ability to have a default computational mode. [4]
-- **Ego:** Ability to differentiate between subject and object. [5]
-- **Content:** Information that comes into attention of consciousness. [6]
+- **Consciousness:** Ability to have a default computational mode.
+- **Ego:** Ability to differentiate between subject and object.
+- **Content:** Information that comes into attention of consciousness.
 
 
 ### 2.2 <u>Sources Of Information</u>:
 
-- **Subject:** A processing function made by combining consciousness and ego. [7]
-- **Object:** Everything other the subject. [8]
-- **System:** Alternative term used for *object*. [9]
+- **Subject:** A processing function made by combining consciousness and ego.
+- **Object:** Everything other the subject.
+- **System:** Alternative term used for *object*.
 
 
 ### 2.3 <u>Primitives Types</u>:
 
-- **Information elements ($S$, $N$, $T$, $F$):** A form of information that the system possesses. [10]
-- **Attitude ($I$, $E$):** Mode of processing information that the system possesses. [11]
+- **Information elements ($S$, $N$, $T$, $F$):** A form of information that the system possesses.
+- **Attitude ($I$, $E$):** Mode of processing information that the system possesses.
 
 
 ### 2.4 <u>Function Types</u>:
 
-- **Default functions (lens/support/blindspot/repressed):** Functions which are by default operated by the individual, without deliberate effort or force. [12]
-- **Effortful functions (ability/standby/avoided/suppressed):** Functions which can be operated only with deliberate effort and manually. [13]
+- **Default functions (lens/support/blindspot/repressed):** Functions which are by default operated by the individual, without deliberate effort or force.
+- **Effortful functions (ability/standby/avoided/suppressed):** Functions which can be operated only with deliberate effort and manually.
 
 
 
@@ -55,22 +55,22 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 3.1 <u>List Of Primitives</u>:
 
-- Introversion ($I$) [14]
-- Extroversion ($E$) [15]
-- Sensing ($S$) [16]
-- Intuition ($N$) [17]
-- Thinking ($T$) [18]
-- Feeling ($F$) [19]
+- Introversion ($I$)
+- Extroversion ($E$)
+- Sensing ($S$)
+- Intuition ($N$)
+- Thinking ($T$)
+- Feeling ($F$)
 
 
 ### 3.2 <u>Axioms To Satisfy</u>:
 
-1. Its all about default information computation mode. [20]
-2. Its not about end goal, or skills to perform preferred action. [21]
-3. It can exist without prior experience, or any kind of resources. [22]
-4. It can exist under any form of immediate surrounding or condition. [23]
-5. Level of intelligence doesn't affect which mode is there by default. [24]
-6. One primitive can not reproduce another in any form. [25]
+1. Its all about default information computation mode.
+2. Its not about end goal, or skills to perform preferred action. 
+3. It can exist without prior experience, or any kind of resources. 
+4. It can exist under any form of immediate surrounding or condition. 
+5. Level of intelligence doesn't affect which mode is there by default. 
+6. One primitive can not reproduce another in any form. 
 
 
 
@@ -79,26 +79,36 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 4.1 <u>Introversion (I)</u>:
 
-A mode of processing information in which the subject *decomposes* system with information into sub-systems, or dwells on a certain stage of decomposition graph, keeping the net direction of travelling as *semi-negative*. It can keep *decomposing* each sub-system into smaller sub-systems. [26]
+Also known as *analytical attitude* or *subjective* attitude, is a mode of processing in which the object in focus is brought to ultimate focus and is decomposed into smaller parts to be analyzed in a more deeper manner. The object in focus might change, but it also goes through a generally deeper analysis. It is subjective in nature because true analysis of an object doesn't require conforming to real-world needs. Analysis using methods that are known to work even if their underlying structure is unknown to produce an outcome is *extroverted* in nature.
 
 
 ### 4.2 <u>Extroversion (E)</u>:
 
-A mode of processing information in which the subject *composes* larger system using information embedded in systems, or dwells on a certain stage of decomposition graph, keeping the net direction of travelling as *semi-positive*. It can keep *composing* each system into larger system. [27]
+Also known as *utilitarian attitude* or *objective* attitude, is a mode of processing in which the object in focus is treated as a reference point or utility to solve a problem or need in order to produce certain outcome. And all the objects serve as a reference point only to generate certain result. It is objective in nature because using something as an utility to produce outcomes requires practical consideration to stand scrutiny of real-world application. Producing outcome to understand something deeper from test results is actually *introverted* in nature.
 
 
 
 ## 5. Information Types
 
 
-### 5.1 <u>Impressionistic Information (S/N)</u>:
+### 5.1 <u>Instinctual Information (S/N)</u>:
 
-A category of information types which is *impressionistic* in nature, dealing with immediate *impression* that a system triggers in mind of the subject. [28]
+A category of information types which is *instinctual* in nature, dealing with immediate *instinct* that a system triggers in mind of the subject.
 
 
 ### 5.2 <u>Evaluative Information (T/F)</u>:
 
-A category of information types which is *evaluative* in nature, dealing with *values* that a system possesses, whether concretely or in abstraction. [29]
+A category of information types which is *evaluative* in nature, dealing with *values* that a system possesses, whether concretely or in abstraction.
+
+
+### 5.3 <u>Concrete Information (S/T)</u>:
+
+A category of information types which is *concrete* in nature, dealing with concrete nature of reality & hypothesis which are more directly observable.
+
+
+### 5.4 <u>Abstract Information (N/F)</u>:
+
+A category of information types which are *abstract* in nature, dealing with abstract nature of reality & hypothesis which are more inferred or implied.
 
 
 
@@ -107,82 +117,66 @@ A category of information types which is *evaluative* in nature, dealing with *v
 
 ### 6.1 <u>Sensing (S)</u>:
 
-A form of information which contains the *sensory aspects* of the system under consideration of subject. These information are directly perceived by the senses. [30]
+Combines the *instinctual* & *concrete* information to produce an information element that is concerned with *sensory stimulus*, meaning everything that can be perceived through senses. It is instinctual for being very primal foundation for animals to perceive everything through senses, and concrete for being something that deals with raw & direct observation.
 
 
 ### 6.2 <u>Intuition (N)</u>:
 
-A form of information which contains the *latent aspects* of the system under consideration of subject. These information are indirect and generally hidden. [31]
+Combines the *instinctual* & *abstract* information to produce an information element that is concerned with *unconscious leaps*, meaning connections or ideas that arrive to mind in a surge before conscious mind can follow. It is instinctual for dealing with processing that goes independent of conscious mind, and abstract for being indirect & latent than direct.
 
 
 ### 6.3 <u>Thinking (T)</u>:
 
-A form of information which contains the *factual aspects* of the system under consideration of subject. These information are based on laws and logic. [32]
+Combines the *evaluative* & *concrete* information to produce an information element that is concerned with *logical reasoning*, meaning concepts that conforms to absolute truth. It is evaluative in nature for dealing with step-by-step logical chains & subsequent facts, and concrete for being verifiable with statistics & reasoning.
 
 
 ### 6.4 <u>Feeling (F)</u>:
 
-A form of information which contains the *affinitive aspects* of the system under consideration of subject. These information are based on personal or group preferences. [33]
+Combines the *evaluative* & *abstract* information to produce an information element that is concerned with *affinitive values*, meaning preferences to choices whether negative or positive. It is evaluative in nature for dealing with clear choices & following same chains to arrive at decisions, and abstract for being more individually enclosed which could be inferred without confirmed verification.
 
 
 
-## 7. Functions
+## 7. Cognitive Functions
 
 
 ### 7.1 <u>Introverted Sensing (Si)</u>:
 
-Combines the attitude of *introversion* and information element of *sensing*. This function is used to decompose the *sensory aspects* of a system into *sensory sub-systems* revealing more *sensory information*, and those sub-system can be broken down further for indefinite number of times. [34]
-
-For example, the sensory information a pen presents could be its color, weight, thickness, design, etc. Using *introverted sensing*, one might receive a sensory impression of certain class of plastic container having similar design. And that plastic container can further provide sensory impression of domestic kitchen items, and so on. [35]
+Combines the attitude of *introversion* and information element of *sensing*. This function is used for analyzing sensory stimulus deeper. For example, *The Narrator* from *Fight Club (1999)* is very likely an ***Si lens*** character whose monologues consistently composes of very precise description of sensations. Like lactic acids forming in legs, how factory smells, what the floor of abandoned club feels like, or how clean the gun feels in mouth, etc.
 
 
 ### 7.2 <u>Extroverted Sensing (Se)</u>:
 
-Combines the attitude of *extroversion* and information element of *sensing*. This function is used to compose a *larger sensory system* using presented *sensory information* in systems, and those systems could be further composed into even larger system for indefinite number of times. [36]
-
-For example, the sensory information a pen presents could be its color, weight, thickness, design, etc. Using *extroverted sensing*, one might use the sensory information embedded in that pen for his advantage, like in situation where pen can be used as a means of self-defense for its sensory nature, joining it into a combat system where it produces a sensory effect. [37]
+Combines the attitude of *extroversion* and information element of *sensing*. This function is used for producing certain outcome with sensory stimulus. For example, *Bruce Wayne* from *Batman vs. Superman: Dawn Of Justice (2016)* is very likely ***Se lens*** character whose constantly used raw force and impact combined with brutal fighting style, which looks more impulsive than tactical. Also his deliberate frightening appearance to maintain fear among criminals hint the same.
 
 
 ### 7.3 <u>Introverted Intuition (Ni)</u>:
 
-Combines the attitude of *introversion* and information element of *intuition*. This function is used to decompose the *latent aspects* of a system into *latent sub-systems* revealing more *latent information*, and those sub-system can be broken down further for indefinite number of times. [38]
-
-For example, the latent information a pen presents could be its symbolic meaning, identity, etc. Using *introverted intuition*, one might receive a latent impression of a religious figure. Then he might further decompose the latent information this figure contains to find its equivalent representation in real world and similar person the subject came across. [39]
+Combines the attitude of *introversion* and information element of *intuition*. This function is used for analyzing unconscious leaps deeper. For example, *Neo* from *The Matrix (1999)* is very likely an ***Ni lens*** character whose constant attention returns to wondering and understanding what the unsettling feeling that something is inherently wrong with the world actually is, being sleepless all nights and brooding on it.
 
 
 ### 7.4 <u>Extroverted Intuition (Ne)</u>:
 
-Combines the attitude of *extroversion* and information element of *intuition*. This function is used to compose a *larger latent system* using presented *latent information* in systems, and those systems could be further composed into even larger system for indefinite number of times. [40]
-
-For example, the latent information a pen presents could be its symbolic meaning, identity, etc. Using *extroverted intuition*, one might use the latent information embedded in that pen to join it with other latent systems to collectively form an abstract art containing symbol that pen and similar systems represent. Then he might even form larger work from this, and so on. [41]
+Combines the attitude of *extroversion* and information element of *intuition*. This function is used for producing certain outcome with unconscious leaps. For example, *Mark Watney* from *The Martian (2015)* is very likely an ***Ne lens*** character who generally gets surge of ideas in his mind merely by knowing what resources he has, using them in a way to solve complicated and life-threatening situations.
 
 
 ### 7.5 <u>Introverted Thinking (Ti)</u>:
 
-Combines the attitude of *introversion* and information element of *thinking*. This function is used to decompose the *factual aspects* of a system into *factual sub-systems* revealing more *factual information*, and those sub-system can be broken down further for indefinite number of times. [42]
-
-For example, the factual information a pen presents could be that it can write with certain color, it costs five bucks, and ends after certain time, etc. Using *introverted thinking*, one might decompose these factual information into more factual sub-systems. Like the pen is able to write because it contains ink, ends because it has refill, and endures pressure for being made from copper. [43]
+Combines the attitude of *introversion* and information element of *thinking*. This function is used for analyzing logical systems deeper. For example, *Michael Scofield* from *Prison Break (2005-2017)* is very likely an ***Ti lens*** character whose first response to being introduced to something is to analyze the underlying structure of it, be it a building, prison cell, sewer systems, or even random screws & mechanical tools.
 
 
 ### 7.6 <u>Extroverted Thinking (Te)</u>:
 
-Combines the attitude of *extroversion* and information element of *thinking*. This function is used to compose a *larger factual system* using presented *factual information* in systems, and those systems could be further composed into even larger system for indefinite number of times. [44]
-
-For example, the factual information a pen presents could be that it can write with certain color, it costs five bucks, and ends after certain time, etc. Using *extroverted thinking*, one might take other systems like paper materials, notebook built, and then combine pen into that factual system to conclude that notebook can safely hold ink from flowing. [45]
+Combines the attitude of *extroversion* and information element of *thinking*. This function is used for producing certain outcome with logical systems. For example, *Light Yagami* from *Death Note (2006-2007)* is very likely an ***Te lens*** character whose every strategic move heavily relied on masking his crimes and make it easier to commit future crimes by taking full leverage of the available rules of the book, being a member of an police forces to evade them easily.
 
 
 ### 7.7 <u>Introverted Feeling (Fi)</u>:
 
-Combines the attitude of *introversion* and information element of *feeling*. This function is used to decompose the *affinitive aspects* of a system into *affinitive sub-systems* revealing more *affinitive information*, and those sub-system can be broken down further for indefinite number of times. [46]
-
-For example, the affinitive information a pen presents could be its beauty, social value, positivity, etc. Using *introverted feeling*, one might decompose these affinitive information into smaller affinitive sub-systems, revealing themes like loyalty and honesty. And then further decompose them, and so on. [47]
+Combines the attitude of *introversion* and information element of *feeling*. This function is used for analyzing affinitive values deeper. For example, *Peter Parker* from *Spider-Man (2002)* is very likely an ***Fi lens*** character who deeply analyzed human values and emotional needs like his uncle's teaching to understand what is his true driving force, what he wants from himself, and his identity in a world of needy people.
 
 
 ### 7.8 <u>Extroverted Feeling (Fe)</u>:
 
-Combines the attitude of *extroversion* and information element of *feeling*. This function is used to compose a *larger affinitive system* using presented *affinitive information* in systems, and those systems could be further composed into even larger system for indefinite number of times. [48]
-
-For example, the affinitive information a pen presents could be its beauty, social value, positivity, etc. Using *extroverted feeling*, one might take other affinitive systems like collective values and religious beliefs, to form a larger system displaying atmosphere of heterogeneous values. [49]
+Combines the attitude of *extroversion* and information element of *feeling*. This function is used for producing certain outcome with affinitive values. For example, *Lou Bloom* is very likely an ***Fe lens*** character who generally used affinitive values of others & their weak points in order to manipulate them, whether to recruit them cheaply for him, or to get his recordings of crime scenes at all cost.
 
 
 
@@ -191,42 +185,42 @@ For example, the affinitive information a pen presents could be its beauty, soci
 
 ### 8.1 <u>Lens (f1)</u>:
 
-Combination of primary attitude and primary information element. This defines what someone views the world in terms of, and their default interaction using that information. For example, *lens* in $DLI$ is $Ti$. So unknowingly by default, their primary way of understanding the world would be in terms of facts & cause-effects, and their tendency is to break those facts into smaller facts. [50]
+Combination of primary attitude and primary information element. This defines what someone views the world in terms of, and their default interaction using that information. For example, *lens* in $DLI$ is $Ti$. So unknowingly by default, their primary way of understanding the world would be in terms of facts & cause-effects, and their tendency is to break those facts into smaller facts.
 
 
 ### 8.2 <u>Support (f2)</u>:
 
-Is one of the function from opposing information types and opposite attitude of *lens*. This function doesn't lead the view or interaction of the subject with world, but supports the *lens* with alternative perspective and action. For example, *support* in $DLI$ is $Ne$. So their default secondary way of understanding the world would be in terms of latent patterns or potentials, and their tendency when it supports would be to join those patterns to form a larger web. [51]
+Is one of the function from opposing information types and opposite attitude of *lens*. This function doesn't lead the view or interaction of the subject with world, but supports the *lens* with alternative perspective and action. For example, *support* in $DLI$ is $Ne$. So their default secondary way of understanding the world would be in terms of latent patterns or potentials, and their tendency when it supports would be to join those patterns to form a larger web.
 
 
 ### 8.3 <u>Blindspot (f3)</u>:
 
-Is the other information element of same type as *support* function but with opposing attitude. This function is opposed by *support*, and both have less energy. Thus the dominating *support* almost nullifies it, ultimately being almost ignored. For example, *blindspot* in $DLI$ is $Si$. So they would by default ignore the pure sensory aspect of information and breaking it down its sensation. [52]
+Is the other information element of same type as *support* function but with opposing attitude. This function is opposed by *support*, and both have less energy. Thus the dominating *support* almost nullifies it, ultimately being almost ignored. For example, *blindspot* in $DLI$ is $Si$. So they would by default ignore the pure sensory aspect of information and breaking it down its sensation.
 
 
 ### 8.4 <u>Repressed (f4)</u>:
 
-Is the other information element of same type as *lens* function but with opposing attitude. This function is opposed by *lens*, and both have more energy. Thus the dominating *default lens* strongly represses it, unknowingly. For example, *repressed* in $DLI$ is $Fe$. So they would unknowingly suppress the need to form value-based or emotional connections, whether intent is positive or negative. [53]
+Is the other information element of same type as *lens* function but with opposing attitude. This function is opposed by *lens*, and both have more energy. Thus the dominating *default lens* strongly represses it, unknowingly. For example, *repressed* in $DLI$ is $Fe$. So they would unknowingly suppress the need to form value-based or emotional connections, whether intent is positive or negative.
 
 
 ### 8.5 <u>Ability (f5)</u>:
 
-This function has same information element as *lens* but with altered attitude. It is an strong ability that the subject possesses but is not default in its processing style, requiring deliberate effort. For example, *ability* in $DLI$ is $Te$. So they have great ability in organizing logical structures to create working system, but its not by default preferred by their consciousness until need arises. [54]
+This function has same information element as *lens* but with altered attitude. It is an strong ability that the subject possesses but is not default in its processing style, requiring deliberate effort. For example, *ability* in $DLI$ is $Te$. So they have great ability in organizing logical structures to create working system, but its not by default preferred by their consciousness until need arises.
 
 
 ### 8.6 <u>Standby (f6)</u>:
 
-This function has same information element as *support* but with altered attitude. It works as a standby function to aid the *lens*, but used only when *support* fails or hits a wall. It is effortful, and doesn't run in conscious background by default like *support*. For example, *standby* in $DLI$ is $Ni$. So if their logical decoding with support of latent connections stalls, they might turn to break system into underlying patterns. [55]
+This function has same information element as *support* but with altered attitude. It works as a standby function to aid the *lens*, but used only when *support* fails or hits a wall. It is effortful, and doesn't run in conscious background by default like *support*. For example, *standby* in $DLI$ is $Ni$. So if their logical decoding with support of latent connections stalls, they might turn to break system into underlying patterns.
 
 
 ### 8.7 <u>Avoided (f7)</u>:
 
-This function has same information element as *blindspot* but with altered attitude. It is deliberately and effortfully avoided, for having a negative relation with the subject in some way. For example, *avoided* in $DLI$ is $Se$. So they might very consciously hate situation requiring them to combine sensory information, like travelling, constant physical impact to complete objective, etc. [56]
+This function has same information element as *blindspot* but with altered attitude. It is deliberately and effortfully avoided, for having a negative relation with the subject in some way. For example, *avoided* in $DLI$ is $Se$. So they might very consciously hate situation requiring them to combine sensory information, like travelling, constant physical impact to complete objective, etc.
 
 
 ### 8.8 <u>Suppressed (f8)</u>:
 
-This function has same information element as *repressed* but with altered attitude. It is a tendency that is effortfully suppressed, unlike *repressed* which was by default and unknowingly suppressed. For example, *suppressed* in $DLI$ is $Fi$. So they might often suppress their tendency to understand or process affinitive constituents a systems has, like searching for themes like loyalty, preferences, or choices, within an idea. [57]
+This function has same information element as *repressed* but with altered attitude. It is a tendency that is effortfully suppressed, unlike *repressed* which was by default and unknowingly suppressed. For example, *suppressed* in $DLI$ is $Fi$. So they might often suppress their tendency to understand or process affinitive constituents a systems has, like searching for themes like loyalty, preferences, or choices, within an idea.
 
 
 
