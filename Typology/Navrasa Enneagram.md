@@ -1,4 +1,4 @@
-# $\fbox{NAVRAS ENNEAGRAM}$
+# $\fbox{NAVRASA ENNEAGRAM}$
 
 
 
@@ -11,6 +11,11 @@ Parul University (Student),
 
 
 ## 1. Abstract
+
+
+The Navarasa–Enneagram model is a proposed framework for understanding personality through the interaction of habitual emotional orientation, instinctual domain, and cognitive processing. It explores whether the nine rasas of the Indian aesthetic tradition can provide a coherent interpretive foundation for the nine Enneagram types, while preserving cognition as a distinct dimension of personality. In this framework, each Enneagram type is associated with a predominant rasa that represents its characteristic emotional orientation. The instinctual variants self-preservation (SP), sexual (SX), and social (SO) differentiate the domains through which this orientation is expressed. Thus, a single emotional orientation may manifest differently depending on whether attention is directed toward the self and its resources, immediate encounters and charged engagement, or broader social structures and relationships. Cognitive typology systems, such as Jungian psychological types and the HCC model, may complement this framework by describing how individuals habitually perceive, interpret, and evaluate information. The model further proposes that Enneagram growth and stress patterns may be investigated as different directions in which a core emotional orientation develops or seeks expression. Rather than treating these movements as inherently healthy or unhealthy, the framework seeks to identify the psychological conditions under which they promote greater flexibility or reinforce defensive patterns. By separating emotional orientation, instinctual domain, and cognitive processing, the Navarasa–Enneagram model aims to reduce conceptual overlap, improve interpretive consistency, and make personality typing more accessible. Its central hypothesis is that a small number of clearly differentiated dimensions may explain meaningful differences between individuals without conflating motivation, attention, and cognition. The proposed correspondences remain theoretical and require systematic evaluation for conceptual coherence, discriminative validity, inter-rater reliability, and explanatory power.
+
+**Keywords:** Navarasa, Enneagram, emotional orientation, instinctual variants, Jungian typology, HCC, personality theory, psychological development.
 
 
 
@@ -273,5 +278,29 @@ Parul University (Student),
 ### 6.27 <u>SO9 (Harmony)</u>:
 
 *SO9* combines peace with SO instinct, where their source of peace is the broader structure they are part of. For example, feeling of harmony from maintained social relations with others.
+
+
+
+## 7. Stress & Growth Direction
+
+
+| Type | Growth                                | Stress                                  |
+| :--: | :------------------------------------ | :-------------------------------------- |
+|  E1  | Seeking E7's mirth balances fury.     | Seeking E4's sorrow imbalances fury.    |
+|  E2  | Seeking E4's sorrow balances love.    | Seeking E8's bravery imbalances love.   |
+|  E3  | Seeking E6's fear balances disgust.   | Seeking E9's peace imbalances disgust.  |
+|  E4  | Seeking E1's fury balances sorrow.    | Seeking E2's love imbalances sorrow.    |
+|  E5  | Seeking E8's bravery balances wonder. | Seeking E7's mirth imbalances wonder.   |
+|  E6  | Seeking E9's peace balances fear.     | Seeking E3's disgust imbalances fear.   |
+|  E7  | Seeking E5's wonder balances mirth.   | Seeking E1's fury imbalances mirth.     |
+|  E8  | Seeking E2's love balances bravery.   | Seeking E5's wonder imbalances bravery. |
+|  E9  | Seeking E3's disgust balances peace.  | Seeking E6's fear imbalances peace.     |
+
+
+## 8. License
+
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
 
 ---
