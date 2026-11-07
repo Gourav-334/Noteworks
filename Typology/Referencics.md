@@ -142,7 +142,7 @@ Functions which make information subjected to organization, evaluation, and comp
 
 ![Feeling|431](./media/hcc_f.png)
 
-*Feeling* is a judging function which is concerned with judging through values, contrary to logical reasoning and conceptual relations. For example, a person takes a career decision by evaluating how moral it is and how its mission to a greater good. This evaluation with values where criterion is based on something rooted in some form of values.
+*Feeling* is a judging function which is concerned with judging through values, contrary to logical reasoning and conceptual relations. For example, a person takes a career decision by evaluating how moral it is and how its mission to a greater good. This evaluation with values where criterion is based on something rooted in some form of preference, which is not logical.
 
 
 
@@ -151,20 +151,30 @@ Functions which make information subjected to organization, evaluation, and comp
 
 ### 7.1 <u>Introverted Sensing (Si)</u>:
 
-Combines the attitude of *introversion* and information element of *sensing*. This function is used for analyzing sensory stimulus deeper. For example, *The Narrator* from *Fight Club (1999)* is very likely an ***Si lens*** character whose monologues consistently composes of very precise description of sensations. Like lactic acids forming in legs, how factory smells, what the floor of abandoned club feels like, or how clean the gun feels in mouth, etc.
+![Introverted Sensing|432](./media/hcc_si.png)
+
+*Introverted sensing* which is also known as *associative sensation* combines *introverted* attitude and function of *sensation* to produce a *subjective* attitude towards *sensory stimulus*. Using this, a subject receives the sensory stimulus from an object, but instead of being focused on the literal sensation it transmits, they associate it with what sensation their inner compass redirects them to.
+
+For example, someone smears a drop of watercolor on his finger and it reminds him of the texture of oil he used to apply to his younger sister's hair in childhood. This shows a sensory association which was triggered from the object's sensation, but was ultimately handled by an inner compass of sensation.
 
 
-### 7.2 <u>Extroverted Sensing (Se)</u>:
+### 7.2 <u>Extraverted Sensing (Se)</u>:
 
-Combines the attitude of *extroversion* and information element of *sensing*. This function is used for producing certain outcome with sensory stimulus. For example, *Bruce Wayne* from *Batman vs. Superman: Dawn Of Justice (2016)* is very likely ***Se lens*** character whose constantly used raw force and impact combined with brutal fighting style, which looks more impulsive than tactical. Also his deliberate frightening appearance to maintain fear among criminals hint the same.
+![Extraverted Sensing|431](./media/hcc_se.png)
+
+*Extraverted sensing* which is also known as *photographic sensation* combines *extraverted* attitude and function of *sensation* to produce an *objective* attitude towards *sensory stimulus*. Using this, a subject remains largely concentrated on the raw sensory stimulus received from an object, without being affected by the subjective association it triggers within them.
+
+For example, someone visits a popular beach spot for vacation, and when their friend later asks them about how it was, they describe the exact sensory properties of the beach. Like the water was transparent, sky was bluish, and sun was bright. This shows a leaning towards sensation as objectively perceived.
 
 
 ### 7.3 <u>Introverted Intuition (Ni)</u>:
 
-Combines the attitude of *introversion* and information element of *intuition*. This function is used for analyzing unconscious leaps deeper. For example, *Neo* from *The Matrix (1999)* is very likely an ***Ni lens*** character whose constant attention returns to wondering and understanding what the unsettling feeling that something is inherently wrong with the world actually is, being sleepless all nights and brooding on it.
+![Introverted Intuition|429](./media/hcc_ni.png)
+
+*Introverted intuition* which is also known as *symbolic potential* combines
 
 
-### 7.4 <u>Extroverted Intuition (Ne)</u>:
+### 7.4 <u>Extraverted Intuition (Ne)</u>:
 
 Combines the attitude of *extroversion* and information element of *intuition*. This function is used for producing certain outcome with unconscious leaps. For example, *Mark Watney* from *The Martian (2015)* is very likely an ***Ne lens*** character who generally gets surge of ideas in his mind merely by knowing what resources he has, using them in a way to solve complicated and life-threatening situations.
 
@@ -174,7 +184,7 @@ Combines the attitude of *extroversion* and information element of *intuition*. 
 Combines the attitude of *introversion* and information element of *thinking*. This function is used for analyzing logical systems deeper. For example, *Michael Scofield* from *Prison Break (2005-2017)* is very likely an ***Ti lens*** character whose first response to being introduced to something is to analyze the underlying structure of it, be it a building, prison cell, sewer systems, or even random screws & mechanical tools.
 
 
-### 7.6 <u>Extroverted Thinking (Te)</u>:
+### 7.6 <u>Extraverted Thinking (Te)</u>:
 
 Combines the attitude of *extroversion* and information element of *thinking*. This function is used for producing certain outcome with logical systems. For example, *Light Yagami* from *Death Note (2006-2007)* is very likely an ***Te lens*** character whose every strategic move heavily relied on masking his crimes and make it easier to commit future crimes by taking full leverage of the available rules of the book, being a member of an police forces to evade them easily.
 
@@ -184,7 +194,7 @@ Combines the attitude of *extroversion* and information element of *thinking*. T
 Combines the attitude of *introversion* and information element of *feeling*. This function is used for analyzing affinitive values deeper. For example, *Peter Parker* from *Spider-Man (2002)* is very likely an ***Fi lens*** character who deeply analyzed human values and emotional needs like his uncle's teaching to understand what is his true driving force, what he wants from himself, and his identity in a world of needy people.
 
 
-### 7.8 <u>Extroverted Feeling (Fe)</u>:
+### 7.8 <u>Extraverted Feeling (Fe)</u>:
 
 Combines the attitude of *extroversion* and information element of *feeling*. This function is used for producing certain outcome with affinitive values. For example, *Lou Bloom* is very likely an ***Fe lens*** character who generally used affinitive values of others & their weak points in order to manipulate them, whether to recruit them cheaply for him, or to get his recordings of crime scenes at all cost.
 
