@@ -171,22 +171,36 @@ For example, someone visits a popular beach spot for vacation, and when their fr
 
 ![Introverted Intuition|429](./media/hcc_ni.png)
 
-*Introverted intuition* which is also known as *symbolic potential* combines
+*Introverted intuition* which is also known as *symbolic potential* combines *introverted* attitude and function of *intuition* to produce a *subjective* attitude towards *hidden potential*. Using this, a subject perceives hidden potential in objects based on what their inner compass shows them, and not the potential that object itself contains as subjective contents influence it.
+
+For example, someone comes to know that their friend won the marathon just before their brother's birthday, and later treating it as a divine message to them saying they must cheer up. Notice that the potential hidden in object itself wasn't given importance, but it was given to subject's own understanding or inner direction which influenced their perception.
 
 
 ### 7.4 <u>Extraverted Intuition (Ne)</u>:
 
-Combines the attitude of *extroversion* and information element of *intuition*. This function is used for producing certain outcome with unconscious leaps. For example, *Mark Watney* from *The Martian (2015)* is very likely an ***Ne lens*** character who generally gets surge of ideas in his mind merely by knowing what resources he has, using them in a way to solve complicated and life-threatening situations.
+![Extraverted Intuition|429](./media/hcc_ne.png)
+
+*Extraverted intuition* which is also known as *resource potential* combines *extraverted* attitude and function of *intuition* to produce an *objective* attitude towards *hidden potential*. Using this, a subject perceives hidden potential in object itself instead of letting their subjective influence (inner compass) affect their perception, thus being concentrated on objective information.
+
+For example, someone notices a bunch of discarded broken mechanical parts in a storeroom, and then perceives their collective potential to form a windmill, or even each part's individual potential to be a very critical part in expensive machineries. Notice how the potential is seen in object, and not symbolic for being affected by subject's experiences. Resource can also be living entity.
 
 
 ### 7.5 <u>Introverted Thinking (Ti)</u>:
 
-Combines the attitude of *introversion* and information element of *thinking*. This function is used for analyzing logical systems deeper. For example, *Michael Scofield* from *Prison Break (2005-2017)* is very likely an ***Ti lens*** character whose first response to being introduced to something is to analyze the underlying structure of it, be it a building, prison cell, sewer systems, or even random screws & mechanical tools.
+![Introverted Thinking|429](./media/hcc_ti.png)
+
+*Introverted thinking* which is also known as *deductive logic* combines *introverted* attitude and function of *thinking* to produce a *subjective* attitude towards *logical reasoning*. Using this, a subject judges an object through an inner compass of logic which is established through some established principles, where it raises a sense of wrongness when they are violated.
+
+For example, someone comes to know that evidences against criminal were found but he feels something is wrong because the conclusion doesn't follow from established evidences, as deduction proves it wrong. This is a case where subject feels something is wrong because its own assumptions were challenged, making them sometimes precise yet cynical in nature.
 
 
 ### 7.6 <u>Extraverted Thinking (Te)</u>:
 
-Combines the attitude of *extroversion* and information element of *thinking*. This function is used for producing certain outcome with logical systems. For example, *Light Yagami* from *Death Note (2006-2007)* is very likely an ***Te lens*** character whose every strategic move heavily relied on masking his crimes and make it easier to commit future crimes by taking full leverage of the available rules of the book, being a member of an police forces to evade them easily.
+![Extraverted Thinking|427](./media/hcc_te.png)
+
+*Extraverted thinking* which is also known as *inductive logic* combines *extraverted* attitude and function of *thinking* to produce an *objective* attitude towards *logical reasoning*. Using this, a subject judges an object through objective evidences which are established, instead of verifying it against subject's established principles.
+
+For example, someone collects samples from various rivers to which one is the cleanest for having least harmful microbes in fixed volumes, and concludes so through variations in tests without checking the formulae or other other samples to be sure. This is a form of empirical logic where foundations are given less importance than the underlying principles.
 
 
 ### 7.7 <u>Introverted Feeling (Fi)</u>:
