@@ -189,9 +189,9 @@ For example, someone notices a bunch of discarded broken mechanical parts in a s
 
 ![Introverted Thinking|429](./media/hcc_ti.png)
 
-*Introverted thinking* which is also known as *deductive logic* combines *introverted* attitude and function of *thinking* to produce a *subjective* attitude towards *logical reasoning*. Using this, a subject judges an object through an inner compass of logic which is established through some established principles, where it raises a sense of wrongness when they are violated.
+*Introverted thinking* which is also known as *deductive logic* combines *introverted* attitude and function of *thinking* to produce a *subjective* attitude towards *logical reasoning*. Using this, a subject judges an object through an inner compass of logic which is established through some established principles or axioms, and the object is tested against those premises.
 
-For example, someone comes to know that evidences against criminal were found but he feels something is wrong because the conclusion doesn't follow from established evidences, as deduction proves it wrong. This is a case where subject feels something is wrong because its own assumptions were challenged, making them sometimes precise yet cynical in nature.
+For example, someone comes to know that evidences against criminal were found but he feels something is wrong because the conclusion doesn't follow from established evidences, as deduction proves it wrong. This is a case where subject feels something is wrong because its own assumptions were challenged, making such people sometimes precise yet cynical in nature.
 
 
 ### 7.6 <u>Extraverted Thinking (Te)</u>:
@@ -200,7 +200,7 @@ For example, someone comes to know that evidences against criminal were found bu
 
 *Extraverted thinking* which is also known as *inductive logic* combines *extraverted* attitude and function of *thinking* to produce an *objective* attitude towards *logical reasoning*. Using this, a subject judges an object through objective evidences which are established, instead of verifying it against subject's established principles.
 
-For example, someone collects samples from various rivers to which one is the cleanest for having least harmful microbes in fixed volumes, and concludes so through variations in tests without checking the formulae or other other samples to be sure. This is a form of empirical logic where foundations are given less importance than the underlying principles.
+For example, someone makes an experiment by mixing two chemical compounds and finds the color of resulting compound to be bluish. But because it has been objectively established that it happened, she won't check against the established premises which the inner compass would have detected as something wrong for not following deductively.
 
 
 ### 7.7 <u>Introverted Feeling (Fi)</u>:
