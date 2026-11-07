@@ -1,4 +1,4 @@
-# $\fbox{HONEYCOMB COMPUTATIONAL COGNITION}$
+# $\fbox{REFERENCICS}$
 
 
 
@@ -79,64 +79,58 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 4.1 <u>Introversion (I)</u>:
 
-Also known as *analytical attitude* or *subjective* attitude, is a mode of processing in which the object in focus is brought to ultimate focus and is decomposed into smaller parts to be analyzed in a more deeper manner. The object in focus might change, but it also goes through a generally deeper analysis. It is subjective in nature because true analysis of an object doesn't require conforming to real-world needs. Analysis using methods that are known to work even if their underlying structure is unknown to produce an outcome is *extroverted* in nature.
+Also known as *subjective attitude*, is a mode of processing where the subjective factor is given more importance than the objective factor. This subjective factor is associated with subject's subjective processing. So, it is concerned more with the internal compass of subject it strongly feels. The attention is concentrated more towards how the subject associates its inner compass with the object than the object or objects themselves.
+
+For example, someone might notice a tree and concentrate on how it reminds him/her of his/her childhood memories. Noticed that? There is an inner compass that redirects them to associate the tree which is associated more with where the subject's inner compass redirects it to than the object itself.
 
 
 ### 4.2 <u>Extroversion (E)</u>:
 
-Also known as *utilitarian attitude* or *objective* attitude, is a mode of processing in which the object in focus is treated as a reference point or utility to solve a problem or need in order to produce certain outcome. And all the objects serve as a reference point only to generate certain result. It is objective in nature because using something as an utility to produce outcomes requires practical consideration to stand scrutiny of real-world application. Producing outcome to understand something deeper from test results is actually *introverted* in nature.
+Also known as *objective attitude*, is a mode of processing where the objective factor is given more importance than the subjective factor. This objective factor is associated with what the object itself presents under consciousness. So, it is concerned more with the actuality of the object as it represents. The attention is concentrated more towards the object itself than how the subject associates its inner compass with the object.
+
+For example, someone might notice the same tree and concentrate on its exact shape, color, and texture as he or she is seeing. In contrast to previous example, the subject gazes its attention on the object and its qualities, with less influence from the subject's inner compass.
 
 
 
 ## 5. Information Types
 
 
-### 5.1 <u>Instinctual Information (S/N)</u>:
+### 5.1 <u>Perceiving Function (P)</u>:
 
-A category of information types which is *instinctual* in nature, dealing with immediate *instinct* that a system triggers in mind of the subject.
-
-
-### 5.2 <u>Evaluative Information (T/F)</u>:
-
-A category of information types which is *evaluative* in nature, dealing with *values* that a system possesses, whether concretely or in abstraction.
+Functions which registers the information gained through object without being subjected to any operation. For example, at a dockyard someone might simply notice the ships anchored and temperature around the coast. It simply observes what it is without organizing these information. *Sensation* and *intuition* are perceiving functions.
 
 
-### 5.3 <u>Concrete Information (S/T)</u>:
+### 5.2 <u>Judging Function (J)</u>:
 
-A category of information types which is *concrete* in nature, dealing with concrete nature of reality & hypothesis which are more directly observable.
-
-
-### 5.4 <u>Abstract Information (N/F)</u>:
-
-A category of information types which are *abstract* in nature, dealing with abstract nature of reality & hypothesis which are more inferred or implied.
+Functions which make information subjected to organization, evaluation, and comparison. For example, at same dockyard someone might count the number of ships anchored and come up with a calculation of how much oil they must be consuming collectively. Here, the data is being organized separately. *Thinking* and *feeling* are judging functions.
 
 
 
-## 6. Information Elements
+## 6. Functions
 
 
-### 6.1 <u>Sensing (S)</u>:
+### 6.1 <u>Sensation (S)</u>:
 
-Combines the *instinctual* & *concrete* information to produce an information element that is concerned with *sensory stimulus*, meaning everything that can be perceived through senses. It is instinctual for being very primal foundation for animals to perceive everything through senses, and concrete for being something that deals with raw & direct observation.
+*Sensation* is a perceiving function which is concerned with the sensory stimulus transmitted by the object through the five senses. It is a form of direct perception where the object's sensory qualities are brought into attention, contrary to hidden potential. For example, in a room, sensing will focus on information like the color of the wall or shape of flower pot.
 
 
 ### 6.2 <u>Intuition (N)</u>:
 
-Combines the *instinctual* & *abstract* information to produce an information element that is concerned with *unconscious leaps*, meaning connections or ideas that arrive to mind in a surge before conscious mind can follow. It is instinctual for dealing with processing that goes independent of conscious mind, and abstract for being indirect & latent than direct.
+*Intuition* is a perceiving function which is concerned with the perception of potential in an object. It is a form of indirect perception where the hidden potential into attention, contrary to raw sensation. For example, in the same room, intuition will focus on information about hidden potential, like alternative use case of the flower pot that might be unconventional.
 
 
 ### 6.3 <u>Thinking (T)</u>:
 
-Combines the *evaluative* & *concrete* information to produce an information element that is concerned with *logical reasoning*, meaning concepts that conforms to absolute truth. It is evaluative in nature for dealing with step-by-step logical chains & subsequent facts, and concrete for being verifiable with statistics & reasoning.
+*Thinking* is a judging function which is concerned with judging objects through logical reasoning and conceptual relations, contrary to values. For example, a person takes a career decision by evaluating how good it is in terms of salary, reviews, and working hours. This is evaluation with logic where criterion is based on something with a conceptual relation.
 
 
 ### 6.4 <u>Feeling (F)</u>:
 
-Combines the *evaluative* & *abstract* information to produce an information element that is concerned with *affinitive values*, meaning preferences to choices whether negative or positive. It is evaluative in nature for dealing with clear choices & following same chains to arrive at decisions, and abstract for being more individually enclosed which could be inferred without confirmed verification.
+*Feeling* is a judging function which is concerned with judging through values, contrary to logical reasoning and conceptual relations. For example, a person takes a career decision by evaluating how moral it is and how its mission to a greater good. This evaluation with values where criterion is based on something rooted in some form of values.
 
 
 
-## 7. Cognitive Functions
+## 7. Cognitive Elements
 
 
 ### 7.1 <u>Introverted Sensing (Si)</u>:

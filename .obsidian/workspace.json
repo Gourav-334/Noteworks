@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da7a7e5d4756dd96",
+        "id": "bbb33a78a0199b27",
         "type": "tabs",
         "children": [
           {
-            "id": "74028cbecb98e79f",
+            "id": "6bb6791c6a92ccff",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Typology/Neurotype.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Neurotype"
             }
           }
         ]
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.83334350585938,
-    "collapsed": true
+    "width": 218.83334350585938
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -168,10 +171,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74028cbecb98e79f",
+  "active": "6bb6791c6a92ccff",
   "lastOpenFiles": [
+    "Typology/Potentiology.md",
+    "Typology/Neurotype.md",
+    "Typology/Moral Alignment.md",
+    "Typology/Referencics.md",
+    "Typology/Enneagram.md",
+    "Typology/Jungian Typology.md",
     "Typology/Navrasa Enneagram.md",
-    "Typology/Honeycomb Computational Cognition.md",
     "Pasted image 20261028175250.png",
     "EFLAM/C Manual.md",
     "EFLAM",
@@ -210,10 +218,6 @@
     "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
     "Computer Hardware Repairing/01) Keyboards.md",
     "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
-    "Typology/VEONS.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/18) Current Affairs (2026).md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/17) Organization & Their Headquarters.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/16) Country, Capital & Currency.md",
-    "AFCAT Edition/ChatGPT {O}/General Knowledge/15) Inventions.md"
+    "Typology/VEONS.md"
   ]
 }

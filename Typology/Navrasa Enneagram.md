@@ -222,7 +222,7 @@ The Navarasa–Enneagram model is a proposed framework for understanding persona
 
 ### 6.16 <u>SP6 (Weakness)</u>:
 
-*SP5* combines fear with SP instinct, where their source of fear is they themselves. For example, constantly being fearful of own's shortcomings and weak points.
+*SP6* combines fear with SP instinct, where their source of fear is they themselves. For example, constantly being fearful of own's shortcomings and weak points.
 
 
 ### 6.17 <u>SX6 (Comparison)</u>:
