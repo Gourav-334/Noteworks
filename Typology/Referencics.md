@@ -189,7 +189,7 @@ For example, someone notices a bunch of discarded broken mechanical parts in a s
 
 ![Introverted Thinking|429](./media/hcc_ti.png)
 
-*Introverted thinking* which is also known as *deductive logic* combines *introverted* attitude and function of *thinking* to produce a *subjective* attitude towards *logical reasoning*. Using this, a subject judges an object through an inner compass of logic which is established through some established principles or axioms, and the object is tested against those premises.
+*Introverted thinking* which is also known as *axiomatic logic* combines *introverted* attitude and function of *thinking* to produce a *subjective* attitude towards *logical reasoning*. Using this, a subject judges an object through an inner compass of logic which is established through some established principles or axioms, and the object is tested against those premises.
 
 For example, someone comes to know that evidences against criminal were found but he feels something is wrong because the conclusion doesn't follow from established evidences, as deduction proves it wrong. This is a case where subject feels something is wrong because its own assumptions were challenged, making such people sometimes precise yet cynical in nature.
 
@@ -198,14 +198,18 @@ For example, someone comes to know that evidences against criminal were found bu
 
 ![Extraverted Thinking|427](./media/hcc_te.png)
 
-*Extraverted thinking* which is also known as *inductive logic* combines *extraverted* attitude and function of *thinking* to produce an *objective* attitude towards *logical reasoning*. Using this, a subject judges an object through objective evidences which are established, instead of verifying it against subject's established principles.
+*Extraverted thinking* which is also known as *evidential logic* combines *extraverted* attitude and function of *thinking* to produce an *objective* attitude towards *logical reasoning*. Using this, a subject judges an object through objective evidences which are established, instead of verifying it against subject's established principles.
 
 For example, someone makes an experiment by mixing two chemical compounds and finds the color of resulting compound to be bluish. But because it has been objectively established that it happened, she won't check against the established premises which the inner compass would have detected as something wrong for not following deductively.
 
 
 ### 7.7 <u>Introverted Feeling (Fi)</u>:
 
-Combines the attitude of *introversion* and information element of *feeling*. This function is used for analyzing affinitive values deeper. For example, *Peter Parker* from *Spider-Man (2002)* is very likely an ***Fi lens*** character who deeply analyzed human values and emotional needs like his uncle's teaching to understand what is his true driving force, what he wants from himself, and his identity in a world of needy people.
+![Introverted Feeling|427](./media/hcc_fi.png)
+
+*Introverted feeling* which is also known as *personal values* combines *introverted* attitude and function of *feeling* to produce a *subjective* attitude towards *values*. Using this, a subject judges an object through an inner sense of values directed by inner compass, instead of adapting to the values of other entities around the subject to judge the object.
+
+For example, 
 
 
 ### 7.8 <u>Extraverted Feeling (Fe)</u>:
