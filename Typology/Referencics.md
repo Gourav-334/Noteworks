@@ -79,12 +79,16 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 4.1 <u>Introversion (I)</u>:
 
-Also known as *subjective attitude*, is a mode of processing where the subjective factor is given more importance than the objective factor. This subjective factor is associated with subject's subjective processing. So, it is concerned more with the internal compass of subject it strongly feels. The attention is concentrated more towards how the subject associates its inner compass with the object than the object or objects themselves.
+![Introversion|431](./media/hcc_i.png)
+
+Also known as *subjective attitude*, is a mode of processing where the subjective factor is given more importance than the objective factor. This subjective factor is associated with subject's subjective processing. So, it is concerned more with the internal compass of subject as it strongly feels. The attention is concentrated more towards how the subject associates its inner compass with the object than the object or objects themselves.
 
 For example, someone might notice a tree and concentrate on how it reminds him/her of his/her childhood memories. Noticed that? There is an inner compass that redirects them to associate the tree which is associated more with where the subject's inner compass redirects it to than the object itself.
 
 
-### 4.2 <u>Extroversion (E)</u>:
+### 4.2 <u>Extraversion (E)</u>:
+
+![Extraversion|429](./media/hcc_e.png)
 
 Also known as *objective attitude*, is a mode of processing where the objective factor is given more importance than the subjective factor. This objective factor is associated with what the object itself presents under consciousness. So, it is concerned more with the actuality of the object as it represents. The attention is concentrated more towards the object itself than how the subject associates its inner compass with the object.
 
@@ -97,10 +101,14 @@ For example, someone might notice the same tree and concentrate on its exact sha
 
 ### 5.1 <u>Perceiving Function (P)</u>:
 
+![Perception|429](./media/hcc_p.png)
+
 Functions which registers the information gained through object without being subjected to any operation. For example, at a dockyard someone might simply notice the ships anchored and temperature around the coast. It simply observes what it is without organizing these information. *Sensation* and *intuition* are perceiving functions.
 
 
 ### 5.2 <u>Judging Function (J)</u>:
+
+![Judgement|431](./media/hcc_j.png)
 
 Functions which make information subjected to organization, evaluation, and comparison. For example, at same dockyard someone might count the number of ships anchored and come up with a calculation of how much oil they must be consuming collectively. Here, the data is being organized separately. *Thinking* and *feeling* are judging functions.
 
@@ -111,20 +119,28 @@ Functions which make information subjected to organization, evaluation, and comp
 
 ### 6.1 <u>Sensation (S)</u>:
 
+![Sensation|431](./media/hcc_s.png)
+
 *Sensation* is a perceiving function which is concerned with the sensory stimulus transmitted by the object through the five senses. It is a form of direct perception where the object's sensory qualities are brought into attention, contrary to hidden potential. For example, in a room, sensing will focus on information like the color of the wall or shape of flower pot.
 
 
 ### 6.2 <u>Intuition (N)</u>:
 
-*Intuition* is a perceiving function which is concerned with the perception of potential in an object. It is a form of indirect perception where the hidden potential into attention, contrary to raw sensation. For example, in the same room, intuition will focus on information about hidden potential, like alternative use case of the flower pot that might be unconventional.
+![Intuition|432](./media/hcc_n.png)
+
+*Intuition* is a perceiving function which is concerned with the hidden potential in an object. It is a form of indirect perception where the hidden potential into attention, contrary to raw sensation. For example, in the same room, intuition will focus on information about hidden potential, like alternative use case of the flower pot that might be unconventional.
 
 
 ### 6.3 <u>Thinking (T)</u>:
+
+![Thinking|429](./media/hcc_t.png)
 
 *Thinking* is a judging function which is concerned with judging objects through logical reasoning and conceptual relations, contrary to values. For example, a person takes a career decision by evaluating how good it is in terms of salary, reviews, and working hours. This is evaluation with logic where criterion is based on something with a conceptual relation.
 
 
 ### 6.4 <u>Feeling (F)</u>:
+
+![Feeling|431](./media/hcc_f.png)
 
 *Feeling* is a judging function which is concerned with judging through values, contrary to logical reasoning and conceptual relations. For example, a person takes a career decision by evaluating how moral it is and how its mission to a greater good. This evaluation with values where criterion is based on something rooted in some form of values.
 

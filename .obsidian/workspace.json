@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bbb33a78a0199b27",
+        "id": "c6f46be73266dac6",
         "type": "tabs",
         "children": [
           {
-            "id": "6bb6791c6a92ccff",
+            "id": "6df7f152c41ba5a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typology/Neurotype.md",
+                "file": "Typology/Referencics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Neurotype"
+              "title": "Referencics"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.83334350585938
+    "width": 218.83334350585938,
+    "collapsed": true
   },
   "right": {
     "id": "bd996f774039b03d",
@@ -171,53 +172,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bb6791c6a92ccff",
+  "active": "6df7f152c41ba5a9",
   "lastOpenFiles": [
-    "Typology/Potentiology.md",
+    "Typology/media/hcc_f.png",
+    "Typology/media/Unconfirmed 93796.crdownload",
+    "Typology/media/hcc_t.png",
+    "Typology/media/Unconfirmed 195458.crdownload",
+    "Typology/media/hcc_n.png",
+    "Typology/media/Unconfirmed 223598.crdownload",
+    "Typology/media/hcc_s.png",
+    "Typology/media/Unconfirmed 353164.crdownload",
+    "Typology/media/hcc_j.png",
+    "Typology/media/Unconfirmed 920672.crdownload",
+    "Typology/media/hcc_p.png",
+    "Typology/media/Unconfirmed 258012.crdownload",
+    "Typology/media/hcc_e.png",
+    "Typology/media/Unconfirmed 626548.crdownload",
+    "Typology/media/hcc_i.png",
+    "Typology/media/Unconfirmed 820740.crdownload",
+    "Typology/media/hcc_ti.png",
+    "Typology/media/Unconfirmed 534640.crdownload",
+    "Typology/media/hcc_fe.png",
+    "Typology/media/Unconfirmed 565196.crdownload",
+    "Typology/media/hcc_fi.png",
+    "Typology/Navrasa Enneagram.md",
     "Typology/Neurotype.md",
+    "Typology/VRDW CJTE - 7.md",
+    "Typology/VEONS.md",
+    "Typology/Research On Dominating Types.md",
+    "Typology/Temperaments.md",
+    "Typology/Temporal Reference Cognition.md",
+    "Typology/Socionics.md",
+    "Typology/Psychological Types - Vol. 8.md",
+    "Typology/Potentiology.md",
     "Typology/Moral Alignment.md",
     "Typology/Referencics.md",
     "Typology/Enneagram.md",
     "Typology/Jungian Typology.md",
-    "Typology/Navrasa Enneagram.md",
-    "Pasted image 20261028175250.png",
     "EFLAM/C Manual.md",
-    "EFLAM",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Modern Wars.md",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/image1.png",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/Screenshot 2026-09-29 090418.png",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/media/Screenshot 2026-09-29 090027.png",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/media",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/New folder",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Hierarchies.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Strategic Alliances.md",
     "AFCAT Edition/ChatGPT {C}/Current Affairs/Personal Questions.md",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs/Untitled",
-    "AFCAT Edition/ChatGPT {C}/Current Affairs",
     "Admin Auditing/03) Diagnostic Tool Applications.md",
-    "Admin Auditing/media/image6.png",
-    "Admin Auditing/media/Screenshot 2026-09-12 142433.png",
-    "Admin Auditing/media/image5.png",
-    "Admin Auditing/media/Screenshot 2026-09-12 141618.png",
-    "Admin Auditing/media/image4.png",
-    "Admin Auditing/media/Screenshot 2026-09-12 140906.png",
     "Admin Auditing/02) Resource Monitoring Applications.md",
     "Admin Auditing/01) Crash & Error Logging Applications.md",
-    "Admin Auditing/media",
-    "Admin Auditing/New folder",
-    "Admin Auditing",
     "Hardware Repairing/06) Printers (Inkjet).md",
-    "Hardware Repairing/media/Unconfirmed 913317.crdownload",
-    "Hardware Repairing/media/Unconfirmed 833727.crdownload",
     "Hardware Repairing/05) Central Processing Unit.md",
-    "Hardware Repairing/04) Monitors.md",
-    "Bare-Metal x86/Hoang {O}/05) Anatomy Of A Program.md",
-    "Hardware Repairing/03) Optical Mouses (Wireless).md",
-    "Hardware Repairing/02) Optical Mouses (Wired).md",
-    "Computer Hardware Repairing/02) Optical Mouses (Wired).md",
-    "Computer Hardware Repairing/03) Optical Mouses (Unwired).md",
-    "Computer Hardware Repairing/01) Keyboards.md",
-    "Bare-Metal x86/Hoang {O}/04) x86 Assembly And C.md",
-    "Typology/VEONS.md"
+    "Hardware Repairing/04) Monitors.md"
   ]
 }
