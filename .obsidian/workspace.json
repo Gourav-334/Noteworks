@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6f46be73266dac6",
+        "id": "9d1dc49d21f93aee",
         "type": "tabs",
         "children": [
           {
-            "id": "6df7f152c41ba5a9",
+            "id": "052b4945c41142ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6df7f152c41ba5a9",
+  "active": "052b4945c41142ca",
   "lastOpenFiles": [
+    "Typology/Referencics.md",
     "Typology/media/Unconfirmed 677223.crdownload",
     "Typology/media/Unconfirmed 556813.crdownload",
     "Typology/media/Unconfirmed 644988.crdownload",
@@ -191,7 +192,6 @@
     "Typology/media/hcc_p.png",
     "Typology/media/Unconfirmed 258012.crdownload",
     "Typology/media/hcc_e.png",
-    "Typology/media/Unconfirmed 626548.crdownload",
     "Typology/media/hcc_i.png",
     "Typology/media/hcc_ti.png",
     "Typology/media/hcc_fe.png",
@@ -206,7 +206,6 @@
     "Typology/Psychological Types - Vol. 8.md",
     "Typology/Potentiology.md",
     "Typology/Moral Alignment.md",
-    "Typology/Referencics.md",
     "Typology/Enneagram.md",
     "Typology/Jungian Typology.md",
     "EFLAM/C Manual.md",

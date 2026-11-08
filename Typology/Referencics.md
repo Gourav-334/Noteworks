@@ -34,13 +34,12 @@ The model is intended as a computationally oriented extension within the broader
 
 - **Subject:** A processing function made by combining consciousness and ego.
 - **Object:** Everything other the subject.
-- **System:** Alternative term used for *object*.
 
 
 ### 2.3 <u>Primitives Types</u>:
 
 - **Information elements ($S$, $N$, $T$, $F$):** A form of information that the system possesses.
-- **Attitude ($I$, $E$):** Mode of processing information that the system possesses.
+- **Attitude ($I$, $E$):** Mode of alignment to information that the object possesses.
 
 
 ### 2.4 <u>Function Types</u>:
@@ -81,16 +80,16 @@ The model is intended as a computationally oriented extension within the broader
 
 ![Introversion|431](./media/hcc_i.png)
 
-Also known as *subjective attitude*, is a mode of processing where the subjective factor is given more importance than the objective factor. This subjective factor is associated with subject's subjective processing. So, it is concerned more with the internal compass of subject as it strongly feels. The attention is concentrated more towards how the subject associates its inner compass with the object than the object or objects themselves.
+Also known as *subjective attitude*, is a mode of leaning where the subjective factor is given more importance than the objective factor. This subjective factor is associated with subject's subjective processing. So, it is concerned more with the internal compass of subject as it strongly feels. The attention is concentrated more towards how the subject associates its inner compass with the object than the object or objects themselves.
 
 For example, someone might notice a tree and concentrate on how it reminds him/her of his/her childhood memories. Noticed that? There is an inner compass that redirects them to associate the tree which is associated more with where the subject's inner compass redirects it to than the object itself.
 
 
 ### 4.2 <u>Extraversion (E)</u>:
 
-![Extraversion|429](./media/hcc_e.png)
+![Extraversion|432](./media/hcc_e.png)
 
-Also known as *objective attitude*, is a mode of processing where the objective factor is given more importance than the subjective factor. This objective factor is associated with what the object itself presents under consciousness. So, it is concerned more with the actuality of the object as it represents. The attention is concentrated more towards the object itself than how the subject associates its inner compass with the object.
+Also known as *objective attitude*, is a mode of leaning where the objective factor is given more importance than the subjective factor. This objective factor is associated with what the object itself presents under consciousness. So, it is concerned more with the actuality of the object as it represents. The attention is concentrated more towards the object itself than how the subject associates its inner compass with the object.
 
 For example, someone might notice the same tree and concentrate on its exact shape, color, and texture as he or she is seeing. In contrast to previous example, the subject gazes its attention on the object and its qualities, with less influence from the subject's inner compass.
 
@@ -101,16 +100,16 @@ For example, someone might notice the same tree and concentrate on its exact sha
 
 ### 5.1 <u>Perceiving Function (P)</u>:
 
-![Perception|429](./media/hcc_p.png)
+![Perception|433](./media/hcc_p.png)
 
-Functions which registers the information gained through object without being subjected to any operation. For example, at a dockyard someone might simply notice the ships anchored and temperature around the coast. It simply observes what it is without organizing these information. *Sensation* and *intuition* are perceiving functions.
+Functions which supplies the information gained through object without being subjected to any operation. For example, at a dockyard someone might simply notice the ships anchored and temperature around the coast. It simply observes what it is without organizing these information. *Sensation* and *intuition* are perceiving functions.
 
 
 ### 5.2 <u>Judging Function (J)</u>:
 
 ![Judgement|431](./media/hcc_j.png)
 
-Functions which make information subjected to organization, evaluation, and comparison. For example, at same dockyard someone might count the number of ships anchored and come up with a calculation of how much oil they must be consuming collectively. Here, the data is being organized separately. *Thinking* and *feeling* are judging functions.
+Functions which subjects supplied information to operations like organization, evaluation, and comparison as per some criterion. For example, at same dockyard someone might count the number of ships anchored and calculate of how much oil they must be consuming. Here, the data supplied in being processed. *Thinking* and *feeling* are judging functions.
 
 
 
@@ -196,7 +195,7 @@ For example, someone comes to know that evidences against criminal were found bu
 
 ### 7.6 <u>Extraverted Thinking (Te)</u>:
 
-![Extraverted Thinking|427](./media/hcc_te.png)
+![Extraverted Thinking|430](./media/hcc_te.png)
 
 *Extraverted thinking* which is also known as *evidential logic* combines *extraverted* attitude and function of *thinking* to produce an *objective* attitude towards *logical reasoning*. Using this, a subject judges an object through objective evidences which are established, instead of verifying it against subject's established principles.
 
@@ -205,16 +204,20 @@ For example, someone makes an experiment by mixing two chemical compounds and fi
 
 ### 7.7 <u>Introverted Feeling (Fi)</u>:
 
-![Introverted Feeling|427](./media/hcc_fi.png)
+![Introverted Feeling|431](./media/hcc_fi.png)
 
 *Introverted feeling* which is also known as *personal values* combines *introverted* attitude and function of *feeling* to produce a *subjective* attitude towards *values*. Using this, a subject judges an object through an inner sense of values directed by inner compass, instead of adapting to the values of other entities around the subject to judge the object.
 
-For example, 
+For example, someone sees an adult misbehaving with a child in a public gathering, and then approaches the adult to berate him for doing so because her values go against doing so. This was a particular case where *Fi* is used, not necessarily that the subject here was primarily *Fi* user. Notice that the case was more about values over reasoning.
 
 
 ### 7.8 <u>Extraverted Feeling (Fe)</u>:
 
-Combines the attitude of *extroversion* and information element of *feeling*. This function is used for producing certain outcome with affinitive values. For example, *Lou Bloom* is very likely an ***Fe lens*** character who generally used affinitive values of others & their weak points in order to manipulate them, whether to recruit them cheaply for him, or to get his recordings of crime scenes at all cost.
+![Extraverted Feeling|432](./media/hcc_fe.png)
+
+*Extraverted feeling* which is also known as *collective values* combines *extraverted* attitude and function of *feeling* to produce a *objective* attitude towards *values*. Using this, a subject judges an object through the values possessed by the objective environment, instead of being guided by inner compass to realize their own. This often makes them socially very adaptable.
+
+For example, someone witnesses a conflict between two people which is the object (the situation) in workspace, and they have to decide which of the two options he must take. So he will take this decision as per which side adheres to the collective values of the workspace. The fact about whether these values are established as a framework or not doesn't make it logical.
 
 
 
@@ -267,74 +270,74 @@ This function has same information element as *repressed* but with altered attit
 
 ### 9.1 <u>Meaning For Symbols</u>:
 
-- $D$ stands for *decomposing* [58]
-- $C$ stands for *composing* [59]
-- $S$ stands for *sensing* [60]
-- $I$ stands for *intuition* [61]
-- $L$ stands for *thinking* [62]
-- $A$ stands for *feeling* [63]
+- $I$ stands for *Introversion*
+- $E$ stands for *Extraversion*
+- $S$ stands for *Sensation*
+- $P$ (Potential) stands for *Intuition*
+- $L$ (Logic) stands for *Thinking*
+- $V$ (Values) stands for *Feeling*
 
 
 ### 9.2 <u>Type Formation Rules</u>:
 
-1. The attitude of *lens* function is written as first letter. For example, primary function $Ti$ would mean notation is $D\_\_$. [64]
-2. Then second letter is the information element involved with the *lens* function. For example, primary function $Ti$ would mean notation is now $DL\_$. [65]
-3. And finally the third letter is the information element involved with the *support* function. For example, depending on whether its $Se$ or $Ne$, primary function $Ti$ will be represented as $DLS$ or $DLI$. [66]
+1. The attitude of *lens* function is written as first letter. For example, primary function $Ti$ would mean notation is $I\_\_$.
+2. Then second letter is the information element involved with the *lens* function. For example, primary function $Ti$ would mean notation is now $IL\_$.
+3. And finally the third letter is the information element involved with the *support* function. For example, depending on whether its $Se$ or $Ne$, primary function $Ti$ will be represented as $ILS$ or $ILP$.
 
 
-### 9.3 <u>HCC Types</u>:
+### 9.3 <u>Personality Types</u>:
 
-| Type  | Nickname         | Lens Function (f1) | Support Function (f2) | Reference Point |
-| :---- | :--------------- | :----------------: | :-------------------: | :-------------: |
-| $DSL$ | Empiricist       |        $Si$        |         $Te$          |      [67]       |
-| $DSA$ | Aesthetician     |        $Si$        |         $Fe$          |      [68]       |
-| $CSL$ | Craftsman        |        $Se$        |         $Ti$          |      [69]       |
-| $CSA$ | Expressivist     |        $Se$        |         $Fi$          |      [70]       |
-| $DIL$ | Visionary        |        $Ni$        |         $Te$          |      [71]       |
-| $DIA$ | Humanist         |        $Ni$        |         $Fe$          |      [72]       |
-| $CIL$ | Deconstructivist |        $Ne$        |         $Ti$          |      [73]       |
-| $CIA$ | Hermeneut        |        $Ne$        |         $Fi$          |      [74]       |
-| $DLS$ | Pragmatist       |        $Ti$        |         $Se$          |      [75]       |
-| $DLI$ | Theorist         |        $Ti$        |         $Ne$          |      [76]       |
-| $CLS$ | Diagnostician    |        $Te$        |         $Si$          |      [77]       |
-| $CLI$ | Speculator       |        $Te$        |         $Ni$          |      [78]       |
-| $DAS$ | Artisan          |        $Fi$        |         $Se$          |      [79]       |
-| $DAI$ | Idealist         |        $Fi$        |         $Ne$          |      [80]       |
-| $CAS$ | Relationalist    |        $Fe$        |         $Si$          |      [81]       |
-| $CAI$ | Ethicist         |        $Fe$        |         $Ni$          |      [82]       |
+| Type  | Nickname         | Lens Function (f1) | Support Function (f2) |
+| :---- | :--------------- | :----------------: | :-------------------: |
+| $ISL$ | Empiricist       |        $Si$        |         $Te$          |
+| $ISV$ | Aesthetician     |        $Si$        |         $Fe$          |
+| $ESL$ | Craftsman        |        $Se$        |         $Ti$          |
+| $ESV$ | Expressivist     |        $Se$        |         $Fi$          |
+| $IPL$ | Visionary        |        $Ni$        |         $Te$          |
+| $IPV$ | Humanist         |        $Ni$        |         $Fe$          |
+| $EPL$ | Deconstructivist |        $Ne$        |         $Ti$          |
+| $EPV$ | Hermeneut        |        $Ne$        |         $Fi$          |
+| $ILS$ | Pragmatist       |        $Ti$        |         $Se$          |
+| $ILP$ | Theorist         |        $Ti$        |         $Ne$          |
+| $ELS$ | Diagnostician    |        $Te$        |         $Si$          |
+| $ELP$ | Speculator       |        $Te$        |         $Ni$          |
+| $IVS$ | Artisan          |        $Fi$        |         $Se$          |
+| $IVP$ | Idealist         |        $Fi$        |         $Ne$          |
+| $EVS$ | Relationalist    |        $Fe$        |         $Si$          |
+| $EVP$ | Ethicist         |        $Fe$        |         $Ni$          |
 
 
 
 ## 10. Development Advises
 
 
-- **Becoming competent:** Find fields of interests which are closely support *lens* and *support* function for their intended use. [83]
-- **Improving weak areas:** Practice activities which requires use of *blindspot* and *repressed*. [84]
-- **Leveraging potential:** Learns certain practical skills that require use of *ability* and *standby*. [85]
-- **Overcoming prejudice:** Deliberately introduce such actions occasionally which requires recognizing of *avoided* and *suppressed*. [86]
+- **Becoming competent:** Find fields of interests which are closely support $f1$ and $f2$ function for their intended use.
+- **Improving weak areas:** Practice activities which requires use of $f3$ and $f4$.
+- **Leveraging potential:** Learns certain practical skills that require use of $f5$ and $f6$.
+- **Overcoming prejudice:** Deliberately introduce such actions occasionally which requires recognizing of $f7$ and $f8$.
 
 
 
 ## 11. Important Notes
 
 
-- Honeycomb Computation Model is a typological framework, not a mental health diagnostic tool. [87]
-- It describes default information-processing modes, not psychological disorders or clinical conditions. [88]
-- Its primitives are intended to characterize computation, not symptoms. [89]
-- A type classification does not indicate whether a person is mentally healthy or unhealthy. [90]
-- No type is inherently pathological, superior, inferior, normal, or abnormal. [91]
-- Psychological distress, psychiatric symptoms, or clinical impairment cannot be inferred from a person's Honeycomb type. [92]
-- The model does not replace clinical assessment, diagnosis, or treatment by qualified mental health professionals. [93]
-- Behavioral similarities to a particular type should not be interpreted as evidence of a mental disorder. [94]
-- Environmental stress, illness, trauma, medication, or other clinical factors should not be treated as typological evidence. [95]
-- The model concerns *"how information is processed by default", not "whether the person is psychologically well"*. [96]
+- Honeycomb Computation Model is a typological framework, not a mental health diagnostic tool.
+- It describes default information-processing modes, not psychological disorders or clinical conditions.
+- Its primitives are intended to characterize computation, not symptoms.
+- A type classification does not indicate whether a person is mentally healthy or unhealthy.
+- No type is inherently pathological, superior, inferior, normal, or abnormal.
+- Psychological distress, psychiatric symptoms, or clinical impairment cannot be inferred from a person's Honeycomb type.
+- The model does not replace clinical assessment, diagnosis, or treatment by qualified mental health professionals.
+- Behavioral similarities to a particular type should not be interpreted as evidence of a mental disorder.
+- Environmental stress, illness, trauma, medication, or other clinical factors should not be treated as typological evidence.
+- The model concerns *"how information is processed by default", not "whether the person is psychologically well"*.
 
 
 
 ## 12. License
 
 
-Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) [97]
-https://creativecommons.org/licenses/by/4.0/ [98]
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
 
 ---
