@@ -42,10 +42,11 @@ The model is intended as a computationally oriented extension within the broader
 - **Attitude ($I$, $E$):** Mode of alignment to information that the object possesses.
 
 
-### 2.4 <u>Function Types</u>:
+### 2.4 <u>Cognitive Factors</u>:
 
-- **Default functions (lens/support/blindspot/repressed):** Functions which are by default operated by the individual, without deliberate effort or force.
-- **Effortful functions (ability/standby/avoided/suppressed):** Functions which can be operated only with deliberate effort and manually.
+- **Awareness factor:** Tells if a cognitive element is used *consciously* (deliberately) or *unconsciously* (unknowingly).
+- **Importance factor:** Tells if a cognitive element is *valued* (seen important) or *unvalued* (unimportant).
+- **Engagement factor:** Tells if a cognitive element is *intense* (used intensely) or *subdued* (used casually).
 
 
 
@@ -224,42 +225,42 @@ For example, someone witnesses a conflict between two people which is the object
 ## 8. Function Stack
 
 
-### 8.1 <u>Lens (f1)</u>:
+### 8.1 <u>Character Function (f1)</u>:
 
-Combination of primary attitude and primary information element. This defines what someone views the world in terms of, and their default interaction using that information. For example, *lens* in $DLI$ is $Ti$. So unknowingly by default, their primary way of understanding the world would be in terms of facts & cause-effects, and their tendency is to break those facts into smaller facts.
-
-
-### 8.2 <u>Support (f2)</u>:
-
-Is one of the function from opposing information types and opposite attitude of *lens*. This function doesn't lead the view or interaction of the subject with world, but supports the *lens* with alternative perspective and action. For example, *support* in $DLI$ is $Ne$. So their default secondary way of understanding the world would be in terms of latent patterns or potentials, and their tendency when it supports would be to join those patterns to form a larger web.
+*Character function* is a *conscious*, *valued*, and *persistent* function. This function is the defining characteristic of a subject as they are constantly using it for their deliberate attraction towards it. For example, $Ti$ in $ILP$ is constantly used to check delivered information against logical axioms.
 
 
-### 8.3 <u>Blindspot (f3)</u>:
+### 8.2 <u>Hobby Function (f2)</u>:
 
-Is the other information element of same type as *support* function but with opposing attitude. This function is opposed by *support*, and both have less energy. Thus the dominating *support* almost nullifies it, ultimately being almost ignored. For example, *blindspot* in $DLI$ is $Si$. So they would by default ignore the pure sensory aspect of information and breaking it down its sensation.
-
-
-### 8.4 <u>Repressed (f4)</u>:
-
-Is the other information element of same type as *lens* function but with opposing attitude. This function is opposed by *lens*, and both have more energy. Thus the dominating *default lens* strongly represses it, unknowingly. For example, *repressed* in $DLI$ is $Fe$. So they would unknowingly suppress the need to form value-based or emotional connections, whether intent is positive or negative.
+*Hobby function* is a *conscious*, *valued*, and *episodic* function. This function is sometimes deliberately used by the subject as he is attracted towards it, but using it only momentarily. For example, $Ne$ in $ILP$ is sometimes deliberately used to look for potential in resources.
 
 
-### 8.5 <u>Ability (f5)</u>:
+### 8.3 <u>Instinct Function (f3)</u>:
 
-This function has same information element as *lens* but with altered attitude. It is an strong ability that the subject possesses but is not default in its processing style, requiring deliberate effort. For example, *ability* in $DLI$ is $Te$. So they have great ability in organizing logical structures to create working system, but its not by default preferred by their consciousness until need arises.
-
-
-### 8.6 <u>Standby (f6)</u>:
-
-This function has same information element as *support* but with altered attitude. It works as a standby function to aid the *lens*, but used only when *support* fails or hits a wall. It is effortful, and doesn't run in conscious background by default like *support*. For example, *standby* in $DLI$ is $Ni$. So if their logical decoding with support of latent connections stalls, they might turn to break system into underlying patterns.
+*Instinct function* is an *unconscious*, *valued*, and *episodic* function. The subject reacts positively to this function when it is momentarily used, almost like an instinct. For example, $Si$ in $ILP$ is sometimes unknowingly triggered with a positive association, like a nostalgic sensation.
 
 
-### 8.7 <u>Avoided (f7)</u>:
+### 8.4 <u>Guard Function (f4)</u>:
 
-This function has same information element as *blindspot* but with altered attitude. It is deliberately and effortfully avoided, for having a negative relation with the subject in some way. For example, *avoided* in $DLI$ is $Se$. So they might very consciously hate situation requiring them to combine sensory information, like travelling, constant physical impact to complete objective, etc.
+*Guard function* is an *unconscious*, *valued*, and *persistent* function. This function keeps the subject on guard constantly but they are unaware of this. For example, $Fe$ in $ILP$ keeps them in constant touch with collective values, but they are unaware of this.
 
 
-### 8.8 <u>Suppressed (f8)</u>:
+### 8.5 <u>Threat Function (f5)</u>:
+
+*Threat function* is an *unconscious*, *unvalued*, and *persistent* function. The subject constantly yet unknowingly dislikes usage of this function. For example, $Te$ in $ILP$ is opposed as they would be unconsciously cynical to accept evidences on face value, and instead verify them with axioms.
+
+
+### 8.6 <u>Ignored Function (f6)</u>:
+
+*Character function* is an *unconscious*, *unvalued*, and *episodic* function. This function remains largely ignored by the function for being unknowingly disliked when its requirement arises. For example, $Ni$ in $ILP$ is unknowingly avoids linking objects with symbolic meanings which episodically arrive.
+
+
+### 8.7 <u>Distraction Function (f7)</u>:
+
+*Character function* is a *conscious*, *unvalued*, and *episodic* function. This function is 
+
+
+### 8.8 <u>Condemning Function (f8)</u>:
 
 This function has same information element as *repressed* but with altered attitude. It is a tendency that is effortfully suppressed, unlike *repressed* which was by default and unknowingly suppressed. For example, *suppressed* in $DLI$ is $Fi$. So they might often suppress their tendency to understand or process affinitive constituents a systems has, like searching for themes like loyalty, preferences, or choices, within an idea.
 
