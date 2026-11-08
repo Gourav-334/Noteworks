@@ -225,44 +225,44 @@ For example, someone witnesses a conflict between two people which is the object
 ## 8. Function Stack
 
 
-### 8.1 <u>Character Function (f1)</u>:
+### 8.1 <u>Passion Function (f1)</u>:
 
-*Character function* is a *conscious*, *valued*, and *persistent* function. This function is the defining characteristic of a subject as they are constantly using it for their deliberate attraction towards it. For example, $Ti$ in $ILP$ is constantly used to check delivered information against logical axioms.
-
-
-### 8.2 <u>Hobby Function (f2)</u>:
-
-*Hobby function* is a *conscious*, *valued*, and *episodic* function. This function is sometimes deliberately used by the subject as he is attracted towards it, but using it only momentarily. For example, $Ne$ in $ILP$ is sometimes deliberately used to look for potential in resources.
+*Passion function* is a *conscious*, *valued*, and *intense* function. It is defining characteristic of the subject as it is deliberately given importance with high intensity. It combines the primary attitude and primary information element. For example, $Ti$ in $ILP$.
 
 
-### 8.3 <u>Instinct Function (f3)</u>:
+### 8.2 <u>Interest Function (f2)</u>:
 
-*Instinct function* is an *unconscious*, *valued*, and *episodic* function. The subject reacts positively to this function when it is momentarily used, almost like an instinct. For example, $Si$ in $ILP$ is sometimes unknowingly triggered with a positive association, like a nostalgic sensation.
-
-
-### 8.4 <u>Guard Function (f4)</u>:
-
-*Guard function* is an *unconscious*, *valued*, and *persistent* function. This function keeps the subject on guard constantly but they are unaware of this. For example, $Fe$ in $ILP$ keeps them in constant touch with collective values, but they are unaware of this.
+*Interest function* is a *conscious*, *valued*, and *relaxed* function. This function is executed relaxedly but with deliberate importance. It is of perceiving type for judging function as *passion* and vice-versa, with also opposing attitude. For example, $Ne$ in $ILP$.
 
 
-### 8.5 <u>Threat Function (f5)</u>:
+### 8.3 <u>Natural Function (f3)</u>:
 
-*Threat function* is an *unconscious*, *unvalued*, and *persistent* function. The subject constantly yet unknowingly dislikes usage of this function. For example, $Te$ in $ILP$ is opposed as they would be unconsciously cynical to accept evidences on face value, and instead verify them with axioms.
-
-
-### 8.6 <u>Ignored Function (f6)</u>:
-
-*Character function* is an *unconscious*, *unvalued*, and *episodic* function. This function remains largely ignored by the function for being unknowingly disliked when its requirement arises. For example, $Ni$ in $ILP$ is unknowingly avoids linking objects with symbolic meanings which episodically arrive.
+*Instinct function* is an *unconscious*, *valued*, and *relaxed* function.
 
 
-### 8.7 <u>Distraction Function (f7)</u>:
+### 8.4 <u>Instinctual Function (f4)</u>:
 
-*Character function* is a *conscious*, *unvalued*, and *episodic* function. This function is 
+*Guard function* is an *unconscious*, *valued*, and *intense* function.
 
 
-### 8.8 <u>Condemning Function (f8)</u>:
+### 8.5 <u>Reflexive Function (f5)</u>:
 
-This function has same information element as *repressed* but with altered attitude. It is a tendency that is effortfully suppressed, unlike *repressed* which was by default and unknowingly suppressed. For example, *suppressed* in $DLI$ is $Fi$. So they might often suppress their tendency to understand or process affinitive constituents a systems has, like searching for themes like loyalty, preferences, or choices, within an idea.
+*Threat function* is an *unconscious*, *unvalued*, and *intense* function.
+
+
+### 8.6 <u>Latent Function (f6)</u>:
+
+*Character function* is an *unconscious*, *unvalued*, and *relaxed* function.
+
+
+### 8.7 <u>Detached Function (f7)</u>:
+
+*Character function* is a *conscious*, *unvalued*, and *relaxed* function.
+
+
+### 8.8 <u>Reluctant Function (f8)</u>:
+
+*Character function* is a *conscious*, *valued*, and *intense* function.
 
 
 
