@@ -38,15 +38,16 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 2.3 <u>Primitives Types</u>:
 
-- **Information elements ($S$, $N$, $T$, $F$):** A form of information that the system possesses.
+- **Functions ($S$, $N$, $T$, $F$):** A form of information that the system possesses.
 - **Attitude ($I$, $E$):** Mode of alignment to information that the object possesses.
+- **Elements:** Combination of an attitude & a function.
 
 
 ### 2.4 <u>Cognitive Factors</u>:
 
 - **Awareness factor:** Tells if a cognitive element is used *consciously* (deliberately) or *unconsciously* (unknowingly).
 - **Importance factor:** Tells if a cognitive element is *valued* (seen important) or *unvalued* (unimportant).
-- **Engagement factor:** Tells if a cognitive element is *intense* (used intensely) or *subdued* (used casually).
+- **Engagement factor:** Tells if a cognitive element is *intense* (used intensely) or *mild* (used relaxedly).
 
 
 
@@ -222,47 +223,47 @@ For example, someone witnesses a conflict between two people which is the object
 
 
 
-## 8. Function Stack
+## 8. Element Stack
 
 
-### 8.1 <u>Passion Function (f1)</u>:
+### 8.1 <u>Character Element (f1)</u>:
 
-*Passion function* is a *conscious*, *valued*, and *intense* function. It is defining characteristic of the subject as it is deliberately given importance with high intensity. It combines the primary attitude and primary information element. For example, $Ti$ in $ILP$.
-
-
-### 8.2 <u>Interest Function (f2)</u>:
-
-*Interest function* is a *conscious*, *valued*, and *relaxed* function. This function is executed relaxedly but with deliberate importance. It is of perceiving type for judging function as *passion* and vice-versa, with also opposing attitude. For example, $Ne$ in $ILP$.
+*Character element* is a *conscious*, *valued*, and *intense* element. It is defining characteristic of the subject as it is deliberately given importance with high intensity. It combines the primary attitude and primary information element. This combines the primary attitude and primary function of the subject. For example, $Ti$ in $ILP$.
 
 
-### 8.3 <u>Natural Function (f3)</u>:
+### 8.2 <u>Hobby Element (f2)</u>:
 
-*Instinct function* is an *unconscious*, *valued*, and *relaxed* function.
-
-
-### 8.4 <u>Instinctual Function (f4)</u>:
-
-*Guard function* is an *unconscious*, *valued*, and *intense* function.
+*Copilot element* is a *conscious*, *valued*, and *mild* element. This element works as a hobby as it is deliberately valued by the subject but with low intensity without much energy directed towards it. If *character* element is judging type, the *hobby* element is perceiving type and vice-versa, with opposing attitude. For example, $Ne$ in $ILP$.
 
 
-### 8.5 <u>Reflexive Function (f5)</u>:
+### 8.3 <u>Ghost Element (f3)</u>:
 
-*Threat function* is an *unconscious*, *unvalued*, and *intense* function.
-
-
-### 8.6 <u>Latent Function (f6)</u>:
-
-*Character function* is an *unconscious*, *unvalued*, and *relaxed* function.
+*Ghost element* is an *unconscious*, *valued*, and *mild* element. This element is largely invisible despite having a positive relation with the subject, though with low intensity. It is perceiving if *hobby* element is perceiving & judging if *hobby* element is judging, but of other form and opposite attitude. For example, $Si$ in $ILP$.
 
 
-### 8.7 <u>Detached Function (f7)</u>:
+### 8.4 <u>Instinct Element (f4)</u>:
 
-*Character function* is a *conscious*, *unvalued*, and *relaxed* function.
+*Instinct element* is an *unconscious*, *valued*, and *intense* element. This element works as a strong instinct to the subject but largely unaware of it. It is perceiving if *character* is perceiving & judging if *character* is judging, but of other form and opposite attitude. For example, $Fe$ in $ILP$.
 
 
-### 8.8 <u>Reluctant Function (f8)</u>:
+### 8.5 <u>Threat Element (f5)</u>:
 
-*Character function* is a *conscious*, *valued*, and *intense* function.
+*Threat element* is an *unconscious*, *unvalued*, and *intense* element. This element is seen as a threat to the subject's unconscious mind which they might react very strongly towards even if unaware about so. It is the same function as *character* element but with opposite attitude. For example, $Te$ in $ILP$.
+
+
+### 8.6 <u>Distraction Element (f6)</u>:
+
+*Distraction element* is an *unconscious*, *unvalued*, and *mild* element. This element is seen as a distraction by the subject's psyche, which might come up but is largely ignored with low reaction intensity. It is the same function as *copilot* element but with opposite attitude. For example, $Ni$ in $ILP$.
+
+
+### 8.7 <u>Avoidance Element (f7)</u>:
+
+*Avoidance element* is a *conscious*, *unvalued*, and *mild* element. An avoided element by the subject, though not intensely opposed despite them being aware of it. It has the same function as *ghost* element but with opposite attitude. For example, $Se$ in $ILP$.
+
+
+### 8.8 <u>Resistance Element (f8)</u>:
+
+*Resistance element* is a *conscious*, *unvalued*, and *intense* element. An intensely resisted element by subject with deliberate awareness. It has the same function as *instinct* element but with opposite attitude. For example, $Fi$ in $ILP$.
 
 
 
@@ -288,34 +289,31 @@ For example, someone witnesses a conflict between two people which is the object
 
 ### 9.3 <u>Personality Types</u>:
 
-| Type  | Nickname         | Lens Function (f1) | Support Function (f2) |
-| :---- | :--------------- | :----------------: | :-------------------: |
-| $ISL$ | Empiricist       |        $Si$        |         $Te$          |
-| $ISV$ | Aesthetician     |        $Si$        |         $Fe$          |
-| $ESL$ | Craftsman        |        $Se$        |         $Ti$          |
-| $ESV$ | Expressivist     |        $Se$        |         $Fi$          |
-| $IPL$ | Visionary        |        $Ni$        |         $Te$          |
-| $IPV$ | Humanist         |        $Ni$        |         $Fe$          |
-| $EPL$ | Deconstructivist |        $Ne$        |         $Ti$          |
-| $EPV$ | Hermeneut        |        $Ne$        |         $Fi$          |
-| $ILS$ | Pragmatist       |        $Ti$        |         $Se$          |
-| $ILP$ | Theorist         |        $Ti$        |         $Ne$          |
-| $ELS$ | Diagnostician    |        $Te$        |         $Si$          |
-| $ELP$ | Speculator       |        $Te$        |         $Ni$          |
-| $IVS$ | Artisan          |        $Fi$        |         $Se$          |
-| $IVP$ | Idealist         |        $Fi$        |         $Ne$          |
-| $EVS$ | Relationalist    |        $Fe$        |         $Si$          |
-| $EVP$ | Ethicist         |        $Fe$        |         $Ni$          |
+| Type  | Nickname       |  f1  |  f2  |  f3  |  f4  |  f5  |  f6  |  f7  |  f8  |
+| :---- | :------------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| $ISL$ | Formulator     | $Si$ | $Te$ | $Fi$ | $Ne$ | $Se$ | $Ti$ | $Fe$ | $Ni$ |
+| $ISV$ | Memorist       | $Si$ | $Fe$ | $Ti$ | $Ne$ | $Se$ | $Fi$ | $Te$ | $Ni$ |
+| $ESL$ | Explorer       | $Se$ | $Ti$ | $Fe$ | $Ni$ | $Si$ | $Te$ | $Fi$ | $Ne$ |
+| $ESV$ | Aesthetician   | $Se$ | $Fi$ | $Te$ | $Ni$ | $Si$ | $Fe$ | $Ti$ | $Ne$ |
+| $IPL$ | Visionary      | $Ni$ | $Te$ | $Fi$ | $Se$ | $Ne$ | $Ti$ | $Fe$ | $Si$ |
+| $IPV$ | Humanist       | $Ni$ | $Fe$ | $Ti$ | $Se$ | $Ne$ | $Fi$ | $Te$ | $Si$ |
+| $EPL$ | Forecaster     | $Ne$ | $Ti$ | $Fe$ | $Si$ | $Ni$ | $Te$ | $Fi$ | $Se$ |
+| $EPV$ | Enthusiast     | $Ne$ | $Fi$ | $Te$ | $Si$ | $Ni$ | $Fe$ | $Ti$ | $Se$ |
+| $ILS$ | Solipsist      | $Ti$ | $Se$ | $Ni$ | $Fe$ | $Te$ | $Si$ | $Ne$ | $Fi$ |
+| $ILP$ | Analyst        | $Ti$ | $Ne$ | $Si$ | $Fe$ | $Te$ | $Ni$ | $Se$ | $Fi$ |
+| $ELS$ | Empiricist     | $Te$ | $Si$ | $Ne$ | $Fi$ | $Ti$ | $Se$ | $Ni$ | $Fe$ |
+| $ELP$ | Presenter      | $Te$ | $Ni$ | $Se$ | $Fi$ | $Ti$ | $Ne$ | $Si$ | $Fe$ |
+| $IVS$ | Crusader       | $Fi$ | $Se$ | $Ni$ | $Te$ | $Fe$ | $Si$ | $Ne$ | $Ti$ |
+| $IVP$ | Romantic       | $Fi$ | $Ne$ | $Si$ | $Te$ | $Fe$ | $Ni$ | $Se$ | $Ti$ |
+| $EVS$ | Traditionalist | $Fe$ | $Si$ | $Ne$ | $Ti$ | $Fi$ | $Se$ | $Ni$ | $Te$ |
+| $EVP$ | Connector      | $Fe$ | $Ni$ | $Se$ | $Ti$ | $Fi$ | $Ne$ | $Si$ | $Te$ |
 
 
 
-## 10. Development Advises
+## 10. Frequently Asked Questions
 
 
-- **Becoming competent:** Find fields of interests which are closely support $f1$ and $f2$ function for their intended use.
-- **Improving weak areas:** Practice activities which requires use of $f3$ and $f4$.
-- **Leveraging potential:** Learns certain practical skills that require use of $f5$ and $f6$.
-- **Overcoming prejudice:** Deliberately introduce such actions occasionally which requires recognizing of $f7$ and $f8$.
+#### d
 
 
 
