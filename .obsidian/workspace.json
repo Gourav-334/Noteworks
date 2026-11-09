@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typology/Referencics.md",
+                "file": "Typology/Axiosematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Referencics"
+              "title": "Axiosematics"
             }
           }
         ]
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typology/Referencics.md",
+                "file": "Typology/Axiosematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
   },
   "active": "052b4945c41142ca",
   "lastOpenFiles": [
-    "Typology/Referencics.md",
+    "Typology/Axiosematics.md",
     "Typology/media/Unconfirmed 677223.crdownload",
     "Typology/media/Unconfirmed 556813.crdownload",
     "Typology/media/Unconfirmed 644988.crdownload",

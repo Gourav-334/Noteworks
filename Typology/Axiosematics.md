@@ -1,10 +1,10 @@
-# $\fbox{REFERENCICS}$
+# $\fbox{AXIOSEMATICS}$
 
 
 
-Gourav Kumar Mallick,
-Parul University (Student),
-12b.39gourav@gmail.com
+Founder & Owner
+Typology Atlas,
+typologyatlas@gmail.com
 
 
 
@@ -38,8 +38,8 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 2.3 <u>Primitives Types</u>:
 
-- **Functions ($S$, $N$, $T$, $F$):** A form of information that the system possesses.
-- **Attitude ($I$, $E$):** Mode of alignment to information that the object possesses.
+- **Functions:** A form of information that the system possesses.
+- **Attitude:** Mode of alignment to information that the object possesses.
 - **Elements:** Combination of an attitude & a function.
 
 
@@ -310,10 +310,57 @@ For example, someone witnesses a conflict between two people which is the object
 
 
 
-## 10. Frequently Asked Questions
+## 10. Myth Busters
 
 
-#### d
+#### i) How is efficiency related to Te?
+
+Efficiency is not exclusive to Te, as it could come up from usage of different functions. For example, a Ti might take axiomatic approach to increase efficiency while Te might use existing evidences to organize such systems.
+
+
+#### ii) Is Element Stack inspired from Jung's theory?
+
+Partially. The arrangement as per level of awareness to the subject (conscious or unconscious) is directly inspired by Jung's description of how functions are differentiated in psyche, while factor of importance was taken from Socionics after evaluation.
+
+
+#### iii) Why Ti looks for consistency?
+
+Consistency is not exclusive to Ti. It depends on what causes them to care for consistency. Because Ti judges from axioms and base principles, they might reject a working system for inconsistency. But same applies to Te when their evidence rejects previous records as Jung explains about Darwin in *Psychological Types*.
+
+
+#### iv) Is Fi spontaneous unlike Ti?
+
+Its not an universal truth. People often believe that Ti have 'written set of rules to follow', but it depends on whether the context is logical or based on values. Just making a coherent framework of values doesn't mean orientation towards Ti.
+
+
+#### v) Why are Se physically reactive?
+
+While physical combat skills or reactiveness depends on individual conditioning, Se could come up as more reactive to environment because of their intense perception of photographic sensation, i.e. high concentration on the objective factor of sensation.
+
+
+#### vi) Can people having different types arrive at same conclusion?
+
+Ofcourse! And even people with same type arrive at different conclusion. Types have elements in them, which decide their level of awareness, importance given, and intensity of engagement. And elements tell the orientation of the subject. Conclusion is not fully dependent on that.
+
+
+#### vii) How does Ni simulates time?
+
+There is no guarantee that Ni will only simulate time, and that other functions can't do that. There can be different approaches to do so. For example, Ne perceives what unfolds while sticking to object's own potential. Or Te uses established formulae to predict time, though it would be judgment and not perception. Similarly Ni might use symbols as means to guide them through time.
+
+
+#### viii) Is it a good way to type from nicknames?
+
+No. Nicknames are just shorthand given to each type for easy pronounce, but using them for typing dismisses the complicated architecture of types. And thus there are chances for attenuation.
+
+
+#### ix) How to type people?
+
+While there can be different ways, best is to make tally of different behavioral characteristics of people or fictional characters for their level of awareness, importance given, and intensity of engagement - for each element. And finally reach the closest type as per that.
+
+
+#### x) Is Axiosematics compatible with MBTI?
+
+No. Reason is not simply mismatch, but due to their macro primitives and black-box approach to explaining functioning. Same with Socionics. *Axiosematics* tries to come closest to original Jungian theory, while trying to simplify certain concepts while keeping coherent architecture and minor modifications for better explanations.
 
 
 
