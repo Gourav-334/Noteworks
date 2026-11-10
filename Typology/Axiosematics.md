@@ -3,7 +3,7 @@
 
 
 Founder & Owner
-Typology Atlas,
+[Typology Atlas](https://typologyatlas.com),
 typologyatlas@gmail.com
 
 
@@ -12,11 +12,15 @@ typologyatlas@gmail.com
 
 ## 1. Abstract
 
-The **Honeycomb Computational Cognition Model (HCC)** is a typological framework for describing differences in the default computation of information by a subject. It distinguishes two attitudes, *Introversion* and *Extroversion*, describing *decompositional* and *compositional* processing, respectively, from four information elements: *Sensing*, *Intuition*, *Thinking*, and *Feeling*. These six primitives combine into functions representing distinct modes of processing particular forms of information.
+**Axiosematics** is a proposed psychological typology framework developed by Typology Atlas, designed to explain individual differences in information processing through a structured system of cognitive primitives, functions, attitudes, and cognitive elements. Drawing primarily from Carl Jung's theory of psychological types, it seeks to provide a more explicit account of how individuals orient themselves towards information, perceive it, and subject it to judgment.
 
-HCC is constrained by axioms intended to distinguish default computational mode from goals, abilities, prior experience, resources, environmental conditions, and intelligence. Functions may interact through a hierarchical architecture of primary, secondary, tertiary, and quaternary function sets, allowing alternative computational modes to become accessible when processing encounters obstacles or requires different information. From this architecture, HCC derives sixteen typological configurations represented through its own notation.
+The framework establishes two fundamental attitudes: **Introversion**, characterized by the predominance of the subjective factor, and **Extraversion**, characterized by the predominance of the objective factor. It further distinguishes between two categories of information processing: **Perceiving functions**, which apprehend information without subjecting it to judgmental operations, and **Judging functions**, which process information through organization, evaluation, and comparison. These categories comprise four fundamental functions: Sensation, Intuition, Thinking, and Feeling.
 
-The model is intended as a computationally oriented extension within the broader Jungian family of typological theories. It describes patterns of information processing rather than psychological health, mental disorders, or clinical conditions, and is not intended as a diagnostic instrument.
+Combining the two attitudes with the four functions produces eight cognitive elements: Photographic Sensation (Se), Associative Sensation (Si), Resource Potential (Ne), Symbolic Potential (Ni), Evidential Logic (Te), Axiomatic Logic (Ti), Collective Values (Fe), and Personal Values (Fi). These elements describe distinct orientations towards sensory stimuli, hidden potential, logical reasoning, and values.
+
+Beyond the fundamental cognitive elements, Axiosematics introduces three cognitive factors which are awareness, importance, and engagement—to describe how each element operates within an individual's psychological configuration. Their combinations form an eight-element architecture consisting of Character, Hobby, Ghost, Instinct, Threat, Distraction, Avoidance, and Resistance elements. This architecture produces sixteen distinct personality configurations.
+
+Axiosematics ultimately aims to offer a coherent and systematic model for understanding psychological orientation and information processing, while retaining a conceptual connection to Jungian typology and introducing its own theoretical extensions. It remains a proposed theoretical model rather than an empirically validated psychological assessment system.
 
 
 
@@ -32,22 +36,22 @@ The model is intended as a computationally oriented extension within the broader
 
 ### 2.2 <u>Sources Of Information</u>:
 
-- **Subject:** A processing function made by combining consciousness and ego.
+- **Subject:** A system made by combining consciousness and ego.
 - **Object:** Everything other the subject.
 
 
 ### 2.3 <u>Primitives Types</u>:
 
-- **Functions:** A form of information that the system possesses.
-- **Attitude:** Mode of alignment to information that the object possesses.
-- **Elements:** Combination of an attitude & a function.
+- **Attitude:** Mode of alignment to information that the object possesses, where one is dominant and the other periodically compensates for overusing it along with archaic function.
+- **Function:** A form of information that the system possesses.
+- **Cognitive element:** The effect produced by combination of dominant attitude and primary function.
+- **Type:** The complete personality produced after combining the attitude, primary function, and secondary function.
 
 
 ### 2.4 <u>Cognitive Factors</u>:
 
-- **Awareness factor:** Tells if a cognitive element is used *consciously* (deliberately) or *unconsciously* (unknowingly).
-- **Importance factor:** Tells if a cognitive element is *valued* (seen important) or *unvalued* (unimportant).
-- **Engagement factor:** Tells if a cognitive element is *intense* (used intensely) or *mild* (used relaxedly).
+- **Awareness factor:** Tells if a function is used *consciously* (deliberately) or *unconsciously* (unknowingly).
+- **Differentiation factor:** Tells if a subject assimilates processes of a function to another.
 
 
 
@@ -97,17 +101,17 @@ For example, someone might notice the same tree and concentrate on its exact sha
 
 
 
-## 5. Information Types
+## 5. Function Types
 
 
-### 5.1 <u>Perceiving Function (P)</u>:
+### 5.1 <u>Perceiving Function (p)</u>:
 
 ![Perception|433](./media/hcc_p.png)
 
 Functions which supplies the information gained through object without being subjected to any operation. For example, at a dockyard someone might simply notice the ships anchored and temperature around the coast. It simply observes what it is without organizing these information. *Sensation* and *intuition* are perceiving functions.
 
 
-### 5.2 <u>Judging Function (J)</u>:
+### 5.2 <u>Judging Function (j)</u>:
 
 ![Judgement|431](./media/hcc_j.png)
 
@@ -223,47 +227,22 @@ For example, someone witnesses a conflict between two people which is the object
 
 
 
-## 8. Element Stack
+## 8. Function Stack
 
 
-### 8.1 <u>Character Element (f1)</u>:
+### 8.1 <u>Primary Function (f1)</u>:
 
-*Character element* is a *conscious*, *valued*, and *intense* element. It is defining characteristic of the subject as it is deliberately given importance with high intensity. It combines the primary attitude and primary information element. This combines the primary attitude and primary function of the subject. For example, $Ti$ in $ILP$.
-
-
-### 8.2 <u>Hobby Element (f2)</u>:
-
-*Copilot element* is a *conscious*, *valued*, and *mild* element. This element works as a hobby as it is deliberately valued by the subject but with low intensity without much energy directed towards it. If *character* element is judging type, the *hobby* element is perceiving type and vice-versa, with opposing attitude. For example, $Ne$ in $ILP$.
+*Primary function* is the most differentiated & most conscious function. Meaning the subject is well aware about using this function when they using it, i.e. *highly conscious*. And also this function takes the lead above all other functions, and also differentiates well the difference between itself and the *archaic* function, i.e. *high differentiation*. The subject often mistakes the operations of the *archaic* function as being performed because of the *primary function*.
 
 
-### 8.3 <u>Ghost Element (f3)</u>:
+### 8.2 <u>Secondary Function (f2)</u>:
 
-*Ghost element* is an *unconscious*, *valued*, and *mild* element. This element is largely invisible despite having a positive relation with the subject, though with low intensity. It is perceiving if *hobby* element is perceiving & judging if *hobby* element is judging, but of other form and opposite attitude. For example, $Si$ in $ILP$.
-
-
-### 8.4 <u>Instinct Element (f4)</u>:
-
-*Instinct element* is an *unconscious*, *valued*, and *intense* element. This element works as a strong instinct to the subject but largely unaware of it. It is perceiving if *character* is perceiving & judging if *character* is judging, but of other form and opposite attitude. For example, $Fe$ in $ILP$.
+*Secondary function* is a moderately differentiated & moderately conscious function. Meaning the subject is somewhat aware about using this function being subject to particular situation, i.e. *moderately conscious*. And this function supports the *primary function* to manage its operation into a manifestation that is meaningful, with a moderate differentiation from its opposing function, i.e. *moderate differentiation*. If *primary function* is perceiving type, it is judging, and vice-versa.
 
 
-### 8.5 <u>Threat Element (f5)</u>:
+### 8.3 <u>Archaic Function (f3)</u>:
 
-*Threat element* is an *unconscious*, *unvalued*, and *intense* element. This element is seen as a threat to the subject's unconscious mind which they might react very strongly towards even if unaware about so. It is the same function as *character* element but with opposite attitude. For example, $Te$ in $ILP$.
-
-
-### 8.6 <u>Distraction Element (f6)</u>:
-
-*Distraction element* is an *unconscious*, *unvalued*, and *mild* element. This element is seen as a distraction by the subject's psyche, which might come up but is largely ignored with low reaction intensity. It is the same function as *copilot* element but with opposite attitude. For example, $Ni$ in $ILP$.
-
-
-### 8.7 <u>Avoidance Element (f7)</u>:
-
-*Avoidance element* is a *conscious*, *unvalued*, and *mild* element. An avoided element by the subject, though not intensely opposed despite them being aware of it. It has the same function as *ghost* element but with opposite attitude. For example, $Se$ in $ILP$.
-
-
-### 8.8 <u>Resistance Element (f8)</u>:
-
-*Resistance element* is a *conscious*, *unvalued*, and *intense* element. An intensely resisted element by subject with deliberate awareness. It has the same function as *instinct* element but with opposite attitude. For example, $Fi$ in $ILP$.
+*Archaic function* is a less differentiated & mostly a unconscious function. Meaning the subject is not much aware when about using this function when it does so, i.e. *lowly conscious*. And this function often comes up abruptly to compensate for the overused *primary function* along with opposing attitude, with very less differentiation from the *primary function*, i.e. *low differentiation*. Subject mistakes its usage to be attributed to *primary function*. It has the same nature as *primary function* (perceiving or judging).
 
 
 
@@ -282,31 +261,31 @@ For example, someone witnesses a conflict between two people which is the object
 
 ### 9.2 <u>Type Formation Rules</u>:
 
-1. The attitude of *lens* function is written as first letter. For example, primary function $Ti$ would mean notation is $I\_\_$.
-2. Then second letter is the information element involved with the *lens* function. For example, primary function $Ti$ would mean notation is now $IL\_$.
-3. And finally the third letter is the information element involved with the *support* function. For example, depending on whether its $Se$ or $Ne$, primary function $Ti$ will be represented as $ILS$ or $ILP$.
+1. The dominant attitude of a type is written as first letter. For example, dominant attitude $I$ would mean notation is $I\_\_$.
+2. Then second letter is the *primary function*. For example, primary function $L$ ($T$) would mean notation is now $IL\_$.
+3. And finally the third letter is the *secondary function*. For example, depending on whether its $S$ or $P$ ($N$), type would be represented as $ILS$ or $ILP$.
 
 
 ### 9.3 <u>Personality Types</u>:
 
-| Type  | Nickname       |  f1  |  f2  |  f3  |  f4  |  f5  |  f6  |  f7  |  f8  |
-| :---- | :------------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| $ISL$ | Formulator     | $Si$ | $Te$ | $Fi$ | $Ne$ | $Se$ | $Ti$ | $Fe$ | $Ni$ |
-| $ISV$ | Memorist       | $Si$ | $Fe$ | $Ti$ | $Ne$ | $Se$ | $Fi$ | $Te$ | $Ni$ |
-| $ESL$ | Explorer       | $Se$ | $Ti$ | $Fe$ | $Ni$ | $Si$ | $Te$ | $Fi$ | $Ne$ |
-| $ESV$ | Aesthetician   | $Se$ | $Fi$ | $Te$ | $Ni$ | $Si$ | $Fe$ | $Ti$ | $Ne$ |
-| $IPL$ | Visionary      | $Ni$ | $Te$ | $Fi$ | $Se$ | $Ne$ | $Ti$ | $Fe$ | $Si$ |
-| $IPV$ | Humanist       | $Ni$ | $Fe$ | $Ti$ | $Se$ | $Ne$ | $Fi$ | $Te$ | $Si$ |
-| $EPL$ | Forecaster     | $Ne$ | $Ti$ | $Fe$ | $Si$ | $Ni$ | $Te$ | $Fi$ | $Se$ |
-| $EPV$ | Enthusiast     | $Ne$ | $Fi$ | $Te$ | $Si$ | $Ni$ | $Fe$ | $Ti$ | $Se$ |
-| $ILS$ | Solipsist      | $Ti$ | $Se$ | $Ni$ | $Fe$ | $Te$ | $Si$ | $Ne$ | $Fi$ |
-| $ILP$ | Analyst        | $Ti$ | $Ne$ | $Si$ | $Fe$ | $Te$ | $Ni$ | $Se$ | $Fi$ |
-| $ELS$ | Empiricist     | $Te$ | $Si$ | $Ne$ | $Fi$ | $Ti$ | $Se$ | $Ni$ | $Fe$ |
-| $ELP$ | Presenter      | $Te$ | $Ni$ | $Se$ | $Fi$ | $Ti$ | $Ne$ | $Si$ | $Fe$ |
-| $IVS$ | Crusader       | $Fi$ | $Se$ | $Ni$ | $Te$ | $Fe$ | $Si$ | $Ne$ | $Ti$ |
-| $IVP$ | Romantic       | $Fi$ | $Ne$ | $Si$ | $Te$ | $Fe$ | $Ni$ | $Se$ | $Ti$ |
-| $EVS$ | Traditionalist | $Fe$ | $Si$ | $Ne$ | $Ti$ | $Fi$ | $Se$ | $Ni$ | $Te$ |
-| $EVP$ | Connector      | $Fe$ | $Ni$ | $Se$ | $Ti$ | $Fi$ | $Ne$ | $Si$ | $Te$ |
+| Type  | Nickname       | Main Attitude | f1  | f2  | f3  |
+| :---- | :------------- | :-----------: | :-: | :-: | :-: |
+| $ISL$ | Formulator     |      $I$      | $S$ | $T$ | $N$ |
+| $ISV$ | Memorist       |      $I$      | $S$ | $F$ | $N$ |
+| $ESL$ | Explorer       |      $E$      | $S$ | $T$ | $N$ |
+| $ESV$ | Aesthetician   |      $E$      | $S$ | $F$ | $N$ |
+| $IPL$ | Visionary      |      $I$      | $N$ | $T$ | $S$ |
+| $IPV$ | Humanist       |      $I$      | $N$ | $F$ | $S$ |
+| $EPL$ | Forecaster     |      $E$      | $N$ | $T$ | $S$ |
+| $EPV$ | Enthusiast     |      $E$      | $N$ | $F$ | $S$ |
+| $ILS$ | Solipsist      |      $I$      | $T$ | $S$ | $F$ |
+| $ILP$ | Analyst        |      $I$      | $T$ | $N$ | $F$ |
+| $ELS$ | Empiricist     |      $E$      | $T$ | $S$ | $F$ |
+| $ELP$ | Presenter      |      $E$      | $T$ | $N$ | $F$ |
+| $IVS$ | Crusader       |      $I$      | $F$ | $S$ | $T$ |
+| $IVP$ | Romantic       |      $I$      | $F$ | $N$ | $T$ |
+| $EVS$ | Traditionalist |      $E$      | $F$ | $S$ | $T$ |
+| $EVP$ | Connector      |      $E$      | $F$ | $N$ | $T$ |
 
 
 
@@ -318,7 +297,7 @@ For example, someone witnesses a conflict between two people which is the object
 Efficiency is not exclusive to Te, as it could come up from usage of different functions. For example, a Ti might take axiomatic approach to increase efficiency while Te might use existing evidences to organize such systems.
 
 
-#### ii) Is Element Stack inspired from Jung's theory?
+#### ii) Is Function Stack inspired from Jung's theory?
 
 Partially. The arrangement as per level of awareness to the subject (conscious or unconscious) is directly inspired by Jung's description of how functions are differentiated in psyche, while factor of importance was taken from Socionics after evaluation.
 
@@ -355,7 +334,7 @@ No. Nicknames are just shorthand given to each type for easy pronounce, but usin
 
 #### ix) How to type people?
 
-While there can be different ways, best is to make tally of different behavioral characteristics of people or fictional characters for their level of awareness, importance given, and intensity of engagement - for each element. And finally reach the closest type as per that.
+While there can be different ways, best is to make tally of different behavioral characteristics of people or fictional characters for their level of consciousness and differentiation separately - for each function. And finally reach the closest type as per that.
 
 
 #### x) Is Axiosematics compatible with MBTI?
@@ -363,24 +342,13 @@ While there can be different ways, best is to make tally of different behavioral
 No. Reason is not simply mismatch, but due to their macro primitives and black-box approach to explaining functioning. Same with Socionics. *Axiosematics* tries to come closest to original Jungian theory, while trying to simplify certain concepts while keeping coherent architecture and minor modifications for better explanations.
 
 
+#### xi) Can I diagnose myself with Axiosematics?
 
-## 11. Important Notes
-
-
-- Honeycomb Computation Model is a typological framework, not a mental health diagnostic tool.
-- It describes default information-processing modes, not psychological disorders or clinical conditions.
-- Its primitives are intended to characterize computation, not symptoms.
-- A type classification does not indicate whether a person is mentally healthy or unhealthy.
-- No type is inherently pathological, superior, inferior, normal, or abnormal.
-- Psychological distress, psychiatric symptoms, or clinical impairment cannot be inferred from a person's Honeycomb type.
-- The model does not replace clinical assessment, diagnosis, or treatment by qualified mental health professionals.
-- Behavioral similarities to a particular type should not be interpreted as evidence of a mental disorder.
-- Environmental stress, illness, trauma, medication, or other clinical factors should not be treated as typological evidence.
-- The model concerns *"how information is processed by default", not "whether the person is psychologically well"*.
+Not recommended. It is advised to reach out a certified psychologist for mental diagnosis, or a therapist. Model is estimated model and not a definite architecture backed by empirical studies.
 
 
 
-## 12. License
+## 11. License
 
 
 Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)

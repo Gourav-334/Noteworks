@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d1dc49d21f93aee",
+        "id": "d0c5a5180e6b25c6",
         "type": "tabs",
         "children": [
           {
-            "id": "052b4945c41142ca",
+            "id": "2a131b157c7da3b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Typology/Axiosematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "052b4945c41142ca",
+  "active": "2a131b157c7da3b1",
   "lastOpenFiles": [
+    "Typology/Navrasa Enneagram.md",
     "Typology/Axiosematics.md",
     "Typology/media/Unconfirmed 677223.crdownload",
     "Typology/media/Unconfirmed 556813.crdownload",
@@ -195,7 +195,6 @@
     "Typology/media/hcc_i.png",
     "Typology/media/hcc_ti.png",
     "Typology/media/hcc_fe.png",
-    "Typology/Navrasa Enneagram.md",
     "Typology/Neurotype.md",
     "Typology/VRDW CJTE - 7.md",
     "Typology/VEONS.md",
